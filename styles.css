@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  align-items: center;
+  background: #101114;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+button {
+  font: inherit;
+}
+
+.game-shell {
+  height: 960px;
+  position: relative;
+  width: 720px;
+}
+
+.game {
+  background: #18191c;
+  height: 960px;
+  overflow: hidden;
+  position: relative;
+  transform-origin: top left;
+  width: 720px;
+}
+
+.ui-bg,
+.room-bg,
+.sprite,
+.layer,
+.action-button {
+  position: absolute;
+}
+
+.ui-bg {
+  height: 960px;
+  inset: 0;
+  object-fit: cover;
+  width: 720px;
+  z-index: 0;
+}
+
+.room-bg {
+  height: 952px;
+  left: 0;
+  top: 8px;
+  width: 720px;
+  z-index: 1;
+}
+
+.layer {
+  inset: 0;
+}
+
+.sprite {
+  display: block;
+  pointer-events: none;
+  transform: translate3d(0, 0, 0) scale(1);
+  transform-origin: center;
+  will-change: opacity, transform;
+}
+
+.sprite.hidden {
+  display: none;
+}
+
+.sprite.animating {
+  transition-duration: 620ms;
+  transition-property: opacity, transform;
+}
+
+.sprite.removing {
+  transition-timing-function:
+    cubic-bezier(.72, 0, 1, .42),
+    cubic-bezier(.5, 0, .9, .55);
+}
+
+.sprite.appearing {
+  transition-timing-function:
+    cubic-bezier(0, .58, .22, 1),
+    cubic-bezier(.08, .68, .18, 1);
+}
+
+.actions {
+  pointer-events: none;
+  z-index: 120;
+}
+
+.action-button {
+  background:
+    url("images/ui/repair_button.png")
+    center / contain
+    no-repeat;
+  border: 0;
+  cursor: pointer;
+  height: 82px;
+  padding: 0;
+  pointer-events: auto;
+  transform: translate(-50%, -50%) scale(1);
+  transition:
+    opacity 160ms ease,
+    transform 160ms ease;
+  width: 81px;
+}
+
+.action-button:hover,
+.action-button:focus-visible {
+  transform: translate(-50%, -50%) scale(1.08);
+}
+
+.action-button:active {
+  transform: translate(-50%, -50%) scale(.96);
+}
+
+.action-button[disabled] {
+  cursor: default;
+  opacity: .45;
+  pointer-events: none;
+}
+
+.sr-only {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}

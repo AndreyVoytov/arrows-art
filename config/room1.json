@@ -1,0 +1,188 @@
+{
+  "objects": [
+    {
+      "id": "carpet",
+      "group": "carpet",
+      "x": 125,
+      "y": 552,
+      "width": 469,
+      "height": 285
+    },
+    {
+      "id": "window[225]",
+      "group": "window",
+      "x": 446,
+      "y": 120,
+      "width": 132,
+      "height": 448
+    },
+    {
+      "id": "chair_with_plant_1[225]",
+      "group": "chair_with_plant",
+      "x": 524,
+      "y": 529,
+      "width": 144,
+      "height": 155
+    },
+    {
+      "id": "picture[225]",
+      "group": "picture",
+      "x": 566,
+      "y": 219,
+      "width": 114,
+      "height": 281
+    },
+    {
+      "id": "cupboard[135]",
+      "group": "cupboard",
+      "x": 185,
+      "y": 78,
+      "width": 237,
+      "height": 559
+    },
+    {
+      "id": "luster[-180]",
+      "group": "luster",
+      "x": 311,
+      "y": 36,
+      "width": 164,
+      "height": 184
+    },
+    {
+      "id": "chair_with_plant_2",
+      "group": "chair_with_plant",
+      "x": 620,
+      "y": 484,
+      "width": 100,
+      "height": 201
+    },
+    {
+      "id": "door[135]",
+      "group": "door",
+      "x": 55,
+      "y": 207,
+      "width": 145,
+      "height": 473
+    },
+    {
+      "id": "plant_left",
+      "group": "plant_left",
+      "x": 18,
+      "y": 459,
+      "width": 71,
+      "height": 253
+    },
+    {
+      "id": "broken_wall_left[180]",
+      "group": "broken_wall_left",
+      "x": 0,
+      "y": 9,
+      "width": 612,
+      "height": 695
+    },
+    {
+      "id": "broken_wall_right[180]",
+      "group": "broken_wall_right",
+      "x": 386,
+      "y": 9,
+      "width": 334,
+      "height": 671
+    },
+    {
+      "id": "broken_floor[180]",
+      "group": "broken_floor",
+      "x": 0,
+      "y": 486,
+      "width": 716,
+      "height": 432
+    },
+    {
+      "id": "trash_6",
+      "group": "trash",
+      "x": 508,
+      "y": 611,
+      "width": 209,
+      "height": 89
+    },
+    {
+      "id": "trash_5",
+      "group": "trash",
+      "x": 380,
+      "y": 550,
+      "width": 170,
+      "height": 78
+    },
+    {
+      "id": "trash_4[180]",
+      "group": "trash",
+      "x": 134,
+      "y": 615,
+      "width": 342,
+      "height": 129
+    },
+    {
+      "id": "trash_3",
+      "group": "trash",
+      "x": 128,
+      "y": 597,
+      "width": 166,
+      "height": 70
+    },
+    {
+      "id": "trash_2",
+      "group": "trash",
+      "x": 235,
+      "y": 748,
+      "width": 250,
+      "height": 102
+    },
+    {
+      "id": "trash_1",
+      "group": "trash",
+      "x": 0,
+      "y": 664,
+      "width": 151,
+      "height": 80
+    },
+    {
+      "id": "broken_door[135]",
+      "group": "broken_door",
+      "x": 59,
+      "y": 208,
+      "width": 141,
+      "height": 470
+    },
+    {
+      "id": "broken_cupboard[135]",
+      "group": "broken_cupboard",
+      "x": 184,
+      "y": 70,
+      "width": 232,
+      "height": 550
+    },
+    {
+      "id": "broken_window[225]",
+      "group": "broken_window",
+      "x": 438,
+      "y": 124,
+      "width": 152,
+      "height": 466
+    },
+    {
+      "id": "dead_plant_2",
+      "group": "dead_plant",
+      "x": 160,
+      "y": 442,
+      "width": 108,
+      "height": 219
+    },
+    {
+      "id": "dead_plant_1",
+      "group": "dead_plant",
+      "x": 17,
+      "y": 469,
+      "width": 65,
+      "height": 253
+    }
+  ]
+}
