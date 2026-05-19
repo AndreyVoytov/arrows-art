@@ -33,12 +33,14 @@ NUMBER_SUFFIX_RE = re.compile(r"_\d+$")
 @dataclass
 class ExportedObject:
     id: str
+    image_id: str
     group: str
     phase: str
     x: int
     y: int
     width: int
     height: int
+    angle: int
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -156,7 +158,9 @@ def prepare_room(psd_path: Path) -> None:
     exported_pngs: set[str] = set()
 
     for layer, phase in iter_export_layers(psd):
-        layer_id = normalize_id(layer.name)
+        source_id = normalize_id(layer.name)
+        layer_id = strip_angle(source_id)
+        angle = angle_from_id(source_id)
 
         if layer_id == "room_bg":
             output_path = room_image_dir / "room_bg.png"
@@ -178,12 +182,14 @@ def prepare_room(psd_path: Path) -> None:
         objects.append(
             ExportedObject(
                 id=layer_id,
+                image_id=layer_id,
                 group=normalize_group(layer_id),
                 phase=phase,
                 x=x,
                 y=y,
                 width=exported_image.width,
                 height=exported_image.height,
+                angle=angle,
             )
         )
 
@@ -229,13 +235,22 @@ def phase_for_group(group_name: str) -> str | None:
 
 
 def normalize_group(layer_name: str) -> str:
-    name = ANGLE_SUFFIX_RE.sub("", normalize_id(layer_name))
+    name = strip_angle(layer_name)
     name = VARIANT_SUFFIX_RE.sub("", name)
     return NUMBER_SUFFIX_RE.sub("", name)
 
 
 def normalize_id(layer_name: str) -> str:
     return layer_name.strip()
+
+
+def strip_angle(layer_name: str) -> str:
+    return ANGLE_SUFFIX_RE.sub("", normalize_id(layer_name))
+
+
+def angle_from_id(layer_name: str) -> int:
+    match = ANGLE_SUFFIX_RE.search(normalize_id(layer_name))
+    return int(match.group(0)[1:-1]) if match else 0
 
 
 def export_layer(psd: PSDImage, layer: object) -> tuple[Image.Image, int, int]:
@@ -340,19 +355,28 @@ def infer_phase(group: str, existing_order: dict[str, list[str]]) -> str | None:
 
 
 def write_room_config(room_id: str, objects: list[ExportedObject]) -> None:
-    config = {
-        "objects": [
+    config = {"groups": []}
+    groups_by_id: dict[str, dict[str, object]] = {}
+
+    for item in objects:
+        group = groups_by_id.get(item.group)
+
+        if group is None:
+            group = {"groupId": item.group, "objects": []}
+            groups_by_id[item.group] = group
+            config["groups"].append(group)
+
+        group["objects"].append(
             {
                 "id": item.id,
-                "group": item.group,
+                "imageId": item.image_id,
                 "x": item.x,
                 "y": item.y,
                 "width": item.width,
                 "height": item.height,
+                "angle": item.angle,
             }
-            for item in objects
-        ]
-    }
+        )
 
     write_json(CONFIG_DIR / f"{room_id}.json", config)
 

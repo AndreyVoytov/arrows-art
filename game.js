@@ -119,7 +119,7 @@
       decor: normalizeOrder(orderConfig.decor)
     };
     phaseByGroup = buildPhaseMap(orders);
-    sprites = createSprites(roomConfig.objects);
+    sprites = createSprites(roomConfig);
 
     showNextBatch();
   }
@@ -146,8 +146,8 @@
     };
   }
 
-  function createSprites(objects) {
-    return objects
+  function createSprites(roomConfig) {
+    return flattenRoomObjects(roomConfig)
       .map((object, index) => {
         const phase = phaseByGroup.get(object.group);
         if (phase === undefined) {
@@ -156,9 +156,10 @@
 
         const element = document.createElement("img");
         element.className = "sprite";
-        element.src = `images/${currentRoomId}/${object.id}.png`;
+        element.src = `images/${currentRoomId}/${object.imageId ?? object.id}.png`;
         element.alt = "";
         element.dataset.id = object.id;
+        element.dataset.imageId = object.imageId ?? object.id;
         element.dataset.group = object.group;
         element.dataset.phase = phase;
         element.style.left = `${object.x}px`;
@@ -185,6 +186,23 @@
         };
       })
       .filter(Boolean);
+  }
+
+  function flattenRoomObjects(roomConfig) {
+    if (Array.isArray(roomConfig.groups)) {
+      return roomConfig.groups.flatMap((group) => {
+        return group.objects.map((object) => ({
+          ...object,
+          group: group.groupId ?? group.id
+        }));
+      });
+    }
+
+    return (roomConfig.objects ?? []).map((object) => ({
+      ...object,
+      imageId: object.imageId ?? object.id,
+      angle: object.angle ?? angleFromId(object.id)
+    }));
   }
 
   function normalizeOrder(entries = []) {
@@ -233,6 +251,10 @@
   function angleFromId(id) {
     const match = id.trim().match(/\[(-?\d+)\]$/);
     return match ? Number(match[1]) : 0;
+  }
+
+  function angleForObject(object) {
+    return Number.isFinite(object.angle) ? object.angle : angleFromId(object.id);
   }
 
   function idWithoutAngle(id) {
@@ -348,7 +370,7 @@
     const objects = objectsFor(action, "repair").filter((object) => !object.done);
 
     for (const object of objects) {
-      const angle = action.angle ?? angleFromId(object.id);
+      const angle = action.angle ?? angleForObject(object);
       await animateOut(object, angle);
       object.done = true;
       await wait(STEP_DELAY);
@@ -359,7 +381,7 @@
     const objects = objectsFor(action, "decor").filter((object) => object.done);
 
     for (const object of objects) {
-      const angle = action.angle ?? angleFromId(object.id);
+      const angle = action.angle ?? angleForObject(object);
       await animateIn(object, angle);
       object.done = false;
       await wait(STEP_DELAY);
@@ -415,7 +437,7 @@
       option.dataset.variant = variant.id;
       option.addEventListener("click", () => selectVariant(variant.id, false));
 
-      preview.src = `images/${currentRoomId}/${variant.objects[0].id}.png`;
+      preview.src = `images/${currentRoomId}/${variant.objects[0].imageId ?? variant.objects[0].id}.png`;
       preview.alt = "";
       option.appendChild(preview);
       variantOptions.appendChild(option);
@@ -442,7 +464,7 @@
 
     if (materialize) {
       await Promise.all(
-        selectedObjects.map((object) => animateIn(object, angleFromId(object.id)))
+        selectedObjects.map((object) => animateIn(object, angleForObject(object)))
       );
     } else {
       playVariantSwitch(selectedObjects);
