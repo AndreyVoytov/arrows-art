@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "build": "python scripts/build_site.py",
     "dev": "python -m http.server 8000 --bind 127.0.0.1",
     "prepare-rooms": "python scripts/prepare_rooms.py"
   }

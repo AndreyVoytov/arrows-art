@@ -38,15 +38,45 @@
 
   async function loadRooms() {
     try {
-      const manifest = await fetch("config/rooms.json").then((response) => response.json());
+      const response = await fetch("config/rooms.json");
+      if (!response.ok) {
+        throw new Error("rooms manifest not found");
+      }
+
+      const manifest = await response.json();
       if (Array.isArray(manifest.rooms) && manifest.rooms.length > 0) {
         return manifest.rooms;
       }
     } catch (error) {
-      // Fall back to room1 for projects that have not generated a manifest yet.
+      return discoverRooms();
     }
 
-    return [{ id: "room1", number: 1, title: "Комната 1" }];
+    return discoverRooms();
+  }
+
+  async function discoverRooms() {
+    const rooms = [];
+    let misses = 0;
+
+    for (let number = 1; number <= 50 && misses < 3; number += 1) {
+      if (await roomExists(number)) {
+        rooms.push({ id: `room${number}`, number });
+        misses = 0;
+      } else if (rooms.length > 0) {
+        misses += 1;
+      }
+    }
+
+    return rooms.length > 0 ? rooms : [{ id: "room1", number: 1 }];
+  }
+
+  async function roomExists(number) {
+    try {
+      const response = await fetch(`config/room${number}.json`, { method: "HEAD" });
+      return response.ok;
+    } catch (error) {
+      return false;
+    }
   }
 
   function renderRoomMenu(rooms) {

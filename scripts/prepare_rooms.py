@@ -26,7 +26,6 @@ CONFIG_DIR = ROOT / "config"
 
 ANGLE_SUFFIX_RE = re.compile(r"\[-?\d+\]$")
 ROOM_FILE_RE = re.compile(r"^room(\d+)\.psd$", re.IGNORECASE)
-ROOM_CONFIG_RE = re.compile(r"^room(\d+)\.json$", re.IGNORECASE)
 VARIANT_SUFFIX_RE = re.compile(r"_(?:[A-Z])(?:_\d+)?$")
 NUMBER_SUFFIX_RE = re.compile(r"_\d+$")
 
@@ -68,8 +67,6 @@ def main(argv: list[str] | None = None) -> None:
 
     for psd_path in psd_paths:
         prepare_room(psd_path)
-
-    write_rooms_manifest()
 
 
 def parse_args(argv: list[str] | None) -> argparse.Namespace:
@@ -375,29 +372,6 @@ def write_room_order(
     }
 
     write_json(CONFIG_DIR / f"{room_id}_order.json", order)
-
-
-def write_rooms_manifest() -> None:
-    rooms = []
-
-    for config_path in sorted(CONFIG_DIR.glob("room*.json")):
-        if config_path.name.endswith("_order.json") or config_path.name == "rooms.json":
-            continue
-
-        match = ROOM_CONFIG_RE.match(config_path.name)
-        if match is None:
-            continue
-
-        room_number_value = int(match.group(1))
-        rooms.append(
-            {
-                "id": f"room{room_number_value}",
-                "number": room_number_value,
-            }
-        )
-
-    rooms.sort(key=lambda room: room["number"])
-    write_json(CONFIG_DIR / "rooms.json", {"rooms": rooms})
 
 
 def unique_groups(objects: Iterable[ExportedObject]) -> list[str]:
