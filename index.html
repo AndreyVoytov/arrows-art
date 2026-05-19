@@ -10,9 +10,21 @@
     <main class="game-shell" id="game-shell" aria-label="Room 1 decoration game">
       <div class="game" id="game">
         <img class="ui-bg" src="images/ui/bg.png" alt="">
-        <img class="room-bg" src="images/room1/room_bg.png" alt="">
+        <img class="room-bg" id="room-bg" alt="">
         <div class="layer" id="items"></div>
         <div class="layer actions" id="actions"></div>
+        <button class="top-menu-button" id="top-menu-button" type="button">Меню</button>
+        <section class="room-menu" id="room-menu" aria-label="Выбор комнаты">
+          <div class="room-menu-panel">
+            <h1>Выбор комнаты</h1>
+            <div class="room-list" id="room-list"></div>
+          </div>
+        </section>
+        <section class="variant-panel hidden" id="variant-panel" aria-label="Выбор варианта">
+          <button class="variant-command variant-choose" id="variant-choose" type="button">Выбрать</button>
+          <div class="variant-options" id="variant-options"></div>
+          <button class="variant-command variant-close" id="variant-close" type="button">Закрыть</button>
+        </section>
         <div class="sr-only" id="status" aria-live="polite"></div>
       </div>
     </main>

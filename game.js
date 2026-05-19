@@ -8,60 +8,156 @@
 
   const shell = document.querySelector("#game-shell");
   const game = document.querySelector("#game");
+  const roomBg = document.querySelector("#room-bg");
   const itemsLayer = document.querySelector("#items");
   const actionsLayer = document.querySelector("#actions");
   const status = document.querySelector("#status");
+  const topMenuButton = document.querySelector("#top-menu-button");
+  const roomMenu = document.querySelector("#room-menu");
+  const roomList = document.querySelector("#room-list");
+  const variantPanel = document.querySelector("#variant-panel");
+  const variantOptions = document.querySelector("#variant-options");
+  const variantChoose = document.querySelector("#variant-choose");
+  const variantClose = document.querySelector("#variant-close");
+
+  let currentRoomId = null;
+  let orders = { repair: [], decor: [] };
+  let phaseByGroup = new Map();
+  let sprites = [];
+  let state = createInitialState();
+  let activeVariant = null;
 
   syncScale();
   window.addEventListener("resize", syncScale);
+  topMenuButton.addEventListener("click", showMenu);
+  variantChoose.addEventListener("click", chooseVariant);
+  variantClose.addEventListener("click", closeVariantPicker);
 
-  const [roomConfig, orderConfig] = await Promise.all([
-    fetch("config/room1.json").then((response) => response.json()),
-    fetch("config/room1_order.json").then((response) => response.json())
-  ]);
+  topMenuButton.classList.add("hidden");
+  renderRoomMenu(await loadRooms());
 
-  const orders = {
-    repair: normalizeOrder(orderConfig.repair),
-    decor: normalizeOrder(orderConfig.decor)
-  };
-  const phaseByGroup = buildPhaseMap(orders);
-
-  const sprites = roomConfig.objects.map((object, index) => {
-    const phase = phaseByGroup.get(object.group);
-    const element = document.createElement("img");
-    element.className = "sprite";
-    element.src = `images/room1/${object.id}.png`;
-    element.alt = "";
-    element.dataset.id = object.id;
-    element.dataset.group = object.group;
-    element.dataset.phase = phase;
-    element.style.left = `${object.x}px`;
-    element.style.top = `${object.y}px`;
-    element.style.width = `${object.width}px`;
-    element.style.height = `${object.height}px`;
-    element.style.zIndex = String(index + 2);
-
-    if (phase === "decor") {
-      element.classList.add("hidden");
-      element.style.opacity = "0";
-    } else {
-      element.style.opacity = "1";
+  async function loadRooms() {
+    try {
+      const manifest = await fetch("config/rooms.json").then((response) => response.json());
+      if (Array.isArray(manifest.rooms) && manifest.rooms.length > 0) {
+        return manifest.rooms;
+      }
+    } catch (error) {
+      // Fall back to room1 for projects that have not generated a manifest yet.
     }
 
-    itemsLayer.appendChild(element);
-    return { ...object, phase, order: index, element, done: phase === "decor" };
-  });
+    return [{ id: "room1", number: 1, title: "Комната 1" }];
+  }
 
-  const state = {
-    phase: "repair",
-    cursor: 0,
-    batch: [],
-    busy: false
-  };
+  function renderRoomMenu(rooms) {
+    roomList.replaceChildren();
 
-  showNextBatch();
+    for (const room of rooms) {
+      const button = document.createElement("button");
+      button.className = "room-button";
+      button.type = "button";
+      button.textContent = room.title ?? `Комната ${room.number ?? room.id.replace("room", "")}`;
+      button.addEventListener("click", () => startRoom(room.id));
+      roomList.appendChild(button);
+    }
+  }
 
-  function normalizeOrder(entries) {
+  async function startRoom(roomId) {
+    currentRoomId = roomId;
+    state = createInitialState();
+    activeVariant = null;
+    orders = { repair: [], decor: [] };
+    phaseByGroup = new Map();
+    sprites = [];
+
+    itemsLayer.replaceChildren();
+    actionsLayer.replaceChildren();
+    hideVariantPanel();
+
+    roomBg.src = `images/${roomId}/room_bg.png`;
+    roomMenu.classList.add("hidden");
+    topMenuButton.classList.remove("hidden");
+    status.textContent = "";
+
+    const [roomConfig, orderConfig] = await Promise.all([
+      fetch(`config/${roomId}.json`).then((response) => response.json()),
+      fetch(`config/${roomId}_order.json`).then((response) => response.json())
+    ]);
+
+    orders = {
+      repair: normalizeOrder(orderConfig.repair),
+      decor: normalizeOrder(orderConfig.decor)
+    };
+    phaseByGroup = buildPhaseMap(orders);
+    sprites = createSprites(roomConfig.objects);
+
+    showNextBatch();
+  }
+
+  function showMenu() {
+    currentRoomId = null;
+    state = createInitialState();
+    activeVariant = null;
+    itemsLayer.replaceChildren();
+    actionsLayer.replaceChildren();
+    hideVariantPanel();
+    roomBg.removeAttribute("src");
+    roomMenu.classList.remove("hidden");
+    topMenuButton.classList.add("hidden");
+    status.textContent = "";
+  }
+
+  function createInitialState() {
+    return {
+      phase: "repair",
+      cursor: 0,
+      batch: [],
+      busy: false
+    };
+  }
+
+  function createSprites(objects) {
+    return objects
+      .map((object, index) => {
+        const phase = phaseByGroup.get(object.group);
+        if (phase === undefined) {
+          return null;
+        }
+
+        const element = document.createElement("img");
+        element.className = "sprite";
+        element.src = `images/${currentRoomId}/${object.id}.png`;
+        element.alt = "";
+        element.dataset.id = object.id;
+        element.dataset.group = object.group;
+        element.dataset.phase = phase;
+        element.style.left = `${object.x}px`;
+        element.style.top = `${object.y}px`;
+        element.style.width = `${object.width}px`;
+        element.style.height = `${object.height}px`;
+        element.style.zIndex = String(index + 2);
+
+        if (phase === "decor") {
+          element.classList.add("hidden");
+          element.style.opacity = "0";
+        } else {
+          element.style.opacity = "1";
+        }
+
+        itemsLayer.appendChild(element);
+        return {
+          ...object,
+          phase,
+          order: index,
+          variant: variantFromId(object.id),
+          element,
+          done: phase === "decor"
+        };
+      })
+      .filter(Boolean);
+  }
+
+  function normalizeOrder(entries = []) {
     return entries.map((entry) => {
       if (typeof entry === "string") {
         const curly = entry.match(/\{(-?\d+)\}$/);
@@ -86,6 +182,7 @@
     return value
       .replace(/\{(-?\d+)\}$/, "")
       .replace(/\[(-?\d+)\]$/, "")
+      .replace(/_(?:[A-Z])(?:_\d+)?$/, "")
       .replace(/_\d+$/, "");
   }
 
@@ -104,12 +201,21 @@
   }
 
   function angleFromId(id) {
-    const match = id.match(/\[(-?\d+)\]$/);
+    const match = id.trim().match(/\[(-?\d+)\]$/);
     return match ? Number(match[1]) : 0;
   }
 
+  function idWithoutAngle(id) {
+    return id.trim().replace(/\[(-?\d+)\]$/, "");
+  }
+
+  function variantFromId(id) {
+    const match = idWithoutAngle(id).match(/_([A-Z])(?:_\d+)?$/);
+    return match ? match[1] : null;
+  }
+
   function naturalIndex(id) {
-    const match = id.replace(/\[(-?\d+)\]$/, "").match(/_(\d+)$/);
+    const match = idWithoutAngle(id).match(/_(\d+)$/);
     return match ? Number(match[1]) : Number.POSITIVE_INFINITY;
   }
 
@@ -183,10 +289,21 @@
 
     if (state.phase === "repair") {
       await removeObjects(action);
-    } else {
-      await addObjects(action);
+      finishAction(action, button);
+      return;
     }
 
+    const variants = variantsFor(action);
+    if (variants.length > 1) {
+      await openVariantPicker(action, button, variants);
+      return;
+    }
+
+    await addObjects(action);
+    finishAction(action, button);
+  }
+
+  function finishAction(action, button) {
     action.done = true;
     button.remove();
 
@@ -216,6 +333,166 @@
       await animateIn(object, angle);
       object.done = false;
       await wait(STEP_DELAY);
+    }
+  }
+
+  function variantsFor(action) {
+    const variants = new Map();
+
+    for (const object of objectsFor(action, "decor")) {
+      if (object.variant === null) {
+        continue;
+      }
+
+      if (!variants.has(object.variant)) {
+        variants.set(object.variant, []);
+      }
+
+      variants.get(object.variant).push(object);
+    }
+
+    return [...variants.entries()]
+      .map(([id, objects]) => ({ id, objects }))
+      .sort((left, right) => left.id.localeCompare(right.id));
+  }
+
+  async function openVariantPicker(action, button, variants) {
+    activeVariant = {
+      action,
+      button,
+      variants,
+      selected: null,
+      busy: false
+    };
+
+    renderVariantOptions();
+    variantPanel.classList.remove("hidden");
+
+    const defaultVariant = variants.find((variant) => variant.id === "A") ?? variants[0];
+    await selectVariant(defaultVariant.id, true);
+  }
+
+  function renderVariantOptions() {
+    variantOptions.replaceChildren();
+
+    for (const variant of activeVariant.variants) {
+      const option = document.createElement("button");
+      const preview = document.createElement("img");
+
+      option.className = "variant-option";
+      option.type = "button";
+      option.setAttribute("aria-label", `Вариант ${variant.id}`);
+      option.dataset.variant = variant.id;
+      option.addEventListener("click", () => selectVariant(variant.id, false));
+
+      preview.src = `images/${currentRoomId}/${variant.objects[0].id}.png`;
+      preview.alt = "";
+      option.appendChild(preview);
+      variantOptions.appendChild(option);
+    }
+  }
+
+  async function selectVariant(variantId, materialize) {
+    if (activeVariant === null || activeVariant.busy || activeVariant.selected === variantId) {
+      return;
+    }
+
+    activeVariant.busy = true;
+    hideVariantObjects(activeVariant.action);
+
+    activeVariant.selected = variantId;
+    updateVariantOptionState();
+
+    const selectedObjects = objectsForVariant(variantId);
+    for (const object of selectedObjects) {
+      object.element.classList.remove("hidden", "animating", "appearing", "removing");
+      object.element.style.transform = "translate3d(0, 0, 0) scale(1)";
+      object.element.style.opacity = "1";
+    }
+
+    if (materialize) {
+      await Promise.all(
+        selectedObjects.map((object) => animateIn(object, angleFromId(object.id)))
+      );
+    } else {
+      playVariantSwitch(selectedObjects);
+    }
+
+    activeVariant.busy = false;
+  }
+
+  function updateVariantOptionState() {
+    for (const option of variantOptions.querySelectorAll(".variant-option")) {
+      option.classList.toggle("selected", option.dataset.variant === activeVariant.selected);
+    }
+  }
+
+  function objectsForVariant(variantId) {
+    const variant = activeVariant.variants.find((item) => item.id === variantId);
+    return variant ? variant.objects : [];
+  }
+
+  function hideVariantObjects(action) {
+    for (const object of objectsFor(action, "decor")) {
+      if (object.variant === null) {
+        continue;
+      }
+
+      object.element.classList.add("hidden");
+      object.element.classList.remove("animating", "appearing", "removing", "variant-switching");
+      object.element.style.transform = "translate3d(0, 0, 0) scale(1)";
+      object.element.style.opacity = "0";
+    }
+  }
+
+  function chooseVariant() {
+    if (activeVariant === null || activeVariant.busy) {
+      return;
+    }
+
+    const { action, button, selected } = activeVariant;
+
+    for (const object of objectsFor(action, "decor")) {
+      object.done = object.variant !== selected;
+      if (object.variant !== selected) {
+        object.element.classList.add("hidden");
+        object.element.style.opacity = "0";
+      }
+    }
+
+    hideVariantPanel();
+    finishAction(action, button);
+  }
+
+  function closeVariantPicker() {
+    if (activeVariant === null || activeVariant.busy) {
+      return;
+    }
+
+    const { action, button } = activeVariant;
+    hideVariantObjects(action);
+    hideVariantPanel();
+
+    button.disabled = false;
+    button.style.opacity = "1";
+    state.busy = false;
+  }
+
+  function hideVariantPanel() {
+    variantPanel.classList.add("hidden");
+    variantOptions.replaceChildren();
+    activeVariant = null;
+  }
+
+  function playVariantSwitch(objects) {
+    for (const object of objects) {
+      const element = object.element;
+      element.classList.remove("variant-switching");
+      void element.offsetWidth;
+      element.classList.add("variant-switching");
+      element.addEventListener("animationend", () => {
+        element.classList.remove("variant-switching");
+      }, { once: true });
     }
   }
 

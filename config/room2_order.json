@@ -1,0 +1,19 @@
+{
+  "repair": [
+    "broken_wall_left",
+    "broken_wall_right",
+    "broken_floor",
+    "trash",
+    "broken_door"
+  ],
+  "decor": [
+    "carpet",
+    "window",
+    "chair_with_plant",
+    "picture",
+    "cupboard",
+    "luster",
+    "door",
+    "plant_left"
+  ]
+}
