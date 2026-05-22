@@ -18,9 +18,9 @@ npm run prepare-balance-local
 
 The exporter writes one Russian source dictionary:
 
-- `config/text/temp/ru.json`
+- `tmp/text_src/ru.json`
 
-Treat `config/text/temp/ru.json` as an intermediate source file. Do not write translated target languages into `config/text/temp`.
+Treat `tmp/text_src/ru.json` as an intermediate source file. Do not write translated target languages into `tmp/text_src`.
 
 It also writes game balance configs:
 
@@ -57,7 +57,7 @@ ru tr zh ko hi vi en
 
 ## AI Translation Prompt
 
-Use one source file at a time. Tell the model to translate values only and keep keys byte-for-byte identical.
+Use `tmp/text_src/ru.json` as the source. Tell the model to translate values only and keep keys byte-for-byte identical.
 
 ```text
 Translate this game localization JSON from Russian to <LANGUAGE>.
@@ -99,7 +99,7 @@ PowerShell:
 import json
 from pathlib import Path
 
-source_path = Path("config/text/temp/ru.json")
+source_path = Path("tmp/text_src/ru.json")
 target_root = Path("config/text")
 source = json.loads(source_path.read_text(encoding="utf-8"))
 source_keys = set(source)

@@ -15,11 +15,11 @@ from urllib.request import urlopen
 
 ROOT = Path(__file__).resolve().parents[1]
 CONFIG_DIR = ROOT / "config"
-TEXT_TEMP_DIR = CONFIG_DIR / "text" / "temp"
+TEXT_SRC_DIR = ROOT / "tmp" / "text_src"
 
 DEFAULT_LEVEL_REWARDS_OUTPUT = CONFIG_DIR / "level_rewards.json"
 DEFAULT_DIALOGS_OUTPUT = CONFIG_DIR / "dialogs.json"
-DEFAULT_RU_OUTPUT = TEXT_TEMP_DIR / "ru.json"
+DEFAULT_RU_OUTPUT = TEXT_SRC_DIR / "ru.json"
 DEFAULT_SPREADSHEET_URL = (
     "https://docs.google.com/spreadsheets/d/"
     "11iMe9LPLHdsm9DpV66A9HJhyzm37fpf3KdmCBJ3d6HE/edit?usp=sharing"

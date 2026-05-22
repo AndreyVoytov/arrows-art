@@ -5,7 +5,7 @@ from pathlib import Path
 
 from export_google_sheets import (
     CONFIG_DIR,
-    TEXT_TEMP_DIR,
+    TEXT_SRC_DIR,
     build_level_rewards,
     build_objects_ru,
     build_rooms_ru,
@@ -18,7 +18,7 @@ from export_google_sheets import (
 from sheet_cache import read_local_table, require_local_tables
 
 
-RU_OUTPUT = TEXT_TEMP_DIR / "ru.json"
+RU_OUTPUT = TEXT_SRC_DIR / "ru.json"
 
 
 def load_local_equipment() -> tuple[list[dict[str, object]], dict[str, str]]:

@@ -7,8 +7,7 @@
   const STEP_DELAY = 120;
   const ROOM_IMAGE_ROOT = "images/rooms";
   const DIALOG_CONFIG_URL = "config/dialogs.json";
-  const TEXT_RU_URL = "config/text/temp/ru.json";
-  const LEGACY_DIALOG_TEXT_URL = "config/text/temp/dialogs_ru.json";
+  const TEXT_RU_URL = "config/text/ru.json";
   const SPRITE_Z = {
     SURFACE_DAMAGE: 1000,
     FLOOR_COVERING: 2000,
@@ -206,12 +205,7 @@
 
   async function loadDialogTexts() {
     const ru = await loadJsonOrNull(TEXT_RU_URL);
-    if (ru !== null) {
-      return ru;
-    }
-
-    const legacy = await loadJsonOrNull(LEGACY_DIALOG_TEXT_URL);
-    return legacy ?? {};
+    return ru ?? {};
   }
 
   async function loadJsonOrNull(url) {
