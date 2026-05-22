@@ -1,1202 +1,1224 @@
 {
+  "complexities": [
+    {
+      "id": "Educational",
+      "name_key": "complexity_educational_loc"
+    },
+    {
+      "id": "Easy",
+      "name_key": "complexity_easy_loc"
+    },
+    {
+      "id": "Medium",
+      "name_key": "complexity_medium_loc"
+    },
+    {
+      "id": "Hard",
+      "name_key": "complexity_hard_loc"
+    },
+    {
+      "id": "Legendary",
+      "name_key": "complexity_legendary_loc"
+    }
+  ],
   "levels": [
     {
       "level": 1,
-      "complexity": "Обучающий",
+      "complexity": "Educational",
       "award": 15,
       "bonusHint": null
     },
     {
       "level": 2,
-      "complexity": "Обучающий",
+      "complexity": "Educational",
       "award": 15,
       "bonusHint": null
     },
     {
       "level": 3,
-      "complexity": "Обучающий",
+      "complexity": "Educational",
       "award": 15,
       "bonusHint": null
     },
     {
       "level": 4,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 20,
       "bonusHint": null
     },
     {
       "level": 5,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 30,
       "bonusHint": null
     },
     {
       "level": 6,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 30,
       "bonusHint": null
     },
     {
       "level": 7,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 45,
       "bonusHint": null
     },
     {
       "level": 8,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 60,
       "bonusHint": null
     },
     {
       "level": 9,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 20,
       "bonusHint": null
     },
     {
       "level": 10,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 30,
       "bonusHint": null
     },
     {
       "level": 11,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 30,
       "bonusHint": null
     },
     {
       "level": 12,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 45,
       "bonusHint": null
     },
     {
       "level": 13,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 60,
       "bonusHint": null
     },
     {
       "level": 14,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 20,
       "bonusHint": null
     },
     {
       "level": 15,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 30,
       "bonusHint": null
     },
     {
       "level": 16,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 30,
       "bonusHint": null
     },
     {
       "level": 17,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 45,
       "bonusHint": null
     },
     {
       "level": 18,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 60,
       "bonusHint": null
     },
     {
       "level": 19,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 20,
       "bonusHint": null
     },
     {
       "level": 20,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 30,
       "bonusHint": null
     },
     {
       "level": 21,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 30,
       "bonusHint": null
     },
     {
       "level": 22,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 45,
       "bonusHint": null
     },
     {
       "level": 23,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 65,
       "bonusHint": null
     },
     {
       "level": 24,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 20,
       "bonusHint": null
     },
     {
       "level": 25,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 35,
       "bonusHint": null
     },
     {
       "level": 26,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 35,
       "bonusHint": null
     },
     {
       "level": 27,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 50,
       "bonusHint": null
     },
     {
       "level": 28,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 65,
       "bonusHint": null
     },
     {
       "level": 29,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 25,
       "bonusHint": null
     },
     {
       "level": 30,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 35,
       "bonusHint": null
     },
     {
       "level": 31,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 35,
       "bonusHint": null
     },
     {
       "level": 32,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 50,
       "bonusHint": null
     },
     {
       "level": 33,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 70,
       "bonusHint": null
     },
     {
       "level": 34,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 25,
       "bonusHint": null
     },
     {
       "level": 35,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 35,
       "bonusHint": null
     },
     {
       "level": 36,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 35,
       "bonusHint": null
     },
     {
       "level": 37,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 50,
       "bonusHint": null
     },
     {
       "level": 38,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 70,
       "bonusHint": null
     },
     {
       "level": 39,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 25,
       "bonusHint": null
     },
     {
       "level": 40,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 35,
       "bonusHint": null
     },
     {
       "level": 41,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 35,
       "bonusHint": null
     },
     {
       "level": 42,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 50,
       "bonusHint": null
     },
     {
       "level": 43,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 70,
       "bonusHint": null
     },
     {
       "level": 44,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 25,
       "bonusHint": null
     },
     {
       "level": 45,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 40,
       "bonusHint": null
     },
     {
       "level": 46,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 40,
       "bonusHint": null
     },
     {
       "level": 47,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 55,
       "bonusHint": null
     },
     {
       "level": 48,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 75,
       "bonusHint": null
     },
     {
       "level": 49,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 25,
       "bonusHint": null
     },
     {
       "level": 50,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 40,
       "bonusHint": null
     },
     {
       "level": 51,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 40,
       "bonusHint": null
     },
     {
       "level": 52,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 55,
       "bonusHint": null
     },
     {
       "level": 53,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 75,
       "bonusHint": null
     },
     {
       "level": 54,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 30,
       "bonusHint": null
     },
     {
       "level": 55,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 40,
       "bonusHint": null
     },
     {
       "level": 56,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 40,
       "bonusHint": null
     },
     {
       "level": 57,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 55,
       "bonusHint": null
     },
     {
       "level": 58,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 80,
       "bonusHint": null
     },
     {
       "level": 59,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 30,
       "bonusHint": null
     },
     {
       "level": 60,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 40,
       "bonusHint": null
     },
     {
       "level": 61,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 40,
       "bonusHint": null
     },
     {
       "level": 62,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 55,
       "bonusHint": null
     },
     {
       "level": 63,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 80,
       "bonusHint": null
     },
     {
       "level": 64,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 30,
       "bonusHint": null
     },
     {
       "level": 65,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 45,
       "bonusHint": null
     },
     {
       "level": 66,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 45,
       "bonusHint": null
     },
     {
       "level": 67,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 60,
       "bonusHint": null
     },
     {
       "level": 68,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 85,
       "bonusHint": null
     },
     {
       "level": 69,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 30,
       "bonusHint": null
     },
     {
       "level": 70,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 45,
       "bonusHint": null
     },
     {
       "level": 71,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 45,
       "bonusHint": null
     },
     {
       "level": 72,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 60,
       "bonusHint": null
     },
     {
       "level": 73,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 85,
       "bonusHint": null
     },
     {
       "level": 74,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 30,
       "bonusHint": null
     },
     {
       "level": 75,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 45,
       "bonusHint": null
     },
     {
       "level": 76,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 45,
       "bonusHint": null
     },
     {
       "level": 77,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 60,
       "bonusHint": null
     },
     {
       "level": 78,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 90,
       "bonusHint": null
     },
     {
       "level": 79,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 35,
       "bonusHint": null
     },
     {
       "level": 80,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 50,
       "bonusHint": null
     },
     {
       "level": 81,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 50,
       "bonusHint": null
     },
     {
       "level": 82,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 65,
       "bonusHint": null
     },
     {
       "level": 83,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 95,
       "bonusHint": null
     },
     {
       "level": 84,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 35,
       "bonusHint": null
     },
     {
       "level": 85,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 50,
       "bonusHint": null
     },
     {
       "level": 86,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 50,
       "bonusHint": null
     },
     {
       "level": 87,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 65,
       "bonusHint": null
     },
     {
       "level": 88,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 95,
       "bonusHint": null
     },
     {
       "level": 89,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 35,
       "bonusHint": null
     },
     {
       "level": 90,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 50,
       "bonusHint": null
     },
     {
       "level": 91,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 50,
       "bonusHint": null
     },
     {
       "level": 92,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 65,
       "bonusHint": null
     },
     {
       "level": 93,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 100,
       "bonusHint": null
     },
     {
       "level": 94,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 35,
       "bonusHint": null
     },
     {
       "level": 95,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 55,
       "bonusHint": null
     },
     {
       "level": 96,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 55,
       "bonusHint": null
     },
     {
       "level": 97,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 70,
       "bonusHint": null
     },
     {
       "level": 98,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 105,
       "bonusHint": null
     },
     {
       "level": 99,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 40,
       "bonusHint": null
     },
     {
       "level": 100,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 55,
       "bonusHint": null
     },
     {
       "level": 101,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 55,
       "bonusHint": null
     },
     {
       "level": 102,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 70,
       "bonusHint": null
     },
     {
       "level": 103,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 105,
       "bonusHint": null
     },
     {
       "level": 104,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 40,
       "bonusHint": null
     },
     {
       "level": 105,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 55,
       "bonusHint": null
     },
     {
       "level": 106,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 55,
       "bonusHint": null
     },
     {
       "level": 107,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 70,
       "bonusHint": null
     },
     {
       "level": 108,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 110,
       "bonusHint": null
     },
     {
       "level": 109,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 40,
       "bonusHint": null
     },
     {
       "level": 110,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 60,
       "bonusHint": null
     },
     {
       "level": 111,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 60,
       "bonusHint": null
     },
     {
       "level": 112,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 75,
       "bonusHint": null
     },
     {
       "level": 113,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 115,
       "bonusHint": null
     },
     {
       "level": 114,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 40,
       "bonusHint": null
     },
     {
       "level": 115,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 60,
       "bonusHint": null
     },
     {
       "level": 116,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 60,
       "bonusHint": null
     },
     {
       "level": 117,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 75,
       "bonusHint": null
     },
     {
       "level": 118,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 115,
       "bonusHint": null
     },
     {
       "level": 119,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 45,
       "bonusHint": null
     },
     {
       "level": 120,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 60,
       "bonusHint": null
     },
     {
       "level": 121,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 60,
       "bonusHint": null
     },
     {
       "level": 122,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 75,
       "bonusHint": null
     },
     {
       "level": 123,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 120,
       "bonusHint": null
     },
     {
       "level": 124,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 45,
       "bonusHint": null
     },
     {
       "level": 125,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 65,
       "bonusHint": null
     },
     {
       "level": 126,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 65,
       "bonusHint": null
     },
     {
       "level": 127,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 80,
       "bonusHint": null
     },
     {
       "level": 128,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 125,
       "bonusHint": null
     },
     {
       "level": 129,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 45,
       "bonusHint": null
     },
     {
       "level": 130,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 65,
       "bonusHint": null
     },
     {
       "level": 131,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 65,
       "bonusHint": null
     },
     {
       "level": 132,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 80,
       "bonusHint": null
     },
     {
       "level": 133,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 125,
       "bonusHint": null
     },
     {
       "level": 134,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 45,
       "bonusHint": null
     },
     {
       "level": 135,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 65,
       "bonusHint": null
     },
     {
       "level": 136,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 65,
       "bonusHint": null
     },
     {
       "level": 137,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 80,
       "bonusHint": null
     },
     {
       "level": 138,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 130,
       "bonusHint": null
     },
     {
       "level": 139,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 50,
       "bonusHint": null
     },
     {
       "level": 140,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 70,
       "bonusHint": null
     },
     {
       "level": 141,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 70,
       "bonusHint": null
     },
     {
       "level": 142,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 85,
       "bonusHint": null
     },
     {
       "level": 143,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 140,
       "bonusHint": null
     },
     {
       "level": 144,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 50,
       "bonusHint": null
     },
     {
       "level": 145,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 70,
       "bonusHint": null
     },
     {
       "level": 146,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 70,
       "bonusHint": null
     },
     {
       "level": 147,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 85,
       "bonusHint": null
     },
     {
       "level": 148,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 140,
       "bonusHint": null
     },
     {
       "level": 149,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 50,
       "bonusHint": null
     },
     {
       "level": 150,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 70,
       "bonusHint": null
     },
     {
       "level": 151,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 70,
       "bonusHint": null
     },
     {
       "level": 152,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 90,
       "bonusHint": null
     },
     {
       "level": 153,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 145,
       "bonusHint": null
     },
     {
       "level": 154,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 50,
       "bonusHint": null
     },
     {
       "level": 155,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 75,
       "bonusHint": null
     },
     {
       "level": 156,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 75,
       "bonusHint": null
     },
     {
       "level": 157,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 95,
       "bonusHint": null
     },
     {
       "level": 158,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 150,
       "bonusHint": null
     },
     {
       "level": 159,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 55,
       "bonusHint": null
     },
     {
       "level": 160,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 75,
       "bonusHint": null
     },
     {
       "level": 161,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 75,
       "bonusHint": null
     },
     {
       "level": 162,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 95,
       "bonusHint": null
     },
     {
       "level": 163,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 155,
       "bonusHint": null
     },
     {
       "level": 164,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 55,
       "bonusHint": null
     },
     {
       "level": 165,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 80,
       "bonusHint": null
     },
     {
       "level": 166,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 80,
       "bonusHint": null
     },
     {
       "level": 167,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 100,
       "bonusHint": null
     },
     {
       "level": 168,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 160,
       "bonusHint": null
     },
     {
       "level": 169,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 55,
       "bonusHint": null
     },
     {
       "level": 170,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 80,
       "bonusHint": null
     },
     {
       "level": 171,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 80,
       "bonusHint": null
     },
     {
       "level": 172,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 100,
       "bonusHint": null
     },
     {
       "level": 173,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 165,
       "bonusHint": null
     },
     {
       "level": 174,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 60,
       "bonusHint": null
     },
     {
       "level": 175,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 85,
       "bonusHint": null
     },
     {
       "level": 176,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 85,
       "bonusHint": null
     },
     {
       "level": 177,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 110,
       "bonusHint": null
     },
     {
       "level": 178,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 175,
       "bonusHint": null
     },
     {
       "level": 179,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 60,
       "bonusHint": null
     },
     {
       "level": 180,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 85,
       "bonusHint": null
     },
     {
       "level": 181,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 85,
       "bonusHint": null
     },
     {
       "level": 182,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 110,
       "bonusHint": null
     },
     {
       "level": 183,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 180,
       "bonusHint": null
     },
     {
       "level": 184,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 60,
       "bonusHint": null
     },
     {
       "level": 185,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 90,
       "bonusHint": null
     },
     {
       "level": 186,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 90,
       "bonusHint": null
     },
     {
       "level": 187,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 115,
       "bonusHint": null
     },
     {
       "level": 188,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 190,
       "bonusHint": null
     },
     {
       "level": 189,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 65,
       "bonusHint": null
     },
     {
       "level": 190,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 95,
       "bonusHint": null
     },
     {
       "level": 191,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 95,
       "bonusHint": null
     },
     {
       "level": 192,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 125,
       "bonusHint": null
     },
     {
       "level": 193,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 200,
       "bonusHint": null
     },
     {
       "level": 194,
-      "complexity": "Легкий",
+      "complexity": "Easy",
       "award": 65,
       "bonusHint": null
     },
     {
       "level": 195,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 100,
       "bonusHint": null
     },
     {
       "level": 196,
-      "complexity": "Средний",
+      "complexity": "Medium",
       "award": 100,
       "bonusHint": null
     },
     {
       "level": 197,
-      "complexity": "Сложный",
+      "complexity": "Hard",
       "award": 400,
       "bonusHint": null
     },
     {
       "level": 198,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 500,
       "bonusHint": null
     },
     {
       "level": 199,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 600,
       "bonusHint": null
     },
     {
       "level": 200,
-      "complexity": "Легендарный",
+      "complexity": "Legendary",
       "award": 1000,
       "bonusHint": null
     }

@@ -2,29 +2,44 @@
 
 Source docs: Yandex Games uses ISO 639-1 language codes and publishes the supported language list in the official SDK documentation: https://yandex.com/dev/games/doc/en/concepts/languages-and-domains
 
-## Generated Source Files
+## Source File
 
-Run the Google Sheets exporter first:
-
-```bash
-npm run export-sheets -- --spreadsheet-id YOUR_SPREADSHEET_ID --equipment-sheet Equipment --levels-sheet Levels
-```
-
-For local CSV tests:
+Prepare balance data first:
 
 ```bash
-npm run export-sheets -- --equipment-csv equipment.csv --levels-csv levels.csv
+npm run prepare-balance
 ```
 
-The exporter writes Russian source dictionaries:
+For already downloaded local sheet cache:
 
-- `config/text/temp/objects_ru.json`
-- `config/text/temp/rooms_ru.json`
+```bash
+npm run prepare-balance-local
+```
+
+The exporter writes one Russian source dictionary:
+
+- `config/text/temp/ru.json`
+
+Treat `config/text/temp/ru.json` as an intermediate source file. Do not write translated target languages into `config/text/temp`.
 
 It also writes game balance configs:
 
-- `config/equipment_prices.json`
 - `config/level_rewards.json`
+- `config/dialogs.json`
+
+## Target Files
+
+Create publishable localization dictionaries here:
+
+```text
+config/text/<lang>.json
+```
+
+The Russian publish copy is:
+
+```text
+config/text/ru.json
+```
 
 ## Target Languages
 
@@ -57,23 +72,20 @@ Rules:
 - Do not add comments, markdown, or extra keys.
 
 JSON:
-<PASTE objects_ru.json OR rooms_ru.json>
+<PASTE ru.json>
 ```
 
 Save outputs as:
 
 ```text
-config/text/temp/objects_<lang>.json
-config/text/temp/rooms_<lang>.json
+config/text/<lang>.json
 ```
 
 Examples:
 
 ```text
-config/text/temp/objects_en.json
-config/text/temp/rooms_en.json
-config/text/temp/objects_tr.json
-config/text/temp/rooms_tr.json
+config/text/en.json
+config/text/tr.json
 ```
 
 ## Validation
@@ -87,33 +99,24 @@ PowerShell:
 import json
 from pathlib import Path
 
-root = Path("config/text/temp")
-pairs = [
-    ("objects_ru.json", "objects_*.json"),
-    ("rooms_ru.json", "rooms_*.json"),
-]
+source_path = Path("config/text/temp/ru.json")
+target_root = Path("config/text")
+source = json.loads(source_path.read_text(encoding="utf-8"))
+source_keys = set(source)
 
-for source_name, pattern in pairs:
-    source_path = root / source_name
-    source = json.loads(source_path.read_text(encoding="utf-8"))
-    source_keys = set(source)
+for path in sorted(target_root.glob("*.json")):
+    data = json.loads(path.read_text(encoding="utf-8"))
+    keys = set(data)
+    missing = sorted(source_keys - keys)
+    extra = sorted(keys - source_keys)
+    if missing or extra:
+        raise SystemExit(
+            f"{path}: missing={missing[:10]} extra={extra[:10]}"
+        )
 
-    for path in sorted(root.glob(pattern)):
-        if path.name == source_name:
-            continue
-
-        data = json.loads(path.read_text(encoding="utf-8"))
-        keys = set(data)
-        missing = sorted(source_keys - keys)
-        extra = sorted(keys - source_keys)
-        if missing or extra:
-            raise SystemExit(
-                f"{path}: missing={missing[:10]} extra={extra[:10]}"
-            )
-
-        empty = [key for key, value in data.items() if not str(value).strip()]
-        if empty:
-            raise SystemExit(f"{path}: empty translations={empty[:10]}")
+    empty = [key for key, value in data.items() if not str(value).strip()]
+    if empty:
+        raise SystemExit(f"{path}: empty translations={empty[:10]}")
 
 print("localization ok")
 '@ | python -
@@ -121,7 +124,7 @@ print("localization ok")
 
 ## Review Checklist
 
-- Keep `*_key` identifiers untranslated.
+- Keep `*_loc` identifiers untranslated.
 - Check short UI labels in-game because German, Spanish, Turkish, and Vietnamese strings can be longer than Russian.
 - For `ar`, `fa`, and `he`, verify right-to-left rendering in the UI.
 - For `zh`, `ja`, `ko`, and `th`, verify that the game font contains glyphs for the language.

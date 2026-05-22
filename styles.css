@@ -78,6 +78,10 @@ button {
   inset: 0;
 }
 
+#items {
+  z-index: 20;
+}
+
 .sprite {
   display: block;
   pointer-events: none;

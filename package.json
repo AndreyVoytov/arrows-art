@@ -1,9 +1,12 @@
 {
   "scripts": {
-    "atlases": "python scripts/build_atlases.py",
     "build": "python scripts/build_site.py",
     "dev": "python -m http.server 8000 --bind 127.0.0.1",
-    "export-sheets": "python scripts/export_google_sheets.py",
-    "prepare-rooms": "python scripts/prepare_rooms.py"
+    "prepare-all": "python scripts/prepare_all.py",
+    "prepare-atlases": "python scripts/build_atlases.py",
+    "prepare-balance": "python scripts/prepare_balance.py",
+    "prepare-balance-local": "python scripts/prepare_balance_local.py",
+    "prepare-rooms": "python scripts/prepare_rooms_pipeline.py",
+    "prepare-rooms-local": "python scripts/prepare_rooms_local.py"
   }
 }

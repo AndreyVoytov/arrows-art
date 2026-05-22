@@ -1,6 +1,6 @@
 {
   "frames": {
-    "broken_door": {
+    "room2_broken_door": {
       "frame": {
         "x": 147,
         "y": 954,
@@ -20,7 +20,7 @@
         "h": 470
       }
     },
-    "broken_floor": {
+    "room2_broken_floor": {
       "frame": {
         "x": 290,
         "y": 954,
@@ -40,7 +40,7 @@
         "h": 432
       }
     },
-    "broken_wall_left": {
+    "room2_broken_wall_left": {
       "frame": {
         "x": 722,
         "y": 0,
@@ -60,7 +60,7 @@
         "h": 695
       }
     },
-    "broken_wall_right": {
+    "room2_broken_wall_right": {
       "frame": {
         "x": 1336,
         "y": 0,
@@ -80,7 +80,7 @@
         "h": 671
       }
     },
-    "carpet": {
+    "room2_carpet": {
       "frame": {
         "x": 1008,
         "y": 954,
@@ -100,7 +100,7 @@
         "h": 285
       }
     },
-    "chair_with_plant_1": {
+    "room2_chair_with_plant_1": {
       "frame": {
         "x": 268,
         "y": 1429,
@@ -120,7 +120,7 @@
         "h": 155
       }
     },
-    "chair_with_plant_2": {
+    "room2_chair_with_plant_2": {
       "frame": {
         "x": 0,
         "y": 1429,
@@ -140,7 +140,7 @@
         "h": 201
       }
     },
-    "cupboard": {
+    "room2_cupboard": {
       "frame": {
         "x": 1672,
         "y": 0,
@@ -160,7 +160,7 @@
         "h": 559
       }
     },
-    "door": {
+    "room2_door": {
       "frame": {
         "x": 0,
         "y": 954,
@@ -180,7 +180,7 @@
         "h": 473
       }
     },
-    "luster": {
+    "room2_luster": {
       "frame": {
         "x": 102,
         "y": 1429,
@@ -200,7 +200,7 @@
         "h": 184
       }
     },
-    "picture_A": {
+    "room2_picture_A": {
       "frame": {
         "x": 1711,
         "y": 954,
@@ -220,7 +220,7 @@
         "h": 281
       }
     },
-    "picture_B": {
+    "room2_picture_B": {
       "frame": {
         "x": 1595,
         "y": 954,
@@ -240,7 +240,7 @@
         "h": 281
       }
     },
-    "picture_C": {
+    "room2_picture_C": {
       "frame": {
         "x": 1479,
         "y": 954,
@@ -260,7 +260,7 @@
         "h": 281
       }
     },
-    "plant_left_A": {
+    "room2_plant_left_A": {
       "frame": {
         "x": 1973,
         "y": 954,
@@ -280,7 +280,7 @@
         "h": 253
       }
     },
-    "plant_left_B": {
+    "room2_plant_left_B": {
       "frame": {
         "x": 1900,
         "y": 954,
@@ -300,7 +300,7 @@
         "h": 253
       }
     },
-    "plant_left_C": {
+    "room2_plant_left_C": {
       "frame": {
         "x": 1827,
         "y": 954,
@@ -320,7 +320,7 @@
         "h": 253
       }
     },
-    "room_bg": {
+    "room2_room_bg": {
       "frame": {
         "x": 0,
         "y": 0,
@@ -340,7 +340,7 @@
         "h": 952
       }
     },
-    "trash_1": {
+    "room2_trash_1": {
       "frame": {
         "x": 1221,
         "y": 1429,
@@ -360,7 +360,7 @@
         "h": 80
       }
     },
-    "trash_2": {
+    "room2_trash_2": {
       "frame": {
         "x": 758,
         "y": 1429,
@@ -380,7 +380,7 @@
         "h": 102
       }
     },
-    "trash_3": {
+    "room2_trash_3": {
       "frame": {
         "x": 1546,
         "y": 1429,
@@ -400,7 +400,7 @@
         "h": 70
       }
     },
-    "trash_4": {
+    "room2_trash_4": {
       "frame": {
         "x": 414,
         "y": 1429,
@@ -420,7 +420,7 @@
         "h": 129
       }
     },
-    "trash_5": {
+    "room2_trash_5": {
       "frame": {
         "x": 1374,
         "y": 1429,
@@ -440,7 +440,7 @@
         "h": 78
       }
     },
-    "trash_6": {
+    "room2_trash_6": {
       "frame": {
         "x": 1010,
         "y": 1429,
@@ -460,7 +460,7 @@
         "h": 89
       }
     },
-    "window": {
+    "room2_window": {
       "frame": {
         "x": 1911,
         "y": 0,

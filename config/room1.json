@@ -1,474 +1,781 @@
 {
-  "groups": [
+  "key": "room1",
+  "name_key": "room1_loc",
+  "background": "room1_room_bg",
+  "content": {
+    "repairActionPoint": [
+      "room1_dead_plant",
+      "room1_broken_cupboard",
+      "room1_broken_window",
+      "room1_trash",
+      "room1_broken_door",
+      "room1_broken_wall_right",
+      "room1_broken_floor",
+      "room1_broken_wall_left"
+    ],
+    "decorActionPoint": [
+      "room1_door",
+      "room1_window",
+      "room1_cupboard",
+      "room1_luster",
+      "room1_picture",
+      "room1_chair_with_plant",
+      "room1_plant_left",
+      "room1_carpet"
+    ]
+  },
+  "allActionPoints": [
     {
-      "groupId": "carpet",
-      "objects": [
-        {
-          "id": "carpet_A",
-          "imageId": "carpet",
-          "x": 125,
-          "y": 552,
-          "width": 469,
-          "height": 285,
-          "angle": 0,
-          "name_key": "carpet_key"
-        },
-        {
-          "id": "carpet_B",
-          "imageId": "carpet_B",
-          "x": 125,
-          "y": 552,
-          "width": 469,
-          "height": 285,
-          "angle": 0,
-          "name_key": "carpet_key"
-        },
-        {
-          "id": "carpet_C",
-          "imageId": "carpet_C",
-          "x": 125,
-          "y": 552,
-          "width": 469,
-          "height": 285,
-          "angle": 0,
-          "name_key": "carpet_key"
-        }
-      ]
+      "key": "room1_dead_plant",
+      "name_key": "room1_dead_plant_loc",
+      "multiobjects": [
+        "room1_dead_plant"
+      ],
+      "x": 142,
+      "y": 582
     },
     {
-      "groupId": "window",
-      "objects": [
-        {
-          "id": "window_A",
-          "imageId": "window",
-          "x": 446,
-          "y": 120,
-          "width": 132,
-          "height": 448,
-          "angle": 225,
-          "name_key": "window_key"
-        },
-        {
-          "id": "window_B",
-          "imageId": "window_B",
-          "x": 446,
-          "y": 120,
-          "width": 132,
-          "height": 448,
-          "angle": 225,
-          "name_key": "window_key"
-        },
-        {
-          "id": "window_C",
-          "imageId": "window_C",
-          "x": 446,
-          "y": 120,
-          "width": 132,
-          "height": 448,
-          "angle": 225,
-          "name_key": "window_key"
-        }
-      ]
+      "key": "room1_broken_cupboard",
+      "name_key": "room1_broken_cupboard_loc",
+      "multiobjects": [
+        "room1_broken_cupboard"
+      ],
+      "x": 300,
+      "y": 345
     },
     {
-      "groupId": "chair_with_plant",
-      "objects": [
-        {
-          "id": "chair_with_plant_A_1",
-          "imageId": "chair_with_plant_1",
-          "x": 524,
-          "y": 529,
-          "width": 144,
-          "height": 155,
-          "angle": 225
-        },
-        {
-          "id": "chair_with_plant_A_2",
-          "imageId": "chair_with_plant_2",
-          "x": 620,
-          "y": 484,
-          "width": 100,
-          "height": 201,
-          "angle": 0
-        },
-        {
-          "id": "chair_with_plant_B_1",
-          "imageId": "chair_with_plant_B_1",
-          "x": 524,
-          "y": 529,
-          "width": 144,
-          "height": 155,
-          "angle": 225
-        },
-        {
-          "id": "chair_with_plant_B_2",
-          "imageId": "chair_with_plant_B_2",
-          "x": 620,
-          "y": 484,
-          "width": 100,
-          "height": 201,
-          "angle": 0
-        },
-        {
-          "id": "chair_with_plant_C_1",
-          "imageId": "chair_with_plant_C_1",
-          "x": 524,
-          "y": 529,
-          "width": 144,
-          "height": 155,
-          "angle": 225
-        },
-        {
-          "id": "chair_with_plant_C_2",
-          "imageId": "chair_with_plant_C_2",
-          "x": 620,
-          "y": 484,
-          "width": 100,
-          "height": 201,
-          "angle": 0
-        }
-      ]
+      "key": "room1_broken_window",
+      "name_key": "room1_broken_window_loc",
+      "multiobjects": [
+        "room1_broken_window"
+      ],
+      "x": 514,
+      "y": 357
     },
     {
-      "groupId": "picture",
-      "objects": [
-        {
-          "id": "picture_A",
-          "imageId": "picture",
-          "x": 566,
-          "y": 219,
-          "width": 114,
-          "height": 281,
-          "angle": 225
-        },
-        {
-          "id": "picture_B",
-          "imageId": "picture_B",
-          "x": 566,
-          "y": 219,
-          "width": 114,
-          "height": 281,
-          "angle": 225
-        },
-        {
-          "id": "picture_C",
-          "imageId": "picture_C",
-          "x": 566,
-          "y": 219,
-          "width": 114,
-          "height": 281,
-          "angle": 225
-        }
-      ]
+      "key": "room1_trash",
+      "name_key": "room1_trash_loc",
+      "multiobjects": [
+        "room1_trash_6",
+        "room1_trash_5",
+        "room1_trash_4",
+        "room1_trash_3",
+        "room1_trash_2",
+        "room1_trash_1"
+      ],
+      "x": 358,
+      "y": 700
     },
     {
-      "groupId": "cupboard",
-      "objects": [
-        {
-          "id": "cupboard_A",
-          "imageId": "cupboard",
-          "x": 185,
-          "y": 78,
-          "width": 237,
-          "height": 559,
-          "angle": 135,
-          "name_key": "cupboard_key"
-        },
-        {
-          "id": "cupboard_B",
-          "imageId": "cupboard_B",
-          "x": 185,
-          "y": 78,
-          "width": 237,
-          "height": 559,
-          "angle": 135,
-          "name_key": "cupboard_key"
-        },
-        {
-          "id": "cupboard_C",
-          "imageId": "cupboard_C",
-          "x": 185,
-          "y": 78,
-          "width": 237,
-          "height": 559,
-          "angle": 135,
-          "name_key": "cupboard_key"
-        }
-      ]
+      "key": "room1_broken_door",
+      "name_key": "room1_broken_door_loc",
+      "multiobjects": [
+        "room1_broken_door"
+      ],
+      "x": 130,
+      "y": 443
     },
     {
-      "groupId": "luster",
-      "objects": [
-        {
-          "id": "luster_A",
-          "imageId": "luster",
-          "x": 311,
-          "y": 36,
-          "width": 164,
-          "height": 184,
-          "angle": -180
-        },
-        {
-          "id": "luster_B",
-          "imageId": "luster_B",
-          "x": 311,
-          "y": 36,
-          "width": 164,
-          "height": 184,
-          "angle": -180
-        },
-        {
-          "id": "luster_C",
-          "imageId": "luster_C",
-          "x": 311,
-          "y": 36,
-          "width": 164,
-          "height": 184,
-          "angle": -180
-        }
-      ]
+      "key": "room1_broken_wall_right",
+      "name_key": "room1_broken_wall_right_loc",
+      "multiobjects": [
+        "room1_broken_wall_right"
+      ],
+      "x": 553,
+      "y": 344
     },
     {
-      "groupId": "door",
-      "objects": [
-        {
-          "id": "door_A",
-          "imageId": "door",
-          "x": 55,
-          "y": 207,
-          "width": 145,
-          "height": 473,
-          "angle": 135,
-          "name_key": "door_key"
-        },
-        {
-          "id": "door_B",
-          "imageId": "door_B",
-          "x": 55,
-          "y": 207,
-          "width": 145,
-          "height": 473,
-          "angle": 135,
-          "name_key": "door_key"
-        },
-        {
-          "id": "door_C",
-          "imageId": "door_C",
-          "x": 55,
-          "y": 207,
-          "width": 145,
-          "height": 473,
-          "angle": 135,
-          "name_key": "door_key"
-        }
-      ]
+      "key": "room1_broken_floor",
+      "name_key": "room1_broken_floor_loc",
+      "multiobjects": [
+        "room1_broken_floor"
+      ],
+      "x": 358,
+      "y": 702
     },
     {
-      "groupId": "plant_left",
-      "objects": [
-        {
-          "id": "plant_left_A",
-          "imageId": "plant_left",
-          "x": 18,
-          "y": 459,
-          "width": 71,
-          "height": 253,
-          "angle": 0
-        },
-        {
-          "id": "plant_left_B",
-          "imageId": "plant_left_B",
-          "x": 18,
-          "y": 459,
-          "width": 71,
-          "height": 253,
-          "angle": 0
-        },
-        {
-          "id": "plant_left_C",
-          "imageId": "plant_left_C",
-          "x": 18,
-          "y": 459,
-          "width": 71,
-          "height": 253,
-          "angle": 0
-        }
-      ]
+      "key": "room1_broken_wall_left",
+      "name_key": "room1_broken_wall_left_loc",
+      "multiobjects": [
+        "room1_broken_wall_left"
+      ],
+      "x": 306,
+      "y": 356
     },
     {
-      "groupId": "broken_wall_left",
-      "objects": [
-        {
-          "id": "broken_wall_left",
-          "imageId": "broken_wall_left",
-          "x": 0,
-          "y": 9,
-          "width": 612,
-          "height": 695,
-          "angle": 180
-        }
-      ]
+      "key": "room1_door",
+      "name_key": "room1_door_loc",
+      "multiobjects": [
+        "room1_door",
+        "room1_door_variant_2",
+        "room1_door_variant_3"
+      ],
+      "x": 128,
+      "y": 444
     },
     {
-      "groupId": "broken_wall_right",
-      "objects": [
-        {
-          "id": "broken_wall_right",
-          "imageId": "broken_wall_right",
-          "x": 386,
-          "y": 9,
-          "width": 334,
-          "height": 671,
-          "angle": 180
-        }
-      ]
+      "key": "room1_window",
+      "name_key": "room1_window_loc",
+      "multiobjects": [
+        "room1_window",
+        "room1_window_variant_2",
+        "room1_window_variant_3"
+      ],
+      "x": 512,
+      "y": 344
     },
     {
-      "groupId": "broken_floor",
-      "objects": [
-        {
-          "id": "broken_floor",
-          "imageId": "broken_floor",
-          "x": 0,
-          "y": 486,
-          "width": 716,
-          "height": 432,
-          "angle": 180
-        }
-      ]
+      "key": "room1_cupboard",
+      "name_key": "room1_cupboard_loc",
+      "multiobjects": [
+        "room1_cupboard",
+        "room1_cupboard_variant_2",
+        "room1_cupboard_variant_3"
+      ],
+      "x": 304,
+      "y": 358
     },
     {
-      "groupId": "trash",
-      "objects": [
-        {
-          "id": "trash_6",
-          "imageId": "trash_6",
-          "x": 508,
-          "y": 611,
-          "width": 209,
-          "height": 89,
-          "angle": 0
-        },
-        {
-          "id": "trash_5",
-          "imageId": "trash_5",
-          "x": 380,
-          "y": 550,
-          "width": 170,
-          "height": 78,
-          "angle": 0
-        },
-        {
-          "id": "trash_4",
-          "imageId": "trash_4",
-          "x": 134,
-          "y": 615,
-          "width": 342,
-          "height": 129,
-          "angle": 180
-        },
-        {
-          "id": "trash_3",
-          "imageId": "trash_3",
-          "x": 128,
-          "y": 597,
-          "width": 166,
-          "height": 70,
-          "angle": 0
-        },
-        {
-          "id": "trash_2",
-          "imageId": "trash_2",
-          "x": 235,
-          "y": 748,
-          "width": 250,
-          "height": 102,
-          "angle": 0,
-          "name_key": "trash2_key"
-        },
-        {
-          "id": "trash_1",
-          "imageId": "trash_1",
-          "x": 0,
-          "y": 664,
-          "width": 151,
-          "height": 80,
-          "angle": 0,
-          "name_key": "trash1_key"
-        }
-      ]
+      "key": "room1_luster",
+      "name_key": "room1_luster_loc",
+      "multiobjects": [
+        "room1_luster",
+        "room1_luster_variant_2",
+        "room1_luster_variant_3"
+      ],
+      "x": 393,
+      "y": 128
     },
     {
-      "groupId": "broken_door",
-      "objects": [
-        {
-          "id": "broken_door",
-          "imageId": "broken_door",
-          "x": 59,
-          "y": 208,
-          "width": 141,
-          "height": 470,
-          "angle": 135,
-          "name_key": "broken_door_key"
-        }
-      ]
+      "key": "room1_picture",
+      "name_key": "room1_picture_loc",
+      "multiobjects": [
+        "room1_picture",
+        "room1_picture_variant_2",
+        "room1_picture_variant_3"
+      ],
+      "x": 623,
+      "y": 360
     },
     {
-      "groupId": "broken_cupboard",
-      "objects": [
-        {
-          "id": "broken_cupboard",
-          "imageId": "broken_cupboard",
-          "x": 184,
-          "y": 70,
-          "width": 232,
-          "height": 550,
-          "angle": 135,
-          "name_key": "broken_cupboard_key"
-        }
-      ]
+      "key": "room1_chair_with_plant",
+      "name_key": "room1_chair_with_plant_loc",
+      "multiobjects": [
+        "room1_chair_with_plant",
+        "room1_chair_with_plant_variant_2",
+        "room1_chair_with_plant_variant_3"
+      ],
+      "x": 622,
+      "y": 584
     },
     {
-      "groupId": "broken_window",
-      "objects": [
-        {
-          "id": "broken_window",
-          "imageId": "broken_window",
-          "x": 438,
-          "y": 124,
-          "width": 152,
-          "height": 466,
-          "angle": 225,
-          "name_key": "broken_window_key"
-        }
-      ]
+      "key": "room1_plant_left",
+      "name_key": "room1_plant_left_loc",
+      "multiobjects": [
+        "room1_plant_left",
+        "room1_plant_left_variant_2",
+        "room1_plant_left_variant_3"
+      ],
+      "x": 54,
+      "y": 586
     },
     {
-      "groupId": "dead_plant",
-      "objects": [
-        {
-          "id": "dead_plant_2",
-          "imageId": "dead_plant_2",
-          "x": 160,
-          "y": 442,
-          "width": 108,
-          "height": 219,
-          "angle": 0,
-          "name_key": "dead_plant_key"
-        },
-        {
-          "id": "dead_plant_1",
-          "imageId": "dead_plant_1",
-          "x": 17,
-          "y": 469,
-          "width": 65,
-          "height": 253,
-          "angle": 0,
-          "name_key": "dead_plant_key"
-        }
-      ]
+      "key": "room1_carpet",
+      "name_key": "room1_carpet_loc",
+      "multiobjects": [
+        "room1_carpet",
+        "room1_carpet_variant_2",
+        "room1_carpet_variant_3"
+      ],
+      "x": 360,
+      "y": 694
     }
   ],
-  "roomId": "room1",
-  "nameKey": "room1_key"
+  "allMultiobjects": [
+    {
+      "key": "room1_dead_plant",
+      "parts": [
+        "room1_dead_plant_2",
+        "room1_dead_plant_1"
+      ],
+      "price": 30,
+      "x": 17,
+      "y": 442
+    },
+    {
+      "key": "room1_broken_cupboard",
+      "parts": [
+        "room1_broken_cupboard"
+      ],
+      "price": 30,
+      "x": 184,
+      "y": 70
+    },
+    {
+      "key": "room1_broken_window",
+      "parts": [
+        "room1_broken_window"
+      ],
+      "price": 30,
+      "x": 438,
+      "y": 124
+    },
+    {
+      "key": "room1_trash_6",
+      "parts": [
+        "room1_trash_6"
+      ],
+      "price": 99999,
+      "x": 508,
+      "y": 611
+    },
+    {
+      "key": "room1_trash_5",
+      "parts": [
+        "room1_trash_5"
+      ],
+      "price": 99999,
+      "x": 380,
+      "y": 550
+    },
+    {
+      "key": "room1_trash_4",
+      "parts": [
+        "room1_trash_4"
+      ],
+      "price": 99999,
+      "x": 134,
+      "y": 615
+    },
+    {
+      "key": "room1_trash_3",
+      "parts": [
+        "room1_trash_3"
+      ],
+      "price": 99999,
+      "x": 128,
+      "y": 597
+    },
+    {
+      "key": "room1_trash_2",
+      "parts": [
+        "room1_trash_2"
+      ],
+      "price": 20,
+      "x": 235,
+      "y": 748
+    },
+    {
+      "key": "room1_trash_1",
+      "parts": [
+        "room1_trash_1"
+      ],
+      "price": 20,
+      "x": 0,
+      "y": 664
+    },
+    {
+      "key": "room1_broken_door",
+      "parts": [
+        "room1_broken_door"
+      ],
+      "price": 20,
+      "x": 59,
+      "y": 208
+    },
+    {
+      "key": "room1_broken_wall_right",
+      "parts": [
+        "room1_broken_wall_right"
+      ],
+      "price": 99999,
+      "x": 386,
+      "y": 9
+    },
+    {
+      "key": "room1_broken_floor",
+      "parts": [
+        "room1_broken_floor"
+      ],
+      "price": 99999,
+      "x": 0,
+      "y": 486
+    },
+    {
+      "key": "room1_broken_wall_left",
+      "parts": [
+        "room1_broken_wall_left"
+      ],
+      "price": 99999,
+      "x": 0,
+      "y": 9
+    },
+    {
+      "key": "room1_door",
+      "parts": [
+        "room1_door"
+      ],
+      "price": 50,
+      "x": 55,
+      "y": 207
+    },
+    {
+      "key": "room1_door_variant_2",
+      "parts": [
+        "room1_door_B"
+      ],
+      "price": 70,
+      "x": 55,
+      "y": 207
+    },
+    {
+      "key": "room1_door_variant_3",
+      "parts": [
+        "room1_door_C"
+      ],
+      "price": 90,
+      "x": 55,
+      "y": 207
+    },
+    {
+      "key": "room1_window",
+      "parts": [
+        "room1_window"
+      ],
+      "price": 50,
+      "x": 446,
+      "y": 120
+    },
+    {
+      "key": "room1_window_variant_2",
+      "parts": [
+        "room1_window_B"
+      ],
+      "price": 70,
+      "x": 446,
+      "y": 120
+    },
+    {
+      "key": "room1_window_variant_3",
+      "parts": [
+        "room1_window_C"
+      ],
+      "price": 90,
+      "x": 446,
+      "y": 120
+    },
+    {
+      "key": "room1_cupboard",
+      "parts": [
+        "room1_cupboard"
+      ],
+      "price": 60,
+      "x": 185,
+      "y": 78
+    },
+    {
+      "key": "room1_cupboard_variant_2",
+      "parts": [
+        "room1_cupboard_B"
+      ],
+      "price": 80,
+      "x": 185,
+      "y": 78
+    },
+    {
+      "key": "room1_cupboard_variant_3",
+      "parts": [
+        "room1_cupboard_C"
+      ],
+      "price": 100,
+      "x": 185,
+      "y": 78
+    },
+    {
+      "key": "room1_luster",
+      "parts": [
+        "room1_luster"
+      ],
+      "price": 99999,
+      "x": 311,
+      "y": 36
+    },
+    {
+      "key": "room1_luster_variant_2",
+      "parts": [
+        "room1_luster_B"
+      ],
+      "price": 99999,
+      "x": 311,
+      "y": 36
+    },
+    {
+      "key": "room1_luster_variant_3",
+      "parts": [
+        "room1_luster_C"
+      ],
+      "price": 99999,
+      "x": 311,
+      "y": 36
+    },
+    {
+      "key": "room1_picture",
+      "parts": [
+        "room1_picture"
+      ],
+      "price": 99999,
+      "x": 566,
+      "y": 219
+    },
+    {
+      "key": "room1_picture_variant_2",
+      "parts": [
+        "room1_picture_B"
+      ],
+      "price": 99999,
+      "x": 566,
+      "y": 219
+    },
+    {
+      "key": "room1_picture_variant_3",
+      "parts": [
+        "room1_picture_C"
+      ],
+      "price": 99999,
+      "x": 566,
+      "y": 219
+    },
+    {
+      "key": "room1_chair_with_plant",
+      "parts": [
+        "room1_chair_with_plant_1",
+        "room1_chair_with_plant_2"
+      ],
+      "price": 40,
+      "x": 524,
+      "y": 484
+    },
+    {
+      "key": "room1_chair_with_plant_variant_2",
+      "parts": [
+        "room1_chair_with_plant_B_1",
+        "room1_chair_with_plant_B_2"
+      ],
+      "price": 50,
+      "x": 524,
+      "y": 484
+    },
+    {
+      "key": "room1_chair_with_plant_variant_3",
+      "parts": [
+        "room1_chair_with_plant_C_1",
+        "room1_chair_with_plant_C_2"
+      ],
+      "price": 70,
+      "x": 524,
+      "y": 484
+    },
+    {
+      "key": "room1_plant_left",
+      "parts": [
+        "room1_plant_left"
+      ],
+      "price": 40,
+      "x": 18,
+      "y": 459
+    },
+    {
+      "key": "room1_plant_left_variant_2",
+      "parts": [
+        "room1_plant_left_B"
+      ],
+      "price": 50,
+      "x": 18,
+      "y": 459
+    },
+    {
+      "key": "room1_plant_left_variant_3",
+      "parts": [
+        "room1_plant_left_C"
+      ],
+      "price": 70,
+      "x": 18,
+      "y": 459
+    },
+    {
+      "key": "room1_carpet",
+      "parts": [
+        "room1_carpet"
+      ],
+      "price": 40,
+      "x": 125,
+      "y": 552
+    },
+    {
+      "key": "room1_carpet_variant_2",
+      "parts": [
+        "room1_carpet_B"
+      ],
+      "price": 50,
+      "x": 125,
+      "y": 552
+    },
+    {
+      "key": "room1_carpet_variant_3",
+      "parts": [
+        "room1_carpet_C"
+      ],
+      "price": 70,
+      "x": 125,
+      "y": 552
+    }
+  ],
+  "allParts": [
+    {
+      "key": "room1_dead_plant_2",
+      "x": 160,
+      "y": 442,
+      "angle": 0
+    },
+    {
+      "key": "room1_dead_plant_1",
+      "x": 17,
+      "y": 469,
+      "angle": 0
+    },
+    {
+      "key": "room1_broken_cupboard",
+      "x": 184,
+      "y": 70,
+      "angle": 135
+    },
+    {
+      "key": "room1_broken_window",
+      "x": 438,
+      "y": 124,
+      "angle": 225
+    },
+    {
+      "key": "room1_trash_6",
+      "x": 508,
+      "y": 611,
+      "angle": 0
+    },
+    {
+      "key": "room1_trash_5",
+      "x": 380,
+      "y": 550,
+      "angle": 0
+    },
+    {
+      "key": "room1_trash_4",
+      "x": 134,
+      "y": 615,
+      "angle": 180
+    },
+    {
+      "key": "room1_trash_3",
+      "x": 128,
+      "y": 597,
+      "angle": 0
+    },
+    {
+      "key": "room1_trash_2",
+      "x": 235,
+      "y": 748,
+      "angle": 0
+    },
+    {
+      "key": "room1_trash_1",
+      "x": 0,
+      "y": 664,
+      "angle": 0
+    },
+    {
+      "key": "room1_broken_door",
+      "x": 59,
+      "y": 208,
+      "angle": 135
+    },
+    {
+      "key": "room1_broken_wall_right",
+      "x": 386,
+      "y": 9,
+      "angle": 180
+    },
+    {
+      "key": "room1_broken_floor",
+      "x": 0,
+      "y": 486,
+      "angle": 180
+    },
+    {
+      "key": "room1_broken_wall_left",
+      "x": 0,
+      "y": 9,
+      "angle": 180
+    },
+    {
+      "key": "room1_door",
+      "x": 55,
+      "y": 207,
+      "angle": 135
+    },
+    {
+      "key": "room1_window",
+      "x": 446,
+      "y": 120,
+      "angle": 225
+    },
+    {
+      "key": "room1_cupboard",
+      "x": 185,
+      "y": 78,
+      "angle": 135
+    },
+    {
+      "key": "room1_luster",
+      "x": 311,
+      "y": 36,
+      "angle": -180
+    },
+    {
+      "key": "room1_picture",
+      "x": 566,
+      "y": 219,
+      "angle": 225
+    },
+    {
+      "key": "room1_chair_with_plant_1",
+      "x": 524,
+      "y": 529,
+      "angle": 225
+    },
+    {
+      "key": "room1_chair_with_plant_2",
+      "x": 620,
+      "y": 484,
+      "angle": 0
+    },
+    {
+      "key": "room1_plant_left",
+      "x": 18,
+      "y": 459,
+      "angle": 0
+    },
+    {
+      "key": "room1_carpet",
+      "x": 125,
+      "y": 552,
+      "angle": 0
+    },
+    {
+      "key": "room1_door_B",
+      "x": 55,
+      "y": 207,
+      "angle": 135
+    },
+    {
+      "key": "room1_door_C",
+      "x": 55,
+      "y": 207,
+      "angle": 135
+    },
+    {
+      "key": "room1_window_B",
+      "x": 446,
+      "y": 120,
+      "angle": 225
+    },
+    {
+      "key": "room1_window_C",
+      "x": 446,
+      "y": 120,
+      "angle": 225
+    },
+    {
+      "key": "room1_cupboard_B",
+      "x": 185,
+      "y": 78,
+      "angle": 135
+    },
+    {
+      "key": "room1_cupboard_C",
+      "x": 185,
+      "y": 78,
+      "angle": 135
+    },
+    {
+      "key": "room1_luster_B",
+      "x": 311,
+      "y": 36,
+      "angle": -180
+    },
+    {
+      "key": "room1_luster_C",
+      "x": 311,
+      "y": 36,
+      "angle": -180
+    },
+    {
+      "key": "room1_picture_B",
+      "x": 566,
+      "y": 219,
+      "angle": 225
+    },
+    {
+      "key": "room1_picture_C",
+      "x": 566,
+      "y": 219,
+      "angle": 225
+    },
+    {
+      "key": "room1_plant_left_B",
+      "x": 18,
+      "y": 459,
+      "angle": 0
+    },
+    {
+      "key": "room1_plant_left_C",
+      "x": 18,
+      "y": 459,
+      "angle": 0
+    },
+    {
+      "key": "room1_carpet_B",
+      "x": 125,
+      "y": 552,
+      "angle": 0
+    },
+    {
+      "key": "room1_carpet_C",
+      "x": 125,
+      "y": 552,
+      "angle": 0
+    },
+    {
+      "key": "room1_chair_with_plant_B_1",
+      "x": 524,
+      "y": 529,
+      "angle": 225
+    },
+    {
+      "key": "room1_chair_with_plant_B_2",
+      "x": 620,
+      "y": 484,
+      "angle": 0
+    },
+    {
+      "key": "room1_chair_with_plant_C_1",
+      "x": 524,
+      "y": 529,
+      "angle": 225
+    },
+    {
+      "key": "room1_chair_with_plant_C_2",
+      "x": 620,
+      "y": 484,
+      "angle": 0
+    }
+  ]
 }

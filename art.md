@@ -72,7 +72,7 @@
 После замены PNG:
 
 ```bash
-cmd /c npm run atlases
+cmd /c npm run prepare-atlases
 cmd /c npm run build
 ```
 

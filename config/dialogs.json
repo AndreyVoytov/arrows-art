@@ -1,26 +1,95 @@
 {
-  "characterNames": {
-    "images/characters/anna_neutral.png": "Анна",
-    "images/characters/anna_smile.png": "Анна",
-    "images/characters/anna_sad.png": "Анна",
-    "images/characters/anna_fear.png": "Анна",
-    "images/characters/anna_angry.png": "Анна",
-    "images/characters/anna_embarrassed.png": "Анна",
-    "images/characters/alex_neutral.png": "Алекс",
-    "images/characters/alex_joy.png": "Алекс",
-    "images/characters/alex_sad.png": "Алекс",
-    "images/characters/alex_angry.png": "Алекс",
-    "images/characters/victor_neutral.png": "Виктор",
-    "images/characters/victor_smirk.png": "Виктор",
-    "images/characters/mary_neutral.png": "Тетя Мэри",
-    "images/characters/mary_smile.png": "Тетя Мэри",
-    "images/characters/henry_neutral.png": "Генри",
-    "images/characters/henry_smile.png": "Генри",
-    "images/characters/henry_embarrassed.png": "Генри",
-    "images/characters/kate_neutral.png": "Кейт",
-    "images/characters/kate_smile.png": "Кейт",
-    "images/characters/kate_smirk.png": "Кейт",
-    "images/characters/kate_angry.png": "Кейт"
-  },
-  "dialogs": []
+  "characters": [
+    {
+      "id": "anna",
+      "name_key": "anna_loc",
+      "states": [
+        "anna_angry",
+        "anna_neutral",
+        "anna_sad",
+        "anna_fear",
+        "anna_embarrassed"
+      ]
+    },
+    {
+      "id": "alex",
+      "name_key": "alex_loc",
+      "states": [
+        "alex_neutral",
+        "alex_joy",
+        "alex_sad",
+        "alex_angry"
+      ]
+    },
+    {
+      "id": "victor",
+      "name_key": "victor_loc",
+      "states": [
+        "victor_neutral",
+        "victor_smirk"
+      ]
+    },
+    {
+      "id": "mary",
+      "name_key": "mary_loc",
+      "states": [
+        "mary_neutral",
+        "mary_smile"
+      ]
+    },
+    {
+      "id": "henry",
+      "name_key": "henry_loc",
+      "states": [
+        "henry_neutral",
+        "henry_smile",
+        "henry_embarrassed"
+      ]
+    },
+    {
+      "id": "kate",
+      "name_key": "kate_loc",
+      "states": [
+        "kate_neutral",
+        "kate_smile",
+        "kate_smirk",
+        "kate_angry"
+      ]
+    }
+  ],
+  "dialogs": [
+    {
+      "id": "room1_d1",
+      "roomId": "room1",
+      "roomIndex": 1,
+      "conditions": [
+        {
+          "trigger": "roomEntered"
+        }
+      ],
+      "replicas": [
+        {
+          "id": "room1_d1_r1",
+          "char_key": "anna_loc",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room1_d1_r1_loc"
+        },
+        {
+          "id": "room1_d1_r2",
+          "char_key": "anna_loc",
+          "char_state": "anna_sad",
+          "position": "left",
+          "text_key": "room1_d1_r2_loc"
+        },
+        {
+          "id": "room1_d1_r3",
+          "char_key": "alex_loc",
+          "char_state": "alex_joy",
+          "position": "right",
+          "text_key": "room1_d1_r3_loc"
+        }
+      ]
+    }
+  ]
 }

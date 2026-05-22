@@ -68,8 +68,11 @@ def write_rooms_manifest() -> None:
         except (OSError, json.JSONDecodeError):
             room_config = {}
 
-        if isinstance(room_config, dict) and isinstance(room_config.get("nameKey"), str):
-            room["nameKey"] = room_config["nameKey"]
+        if isinstance(room_config, dict):
+            if isinstance(room_config.get("name_key"), str):
+                room["nameKey"] = room_config["name_key"]
+            elif isinstance(room_config.get("nameKey"), str):
+                room["nameKey"] = room_config["nameKey"]
 
         rooms.append(room)
 

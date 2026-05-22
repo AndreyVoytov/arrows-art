@@ -7,7 +7,14 @@
   const STEP_DELAY = 120;
   const ROOM_IMAGE_ROOT = "images/rooms";
   const DIALOG_CONFIG_URL = "config/dialogs.json";
-  const EQUIPMENT_PRICES_URL = "config/equipment_prices.json";
+  const TEXT_RU_URL = "config/text/temp/ru.json";
+  const LEGACY_DIALOG_TEXT_URL = "config/text/temp/dialogs_ru.json";
+  const SPRITE_Z = {
+    SURFACE_DAMAGE: 1000,
+    FLOOR_COVERING: 2000,
+    WALL_FIXTURE: 3000,
+    LOOSE_OBJECT: 4000
+  };
 
   const TRIGGER_OPTIONS = [
     { value: "roomEntered", label: "roomEntered" },
@@ -95,8 +102,8 @@
   let currentRoomId = null;
   let currentRoomIndex = 0;
   let orders = { repair: [], decor: [] };
-  let equipmentPrices = new Map();
   let phaseByGroup = new Map();
+  let actionPointsByGroup = new Map();
   let sprites = [];
   let state = createInitialState();
   let activeVariant = null;
@@ -112,7 +119,7 @@
   window.addEventListener("resize", syncScale);
   topMenuButton.addEventListener("click", showMenu);
   roomsTab.addEventListener("click", () => showMenuView("rooms"));
-  dialogsTab.addEventListener("click", () => showMenuView("dialogs"));
+  dialogsTab?.addEventListener("click", () => showMenuView("dialogs"));
   editorRoomIndex.addEventListener("change", handleEditorRoomChange);
   dialogAdd.addEventListener("click", createDialogDraft);
   dialogExport.addEventListener("click", exportDialogsConfig);
@@ -129,14 +136,13 @@
   topMenuButton.classList.add("hidden");
   levelTest.classList.add("hidden");
 
-  const [rooms, loadedDialogs, loadedEquipmentPrices] = await Promise.all([
+  const [rooms, loadedDialogs, loadedDialogTexts] = await Promise.all([
     loadRooms(),
     loadDialogsConfig(),
-    loadEquipmentPrices()
+    loadDialogTexts()
   ]);
   roomDescriptors = rooms;
-  dialogsConfig = normalizeDialogsConfig(loadedDialogs);
-  equipmentPrices = normalizeEquipmentPrices(loadedEquipmentPrices);
+  dialogsConfig = normalizeDialogsConfig(loadedDialogs, loadedDialogTexts);
   editorRoomIndex.value = String(initialRoomIndex(roomDescriptors));
   renderRoomMenu(roomDescriptors);
   renderDialogList();
@@ -198,16 +204,26 @@
     }
   }
 
-  async function loadEquipmentPrices() {
+  async function loadDialogTexts() {
+    const ru = await loadJsonOrNull(TEXT_RU_URL);
+    if (ru !== null) {
+      return ru;
+    }
+
+    const legacy = await loadJsonOrNull(LEGACY_DIALOG_TEXT_URL);
+    return legacy ?? {};
+  }
+
+  async function loadJsonOrNull(url) {
     try {
-      const response = await fetch(EQUIPMENT_PRICES_URL, { cache: "no-store" });
+      const response = await fetch(url, { cache: "no-store" });
       if (!response.ok) {
-        throw new Error("equipment prices config not found");
+        throw new Error(`${url} not found`);
       }
 
       return response.json();
     } catch (error) {
-      return { rooms: {} };
+      return null;
     }
   }
 
@@ -231,6 +247,7 @@
     activeVariant = null;
     orders = { repair: [], decor: [] };
     phaseByGroup = new Map();
+    actionPointsByGroup = new Map();
     sprites = [];
     playedDialogKeys = new Set();
     levelIndex = 0;
@@ -241,22 +258,18 @@
     hideVariantPanel();
     closeDialogPlayback();
 
-    roomBg.src = roomImageUrl("room_bg");
     roomMenu.classList.add("hidden");
     topMenuButton.classList.remove("hidden");
     levelTest.classList.remove("hidden");
     status.textContent = "";
 
-    const [roomConfig, orderConfig] = await Promise.all([
-      fetch(`config/${currentRoomId}.json`).then((response) => response.json()),
-      fetch(`config/${currentRoomId}_order.json`).then((response) => response.json())
-    ]);
+    const roomConfig = await fetch(`config/${currentRoomId}.json`).then((response) => response.json());
+    const orderConfig = roomConfig.content ? null : await loadLegacyRoomOrder(currentRoomId);
 
-    orders = {
-      repair: normalizeOrder(orderConfig.repair),
-      decor: normalizeOrder(orderConfig.decor)
-    };
+    roomBg.src = roomImageUrl(roomBackgroundImageId(roomConfig));
+    orders = normalizeRoomOrders(roomConfig, orderConfig);
     phaseByGroup = buildPhaseMap(orders);
+    actionPointsByGroup = buildActionPointMap(roomConfig);
     sprites = createSprites(roomConfig);
 
     showNextBatch();
@@ -285,7 +298,7 @@
     roomsView.classList.toggle("hidden", isDialogs);
     dialogEditorView.classList.toggle("hidden", !isDialogs);
     roomsTab.classList.toggle("selected", !isDialogs);
-    dialogsTab.classList.toggle("selected", isDialogs);
+    dialogsTab?.classList.toggle("selected", isDialogs);
     menuTitle.textContent = isDialogs ? "Редактор диалогов" : "Выбор комнаты";
 
     if (isDialogs) {
@@ -321,9 +334,13 @@
         element.dataset.phase = phase;
         element.style.left = `${object.x}px`;
         element.style.top = `${object.y}px`;
-        element.style.width = `${object.width}px`;
-        element.style.height = `${object.height}px`;
-        element.style.zIndex = String(index + 2);
+        if (Number.isFinite(object.width)) {
+          element.style.width = `${object.width}px`;
+        }
+        if (Number.isFinite(object.height)) {
+          element.style.height = `${object.height}px`;
+        }
+        element.style.zIndex = String(spriteZIndex(object, index, phase));
 
         if (phase === "decor") {
           element.classList.add("hidden");
@@ -337,7 +354,7 @@
           ...object,
           phase,
           order: index,
-          variant: variantFromId(object.id),
+          variant: object.variant ?? variantFromId(object.id),
           element,
           done: phase === "decor"
         };
@@ -346,6 +363,55 @@
   }
 
   function flattenRoomObjects(roomConfig) {
+    if (Array.isArray(roomConfig.allParts) && Array.isArray(roomConfig.allMultiobjects)) {
+      const partsByKey = new Map(
+        roomConfig.allParts
+          .filter((part) => part && typeof part === "object")
+          .map((part) => [String(part.key), part])
+      );
+      const actionPoints = Array.isArray(roomConfig.allActionPoints) ? roomConfig.allActionPoints : [];
+      const actionByMultiobject = new Map();
+
+      for (const actionPoint of actionPoints) {
+        if (!actionPoint || typeof actionPoint !== "object" || !Array.isArray(actionPoint.multiobjects)) {
+          continue;
+        }
+
+        for (const multiobjectKey of actionPoint.multiobjects) {
+          actionByMultiobject.set(String(multiobjectKey), String(actionPoint.key));
+        }
+      }
+
+      return roomConfig.allMultiobjects.flatMap((multiobject) => {
+        if (!multiobject || typeof multiobject !== "object" || !Array.isArray(multiobject.parts)) {
+          return [];
+        }
+
+        const multiobjectKey = String(multiobject.key);
+        const group = actionByMultiobject.get(multiobjectKey) ?? String(multiobject.actionPoint ?? multiobject.group ?? multiobjectKey);
+        const actionPoint = actionPoints.find((item) => item && String(item.key) === group);
+        const variant = variantForMultiobject(actionPoint, multiobjectKey);
+        const price = normalizePriceValue(multiobject.price);
+
+        return multiobject.parts
+          .map((partKey) => partsByKey.get(String(partKey)))
+          .filter(Boolean)
+          .map((part) => ({
+            id: String(part.key),
+            imageId: String(part.image ?? part.imageId ?? part.key),
+            group,
+            multiobject: multiobjectKey,
+            price,
+            x: toFiniteNumber(part.x, toFiniteNumber(multiobject.x, 0)),
+            y: toFiniteNumber(part.y, toFiniteNumber(multiobject.y, 0)),
+            width: toFiniteNumber(part.width, toFiniteNumber(multiobject.width, null)),
+            height: toFiniteNumber(part.height, toFiniteNumber(multiobject.height, null)),
+            angle: toFiniteNumber(part.angle, toFiniteNumber(multiobject.angle, 0)),
+            variant
+          }));
+      });
+    }
+
     if (Array.isArray(roomConfig.groups)) {
       return roomConfig.groups.flatMap((group) => {
         return group.objects.map((object) => ({
@@ -362,6 +428,54 @@
     }));
   }
 
+  async function loadLegacyRoomOrder(roomId) {
+    try {
+      const response = await fetch(`config/${roomId}_order.json`);
+      if (!response.ok) {
+        throw new Error("legacy room order not found");
+      }
+
+      return response.json();
+    } catch (error) {
+      return { repair: [], decor: [] };
+    }
+  }
+
+  function normalizeRoomOrders(roomConfig, orderConfig) {
+    if (roomConfig.content && typeof roomConfig.content === "object") {
+      return {
+        repair: normalizeOrder(roomConfig.content.repairActionPoint),
+        decor: normalizeOrder(roomConfig.content.decorActionPoint)
+      };
+    }
+
+    return {
+      repair: normalizeOrder(orderConfig?.repair),
+      decor: normalizeOrder(orderConfig?.decor)
+    };
+  }
+
+  function roomBackgroundImageId(roomConfig) {
+    return String(roomConfig.background ?? roomConfig.backgroundImage ?? `${currentRoomId}_room_bg`);
+  }
+
+  function buildActionPointMap(roomConfig) {
+    const map = new Map();
+    if (!Array.isArray(roomConfig.allActionPoints)) {
+      return map;
+    }
+
+    for (const actionPoint of roomConfig.allActionPoints) {
+      if (!actionPoint || typeof actionPoint !== "object" || !actionPoint.key) {
+        continue;
+      }
+
+      map.set(String(actionPoint.key), actionPoint);
+    }
+
+    return map;
+  }
+
   function normalizeOrder(entries = []) {
     return entries.map((entry) => {
       if (typeof entry === "string") {
@@ -369,18 +483,23 @@
         const square = entry.match(/\[(-?\d+)\]$/);
         const angleMatch = curly ?? square;
         return {
-          group: normalizeGroup(entry),
+          group: normalizeActionKey(entry),
           angle: angleMatch ? Number(angleMatch[1]) : null,
           done: false
         };
       }
 
       return {
-        group: normalizeGroup(entry.group ?? entry.id ?? ""),
+        group: normalizeActionKey(entry.group ?? entry.id ?? entry.key ?? ""),
         angle: Number.isFinite(entry.angle) ? entry.angle : null,
         done: false
       };
     });
+  }
+
+  function normalizeActionKey(value) {
+    const raw = String(value).trim().replace(/\{(-?\d+)\}$/, "").replace(/\[(-?\d+)\]$/, "");
+    return raw.startsWith(`${currentRoomId}_`) ? raw : normalizeGroup(raw);
   }
 
   function normalizeGroup(value) {
@@ -423,9 +542,51 @@
     return match ? match[1] : null;
   }
 
+  function variantForMultiobject(actionPoint, multiobjectKey) {
+    if (!actionPoint || !Array.isArray(actionPoint.multiobjects) || actionPoint.multiobjects.length <= 1) {
+      return null;
+    }
+
+    const index = actionPoint.multiobjects.map(String).indexOf(String(multiobjectKey));
+    if (index < 0) {
+      return null;
+    }
+
+    return String.fromCharCode("A".charCodeAt(0) + index);
+  }
+
   function naturalIndex(id) {
     const match = idWithoutAngle(id).match(/_(\d+)$/);
     return match ? Number(match[1]) : Number.POSITIVE_INFINITY;
+  }
+
+  function spriteZIndex(object, index, phase) {
+    return spriteZBase(object, phase) + index;
+  }
+
+  function spriteZBase(object, phase) {
+    if (phase === "repair" && spriteKeyMatches(object, /(?:^|_)broken_(?:wall|floor)(?:_|$)/)) {
+      return SPRITE_Z.SURFACE_DAMAGE;
+    }
+
+    if (spriteKeyMatches(object, /(?:^|_)(?:carpet|rug)(?:_|$)/)) {
+      return SPRITE_Z.FLOOR_COVERING;
+    }
+
+    if (spriteKeyMatches(object, /(?:^|_)(?:trash|plant|chair)(?:_|$)/)) {
+      return SPRITE_Z.LOOSE_OBJECT;
+    }
+
+    return SPRITE_Z.WALL_FIXTURE;
+  }
+
+  function spriteKeyMatches(object, pattern) {
+    return [
+      object.id,
+      object.imageId,
+      object.group,
+      object.multiobject
+    ].some((value) => pattern.test(String(value ?? "")));
   }
 
   function objectsFor(action, phase) {
@@ -474,8 +635,11 @@
 
   function createActionButton(action) {
     const object = objectsFor(action, state.phase)[0];
-    const centerX = clamp(object.x + object.width / 2, BUTTON_SIZE / 2, GAME_WIDTH - BUTTON_SIZE / 2);
-    const centerY = clamp(object.y + object.height / 2, BUTTON_SIZE / 2, GAME_HEIGHT - BUTTON_SIZE / 2);
+    const actionPoint = actionPointsByGroup.get(action.group);
+    const rawCenterX = actionPoint ? toFiniteNumber(actionPoint.x, object.x) : object.x + object.width / 2;
+    const rawCenterY = actionPoint ? toFiniteNumber(actionPoint.y, object.y) : object.y + object.height / 2;
+    const centerX = clamp(rawCenterX, BUTTON_SIZE / 2, GAME_WIDTH - BUTTON_SIZE / 2);
+    const centerY = clamp(rawCenterY, BUTTON_SIZE / 2, GAME_HEIGHT - BUTTON_SIZE / 2);
     const button = document.createElement("button");
 
     button.className = "action-button";
@@ -583,45 +747,6 @@
       .sort((left, right) => left.id.localeCompare(right.id));
   }
 
-  function normalizeEquipmentPrices(config) {
-    const prices = new Map();
-    const rooms = config && typeof config === "object" && config.rooms && typeof config.rooms === "object"
-      ? config.rooms
-      : {};
-
-    for (const [roomId, roomItems] of Object.entries(rooms)) {
-      if (!roomItems || typeof roomItems !== "object" || Array.isArray(roomItems)) {
-        continue;
-      }
-
-      for (const [objectId, rawEntry] of Object.entries(roomItems)) {
-        const entry = normalizePriceEntry(objectId, rawEntry);
-        if (entry === null) {
-          continue;
-        }
-
-        for (const key of priceConfigKeys(objectId)) {
-          prices.set(priceMapKey(roomId, key), entry);
-        }
-      }
-    }
-
-    return prices;
-  }
-
-  function normalizePriceEntry(objectId, rawEntry) {
-    if (!rawEntry || typeof rawEntry !== "object" || !Array.isArray(rawEntry.prices)) {
-      return null;
-    }
-
-    const prices = rawEntry.prices.map(normalizePriceValue);
-    if (!prices.some((price) => price !== null)) {
-      return null;
-    }
-
-    return { objectId, prices };
-  }
-
   function normalizePriceValue(value) {
     if (value === null || value === undefined || value === "") {
       return null;
@@ -650,106 +775,7 @@
   }
 
   function decorPriceFor(action, variantId = null, object = null) {
-    const entry = priceEntryForDecor(action, object);
-    if (entry === null) {
-      return null;
-    }
-
-    const priceIndex = variantPriceIndex(variantId ?? object?.variant);
-    if (priceIndex !== null && entry.prices[priceIndex] !== null && entry.prices[priceIndex] !== undefined) {
-      return entry.prices[priceIndex];
-    }
-
-    return entry.prices.find((price) => price !== null) ?? null;
-  }
-
-  function priceEntryForDecor(action, object) {
-    const candidates = [
-      action?.group,
-      object?.group,
-      object?.id,
-      object?.imageId,
-      object ? normalizeGroup(object.id) : "",
-      object ? normalizeGroup(object.imageId ?? "") : ""
-    ];
-
-    for (const candidate of candidates) {
-      if (!candidate) {
-        continue;
-      }
-
-      for (const key of priceLookupKeys(candidate)) {
-        for (const lookupKey of priceLookupAliases(key)) {
-          const entry = equipmentPrices.get(priceMapKey(currentRoomId, lookupKey));
-          if (entry) {
-            return entry;
-          }
-        }
-      }
-    }
-
-    return null;
-  }
-
-  function priceConfigKeys(value) {
-    const keys = new Set();
-    const raw = String(value ?? "");
-    const withoutAngle = idWithoutAngle(raw);
-    addPriceKey(keys, raw);
-    addPriceKey(keys, withoutAngle);
-
-    if (variantFromId(raw) === null) {
-      addPriceKey(keys, normalizeGroup(withoutAngle));
-    }
-
-    return [...keys];
-  }
-
-  function priceLookupKeys(value) {
-    const keys = new Set();
-    const raw = String(value ?? "");
-    const withoutAngle = idWithoutAngle(raw);
-    addPriceKey(keys, raw);
-    addPriceKey(keys, withoutAngle);
-    addPriceKey(keys, normalizeGroup(withoutAngle));
-    return [...keys];
-  }
-
-  function addPriceKey(keys, value) {
-    const key = normalizePriceKey(value);
-    if (key) {
-      keys.add(key);
-    }
-  }
-
-  function normalizePriceKey(value) {
-    return String(value ?? "").toLowerCase().replace(/[^a-z0-9]/g, "");
-  }
-
-  function priceLookupAliases(key) {
-    const aliases = [key];
-    const withoutSide = key.replace(/(?:left|right)$/, "");
-    if (withoutSide && withoutSide !== key) {
-      aliases.push(withoutSide);
-    }
-
-    if (key.includes("plant") && !aliases.includes("plant")) {
-      aliases.push("plant");
-    }
-
-    return aliases;
-  }
-
-  function priceMapKey(roomId, key) {
-    return `${roomId}:${key}`;
-  }
-
-  function variantPriceIndex(variantId) {
-    if (typeof variantId !== "string" || !/^[A-Z]$/.test(variantId)) {
-      return null;
-    }
-
-    return variantId.charCodeAt(0) - "A".charCodeAt(0);
+    return normalizePriceValue(object?.price);
   }
 
   function formatPriceRange(prices) {
@@ -1033,7 +1059,7 @@
     inactiveCharacter.classList.add("hidden");
     activeCharacter.src = image;
     activeCharacter.classList.remove("hidden");
-    dialogSpeaker.textContent = characterNameForImage(image);
+    dialogSpeaker.textContent = characterNameForLine(line);
     dialogText.textContent = line.text;
     dialogOverlay.classList.remove("hidden");
   }
@@ -1428,16 +1454,22 @@
 
   function serializeDialogsConfig() {
     return {
-      characterNames: dialogsConfig.characterNames,
+      characters: dialogsConfig.characters,
       dialogs: dialogsConfig.dialogs.map((dialog) => ({
         id: dialog.id,
         roomIndex: dialog.roomIndex,
         conditions: dialog.conditions.map(serializeCondition),
-        lines: dialog.lines.map((line) => ({
-          image: normalizeCharacterImagePath(line.image),
-          position: line.position,
-          text: line.text
-        }))
+        replicas: dialog.lines.map((line, index) => {
+          const replicaId = line.id || `${dialog.id}_r${index + 1}`;
+          const charState = line.charState || characterStateFromImage(line.image);
+          return {
+            id: replicaId,
+            char_key: line.charKey || charKeyForState(charState),
+            char_state: charState,
+            position: line.position,
+            text_key: line.textKey || `${replicaId}_loc`
+          };
+        })
       }))
     };
   }
@@ -1462,10 +1494,13 @@
     return output;
   }
 
-  function normalizeDialogsConfig(config) {
+  function normalizeDialogsConfig(config, dialogTexts = {}) {
     const characterNames = {
       ...DEFAULT_CHARACTER_NAMES
     };
+    const characterKeys = {};
+    const characterStateKeys = {};
+    const characters = [];
 
     if (config.characterNames && typeof config.characterNames === "object" && !Array.isArray(config.characterNames)) {
       for (const [image, name] of Object.entries(config.characterNames)) {
@@ -1475,25 +1510,94 @@
 
     if (Array.isArray(config.characters)) {
       for (const character of config.characters) {
+        if (character === null || typeof character !== "object") {
+          continue;
+        }
+
+        const id = String(character.id ?? "").trim();
+        const key = String(character.name_key ?? character.key ?? character.char_key ?? (id ? `${id}_loc` : "")).trim();
+        const name = String(dialogTexts[key] ?? character.name ?? "").trim();
+        const states = Array.isArray(character.states)
+          ? character.states.map((state) => String(state).trim()).filter(Boolean)
+          : [];
+
+        if (key) {
+          characterKeys[key] = name || key;
+          if (id) {
+            characterKeys[`${id}_key`] = name || key;
+          }
+          characters.push({
+            id,
+            name_key: String(character.name_key ?? key),
+            states
+          });
+        }
+
+        for (const state of states) {
+          if (key) {
+            characterStateKeys[state] = key;
+          }
+          if (name) {
+            characterNames[normalizeCharacterStateImage(state)] = name;
+          }
+        }
+
         if (character.image && character.name) {
           characterNames[normalizeCharacterImagePath(character.image)] = String(character.name);
         }
       }
     } else if (config.characters && typeof config.characters === "object") {
-      for (const [image, name] of Object.entries(config.characters)) {
-        characterNames[normalizeCharacterImagePath(image)] = String(name);
+      for (const [keyOrImage, value] of Object.entries(config.characters)) {
+        if (value && typeof value === "object") {
+          const id = String(value.id ?? "").trim();
+          const key = String(value.name_key ?? value.key ?? keyOrImage ?? (id ? `${id}_loc` : "")).trim();
+          const name = String(dialogTexts[key] ?? value.name ?? "").trim();
+          const states = Array.isArray(value.states)
+            ? value.states.map((state) => String(state).trim()).filter(Boolean)
+            : [];
+
+          if (key) {
+            characterKeys[key] = name || key;
+            if (id) {
+              characterKeys[`${id}_key`] = name || key;
+            }
+            characters.push({
+              id,
+              name_key: String(value.name_key ?? key),
+              states
+            });
+          }
+
+          for (const state of states) {
+            if (key) {
+              characterStateKeys[state] = key;
+            }
+            if (name) {
+              characterNames[normalizeCharacterStateImage(state)] = name;
+            }
+          }
+        } else {
+          characterNames[normalizeCharacterImagePath(keyOrImage)] = String(value);
+        }
       }
     }
 
     return {
+      characters,
+      characterStateKeys,
+      characterKeys,
       characterNames,
+      dialogTexts,
       dialogs: Array.isArray(config.dialogs)
-        ? config.dialogs.map(normalizeDialogItem).filter(Boolean)
+        ? config.dialogs.map((dialog, index) => normalizeDialogItem(dialog, index, {
+          characterStateKeys,
+          dialogTexts
+        })).filter(Boolean)
         : []
     };
   }
 
-  function normalizeDialogItem(dialog, index = 0) {
+  function normalizeDialogItem(dialog, index = 0, context = {}) {
     if (dialog === null || typeof dialog !== "object") {
       return null;
     }
@@ -1501,13 +1605,17 @@
     const conditions = Array.isArray(dialog.conditions)
       ? dialog.conditions.map(normalizeCondition).filter(Boolean)
       : [];
-    const lines = Array.isArray(dialog.lines)
-      ? dialog.lines.map(normalizeLine).filter(Boolean)
+    const rawLines = Array.isArray(dialog.replicas) ? dialog.replicas : dialog.lines;
+    const lines = Array.isArray(rawLines)
+      ? rawLines.map((line) => normalizeLine(line, context)).filter(Boolean)
       : [];
 
     return {
       id: String(dialog.id || `dialog_${index + 1}`),
-      roomIndex: toPositiveInt(dialog.roomIndex ?? dialog.roomindex ?? dialog.room, 1),
+      roomIndex: toPositiveInt(
+        dialog.roomIndex ?? dialog.roomindex ?? roomIndexFromId(dialog.roomId ?? dialog.room ?? dialog.id),
+        1
+      ),
       conditions,
       lines
     };
@@ -1532,28 +1640,50 @@
     };
   }
 
-  function normalizeLine(line) {
+  function normalizeLine(line, context = {}) {
     if (line === null || typeof line !== "object") {
       return null;
     }
 
+    const charState = String(line.char_state ?? line.charState ?? characterStateFromImage(line.image ?? line.characterImage ?? line.avatar ?? firstCharacterImage())).trim();
+    const charKey = String(line.char_key ?? line.charKey ?? context.characterStateKeys?.[charState] ?? "").trim();
+    const textKey = String(line.text_key ?? line.textKey ?? "").trim();
+    const text = String(
+      (textKey && context.dialogTexts ? context.dialogTexts[textKey] : undefined)
+        ?? line.text
+        ?? ""
+    );
+
     return {
-      image: normalizeCharacterImagePath(line.image ?? line.characterImage ?? line.avatar ?? firstCharacterImage()),
+      id: String(line.id ?? ""),
+      charKey,
+      charState,
+      textKey,
+      image: normalizeCharacterStateImage(charState),
       position: line.position === "right" ? "right" : "left",
-      text: String(line.text ?? "")
+      text
     };
   }
 
   function createDefaultDialogsConfig() {
     return {
+      characters: [],
+      characterKeys: {},
       characterNames: DEFAULT_CHARACTER_NAMES,
+      dialogTexts: {},
       dialogs: []
     };
   }
 
   function defaultLine() {
+    const image = firstCharacterImage();
+    const charState = characterStateFromImage(image);
     return {
-      image: firstCharacterImage(),
+      id: "",
+      charKey: charKeyForState(charState),
+      charState,
+      textKey: "",
+      image,
       text: "",
       position: "left"
     };
@@ -1577,6 +1707,33 @@
     return dialogsConfig.characterNames[normalized]
       ?? dialogsConfig.characterNames[baseName(normalized)]
       ?? "Персонаж";
+  }
+
+  function characterNameForLine(line) {
+    return dialogsConfig.characterKeys?.[line.charKey]
+      ?? characterNameForImage(line.image);
+  }
+
+  function charKeyForState(charState) {
+    return dialogsConfig.characterStateKeys?.[charState]
+      ?? `${String(charState || "unknown").split("_", 1)[0]}_loc`;
+  }
+
+  function characterStateFromImage(image) {
+    return baseName(image).replace(/\.png$/i, "");
+  }
+
+  function normalizeCharacterStateImage(charState) {
+    const value = String(charState ?? "").trim();
+    if (value.length === 0) {
+      return normalizeCharacterImagePath(firstCharacterImage());
+    }
+
+    if (/^(?:https?:|data:|\/|images\/)/.test(value)) {
+      return normalizeCharacterImagePath(value);
+    }
+
+    return normalizeCharacterImagePath(value.endsWith(".png") ? value : `${value}.png`);
   }
 
   function normalizeCharacterImagePath(image) {
@@ -1631,6 +1788,11 @@
   function toPositiveInt(value, fallback) {
     const number = Number(value);
     return Number.isFinite(number) && number >= 1 ? Math.floor(number) : fallback;
+  }
+
+  function toFiniteNumber(value, fallback) {
+    const number = Number(value);
+    return Number.isFinite(number) ? number : fallback;
   }
 
   function toNullableInt(value) {

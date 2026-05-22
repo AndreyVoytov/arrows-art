@@ -3,25 +3,25 @@
   "atlases": {
     "rooms_room1": {
       "sourceDir": "images/rooms/room1",
-      "digest": "5662fe91e8411f9e8a61d4ff6a46e9d918295c6cbda4daa38b411207a189da7c",
+      "digest": "62b922f1b56e72f48c48536410155bab3ea18b9553ab4eba655e40e443b83da9",
       "outputs": [
         "images/atlases/rooms_room1.png",
         "images/atlases/rooms_room1.json",
         "images/atlases/rooms_room1.webp",
         "images/atlases/rooms_room1.webp.json"
       ],
-      "updatedAt": "2026-05-21T14:57:09.369317+00:00"
+      "updatedAt": "2026-05-22T12:27:06.852971+00:00"
     },
     "rooms_room2": {
       "sourceDir": "images/rooms/room2",
-      "digest": "d4a6002395c85bde1b5decfe362b6be10d3972cf2d990d9d2eb627484984e67f",
+      "digest": "164aa0ce818f44990bd79d6819226fe1e3bdac2a427caa086202587feb9ddcbd",
       "outputs": [
         "images/atlases/rooms_room2.png",
         "images/atlases/rooms_room2.json",
         "images/atlases/rooms_room2.webp",
         "images/atlases/rooms_room2.webp.json"
       ],
-      "updatedAt": "2026-05-21T13:23:15.308122+00:00"
+      "updatedAt": "2026-05-22T12:27:14.580929+00:00"
     }
   }
 }
