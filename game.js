@@ -5,6 +5,48 @@
   const BUTTON_SIZE = 82;
   const OUT_DISTANCE = 164;
   const STEP_DELAY = 120;
+  const ROOM_IMAGE_ROOT = "images/rooms";
+  const DIALOG_CONFIG_URL = "config/dialogs.json";
+  const EQUIPMENT_PRICES_URL = "config/equipment_prices.json";
+
+  const TRIGGER_OPTIONS = [
+    { value: "roomEntered", label: "roomEntered" },
+    { value: "objectBought", label: "objectBought" },
+    { value: "roomCompleted", label: "roomCompleted" },
+    { value: "levelCompleted", label: "levelCompleted" }
+  ];
+  const PHASE_OPTIONS = [
+    { value: "", label: "Любой" },
+    { value: "repair", label: "Ремонт/мусор" },
+    { value: "decor", label: "Декор" }
+  ];
+  const POSITION_OPTIONS = [
+    { value: "left", label: "Слева" },
+    { value: "right", label: "Справа" }
+  ];
+  const DEFAULT_CHARACTER_NAMES = {
+    "images/characters/anna_neutral.png": "Анна",
+    "images/characters/anna_smile.png": "Анна",
+    "images/characters/anna_sad.png": "Анна",
+    "images/characters/anna_fear.png": "Анна",
+    "images/characters/anna_angry.png": "Анна",
+    "images/characters/anna_embarrassed.png": "Анна",
+    "images/characters/alex_neutral.png": "Алекс",
+    "images/characters/alex_joy.png": "Алекс",
+    "images/characters/alex_sad.png": "Алекс",
+    "images/characters/alex_angry.png": "Алекс",
+    "images/characters/victor_neutral.png": "Виктор",
+    "images/characters/victor_smirk.png": "Виктор",
+    "images/characters/mary_neutral.png": "Тетя Мэри",
+    "images/characters/mary_smile.png": "Тетя Мэри",
+    "images/characters/henry_neutral.png": "Генри",
+    "images/characters/henry_smile.png": "Генри",
+    "images/characters/henry_embarrassed.png": "Генри",
+    "images/characters/kate_neutral.png": "Кейт",
+    "images/characters/kate_smile.png": "Кейт",
+    "images/characters/kate_smirk.png": "Кейт",
+    "images/characters/kate_angry.png": "Кейт"
+  };
 
   const shell = document.querySelector("#game-shell");
   const game = document.querySelector("#game");
@@ -15,26 +57,90 @@
   const topMenuButton = document.querySelector("#top-menu-button");
   const roomMenu = document.querySelector("#room-menu");
   const roomList = document.querySelector("#room-list");
+  const menuTitle = document.querySelector("#menu-title");
+  const roomsTab = document.querySelector("#rooms-tab");
+  const dialogsTab = document.querySelector("#dialogs-tab");
+  const roomsView = document.querySelector("#rooms-view");
+  const dialogEditorView = document.querySelector("#dialog-editor-view");
+  const editorRoomIndex = document.querySelector("#editor-room-index");
+  const dialogAdd = document.querySelector("#dialog-add");
+  const dialogExport = document.querySelector("#dialog-export");
+  const dialogExportOutput = document.querySelector("#dialog-export-output");
+  const dialogList = document.querySelector("#dialog-list");
+  const dialogForm = document.querySelector("#dialog-form");
+  const dialogIdInput = document.querySelector("#dialog-id");
+  const dialogRoomIndexInput = document.querySelector("#dialog-room-index");
+  const conditionAdd = document.querySelector("#condition-add");
+  const conditionList = document.querySelector("#condition-list");
+  const lineAdd = document.querySelector("#line-add");
+  const lineList = document.querySelector("#line-list");
+  const dialogSave = document.querySelector("#dialog-save");
+  const dialogDelete = document.querySelector("#dialog-delete");
   const variantPanel = document.querySelector("#variant-panel");
   const variantOptions = document.querySelector("#variant-options");
   const variantChoose = document.querySelector("#variant-choose");
   const variantClose = document.querySelector("#variant-close");
+  const dialogOverlay = document.querySelector("#dialog-overlay");
+  const dialogCharacterLeft = document.querySelector("#dialog-character-left");
+  const dialogCharacterRight = document.querySelector("#dialog-character-right");
+  const dialogSpeaker = document.querySelector("#dialog-speaker");
+  const dialogText = document.querySelector("#dialog-text");
+  const dialogNext = document.querySelector("#dialog-next");
+  const levelTest = document.querySelector("#level-test");
+  const levelDown = document.querySelector("#level-down");
+  const levelUp = document.querySelector("#level-up");
+  const levelValue = document.querySelector("#level-value");
 
+  let roomDescriptors = [];
   let currentRoomId = null;
+  let currentRoomIndex = 0;
   let orders = { repair: [], decor: [] };
+  let equipmentPrices = new Map();
   let phaseByGroup = new Map();
   let sprites = [];
   let state = createInitialState();
   let activeVariant = null;
+  let dialogsConfig = normalizeDialogsConfig({});
+  let editorDraft = null;
+  let editorSelectedId = null;
+  let activeDialogPlayback = null;
+  let dialogQueue = [];
+  let playedDialogKeys = new Set();
+  let levelIndex = 0;
 
   syncScale();
   window.addEventListener("resize", syncScale);
   topMenuButton.addEventListener("click", showMenu);
+  roomsTab.addEventListener("click", () => showMenuView("rooms"));
+  dialogsTab.addEventListener("click", () => showMenuView("dialogs"));
+  editorRoomIndex.addEventListener("change", handleEditorRoomChange);
+  dialogAdd.addEventListener("click", createDialogDraft);
+  dialogExport.addEventListener("click", exportDialogsConfig);
+  dialogForm.addEventListener("submit", saveDialogDraft);
+  dialogDelete.addEventListener("click", deleteSelectedDialog);
+  conditionAdd.addEventListener("click", addConditionToDraft);
+  lineAdd.addEventListener("click", addLineToDraft);
   variantChoose.addEventListener("click", chooseVariant);
   variantClose.addEventListener("click", closeVariantPicker);
+  dialogNext.addEventListener("click", advanceDialog);
+  levelDown.addEventListener("click", () => changeLevel(-1));
+  levelUp.addEventListener("click", () => changeLevel(1));
 
   topMenuButton.classList.add("hidden");
-  renderRoomMenu(await loadRooms());
+  levelTest.classList.add("hidden");
+
+  const [rooms, loadedDialogs, loadedEquipmentPrices] = await Promise.all([
+    loadRooms(),
+    loadDialogsConfig(),
+    loadEquipmentPrices()
+  ]);
+  roomDescriptors = rooms;
+  dialogsConfig = normalizeDialogsConfig(loadedDialogs);
+  equipmentPrices = normalizeEquipmentPrices(loadedEquipmentPrices);
+  editorRoomIndex.value = String(initialRoomIndex(roomDescriptors));
+  renderRoomMenu(roomDescriptors);
+  renderDialogList();
+  showMenuView("rooms");
 
   async function loadRooms() {
     try {
@@ -79,6 +185,32 @@
     }
   }
 
+  async function loadDialogsConfig() {
+    try {
+      const response = await fetch(DIALOG_CONFIG_URL, { cache: "no-store" });
+      if (!response.ok) {
+        throw new Error("dialogs config not found");
+      }
+
+      return response.json();
+    } catch (error) {
+      return createDefaultDialogsConfig();
+    }
+  }
+
+  async function loadEquipmentPrices() {
+    try {
+      const response = await fetch(EQUIPMENT_PRICES_URL, { cache: "no-store" });
+      if (!response.ok) {
+        throw new Error("equipment prices config not found");
+      }
+
+      return response.json();
+    } catch (error) {
+      return { rooms: {} };
+    }
+  }
+
   function renderRoomMenu(rooms) {
     roomList.replaceChildren();
 
@@ -86,32 +218,38 @@
       const button = document.createElement("button");
       button.className = "room-button";
       button.type = "button";
-      button.textContent = room.title ?? `Комната ${room.number ?? room.id.replace("room", "")}`;
-      button.addEventListener("click", () => startRoom(room.id));
+      button.textContent = room.title ?? `Комната ${room.number ?? roomIndexFromId(room.id)}`;
+      button.addEventListener("click", () => startRoom(room));
       roomList.appendChild(button);
     }
   }
 
-  async function startRoom(roomId) {
-    currentRoomId = roomId;
+  async function startRoom(room) {
+    currentRoomId = room.id;
+    currentRoomIndex = toPositiveInt(room.number ?? roomIndexFromId(room.id), 1);
     state = createInitialState();
     activeVariant = null;
     orders = { repair: [], decor: [] };
     phaseByGroup = new Map();
     sprites = [];
+    playedDialogKeys = new Set();
+    levelIndex = 0;
 
+    updateLevelCounter();
     itemsLayer.replaceChildren();
     actionsLayer.replaceChildren();
     hideVariantPanel();
+    closeDialogPlayback();
 
-    roomBg.src = `images/${roomId}/room_bg.png`;
+    roomBg.src = roomImageUrl("room_bg");
     roomMenu.classList.add("hidden");
     topMenuButton.classList.remove("hidden");
+    levelTest.classList.remove("hidden");
     status.textContent = "";
 
     const [roomConfig, orderConfig] = await Promise.all([
-      fetch(`config/${roomId}.json`).then((response) => response.json()),
-      fetch(`config/${roomId}_order.json`).then((response) => response.json())
+      fetch(`config/${currentRoomId}.json`).then((response) => response.json()),
+      fetch(`config/${currentRoomId}_order.json`).then((response) => response.json())
     ]);
 
     orders = {
@@ -122,19 +260,38 @@
     sprites = createSprites(roomConfig);
 
     showNextBatch();
+    triggerDialogs("roomEntered");
   }
 
   function showMenu() {
     currentRoomId = null;
+    currentRoomIndex = 0;
     state = createInitialState();
     activeVariant = null;
     itemsLayer.replaceChildren();
     actionsLayer.replaceChildren();
     hideVariantPanel();
+    closeDialogPlayback();
     roomBg.removeAttribute("src");
     roomMenu.classList.remove("hidden");
     topMenuButton.classList.add("hidden");
+    levelTest.classList.add("hidden");
     status.textContent = "";
+    showMenuView("rooms");
+  }
+
+  function showMenuView(view) {
+    const isDialogs = view === "dialogs";
+    roomsView.classList.toggle("hidden", isDialogs);
+    dialogEditorView.classList.toggle("hidden", !isDialogs);
+    roomsTab.classList.toggle("selected", !isDialogs);
+    dialogsTab.classList.toggle("selected", isDialogs);
+    menuTitle.textContent = isDialogs ? "Редактор диалогов" : "Выбор комнаты";
+
+    if (isDialogs) {
+      renderDialogList();
+      renderDialogForm();
+    }
   }
 
   function createInitialState() {
@@ -156,7 +313,7 @@
 
         const element = document.createElement("img");
         element.className = "sprite";
-        element.src = `images/${currentRoomId}/${object.imageId ?? object.id}.png`;
+        element.src = roomImageUrl(object.imageId ?? object.id);
         element.alt = "";
         element.dataset.id = object.id;
         element.dataset.imageId = object.imageId ?? object.id;
@@ -227,7 +384,7 @@
   }
 
   function normalizeGroup(value) {
-    return value
+    return String(value)
       .replace(/\{(-?\d+)\}$/, "")
       .replace(/\[(-?\d+)\]$/, "")
       .replace(/_(?:[A-Z])(?:_\d+)?$/, "")
@@ -306,6 +463,7 @@
       }
 
       status.textContent = "Done";
+      triggerDialogs("roomCompleted");
       return;
     }
 
@@ -325,6 +483,18 @@
     button.style.left = `${centerX}px`;
     button.style.top = `${centerY}px`;
     button.setAttribute("aria-label", action.group);
+
+    if (state.phase === "decor") {
+      const priceText = decorPriceTextForAction(action, object);
+      if (priceText) {
+        const price = document.createElement("span");
+        price.className = "action-price";
+        price.textContent = priceText;
+        button.appendChild(price);
+        button.setAttribute("aria-label", `${action.group}: ${priceText}`);
+      }
+    }
+
     button.addEventListener("click", () => runAction(action, button));
 
     return button;
@@ -356,8 +526,13 @@
   }
 
   function finishAction(action, button) {
+    const completedPhase = state.phase;
     action.done = true;
     button.remove();
+    triggerDialogs("objectBought", {
+      objectGroup: action.group,
+      phase: completedPhase
+    });
 
     if (state.batch.every((item) => item.done)) {
       window.setTimeout(showNextBatch, 180);
@@ -408,6 +583,194 @@
       .sort((left, right) => left.id.localeCompare(right.id));
   }
 
+  function normalizeEquipmentPrices(config) {
+    const prices = new Map();
+    const rooms = config && typeof config === "object" && config.rooms && typeof config.rooms === "object"
+      ? config.rooms
+      : {};
+
+    for (const [roomId, roomItems] of Object.entries(rooms)) {
+      if (!roomItems || typeof roomItems !== "object" || Array.isArray(roomItems)) {
+        continue;
+      }
+
+      for (const [objectId, rawEntry] of Object.entries(roomItems)) {
+        const entry = normalizePriceEntry(objectId, rawEntry);
+        if (entry === null) {
+          continue;
+        }
+
+        for (const key of priceConfigKeys(objectId)) {
+          prices.set(priceMapKey(roomId, key), entry);
+        }
+      }
+    }
+
+    return prices;
+  }
+
+  function normalizePriceEntry(objectId, rawEntry) {
+    if (!rawEntry || typeof rawEntry !== "object" || !Array.isArray(rawEntry.prices)) {
+      return null;
+    }
+
+    const prices = rawEntry.prices.map(normalizePriceValue);
+    if (!prices.some((price) => price !== null)) {
+      return null;
+    }
+
+    return { objectId, prices };
+  }
+
+  function normalizePriceValue(value) {
+    if (value === null || value === undefined || value === "") {
+      return null;
+    }
+
+    const price = Number(value);
+    return Number.isFinite(price) ? price : null;
+  }
+
+  function decorPriceTextForAction(action, object) {
+    const variants = variantsFor(action);
+    if (variants.length > 1) {
+      const prices = variants
+        .map((variant) => decorPriceFor(action, variant.id, variant.objects[0]))
+        .filter((price) => price !== null);
+      return formatPriceRange(prices);
+    }
+
+    const price = decorPriceFor(action, object?.variant, object);
+    return price === null ? "" : formatPrice(price);
+  }
+
+  function decorPriceTextForVariant(action, variant) {
+    const price = decorPriceFor(action, variant.id, variant.objects[0]);
+    return price === null ? "" : formatPrice(price);
+  }
+
+  function decorPriceFor(action, variantId = null, object = null) {
+    const entry = priceEntryForDecor(action, object);
+    if (entry === null) {
+      return null;
+    }
+
+    const priceIndex = variantPriceIndex(variantId ?? object?.variant);
+    if (priceIndex !== null && entry.prices[priceIndex] !== null && entry.prices[priceIndex] !== undefined) {
+      return entry.prices[priceIndex];
+    }
+
+    return entry.prices.find((price) => price !== null) ?? null;
+  }
+
+  function priceEntryForDecor(action, object) {
+    const candidates = [
+      action?.group,
+      object?.group,
+      object?.id,
+      object?.imageId,
+      object ? normalizeGroup(object.id) : "",
+      object ? normalizeGroup(object.imageId ?? "") : ""
+    ];
+
+    for (const candidate of candidates) {
+      if (!candidate) {
+        continue;
+      }
+
+      for (const key of priceLookupKeys(candidate)) {
+        for (const lookupKey of priceLookupAliases(key)) {
+          const entry = equipmentPrices.get(priceMapKey(currentRoomId, lookupKey));
+          if (entry) {
+            return entry;
+          }
+        }
+      }
+    }
+
+    return null;
+  }
+
+  function priceConfigKeys(value) {
+    const keys = new Set();
+    const raw = String(value ?? "");
+    const withoutAngle = idWithoutAngle(raw);
+    addPriceKey(keys, raw);
+    addPriceKey(keys, withoutAngle);
+
+    if (variantFromId(raw) === null) {
+      addPriceKey(keys, normalizeGroup(withoutAngle));
+    }
+
+    return [...keys];
+  }
+
+  function priceLookupKeys(value) {
+    const keys = new Set();
+    const raw = String(value ?? "");
+    const withoutAngle = idWithoutAngle(raw);
+    addPriceKey(keys, raw);
+    addPriceKey(keys, withoutAngle);
+    addPriceKey(keys, normalizeGroup(withoutAngle));
+    return [...keys];
+  }
+
+  function addPriceKey(keys, value) {
+    const key = normalizePriceKey(value);
+    if (key) {
+      keys.add(key);
+    }
+  }
+
+  function normalizePriceKey(value) {
+    return String(value ?? "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  }
+
+  function priceLookupAliases(key) {
+    const aliases = [key];
+    const withoutSide = key.replace(/(?:left|right)$/, "");
+    if (withoutSide && withoutSide !== key) {
+      aliases.push(withoutSide);
+    }
+
+    if (key.includes("plant") && !aliases.includes("plant")) {
+      aliases.push("plant");
+    }
+
+    return aliases;
+  }
+
+  function priceMapKey(roomId, key) {
+    return `${roomId}:${key}`;
+  }
+
+  function variantPriceIndex(variantId) {
+    if (typeof variantId !== "string" || !/^[A-Z]$/.test(variantId)) {
+      return null;
+    }
+
+    return variantId.charCodeAt(0) - "A".charCodeAt(0);
+  }
+
+  function formatPriceRange(prices) {
+    const uniquePrices = [...new Set(prices)].sort((left, right) => left - right);
+    if (uniquePrices.length === 0) {
+      return "";
+    }
+
+    if (uniquePrices.length === 1) {
+      return formatPrice(uniquePrices[0]);
+    }
+
+    return `${formatPrice(uniquePrices[0])}-${formatPrice(uniquePrices[uniquePrices.length - 1])}`;
+  }
+
+  function formatPrice(price) {
+    return new Intl.NumberFormat("ru-RU", {
+      maximumFractionDigits: 2
+    }).format(price);
+  }
+
   async function openVariantPicker(action, button, variants) {
     activeVariant = {
       action,
@@ -437,9 +800,20 @@
       option.dataset.variant = variant.id;
       option.addEventListener("click", () => selectVariant(variant.id, false));
 
-      preview.src = `images/${currentRoomId}/${variant.objects[0].imageId ?? variant.objects[0].id}.png`;
+      preview.src = roomImageUrl(variant.objects[0].imageId ?? variant.objects[0].id);
       preview.alt = "";
-      option.appendChild(preview);
+
+      const priceText = decorPriceTextForVariant(activeVariant.action, variant);
+      if (priceText) {
+        const price = document.createElement("span");
+        price.className = "variant-price";
+        price.textContent = priceText;
+        option.setAttribute("aria-label", `Р’Р°СЂРёР°РЅС‚ ${variant.id}: ${priceText}`);
+        option.append(preview, price);
+      } else {
+        option.appendChild(preview);
+      }
+
       variantOptions.appendChild(option);
     }
   }
@@ -546,6 +920,734 @@
         element.classList.remove("variant-switching");
       }, { once: true });
     }
+  }
+
+  function triggerDialogs(trigger, context = {}, options = {}) {
+    const roomIndex = toPositiveInt(context.roomIndex ?? currentRoomIndex, currentRoomIndex);
+    const fullContext = {
+      ...context,
+      roomIndex
+    };
+
+    for (const dialog of dialogsConfig.dialogs) {
+      if (!dialogMatchesContext(dialog, trigger, fullContext)) {
+        continue;
+      }
+
+      const key = dialogPlayKey(dialog, trigger, fullContext);
+      if (!options.allowReplay && playedDialogKeys.has(key)) {
+        continue;
+      }
+
+      if (!options.allowReplay) {
+        playedDialogKeys.add(key);
+      }
+
+      enqueueDialog(dialog);
+    }
+  }
+
+  function dialogMatchesContext(dialog, trigger, context) {
+    if (dialog.roomIndex !== context.roomIndex) {
+      return false;
+    }
+
+    return dialog.conditions.some((condition) => {
+      if (condition.trigger !== trigger) {
+        return false;
+      }
+
+      if (condition.roomIndex !== null && condition.roomIndex !== context.roomIndex) {
+        return false;
+      }
+
+      if (condition.objectGroup && condition.objectGroup !== context.objectGroup) {
+        return false;
+      }
+
+      if (condition.phase && condition.phase !== context.phase) {
+        return false;
+      }
+
+      if (condition.levelIndex !== null && condition.levelIndex !== context.levelIndex) {
+        return false;
+      }
+
+      return true;
+    });
+  }
+
+  function dialogPlayKey(dialog, trigger, context) {
+    const parts = [
+      dialog.id,
+      trigger,
+      context.objectGroup ?? "",
+      context.phase ?? "",
+      context.levelIndex ?? ""
+    ];
+
+    return parts.join(":");
+  }
+
+  function enqueueDialog(dialog) {
+    const lines = dialog.lines.filter((line) => line.text.trim().length > 0);
+    if (lines.length === 0) {
+      return;
+    }
+
+    dialogQueue.push({
+      ...dialog,
+      lines
+    });
+
+    if (activeDialogPlayback === null) {
+      showNextQueuedDialog();
+    }
+  }
+
+  function showNextQueuedDialog() {
+    const nextDialog = dialogQueue.shift();
+    if (nextDialog === undefined) {
+      closeDialogPlayback();
+      return;
+    }
+
+    activeDialogPlayback = {
+      dialog: nextDialog,
+      lineIndex: 0
+    };
+    renderDialogLine();
+  }
+
+  function renderDialogLine() {
+    if (activeDialogPlayback === null) {
+      return;
+    }
+
+    const line = activeDialogPlayback.dialog.lines[activeDialogPlayback.lineIndex];
+    const image = normalizeCharacterImagePath(line.image);
+    const isRight = line.position === "right";
+    const activeCharacter = isRight ? dialogCharacterRight : dialogCharacterLeft;
+    const inactiveCharacter = isRight ? dialogCharacterLeft : dialogCharacterRight;
+
+    inactiveCharacter.classList.add("hidden");
+    activeCharacter.src = image;
+    activeCharacter.classList.remove("hidden");
+    dialogSpeaker.textContent = characterNameForImage(image);
+    dialogText.textContent = line.text;
+    dialogOverlay.classList.remove("hidden");
+  }
+
+  function advanceDialog() {
+    if (activeDialogPlayback === null) {
+      return;
+    }
+
+    activeDialogPlayback.lineIndex += 1;
+    if (activeDialogPlayback.lineIndex >= activeDialogPlayback.dialog.lines.length) {
+      showNextQueuedDialog();
+      return;
+    }
+
+    renderDialogLine();
+  }
+
+  function closeDialogPlayback() {
+    dialogQueue = [];
+    activeDialogPlayback = null;
+    dialogOverlay.classList.add("hidden");
+    dialogCharacterLeft.classList.add("hidden");
+    dialogCharacterRight.classList.add("hidden");
+    dialogText.textContent = "";
+    dialogSpeaker.textContent = "";
+  }
+
+  function changeLevel(delta) {
+    if (currentRoomId === null) {
+      return;
+    }
+
+    levelIndex = Math.max(0, levelIndex + delta);
+    updateLevelCounter();
+    triggerDialogs("levelCompleted", { levelIndex }, { allowReplay: true });
+  }
+
+  function updateLevelCounter() {
+    levelValue.textContent = String(levelIndex);
+  }
+
+  function handleEditorRoomChange() {
+    editorDraft = null;
+    editorSelectedId = null;
+    renderDialogList();
+    renderDialogForm();
+  }
+
+  function renderDialogList() {
+    const roomIndex = currentEditorRoomIndex();
+    const roomDialogs = dialogsConfig.dialogs.filter((dialog) => dialog.roomIndex === roomIndex);
+    dialogList.replaceChildren();
+
+    if (roomDialogs.length === 0) {
+      const empty = document.createElement("p");
+      empty.className = "dialog-list-empty";
+      empty.textContent = "Для этого roomindex пока нет диалогов.";
+      dialogList.appendChild(empty);
+      return;
+    }
+
+    for (const dialog of roomDialogs) {
+      const item = document.createElement("div");
+      const title = document.createElement("div");
+      const meta = document.createElement("div");
+      const deleteButton = document.createElement("button");
+
+      item.className = "dialog-list-item";
+      item.classList.toggle("selected", dialog.id === editorSelectedId);
+      item.tabIndex = 0;
+      item.addEventListener("click", () => selectDialogForEdit(dialog.id));
+      item.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          selectDialogForEdit(dialog.id);
+        }
+      });
+
+      title.className = "dialog-list-title";
+      title.textContent = dialog.id;
+      meta.className = "dialog-list-meta";
+      meta.textContent = `${dialog.conditions.length} условий, ${dialog.lines.length} реплик`;
+      deleteButton.className = "dialog-list-delete row-delete";
+      deleteButton.type = "button";
+      deleteButton.setAttribute("aria-label", `Удалить ${dialog.id}`);
+      deleteButton.textContent = "×";
+      deleteButton.addEventListener("click", (event) => {
+        event.stopPropagation();
+        deleteDialogById(dialog.id);
+      });
+
+      item.append(title, meta, deleteButton);
+      dialogList.appendChild(item);
+    }
+  }
+
+  function selectDialogForEdit(dialogId) {
+    const dialog = dialogsConfig.dialogs.find((item) => item.id === dialogId);
+    if (dialog === undefined) {
+      return;
+    }
+
+    editorSelectedId = dialog.id;
+    editorDraft = cloneDialog(dialog);
+    renderDialogList();
+    renderDialogForm();
+  }
+
+  function createDialogDraft() {
+    const roomIndex = currentEditorRoomIndex();
+    editorSelectedId = null;
+    editorDraft = {
+      id: uniqueDialogId(roomIndex),
+      roomIndex,
+      conditions: [
+        { trigger: "roomEntered", roomIndex: null, objectGroup: "", phase: "", levelIndex: null }
+      ],
+      lines: [
+        defaultLine()
+      ]
+    };
+
+    renderDialogList();
+    renderDialogForm();
+  }
+
+  function renderDialogForm() {
+    if (editorDraft === null) {
+      dialogForm.classList.add("hidden");
+      return;
+    }
+
+    dialogForm.classList.remove("hidden");
+    dialogIdInput.value = editorDraft.id;
+    dialogRoomIndexInput.value = String(editorDraft.roomIndex);
+    renderConditionRows();
+    renderLineRows();
+  }
+
+  function renderConditionRows() {
+    conditionList.replaceChildren();
+
+    for (const [index, condition] of editorDraft.conditions.entries()) {
+      const row = document.createElement("div");
+      const triggerField = createSelectField("Триггер", TRIGGER_OPTIONS, condition.trigger, "trigger");
+      const groupField = createInputField("Object group", condition.objectGroup, "objectGroup", "trash");
+      const phaseField = createSelectField("Тип", PHASE_OPTIONS, condition.phase, "phase");
+      const levelField = createInputField("Level", condition.levelIndex ?? "", "levelIndex", "0", "number");
+      const deleteButton = document.createElement("button");
+
+      row.className = "condition-row";
+      deleteButton.className = "row-delete";
+      deleteButton.type = "button";
+      deleteButton.setAttribute("aria-label", "Удалить условие");
+      deleteButton.textContent = "×";
+      deleteButton.addEventListener("click", () => {
+        captureDialogForm();
+        editorDraft.conditions.splice(index, 1);
+        renderDialogForm();
+      });
+
+      row.append(triggerField, groupField, phaseField, levelField, deleteButton);
+      conditionList.appendChild(row);
+    }
+  }
+
+  function renderLineRows() {
+    lineList.replaceChildren();
+
+    for (const [index, line] of editorDraft.lines.entries()) {
+      const row = document.createElement("div");
+      const preview = document.createElement("div");
+      const previewImage = document.createElement("img");
+      const previewName = document.createElement("div");
+      const main = document.createElement("div");
+      const imageField = createSelectField("Картинка", characterOptions(), line.image, "image");
+      const textField = createTextAreaField("Текст", line.text, "text");
+      const positionField = createSelectField("Позиция", POSITION_OPTIONS, line.position, "position");
+      const deleteButton = document.createElement("button");
+      const imageSelect = imageField.querySelector("select");
+
+      row.className = "line-row";
+      preview.className = "line-preview";
+      previewImage.src = normalizeCharacterImagePath(line.image);
+      previewImage.alt = "";
+      previewName.className = "line-name";
+      previewName.textContent = characterNameForImage(line.image);
+
+      imageSelect.addEventListener("change", () => {
+        const image = normalizeCharacterImagePath(imageSelect.value);
+        previewImage.src = image;
+        previewName.textContent = characterNameForImage(image);
+      });
+
+      main.className = "line-main";
+      main.append(imageField, textField);
+      deleteButton.className = "row-delete";
+      deleteButton.type = "button";
+      deleteButton.setAttribute("aria-label", "Удалить реплику");
+      deleteButton.textContent = "×";
+      deleteButton.addEventListener("click", () => {
+        captureDialogForm();
+        editorDraft.lines.splice(index, 1);
+        renderDialogForm();
+      });
+
+      preview.append(previewImage, previewName);
+      row.append(preview, main, positionField, deleteButton);
+      lineList.appendChild(row);
+    }
+  }
+
+  function addConditionToDraft() {
+    ensureEditorDraft();
+    captureDialogForm();
+    editorDraft.conditions.push({
+      trigger: "roomEntered",
+      roomIndex: null,
+      objectGroup: "",
+      phase: "",
+      levelIndex: null
+    });
+    renderDialogForm();
+  }
+
+  function addLineToDraft() {
+    ensureEditorDraft();
+    captureDialogForm();
+    editorDraft.lines.push(defaultLine());
+    renderDialogForm();
+  }
+
+  function saveDialogDraft(event) {
+    if (event !== undefined) {
+      event.preventDefault();
+    }
+
+    if (editorDraft === null) {
+      return;
+    }
+
+    const draft = normalizeDialogItem(captureDialogForm(), dialogsConfig.dialogs.length);
+    const selectedIndex = dialogsConfig.dialogs.findIndex((dialog) => dialog.id === editorSelectedId);
+    const targetIndex = dialogsConfig.dialogs.findIndex((dialog) => dialog.id === draft.id);
+
+    if (targetIndex >= 0) {
+      dialogsConfig.dialogs[targetIndex] = draft;
+      if (selectedIndex >= 0 && selectedIndex !== targetIndex) {
+        dialogsConfig.dialogs.splice(selectedIndex, 1);
+      }
+    } else if (selectedIndex >= 0) {
+      dialogsConfig.dialogs[selectedIndex] = draft;
+    } else {
+      dialogsConfig.dialogs.push(draft);
+    }
+
+    editorSelectedId = draft.id;
+    editorDraft = cloneDialog(draft);
+    editorRoomIndex.value = String(draft.roomIndex);
+    renderDialogList();
+    renderDialogForm();
+  }
+
+  function deleteSelectedDialog() {
+    if (editorSelectedId !== null) {
+      deleteDialogById(editorSelectedId);
+      return;
+    }
+
+    editorDraft = null;
+    renderDialogForm();
+  }
+
+  function deleteDialogById(dialogId) {
+    dialogsConfig.dialogs = dialogsConfig.dialogs.filter((dialog) => dialog.id !== dialogId);
+    if (editorSelectedId === dialogId) {
+      editorSelectedId = null;
+      editorDraft = null;
+    }
+
+    renderDialogList();
+    renderDialogForm();
+  }
+
+  function exportDialogsConfig() {
+    if (editorDraft !== null) {
+      saveDialogDraft();
+    }
+
+    const text = `${JSON.stringify(serializeDialogsConfig(), null, 2)}\n`;
+    dialogExportOutput.value = text;
+    dialogExportOutput.classList.remove("hidden");
+
+    const blob = new Blob([text], { type: "application/json" });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = "dialogs.json";
+    link.click();
+    window.setTimeout(() => URL.revokeObjectURL(url), 1000);
+  }
+
+  function ensureEditorDraft() {
+    if (editorDraft === null) {
+      createDialogDraft();
+    }
+  }
+
+  function captureDialogForm() {
+    if (editorDraft === null) {
+      return null;
+    }
+
+    editorDraft = {
+      id: dialogIdInput.value.trim() || uniqueDialogId(currentEditorRoomIndex()),
+      roomIndex: toPositiveInt(dialogRoomIndexInput.value, currentEditorRoomIndex()),
+      conditions: [...conditionList.querySelectorAll(".condition-row")].map((row) => ({
+        trigger: readRowValue(row, "trigger") || "roomEntered",
+        roomIndex: null,
+        objectGroup: readRowValue(row, "objectGroup").trim(),
+        phase: readRowValue(row, "phase"),
+        levelIndex: toNullableInt(readRowValue(row, "levelIndex"))
+      })),
+      lines: [...lineList.querySelectorAll(".line-row")].map((row) => ({
+        image: normalizeCharacterImagePath(readRowValue(row, "image")),
+        text: readRowValue(row, "text"),
+        position: readRowValue(row, "position") === "right" ? "right" : "left"
+      }))
+    };
+
+    return editorDraft;
+  }
+
+  function readRowValue(row, field) {
+    const element = row.querySelector(`[data-field="${field}"]`);
+    return element ? element.value : "";
+  }
+
+  function createSelectField(label, options, value, field) {
+    const wrapper = document.createElement("label");
+    const caption = document.createElement("span");
+    const select = document.createElement("select");
+
+    wrapper.className = "editor-field";
+    caption.textContent = label;
+    select.dataset.field = field;
+
+    for (const option of options) {
+      const element = document.createElement("option");
+      element.value = option.value;
+      element.textContent = option.label;
+      select.appendChild(element);
+    }
+
+    select.value = value;
+    if (select.value !== value && options.length > 0) {
+      select.value = options[0].value;
+    }
+
+    wrapper.append(caption, select);
+    return wrapper;
+  }
+
+  function createInputField(label, value, field, placeholder = "", type = "text") {
+    const wrapper = document.createElement("label");
+    const caption = document.createElement("span");
+    const input = document.createElement("input");
+
+    wrapper.className = "editor-field";
+    caption.textContent = label;
+    input.dataset.field = field;
+    input.type = type;
+    input.value = value;
+    input.placeholder = placeholder;
+    wrapper.append(caption, input);
+    return wrapper;
+  }
+
+  function createTextAreaField(label, value, field) {
+    const wrapper = document.createElement("label");
+    const caption = document.createElement("span");
+    const textarea = document.createElement("textarea");
+
+    wrapper.className = "editor-field";
+    caption.textContent = label;
+    textarea.dataset.field = field;
+    textarea.value = value;
+    wrapper.append(caption, textarea);
+    return wrapper;
+  }
+
+  function serializeDialogsConfig() {
+    return {
+      characterNames: dialogsConfig.characterNames,
+      dialogs: dialogsConfig.dialogs.map((dialog) => ({
+        id: dialog.id,
+        roomIndex: dialog.roomIndex,
+        conditions: dialog.conditions.map(serializeCondition),
+        lines: dialog.lines.map((line) => ({
+          image: normalizeCharacterImagePath(line.image),
+          position: line.position,
+          text: line.text
+        }))
+      }))
+    };
+  }
+
+  function serializeCondition(condition) {
+    const output = {
+      trigger: condition.trigger
+    };
+
+    if (condition.objectGroup) {
+      output.objectGroup = condition.objectGroup;
+    }
+
+    if (condition.phase) {
+      output.phase = condition.phase;
+    }
+
+    if (condition.levelIndex !== null) {
+      output.levelIndex = condition.levelIndex;
+    }
+
+    return output;
+  }
+
+  function normalizeDialogsConfig(config) {
+    const characterNames = {
+      ...DEFAULT_CHARACTER_NAMES
+    };
+
+    if (config.characterNames && typeof config.characterNames === "object" && !Array.isArray(config.characterNames)) {
+      for (const [image, name] of Object.entries(config.characterNames)) {
+        characterNames[normalizeCharacterImagePath(image)] = String(name);
+      }
+    }
+
+    if (Array.isArray(config.characters)) {
+      for (const character of config.characters) {
+        if (character.image && character.name) {
+          characterNames[normalizeCharacterImagePath(character.image)] = String(character.name);
+        }
+      }
+    } else if (config.characters && typeof config.characters === "object") {
+      for (const [image, name] of Object.entries(config.characters)) {
+        characterNames[normalizeCharacterImagePath(image)] = String(name);
+      }
+    }
+
+    return {
+      characterNames,
+      dialogs: Array.isArray(config.dialogs)
+        ? config.dialogs.map(normalizeDialogItem).filter(Boolean)
+        : []
+    };
+  }
+
+  function normalizeDialogItem(dialog, index = 0) {
+    if (dialog === null || typeof dialog !== "object") {
+      return null;
+    }
+
+    const conditions = Array.isArray(dialog.conditions)
+      ? dialog.conditions.map(normalizeCondition).filter(Boolean)
+      : [];
+    const lines = Array.isArray(dialog.lines)
+      ? dialog.lines.map(normalizeLine).filter(Boolean)
+      : [];
+
+    return {
+      id: String(dialog.id || `dialog_${index + 1}`),
+      roomIndex: toPositiveInt(dialog.roomIndex ?? dialog.roomindex ?? dialog.room, 1),
+      conditions,
+      lines
+    };
+  }
+
+  function normalizeCondition(condition) {
+    if (condition === null || typeof condition !== "object") {
+      return null;
+    }
+
+    const trigger = TRIGGER_OPTIONS.some((option) => option.value === condition.trigger)
+      ? condition.trigger
+      : "roomEntered";
+    const phase = condition.phase === "repair" || condition.phase === "decor" ? condition.phase : "";
+
+    return {
+      trigger,
+      roomIndex: toNullableInt(condition.roomIndex ?? condition.roomindex),
+      objectGroup: String(condition.objectGroup ?? condition.group ?? "").trim(),
+      phase,
+      levelIndex: toNullableInt(condition.levelIndex ?? condition.level)
+    };
+  }
+
+  function normalizeLine(line) {
+    if (line === null || typeof line !== "object") {
+      return null;
+    }
+
+    return {
+      image: normalizeCharacterImagePath(line.image ?? line.characterImage ?? line.avatar ?? firstCharacterImage()),
+      position: line.position === "right" ? "right" : "left",
+      text: String(line.text ?? "")
+    };
+  }
+
+  function createDefaultDialogsConfig() {
+    return {
+      characterNames: DEFAULT_CHARACTER_NAMES,
+      dialogs: []
+    };
+  }
+
+  function defaultLine() {
+    return {
+      image: firstCharacterImage(),
+      text: "",
+      position: "left"
+    };
+  }
+
+  function firstCharacterImage() {
+    return Object.keys(dialogsConfig.characterNames ?? DEFAULT_CHARACTER_NAMES)[0]
+      ?? Object.keys(DEFAULT_CHARACTER_NAMES)[0];
+  }
+
+  function characterOptions() {
+    return Object.entries(dialogsConfig.characterNames)
+      .map(([image, name]) => ({
+        value: normalizeCharacterImagePath(image),
+        label: `${name} - ${baseName(image)}`
+      }));
+  }
+
+  function characterNameForImage(image) {
+    const normalized = normalizeCharacterImagePath(image);
+    return dialogsConfig.characterNames[normalized]
+      ?? dialogsConfig.characterNames[baseName(normalized)]
+      ?? "Персонаж";
+  }
+
+  function normalizeCharacterImagePath(image) {
+    const value = String(image ?? "").trim();
+    if (value.length === 0) {
+      return Object.keys(DEFAULT_CHARACTER_NAMES)[0];
+    }
+
+    if (/^(?:https?:|data:|\/|images\/)/.test(value)) {
+      return value;
+    }
+
+    return `images/characters/${value}`;
+  }
+
+  function cloneDialog(dialog) {
+    return {
+      id: dialog.id,
+      roomIndex: dialog.roomIndex,
+      conditions: dialog.conditions.map((condition) => ({ ...condition })),
+      lines: dialog.lines.map((line) => ({ ...line }))
+    };
+  }
+
+  function uniqueDialogId(roomIndex) {
+    let index = 1;
+    let id = `room${roomIndex}_dialog_${index}`;
+    const ids = new Set(dialogsConfig.dialogs.map((dialog) => dialog.id));
+
+    while (ids.has(id)) {
+      index += 1;
+      id = `room${roomIndex}_dialog_${index}`;
+    }
+
+    return id;
+  }
+
+  function currentEditorRoomIndex() {
+    return toPositiveInt(editorRoomIndex.value, 1);
+  }
+
+  function initialRoomIndex(rooms) {
+    const room = rooms[0];
+    return room ? toPositiveInt(room.number ?? roomIndexFromId(room.id), 1) : 1;
+  }
+
+  function roomIndexFromId(roomId) {
+    const match = String(roomId).match(/(\d+)$/);
+    return match ? Number(match[1]) : 1;
+  }
+
+  function toPositiveInt(value, fallback) {
+    const number = Number(value);
+    return Number.isFinite(number) && number >= 1 ? Math.floor(number) : fallback;
+  }
+
+  function toNullableInt(value) {
+    if (value === null || value === undefined || value === "") {
+      return null;
+    }
+
+    const number = Number(value);
+    return Number.isFinite(number) ? Math.floor(number) : null;
+  }
+
+  function baseName(path) {
+    return String(path).split("/").pop() ?? "";
+  }
+
+  function roomImageUrl(imageId) {
+    return `${ROOM_IMAGE_ROOT}/${currentRoomId}/${imageId}.png`;
   }
 
   function vectorForAngle(angle) {

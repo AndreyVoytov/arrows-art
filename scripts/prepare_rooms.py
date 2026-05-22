@@ -22,6 +22,7 @@ except ImportError as error:
 ROOT = Path(__file__).resolve().parents[1]
 SRC_DIR = ROOT / "images" / "src"
 IMAGES_DIR = ROOT / "images"
+ROOM_IMAGES_DIR = IMAGES_DIR / "rooms"
 CONFIG_DIR = ROOT / "config"
 
 ANGLE_SUFFIX_RE = re.compile(r"\[-?\d+\]$")
@@ -149,7 +150,7 @@ def resolve_path(value: str) -> Path:
 
 def prepare_room(psd_path: Path) -> None:
     room_id = psd_path.stem
-    room_image_dir = IMAGES_DIR / room_id
+    room_image_dir = ROOM_IMAGES_DIR / room_id
     room_image_dir.mkdir(parents=True, exist_ok=True)
 
     psd = PSDImage.open(psd_path)

@@ -1,0 +1,26 @@
+{
+  "characterNames": {
+    "images/characters/anna_neutral.png": "Анна",
+    "images/characters/anna_smile.png": "Анна",
+    "images/characters/anna_sad.png": "Анна",
+    "images/characters/anna_fear.png": "Анна",
+    "images/characters/anna_angry.png": "Анна",
+    "images/characters/anna_embarrassed.png": "Анна",
+    "images/characters/alex_neutral.png": "Алекс",
+    "images/characters/alex_joy.png": "Алекс",
+    "images/characters/alex_sad.png": "Алекс",
+    "images/characters/alex_angry.png": "Алекс",
+    "images/characters/victor_neutral.png": "Виктор",
+    "images/characters/victor_smirk.png": "Виктор",
+    "images/characters/mary_neutral.png": "Тетя Мэри",
+    "images/characters/mary_smile.png": "Тетя Мэри",
+    "images/characters/henry_neutral.png": "Генри",
+    "images/characters/henry_smile.png": "Генри",
+    "images/characters/henry_embarrassed.png": "Генри",
+    "images/characters/kate_neutral.png": "Кейт",
+    "images/characters/kate_smile.png": "Кейт",
+    "images/characters/kate_smirk.png": "Кейт",
+    "images/characters/kate_angry.png": "Кейт"
+  },
+  "dialogs": []
+}

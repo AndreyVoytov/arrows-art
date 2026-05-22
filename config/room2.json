@@ -272,5 +272,7 @@
         }
       ]
     }
-  ]
+  ],
+  "roomId": "room2",
+  "nameKey": "room2_key"
 }

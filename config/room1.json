@@ -4,13 +4,34 @@
       "groupId": "carpet",
       "objects": [
         {
-          "id": "carpet",
+          "id": "carpet_A",
           "imageId": "carpet",
           "x": 125,
           "y": 552,
           "width": 469,
           "height": 285,
-          "angle": 0
+          "angle": 0,
+          "name_key": "carpet_key"
+        },
+        {
+          "id": "carpet_B",
+          "imageId": "carpet_B",
+          "x": 125,
+          "y": 552,
+          "width": 469,
+          "height": 285,
+          "angle": 0,
+          "name_key": "carpet_key"
+        },
+        {
+          "id": "carpet_C",
+          "imageId": "carpet_C",
+          "x": 125,
+          "y": 552,
+          "width": 469,
+          "height": 285,
+          "angle": 0,
+          "name_key": "carpet_key"
         }
       ]
     },
@@ -18,13 +39,34 @@
       "groupId": "window",
       "objects": [
         {
-          "id": "window",
+          "id": "window_A",
           "imageId": "window",
           "x": 446,
           "y": 120,
           "width": 132,
           "height": 448,
-          "angle": 225
+          "angle": 225,
+          "name_key": "window_key"
+        },
+        {
+          "id": "window_B",
+          "imageId": "window_B",
+          "x": 446,
+          "y": 120,
+          "width": 132,
+          "height": 448,
+          "angle": 225,
+          "name_key": "window_key"
+        },
+        {
+          "id": "window_C",
+          "imageId": "window_C",
+          "x": 446,
+          "y": 120,
+          "width": 132,
+          "height": 448,
+          "angle": 225,
+          "name_key": "window_key"
         }
       ]
     },
@@ -32,7 +74,7 @@
       "groupId": "chair_with_plant",
       "objects": [
         {
-          "id": "chair_with_plant_1",
+          "id": "chair_with_plant_A_1",
           "imageId": "chair_with_plant_1",
           "x": 524,
           "y": 529,
@@ -41,8 +83,44 @@
           "angle": 225
         },
         {
-          "id": "chair_with_plant_2",
+          "id": "chair_with_plant_A_2",
           "imageId": "chair_with_plant_2",
+          "x": 620,
+          "y": 484,
+          "width": 100,
+          "height": 201,
+          "angle": 0
+        },
+        {
+          "id": "chair_with_plant_B_1",
+          "imageId": "chair_with_plant_B_1",
+          "x": 524,
+          "y": 529,
+          "width": 144,
+          "height": 155,
+          "angle": 225
+        },
+        {
+          "id": "chair_with_plant_B_2",
+          "imageId": "chair_with_plant_B_2",
+          "x": 620,
+          "y": 484,
+          "width": 100,
+          "height": 201,
+          "angle": 0
+        },
+        {
+          "id": "chair_with_plant_C_1",
+          "imageId": "chair_with_plant_C_1",
+          "x": 524,
+          "y": 529,
+          "width": 144,
+          "height": 155,
+          "angle": 225
+        },
+        {
+          "id": "chair_with_plant_C_2",
+          "imageId": "chair_with_plant_C_2",
           "x": 620,
           "y": 484,
           "width": 100,
@@ -55,8 +133,26 @@
       "groupId": "picture",
       "objects": [
         {
-          "id": "picture",
+          "id": "picture_A",
           "imageId": "picture",
+          "x": 566,
+          "y": 219,
+          "width": 114,
+          "height": 281,
+          "angle": 225
+        },
+        {
+          "id": "picture_B",
+          "imageId": "picture_B",
+          "x": 566,
+          "y": 219,
+          "width": 114,
+          "height": 281,
+          "angle": 225
+        },
+        {
+          "id": "picture_C",
+          "imageId": "picture_C",
           "x": 566,
           "y": 219,
           "width": 114,
@@ -69,13 +165,34 @@
       "groupId": "cupboard",
       "objects": [
         {
-          "id": "cupboard",
+          "id": "cupboard_A",
           "imageId": "cupboard",
           "x": 185,
           "y": 78,
           "width": 237,
           "height": 559,
-          "angle": 135
+          "angle": 135,
+          "name_key": "cupboard_key"
+        },
+        {
+          "id": "cupboard_B",
+          "imageId": "cupboard_B",
+          "x": 185,
+          "y": 78,
+          "width": 237,
+          "height": 559,
+          "angle": 135,
+          "name_key": "cupboard_key"
+        },
+        {
+          "id": "cupboard_C",
+          "imageId": "cupboard_C",
+          "x": 185,
+          "y": 78,
+          "width": 237,
+          "height": 559,
+          "angle": 135,
+          "name_key": "cupboard_key"
         }
       ]
     },
@@ -83,8 +200,26 @@
       "groupId": "luster",
       "objects": [
         {
-          "id": "luster",
+          "id": "luster_A",
           "imageId": "luster",
+          "x": 311,
+          "y": 36,
+          "width": 164,
+          "height": 184,
+          "angle": -180
+        },
+        {
+          "id": "luster_B",
+          "imageId": "luster_B",
+          "x": 311,
+          "y": 36,
+          "width": 164,
+          "height": 184,
+          "angle": -180
+        },
+        {
+          "id": "luster_C",
+          "imageId": "luster_C",
           "x": 311,
           "y": 36,
           "width": 164,
@@ -97,13 +232,34 @@
       "groupId": "door",
       "objects": [
         {
-          "id": "door",
+          "id": "door_A",
           "imageId": "door",
           "x": 55,
           "y": 207,
           "width": 145,
           "height": 473,
-          "angle": 135
+          "angle": 135,
+          "name_key": "door_key"
+        },
+        {
+          "id": "door_B",
+          "imageId": "door_B",
+          "x": 55,
+          "y": 207,
+          "width": 145,
+          "height": 473,
+          "angle": 135,
+          "name_key": "door_key"
+        },
+        {
+          "id": "door_C",
+          "imageId": "door_C",
+          "x": 55,
+          "y": 207,
+          "width": 145,
+          "height": 473,
+          "angle": 135,
+          "name_key": "door_key"
         }
       ]
     },
@@ -111,8 +267,26 @@
       "groupId": "plant_left",
       "objects": [
         {
-          "id": "plant_left",
+          "id": "plant_left_A",
           "imageId": "plant_left",
+          "x": 18,
+          "y": 459,
+          "width": 71,
+          "height": 253,
+          "angle": 0
+        },
+        {
+          "id": "plant_left_B",
+          "imageId": "plant_left_B",
+          "x": 18,
+          "y": 459,
+          "width": 71,
+          "height": 253,
+          "angle": 0
+        },
+        {
+          "id": "plant_left_C",
+          "imageId": "plant_left_C",
           "x": 18,
           "y": 459,
           "width": 71,
@@ -209,7 +383,8 @@
           "y": 748,
           "width": 250,
           "height": 102,
-          "angle": 0
+          "angle": 0,
+          "name_key": "trash2_key"
         },
         {
           "id": "trash_1",
@@ -218,7 +393,8 @@
           "y": 664,
           "width": 151,
           "height": 80,
-          "angle": 0
+          "angle": 0,
+          "name_key": "trash1_key"
         }
       ]
     },
@@ -232,7 +408,8 @@
           "y": 208,
           "width": 141,
           "height": 470,
-          "angle": 135
+          "angle": 135,
+          "name_key": "broken_door_key"
         }
       ]
     },
@@ -246,7 +423,8 @@
           "y": 70,
           "width": 232,
           "height": 550,
-          "angle": 135
+          "angle": 135,
+          "name_key": "broken_cupboard_key"
         }
       ]
     },
@@ -260,7 +438,8 @@
           "y": 124,
           "width": 152,
           "height": 466,
-          "angle": 225
+          "angle": 225,
+          "name_key": "broken_window_key"
         }
       ]
     },
@@ -274,7 +453,8 @@
           "y": 442,
           "width": 108,
           "height": 219,
-          "angle": 0
+          "angle": 0,
+          "name_key": "dead_plant_key"
         },
         {
           "id": "dead_plant_1",
@@ -283,9 +463,12 @@
           "y": 469,
           "width": 65,
           "height": 253,
-          "angle": 0
+          "angle": 0,
+          "name_key": "dead_plant_key"
         }
       ]
     }
-  ]
+  ],
+  "roomId": "room1",
+  "nameKey": "room1_key"
 }

@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "atlases": {
+    "rooms_room1": {
+      "sourceDir": "images/rooms/room1",
+      "digest": "5662fe91e8411f9e8a61d4ff6a46e9d918295c6cbda4daa38b411207a189da7c",
+      "outputs": [
+        "images/atlases/rooms_room1.png",
+        "images/atlases/rooms_room1.json",
+        "images/atlases/rooms_room1.webp",
+        "images/atlases/rooms_room1.webp.json"
+      ],
+      "updatedAt": "2026-05-21T14:57:09.369317+00:00"
+    },
+    "rooms_room2": {
+      "sourceDir": "images/rooms/room2",
+      "digest": "d4a6002395c85bde1b5decfe362b6be10d3972cf2d990d9d2eb627484984e67f",
+      "outputs": [
+        "images/atlases/rooms_room2.png",
+        "images/atlases/rooms_room2.json",
+        "images/atlases/rooms_room2.webp",
+        "images/atlases/rooms_room2.webp.json"
+      ],
+      "updatedAt": "2026-05-21T13:23:15.308122+00:00"
+    }
+  }
+}

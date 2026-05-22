@@ -29,11 +29,14 @@ def copy_config() -> None:
     target = SITE_DIR / "config"
     target.mkdir()
 
-    for source in (ROOT / "config").glob("*.json"):
-        if source.name == "rooms.json":
+    for source in (ROOT / "config").rglob("*.json"):
+        relative_path = source.relative_to(ROOT / "config")
+        if relative_path.as_posix() == "rooms.json":
             continue
 
-        shutil.copy2(source, target / source.name)
+        output_path = target / relative_path
+        output_path.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, output_path)
 
 
 def copy_images() -> None:
@@ -58,7 +61,17 @@ def write_rooms_manifest() -> None:
             continue
 
         number = int(match.group(1))
-        rooms.append({"id": f"room{number}", "number": number})
+        room = {"id": f"room{number}", "number": number}
+        try:
+            with config_path.open("r", encoding="utf-8") as file:
+                room_config = json.load(file)
+        except (OSError, json.JSONDecodeError):
+            room_config = {}
+
+        if isinstance(room_config, dict) and isinstance(room_config.get("nameKey"), str):
+            room["nameKey"] = room_config["nameKey"]
+
+        rooms.append(room)
 
     rooms.sort(key=lambda room: room["number"])
 
