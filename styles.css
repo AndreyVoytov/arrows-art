@@ -67,6 +67,8 @@ button {
 }
 
 .room-bg {
+  background-position: 0 0;
+  background-repeat: no-repeat;
   height: 952px;
   left: 0;
   top: 8px;
@@ -83,6 +85,8 @@ button {
 }
 
 .sprite {
+  background-position: 0 0;
+  background-repeat: no-repeat;
   display: block;
   pointer-events: none;
   transform: translate3d(0, 0, 0) scale(1);
@@ -710,7 +714,10 @@ button {
     0 7px 14px rgba(0, 0, 0, .36);
 }
 
-.variant-option img {
+.variant-option img,
+.variant-preview {
+  background-position: 0 0;
+  background-repeat: no-repeat;
   max-height: 68px;
   max-width: 84px;
   object-fit: contain;

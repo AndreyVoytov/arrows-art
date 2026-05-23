@@ -1,0 +1,236 @@
+{
+  "frames": {
+    "room2_broken_door": {
+      "frame": {
+        "x": 1672,
+        "y": 0,
+        "w": 141,
+        "h": 470
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 141,
+        "h": 470
+      },
+      "sourceSize": {
+        "w": 141,
+        "h": 470
+      }
+    },
+    "room2_broken_floor": {
+      "frame": {
+        "x": 0,
+        "y": 954,
+        "w": 716,
+        "h": 432
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 716,
+        "h": 432
+      },
+      "sourceSize": {
+        "w": 716,
+        "h": 432
+      }
+    },
+    "room2_broken_wall_left": {
+      "frame": {
+        "x": 722,
+        "y": 0,
+        "w": 612,
+        "h": 695
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 612,
+        "h": 695
+      },
+      "sourceSize": {
+        "w": 612,
+        "h": 695
+      }
+    },
+    "room2_broken_wall_right": {
+      "frame": {
+        "x": 1336,
+        "y": 0,
+        "w": 334,
+        "h": 671
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 334,
+        "h": 671
+      },
+      "sourceSize": {
+        "w": 334,
+        "h": 671
+      }
+    },
+    "room2_room_bg": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 952
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 952
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 952
+      }
+    },
+    "room2_trash_1": {
+      "frame": {
+        "x": 1314,
+        "y": 954,
+        "w": 151,
+        "h": 80
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 151,
+        "h": 80
+      },
+      "sourceSize": {
+        "w": 151,
+        "h": 80
+      }
+    },
+    "room2_trash_2": {
+      "frame": {
+        "x": 1062,
+        "y": 954,
+        "w": 250,
+        "h": 102
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 250,
+        "h": 102
+      },
+      "sourceSize": {
+        "w": 250,
+        "h": 102
+      }
+    },
+    "room2_trash_3": {
+      "frame": {
+        "x": 1639,
+        "y": 954,
+        "w": 166,
+        "h": 70
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 166,
+        "h": 70
+      },
+      "sourceSize": {
+        "w": 166,
+        "h": 70
+      }
+    },
+    "room2_trash_4": {
+      "frame": {
+        "x": 718,
+        "y": 954,
+        "w": 342,
+        "h": 129
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 342,
+        "h": 129
+      },
+      "sourceSize": {
+        "w": 342,
+        "h": 129
+      }
+    },
+    "room2_trash_5": {
+      "frame": {
+        "x": 1467,
+        "y": 954,
+        "w": 170,
+        "h": 78
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 170,
+        "h": 78
+      },
+      "sourceSize": {
+        "w": 170,
+        "h": 78
+      }
+    },
+    "room2_trash_6": {
+      "frame": {
+        "x": 1815,
+        "y": 0,
+        "w": 209,
+        "h": 89
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 209,
+        "h": 89
+      },
+      "sourceSize": {
+        "w": 209,
+        "h": 89
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "6",
+    "image": "rooms_room2-repair.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 1386
+    },
+    "scale": "1",
+    "sourceDir": "images/rooms/room2-repair"
+  }
+}

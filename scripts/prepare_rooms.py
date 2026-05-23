@@ -5,6 +5,7 @@ import json
 import logging
 import os
 import re
+import shutil
 import sys
 from dataclasses import dataclass
 from pathlib import Path
@@ -40,8 +41,8 @@ class ExportedObject:
     image_id: str
     group: str
     phase: str
-    x: int
-    y: int
+    x: int | float
+    y: int | float
     width: int
     height: int
     angle: int
@@ -172,14 +173,22 @@ def prepare_room(
     write_config: bool = True,
 ) -> None:
     room_id = psd_path.stem
-    room_image_dir = ROOM_IMAGES_DIR / room_id
-    room_image_dir.mkdir(parents=True, exist_ok=True)
+    phase_image_dirs = {
+        "repair": room_phase_image_dir(room_id, "repair"),
+        "decor": room_phase_image_dir(room_id, "decor"),
+    }
+    if write_images:
+        for image_dir in phase_image_dirs.values():
+            image_dir.mkdir(parents=True, exist_ok=True)
 
     psd = PSDImage.open(psd_path)
     existing_order = load_existing_order(room_id)
     price_config = load_price_config() if write_config else {"rooms": {}}
     objects: list[ExportedObject] = []
-    exported_pngs: set[str] = set()
+    exported_pngs: dict[str, set[str]] = {
+        phase: set()
+        for phase in phase_image_dirs
+    }
     object_count = 0
 
     for layer, phase in iter_export_layers(psd):
@@ -189,9 +198,9 @@ def prepare_room(
 
         if layer_id == "room_bg":
             if write_images:
-                output_path = room_image_dir / f"{room_key(room_id, 'room_bg')}.png"
+                output_path = phase_image_dirs["repair"] / f"{room_key(room_id, 'room_bg')}.png"
                 export_room_bg(psd, layer, output_path)
-                exported_pngs.add(output_path.name)
+                exported_pngs["repair"].add(output_path.name)
             continue
 
         if phase is None:
@@ -200,13 +209,15 @@ def prepare_room(
         if phase is None:
             continue
 
-        exported_image, x, y = export_layer(psd, layer)
+        exported_image, left, top = export_layer(psd, layer)
+        x = center_coordinate(left, exported_image.width)
+        y = center_coordinate(top, exported_image.height)
         image_id = room_key(room_id, layer_id)
         object_count += 1
         if write_images:
-            output_path = room_image_dir / f"{image_id}.png"
+            output_path = phase_image_dirs[phase] / f"{image_id}.png"
             save_png(exported_image, output_path)
-            exported_pngs.add(output_path.name)
+            exported_pngs[phase].add(output_path.name)
 
         if write_config:
             objects.append(
@@ -227,7 +238,9 @@ def prepare_room(
         write_room_config(room_id, objects, existing_order, price_config)
         remove_legacy_room_order(room_id)
     if write_images:
-        remove_stale_pngs(room_image_dir, exported_pngs)
+        for phase, image_dir in phase_image_dirs.items():
+            remove_stale_pngs(image_dir, exported_pngs[phase])
+        remove_legacy_room_image_dir(room_id)
 
     actions = []
     if write_images:
@@ -235,6 +248,10 @@ def prepare_room(
     if write_config:
         actions.append("config")
     print(f"prepared {room_id} {'+'.join(actions)}: {object_count} objects")
+
+
+def room_phase_image_dir(room_id: str, phase: str) -> Path:
+    return ROOM_IMAGES_DIR / f"{room_id}-{phase}"
 
 
 def iter_export_layers(psd: PSDImage) -> Iterable[tuple[object, str | None]]:
@@ -365,6 +382,24 @@ def remove_stale_pngs(room_image_dir: Path, exported_pngs: set[str]) -> None:
     for png_path in room_image_dir.glob("*.png"):
         if png_path.name not in exported_pngs:
             png_path.unlink()
+
+
+def remove_legacy_room_image_dir(room_id: str) -> None:
+    legacy_dir = ROOM_IMAGES_DIR / room_id
+    if not legacy_dir.exists():
+        return
+
+    room_images_root = ROOM_IMAGES_DIR.resolve()
+    legacy_path = legacy_dir.resolve()
+    try:
+        legacy_path.relative_to(room_images_root)
+    except ValueError as error:
+        raise RuntimeError(f"Refusing to remove path outside images/rooms: {legacy_path}") from error
+
+    if legacy_dir.name != room_id:
+        raise RuntimeError(f"Refusing to remove unexpected legacy room directory: {legacy_path}")
+
+    shutil.rmtree(legacy_path)
 
 
 def load_existing_order(room_id: str) -> dict[str, list[str]]:
@@ -530,18 +565,6 @@ def build_multiobjects(
 
         return multiobjects
 
-    if should_split_by_item(group_id, items, price_lookup):
-        return [
-            multiobject_for(
-                key=room_key(room_id, item.id),
-                room_id=room_id,
-                group_id=group_id,
-                items=[item],
-                price=price_for(price_lookup, [item.id, group_id], None),
-            )
-            for item in items
-        ]
-
     key = room_key(room_id, group_id)
     return [
         multiobject_for(
@@ -582,20 +605,6 @@ def variant_sort_key(value: str) -> tuple[int, str]:
     return (999, value)
 
 
-def should_split_by_item(
-    group_id: str,
-    items: list[ExportedObject],
-    price_lookup: dict[str, dict[str, object]],
-) -> bool:
-    if len(items) <= 1:
-        return False
-
-    if find_price_entry(price_lookup, [group_id]) is not None:
-        return False
-
-    return any(find_price_entry(price_lookup, [item.id]) is not None for item in items)
-
-
 def multiobject_for(
     *,
     key: str,
@@ -604,14 +613,11 @@ def multiobject_for(
     items: list[ExportedObject],
     price: int | float,
 ) -> dict[str, object]:
-    item_bounds = bounds_for(items)
     return compact_dict(
         {
             "key": key,
             "parts": [part_key(item, room_id) for item in items],
             "price": price,
-            "x": item_bounds["left"],
-            "y": item_bounds["top"],
             "_items": items,
         }
     )
@@ -630,19 +636,28 @@ def part_key(item: ExportedObject, room_id: str) -> str:
     return room_key(room_id, item.id)
 
 
-def bounds_for(items: list[ExportedObject]) -> dict[str, int]:
-    left = min(item.x for item in items)
-    top = min(item.y for item in items)
-    right = max(item.x + item.width for item in items)
-    bottom = max(item.y + item.height for item in items)
+def bounds_for(items: list[ExportedObject]) -> dict[str, int | float]:
+    left = min(item.x - item.width / 2 for item in items)
+    top = min(item.y - item.height / 2 for item in items)
+    right = max(item.x + item.width / 2 for item in items)
+    bottom = max(item.y + item.height / 2 for item in items)
     return {
-        "left": left,
-        "top": top,
-        "right": right,
-        "bottom": bottom,
-        "width": right - left,
-        "height": bottom - top,
+        "left": json_number(left),
+        "top": json_number(top),
+        "right": json_number(right),
+        "bottom": json_number(bottom),
+        "width": json_number(right - left),
+        "height": json_number(bottom - top),
     }
+
+
+def center_coordinate(start: int, size: int) -> int | float:
+    return json_number(start + size / 2)
+
+
+def json_number(value: int | float) -> int | float:
+    number = float(value)
+    return int(number) if number.is_integer() else number
 
 
 def build_price_lookup(

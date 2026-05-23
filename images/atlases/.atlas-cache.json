@@ -1,27 +1,49 @@
 {
-  "version": 1,
+  "version": 6,
   "atlases": {
-    "rooms_room1": {
-      "sourceDir": "images/rooms/room1",
-      "digest": "62b922f1b56e72f48c48536410155bab3ea18b9553ab4eba655e40e443b83da9",
+    "rooms_room1-decor": {
+      "sourceDir": "images/rooms/room1-decor",
+      "digest": "031c4793bf2d73f6e67759018e503123525964cf9cfe626dbe07ef39750b099c",
       "outputs": [
-        "images/atlases/rooms_room1.png",
-        "images/atlases/rooms_room1.json",
-        "images/atlases/rooms_room1.webp",
-        "images/atlases/rooms_room1.webp.json"
+        "images/atlases/rooms_room1-decor.png",
+        "images/atlases/rooms_room1-decor.webp",
+        "images/atlases/rooms_room1-decor.json",
+        "images/atlases/rooms_room1-decor.webp.json"
       ],
-      "updatedAt": "2026-05-22T12:27:06.852971+00:00"
+      "updatedAt": "2026-05-23T19:27:18.393187+00:00"
     },
-    "rooms_room2": {
-      "sourceDir": "images/rooms/room2",
-      "digest": "164aa0ce818f44990bd79d6819226fe1e3bdac2a427caa086202587feb9ddcbd",
+    "rooms_room1-repair": {
+      "sourceDir": "images/rooms/room1-repair",
+      "digest": "26ef4ae48c83efe4b1ec904cbc00c268d73434320f9126510b9ed2a456dd215c",
       "outputs": [
-        "images/atlases/rooms_room2.png",
-        "images/atlases/rooms_room2.json",
-        "images/atlases/rooms_room2.webp",
-        "images/atlases/rooms_room2.webp.json"
+        "images/atlases/rooms_room1-repair.png",
+        "images/atlases/rooms_room1-repair.webp",
+        "images/atlases/rooms_room1-repair.json",
+        "images/atlases/rooms_room1-repair.webp.json"
       ],
-      "updatedAt": "2026-05-22T12:27:14.580929+00:00"
+      "updatedAt": "2026-05-23T19:27:25.034183+00:00"
+    },
+    "rooms_room2-decor": {
+      "sourceDir": "images/rooms/room2-decor",
+      "digest": "b86236998cabdb75def13e6a0e273456d7518cb11e4483e1911c00e54f563dcb",
+      "outputs": [
+        "images/atlases/rooms_room2-decor.png",
+        "images/atlases/rooms_room2-decor.webp",
+        "images/atlases/rooms_room2-decor.json",
+        "images/atlases/rooms_room2-decor.webp.json"
+      ],
+      "updatedAt": "2026-05-23T19:27:28.533671+00:00"
+    },
+    "rooms_room2-repair": {
+      "sourceDir": "images/rooms/room2-repair",
+      "digest": "3257127cde37452494deac2cb8a70312d729b1dbb2fd1594acfeb6ecd72df1a7",
+      "outputs": [
+        "images/atlases/rooms_room2-repair.png",
+        "images/atlases/rooms_room2-repair.webp",
+        "images/atlases/rooms_room2-repair.json",
+        "images/atlases/rooms_room2-repair.webp.json"
+      ],
+      "updatedAt": "2026-05-23T19:27:34.163093+00:00"
     }
   }
 }

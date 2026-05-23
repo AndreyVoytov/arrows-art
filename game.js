@@ -6,6 +6,7 @@
   const OUT_DISTANCE = 164;
   const STEP_DELAY = 120;
   const ROOM_IMAGE_ROOT = "images/rooms";
+  const ATLAS_ROOT = "images/atlases";
   const DIALOG_CONFIG_URL = "config/dialogs.json";
   const TEXT_RU_URL = "config/text/ru.json";
   const SPRITE_Z = {
@@ -103,6 +104,7 @@
   let orders = { repair: [], decor: [] };
   let phaseByGroup = new Map();
   let actionPointsByGroup = new Map();
+  let currentRoomAtlas = null;
   let sprites = [];
   let state = createInitialState();
   let activeVariant = null;
@@ -221,6 +223,121 @@
     }
   }
 
+  async function loadRoomAtlas(roomId) {
+    const phaseAtlas = await loadRoomAtlasGroup([
+      `rooms_${roomId}-repair`,
+      `rooms_${roomId}-decor`
+    ]);
+    if (phaseAtlas !== null) {
+      return phaseAtlas;
+    }
+
+    return loadRoomAtlasGroup([`rooms_${roomId}`]);
+  }
+
+  async function loadRoomAtlasGroup(atlasBases) {
+    const frames = {};
+
+    for (const atlasBase of atlasBases) {
+      const atlas = await loadRoomAtlasByBase(atlasBase);
+      if (atlas !== null) {
+        Object.assign(frames, atlas.frames);
+      }
+    }
+
+    return Object.keys(frames).length > 0 ? { frames } : null;
+  }
+
+  async function loadRoomAtlasByBase(atlasBase) {
+    const atlasUrls = [
+      `${ATLAS_ROOT}/${atlasBase}.webp.json`,
+      `${ATLAS_ROOT}/${atlasBase}.json`
+    ];
+
+    for (const atlasUrl of atlasUrls) {
+      const atlas = await loadJsonOrNull(atlasUrl);
+      const normalized = normalizeRoomAtlas(atlas);
+      if (normalized !== null) {
+        return normalized;
+      }
+    }
+
+    return null;
+  }
+
+  function normalizeRoomAtlas(atlas) {
+    if (!atlas || typeof atlas !== "object") {
+      return null;
+    }
+
+    if (Array.isArray(atlas.pages)) {
+      return normalizeMultiPageRoomAtlas(atlas.pages);
+    }
+
+    if (!atlas.frames || typeof atlas.frames !== "object") {
+      return null;
+    }
+
+    const image = String(atlas.meta?.image ?? "").trim();
+    const width = toFiniteNumber(atlas.meta?.size?.w, 0);
+    const height = toFiniteNumber(atlas.meta?.size?.h, 0);
+    if (!image || width <= 0 || height <= 0) {
+      return null;
+    }
+
+    return normalizeSinglePageRoomAtlas({
+      frames: atlas.frames,
+      image,
+      width,
+      height
+    });
+  }
+
+  function normalizeMultiPageRoomAtlas(pages) {
+    const frames = {};
+
+    for (const page of pages) {
+      if (!page || typeof page !== "object" || !page.frames || typeof page.frames !== "object") {
+        continue;
+      }
+
+      const image = String(page.image ?? "").trim();
+      const width = toFiniteNumber(page.size?.w, 0);
+      const height = toFiniteNumber(page.size?.h, 0);
+      if (!image || width <= 0 || height <= 0) {
+        continue;
+      }
+
+      Object.assign(frames, normalizeAtlasFrames(page.frames, image, width, height));
+    }
+
+    return Object.keys(frames).length > 0 ? { frames } : null;
+  }
+
+  function normalizeSinglePageRoomAtlas(page) {
+    return {
+      frames: normalizeAtlasFrames(page.frames, page.image, page.width, page.height)
+    };
+  }
+
+  function normalizeAtlasFrames(rawFrames, image, width, height) {
+    const frames = {};
+    for (const [key, frame] of Object.entries(rawFrames)) {
+      if (!frame || typeof frame !== "object" || !frame.frame) {
+        continue;
+      }
+
+      frames[key] = {
+        ...frame,
+        atlasImageUrl: `${ATLAS_ROOT}/${image}`,
+        atlasWidth: width,
+        atlasHeight: height
+      };
+    }
+
+    return frames;
+  }
+
   function renderRoomMenu(rooms) {
     roomList.replaceChildren();
 
@@ -254,13 +371,14 @@
 
     roomMenu.classList.add("hidden");
     topMenuButton.classList.remove("hidden");
-    levelTest.classList.remove("hidden");
+    levelTest.classList.add("hidden");
     status.textContent = "";
 
     const roomConfig = await fetch(`config/${currentRoomId}.json`).then((response) => response.json());
     const orderConfig = roomConfig.content ? null : await loadLegacyRoomOrder(currentRoomId);
 
-    roomBg.src = roomImageUrl(roomBackgroundImageId(roomConfig));
+    currentRoomAtlas = await loadRoomAtlas(currentRoomId);
+    applyRoomImage(roomBg, roomBackgroundImageId(roomConfig));
     orders = normalizeRoomOrders(roomConfig, orderConfig);
     phaseByGroup = buildPhaseMap(orders);
     actionPointsByGroup = buildActionPointMap(roomConfig);
@@ -275,11 +393,12 @@
     currentRoomIndex = 0;
     state = createInitialState();
     activeVariant = null;
+    currentRoomAtlas = null;
     itemsLayer.replaceChildren();
     actionsLayer.replaceChildren();
     hideVariantPanel();
     closeDialogPlayback();
-    roomBg.removeAttribute("src");
+    clearRoomImage(roomBg);
     roomMenu.classList.remove("hidden");
     topMenuButton.classList.add("hidden");
     levelTest.classList.add("hidden");
@@ -318,22 +437,15 @@
           return null;
         }
 
-        const element = document.createElement("img");
+        const imageId = object.imageId ?? object.id;
+        const element = createRoomImageElement(imageId);
         element.className = "sprite";
-        element.src = roomImageUrl(object.imageId ?? object.id);
-        element.alt = "";
         element.dataset.id = object.id;
-        element.dataset.imageId = object.imageId ?? object.id;
+        element.dataset.imageId = imageId;
         element.dataset.group = object.group;
         element.dataset.phase = phase;
-        element.style.left = `${object.x}px`;
-        element.style.top = `${object.y}px`;
-        if (Number.isFinite(object.width)) {
-          element.style.width = `${object.width}px`;
-        }
-        if (Number.isFinite(object.height)) {
-          element.style.height = `${object.height}px`;
-        }
+        applySpriteSize(element, object);
+        positionSpriteElement(element, object);
         element.style.zIndex = String(spriteZIndex(object, index, phase));
 
         if (phase === "decor") {
@@ -354,6 +466,49 @@
         };
       })
       .filter(Boolean);
+  }
+
+  function applySpriteSize(element, object) {
+    if (Number.isFinite(object.width)) {
+      element.style.width = `${object.width}px`;
+    }
+
+    if (Number.isFinite(object.height)) {
+      element.style.height = `${object.height}px`;
+    }
+  }
+
+  function positionSpriteElement(element, object) {
+    const size = spriteRenderSize(element, object);
+    const left = object.coordinates === "center" ? object.x - size.width / 2 : object.x;
+    const top = object.coordinates === "center" ? object.y - size.height / 2 : object.y;
+
+    element.style.left = `${left}px`;
+    element.style.top = `${top}px`;
+
+    if (element instanceof HTMLImageElement && (size.width <= 0 || size.height <= 0)) {
+      element.addEventListener("load", () => positionSpriteElement(element, object), { once: true });
+    }
+  }
+
+  function spriteRenderSize(element, object) {
+    return {
+      width: Number.isFinite(object.width) ? object.width : stylePixelValue(element.style.width) || naturalImageDimension(element, "width"),
+      height: Number.isFinite(object.height) ? object.height : stylePixelValue(element.style.height) || naturalImageDimension(element, "height")
+    };
+  }
+
+  function naturalImageDimension(element, axis) {
+    if (!(element instanceof HTMLImageElement)) {
+      return 0;
+    }
+
+    return axis === "width" ? element.naturalWidth : element.naturalHeight;
+  }
+
+  function stylePixelValue(value) {
+    const number = Number.parseFloat(value);
+    return Number.isFinite(number) ? number : 0;
   }
 
   function flattenRoomObjects(roomConfig) {
@@ -396,12 +551,13 @@
             group,
             multiobject: multiobjectKey,
             price,
-            x: toFiniteNumber(part.x, toFiniteNumber(multiobject.x, 0)),
-            y: toFiniteNumber(part.y, toFiniteNumber(multiobject.y, 0)),
+            x: toFiniteNumber(part.x, 0),
+            y: toFiniteNumber(part.y, 0),
             width: toFiniteNumber(part.width, toFiniteNumber(multiobject.width, null)),
             height: toFiniteNumber(part.height, toFiniteNumber(multiobject.height, null)),
             angle: toFiniteNumber(part.angle, toFiniteNumber(multiobject.angle, 0)),
-            variant
+            variant,
+            coordinates: "center"
           }));
       });
     }
@@ -410,7 +566,8 @@
       return roomConfig.groups.flatMap((group) => {
         return group.objects.map((object) => ({
           ...object,
-          group: group.groupId ?? group.id
+          group: group.groupId ?? group.id,
+          coordinates: "topLeft"
         }));
       });
     }
@@ -418,7 +575,8 @@
     return (roomConfig.objects ?? []).map((object) => ({
       ...object,
       imageId: object.imageId ?? object.id,
-      angle: object.angle ?? angleFromId(object.id)
+      angle: object.angle ?? angleFromId(object.id),
+      coordinates: "topLeft"
     }));
   }
 
@@ -630,8 +788,9 @@
   function createActionButton(action) {
     const object = objectsFor(action, state.phase)[0];
     const actionPoint = actionPointsByGroup.get(action.group);
-    const rawCenterX = actionPoint ? toFiniteNumber(actionPoint.x, object.x) : object.x + object.width / 2;
-    const rawCenterY = actionPoint ? toFiniteNumber(actionPoint.y, object.y) : object.y + object.height / 2;
+    const objectCenter = spriteCenterForObject(object);
+    const rawCenterX = actionPoint ? toFiniteNumber(actionPoint.x, objectCenter.x) : objectCenter.x;
+    const rawCenterY = actionPoint ? toFiniteNumber(actionPoint.y, objectCenter.y) : objectCenter.y;
     const centerX = clamp(rawCenterX, BUTTON_SIZE / 2, GAME_WIDTH - BUTTON_SIZE / 2);
     const centerY = clamp(rawCenterY, BUTTON_SIZE / 2, GAME_HEIGHT - BUTTON_SIZE / 2);
     const button = document.createElement("button");
@@ -656,6 +815,18 @@
     button.addEventListener("click", () => runAction(action, button));
 
     return button;
+  }
+
+  function spriteCenterForObject(object) {
+    if (object.coordinates === "center") {
+      return { x: object.x, y: object.y };
+    }
+
+    const size = spriteRenderSize(object.element, object);
+    return {
+      x: object.x + size.width / 2,
+      y: object.y + size.height / 2
+    };
   }
 
   async function runAction(action, button) {
@@ -812,16 +983,13 @@
 
     for (const variant of activeVariant.variants) {
       const option = document.createElement("button");
-      const preview = document.createElement("img");
+      const preview = createVariantPreviewElement(variant.objects[0].imageId ?? variant.objects[0].id);
 
       option.className = "variant-option";
       option.type = "button";
       option.setAttribute("aria-label", `Вариант ${variant.id}`);
       option.dataset.variant = variant.id;
       option.addEventListener("click", () => selectVariant(variant.id, false));
-
-      preview.src = roomImageUrl(variant.objects[0].imageId ?? variant.objects[0].id);
-      preview.alt = "";
 
       const priceText = decorPriceTextForVariant(activeVariant.action, variant);
       if (priceText) {
@@ -1800,6 +1968,88 @@
 
   function baseName(path) {
     return String(path).split("/").pop() ?? "";
+  }
+
+  function createRoomImageElement(imageId) {
+    if (atlasFrameFor(imageId) !== null) {
+      const element = document.createElement("div");
+      applyAtlasFrame(element, imageId);
+      return element;
+    }
+
+    const element = document.createElement("img");
+    element.src = roomImageUrl(imageId);
+    element.alt = "";
+    return element;
+  }
+
+  function createVariantPreviewElement(imageId) {
+    const frame = atlasFrameFor(imageId);
+    if (frame !== null) {
+      const element = document.createElement("div");
+      const size = atlasFrameSourceSize(frame);
+      const scale = Math.min(84 / size.w, 68 / size.h, 1);
+      element.className = "variant-preview";
+      applyAtlasFrame(element, imageId, scale);
+      return element;
+    }
+
+    const element = document.createElement("img");
+    element.src = roomImageUrl(imageId);
+    element.alt = "";
+    return element;
+  }
+
+  function applyRoomImage(element, imageId) {
+    if (applyAtlasFrame(element, imageId)) {
+      return;
+    }
+
+    clearRoomImage(element);
+    element.style.backgroundImage = `url("${roomImageUrl(imageId)}")`;
+    element.style.backgroundSize = "100% 100%";
+  }
+
+  function clearRoomImage(element) {
+    if (element instanceof HTMLImageElement) {
+      element.removeAttribute("src");
+    }
+
+    element.style.backgroundImage = "";
+    element.style.backgroundPosition = "";
+    element.style.backgroundSize = "";
+    element.style.width = "";
+    element.style.height = "";
+  }
+
+  function applyAtlasFrame(element, imageId, scale = 1) {
+    const frame = atlasFrameFor(imageId);
+    if (frame === null || frame.rotated || frame.atlasWidth <= 0 || frame.atlasHeight <= 0) {
+      return false;
+    }
+
+    const rect = frame.frame;
+    const sourceSize = atlasFrameSourceSize(frame);
+    const spriteSourceSize = frame.spriteSourceSize ?? { x: 0, y: 0 };
+
+    element.style.backgroundImage = `url("${frame.atlasImageUrl}")`;
+    element.style.backgroundPosition = `${(toFiniteNumber(spriteSourceSize.x, 0) - rect.x) * scale}px ${(toFiniteNumber(spriteSourceSize.y, 0) - rect.y) * scale}px`;
+    element.style.backgroundSize = `${frame.atlasWidth * scale}px ${frame.atlasHeight * scale}px`;
+    element.style.width = `${sourceSize.w * scale}px`;
+    element.style.height = `${sourceSize.h * scale}px`;
+    return true;
+  }
+
+  function atlasFrameFor(imageId) {
+    const frame = currentRoomAtlas?.frames?.[String(imageId)];
+    return frame && typeof frame === "object" && frame.frame ? frame : null;
+  }
+
+  function atlasFrameSourceSize(frame) {
+    return {
+      w: toFiniteNumber(frame.sourceSize?.w, toFiniteNumber(frame.frame?.w, 0)),
+      h: toFiniteNumber(frame.sourceSize?.h, toFiniteNumber(frame.frame?.h, 0))
+    };
   }
 
   function roomImageUrl(imageId) {

@@ -150,27 +150,21 @@
       "parts": [
         "room2_broken_wall_left"
       ],
-      "price": 99999,
-      "x": 0,
-      "y": 9
+      "price": 99999
     },
     {
       "key": "room2_broken_wall_right",
       "parts": [
         "room2_broken_wall_right"
       ],
-      "price": 99999,
-      "x": 386,
-      "y": 9
+      "price": 99999
     },
     {
       "key": "room2_broken_floor",
       "parts": [
         "room2_broken_floor"
       ],
-      "price": 99999,
-      "x": 0,
-      "y": 486
+      "price": 99999
     },
     {
       "key": "room2_trash",
@@ -182,36 +176,28 @@
         "room2_trash_2",
         "room2_trash_1"
       ],
-      "price": 99999,
-      "x": 0,
-      "y": 550
+      "price": 99999
     },
     {
       "key": "room2_broken_door",
       "parts": [
         "room2_broken_door"
       ],
-      "price": 99999,
-      "x": 59,
-      "y": 208
+      "price": 99999
     },
     {
       "key": "room2_carpet",
       "parts": [
         "room2_carpet"
       ],
-      "price": 99999,
-      "x": 125,
-      "y": 552
+      "price": 99999
     },
     {
       "key": "room2_window",
       "parts": [
         "room2_window"
       ],
-      "price": 99999,
-      "x": 446,
-      "y": 120
+      "price": 99999
     },
     {
       "key": "room2_chair_with_plant",
@@ -219,229 +205,209 @@
         "room2_chair_with_plant_1",
         "room2_chair_with_plant_2"
       ],
-      "price": 99999,
-      "x": 524,
-      "y": 484
+      "price": 99999
     },
     {
       "key": "room2_picture",
       "parts": [
         "room2_picture_A"
       ],
-      "price": 99999,
-      "x": 566,
-      "y": 219
+      "price": 99999
     },
     {
       "key": "room2_picture_variant_2",
       "parts": [
         "room2_picture_B"
       ],
-      "price": 99999,
-      "x": 566,
-      "y": 219
+      "price": 99999
     },
     {
       "key": "room2_picture_variant_3",
       "parts": [
         "room2_picture_C"
       ],
-      "price": 99999,
-      "x": 566,
-      "y": 219
+      "price": 99999
     },
     {
       "key": "room2_cupboard",
       "parts": [
         "room2_cupboard"
       ],
-      "price": 99999,
-      "x": 185,
-      "y": 78
+      "price": 99999
     },
     {
       "key": "room2_luster",
       "parts": [
         "room2_luster"
       ],
-      "price": 99999,
-      "x": 311,
-      "y": 36
+      "price": 99999
     },
     {
       "key": "room2_door",
       "parts": [
         "room2_door"
       ],
-      "price": 99999,
-      "x": 55,
-      "y": 207
+      "price": 99999
     },
     {
       "key": "room2_plant_left",
       "parts": [
         "room2_plant_left_A"
       ],
-      "price": 99999,
-      "x": 18,
-      "y": 459
+      "price": 99999
     },
     {
       "key": "room2_plant_left_variant_2",
       "parts": [
         "room2_plant_left_B"
       ],
-      "price": 99999,
-      "x": 18,
-      "y": 459
+      "price": 99999
     },
     {
       "key": "room2_plant_left_variant_3",
       "parts": [
         "room2_plant_left_C"
       ],
-      "price": 99999,
-      "x": 18,
-      "y": 459
+      "price": 99999
     }
   ],
   "allParts": [
     {
       "key": "room2_broken_wall_left",
-      "x": 0,
-      "y": 9,
+      "x": 306,
+      "y": 356.5,
       "angle": 180
     },
     {
       "key": "room2_broken_wall_right",
-      "x": 386,
-      "y": 9,
+      "x": 553,
+      "y": 344.5,
       "angle": 180
     },
     {
       "key": "room2_broken_floor",
-      "x": 0,
-      "y": 486,
+      "x": 358,
+      "y": 702,
       "angle": 180
     },
     {
       "key": "room2_trash_6",
-      "x": 508,
-      "y": 611,
+      "x": 612.5,
+      "y": 655.5,
       "angle": 0
     },
     {
       "key": "room2_trash_5",
-      "x": 380,
-      "y": 550,
+      "x": 465,
+      "y": 589,
       "angle": 0
     },
     {
       "key": "room2_trash_4",
-      "x": 134,
-      "y": 615,
+      "x": 305,
+      "y": 679.5,
       "angle": 180
     },
     {
       "key": "room2_trash_3",
-      "x": 128,
-      "y": 597,
+      "x": 211,
+      "y": 632,
       "angle": 0
     },
     {
       "key": "room2_trash_2",
-      "x": 235,
-      "y": 748,
+      "x": 360,
+      "y": 799,
       "angle": 0
     },
     {
       "key": "room2_trash_1",
-      "x": 0,
-      "y": 664,
+      "x": 75.5,
+      "y": 704,
       "angle": 0
     },
     {
       "key": "room2_broken_door",
-      "x": 59,
-      "y": 208,
+      "x": 129.5,
+      "y": 443,
       "angle": 135
     },
     {
       "key": "room2_carpet",
-      "x": 125,
-      "y": 552,
+      "x": 359.5,
+      "y": 694.5,
       "angle": 0
     },
     {
       "key": "room2_window",
-      "x": 446,
-      "y": 120,
+      "x": 512,
+      "y": 344,
       "angle": 225
     },
     {
       "key": "room2_chair_with_plant_1",
-      "x": 524,
-      "y": 529,
+      "x": 596,
+      "y": 606.5,
       "angle": 225
     },
     {
       "key": "room2_chair_with_plant_2",
-      "x": 620,
-      "y": 484,
+      "x": 670,
+      "y": 584.5,
       "angle": 0
     },
     {
       "key": "room2_picture_A",
-      "x": 566,
-      "y": 219,
+      "x": 623,
+      "y": 359.5,
       "angle": 225
     },
     {
       "key": "room2_picture_B",
-      "x": 566,
-      "y": 219,
+      "x": 623,
+      "y": 359.5,
       "angle": 225
     },
     {
       "key": "room2_picture_C",
-      "x": 566,
-      "y": 219,
+      "x": 623,
+      "y": 359.5,
       "angle": 225
     },
     {
       "key": "room2_cupboard",
-      "x": 185,
-      "y": 78,
+      "x": 303.5,
+      "y": 357.5,
       "angle": 135
     },
     {
       "key": "room2_luster",
-      "x": 311,
-      "y": 36,
+      "x": 393,
+      "y": 128,
       "angle": -180
     },
     {
       "key": "room2_door",
-      "x": 55,
-      "y": 207,
+      "x": 127.5,
+      "y": 443.5,
       "angle": 135
     },
     {
       "key": "room2_plant_left_A",
-      "x": 18,
-      "y": 459,
+      "x": 53.5,
+      "y": 585.5,
       "angle": 0
     },
     {
       "key": "room2_plant_left_B",
-      "x": 18,
-      "y": 459,
+      "x": 53.5,
+      "y": 585.5,
       "angle": 0
     },
     {
       "key": "room2_plant_left_C",
-      "x": 18,
-      "y": 459,
+      "x": 53.5,
+      "y": 585.5,
       "angle": 0
     }
   ]

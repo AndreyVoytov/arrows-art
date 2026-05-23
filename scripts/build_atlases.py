@@ -23,11 +23,15 @@ IMAGES_DIR = ROOT / "images"
 ATLASES_DIR = IMAGES_DIR / "atlases"
 CACHE_PATH = ATLASES_DIR / ".atlas-cache.json"
 
-SCRIPT_VERSION = 1
+SCRIPT_VERSION = 6
 SUPPORTED_EXTENSIONS = {".png", ".webp", ".jpg", ".jpeg"}
 IGNORED_TOP_LEVEL_DIRS = {"atlases", "src"}
-DEFAULT_MAX_SIZE = 4096
+MAX_ATLAS_SIZE = 2048
+DEFAULT_MAX_SIZE = MAX_ATLAS_SIZE
 DEFAULT_PADDING = 2
+DEFAULT_PNG_COMPRESS_LEVEL = 9
+DEFAULT_PNG_QUANTIZE_COLORS = 256
+DEFAULT_WEBP_QUALITY = 85
 
 
 @dataclass(frozen=True)
@@ -44,6 +48,14 @@ class PlacedFrame:
     source: SourceImage
     x: int
     y: int
+    width: int
+    height: int
+
+
+@dataclass(frozen=True)
+class AtlasPage:
+    index: int
+    placements: list[PlacedFrame]
     width: int
     height: int
 
@@ -68,30 +80,50 @@ def main(argv: list[str] | None = None) -> None:
             continue
 
         atlas_name = atlas_name_for(source_dir)
-        digest = atlas_digest(source_dir, images, args.padding, args.max_size)
-        outputs = atlas_outputs(atlas_name)
+        digest = atlas_digest(
+            source_dir=source_dir,
+            images=images,
+            padding=args.padding,
+            max_size=args.max_size,
+            png_compress_level=args.png_compress_level,
+            png_quantize_colors=args.png_quantize_colors,
+            webp_quality=args.webp_quality,
+            webp_lossless=args.webp_lossless,
+        )
         cache_entry = cache.get("atlases", {}).get(atlas_name)
 
         if (
             not args.force
             and cache_entry
             and cache_entry.get("digest") == digest
-            and outputs_exist(outputs)
+            and cached_outputs_exist(cache_entry)
         ):
             next_cache["atlases"][atlas_name] = cache_entry
             skipped += 1
             print(f"skip {atlas_name}")
             continue
 
-        build_atlas(source_dir, atlas_name, images, outputs, args.padding, args.max_size)
+        previous_sizes = output_sizes(cached_output_paths(cache_entry))
+        outputs = build_atlas(
+            source_dir=source_dir,
+            atlas_name=atlas_name,
+            images=images,
+            padding=args.padding,
+            max_size=args.max_size,
+            png_compress_level=args.png_compress_level,
+            png_quantize_colors=args.png_quantize_colors,
+            webp_quality=args.webp_quality,
+            webp_lossless=args.webp_lossless,
+        )
+        current_sizes = output_sizes(outputs)
         next_cache["atlases"][atlas_name] = {
             "sourceDir": relative_posix(source_dir),
             "digest": digest,
-            "outputs": [relative_posix(path) for path in outputs.values()],
+            "outputs": [relative_posix(path) for path in outputs],
             "updatedAt": datetime.now(timezone.utc).isoformat(),
         }
         built += 1
-        print(f"built {atlas_name}")
+        print(f"built {atlas_name}: {format_size_changes(previous_sizes, current_sizes)}")
 
     remove_stale_outputs(cache, next_cache)
     write_json(CACHE_PATH, next_cache)
@@ -109,7 +141,7 @@ def parse_args(argv: list[str] | None) -> argparse.Namespace:
         "--max-size",
         type=int,
         default=DEFAULT_MAX_SIZE,
-        help=f"Maximum atlas width/height. Default: {DEFAULT_MAX_SIZE}.",
+        help=f"Maximum atlas width/height, up to {MAX_ATLAS_SIZE}. Default: {DEFAULT_MAX_SIZE}.",
     )
     parser.add_argument(
         "--padding",
@@ -122,13 +154,48 @@ def parse_args(argv: list[str] | None) -> argparse.Namespace:
         action="store_true",
         help="Rebuild all atlases even when input hashes did not change.",
     )
+    parser.add_argument(
+        "--png-compress-level",
+        type=int,
+        default=DEFAULT_PNG_COMPRESS_LEVEL,
+        help=f"PNG zlib compression level from 0 to 9. Default: {DEFAULT_PNG_COMPRESS_LEVEL}.",
+    )
+    parser.add_argument(
+        "--png-quantize-colors",
+        type=int,
+        default=DEFAULT_PNG_QUANTIZE_COLORS,
+        help=(
+            "Quantize PNG atlases to this many palette colors. "
+            f"Use 0 for lossless RGBA PNG. Default: {DEFAULT_PNG_QUANTIZE_COLORS}."
+        ),
+    )
+    parser.add_argument(
+        "--webp-quality",
+        type=int,
+        default=DEFAULT_WEBP_QUALITY,
+        help=f"Lossy WebP quality from 1 to 100. Default: {DEFAULT_WEBP_QUALITY}.",
+    )
+    parser.add_argument(
+        "--webp-lossless",
+        action="store_true",
+        help="Write lossless WebP atlases instead of the default compressed lossy WebP.",
+    )
     args = parser.parse_args(argv)
 
-    if args.max_size <= 0:
-        raise SystemExit("--max-size must be greater than zero")
+    if not 1 <= args.max_size <= MAX_ATLAS_SIZE:
+        raise SystemExit(f"--max-size must be between 1 and {MAX_ATLAS_SIZE}")
 
     if args.padding < 0:
         raise SystemExit("--padding cannot be negative")
+
+    if not 0 <= args.png_compress_level <= 9:
+        raise SystemExit("--png-compress-level must be between 0 and 9")
+
+    if args.png_quantize_colors != 0 and not 2 <= args.png_quantize_colors <= 256:
+        raise SystemExit("--png-quantize-colors must be 0 or between 2 and 256")
+
+    if not 1 <= args.webp_quality <= 100:
+        raise SystemExit("--webp-quality must be between 1 and 100")
 
     return args
 
@@ -207,12 +274,26 @@ def file_sha256(path: Path) -> str:
     return digest.hexdigest()
 
 
-def atlas_digest(source_dir: Path, images: list[SourceImage], padding: int, max_size: int) -> str:
+def atlas_digest(
+    *,
+    source_dir: Path,
+    images: list[SourceImage],
+    padding: int,
+    max_size: int,
+    png_compress_level: int,
+    png_quantize_colors: int,
+    webp_quality: int,
+    webp_lossless: bool,
+) -> str:
     payload = {
         "scriptVersion": SCRIPT_VERSION,
         "sourceDir": relative_posix(source_dir),
         "padding": padding,
         "maxSize": max_size,
+        "pngCompressLevel": png_compress_level,
+        "pngQuantizeColors": png_quantize_colors,
+        "webpQuality": webp_quality,
+        "webpLossless": webp_lossless,
         "images": [
             {
                 "path": relative_posix(image.path),
@@ -228,101 +309,238 @@ def atlas_digest(source_dir: Path, images: list[SourceImage], padding: int, max_
     return hashlib.sha256(encoded).hexdigest()
 
 
-def atlas_outputs(atlas_name: str) -> dict[str, Path]:
-    return {
-        "png": ATLASES_DIR / f"{atlas_name}.png",
-        "pngJson": ATLASES_DIR / f"{atlas_name}.json",
-        "webp": ATLASES_DIR / f"{atlas_name}.webp",
-        "webpJson": ATLASES_DIR / f"{atlas_name}.webp.json",
-    }
+def atlas_index_path(atlas_name: str, extension: str) -> Path:
+    if extension == "png":
+        return ATLASES_DIR / f"{atlas_name}.json"
+
+    return ATLASES_DIR / f"{atlas_name}.{extension}.json"
 
 
-def outputs_exist(outputs: dict[str, Path]) -> bool:
-    return all(path.exists() for path in outputs.values())
+def atlas_page_image_path(
+    atlas_name: str,
+    extension: str,
+    page_index: int,
+    page_count: int,
+) -> Path:
+    suffix = "" if page_count == 1 else f"_{page_index}"
+    return ATLASES_DIR / f"{atlas_name}{suffix}.{extension}"
+
+
+def cached_outputs_exist(cache_entry: object) -> bool:
+    paths = cached_output_paths(cache_entry)
+    return bool(paths) and all(path.exists() for path in paths)
+
+
+def cached_output_paths(cache_entry: object) -> list[Path]:
+    if not isinstance(cache_entry, dict):
+        return []
+
+    outputs = cache_entry.get("outputs")
+    if not isinstance(outputs, list):
+        return []
+
+    return [ROOT / str(output) for output in outputs]
+
+
+def output_sizes(outputs: Iterable[Path]) -> dict[str, int]:
+    sizes: dict[str, int] = {}
+    for path in outputs:
+        if not path.exists() or path.suffix.lower() not in {".png", ".webp"}:
+            continue
+
+        key = path.suffix.lower().lstrip(".")
+        sizes[key] = sizes.get(key, 0) + path.stat().st_size
+
+    return sizes
+
+
+def format_size_changes(previous: dict[str, int], current: dict[str, int]) -> str:
+    parts = []
+    for name in ("png", "webp"):
+        size = current.get(name)
+        if size is None:
+            continue
+
+        old_size = previous.get(name)
+        if old_size is not None and old_size != size:
+            parts.append(f"{name} {format_file_size(old_size)} -> {format_file_size(size)}")
+        else:
+            parts.append(f"{name} {format_file_size(size)}")
+
+    return ", ".join(parts)
+
+
+def format_file_size(size: int) -> str:
+    if size >= 1024 * 1024:
+        return f"{size / (1024 * 1024):.2f} MB"
+
+    if size >= 1024:
+        return f"{size / 1024:.0f} KB"
+
+    return f"{size} B"
 
 
 def build_atlas(
     source_dir: Path,
     atlas_name: str,
     images: list[SourceImage],
-    outputs: dict[str, Path],
     padding: int,
     max_size: int,
-) -> None:
-    placements, width, height = pack_images(images, padding, max_size)
-    atlas_image = Image.new("RGBA", (width, height), (0, 0, 0, 0))
+    png_compress_level: int,
+    png_quantize_colors: int,
+    webp_quality: int,
+    webp_lossless: bool,
+) -> list[Path]:
+    pages = pack_images(images, padding, max_size)
+    page_count = len(pages)
+    output_paths: list[Path] = []
+    page_paths: dict[str, list[Path]] = {"png": [], "webp": []}
 
-    for placement in placements:
+    for page in pages:
+        atlas_image = render_atlas_page(page)
+        png_path = atlas_page_image_path(atlas_name, "png", page.index, page_count)
+        webp_path = atlas_page_image_path(atlas_name, "webp", page.index, page_count)
+
+        png_image = optimize_png_image(atlas_image, png_quantize_colors)
+        png_image.save(png_path, optimize=True, compress_level=png_compress_level)
+        if webp_lossless:
+            atlas_image.save(webp_path, lossless=True, method=6)
+        else:
+            atlas_image.save(webp_path, quality=webp_quality, method=6)
+
+        page_paths["png"].append(png_path)
+        page_paths["webp"].append(webp_path)
+        output_paths.extend([png_path, webp_path])
+
+    png_index_path = atlas_index_path(atlas_name, "png")
+    webp_index_path = atlas_index_path(atlas_name, "webp")
+    write_json(
+        png_index_path,
+        atlas_json(
+            source_dir=source_dir,
+            image_paths=page_paths["png"],
+            pages=pages,
+            max_size=max_size,
+        ),
+    )
+    write_json(
+        webp_index_path,
+        atlas_json(
+            source_dir=source_dir,
+            image_paths=page_paths["webp"],
+            pages=pages,
+            max_size=max_size,
+        ),
+    )
+    output_paths.extend([png_index_path, webp_index_path])
+
+    return output_paths
+
+
+def render_atlas_page(page: AtlasPage) -> Image.Image:
+    atlas_image = Image.new("RGBA", (page.width, page.height), (0, 0, 0, 0))
+
+    for placement in page.placements:
         with Image.open(placement.source.path) as source:
             atlas_image.alpha_composite(source.convert("RGBA"), (placement.x, placement.y))
 
-    atlas_image.save(outputs["png"], optimize=True)
-    atlas_image.save(outputs["webp"], lossless=True, method=6)
+    return atlas_image
 
-    png_data = phaser_json(
+
+def atlas_json(
+    source_dir: Path,
+    image_paths: list[Path],
+    pages: list[AtlasPage],
+    max_size: int,
+) -> dict[str, object]:
+    if len(pages) == 1:
+        page = pages[0]
+        return phaser_json(
+            source_dir=source_dir,
+            image_name=image_paths[0].name,
+            placements=page.placements,
+            width=page.width,
+            height=page.height,
+        )
+
+    return multi_page_json(
         source_dir=source_dir,
-        image_name=outputs["png"].name,
-        placements=placements,
-        width=width,
-        height=height,
-    )
-    webp_data = phaser_json(
-        source_dir=source_dir,
-        image_name=outputs["webp"].name,
-        placements=placements,
-        width=width,
-        height=height,
+        image_paths=image_paths,
+        pages=pages,
+        max_size=max_size,
     )
 
-    write_json(outputs["pngJson"], png_data)
-    write_json(outputs["webpJson"], webp_data)
+
+def optimize_png_image(image: Image.Image, quantize_colors: int) -> Image.Image:
+    if quantize_colors == 0:
+        return image
+
+    return image.quantize(
+        colors=quantize_colors,
+        method=Image.Quantize.FASTOCTREE,
+        dither=Image.Dither.NONE,
+    )
 
 
 def pack_images(
     images: list[SourceImage],
     padding: int,
     max_size: int,
-) -> tuple[list[PlacedFrame], int, int]:
-    min_width = max(image.width for image in images)
-    total_area = sum((image.width + padding) * (image.height + padding) for image in images)
-    width = max(next_power_of_two(max(min_width, int(total_area ** 0.5))), 1)
-    width = min(width, max_size)
+) -> list[AtlasPage]:
+    too_large = [
+        image
+        for image in images
+        if image.width > max_size or image.height > max_size
+    ]
+    if too_large:
+        largest = max(too_large, key=lambda image: image.width * image.height)
+        raise SystemExit(
+            f"Frame is larger than {max_size}x{max_size}: "
+            f"{largest.path.name} ({largest.width}x{largest.height})."
+        )
 
-    while width <= max_size:
-        placements, height = try_pack(images, width, padding)
-        if placements and height <= max_size:
-            return placements, width, max(1, height)
+    remaining = sorted(images, key=image_sort_key, reverse=True)
+    pages: list[AtlasPage] = []
 
-        width *= 2
+    while remaining:
+        placements, width, height = try_pack_page(remaining, max_size, padding)
+        if not placements:
+            largest = max(remaining, key=lambda image: image.width * image.height)
+            raise SystemExit(
+                "Could not pack atlas page. "
+                f"Largest remaining frame: {largest.path.name} "
+                f"({largest.width}x{largest.height})."
+            )
 
-    largest = max(images, key=lambda image: image.width * image.height)
-    raise SystemExit(
-        "Could not pack atlas. "
-        f"Try a larger --max-size. Largest frame: {largest.path.name} "
-        f"({largest.width}x{largest.height})."
-    )
+        pages.append(
+            AtlasPage(
+                index=len(pages) + 1,
+                placements=placements,
+                width=width,
+                height=height,
+            )
+        )
+        used_paths = {placement.source.path for placement in placements}
+        remaining = [image for image in remaining if image.path not in used_paths]
+
+    return pages
 
 
-def try_pack(
+def try_pack_page(
     images: list[SourceImage],
-    atlas_width: int,
+    max_size: int,
     padding: int,
-) -> tuple[list[PlacedFrame], int]:
-    sorted_images = sorted(
-        images,
-        key=lambda image: (image.height, image.width, image.path.name.lower()),
-        reverse=True,
-    )
+) -> tuple[list[PlacedFrame], int, int]:
     shelves: list[dict[str, int]] = []
     placements: list[PlacedFrame] = []
 
-    for image in sorted_images:
-        if image.width > atlas_width:
-            return [], 0
-
-        shelf = first_shelf_that_fits(shelves, image, atlas_width, padding)
+    for image in sorted(images, key=image_sort_key, reverse=True):
+        shelf = first_shelf_that_fits(shelves, image, max_size, padding)
         if shelf is None:
             y = shelves[-1]["y"] + shelves[-1]["height"] + padding if shelves else 0
+            if y + image.height > max_size:
+                continue
+
             shelf = {
                 "x": 0,
                 "y": y,
@@ -341,11 +559,24 @@ def try_pack(
         )
         shelf["x"] += image.width + padding
 
-    atlas_height = max(
-        placement.y + placement.height
-        for placement in placements
+    if not placements:
+        return [], 0, 0
+
+    atlas_width = min(
+        max_size,
+        next_power_of_two(max(placement.x + placement.width for placement in placements)),
     )
-    return placements, atlas_height
+    atlas_height = max(placement.y + placement.height for placement in placements)
+    return placements, atlas_width, max(1, atlas_height)
+
+
+def image_sort_key(image: SourceImage) -> tuple[int, int, int, str]:
+    return (
+        image.height,
+        image.width,
+        image.width * image.height,
+        image.path.name.lower(),
+    )
 
 
 def first_shelf_that_fits(
@@ -361,6 +592,36 @@ def first_shelf_that_fits(
     return None
 
 
+def multi_page_json(
+    source_dir: Path,
+    image_paths: list[Path],
+    pages: list[AtlasPage],
+    max_size: int,
+) -> dict[str, object]:
+    return {
+        "pages": [
+            {
+                "image": image_path.name,
+                "frames": frames_json(page.placements),
+                "size": {
+                    "w": page.width,
+                    "h": page.height,
+                },
+            }
+            for image_path, page in zip(image_paths, pages)
+        ],
+        "meta": {
+            "app": "scripts/build_atlases.py",
+            "version": str(SCRIPT_VERSION),
+            "format": "RGBA8888",
+            "scale": "1",
+            "sourceDir": relative_posix(source_dir),
+            "pageCount": len(pages),
+            "maxSize": max_size,
+        },
+    }
+
+
 def phaser_json(
     source_dir: Path,
     image_name: str,
@@ -368,6 +629,24 @@ def phaser_json(
     width: int,
     height: int,
 ) -> dict[str, object]:
+    return {
+        "frames": frames_json(placements),
+        "meta": {
+            "app": "scripts/build_atlases.py",
+            "version": str(SCRIPT_VERSION),
+            "image": image_name,
+            "format": "RGBA8888",
+            "size": {
+                "w": width,
+                "h": height,
+            },
+            "scale": "1",
+            "sourceDir": relative_posix(source_dir),
+        },
+    }
+
+
+def frames_json(placements: list[PlacedFrame]) -> dict[str, object]:
     frames = {}
     for placement in sorted(placements, key=lambda item: item.source.frame_name):
         frames[placement.source.frame_name] = {
@@ -391,21 +670,7 @@ def phaser_json(
             },
         }
 
-    return {
-        "frames": frames,
-        "meta": {
-            "app": "scripts/build_atlases.py",
-            "version": str(SCRIPT_VERSION),
-            "image": image_name,
-            "format": "RGBA8888",
-            "size": {
-                "w": width,
-                "h": height,
-            },
-            "scale": "1",
-            "sourceDir": relative_posix(source_dir),
-        },
-    }
+    return frames
 
 
 def next_power_of_two(value: int) -> int:
