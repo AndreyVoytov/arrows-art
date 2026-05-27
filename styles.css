@@ -245,6 +245,7 @@ button {
 }
 
 .dialog-character {
+  background-repeat: no-repeat;
   bottom: 140px;
   max-height: 430px;
   max-width: 280px;
@@ -616,12 +617,22 @@ button {
   justify-items: center;
 }
 
-.line-preview img {
+.line-preview img,
+.line-preview .character-preview {
   background: rgba(255, 255, 255, .12);
   border-radius: 6px;
+  background-repeat: no-repeat;
+}
+
+.line-preview img {
   height: 70px;
   object-fit: contain;
   width: 70px;
+}
+
+.line-preview .character-preview {
+  max-height: 70px;
+  max-width: 70px;
 }
 
 .line-main {

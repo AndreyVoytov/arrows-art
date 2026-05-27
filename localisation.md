@@ -25,7 +25,8 @@ Treat `tmp/text_src/ru.json` as an intermediate source file. Do not write transl
 It also writes game balance configs:
 
 - `config/level_rewards.json`
-- `config/dialogs.json`
+- `config/characters.json`
+- room-local dialog blocks inside `config/room*.json`
 
 ## Target Files
 

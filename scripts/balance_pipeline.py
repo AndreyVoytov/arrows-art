@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import re
 from pathlib import Path
 
@@ -9,9 +10,11 @@ from export_google_sheets import (
     build_level_rewards,
     build_objects_ru,
     build_rooms_ru,
+    characters_config,
     parse_dialog_rows,
     parse_equipment_rows,
     parse_level_rows,
+    update_room_dialog_configs,
     update_room_configs,
     write_json,
 )
@@ -19,6 +22,7 @@ from sheet_cache import read_local_table, require_local_tables
 
 
 RU_OUTPUT = TEXT_SRC_DIR / "ru.json"
+GAME_RU_OUTPUT = CONFIG_DIR / "text" / "ru.json"
 
 
 def load_local_equipment() -> tuple[list[dict[str, object]], dict[str, str]]:
@@ -53,6 +57,15 @@ def update_prices_from_local_sheet(room_filter: str | None = None) -> list[str]:
     return updated_rooms
 
 
+def update_dialogs_from_local_sheet(room_filter: str | None = None) -> list[str]:
+    require_local_tables(("dialogs",))
+    dialogs_config, _dialogs_ru = parse_dialog_rows(read_local_table("dialogs"))
+    write_json(CONFIG_DIR / "characters.json", characters_config(dialogs_config))
+    update_game_dialog_text(_dialogs_ru)
+    allowed = room_ids_from_filter(room_filter) if room_filter is not None else None
+    return update_room_dialog_configs(dialogs_config, allowed)
+
+
 def prepare_balance_local() -> None:
     require_local_tables()
 
@@ -61,9 +74,10 @@ def prepare_balance_local() -> None:
     dialogs_config, dialogs_ru = parse_dialog_rows(read_local_table("dialogs"))
 
     write_json(CONFIG_DIR / "level_rewards.json", build_level_rewards(level_rewards))
-    write_json(CONFIG_DIR / "dialogs.json", dialogs_config)
+    write_json(CONFIG_DIR / "characters.json", characters_config(dialogs_config))
     ru = build_ru(equipment_items, rooms, levels_ru, dialogs_ru)
     write_json(RU_OUTPUT, ru)
+    update_game_dialog_text(dialogs_ru)
 
     room_configs = [
         path for path in CONFIG_DIR.glob("room*.json")
@@ -76,10 +90,31 @@ def prepare_balance_local() -> None:
     if not updated_rooms:
         raise SystemExit("No room config JSON files were updated from local sheet")
 
+    update_room_dialog_configs(dialogs_config)
+
     print(f"updated room prices: {', '.join(updated_rooms)}")
     print(f"dialogs: {len(dialogs_config['dialogs'])}")
     print(f"level rewards: {len(level_rewards['levels'])}")
     print(f"ru localization keys: {len(ru)}")
+
+
+def update_game_dialog_text(dialogs_ru: dict[str, str]) -> None:
+    if not dialogs_ru:
+        return
+
+    existing = {}
+    if GAME_RU_OUTPUT.exists():
+        try:
+            with GAME_RU_OUTPUT.open("r", encoding="utf-8") as file:
+                loaded = json.load(file)
+            if isinstance(loaded, dict):
+                existing = {str(key): str(value) for key, value in loaded.items()}
+        except json.JSONDecodeError:
+            existing = {}
+
+    existing.update(dialogs_ru)
+    write_json(GAME_RU_OUTPUT, dict(sorted(existing.items())))
+    print(f"updated dialog text: {GAME_RU_OUTPUT.relative_to(CONFIG_DIR.parent).as_posix()}")
 
 
 def build_ru(

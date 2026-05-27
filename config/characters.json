@@ -56,40 +56,5 @@
         "kate_angry"
       ]
     }
-  ],
-  "dialogs": [
-    {
-      "id": "room1_d1",
-      "roomId": "room1",
-      "roomIndex": 1,
-      "conditions": [
-        {
-          "trigger": "roomEntered"
-        }
-      ],
-      "replicas": [
-        {
-          "id": "room1_d1_r1",
-          "char_key": "anna_loc",
-          "char_state": "anna_neutral",
-          "position": "left",
-          "text_key": "room1_d1_r1_loc"
-        },
-        {
-          "id": "room1_d1_r2",
-          "char_key": "anna_loc",
-          "char_state": "anna_sad",
-          "position": "left",
-          "text_key": "room1_d1_r2_loc"
-        },
-        {
-          "id": "room1_d1_r3",
-          "char_key": "alex_loc",
-          "char_state": "alex_joy",
-          "position": "right",
-          "text_key": "room1_d1_r3_loc"
-        }
-      ]
-    }
   ]
 }

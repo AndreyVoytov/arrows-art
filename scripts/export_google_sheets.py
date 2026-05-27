@@ -18,7 +18,7 @@ CONFIG_DIR = ROOT / "config"
 TEXT_SRC_DIR = ROOT / "tmp" / "text_src"
 
 DEFAULT_LEVEL_REWARDS_OUTPUT = CONFIG_DIR / "level_rewards.json"
-DEFAULT_DIALOGS_OUTPUT = CONFIG_DIR / "dialogs.json"
+DEFAULT_CHARACTERS_OUTPUT = CONFIG_DIR / "characters.json"
 DEFAULT_RU_OUTPUT = TEXT_SRC_DIR / "ru.json"
 DEFAULT_SPREADSHEET_URL = (
     "https://docs.google.com/spreadsheets/d/"
@@ -61,10 +61,11 @@ def main(argv: list[str] | None = None) -> None:
     dialogs_config, dialogs_ru = parse_dialog_rows(dialog_rows)
 
     write_json(args.level_rewards_output, build_level_rewards(level_rewards))
-    write_json(args.dialogs_output, dialogs_config)
+    write_json(args.characters_output, characters_config(dialogs_config))
     write_json(args.ru_output, build_ru(equipment_items, rooms, levels_ru, dialogs_ru))
     if not args.skip_room_config_update:
         update_room_configs(equipment_items, rooms)
+        update_room_dialog_configs(dialogs_config)
 
     print(f"equipment: {len(equipment_items)} items")
     print(f"level rewards: {len(level_rewards['levels'])} levels")
@@ -152,9 +153,15 @@ def parse_args(argv: list[str] | None) -> argparse.Namespace:
         default=DEFAULT_LEVEL_REWARDS_OUTPUT,
     )
     parser.add_argument(
-        "--dialogs-output",
+        "--characters-output",
         type=Path,
-        default=DEFAULT_DIALOGS_OUTPUT,
+        default=DEFAULT_CHARACTERS_OUTPUT,
+    )
+    parser.add_argument(
+        "--dialogs-output",
+        dest="characters_output",
+        type=Path,
+        help="Deprecated alias for --characters-output.",
     )
     parser.add_argument(
         "--ru-output",
@@ -489,12 +496,15 @@ def parse_dialog_rows(
     state_to_character_key, characters, translations = parse_dialog_characters(rows)
     dialogs: list[dict[str, object]] = []
     dialogs_by_id: dict[str, dict[str, object]] = {}
+    conditions_by_dialog_id: dict[str, dict[str, str]] = {}
     current_room_id = ""
     current_dialog_id = ""
 
     for row_number, row in enumerate(rows, start=2):
         room_id = cell(row, "room_id", "room id")
         dialog_id = cell(row, "dialog_id", "dialog id")
+        trigger_type = cell(row, "trigger_type", "trigger type", "trigger")
+        trigger_key = cell(row, "trigger_key", "trigger key")
         replica_id = cell(row, "replica_id", "replica id", "replica")
         position = cell(row, "position")
         char_state = cell(row, "portrait")
@@ -507,6 +517,11 @@ def parse_dialog_rows(
                 warn(f"dialogs row {row_number}: Dialog_ID without Room_ID")
                 continue
             current_dialog_id = dialog_key(current_room_id, dialog_id)
+            conditions_by_dialog_id[current_dialog_id] = dialog_condition(
+                trigger_type=trigger_type,
+                trigger_key=trigger_key,
+                room_id=current_room_id,
+            )
 
         if not replica_id and not position and not char_state and not text:
             continue
@@ -537,10 +552,14 @@ def parse_dialog_rows(
             dialog = {
                 "id": current_dialog_id,
                 "roomId": current_room_id,
-                "roomIndex": room_index_from_id(current_room_id),
-                "conditions": [
-                    {"trigger": "roomEntered"}
-                ],
+                "conditions": [conditions_by_dialog_id.get(
+                    current_dialog_id,
+                    dialog_condition(
+                        trigger_type="",
+                        trigger_key="",
+                        room_id=current_room_id,
+                    ),
+                )],
                 "replicas": [],
             }
             dialogs_by_id[current_dialog_id] = dialog
@@ -571,6 +590,69 @@ def parse_dialog_rows(
         "dialogs": dialogs,
     }
     return config, translations
+
+
+def characters_config(dialogs_config: dict[str, object]) -> dict[str, object]:
+    characters = dialogs_config.get("characters") if isinstance(dialogs_config, dict) else []
+    return {
+        "characters": characters if isinstance(characters, list) else []
+    }
+
+
+def dialog_condition(trigger_type: str, trigger_key: str, room_id: str) -> dict[str, str]:
+    normalized_type = normalize_dialog_trigger_type(trigger_type)
+    normalized_key = normalize_dialog_trigger_key(
+        trigger_key=trigger_key,
+        trigger_type=normalized_type,
+        room_id=room_id,
+    )
+    return {
+        "trigger_type": normalized_type,
+        "trigger_key": normalized_key,
+    }
+
+
+def normalize_dialog_trigger_type(value: str) -> str:
+    if not value.strip():
+        return "on_room_enter"
+
+    key = slug_key(value)
+    aliases = {
+        "": "on_room_enter",
+        "roomentered": "on_room_enter",
+        "room_entered": "on_room_enter",
+        "room_enter": "on_room_enter",
+        "on_room_enter": "on_room_enter",
+        "roomcompleted": "on_room_finished",
+        "room_completed": "on_room_finished",
+        "room_finished": "on_room_finished",
+        "on_room_finished": "on_room_finished",
+        "objectbought": "after_action",
+        "object_bought": "after_action",
+        "after_action": "after_action",
+        "before_action": "before_action",
+        "levelcompleted": "levelCompleted",
+        "level_completed": "levelCompleted",
+    }
+    return aliases.get(key, key or "on_room_enter")
+
+
+def normalize_dialog_trigger_key(
+    *,
+    trigger_key: str,
+    trigger_type: str,
+    room_id: str,
+) -> str:
+    key = trigger_key.strip()
+    if key:
+        if trigger_type != "levelCompleted" and not key.startswith("room"):
+            return f"{room_id}_{key}"
+        return key
+
+    if trigger_type in {"on_room_enter", "on_room_finished"}:
+        return room_id
+
+    return ""
 
 
 def parse_dialog_characters(
@@ -724,6 +806,71 @@ def update_room_configs(
         )
 
     return updated_rooms
+
+
+def update_room_dialog_configs(
+    dialogs_config: dict[str, object],
+    room_filter: Iterable[str] | None = None,
+) -> list[str]:
+    dialogs_by_room = dialogs_grouped_by_room(dialogs_config)
+    allowed_rooms = set(room_filter) if room_filter is not None else None
+    updated_rooms: list[str] = []
+
+    for room_config_path in sorted(CONFIG_DIR.glob("room*.json")):
+        if room_config_path.name.endswith("_order.json"):
+            continue
+
+        room_id = room_config_path.stem
+        if allowed_rooms is not None and room_id not in allowed_rooms:
+            continue
+
+        try:
+            with room_config_path.open("r", encoding="utf-8") as file:
+                room_config = json.load(file)
+        except json.JSONDecodeError as error:
+            warn(f"{room_id}: skipped dialog update, invalid JSON: {error}")
+            continue
+
+        if not isinstance(room_config, dict):
+            warn(f"{room_id}: skipped dialog update, room config is not an object")
+            continue
+
+        room_dialogs = dialogs_by_room.get(room_id, [])
+        if room_dialogs:
+            room_config["dialogs"] = room_dialogs
+        else:
+            room_config.pop("dialogs", None)
+
+        write_json(room_config_path, room_config)
+        updated_rooms.append(room_id)
+
+    if updated_rooms:
+        print(f"updated room dialogs: {', '.join(updated_rooms)}")
+
+    return updated_rooms
+
+
+def dialogs_grouped_by_room(dialogs_config: dict[str, object]) -> dict[str, list[dict[str, object]]]:
+    grouped: dict[str, list[dict[str, object]]] = defaultdict(list)
+    raw_dialogs = dialogs_config.get("dialogs") if isinstance(dialogs_config, dict) else None
+    if not isinstance(raw_dialogs, list):
+        return grouped
+
+    for dialog in raw_dialogs:
+        if not isinstance(dialog, dict):
+            continue
+
+        room_id = str(dialog.get("roomId") or "").strip()
+        if not room_id:
+            room_number = (
+                parse_int(str(dialog.get("roomIndex") or ""))
+                or room_index_from_id(str(dialog.get("id", "")))
+            )
+            room_id = f"room{room_number}"
+
+        grouped[room_id].append(dialog)
+
+    return grouped
 
 
 def is_new_room_config(room_config: dict[str, object]) -> bool:

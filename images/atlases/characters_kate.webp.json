@@ -1,0 +1,96 @@
+{
+  "frames": {
+    "kate_angry": {
+      "frame": {
+        "x": 0,
+        "y": 770,
+        "w": 512,
+        "h": 768
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 768
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 768
+      }
+    },
+    "kate_neutral": {
+      "frame": {
+        "x": 1028,
+        "y": 0,
+        "w": 512,
+        "h": 768
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 768
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 768
+      }
+    },
+    "kate_smile": {
+      "frame": {
+        "x": 514,
+        "y": 0,
+        "w": 512,
+        "h": 768
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 768
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 768
+      }
+    },
+    "kate_smirk": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 768
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 512,
+        "h": 768
+      },
+      "sourceSize": {
+        "w": 512,
+        "h": 768
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "6",
+    "image": "characters_kate.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 1538
+    },
+    "scale": "1",
+    "sourceDir": "images/characters/kate"
+  }
+}

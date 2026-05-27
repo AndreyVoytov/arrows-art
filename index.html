@@ -23,8 +23,8 @@
         <button class="top-menu-button" id="top-menu-button" type="button">Меню</button>
 
         <section class="dialog-overlay hidden" id="dialog-overlay" aria-label="Диалог">
-          <img class="dialog-character dialog-character-left hidden" id="dialog-character-left" alt="">
-          <img class="dialog-character dialog-character-right hidden" id="dialog-character-right" alt="">
+          <div class="dialog-character dialog-character-left hidden" id="dialog-character-left" aria-hidden="true"></div>
+          <div class="dialog-character dialog-character-right hidden" id="dialog-character-right" aria-hidden="true"></div>
           <div class="dialog-box">
             <div class="dialog-speaker" id="dialog-speaker"></div>
             <p class="dialog-text" id="dialog-text"></p>
@@ -93,7 +93,7 @@
                 </form>
               </div>
 
-              <textarea class="dialog-export-output hidden" id="dialog-export-output" readonly aria-label="Экспортированный dialogs.json"></textarea>
+              <textarea class="dialog-export-output hidden" id="dialog-export-output" readonly aria-label="Экспортированный JSON диалогов"></textarea>
             </section>
           </div>
         </section>

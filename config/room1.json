@@ -219,7 +219,7 @@
         "room1_trash_2",
         "room1_trash_1"
       ],
-      "price": 99999
+      "price": 20
     },
     {
       "key": "room1_broken_door",
@@ -708,6 +708,60 @@
       "x": 367,
       "y": 698,
       "angle": 0
+    }
+  ],
+  "dialogs": [
+    {
+      "id": "room1_d1",
+      "roomId": "room1",
+      "conditions": [
+        {
+          "trigger_type": "on_room_enter",
+          "trigger_key": "room1"
+        }
+      ],
+      "replicas": [
+        {
+          "id": "room1_d1_r1",
+          "char_key": "anna_loc",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room1_d1_r1_loc"
+        },
+        {
+          "id": "room1_d1_r2",
+          "char_key": "anna_loc",
+          "char_state": "anna_sad",
+          "position": "left",
+          "text_key": "room1_d1_r2_loc"
+        },
+        {
+          "id": "room1_d1_r3",
+          "char_key": "alex_loc",
+          "char_state": "alex_joy",
+          "position": "right",
+          "text_key": "room1_d1_r3_loc"
+        }
+      ]
+    },
+    {
+      "id": "room1_d2",
+      "roomId": "room1",
+      "conditions": [
+        {
+          "trigger_type": "after_action",
+          "trigger_key": "room1_broken_door"
+        }
+      ],
+      "replicas": [
+        {
+          "id": "room1_d2_r1",
+          "char_key": "anna_loc",
+          "char_state": "anna_sad",
+          "position": "left",
+          "text_key": "room1_d2_r1_loc"
+        }
+      ]
     }
   ]
 }

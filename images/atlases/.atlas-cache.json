@@ -1,6 +1,72 @@
 {
   "version": 6,
   "atlases": {
+    "characters_alex": {
+      "sourceDir": "images/characters/alex",
+      "digest": "8d40dc974396afe503a182dad5b60fe645093bc2bd4505d193cdd1603bea9e6d",
+      "outputs": [
+        "images/atlases/characters_alex.png",
+        "images/atlases/characters_alex.webp",
+        "images/atlases/characters_alex.json",
+        "images/atlases/characters_alex.webp.json"
+      ],
+      "updatedAt": "2026-05-27T08:49:12.080053+00:00"
+    },
+    "characters_anna": {
+      "sourceDir": "images/characters/anna",
+      "digest": "249f75ba06a76fedc8626d3dadcad4353b0cf1a39930690545b3fdba57db2d59",
+      "outputs": [
+        "images/atlases/characters_anna.png",
+        "images/atlases/characters_anna.webp",
+        "images/atlases/characters_anna.json",
+        "images/atlases/characters_anna.webp.json"
+      ],
+      "updatedAt": "2026-05-27T08:49:19.142144+00:00"
+    },
+    "characters_henry": {
+      "sourceDir": "images/characters/henry",
+      "digest": "72cd509c577d01fb20c62ea681a29e886113353c180d1b8c528feb57e7d765b3",
+      "outputs": [
+        "images/atlases/characters_henry.png",
+        "images/atlases/characters_henry.webp",
+        "images/atlases/characters_henry.json",
+        "images/atlases/characters_henry.webp.json"
+      ],
+      "updatedAt": "2026-05-27T08:49:23.622154+00:00"
+    },
+    "characters_kate": {
+      "sourceDir": "images/characters/kate",
+      "digest": "94b2957b4d6a83d141bfaa894364f18a9026c2848f24506f65ea9d02f1077cf6",
+      "outputs": [
+        "images/atlases/characters_kate.png",
+        "images/atlases/characters_kate.webp",
+        "images/atlases/characters_kate.json",
+        "images/atlases/characters_kate.webp.json"
+      ],
+      "updatedAt": "2026-05-27T08:49:29.938541+00:00"
+    },
+    "characters_mary": {
+      "sourceDir": "images/characters/mary",
+      "digest": "f84750bc5779fcb8c254467aa5643cd47b9ff0057483b638d745a7e50f184f88",
+      "outputs": [
+        "images/atlases/characters_mary.png",
+        "images/atlases/characters_mary.webp",
+        "images/atlases/characters_mary.json",
+        "images/atlases/characters_mary.webp.json"
+      ],
+      "updatedAt": "2026-05-27T08:49:33.184162+00:00"
+    },
+    "characters_victor": {
+      "sourceDir": "images/characters/victor",
+      "digest": "8850650d67be7f13f12c29588b17681aad167738342bbecd7c1ba4349a81a260",
+      "outputs": [
+        "images/atlases/characters_victor.png",
+        "images/atlases/characters_victor.webp",
+        "images/atlases/characters_victor.json",
+        "images/atlases/characters_victor.webp.json"
+      ],
+      "updatedAt": "2026-05-27T08:49:36.608719+00:00"
+    },
     "rooms_room1-decor": {
       "sourceDir": "images/rooms/room1-decor",
       "digest": "c1e1920d94152f8df1aca13b8b3d51ea0df7b5bb472f5a70f75ef4bcdbea0eb6",

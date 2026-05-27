@@ -6,9 +6,11 @@
   const OUT_DISTANCE = 164;
   const STEP_DELAY = 120;
   const ROOM_IMAGE_ROOT = "images/rooms";
+  const CHARACTER_IMAGE_ROOT = "images/characters";
   const ATLAS_ROOT = "images/atlases";
-  const DIALOG_CONFIG_URL = "config/dialogs.json";
+  const CHARACTER_CONFIG_URL = "config/characters.json";
   const TEXT_RU_URL = "config/text/ru.json";
+  const TRANSPARENT_PIXEL_DATA_URL = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
   const SPRITE_Z = {
     SURFACE_DAMAGE: 1000,
     FLOOR_COVERING: 2000,
@@ -17,9 +19,10 @@
   };
 
   const TRIGGER_OPTIONS = [
-    { value: "roomEntered", label: "roomEntered" },
-    { value: "objectBought", label: "objectBought" },
-    { value: "roomCompleted", label: "roomCompleted" },
+    { value: "on_room_enter", label: "on_room_enter" },
+    { value: "on_room_finished", label: "on_room_finished" },
+    { value: "before_action", label: "before_action" },
+    { value: "after_action", label: "after_action" },
     { value: "levelCompleted", label: "levelCompleted" }
   ];
   const PHASE_OPTIONS = [
@@ -32,27 +35,27 @@
     { value: "right", label: "Справа" }
   ];
   const DEFAULT_CHARACTER_NAMES = {
-    "images/characters/anna_neutral.png": "Анна",
-    "images/characters/anna_smile.png": "Анна",
-    "images/characters/anna_sad.png": "Анна",
-    "images/characters/anna_fear.png": "Анна",
-    "images/characters/anna_angry.png": "Анна",
-    "images/characters/anna_embarrassed.png": "Анна",
-    "images/characters/alex_neutral.png": "Алекс",
-    "images/characters/alex_joy.png": "Алекс",
-    "images/characters/alex_sad.png": "Алекс",
-    "images/characters/alex_angry.png": "Алекс",
-    "images/characters/victor_neutral.png": "Виктор",
-    "images/characters/victor_smirk.png": "Виктор",
-    "images/characters/mary_neutral.png": "Тетя Мэри",
-    "images/characters/mary_smile.png": "Тетя Мэри",
-    "images/characters/henry_neutral.png": "Генри",
-    "images/characters/henry_smile.png": "Генри",
-    "images/characters/henry_embarrassed.png": "Генри",
-    "images/characters/kate_neutral.png": "Кейт",
-    "images/characters/kate_smile.png": "Кейт",
-    "images/characters/kate_smirk.png": "Кейт",
-    "images/characters/kate_angry.png": "Кейт"
+    "images/characters/anna/anna_neutral.png": "Анна",
+    "images/characters/anna/anna_smile.png": "Анна",
+    "images/characters/anna/anna_sad.png": "Анна",
+    "images/characters/anna/anna_fear.png": "Анна",
+    "images/characters/anna/anna_angry.png": "Анна",
+    "images/characters/anna/anna_embarrassed.png": "Анна",
+    "images/characters/alex/alex_neutral.png": "Алекс",
+    "images/characters/alex/alex_joy.png": "Алекс",
+    "images/characters/alex/alex_sad.png": "Алекс",
+    "images/characters/alex/alex_angry.png": "Алекс",
+    "images/characters/victor/victor_neutral.png": "Виктор",
+    "images/characters/victor/victor_smirk.png": "Виктор",
+    "images/characters/mary/mary_neutral.png": "Тетя Мэри",
+    "images/characters/mary/mary_smile.png": "Тетя Мэри",
+    "images/characters/henry/henry_neutral.png": "Генри",
+    "images/characters/henry/henry_smile.png": "Генри",
+    "images/characters/henry/henry_embarrassed.png": "Генри",
+    "images/characters/kate/kate_neutral.png": "Кейт",
+    "images/characters/kate/kate_smile.png": "Кейт",
+    "images/characters/kate/kate_smirk.png": "Кейт",
+    "images/characters/kate/kate_angry.png": "Кейт"
   };
 
   const shell = document.querySelector("#game-shell");
@@ -105,6 +108,7 @@
   let phaseByGroup = new Map();
   let actionPointsByGroup = new Map();
   let currentRoomAtlas = null;
+  let characterAtlas = null;
   let sprites = [];
   let state = createInitialState();
   let activeVariant = null;
@@ -112,6 +116,7 @@
   let editorDraft = null;
   let editorSelectedId = null;
   let activeDialogPlayback = null;
+  let activeRoomDialogs = [];
   let dialogQueue = [];
   let playedDialogKeys = new Set();
   let levelIndex = 0;
@@ -137,13 +142,14 @@
   topMenuButton.classList.add("hidden");
   levelTest.classList.add("hidden");
 
-  const [rooms, loadedDialogs, loadedDialogTexts] = await Promise.all([
+  const [rooms, loadedCharacters, loadedDialogTexts] = await Promise.all([
     loadRooms(),
-    loadDialogsConfig(),
+    loadCharactersConfig(),
     loadDialogTexts()
   ]);
   roomDescriptors = rooms;
-  dialogsConfig = normalizeDialogsConfig(loadedDialogs, loadedDialogTexts);
+  dialogsConfig = normalizeDialogsConfig(loadedCharacters, loadedDialogTexts);
+  characterAtlas = await loadCharacterAtlas(dialogsConfig);
   editorRoomIndex.value = String(initialRoomIndex(roomDescriptors));
   renderRoomMenu(roomDescriptors);
   renderDialogList();
@@ -192,11 +198,11 @@
     }
   }
 
-  async function loadDialogsConfig() {
+  async function loadCharactersConfig() {
     try {
-      const response = await fetch(DIALOG_CONFIG_URL, { cache: "no-store" });
+      const response = await fetch(CHARACTER_CONFIG_URL, { cache: "no-store" });
       if (!response.ok) {
-        throw new Error("dialogs config not found");
+        throw new Error("characters config not found");
       }
 
       return response.json();
@@ -224,7 +230,7 @@
   }
 
   async function loadRoomAtlas(roomId) {
-    const phaseAtlas = await loadRoomAtlasGroup([
+    const phaseAtlas = await loadAtlasGroup([
       `rooms_${roomId}-repair`,
       `rooms_${roomId}-decor`
     ]);
@@ -232,14 +238,38 @@
       return phaseAtlas;
     }
 
-    return loadRoomAtlasGroup([`rooms_${roomId}`]);
+    return loadAtlasGroup([`rooms_${roomId}`]);
   }
 
-  async function loadRoomAtlasGroup(atlasBases) {
+  async function loadCharacterAtlas(config) {
+    return loadAtlasGroup(characterAtlasBases(config));
+  }
+
+  function characterAtlasBases(config) {
+    const ids = new Set();
+
+    for (const character of config.characters ?? []) {
+      const id = String(character.id ?? "").trim();
+      if (id) {
+        ids.add(id);
+      }
+    }
+
+    for (const image of Object.keys(config.characterNames ?? DEFAULT_CHARACTER_NAMES)) {
+      const id = characterIdFromState(characterStateFromImage(image));
+      if (id) {
+        ids.add(id);
+      }
+    }
+
+    return [...ids].sort().map((id) => `characters_${atlasSafeName(id)}`);
+  }
+
+  async function loadAtlasGroup(atlasBases) {
     const frames = {};
 
     for (const atlasBase of atlasBases) {
-      const atlas = await loadRoomAtlasByBase(atlasBase);
+      const atlas = await loadAtlasByBase(atlasBase);
       if (atlas !== null) {
         Object.assign(frames, atlas.frames);
       }
@@ -248,7 +278,7 @@
     return Object.keys(frames).length > 0 ? { frames } : null;
   }
 
-  async function loadRoomAtlasByBase(atlasBase) {
+  async function loadAtlasByBase(atlasBase) {
     const atlasUrls = [
       `${ATLAS_ROOT}/${atlasBase}.webp.json`,
       `${ATLAS_ROOT}/${atlasBase}.json`
@@ -256,7 +286,7 @@
 
     for (const atlasUrl of atlasUrls) {
       const atlas = await loadJsonOrNull(atlasUrl);
-      const normalized = normalizeRoomAtlas(atlas);
+      const normalized = normalizeAtlas(atlas);
       if (normalized !== null) {
         return normalized;
       }
@@ -265,13 +295,13 @@
     return null;
   }
 
-  function normalizeRoomAtlas(atlas) {
+  function normalizeAtlas(atlas) {
     if (!atlas || typeof atlas !== "object") {
       return null;
     }
 
     if (Array.isArray(atlas.pages)) {
-      return normalizeMultiPageRoomAtlas(atlas.pages);
+      return normalizeMultiPageAtlas(atlas.pages);
     }
 
     if (!atlas.frames || typeof atlas.frames !== "object") {
@@ -285,7 +315,7 @@
       return null;
     }
 
-    return normalizeSinglePageRoomAtlas({
+    return normalizeSinglePageAtlas({
       frames: atlas.frames,
       image,
       width,
@@ -293,7 +323,7 @@
     });
   }
 
-  function normalizeMultiPageRoomAtlas(pages) {
+  function normalizeMultiPageAtlas(pages) {
     const frames = {};
 
     for (const page of pages) {
@@ -314,7 +344,7 @@
     return Object.keys(frames).length > 0 ? { frames } : null;
   }
 
-  function normalizeSinglePageRoomAtlas(page) {
+  function normalizeSinglePageAtlas(page) {
     return {
       frames: normalizeAtlasFrames(page.frames, page.image, page.width, page.height)
     };
@@ -360,6 +390,7 @@
     phaseByGroup = new Map();
     actionPointsByGroup = new Map();
     sprites = [];
+    activeRoomDialogs = [];
     playedDialogKeys = new Set();
     levelIndex = 0;
 
@@ -383,9 +414,13 @@
     phaseByGroup = buildPhaseMap(orders);
     actionPointsByGroup = buildActionPointMap(roomConfig);
     sprites = createSprites(roomConfig);
+    activeRoomDialogs = normalizeRoomDialogs(roomConfig);
 
     showNextBatch();
-    triggerDialogs("roomEntered");
+    triggerDialogs("on_room_enter", {
+      triggerKey: currentRoomId,
+      roomId: currentRoomId
+    });
   }
 
   function showMenu() {
@@ -394,6 +429,7 @@
     state = createInitialState();
     activeVariant = null;
     currentRoomAtlas = null;
+    activeRoomDialogs = [];
     itemsLayer.replaceChildren();
     actionsLayer.replaceChildren();
     hideVariantPanel();
@@ -611,6 +647,20 @@
     return String(roomConfig.background ?? roomConfig.backgroundImage ?? `${currentRoomId}_room_bg`);
   }
 
+  function normalizeRoomDialogs(roomConfig) {
+    const rawDialogs = Array.isArray(roomConfig.dialogs) ? roomConfig.dialogs : null;
+    if (rawDialogs !== null) {
+      return rawDialogs.map((dialog, index) => normalizeDialogItem(dialog, index, {
+        characterStateKeys: dialogsConfig.characterStateKeys,
+        dialogTexts: dialogsConfig.dialogTexts,
+        roomId: currentRoomId,
+        roomIndex: currentRoomIndex
+      })).filter(Boolean);
+    }
+
+    return dialogsConfig.dialogs.filter((dialog) => dialog.roomIndex === currentRoomIndex);
+  }
+
   function buildActionPointMap(roomConfig) {
     const map = new Map();
     if (!Array.isArray(roomConfig.allActionPoints)) {
@@ -776,12 +826,20 @@
       }
 
       status.textContent = "Done";
-      triggerDialogs("roomCompleted");
+      triggerDialogs("on_room_finished", {
+        triggerKey: currentRoomId,
+        roomId: currentRoomId
+      });
       return;
     }
 
     for (const action of next) {
       actionsLayer.appendChild(createActionButton(action));
+      triggerDialogs("before_action", {
+        triggerKey: action.group,
+        objectGroup: action.group,
+        phase: state.phase
+      });
     }
   }
 
@@ -858,7 +916,8 @@
     const completedPhase = state.phase;
     action.done = true;
     button.remove();
-    triggerDialogs("objectBought", {
+    triggerDialogs("after_action", {
+      triggerKey: action.group,
       objectGroup: action.group,
       phase: completedPhase
     });
@@ -1111,18 +1170,22 @@
   }
 
   function triggerDialogs(trigger, context = {}, options = {}) {
+    const normalizedTrigger = normalizeDialogTriggerType(trigger);
     const roomIndex = toPositiveInt(context.roomIndex ?? currentRoomIndex, currentRoomIndex);
     const fullContext = {
       ...context,
-      roomIndex
+      roomIndex,
+      roomId: String(context.roomId ?? currentRoomId ?? `room${roomIndex}`),
+      triggerKey: String(context.triggerKey ?? context.key ?? context.objectGroup ?? "").trim()
     };
+    const dialogs = currentRoomId === null ? dialogsConfig.dialogs : activeRoomDialogs;
 
-    for (const dialog of dialogsConfig.dialogs) {
-      if (!dialogMatchesContext(dialog, trigger, fullContext)) {
+    for (const dialog of dialogs) {
+      if (!dialogMatchesContext(dialog, normalizedTrigger, fullContext)) {
         continue;
       }
 
-      const key = dialogPlayKey(dialog, trigger, fullContext);
+      const key = dialogPlayKey(dialog, normalizedTrigger, fullContext);
       if (!options.allowReplay && playedDialogKeys.has(key)) {
         continue;
       }
@@ -1136,7 +1199,7 @@
   }
 
   function dialogMatchesContext(dialog, trigger, context) {
-    if (dialog.roomIndex !== context.roomIndex) {
+    if (dialog.roomIndex !== null && dialog.roomIndex !== context.roomIndex) {
       return false;
     }
 
@@ -1149,7 +1212,11 @@
         return false;
       }
 
-      if (condition.objectGroup && condition.objectGroup !== context.objectGroup) {
+      if (condition.triggerKey && !triggerKeyMatches(condition.triggerKey, context)) {
+        return false;
+      }
+
+      if (condition.objectGroup && !triggerKeyMatches(condition.objectGroup, context)) {
         return false;
       }
 
@@ -1169,12 +1236,46 @@
     const parts = [
       dialog.id,
       trigger,
+      context.triggerKey ?? "",
       context.objectGroup ?? "",
       context.phase ?? "",
       context.levelIndex ?? ""
     ];
 
     return parts.join(":");
+  }
+
+  function triggerKeyMatches(expected, context) {
+    const expectedKey = String(expected ?? "").trim();
+    if (!expectedKey) {
+      return true;
+    }
+
+    return [
+      context.triggerKey,
+      context.objectGroup,
+      context.roomId
+    ].some((candidate) => keysMatch(expectedKey, candidate));
+  }
+
+  function keysMatch(left, right) {
+    const leftKey = String(left ?? "").trim();
+    const rightKey = String(right ?? "").trim();
+    if (!leftKey || !rightKey) {
+      return false;
+    }
+
+    if (leftKey === rightKey) {
+      return true;
+    }
+
+    return roomlessActionKey(leftKey) === roomlessActionKey(rightKey);
+  }
+
+  function roomlessActionKey(value) {
+    return String(value)
+      .replace(new RegExp(`^${currentRoomId}_`), "")
+      .replace(/^room\d+_/, "");
   }
 
   function enqueueDialog(dialog) {
@@ -1219,7 +1320,10 @@
     const inactiveCharacter = isRight ? dialogCharacterLeft : dialogCharacterRight;
 
     inactiveCharacter.classList.add("hidden");
-    activeCharacter.src = image;
+    applyCharacterImage(activeCharacter, image, {
+      maxWidth: 280,
+      maxHeight: 430
+    });
     activeCharacter.classList.remove("hidden");
     dialogSpeaker.textContent = characterNameForLine(line);
     dialogText.textContent = line.text;
@@ -1338,7 +1442,7 @@
       id: uniqueDialogId(roomIndex),
       roomIndex,
       conditions: [
-        { trigger: "roomEntered", roomIndex: null, objectGroup: "", phase: "", levelIndex: null }
+        { trigger: "on_room_enter", triggerKey: `room${roomIndex}`, roomIndex: null, objectGroup: "", phase: "", levelIndex: null }
       ],
       lines: [
         defaultLine()
@@ -1368,7 +1472,7 @@
     for (const [index, condition] of editorDraft.conditions.entries()) {
       const row = document.createElement("div");
       const triggerField = createSelectField("Триггер", TRIGGER_OPTIONS, condition.trigger, "trigger");
-      const groupField = createInputField("Object group", condition.objectGroup, "objectGroup", "trash");
+      const groupField = createInputField("Trigger key", condition.triggerKey || condition.objectGroup, "triggerKey", "room1_dead_plant");
       const phaseField = createSelectField("Тип", PHASE_OPTIONS, condition.phase, "phase");
       const levelField = createInputField("Level", condition.levelIndex ?? "", "levelIndex", "0", "number");
       const deleteButton = document.createElement("button");
@@ -1395,7 +1499,7 @@
     for (const [index, line] of editorDraft.lines.entries()) {
       const row = document.createElement("div");
       const preview = document.createElement("div");
-      const previewImage = document.createElement("img");
+      const previewImage = document.createElement("div");
       const previewName = document.createElement("div");
       const main = document.createElement("div");
       const imageField = createSelectField("Картинка", characterOptions(), line.image, "image");
@@ -1406,14 +1510,20 @@
 
       row.className = "line-row";
       preview.className = "line-preview";
-      previewImage.src = normalizeCharacterImagePath(line.image);
-      previewImage.alt = "";
+      previewImage.className = "character-preview";
+      applyCharacterImage(previewImage, line.image, {
+        maxWidth: 70,
+        maxHeight: 70
+      });
       previewName.className = "line-name";
       previewName.textContent = characterNameForImage(line.image);
 
       imageSelect.addEventListener("change", () => {
         const image = normalizeCharacterImagePath(imageSelect.value);
-        previewImage.src = image;
+        applyCharacterImage(previewImage, image, {
+          maxWidth: 70,
+          maxHeight: 70
+        });
         previewName.textContent = characterNameForImage(image);
       });
 
@@ -1439,7 +1549,8 @@
     ensureEditorDraft();
     captureDialogForm();
     editorDraft.conditions.push({
-      trigger: "roomEntered",
+      trigger: "on_room_enter",
+      triggerKey: `room${currentEditorRoomIndex()}`,
       roomIndex: null,
       objectGroup: "",
       phase: "",
@@ -1520,7 +1631,7 @@
     const url = URL.createObjectURL(blob);
     const link = document.createElement("a");
     link.href = url;
-    link.download = "dialogs.json";
+    link.download = "room-dialog-export.json";
     link.click();
     window.setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
@@ -1540,9 +1651,10 @@
       id: dialogIdInput.value.trim() || uniqueDialogId(currentEditorRoomIndex()),
       roomIndex: toPositiveInt(dialogRoomIndexInput.value, currentEditorRoomIndex()),
       conditions: [...conditionList.querySelectorAll(".condition-row")].map((row) => ({
-        trigger: readRowValue(row, "trigger") || "roomEntered",
+        trigger: readRowValue(row, "trigger") || "on_room_enter",
         roomIndex: null,
-        objectGroup: readRowValue(row, "objectGroup").trim(),
+        triggerKey: readRowValue(row, "triggerKey").trim(),
+        objectGroup: readRowValue(row, "triggerKey").trim(),
         phase: readRowValue(row, "phase"),
         levelIndex: toNullableInt(readRowValue(row, "levelIndex"))
       })),
@@ -1638,11 +1750,11 @@
 
   function serializeCondition(condition) {
     const output = {
-      trigger: condition.trigger
+      trigger_type: condition.trigger
     };
 
-    if (condition.objectGroup) {
-      output.objectGroup = condition.objectGroup;
+    if (condition.triggerKey || condition.objectGroup) {
+      output.trigger_key = condition.triggerKey || condition.objectGroup;
     }
 
     if (condition.phase) {
@@ -1764,8 +1876,13 @@
       return null;
     }
 
+    const roomIndex = toPositiveInt(
+      dialog.roomIndex ?? dialog.roomindex ?? context.roomIndex ?? roomIndexFromId(dialog.roomId ?? dialog.room ?? dialog.id),
+      1
+    );
+    const roomId = String(dialog.roomId ?? dialog.room ?? context.roomId ?? `room${roomIndex}`).trim();
     const conditions = Array.isArray(dialog.conditions)
-      ? dialog.conditions.map(normalizeCondition).filter(Boolean)
+      ? dialog.conditions.map((condition) => normalizeCondition(condition, { roomId, roomIndex })).filter(Boolean)
       : [];
     const rawLines = Array.isArray(dialog.replicas) ? dialog.replicas : dialog.lines;
     const lines = Array.isArray(rawLines)
@@ -1774,32 +1891,73 @@
 
     return {
       id: String(dialog.id || `dialog_${index + 1}`),
-      roomIndex: toPositiveInt(
-        dialog.roomIndex ?? dialog.roomindex ?? roomIndexFromId(dialog.roomId ?? dialog.room ?? dialog.id),
-        1
-      ),
+      roomId,
+      roomIndex,
       conditions,
       lines
     };
   }
 
-  function normalizeCondition(condition) {
+  function normalizeCondition(condition, context = {}) {
     if (condition === null || typeof condition !== "object") {
       return null;
     }
 
-    const trigger = TRIGGER_OPTIONS.some((option) => option.value === condition.trigger)
-      ? condition.trigger
-      : "roomEntered";
+    const trigger = normalizeDialogTriggerType(condition.trigger_type ?? condition.triggerType ?? condition.trigger);
+    const triggerKey = normalizeDialogTriggerKey(
+      String(condition.trigger_key ?? condition.triggerKey ?? condition.key ?? condition.objectGroup ?? condition.group ?? "").trim(),
+      trigger,
+      context
+    );
     const phase = condition.phase === "repair" || condition.phase === "decor" ? condition.phase : "";
 
     return {
       trigger,
+      triggerKey,
       roomIndex: toNullableInt(condition.roomIndex ?? condition.roomindex),
-      objectGroup: String(condition.objectGroup ?? condition.group ?? "").trim(),
+      objectGroup: trigger === "before_action" || trigger === "after_action" ? triggerKey : "",
       phase,
       levelIndex: toNullableInt(condition.levelIndex ?? condition.level)
     };
+  }
+
+  function normalizeDialogTriggerType(value) {
+    const key = String(value ?? "").trim();
+    if (!key) {
+      return "on_room_enter";
+    }
+
+    const slug = key.replace(/([a-z])([A-Z])/g, "$1_$2")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "_")
+      .replace(/^_+|_+$/g, "");
+    const aliases = {
+      room_entered: "on_room_enter",
+      room_enter: "on_room_enter",
+      on_room_enter: "on_room_enter",
+      room_completed: "on_room_finished",
+      room_finished: "on_room_finished",
+      on_room_finished: "on_room_finished",
+      object_bought: "after_action",
+      after_action: "after_action",
+      before_action: "before_action",
+      level_completed: "levelCompleted"
+    };
+
+    return aliases[slug] ?? (TRIGGER_OPTIONS.some((option) => option.value === key) ? key : "on_room_enter");
+  }
+
+  function normalizeDialogTriggerKey(value, trigger, context = {}) {
+    const key = String(value ?? "").trim();
+    if (key) {
+      return key;
+    }
+
+    if (trigger === "on_room_enter" || trigger === "on_room_finished") {
+      return String(context.roomId ?? `room${context.roomIndex ?? 1}`);
+    }
+
+    return "";
   }
 
   function normalizeLine(line, context = {}) {
@@ -1867,6 +2025,7 @@
   function characterNameForImage(image) {
     const normalized = normalizeCharacterImagePath(image);
     return dialogsConfig.characterNames[normalized]
+      ?? dialogsConfig.characterNames[normalizeCharacterStateImage(characterStateFromImage(normalized))]
       ?? dialogsConfig.characterNames[baseName(normalized)]
       ?? "Персонаж";
   }
@@ -1882,7 +2041,11 @@
   }
 
   function characterStateFromImage(image) {
-    return baseName(image).replace(/\.png$/i, "");
+    return baseName(image).replace(/\.(?:png|webp|jpe?g)$/i, "");
+  }
+
+  function characterIdFromState(charState) {
+    return String(charState ?? "").split("_", 1)[0].trim();
   }
 
   function normalizeCharacterStateImage(charState) {
@@ -1904,11 +2067,37 @@
       return Object.keys(DEFAULT_CHARACTER_NAMES)[0];
     }
 
-    if (/^(?:https?:|data:|\/|images\/)/.test(value)) {
+    if (/^(?:https?:|data:|\/)/.test(value)) {
       return value;
     }
 
-    return `images/characters/${value}`;
+    if (value.startsWith("images/") && !value.startsWith(`${CHARACTER_IMAGE_ROOT}/`)) {
+      return value;
+    }
+
+    const path = value.startsWith(`${CHARACTER_IMAGE_ROOT}/`)
+      ? value
+      : `${CHARACTER_IMAGE_ROOT}/${value}`;
+
+    return normalizeCharacterAssetPath(path);
+  }
+
+  function normalizeCharacterAssetPath(path) {
+    const normalized = String(path).replace(/\\/g, "/");
+    const prefix = `${CHARACTER_IMAGE_ROOT}/`;
+    if (!normalized.startsWith(prefix)) {
+      return normalized;
+    }
+
+    const relative = normalized.slice(prefix.length);
+    if (!relative || relative.includes("/")) {
+      return normalized;
+    }
+
+    const fileName = baseName(relative);
+    const state = fileName.replace(/\.(?:png|webp|jpe?g)$/i, "");
+    const id = characterIdFromState(state);
+    return id ? `${prefix}${id}/${fileName}` : normalized;
   }
 
   function cloneDialog(dialog) {
@@ -1970,6 +2159,13 @@
     return String(path).split("/").pop() ?? "";
   }
 
+  function atlasSafeName(value) {
+    return String(value)
+      .replace(/[^A-Za-z0-9_.-]+/g, "_")
+      .replace(/_+/g, "_")
+      .replace(/^_+|_+$/g, "") || "atlas";
+  }
+
   function createRoomImageElement(imageId) {
     if (atlasFrameFor(imageId) !== null) {
       const element = document.createElement("div");
@@ -2000,6 +2196,51 @@
     return element;
   }
 
+  function applyCharacterImage(element, image, options = {}) {
+    const normalized = normalizeCharacterImagePath(image);
+    const frameId = characterStateFromImage(normalized);
+    const frame = atlasFrameFor(frameId, characterAtlas);
+
+    if (frame !== null) {
+      const scale = atlasFrameScale(frame, options);
+      if (element instanceof HTMLImageElement) {
+        element.src = TRANSPARENT_PIXEL_DATA_URL;
+        element.alt = "";
+      }
+      applyAtlasFrame(element, frameId, scale, characterAtlas);
+      return;
+    }
+
+    clearImageSurface(element);
+    if (element instanceof HTMLImageElement) {
+      element.src = normalized;
+      element.alt = "";
+      return;
+    }
+
+    element.style.backgroundImage = `url("${normalized}")`;
+    element.style.backgroundPosition = "center";
+    element.style.backgroundRepeat = "no-repeat";
+    element.style.backgroundSize = "contain";
+    if (Number.isFinite(options.maxWidth)) {
+      element.style.width = `${options.maxWidth}px`;
+    }
+    if (Number.isFinite(options.maxHeight)) {
+      element.style.height = `${options.maxHeight}px`;
+    }
+  }
+
+  function atlasFrameScale(frame, options = {}) {
+    const size = atlasFrameSourceSize(frame);
+    if (size.w <= 0 || size.h <= 0) {
+      return 1;
+    }
+
+    const maxWidth = toFiniteNumber(options.maxWidth, size.w);
+    const maxHeight = toFiniteNumber(options.maxHeight, size.h);
+    return Math.min(maxWidth / size.w, maxHeight / size.h, 1);
+  }
+
   function applyRoomImage(element, imageId) {
     if (applyAtlasFrame(element, imageId)) {
       return;
@@ -2011,19 +2252,24 @@
   }
 
   function clearRoomImage(element) {
+    clearImageSurface(element);
+  }
+
+  function clearImageSurface(element) {
     if (element instanceof HTMLImageElement) {
       element.removeAttribute("src");
     }
 
     element.style.backgroundImage = "";
     element.style.backgroundPosition = "";
+    element.style.backgroundRepeat = "";
     element.style.backgroundSize = "";
     element.style.width = "";
     element.style.height = "";
   }
 
-  function applyAtlasFrame(element, imageId, scale = 1) {
-    const frame = atlasFrameFor(imageId);
+  function applyAtlasFrame(element, imageId, scale = 1, atlas = currentRoomAtlas) {
+    const frame = atlasFrameFor(imageId, atlas);
     if (frame === null || frame.rotated || frame.atlasWidth <= 0 || frame.atlasHeight <= 0) {
       return false;
     }
@@ -2034,14 +2280,15 @@
 
     element.style.backgroundImage = `url("${frame.atlasImageUrl}")`;
     element.style.backgroundPosition = `${(toFiniteNumber(spriteSourceSize.x, 0) - rect.x) * scale}px ${(toFiniteNumber(spriteSourceSize.y, 0) - rect.y) * scale}px`;
+    element.style.backgroundRepeat = "no-repeat";
     element.style.backgroundSize = `${frame.atlasWidth * scale}px ${frame.atlasHeight * scale}px`;
     element.style.width = `${sourceSize.w * scale}px`;
     element.style.height = `${sourceSize.h * scale}px`;
     return true;
   }
 
-  function atlasFrameFor(imageId) {
-    const frame = currentRoomAtlas?.frames?.[String(imageId)];
+  function atlasFrameFor(imageId, atlas = currentRoomAtlas) {
+    const frame = atlas?.frames?.[String(imageId)];
     return frame && typeof frame === "object" && frame.frame ? frame : null;
   }
 
