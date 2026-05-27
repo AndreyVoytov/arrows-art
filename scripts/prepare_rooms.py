@@ -48,6 +48,16 @@ class ExportedObject:
     angle: int
 
 
+@dataclass(frozen=True)
+class ExportScale:
+    x: float
+    y: float
+
+
+TARGET_ROOM_WIDTH = 720
+TARGET_ROOM_HEIGHT = 960
+
+
 def main(argv: list[str] | None = None) -> None:
     logging.getLogger("psd_tools").setLevel(logging.ERROR)
     args = parse_args(argv)
@@ -182,6 +192,7 @@ def prepare_room(
             image_dir.mkdir(parents=True, exist_ok=True)
 
     psd = PSDImage.open(psd_path)
+    export_scale = room_export_scale(psd)
     existing_order = load_existing_order(room_id)
     price_config = load_price_config() if write_config else {"rooms": {}}
     objects: list[ExportedObject] = []
@@ -199,7 +210,7 @@ def prepare_room(
         if layer_id == "room_bg":
             if write_images:
                 output_path = phase_image_dirs["repair"] / f"{room_key(room_id, 'room_bg')}.png"
-                export_room_bg(psd, layer, output_path)
+                export_room_bg(psd, layer, output_path, export_scale)
                 exported_pngs["repair"].add(output_path.name)
             continue
 
@@ -209,7 +220,7 @@ def prepare_room(
         if phase is None:
             continue
 
-        exported_image, left, top = export_layer(psd, layer)
+        exported_image, left, top = export_layer_from_scaled_room(psd, layer, export_scale)
         x = center_coordinate(left, exported_image.width)
         y = center_coordinate(top, exported_image.height)
         image_id = room_key(room_id, layer_id)
@@ -252,6 +263,13 @@ def prepare_room(
 
 def room_phase_image_dir(room_id: str, phase: str) -> Path:
     return ROOM_IMAGES_DIR / f"{room_id}-{phase}"
+
+
+def room_export_scale(psd: PSDImage) -> ExportScale:
+    return ExportScale(
+        x=TARGET_ROOM_WIDTH / psd.width,
+        y=TARGET_ROOM_HEIGHT / psd.height,
+    )
 
 
 def iter_export_layers(psd: PSDImage) -> Iterable[tuple[object, str | None]]:
@@ -307,7 +325,11 @@ def angle_from_id(layer_name: str) -> int:
     return int(match.group(0)[1:-1]) if match else 0
 
 
-def export_layer(psd: PSDImage, layer: object) -> tuple[Image.Image, int, int]:
+def export_layer_from_scaled_room(
+    psd: PSDImage,
+    layer: object,
+    export_scale: ExportScale,
+) -> tuple[Image.Image, int, int]:
     image = layer.composite(force=True).convert("RGBA")
     left, top, right, bottom = map(int, layer.bbox)
 
@@ -316,33 +338,60 @@ def export_layer(psd: PSDImage, layer: object) -> tuple[Image.Image, int, int]:
     canvas_right = min(psd.width, right)
     canvas_bottom = min(psd.height, bottom)
 
-    clipped = image.crop(
-        (
-            canvas_left - left,
-            canvas_top - top,
-            canvas_right - left,
-            canvas_bottom - top,
+    canvas = Image.new("RGBA", (psd.width, psd.height), (0, 0, 0, 0))
+    if canvas_left < canvas_right and canvas_top < canvas_bottom:
+        clipped = image.crop(
+            (
+                canvas_left - left,
+                canvas_top - top,
+                canvas_right - left,
+                canvas_bottom - top,
+            )
         )
-    )
+        scrub_transparent_pixels(clipped)
+        canvas.alpha_composite(clipped, (canvas_left, canvas_top))
 
-    alpha_bounds = clipped.getchannel("A").getbbox()
+    canvas = resize_for_export(canvas, export_scale)
+    alpha_bounds = canvas.getchannel("A").getbbox()
     if alpha_bounds is None:
         transparent = Image.new("RGBA", (1, 1), (0, 0, 0, 0))
-        return transparent, canvas_left, canvas_top
+        return transparent, 0, 0
 
-    cropped = clipped.crop(alpha_bounds)
+    cropped = canvas.crop(alpha_bounds)
     scrub_transparent_pixels(cropped)
 
-    return cropped, canvas_left + alpha_bounds[0], canvas_top + alpha_bounds[1]
+    return cropped, alpha_bounds[0], alpha_bounds[1]
 
 
-def export_room_bg(psd: PSDImage, layer: object, output_path: Path) -> None:
-    left, top, _right, _bottom = map(int, layer.bbox)
-    viewport_top = max(0, top)
-    viewport = (0, viewport_top, psd.width, psd.height)
+def export_room_bg(
+    psd: PSDImage,
+    layer: object,
+    output_path: Path,
+    export_scale: ExportScale,
+) -> None:
+    viewport = (0, 0, psd.width, psd.height)
     image = layer.composite(viewport=viewport).convert("RGBA")
     scrub_transparent_pixels(image)
+    image = resize_for_export(image, export_scale)
     save_png(image, output_path)
+
+
+def resize_for_export(image: Image.Image, export_scale: ExportScale) -> Image.Image:
+    size = scaled_size(image.size, export_scale)
+    if image.size == size:
+        return image
+
+    resized = image.resize(size, Image.Resampling.LANCZOS)
+    scrub_transparent_pixels(resized)
+    return resized
+
+
+def scaled_size(size: tuple[int, int], export_scale: ExportScale) -> tuple[int, int]:
+    width, height = size
+    return (
+        max(1, round(width * export_scale.x)),
+        max(1, round(height * export_scale.y)),
+    )
 
 
 def scrub_transparent_pixels(image: Image.Image) -> None:
@@ -626,6 +675,7 @@ def multiobject_for(
 def part_for(item: ExportedObject, room_id: str) -> dict[str, object]:
     return {
         "key": part_key(item, room_id),
+        "type": item.phase,
         "x": item.x,
         "y": item.y,
         "angle": item.angle,
@@ -651,7 +701,7 @@ def bounds_for(items: list[ExportedObject]) -> dict[str, int | float]:
     }
 
 
-def center_coordinate(start: int, size: int) -> int | float:
+def center_coordinate(start: int | float, size: int) -> int | float:
     return json_number(start + size / 2)
 
 
