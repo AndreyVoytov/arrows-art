@@ -11,6 +11,9 @@
   const CHARACTER_CONFIG_URL = "config/characters.json";
   const TEXT_RU_URL = "config/text/ru.json";
   const TRANSPARENT_PIXEL_DATA_URL = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==";
+  const VARIANT_PREVIEW_MAX_WIDTH = 84;
+  const VARIANT_PREVIEW_MAX_HEIGHT = 68;
+  const VARIANT_PREVIEW_MIN_WIDTH = VARIANT_PREVIEW_MAX_WIDTH / 2;
   const SPRITE_Z = {
     SURFACE_DAMAGE: 1000,
     FLOOR_COVERING: 2000,
@@ -2184,16 +2187,44 @@
     if (frame !== null) {
       const element = document.createElement("div");
       const size = atlasFrameSourceSize(frame);
-      const scale = Math.min(84 / size.w, 68 / size.h, 1);
+      const scale = variantPreviewScale(size);
       element.className = "variant-preview";
       applyAtlasFrame(element, imageId, scale);
       return element;
     }
 
     const element = document.createElement("img");
-    element.src = roomImageUrl(imageId);
+    element.className = "variant-preview-image";
     element.alt = "";
+    element.addEventListener("load", () => {
+      const scale = variantPreviewScale({
+        w: element.naturalWidth,
+        h: element.naturalHeight
+      });
+
+      element.style.width = `${element.naturalWidth * scale}px`;
+      element.style.height = `${element.naturalHeight * scale}px`;
+    }, { once: true });
+    element.src = roomImageUrl(imageId);
     return element;
+  }
+
+  function variantPreviewScale(size) {
+    const width = toFiniteNumber(size?.w, 0);
+    const height = toFiniteNumber(size?.h, 0);
+    if (width <= 0 || height <= 0) {
+      return 1;
+    }
+
+    const fitScale = Math.min(
+      VARIANT_PREVIEW_MAX_WIDTH / width,
+      VARIANT_PREVIEW_MAX_HEIGHT / height,
+      1
+    );
+    const minWidthScale = VARIANT_PREVIEW_MIN_WIDTH / width;
+    const maxWidthScale = VARIANT_PREVIEW_MAX_WIDTH / width;
+
+    return Math.min(Math.max(fitScale, minWidthScale), maxWidthScale);
   }
 
   function applyCharacterImage(element, image, options = {}) {

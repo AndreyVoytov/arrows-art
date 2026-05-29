@@ -708,12 +708,10 @@ button {
     inset 0 0 0 2px rgba(255, 255, 255, .8),
     0 5px 12px rgba(0, 0, 0, .32);
   cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
-  height: 104px;
-  justify-content: center;
-  padding: 7px;
+  display: block;
+  height: 136px;
+  padding: 0;
+  position: relative;
   width: 104px;
 }
 
@@ -729,21 +727,30 @@ button {
 .variant-preview {
   background-position: 0 0;
   background-repeat: no-repeat;
-  max-height: 68px;
-  max-width: 84px;
+  left: 50%;
+  max-height: none;
+  max-width: none;
   object-fit: contain;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .variant-price {
   background: rgba(32, 38, 35, .92);
   border-radius: 6px;
+  bottom: 8px;
   color: #fff;
   font-size: 16px;
   font-weight: 900;
+  left: 50%;
   line-height: 1;
   min-width: 48px;
   padding: 4px 7px;
+  position: absolute;
   text-align: center;
+  transform: translateX(-50%);
+  z-index: 1;
 }
 
 .variant-command {
