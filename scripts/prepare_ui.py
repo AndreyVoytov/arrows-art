@@ -6,12 +6,14 @@ import re
 import sys
 from contextlib import contextmanager
 from dataclasses import dataclass, field
+from math import ceil, cos, radians, sin
 from pathlib import Path
 from typing import Iterable, Iterator
 
 try:
-    from PIL import Image
+    from PIL import Image, ImageFilter
     from psd_tools import PSDImage
+    from psd_tools.api.effects import DropShadow
 except ImportError as error:
     raise SystemExit(
         "prepare-ui requires Python packages `psd-tools` and `Pillow`."
@@ -98,7 +100,7 @@ def export_ui_psd(psd_path: Path, output_dir: Path, state: OutputState) -> None:
 
     layer_count = 0
     for layer in iter_export_layers(psd):
-        image = export_layer(layer, psd.width, psd.height, scale)
+        image = export_layer(layer, scale)
         if image is None:
             continue
 
@@ -155,14 +157,17 @@ def iter_export_layers(psd: PSDImage) -> Iterable[object]:
     yield from walk(psd)
 
 
-def export_layer(layer: object, psd_width: int, psd_height: int, scale: float) -> Image.Image | None:
+def export_layer(layer: object, scale: float) -> Image.Image | None:
+    viewport = layer_export_viewport(layer)
+
     with temporary_visibility(layer_visibility_chain(layer), visible=True):
-        canvas = layer.composite(viewport=(0, 0, psd_width, psd_height), force=True)
+        canvas = layer.composite(viewport=viewport, force=True)
 
     if canvas is None:
         return None
 
     canvas = canvas.convert("RGBA")
+    canvas = apply_drop_shadows(canvas, layer)
 
     canvas = resize_image(canvas, scale)
     alpha_bounds = canvas.getchannel("A").getbbox()
@@ -172,6 +177,134 @@ def export_layer(layer: object, psd_width: int, psd_height: int, scale: float) -
     cropped = canvas.crop(alpha_bounds)
     scrub_transparent_pixels(cropped)
     return cropped
+
+
+def layer_export_viewport(layer: object) -> tuple[int, int, int, int]:
+    left, top, right, bottom = map(int, layer.bbox)
+    margin_left, margin_top, margin_right, margin_bottom = effect_margins(layer)
+    return (
+        left - margin_left,
+        top - margin_top,
+        right + margin_right,
+        bottom + margin_bottom,
+    )
+
+
+def effect_margins(layer: object) -> tuple[int, int, int, int]:
+    margins = [0, 0, 0, 0]
+    effects = getattr(layer, "effects", None)
+    if not effects:
+        return tuple(margins)
+
+    for effect in effects:
+        if not getattr(effect, "enabled", False):
+            continue
+
+        if isinstance(effect, DropShadow):
+            dx, dy = shadow_offset(effect)
+            blur_margin = ceil(shadow_blur_radius(effect) * 3) + 2
+            margins[0] = max(margins[0], ceil(max(0, -dx)) + blur_margin)
+            margins[1] = max(margins[1], ceil(max(0, -dy)) + blur_margin)
+            margins[2] = max(margins[2], ceil(max(0, dx)) + blur_margin)
+            margins[3] = max(margins[3], ceil(max(0, dy)) + blur_margin)
+            continue
+
+        margins = [max(value, 64) for value in margins]
+
+    return tuple(margins)
+
+
+def apply_drop_shadows(image: Image.Image, layer: object) -> Image.Image:
+    effects = getattr(layer, "effects", None)
+    if not effects:
+        return image
+
+    shadows = []
+    for effect in effects:
+        if isinstance(effect, DropShadow) and getattr(effect, "enabled", False):
+            shadow = render_drop_shadow(image, effect)
+            if shadow is not None:
+                shadows.append(shadow)
+
+    if not shadows:
+        return image
+
+    result = Image.new("RGBA", image.size, (0, 0, 0, 0))
+    for shadow in shadows:
+        result.alpha_composite(shadow)
+
+    result.alpha_composite(image)
+    return result
+
+
+def render_drop_shadow(image: Image.Image, effect: DropShadow) -> Image.Image | None:
+    alpha = image.getchannel("A")
+    if alpha.getbbox() is None:
+        return None
+
+    alpha = apply_shadow_choke(alpha, effect)
+    blur_radius = shadow_blur_radius(effect)
+    if blur_radius > 0:
+        alpha = alpha.filter(ImageFilter.GaussianBlur(blur_radius))
+
+    dx, dy = shadow_offset(effect)
+    alpha = offset_alpha(alpha, round(dx), round(dy))
+    alpha = alpha.point(lambda value: round(value * shadow_opacity(effect)))
+
+    color = shadow_color(effect)
+    shadow = Image.new("RGBA", image.size, (*color, 0))
+    shadow.putalpha(alpha)
+    return shadow
+
+
+def apply_shadow_choke(alpha: Image.Image, effect: DropShadow) -> Image.Image:
+    choke = max(0.0, float(getattr(effect, "choke", 0.0) or 0.0))
+    if choke <= 0:
+        return alpha
+
+    radius = max(1, round(shadow_blur_radius(effect) * choke / 100))
+    kernel_size = radius * 2 + 1
+    return alpha.filter(ImageFilter.MaxFilter(kernel_size))
+
+
+def offset_alpha(alpha: Image.Image, dx: int, dy: int) -> Image.Image:
+    shifted = Image.new("L", alpha.size, 0)
+    source_left = max(0, -dx)
+    source_top = max(0, -dy)
+    source_right = min(alpha.width, alpha.width - dx)
+    source_bottom = min(alpha.height, alpha.height - dy)
+
+    if source_left >= source_right or source_top >= source_bottom:
+        return shifted
+
+    target_left = max(0, dx)
+    target_top = max(0, dy)
+    source = alpha.crop((source_left, source_top, source_right, source_bottom))
+    shifted.paste(source, (target_left, target_top))
+    return shifted
+
+
+def shadow_offset(effect: DropShadow) -> tuple[float, float]:
+    angle = radians(float(getattr(effect, "angle", 0.0) or 0.0))
+    distance = float(getattr(effect, "distance", 0.0) or 0.0)
+    return cos(angle) * distance, sin(angle) * distance
+
+
+def shadow_blur_radius(effect: DropShadow) -> float:
+    return max(0.0, float(getattr(effect, "size", 0.0) or 0.0))
+
+
+def shadow_opacity(effect: DropShadow) -> float:
+    return max(0.0, min(1.0, float(getattr(effect, "opacity", 0.0) or 0.0) / 100))
+
+
+def shadow_color(effect: DropShadow) -> tuple[int, int, int]:
+    color = getattr(effect, "color", {}) or {}
+    return (
+        round(float(color.get(b"Rd  ", 0))),
+        round(float(color.get(b"Grn ", 0))),
+        round(float(color.get(b"Bl  ", 0))),
+    )
 
 
 def layer_visibility_chain(layer: object) -> list[object]:
