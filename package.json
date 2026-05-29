@@ -7,6 +7,7 @@
     "prepare-balance": "python scripts/prepare_balance.py",
     "prepare-balance-local": "python scripts/prepare_balance_local.py",
     "prepare-rooms": "python scripts/prepare_rooms_pipeline.py",
-    "prepare-rooms-local": "python scripts/prepare_rooms_local.py"
+    "prepare-rooms-local": "python scripts/prepare_rooms_local.py",
+    "prepare-ui": "python scripts/prepare_ui.py"
   }
 }

@@ -21,7 +21,7 @@ except ImportError as error:
 
 
 ROOT = Path(__file__).resolve().parents[1]
-SRC_DIR = ROOT / "images" / "src"
+SRC_DIR = ROOT / "images" / "src" / "rooms"
 IMAGES_DIR = ROOT / "images"
 ROOM_IMAGES_DIR = IMAGES_DIR / "rooms"
 CONFIG_DIR = ROOT / "config"
@@ -97,7 +97,7 @@ def parse_args(argv: list[str] | None) -> argparse.Namespace:
     parser.add_argument(
         "--src-dir",
         default=str(SRC_DIR),
-        help="Directory with room*.psd files. Defaults to images/src.",
+        help="Directory with room*.psd files. Defaults to images/src/rooms.",
     )
     parser.add_argument(
         "rooms",
