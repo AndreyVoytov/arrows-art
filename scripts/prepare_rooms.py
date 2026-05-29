@@ -557,6 +557,8 @@ def write_room_config(
                 all_multiobjects.append(multiobject)
                 all_parts.extend(part_for(item, room_id) for item in multiobject.pop("_items"))
 
+    all_parts = sort_parts_by_z_index(room_id, all_parts, objects)
+
     config = {
         "key": room_id,
         "name_key": f"{room_id}_loc",
@@ -684,6 +686,16 @@ def part_for(item: ExportedObject, room_id: str) -> dict[str, object]:
 
 def part_key(item: ExportedObject, room_id: str) -> str:
     return room_key(room_id, item.id)
+
+
+def sort_parts_by_z_index(
+    room_id: str,
+    parts: list[dict[str, object]],
+    objects: list[ExportedObject],
+) -> list[dict[str, object]]:
+    order = {part_key(item, room_id): index for index, item in enumerate(objects)}
+    fallback = len(order)
+    return sorted(parts, key=lambda part: order.get(str(part.get("key")), fallback))
 
 
 def bounds_for(items: list[ExportedObject]) -> dict[str, int | float]:

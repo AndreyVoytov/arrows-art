@@ -273,6 +273,97 @@
   ],
   "allParts": [
     {
+      "key": "room2_carpet",
+      "type": "decor",
+      "x": 359.5,
+      "y": 694.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_window",
+      "type": "decor",
+      "x": 512,
+      "y": 344,
+      "angle": 225
+    },
+    {
+      "key": "room2_chair_with_plant_1",
+      "type": "decor",
+      "x": 596,
+      "y": 606.5,
+      "angle": 225
+    },
+    {
+      "key": "room2_picture_C",
+      "type": "decor",
+      "x": 623,
+      "y": 359.5,
+      "angle": 225
+    },
+    {
+      "key": "room2_picture_B",
+      "type": "decor",
+      "x": 623,
+      "y": 359.5,
+      "angle": 225
+    },
+    {
+      "key": "room2_picture_A",
+      "type": "decor",
+      "x": 623,
+      "y": 359.5,
+      "angle": 225
+    },
+    {
+      "key": "room2_cupboard",
+      "type": "decor",
+      "x": 303.5,
+      "y": 357.5,
+      "angle": 135
+    },
+    {
+      "key": "room2_luster",
+      "type": "decor",
+      "x": 393,
+      "y": 128,
+      "angle": -180
+    },
+    {
+      "key": "room2_chair_with_plant_2",
+      "type": "decor",
+      "x": 670,
+      "y": 584.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_door",
+      "type": "decor",
+      "x": 127.5,
+      "y": 443.5,
+      "angle": 135
+    },
+    {
+      "key": "room2_plant_left_C",
+      "type": "decor",
+      "x": 53.5,
+      "y": 585.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_plant_left_B",
+      "type": "decor",
+      "x": 53.5,
+      "y": 585.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_plant_left_A",
+      "type": "decor",
+      "x": 53.5,
+      "y": 585.5,
+      "angle": 0
+    },
+    {
       "key": "room2_broken_wall_left",
       "type": "repair",
       "x": 306,
@@ -341,97 +432,6 @@
       "x": 129.5,
       "y": 443,
       "angle": 135
-    },
-    {
-      "key": "room2_carpet",
-      "type": "decor",
-      "x": 359.5,
-      "y": 694.5,
-      "angle": 0
-    },
-    {
-      "key": "room2_window",
-      "type": "decor",
-      "x": 512,
-      "y": 344,
-      "angle": 225
-    },
-    {
-      "key": "room2_chair_with_plant_1",
-      "type": "decor",
-      "x": 596,
-      "y": 606.5,
-      "angle": 225
-    },
-    {
-      "key": "room2_chair_with_plant_2",
-      "type": "decor",
-      "x": 670,
-      "y": 584.5,
-      "angle": 0
-    },
-    {
-      "key": "room2_picture_A",
-      "type": "decor",
-      "x": 623,
-      "y": 359.5,
-      "angle": 225
-    },
-    {
-      "key": "room2_picture_B",
-      "type": "decor",
-      "x": 623,
-      "y": 359.5,
-      "angle": 225
-    },
-    {
-      "key": "room2_picture_C",
-      "type": "decor",
-      "x": 623,
-      "y": 359.5,
-      "angle": 225
-    },
-    {
-      "key": "room2_cupboard",
-      "type": "decor",
-      "x": 303.5,
-      "y": 357.5,
-      "angle": 135
-    },
-    {
-      "key": "room2_luster",
-      "type": "decor",
-      "x": 393,
-      "y": 128,
-      "angle": -180
-    },
-    {
-      "key": "room2_door",
-      "type": "decor",
-      "x": 127.5,
-      "y": 443.5,
-      "angle": 135
-    },
-    {
-      "key": "room2_plant_left_A",
-      "type": "decor",
-      "x": 53.5,
-      "y": 585.5,
-      "angle": 0
-    },
-    {
-      "key": "room2_plant_left_B",
-      "type": "decor",
-      "x": 53.5,
-      "y": 585.5,
-      "angle": 0
-    },
-    {
-      "key": "room2_plant_left_C",
-      "type": "decor",
-      "x": 53.5,
-      "y": 585.5,
-      "angle": 0
     }
   ]
 }
