@@ -32,6 +32,10 @@ ROOM_FILE_RE = re.compile(r"^room(\d+)\.psd$", re.IGNORECASE)
 VARIANT_SUFFIX_RE = re.compile(r"_(?:[A-Z])(?:_\d+)?$")
 NUMBER_SUFFIX_RE = re.compile(r"_\d+$")
 VARIANT_LETTER_RE = re.compile(r"_([A-Z])(?:_\d+)?$")
+VARIANT_GROUP_RE = re.compile(
+    r"^(?:equipment|decor|decoration|decorations)_([A-Z])$",
+    re.IGNORECASE,
+)
 MULTIOBJECT_VARIANT_RE = re.compile(r"_variant_(\d+)$")
 
 
@@ -202,9 +206,21 @@ def prepare_room(
     }
     object_count = 0
 
-    for layer, phase in iter_export_layers(psd):
+    export_layers = list(iter_export_layers(psd))
+    folder_variant_groups = groups_using_folder_variants(export_layers)
+    existing_part_order = (
+        load_existing_part_order(room_id)
+        if any(folder_variant for _layer, _phase, folder_variant in export_layers)
+        else []
+    )
+
+    for layer, phase, folder_variant in export_layers:
         source_id = normalize_id(layer.name)
-        layer_id = strip_angle(source_id)
+        layer_id = apply_folder_variant(
+            strip_angle(source_id),
+            folder_variant,
+            folder_variant_groups,
+        )
         angle = angle_from_id(source_id)
 
         if layer_id == "room_bg":
@@ -246,7 +262,13 @@ def prepare_room(
             )
 
     if write_config:
-        write_room_config(room_id, objects, existing_order, price_config)
+        write_room_config(
+            room_id,
+            objects,
+            existing_order,
+            price_config,
+            existing_part_order,
+        )
         remove_legacy_room_order(room_id)
     if write_images:
         for phase, image_dir in phase_image_dirs.items():
@@ -272,12 +294,17 @@ def room_export_scale(psd: PSDImage) -> ExportScale:
     )
 
 
-def iter_export_layers(psd: PSDImage) -> Iterable[tuple[object, str | None]]:
-    def walk(layers: Iterable[object], phase: str | None) -> Iterable[tuple[object, str | None]]:
+def iter_export_layers(psd: PSDImage) -> Iterable[tuple[object, str | None, str | None]]:
+    def walk(
+        layers: Iterable[object],
+        phase: str | None,
+        folder_variant: str | None,
+    ) -> Iterable[tuple[object, str | None, str | None]]:
         for layer in layers:
             if layer.is_group():
                 next_phase = phase_for_group(layer.name) or phase
-                yield from walk(layer, next_phase)
+                next_folder_variant = variant_for_group(layer.name) or folder_variant
+                yield from walk(layer, next_phase, next_folder_variant)
                 continue
 
             if layer.name.startswith("</"):
@@ -286,13 +313,13 @@ def iter_export_layers(psd: PSDImage) -> Iterable[tuple[object, str | None]]:
             if not layer.has_pixels():
                 continue
 
-            yield layer, phase
+            yield layer, phase, folder_variant
 
-    yield from walk(psd, None)
+    yield from walk(psd, None, None)
 
 
 def phase_for_group(group_name: str) -> str | None:
-    name = group_name.lower()
+    name = group_name.strip().lower()
 
     if name in {"broken_equipment", "repair", "repairs", "broken"}:
         return "repair"
@@ -300,10 +327,69 @@ def phase_for_group(group_name: str) -> str | None:
     if name in {"equipment", "decor", "decoration", "decorations"}:
         return "decor"
 
+    if VARIANT_GROUP_RE.match(name):
+        return "decor"
+
     if "broken" in name or "repair" in name:
         return "repair"
 
     return None
+
+
+def variant_for_group(group_name: str) -> str | None:
+    match = VARIANT_GROUP_RE.match(group_name.strip())
+    return match.group(1).upper() if match else None
+
+
+def groups_using_folder_variants(
+    export_layers: Iterable[tuple[object, str | None, str | None]],
+) -> set[str]:
+    explicit_variant_groups: set[str] = set()
+    folder_variants: dict[str, set[str]] = {}
+
+    for layer, _phase, folder_variant in export_layers:
+        layer_id = strip_angle(normalize_id(layer.name))
+        if layer_id == "room_bg":
+            continue
+
+        group = normalize_group(layer_id)
+        if variant_letter(layer_id) is not None:
+            explicit_variant_groups.add(group)
+            continue
+
+        if folder_variant is None:
+            continue
+
+        folder_variants.setdefault(group, set()).add(folder_variant)
+
+    return {
+        group
+        for group, variants in folder_variants.items()
+        if len(variants) > 1 or group in explicit_variant_groups
+    }
+
+
+def apply_folder_variant(
+    layer_id: str,
+    folder_variant: str | None,
+    folder_variant_groups: set[str],
+) -> str:
+    if (
+        folder_variant is None
+        or normalize_group(layer_id) not in folder_variant_groups
+        or variant_letter(layer_id) is not None
+    ):
+        return layer_id
+
+    return add_variant_suffix(layer_id, folder_variant)
+
+
+def add_variant_suffix(layer_id: str, variant: str) -> str:
+    match = NUMBER_SUFFIX_RE.search(layer_id)
+    if match:
+        return f"{layer_id[:match.start()]}_{variant}{match.group(0)}"
+
+    return f"{layer_id}_{variant}"
 
 
 def normalize_group(layer_name: str) -> str:
@@ -485,6 +571,25 @@ def load_existing_order(room_id: str) -> dict[str, list[str]]:
     }
 
 
+def load_existing_part_order(room_id: str) -> list[str]:
+    config_path = CONFIG_DIR / f"{room_id}.json"
+    if not config_path.exists():
+        return []
+
+    with config_path.open("r", encoding="utf-8") as file:
+        config = json.load(file)
+
+    all_parts = config.get("allParts") if isinstance(config, dict) else None
+    if not isinstance(all_parts, list):
+        return []
+
+    return [
+        str(part["key"])
+        for part in all_parts
+        if isinstance(part, dict) and "key" in part
+    ]
+
+
 def infer_phase(group: str, existing_order: dict[str, list[str]]) -> str | None:
     if group in existing_order["repair"]:
         return "repair"
@@ -515,6 +620,7 @@ def write_room_config(
     objects: list[ExportedObject],
     existing_order: dict[str, list[str]],
     price_config: dict[str, object],
+    existing_part_order: list[str] | None = None,
 ) -> None:
     groups = group_objects(objects)
     order = {
@@ -557,7 +663,12 @@ def write_room_config(
                 all_multiobjects.append(multiobject)
                 all_parts.extend(part_for(item, room_id) for item in multiobject.pop("_items"))
 
-    all_parts = sort_parts_by_z_index(room_id, all_parts, objects)
+    all_parts = sort_parts_by_z_index(
+        room_id,
+        all_parts,
+        objects,
+        existing_part_order or [],
+    )
 
     config = {
         "key": room_id,
@@ -692,10 +803,23 @@ def sort_parts_by_z_index(
     room_id: str,
     parts: list[dict[str, object]],
     objects: list[ExportedObject],
+    existing_part_order: list[str],
 ) -> list[dict[str, object]]:
+    existing_order = {
+        part_key: index
+        for index, part_key in enumerate(existing_part_order)
+    }
     order = {part_key(item, room_id): index for index, item in enumerate(objects)}
     fallback = len(order)
-    return sorted(parts, key=lambda part: order.get(str(part.get("key")), fallback))
+
+    def sort_key(part: dict[str, object]) -> tuple[int, int]:
+        key = str(part.get("key"))
+        if key in existing_order:
+            return (0, existing_order[key])
+
+        return (1, order.get(key, fallback))
+
+    return sorted(parts, key=sort_key)
 
 
 def bounds_for(items: list[ExportedObject]) -> dict[str, int | float]:

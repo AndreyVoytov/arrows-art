@@ -107,7 +107,10 @@ def parse_args(argv: list[str] | None) -> argparse.Namespace:
     parser.add_argument(
         "--levels-sheet",
         default=os.environ.get("LEVEL_REWARDS_SHEET_NAME", "Levels"),
-        help="Sheet/tab name with Level, Compexity/Complexity, Award, Bonus_hint.",
+        help=(
+            "Sheet/tab name with Level, Compexity/Complexity, Award, "
+            "Bonus, Bonus count, Complexity_type, Complexity_name, Bonus_type."
+        ),
     )
     parser.add_argument(
         "--dialogs-sheet",
@@ -125,7 +128,7 @@ def parse_args(argv: list[str] | None) -> argparse.Namespace:
     parser.add_argument(
         "--levels-range",
         default=os.environ.get("LEVEL_REWARDS_SHEET_RANGE"),
-        help="Optional A1 range for levels, for example Levels!A:D.",
+        help="Optional A1 range for levels, for example Levels!A:J.",
     )
     parser.add_argument(
         "--dialogs-range",
@@ -430,6 +433,7 @@ COMPLEXITY_NAME_TO_ID = {
 
 def parse_level_rows(rows: list[dict[str, str]]) -> tuple[dict[str, object], dict[str, str]]:
     complexities, translations = parse_level_complexities(rows)
+    bonus_types = parse_level_bonus_types(rows)
     levels: list[dict[str, object]] = []
 
     for row_number, row in enumerate(rows, start=2):
@@ -447,20 +451,31 @@ def parse_level_rows(rows: list[dict[str, str]]) -> tuple[dict[str, object], dic
             }
             translations.setdefault(complexity_name_key, raw_complexity)
 
+        bonus_id = bonus_id_from_value(cell(row, "bonus"))
+        bonus_count = parse_int(cell(row, "bonus_count", "bonus count"))
         levels.append(
             {
                 "level": level,
                 "complexity": complexity_id,
                 "award": parse_number(cell(row, "award")),
-                "bonusHint": cell(row, "bonus_hint", "bonus hint") or None,
+                "bonus": bonus_id or None,
+                "bonusCount": bonus_count if bonus_id else None,
             }
         )
 
         if levels[-1]["award"] is None:
             warn(f"level row {row_number}: Award is empty or invalid")
+        if bonus_id and bonus_count is None:
+            warn(f"level row {row_number}: Bonus count is empty or invalid")
+        if bonus_count is not None and not bonus_id:
+            warn(f"level row {row_number}: Bonus count is set without Bonus")
+
+        if bonus_id and bonus_id not in bonus_types:
+            bonus_types[bonus_id] = {"id": bonus_id}
 
     return {
         "complexities": list(complexities.values()),
+        "bonusTypes": list(bonus_types.values()),
         "levels": sorted(levels, key=lambda item: item["level"]),
     }, translations
 
@@ -488,6 +503,19 @@ def parse_level_complexities(rows: list[dict[str, str]]) -> tuple[dict[str, dict
         translations[name_key] = complexity_name
 
     return complexities, translations
+
+
+def parse_level_bonus_types(rows: list[dict[str, str]]) -> dict[str, dict[str, str]]:
+    bonus_types: dict[str, dict[str, str]] = {}
+
+    for row in rows:
+        bonus_id = bonus_id_from_value(cell(row, "bonus_type", "bonus type"))
+        if not bonus_id:
+            continue
+
+        bonus_types.setdefault(bonus_id, {"id": bonus_id})
+
+    return bonus_types
 
 
 def parse_dialog_rows(
@@ -1004,6 +1032,14 @@ def complexity_id_from_value(value: str) -> str:
         return ""
 
     return COMPLEXITY_NAME_TO_ID.get(normalized.casefold(), normalized)
+
+
+def bonus_id_from_value(value: str) -> str:
+    normalized = value.strip()
+    if not normalized:
+        return ""
+
+    return slug_key(normalized)
 
 
 def slug_key(value: str) -> str:

@@ -13,7 +13,7 @@ from typing import Iterable, Iterator
 try:
     from PIL import Image, ImageFilter
     from psd_tools import PSDImage
-    from psd_tools.api.effects import DropShadow
+    from psd_tools.api.effects import DropShadow, Stroke
 except ImportError as error:
     raise SystemExit(
         "prepare-ui requires Python packages `psd-tools` and `Pillow`."
@@ -99,8 +99,9 @@ def export_ui_psd(psd_path: Path, output_dir: Path, state: OutputState) -> None:
         state.used_names.add(preview_path.stem)
 
     layer_count = 0
+    frame = frame_bounds(psd)
     for layer in iter_export_layers(psd):
-        image = export_layer(layer, scale)
+        image = export_layer(layer, scale, frame)
         if image is None:
             continue
 
@@ -149,7 +150,7 @@ def iter_export_layers(psd: PSDImage) -> Iterable[object]:
                 yield from walk(layer, layer_skipped)
                 continue
 
-            if layer_skipped or not layer.has_pixels():
+            if layer_skipped or not is_exportable_layer(layer):
                 continue
 
             yield layer
@@ -157,8 +158,18 @@ def iter_export_layers(psd: PSDImage) -> Iterable[object]:
     yield from walk(psd)
 
 
-def export_layer(layer: object, scale: float) -> Image.Image | None:
-    viewport = layer_export_viewport(layer)
+def is_exportable_layer(layer: object) -> bool:
+    return layer.has_pixels() or getattr(layer, "kind", "") == "shape"
+
+
+def export_layer(
+    layer: object,
+    scale: float,
+    frame: tuple[int, int, int, int],
+) -> Image.Image | None:
+    viewport = layer_export_viewport(layer, frame)
+    if viewport is None:
+        return None
 
     with temporary_visibility(layer_visibility_chain(layer), visible=True):
         canvas = layer.composite(viewport=viewport, force=True)
@@ -179,15 +190,38 @@ def export_layer(layer: object, scale: float) -> Image.Image | None:
     return cropped
 
 
-def layer_export_viewport(layer: object) -> tuple[int, int, int, int]:
+def layer_export_viewport(
+    layer: object,
+    frame: tuple[int, int, int, int],
+) -> tuple[int, int, int, int] | None:
     left, top, right, bottom = map(int, layer.bbox)
     margin_left, margin_top, margin_right, margin_bottom = effect_margins(layer)
-    return (
+    viewport = (
         left - margin_left,
         top - margin_top,
         right + margin_right,
         bottom + margin_bottom,
     )
+    return intersect_bounds(viewport, frame)
+
+
+def frame_bounds(psd: PSDImage) -> tuple[int, int, int, int]:
+    return tuple(map(int, getattr(psd, "viewbox", (0, 0, psd.width, psd.height))))
+
+
+def intersect_bounds(
+    a: tuple[int, int, int, int],
+    b: tuple[int, int, int, int],
+) -> tuple[int, int, int, int] | None:
+    left = max(a[0], b[0])
+    top = max(a[1], b[1])
+    right = min(a[2], b[2])
+    bottom = min(a[3], b[3])
+
+    if left >= right or top >= bottom:
+        return None
+
+    return left, top, right, bottom
 
 
 def effect_margins(layer: object) -> tuple[int, int, int, int]:
@@ -207,6 +241,11 @@ def effect_margins(layer: object) -> tuple[int, int, int, int]:
             margins[1] = max(margins[1], ceil(max(0, -dy)) + blur_margin)
             margins[2] = max(margins[2], ceil(max(0, dx)) + blur_margin)
             margins[3] = max(margins[3], ceil(max(0, dy)) + blur_margin)
+            continue
+
+        if isinstance(effect, Stroke):
+            stroke_margin = ceil(stroke_outer_margin(effect)) + 2
+            margins = [max(value, stroke_margin) for value in margins]
             continue
 
         margins = [max(value, 64) for value in margins]
@@ -305,6 +344,19 @@ def shadow_color(effect: DropShadow) -> tuple[int, int, int]:
         round(float(color.get(b"Grn ", 0))),
         round(float(color.get(b"Bl  ", 0))),
     )
+
+
+def stroke_outer_margin(effect: Stroke) -> float:
+    size = max(0.0, float(getattr(effect, "size", 0.0) or 0.0))
+    position = getattr(effect, "position", b"OutF")
+
+    if position == b"InsF":
+        return 0.0
+
+    if position == b"CtrF":
+        return size / 2
+
+    return size
 
 
 def layer_visibility_chain(layer: object) -> list[object]:
