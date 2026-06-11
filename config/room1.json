@@ -261,7 +261,7 @@
       "parts": [
         "room1_broken_wall_right"
       ],
-      "price": 99999,
+      "price": 10,
       "priceType": "coins"
     },
     {
@@ -269,7 +269,7 @@
       "parts": [
         "room1_broken_floor"
       ],
-      "price": 99999,
+      "price": 10,
       "priceType": "coins"
     },
     {
@@ -277,7 +277,7 @@
       "parts": [
         "room1_broken_wall_left"
       ],
-      "price": 99999,
+      "price": 10,
       "priceType": "coins"
     },
     {
@@ -357,7 +357,7 @@
       "parts": [
         "room1_luster_A"
       ],
-      "price": 99999,
+      "price": 10,
       "priceType": "coins"
     },
     {
@@ -365,7 +365,7 @@
       "parts": [
         "room1_luster_B"
       ],
-      "price": 99999,
+      "price": 10,
       "priceType": "coins"
     },
     {
@@ -373,7 +373,7 @@
       "parts": [
         "room1_luster_C"
       ],
-      "price": 99999,
+      "price": 10,
       "priceType": "coins"
     },
     {
@@ -381,7 +381,7 @@
       "parts": [
         "room1_picture_A"
       ],
-      "price": 99999,
+      "price": 10,
       "priceType": "coins"
     },
     {
@@ -389,7 +389,7 @@
       "parts": [
         "room1_picture_B"
       ],
-      "price": 99999,
+      "price": 10,
       "priceType": "coins"
     },
     {
@@ -397,7 +397,7 @@
       "parts": [
         "room1_picture_C"
       ],
-      "price": 99999,
+      "price": 10,
       "priceType": "coins"
     },
     {
