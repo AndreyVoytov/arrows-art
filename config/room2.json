@@ -1,16 +1,13 @@
 {
   "key": "room2",
-  "name_key": "room2_loc",
   "background": "room2_room_bg",
   "content": {
-    "repairActionPoint": [
+    "actionPointOrder": [
       "room2_broken_wall_left",
       "room2_broken_wall_right",
       "room2_broken_floor",
       "room2_trash",
-      "room2_broken_door"
-    ],
-    "decorActionPoint": [
+      "room2_broken_door",
       "room2_carpet",
       "room2_window",
       "room2_chair_with_plant",
@@ -29,7 +26,8 @@
         "room2_broken_wall_left"
       ],
       "x": 306,
-      "y": 356
+      "y": 356,
+      "type": "repair"
     },
     {
       "key": "room2_broken_wall_right",
@@ -38,7 +36,8 @@
         "room2_broken_wall_right"
       ],
       "x": 553,
-      "y": 344
+      "y": 344,
+      "type": "repair"
     },
     {
       "key": "room2_broken_floor",
@@ -47,7 +46,8 @@
         "room2_broken_floor"
       ],
       "x": 358,
-      "y": 702
+      "y": 702,
+      "type": "repair"
     },
     {
       "key": "room2_trash",
@@ -56,7 +56,8 @@
         "room2_trash"
       ],
       "x": 358,
-      "y": 700
+      "y": 700,
+      "type": "repair"
     },
     {
       "key": "room2_broken_door",
@@ -65,7 +66,8 @@
         "room2_broken_door"
       ],
       "x": 130,
-      "y": 443
+      "y": 443,
+      "type": "repair"
     },
     {
       "key": "room2_carpet",
@@ -74,7 +76,8 @@
         "room2_carpet"
       ],
       "x": 360,
-      "y": 694
+      "y": 694,
+      "type": "decor"
     },
     {
       "key": "room2_window",
@@ -83,7 +86,8 @@
         "room2_window"
       ],
       "x": 512,
-      "y": 344
+      "y": 344,
+      "type": "decor"
     },
     {
       "key": "room2_chair_with_plant",
@@ -92,7 +96,8 @@
         "room2_chair_with_plant"
       ],
       "x": 622,
-      "y": 584
+      "y": 584,
+      "type": "decor"
     },
     {
       "key": "room2_picture",
@@ -103,7 +108,8 @@
         "room2_picture_variant_3"
       ],
       "x": 623,
-      "y": 360
+      "y": 360,
+      "type": "decor"
     },
     {
       "key": "room2_cupboard",
@@ -112,7 +118,8 @@
         "room2_cupboard"
       ],
       "x": 304,
-      "y": 358
+      "y": 358,
+      "type": "decor"
     },
     {
       "key": "room2_luster",
@@ -121,7 +128,8 @@
         "room2_luster"
       ],
       "x": 393,
-      "y": 128
+      "y": 128,
+      "type": "decor"
     },
     {
       "key": "room2_door",
@@ -130,7 +138,8 @@
         "room2_door"
       ],
       "x": 128,
-      "y": 444
+      "y": 444,
+      "type": "decor"
     },
     {
       "key": "room2_plant_left",
@@ -141,7 +150,8 @@
         "room2_plant_left_variant_3"
       ],
       "x": 54,
-      "y": 586
+      "y": 586,
+      "type": "decor"
     }
   ],
   "allMultiobjects": [
@@ -150,21 +160,24 @@
       "parts": [
         "room2_broken_wall_left"
       ],
-      "price": 99999
+      "price": 99999,
+      "priceType": "coins"
     },
     {
       "key": "room2_broken_wall_right",
       "parts": [
         "room2_broken_wall_right"
       ],
-      "price": 99999
+      "price": 99999,
+      "priceType": "coins"
     },
     {
       "key": "room2_broken_floor",
       "parts": [
         "room2_broken_floor"
       ],
-      "price": 99999
+      "price": 99999,
+      "priceType": "coins"
     },
     {
       "key": "room2_trash",
@@ -176,28 +189,32 @@
         "room2_trash_2",
         "room2_trash_1"
       ],
-      "price": 99999
+      "price": 99999,
+      "priceType": "coins"
     },
     {
       "key": "room2_broken_door",
       "parts": [
         "room2_broken_door"
       ],
-      "price": 99999
+      "price": 99999,
+      "priceType": "coins"
     },
     {
       "key": "room2_carpet",
       "parts": [
         "room2_carpet"
       ],
-      "price": 99999
+      "price": 99999,
+      "priceType": "coins"
     },
     {
       "key": "room2_window",
       "parts": [
         "room2_window"
       ],
-      "price": 99999
+      "price": 99999,
+      "priceType": "coins"
     },
     {
       "key": "room2_chair_with_plant",
@@ -205,70 +222,80 @@
         "room2_chair_with_plant_1",
         "room2_chair_with_plant_2"
       ],
-      "price": 99999
+      "price": 99999,
+      "priceType": "coins"
     },
     {
       "key": "room2_picture",
       "parts": [
         "room2_picture_A"
       ],
-      "price": 99999
+      "price": 99999,
+      "priceType": "coins"
     },
     {
       "key": "room2_picture_variant_2",
       "parts": [
         "room2_picture_B"
       ],
-      "price": 99999
+      "price": 99999,
+      "priceType": "coins"
     },
     {
       "key": "room2_picture_variant_3",
       "parts": [
         "room2_picture_C"
       ],
-      "price": 99999
+      "price": 99999,
+      "priceType": "coins"
     },
     {
       "key": "room2_cupboard",
       "parts": [
         "room2_cupboard"
       ],
-      "price": 99999
+      "price": 99999,
+      "priceType": "coins"
     },
     {
       "key": "room2_luster",
       "parts": [
         "room2_luster"
       ],
-      "price": 99999
+      "price": 99999,
+      "priceType": "coins"
     },
     {
       "key": "room2_door",
       "parts": [
         "room2_door"
       ],
-      "price": 99999
+      "price": 99999,
+      "priceType": "coins"
     },
     {
       "key": "room2_plant_left",
       "parts": [
         "room2_plant_left_A"
       ],
-      "price": 99999
+      "price": 99999,
+      "priceType": "coins"
     },
     {
       "key": "room2_plant_left_variant_2",
       "parts": [
         "room2_plant_left_B"
       ],
-      "price": 99999
+      "price": 99999,
+      "priceType": "coins"
     },
     {
       "key": "room2_plant_left_variant_3",
       "parts": [
         "room2_plant_left_C"
       ],
-      "price": 99999
+      "price": 99999,
+      "priceType": "coins"
     }
   ],
   "allParts": [
