@@ -1,0 +1,1504 @@
+{
+  "rooms": [
+    "room1",
+    "room2"
+  ],
+  "level_awards": {
+    "complexities": [
+      {
+        "id": "Educational",
+        "name_key": "complexity_educational_loc"
+      },
+      {
+        "id": "Easy",
+        "name_key": "complexity_easy_loc"
+      },
+      {
+        "id": "Medium",
+        "name_key": "complexity_medium_loc"
+      },
+      {
+        "id": "Hard",
+        "name_key": "complexity_hard_loc"
+      },
+      {
+        "id": "Legendary",
+        "name_key": "complexity_legendary_loc"
+      }
+    ],
+    "bonusTypes": [
+      {
+        "id": "bulb"
+      },
+      {
+        "id": "eraser"
+      },
+      {
+        "id": "wand"
+      },
+      {
+        "id": "ruler"
+      }
+    ],
+    "levels": [
+      {
+        "level": 1,
+        "complexity": "Educational",
+        "award": 15,
+        "bonus": "bulb",
+        "bonusCount": 3
+      },
+      {
+        "level": 2,
+        "complexity": "Educational",
+        "award": 15,
+        "bonus": "eraser",
+        "bonusCount": 3
+      },
+      {
+        "level": 3,
+        "complexity": "Educational",
+        "award": 15,
+        "bonus": "wand",
+        "bonusCount": 3
+      },
+      {
+        "level": 4,
+        "complexity": "Easy",
+        "award": 20,
+        "bonus": "ruler",
+        "bonusCount": 3
+      },
+      {
+        "level": 5,
+        "complexity": "Medium",
+        "award": 30,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 6,
+        "complexity": "Medium",
+        "award": 30,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 7,
+        "complexity": "Hard",
+        "award": 45,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 8,
+        "complexity": "Legendary",
+        "award": 60,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 9,
+        "complexity": "Easy",
+        "award": 20,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 10,
+        "complexity": "Medium",
+        "award": 30,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 11,
+        "complexity": "Medium",
+        "award": 30,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 12,
+        "complexity": "Hard",
+        "award": 45,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 13,
+        "complexity": "Legendary",
+        "award": 60,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 14,
+        "complexity": "Easy",
+        "award": 20,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 15,
+        "complexity": "Medium",
+        "award": 30,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 16,
+        "complexity": "Medium",
+        "award": 30,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 17,
+        "complexity": "Hard",
+        "award": 45,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 18,
+        "complexity": "Legendary",
+        "award": 60,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 19,
+        "complexity": "Easy",
+        "award": 20,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 20,
+        "complexity": "Medium",
+        "award": 30,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 21,
+        "complexity": "Medium",
+        "award": 30,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 22,
+        "complexity": "Hard",
+        "award": 45,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 23,
+        "complexity": "Legendary",
+        "award": 65,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 24,
+        "complexity": "Easy",
+        "award": 20,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 25,
+        "complexity": "Medium",
+        "award": 35,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 26,
+        "complexity": "Medium",
+        "award": 35,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 27,
+        "complexity": "Hard",
+        "award": 50,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 28,
+        "complexity": "Legendary",
+        "award": 65,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 29,
+        "complexity": "Easy",
+        "award": 25,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 30,
+        "complexity": "Medium",
+        "award": 35,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 31,
+        "complexity": "Medium",
+        "award": 35,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 32,
+        "complexity": "Hard",
+        "award": 50,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 33,
+        "complexity": "Legendary",
+        "award": 70,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 34,
+        "complexity": "Easy",
+        "award": 25,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 35,
+        "complexity": "Medium",
+        "award": 35,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 36,
+        "complexity": "Medium",
+        "award": 35,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 37,
+        "complexity": "Hard",
+        "award": 50,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 38,
+        "complexity": "Legendary",
+        "award": 70,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 39,
+        "complexity": "Easy",
+        "award": 25,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 40,
+        "complexity": "Medium",
+        "award": 35,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 41,
+        "complexity": "Medium",
+        "award": 35,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 42,
+        "complexity": "Hard",
+        "award": 50,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 43,
+        "complexity": "Legendary",
+        "award": 70,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 44,
+        "complexity": "Easy",
+        "award": 25,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 45,
+        "complexity": "Medium",
+        "award": 40,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 46,
+        "complexity": "Medium",
+        "award": 40,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 47,
+        "complexity": "Hard",
+        "award": 55,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 48,
+        "complexity": "Legendary",
+        "award": 75,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 49,
+        "complexity": "Easy",
+        "award": 25,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 50,
+        "complexity": "Medium",
+        "award": 40,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 51,
+        "complexity": "Medium",
+        "award": 40,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 52,
+        "complexity": "Hard",
+        "award": 55,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 53,
+        "complexity": "Legendary",
+        "award": 75,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 54,
+        "complexity": "Easy",
+        "award": 30,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 55,
+        "complexity": "Medium",
+        "award": 45,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 56,
+        "complexity": "Medium",
+        "award": 45,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 57,
+        "complexity": "Hard",
+        "award": 60,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 58,
+        "complexity": "Legendary",
+        "award": 85,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 59,
+        "complexity": "Easy",
+        "award": 30,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 60,
+        "complexity": "Medium",
+        "award": 45,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 61,
+        "complexity": "Medium",
+        "award": 45,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 62,
+        "complexity": "Hard",
+        "award": 60,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 63,
+        "complexity": "Legendary",
+        "award": 85,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 64,
+        "complexity": "Easy",
+        "award": 35,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 65,
+        "complexity": "Medium",
+        "award": 50,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 66,
+        "complexity": "Medium",
+        "award": 50,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 67,
+        "complexity": "Hard",
+        "award": 70,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 68,
+        "complexity": "Legendary",
+        "award": 95,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 69,
+        "complexity": "Easy",
+        "award": 35,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 70,
+        "complexity": "Medium",
+        "award": 50,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 71,
+        "complexity": "Medium",
+        "award": 50,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 72,
+        "complexity": "Hard",
+        "award": 70,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 73,
+        "complexity": "Legendary",
+        "award": 95,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 74,
+        "complexity": "Easy",
+        "award": 40,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 75,
+        "complexity": "Medium",
+        "award": 55,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 76,
+        "complexity": "Medium",
+        "award": 55,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 77,
+        "complexity": "Hard",
+        "award": 75,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 78,
+        "complexity": "Legendary",
+        "award": 105,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 79,
+        "complexity": "Easy",
+        "award": 40,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 80,
+        "complexity": "Medium",
+        "award": 55,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 81,
+        "complexity": "Medium",
+        "award": 55,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 82,
+        "complexity": "Hard",
+        "award": 75,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 83,
+        "complexity": "Legendary",
+        "award": 105,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 84,
+        "complexity": "Easy",
+        "award": 45,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 85,
+        "complexity": "Medium",
+        "award": 60,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 86,
+        "complexity": "Medium",
+        "award": 60,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 87,
+        "complexity": "Hard",
+        "award": 85,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 88,
+        "complexity": "Legendary",
+        "award": 115,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 89,
+        "complexity": "Easy",
+        "award": 45,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 90,
+        "complexity": "Medium",
+        "award": 60,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 91,
+        "complexity": "Medium",
+        "award": 60,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 92,
+        "complexity": "Hard",
+        "award": 85,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 93,
+        "complexity": "Legendary",
+        "award": 115,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 94,
+        "complexity": "Easy",
+        "award": 50,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 95,
+        "complexity": "Medium",
+        "award": 70,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 96,
+        "complexity": "Medium",
+        "award": 70,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 97,
+        "complexity": "Hard",
+        "award": 95,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 98,
+        "complexity": "Legendary",
+        "award": 130,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 99,
+        "complexity": "Easy",
+        "award": 50,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 100,
+        "complexity": "Medium",
+        "award": 70,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 101,
+        "complexity": "Medium",
+        "award": 70,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 102,
+        "complexity": "Hard",
+        "award": 95,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 103,
+        "complexity": "Legendary",
+        "award": 130,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 104,
+        "complexity": "Easy",
+        "award": 55,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 105,
+        "complexity": "Medium",
+        "award": 75,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 106,
+        "complexity": "Medium",
+        "award": 75,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 107,
+        "complexity": "Hard",
+        "award": 105,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 108,
+        "complexity": "Legendary",
+        "award": 145,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 109,
+        "complexity": "Easy",
+        "award": 55,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 110,
+        "complexity": "Medium",
+        "award": 75,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 111,
+        "complexity": "Medium",
+        "award": 75,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 112,
+        "complexity": "Hard",
+        "award": 105,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 113,
+        "complexity": "Legendary",
+        "award": 145,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 114,
+        "complexity": "Easy",
+        "award": 60,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 115,
+        "complexity": "Medium",
+        "award": 85,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 116,
+        "complexity": "Medium",
+        "award": 85,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 117,
+        "complexity": "Hard",
+        "award": 115,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 118,
+        "complexity": "Legendary",
+        "award": 160,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 119,
+        "complexity": "Easy",
+        "award": 60,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 120,
+        "complexity": "Medium",
+        "award": 85,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 121,
+        "complexity": "Medium",
+        "award": 85,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 122,
+        "complexity": "Hard",
+        "award": 115,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 123,
+        "complexity": "Legendary",
+        "award": 160,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 124,
+        "complexity": "Easy",
+        "award": 65,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 125,
+        "complexity": "Medium",
+        "award": 90,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 126,
+        "complexity": "Medium",
+        "award": 90,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 127,
+        "complexity": "Hard",
+        "award": 125,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 128,
+        "complexity": "Legendary",
+        "award": 175,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 129,
+        "complexity": "Easy",
+        "award": 65,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 130,
+        "complexity": "Medium",
+        "award": 90,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 131,
+        "complexity": "Medium",
+        "award": 90,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 132,
+        "complexity": "Hard",
+        "award": 125,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 133,
+        "complexity": "Legendary",
+        "award": 175,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 134,
+        "complexity": "Easy",
+        "award": 70,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 135,
+        "complexity": "Medium",
+        "award": 100,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 136,
+        "complexity": "Medium",
+        "award": 100,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 137,
+        "complexity": "Hard",
+        "award": 140,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 138,
+        "complexity": "Legendary",
+        "award": 195,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 139,
+        "complexity": "Easy",
+        "award": 70,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 140,
+        "complexity": "Medium",
+        "award": 100,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 141,
+        "complexity": "Medium",
+        "award": 100,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 142,
+        "complexity": "Hard",
+        "award": 140,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 143,
+        "complexity": "Legendary",
+        "award": 195,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 144,
+        "complexity": "Easy",
+        "award": 80,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 145,
+        "complexity": "Medium",
+        "award": 110,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 146,
+        "complexity": "Medium",
+        "award": 110,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 147,
+        "complexity": "Hard",
+        "award": 155,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 148,
+        "complexity": "Legendary",
+        "award": 215,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 149,
+        "complexity": "Easy",
+        "award": 80,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 150,
+        "complexity": "Medium",
+        "award": 110,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 151,
+        "complexity": "Medium",
+        "award": 110,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 152,
+        "complexity": "Hard",
+        "award": 155,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 153,
+        "complexity": "Legendary",
+        "award": 215,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 154,
+        "complexity": "Easy",
+        "award": 90,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 155,
+        "complexity": "Medium",
+        "award": 125,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 156,
+        "complexity": "Medium",
+        "award": 125,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 157,
+        "complexity": "Hard",
+        "award": 175,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 158,
+        "complexity": "Legendary",
+        "award": 245,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 159,
+        "complexity": "Easy",
+        "award": 90,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 160,
+        "complexity": "Medium",
+        "award": 125,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 161,
+        "complexity": "Medium",
+        "award": 125,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 162,
+        "complexity": "Hard",
+        "award": 175,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 163,
+        "complexity": "Legendary",
+        "award": 245,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 164,
+        "complexity": "Easy",
+        "award": 100,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 165,
+        "complexity": "Medium",
+        "award": 140,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 166,
+        "complexity": "Medium",
+        "award": 140,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 167,
+        "complexity": "Hard",
+        "award": 195,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 168,
+        "complexity": "Legendary",
+        "award": 270,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 169,
+        "complexity": "Easy",
+        "award": 100,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 170,
+        "complexity": "Medium",
+        "award": 140,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 171,
+        "complexity": "Medium",
+        "award": 140,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 172,
+        "complexity": "Hard",
+        "award": 195,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 173,
+        "complexity": "Legendary",
+        "award": 270,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 174,
+        "complexity": "Easy",
+        "award": 110,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 175,
+        "complexity": "Medium",
+        "award": 155,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 176,
+        "complexity": "Medium",
+        "award": 155,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 177,
+        "complexity": "Hard",
+        "award": 215,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 178,
+        "complexity": "Legendary",
+        "award": 300,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 179,
+        "complexity": "Easy",
+        "award": 110,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 180,
+        "complexity": "Medium",
+        "award": 155,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 181,
+        "complexity": "Medium",
+        "award": 155,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 182,
+        "complexity": "Hard",
+        "award": 215,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 183,
+        "complexity": "Legendary",
+        "award": 300,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 184,
+        "complexity": "Easy",
+        "award": 125,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 185,
+        "complexity": "Medium",
+        "award": 175,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 186,
+        "complexity": "Medium",
+        "award": 175,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 187,
+        "complexity": "Hard",
+        "award": 245,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 188,
+        "complexity": "Legendary",
+        "award": 340,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 189,
+        "complexity": "Easy",
+        "award": 125,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 190,
+        "complexity": "Medium",
+        "award": 175,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 191,
+        "complexity": "Medium",
+        "award": 175,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 192,
+        "complexity": "Hard",
+        "award": 245,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 193,
+        "complexity": "Legendary",
+        "award": 340,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 194,
+        "complexity": "Easy",
+        "award": 140,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 195,
+        "complexity": "Medium",
+        "award": 195,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 196,
+        "complexity": "Medium",
+        "award": 195,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 197,
+        "complexity": "Hard",
+        "award": 195,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 198,
+        "complexity": "Legendary",
+        "award": 500,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 199,
+        "complexity": "Legendary",
+        "award": 700,
+        "bonus": null,
+        "bonusCount": null
+      },
+      {
+        "level": 200,
+        "complexity": "Legendary",
+        "award": 900,
+        "bonus": null,
+        "bonusCount": null
+      }
+    ]
+  },
+  "characters": [
+    {
+      "id": "anna",
+      "name_key": "anna_loc",
+      "states": [
+        "anna_angry",
+        "anna_neutral",
+        "anna_sad",
+        "anna_fear",
+        "anna_embarrassed"
+      ]
+    },
+    {
+      "id": "alex",
+      "name_key": "alex_loc",
+      "states": [
+        "alex_neutral",
+        "alex_joy",
+        "alex_sad",
+        "alex_angry"
+      ]
+    },
+    {
+      "id": "victor",
+      "name_key": "victor_loc",
+      "states": [
+        "victor_neutral",
+        "victor_smirk"
+      ]
+    },
+    {
+      "id": "mary",
+      "name_key": "mary_loc",
+      "states": [
+        "mary_neutral",
+        "mary_smile"
+      ]
+    },
+    {
+      "id": "henry",
+      "name_key": "henry_loc",
+      "states": [
+        "henry_neutral",
+        "henry_smile",
+        "henry_embarrassed"
+      ]
+    },
+    {
+      "id": "kate",
+      "name_key": "kate_loc",
+      "states": [
+        "kate_neutral",
+        "kate_smile",
+        "kate_smirk",
+        "kate_angry"
+      ]
+    }
+  ]
+}
