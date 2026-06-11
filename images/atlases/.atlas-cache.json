@@ -110,6 +110,28 @@
         "images/atlases/rooms_room2-repair.webp.json"
       ],
       "updatedAt": "2026-05-25T10:06:22.912865+00:00"
+    },
+    "ui_lobby": {
+      "sourceDir": "images/ui/lobby",
+      "digest": "9ccd4f7f93aa48f0efd5fa15696ddc5ce5583c6dfa80c49463d07cbe545cb0ac",
+      "outputs": [
+        "images/atlases/ui_lobby.png",
+        "images/atlases/ui_lobby.webp",
+        "images/atlases/ui_lobby.json",
+        "images/atlases/ui_lobby.webp.json"
+      ],
+      "updatedAt": "2026-06-11T21:11:56.465409+00:00"
+    },
+    "ui_panel": {
+      "sourceDir": "images/ui/panel",
+      "digest": "9218eb50c9c24d278f14d2d6c663a4bda8a272c62d9edc99e799c59d9f42bec1",
+      "outputs": [
+        "images/atlases/ui_panel.png",
+        "images/atlases/ui_panel.webp",
+        "images/atlases/ui_panel.json",
+        "images/atlases/ui_panel.webp.json"
+      ],
+      "updatedAt": "2026-06-11T21:12:07.110016+00:00"
     }
   }
 }
