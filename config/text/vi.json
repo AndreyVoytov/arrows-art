@@ -1,14 +1,9 @@
 {
-  "alex_loc": "Alex",
-  "anna_loc": "Anna",
   "complexity_easy_loc": "Dễ",
   "complexity_educational_loc": "Hướng dẫn",
   "complexity_hard_loc": "Khó",
   "complexity_legendary_loc": "Huyền thoại",
   "complexity_medium_loc": "Trung bình",
-  "henry_loc": "Henry",
-  "kate_loc": "Kate",
-  "mary_loc": "Mary",
   "room1_broken_cupboard_loc": "Tủ quần áo bị hỏng",
   "room1_broken_door_loc": "Cửa ra vào bị hỏng",
   "room1_broken_floor_loc": "Sàn bị hư hại",
@@ -48,6 +43,5 @@
   "room2_picture_loc": "Tranh",
   "room2_plant_left_loc": "Cây",
   "room2_trash_loc": "Rác trên sàn",
-  "room2_window_loc": "Cửa sổ",
-  "victor_loc": "Victor"
+  "room2_window_loc": "Cửa sổ"
 }

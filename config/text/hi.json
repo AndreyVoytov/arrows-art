@@ -1,14 +1,9 @@
 {
-  "alex_loc": "एलेक्स",
-  "anna_loc": "अन्ना",
   "complexity_easy_loc": "आसान",
   "complexity_educational_loc": "प्रशिक्षण",
   "complexity_hard_loc": "कठिन",
   "complexity_legendary_loc": "महान",
   "complexity_medium_loc": "मध्यम",
-  "henry_loc": "हेनरी",
-  "kate_loc": "केट",
-  "mary_loc": "मैरी",
   "room1_broken_cupboard_loc": "टूटी हुई अलमारी",
   "room1_broken_door_loc": "टूटा हुआ मुख्य दरवाजा",
   "room1_broken_floor_loc": "खराब फर्श",
@@ -48,6 +43,5 @@
   "room2_picture_loc": "पेंटिंग",
   "room2_plant_left_loc": "पौधा",
   "room2_trash_loc": "फर्श पर कचरा",
-  "room2_window_loc": "खिड़की",
-  "victor_loc": "विक्टर"
+  "room2_window_loc": "खिड़की"
 }

@@ -1,19 +1,14 @@
 {
   "alex": "Алекс",
-  "alex_loc": "Алекс",
   "anna": "Анна",
-  "anna_loc": "Анна",
   "complexity_easy_loc": "Легкий",
   "complexity_educational_loc": "Обучающий",
   "complexity_hard_loc": "Сложный",
   "complexity_legendary_loc": "Легендарный",
   "complexity_medium_loc": "Средний",
   "henry": "Генри",
-  "henry_loc": "Генри",
   "kate": "Кейт",
-  "kate_loc": "Кейт",
   "mary": "Мэри",
-  "mary_loc": "Мэри",
   "room1": "Вестибюль",
   "room1_broken_cupboard_loc": "Сломанный шкаф для одежды",
   "room1_broken_door_loc": "Сломанная входная дверь",
@@ -95,6 +90,5 @@
   "room3": "Ванная",
   "room4": "Кухня",
   "room5": "Гостиная",
-  "victor": "Виктор",
-  "victor_loc": "Виктор"
+  "victor": "Виктор"
 }

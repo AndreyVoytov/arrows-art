@@ -1,14 +1,9 @@
 {
-  "alex_loc": "알렉스",
-  "anna_loc": "안나",
   "complexity_easy_loc": "쉬움",
   "complexity_educational_loc": "튜토리얼",
   "complexity_hard_loc": "어려움",
   "complexity_legendary_loc": "전설",
   "complexity_medium_loc": "보통",
-  "henry_loc": "헨리",
-  "kate_loc": "케이트",
-  "mary_loc": "메리",
   "room1_broken_cupboard_loc": "부서진 옷장",
   "room1_broken_door_loc": "부서진 현관문",
   "room1_broken_floor_loc": "손상된 바닥",
@@ -48,6 +43,5 @@
   "room2_picture_loc": "그림",
   "room2_plant_left_loc": "식물",
   "room2_trash_loc": "바닥의 쓰레기",
-  "room2_window_loc": "창문",
-  "victor_loc": "빅터"
+  "room2_window_loc": "창문"
 }

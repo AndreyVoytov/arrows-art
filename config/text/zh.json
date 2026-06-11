@@ -1,14 +1,9 @@
 {
-  "alex_loc": "亚历克斯",
-  "anna_loc": "安娜",
   "complexity_easy_loc": "简单",
   "complexity_educational_loc": "教学",
   "complexity_hard_loc": "困难",
   "complexity_legendary_loc": "传奇",
   "complexity_medium_loc": "中等",
-  "henry_loc": "亨利",
-  "kate_loc": "凯特",
-  "mary_loc": "玛丽",
   "room1_broken_cupboard_loc": "损坏的衣柜",
   "room1_broken_door_loc": "损坏的入户门",
   "room1_broken_floor_loc": "损坏的地板",
@@ -48,6 +43,5 @@
   "room2_picture_loc": "画",
   "room2_plant_left_loc": "植物",
   "room2_trash_loc": "地板上的垃圾",
-  "room2_window_loc": "窗户",
-  "victor_loc": "维克多"
+  "room2_window_loc": "窗户"
 }

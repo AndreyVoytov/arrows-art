@@ -1,14 +1,9 @@
 {
-  "alex_loc": "Alex",
-  "anna_loc": "Anna",
   "complexity_easy_loc": "Kolay",
   "complexity_educational_loc": "Eğitici",
   "complexity_hard_loc": "Zor",
   "complexity_legendary_loc": "Efsanevi",
   "complexity_medium_loc": "Orta",
-  "henry_loc": "Henry",
-  "kate_loc": "Kate",
-  "mary_loc": "Mary",
   "room1_broken_cupboard_loc": "Kırık gardırop",
   "room1_broken_door_loc": "Kırık giriş kapısı",
   "room1_broken_floor_loc": "Hasarlı zemin",
@@ -48,6 +43,5 @@
   "room2_picture_loc": "Tablo",
   "room2_plant_left_loc": "Bitki",
   "room2_trash_loc": "Yerdeki çöpler",
-  "room2_window_loc": "Pencere",
-  "victor_loc": "Victor"
+  "room2_window_loc": "Pencere"
 }

@@ -1446,7 +1446,6 @@
   "characters": [
     {
       "id": "anna",
-      "name_key": "anna_loc",
       "states": [
         "anna_angry",
         "anna_neutral",
@@ -1457,7 +1456,6 @@
     },
     {
       "id": "alex",
-      "name_key": "alex_loc",
       "states": [
         "alex_neutral",
         "alex_joy",
@@ -1467,7 +1465,6 @@
     },
     {
       "id": "victor",
-      "name_key": "victor_loc",
       "states": [
         "victor_neutral",
         "victor_smirk"
@@ -1475,7 +1472,6 @@
     },
     {
       "id": "mary",
-      "name_key": "mary_loc",
       "states": [
         "mary_neutral",
         "mary_smile"
@@ -1483,7 +1479,6 @@
     },
     {
       "id": "henry",
-      "name_key": "henry_loc",
       "states": [
         "henry_neutral",
         "henry_smile",
@@ -1492,7 +1487,6 @@
     },
     {
       "id": "kate",
-      "name_key": "kate_loc",
       "states": [
         "kate_neutral",
         "kate_smile",

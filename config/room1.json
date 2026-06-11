@@ -203,10 +203,9 @@
       "key": "room1_dialog_d_test",
       "type": "dialog",
       "dialogId": "room1_d_test",
-      "trigger_type": "point_before_action",
-      "trigger_key": "room1_trash",
+      "multiobject": "",
       "x": 358,
-      "y": 700
+      "y": 700,
     }
   ],
   "allMultiobjects": [
