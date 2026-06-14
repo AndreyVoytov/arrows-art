@@ -204,8 +204,10 @@
       "type": "dialog",
       "dialogId": "room1_d_test",
       "multiobject": "",
+      "price": 10,
+      "priceType": "coins",
       "x": 358,
-      "y": 700,
+      "y": 700
     }
   ],
   "allMultiobjects": [

@@ -2,133 +2,133 @@
   "frames": {
     "anna_angry": {
       "frame": {
-        "x": 1028,
-        "y": 770,
-        "w": 512,
-        "h": 768
+        "x": 0,
+        "y": 514,
+        "w": 341,
+        "h": 512
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       },
       "sourceSize": {
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       }
     },
     "anna_embarrassed": {
       "frame": {
-        "x": 514,
-        "y": 770,
-        "w": 512,
-        "h": 768
+        "x": 1372,
+        "y": 0,
+        "w": 341,
+        "h": 512
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       },
       "sourceSize": {
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       }
     },
     "anna_fear": {
       "frame": {
-        "x": 0,
-        "y": 770,
-        "w": 512,
-        "h": 768
+        "x": 1029,
+        "y": 0,
+        "w": 341,
+        "h": 512
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       },
       "sourceSize": {
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       }
     },
     "anna_neutral": {
       "frame": {
-        "x": 1028,
+        "x": 686,
         "y": 0,
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       },
       "sourceSize": {
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       }
     },
     "anna_sad": {
       "frame": {
-        "x": 514,
+        "x": 343,
         "y": 0,
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       },
       "sourceSize": {
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       }
     },
     "anna_smile": {
       "frame": {
         "x": 0,
         "y": 0,
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       },
       "sourceSize": {
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       }
     }
   },
   "meta": {
     "app": "scripts/build_atlases.py",
-    "version": "6",
+    "version": "7",
     "image": "characters_anna.png",
     "format": "RGBA8888",
     "size": {
       "w": 2048,
-      "h": 1538
+      "h": 1026
     },
     "scale": "1",
     "sourceDir": "images/characters/anna"

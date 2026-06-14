@@ -2,73 +2,73 @@
   "frames": {
     "henry_embarrassed": {
       "frame": {
-        "x": 1028,
+        "x": 686,
         "y": 0,
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       },
       "sourceSize": {
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       }
     },
     "henry_neutral": {
       "frame": {
-        "x": 514,
+        "x": 343,
         "y": 0,
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       },
       "sourceSize": {
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       }
     },
     "henry_smile": {
       "frame": {
         "x": 0,
         "y": 0,
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       },
       "sourceSize": {
-        "w": 512,
-        "h": 768
+        "w": 341,
+        "h": 512
       }
     }
   },
   "meta": {
     "app": "scripts/build_atlases.py",
-    "version": "6",
+    "version": "7",
     "image": "characters_henry.webp",
     "format": "RGBA8888",
     "size": {
       "w": 2048,
-      "h": 768
+      "h": 512
     },
     "scale": "1",
     "sourceDir": "images/characters/henry"

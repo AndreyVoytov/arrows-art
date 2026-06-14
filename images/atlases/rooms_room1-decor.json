@@ -543,7 +543,7 @@
   },
   "meta": {
     "app": "scripts/build_atlases.py",
-    "version": "6",
+    "version": "7",
     "image": "rooms_room1-decor.png",
     "format": "RGBA8888",
     "size": {

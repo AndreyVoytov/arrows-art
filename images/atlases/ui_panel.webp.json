@@ -883,7 +883,7 @@
   },
   "meta": {
     "app": "scripts/build_atlases.py",
-    "version": "6",
+    "version": "7",
     "image": "ui_panel.webp",
     "format": "RGBA8888",
     "size": {

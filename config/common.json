@@ -3,6 +3,7 @@
     "room1",
     "room2"
   ],
+  "levelsCount": 20,
   "level_awards": {
     "complexities": [
       {
