@@ -120,7 +120,7 @@
         "images/atlases/ui_lobby.json",
         "images/atlases/ui_lobby.webp.json"
       ],
-      "updatedAt": "2026-06-14T21:12:25.928853+00:00"
+      "updatedAt": "2026-06-15T19:50:09.857326+00:00"
     },
     "ui_panel": {
       "sourceDir": "images/ui/panel",
@@ -131,7 +131,7 @@
         "images/atlases/ui_panel.json",
         "images/atlases/ui_panel.webp.json"
       ],
-      "updatedAt": "2026-06-14T21:12:36.488945+00:00"
+      "updatedAt": "2026-06-15T19:50:25.259151+00:00"
     }
   }
 }
