@@ -22,7 +22,7 @@
     },
     "bottom_button": {
       "frame": {
-        "x": 568,
+        "x": 586,
         "y": 1135,
         "w": 218,
         "h": 98
@@ -42,7 +42,7 @@
     },
     "buy_option_button": {
       "frame": {
-        "x": 985,
+        "x": 1003,
         "y": 1135,
         "w": 184,
         "h": 78
@@ -62,7 +62,7 @@
     },
     "choosen_option_stroke": {
       "frame": {
-        "x": 1666,
+        "x": 1444,
         "y": 0,
         "w": 203,
         "h": 204
@@ -82,8 +82,8 @@
     },
     "close_button": {
       "frame": {
-        "x": 2007,
-        "y": 0,
+        "x": 1701,
+        "y": 1135,
         "w": 36,
         "h": 36
       },
@@ -102,7 +102,7 @@
     },
     "coin_icon": {
       "frame": {
-        "x": 1652,
+        "x": 1519,
         "y": 1135,
         "w": 43,
         "h": 44
@@ -122,87 +122,47 @@
     },
     "decor_button": {
       "frame": {
-        "x": 1871,
-        "y": 0,
-        "w": 134,
-        "h": 153
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 134,
-        "h": 153
-      },
-      "sourceSize": {
-        "w": 134,
-        "h": 153
-      }
-    },
-    "decor_plus_icon": {
-      "frame": {
-        "x": 1549,
+        "x": 387,
         "y": 1135,
-        "w": 47,
-        "h": 46
+        "w": 103,
+        "h": 123
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 47,
-        "h": 46
+        "w": 103,
+        "h": 123
       },
       "sourceSize": {
-        "w": 47,
-        "h": 46
+        "w": 103,
+        "h": 123
       }
     },
     "dialog_icon": {
       "frame": {
-        "x": 1598,
+        "x": 141,
         "y": 1135,
-        "w": 52,
-        "h": 44
+        "w": 139,
+        "h": 125
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 52,
-        "h": 44
+        "w": 139,
+        "h": 125
       },
       "sourceSize": {
-        "w": 52,
-        "h": 44
-      }
-    },
-    "diamond": {
-      "frame": {
-        "x": 1444,
-        "y": 0,
-        "w": 220,
-        "h": 238
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 220,
-        "h": 238
-      },
-      "sourceSize": {
-        "w": 220,
-        "h": 238
+        "w": 139,
+        "h": 125
       }
     },
     "diamond_icon": {
       "frame": {
-        "x": 1742,
+        "x": 1609,
         "y": 1135,
         "w": 45,
         "h": 39
@@ -222,7 +182,7 @@
     },
     "have_option_button": {
       "frame": {
-        "x": 1171,
+        "x": 1189,
         "y": 1135,
         "w": 184,
         "h": 77
@@ -242,7 +202,7 @@
     },
     "life_icon": {
       "frame": {
-        "x": 1834,
+        "x": 1656,
         "y": 1135,
         "w": 43,
         "h": 39
@@ -262,7 +222,7 @@
     },
     "menu_icon": {
       "frame": {
-        "x": 1697,
+        "x": 1564,
         "y": 1135,
         "w": 43,
         "h": 41
@@ -302,8 +262,8 @@
     },
     "play_button": {
       "frame": {
-        "x": 0,
-        "y": 1135,
+        "x": 1649,
+        "y": 0,
         "w": 331,
         "h": 144
       },
@@ -322,7 +282,7 @@
     },
     "plus_button": {
       "frame": {
-        "x": 1405,
+        "x": 1375,
         "y": 1135,
         "w": 42,
         "h": 53
@@ -340,10 +300,30 @@
         "h": 53
       }
     },
+    "repaint_button": {
+      "frame": {
+        "x": 282,
+        "y": 1135,
+        "w": 103,
+        "h": 123
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 103,
+        "h": 123
+      },
+      "sourceSize": {
+        "w": 103,
+        "h": 123
+      }
+    },
     "repaint_icon": {
       "frame": {
-        "x": 1357,
-        "y": 1135,
+        "x": 1982,
+        "y": 0,
         "w": 46,
         "h": 55
       },
@@ -362,7 +342,7 @@
     },
     "repair_button": {
       "frame": {
-        "x": 333,
+        "x": 0,
         "y": 1135,
         "w": 139,
         "h": 125
@@ -378,31 +358,11 @@
       "sourceSize": {
         "w": 139,
         "h": 125
-      }
-    },
-    "repair_icon": {
-      "frame": {
-        "x": 1789,
-        "y": 1135,
-        "w": 43,
-        "h": 39
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 43,
-        "h": 39
-      },
-      "sourceSize": {
-        "w": 43,
-        "h": 39
       }
     },
     "resource_panel": {
       "frame": {
-        "x": 788,
+        "x": 806,
         "y": 1135,
         "w": 195,
         "h": 87
@@ -422,7 +382,7 @@
     },
     "settings_icon": {
       "frame": {
-        "x": 1449,
+        "x": 1419,
         "y": 1135,
         "w": 48,
         "h": 49
@@ -442,7 +402,7 @@
     },
     "shop_icon": {
       "frame": {
-        "x": 1499,
+        "x": 1469,
         "y": 1135,
         "w": 48,
         "h": 46
@@ -462,7 +422,7 @@
     },
     "square_button": {
       "frame": {
-        "x": 474,
+        "x": 492,
         "y": 1135,
         "w": 92,
         "h": 99
@@ -483,12 +443,12 @@
   },
   "meta": {
     "app": "scripts/build_atlases.py",
-    "version": "7",
+    "version": "8",
     "image": "ui_lobby.webp",
     "format": "RGBA8888",
     "size": {
       "w": 2048,
-      "h": 1279
+      "h": 1260
     },
     "scale": "1",
     "sourceDir": "images/ui/lobby"

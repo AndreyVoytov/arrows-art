@@ -543,7 +543,7 @@
   },
   "meta": {
     "app": "scripts/build_atlases.py",
-    "version": "7",
+    "version": "8",
     "image": "rooms_room1-decor.webp",
     "format": "RGBA8888",
     "size": {

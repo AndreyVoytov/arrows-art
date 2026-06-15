@@ -43,7 +43,7 @@
   },
   "meta": {
     "app": "scripts/build_atlases.py",
-    "version": "7",
+    "version": "8",
     "image": "characters_victor.png",
     "format": "RGBA8888",
     "size": {

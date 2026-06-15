@@ -1,137 +1,137 @@
 {
-  "version": 7,
+  "version": 8,
   "atlases": {
     "characters_alex": {
       "sourceDir": "images/characters/alex",
-      "digest": "eac037a4263e53704acd21eeeca0eb4b539ede10eff1a7086ab73fd57869e785",
+      "digest": "e711b2ba9e6d8802bb1943cf7c010e200ad5b5f2baeafe44ee25bae906e75168",
       "outputs": [
         "images/atlases/characters_alex.png",
         "images/atlases/characters_alex.webp",
         "images/atlases/characters_alex.json",
         "images/atlases/characters_alex.webp.json"
       ],
-      "updatedAt": "2026-06-14T18:34:51.404518+00:00"
+      "updatedAt": "2026-06-14T21:11:34.953414+00:00"
     },
     "characters_anna": {
       "sourceDir": "images/characters/anna",
-      "digest": "267cafdfade47f2619133622f425644fa84d43f9f2990f4efa090f9a4b64db1c",
+      "digest": "efbc528600c06393f31244784090b16dd2360341e2476a96d051aaf1ed1c5f90",
       "outputs": [
         "images/atlases/characters_anna.png",
         "images/atlases/characters_anna.webp",
         "images/atlases/characters_anna.json",
         "images/atlases/characters_anna.webp.json"
       ],
-      "updatedAt": "2026-06-14T18:34:56.040379+00:00"
+      "updatedAt": "2026-06-14T21:11:39.923406+00:00"
     },
     "characters_henry": {
       "sourceDir": "images/characters/henry",
-      "digest": "410a1a97789bbb9ac819b3bcfd7a16d5daa80e61b7af379e900d2d612cc0a182",
+      "digest": "b403faccf4e392230e4d6a58e5193da2c441b714315b42fc115fbfcfbf18e370",
       "outputs": [
         "images/atlases/characters_henry.png",
         "images/atlases/characters_henry.webp",
         "images/atlases/characters_henry.json",
         "images/atlases/characters_henry.webp.json"
       ],
-      "updatedAt": "2026-06-14T18:34:58.246442+00:00"
+      "updatedAt": "2026-06-14T21:11:42.605477+00:00"
     },
     "characters_kate": {
       "sourceDir": "images/characters/kate",
-      "digest": "d7bb3f86010670f18cb40c680842cb9ee886630c195bbf0405e74c14afec824c",
+      "digest": "4e4afa85611fd2a9d31c161116120478724133d995815444a69e21ed5220afba",
       "outputs": [
         "images/atlases/characters_kate.png",
         "images/atlases/characters_kate.webp",
         "images/atlases/characters_kate.json",
         "images/atlases/characters_kate.webp.json"
       ],
-      "updatedAt": "2026-06-14T18:35:00.694062+00:00"
+      "updatedAt": "2026-06-14T21:11:45.408762+00:00"
     },
     "characters_mary": {
       "sourceDir": "images/characters/mary",
-      "digest": "8f59b40cb4c5a1574932c61bfc08f5304abf0eb141b207dbef80464a66bb4501",
+      "digest": "36383065611f6e997775b8884593108b087567b33c0c492266050d3b14ed4aa1",
       "outputs": [
         "images/atlases/characters_mary.png",
         "images/atlases/characters_mary.webp",
         "images/atlases/characters_mary.json",
         "images/atlases/characters_mary.webp.json"
       ],
-      "updatedAt": "2026-06-14T18:35:02.120073+00:00"
+      "updatedAt": "2026-06-14T21:11:46.971414+00:00"
     },
     "characters_victor": {
       "sourceDir": "images/characters/victor",
-      "digest": "59e6db59dc63b21640c639fca8c30a6cead8b41f076ca0f510df8338e67bce33",
+      "digest": "bf9145b1e7d485d147e20573039a4a42c1d6fa37c3558072e6a68affcd1f80ab",
       "outputs": [
         "images/atlases/characters_victor.png",
         "images/atlases/characters_victor.webp",
         "images/atlases/characters_victor.json",
         "images/atlases/characters_victor.webp.json"
       ],
-      "updatedAt": "2026-06-14T18:35:03.706946+00:00"
+      "updatedAt": "2026-06-14T21:11:48.838448+00:00"
     },
     "rooms_room1-decor": {
       "sourceDir": "images/rooms/room1-decor",
-      "digest": "3e8fdf81ed128b8cd244231e8f3573f51c73174306e0c4e89ceda2d4d6b2b3ac",
+      "digest": "92099011d623d539bd93904ce0b5bb8944514369f8113284b28c066972f8db80",
       "outputs": [
         "images/atlases/rooms_room1-decor.png",
         "images/atlases/rooms_room1-decor.webp",
         "images/atlases/rooms_room1-decor.json",
         "images/atlases/rooms_room1-decor.webp.json"
       ],
-      "updatedAt": "2026-06-14T18:35:11.905014+00:00"
+      "updatedAt": "2026-06-14T21:11:59.218384+00:00"
     },
     "rooms_room1-repair": {
       "sourceDir": "images/rooms/room1-repair",
-      "digest": "d07e807c584e7107deb3076ad0d852cc3c6806f2a640bac9d680df42b86d17fd",
+      "digest": "19051f50c482e1d851eae250133b8dca37ca068ec82bbca1f7430bc46c85c9b2",
       "outputs": [
         "images/atlases/rooms_room1-repair.png",
         "images/atlases/rooms_room1-repair.webp",
         "images/atlases/rooms_room1-repair.json",
         "images/atlases/rooms_room1-repair.webp.json"
       ],
-      "updatedAt": "2026-06-14T18:35:17.922550+00:00"
+      "updatedAt": "2026-06-14T21:12:09.126699+00:00"
     },
     "rooms_room2-decor": {
       "sourceDir": "images/rooms/room2-decor",
-      "digest": "e3fe824353d72a12bf429c82c24ab96ba1f71753221e58b9215bea774ddeecf2",
+      "digest": "391c1757cf6d0449b278399d8ccf9723de888d6c68e7b7e98301605afc3aea75",
       "outputs": [
         "images/atlases/rooms_room2-decor.png",
         "images/atlases/rooms_room2-decor.webp",
         "images/atlases/rooms_room2-decor.json",
         "images/atlases/rooms_room2-decor.webp.json"
       ],
-      "updatedAt": "2026-06-14T18:35:20.887665+00:00"
+      "updatedAt": "2026-06-14T21:12:12.861515+00:00"
     },
     "rooms_room2-repair": {
       "sourceDir": "images/rooms/room2-repair",
-      "digest": "b36500eb4e89f3d537fe0b569bf45329897d508e0c21d70faabf2f785a1e9be2",
+      "digest": "02aa47518c441d5b9ea04bc6481f53225a9d5bef377a73211ce2a20107f59fbf",
       "outputs": [
         "images/atlases/rooms_room2-repair.png",
         "images/atlases/rooms_room2-repair.webp",
         "images/atlases/rooms_room2-repair.json",
         "images/atlases/rooms_room2-repair.webp.json"
       ],
-      "updatedAt": "2026-06-14T18:35:26.225529+00:00"
+      "updatedAt": "2026-06-14T21:12:20.700290+00:00"
     },
     "ui_lobby": {
       "sourceDir": "images/ui/lobby",
-      "digest": "aa5d63f4852d2055d52b3712caf5d89d49c5e31c516df49f9219f1eadad5e54d",
+      "digest": "f80ac4b610227eef65d10060e893de433f866952c1683af09877756e7790cb73",
       "outputs": [
         "images/atlases/ui_lobby.png",
         "images/atlases/ui_lobby.webp",
         "images/atlases/ui_lobby.json",
         "images/atlases/ui_lobby.webp.json"
       ],
-      "updatedAt": "2026-06-14T18:35:30.976485+00:00"
+      "updatedAt": "2026-06-14T21:12:25.928853+00:00"
     },
     "ui_panel": {
       "sourceDir": "images/ui/panel",
-      "digest": "dadeaebe8d76f64fb01c085b1ba83557624e736847b7f8a771e2c88fa20028c2",
+      "digest": "c4d87d7476a07d54422c6bbdbd7a30d38e19b910ae99535d5222a9afd9ad8214",
       "outputs": [
         "images/atlases/ui_panel.png",
         "images/atlases/ui_panel.webp",
         "images/atlases/ui_panel.json",
         "images/atlases/ui_panel.webp.json"
       ],
-      "updatedAt": "2026-06-14T18:35:40.257750+00:00"
+      "updatedAt": "2026-06-14T21:12:36.488945+00:00"
     }
   }
 }
