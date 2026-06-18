@@ -111,27 +111,49 @@
       ],
       "updatedAt": "2026-06-14T21:12:20.700290+00:00"
     },
+    "ui_loader": {
+      "sourceDir": "images/ui/loader",
+      "digest": "832272f888d21d497121a149b24d757f050cfe63f7bbbf5f1bba9ec112b5bf1a",
+      "outputs": [
+        "images/atlases/ui_loader.png",
+        "images/atlases/ui_loader.webp",
+        "images/atlases/ui_loader.json",
+        "images/atlases/ui_loader.webp.json"
+      ],
+      "updatedAt": "2026-06-18T09:01:41.888685+00:00"
+    },
     "ui_lobby": {
       "sourceDir": "images/ui/lobby",
-      "digest": "f80ac4b610227eef65d10060e893de433f866952c1683af09877756e7790cb73",
+      "digest": "9812b5ef5936da4b78453f5ed59c40c6e85b6ebc0f979fa7c541721fedb15632",
       "outputs": [
         "images/atlases/ui_lobby.png",
         "images/atlases/ui_lobby.webp",
         "images/atlases/ui_lobby.json",
         "images/atlases/ui_lobby.webp.json"
       ],
-      "updatedAt": "2026-06-15T19:50:09.857326+00:00"
+      "updatedAt": "2026-06-18T09:04:49.918850+00:00"
     },
     "ui_panel": {
       "sourceDir": "images/ui/panel",
-      "digest": "c4d87d7476a07d54422c6bbdbd7a30d38e19b910ae99535d5222a9afd9ad8214",
+      "digest": "443810381b6d4ad8a22b6ae4ad74b0c81a741315d78234cda2db376d943ac418",
       "outputs": [
         "images/atlases/ui_panel.png",
         "images/atlases/ui_panel.webp",
         "images/atlases/ui_panel.json",
         "images/atlases/ui_panel.webp.json"
       ],
-      "updatedAt": "2026-06-15T19:50:25.259151+00:00"
+      "updatedAt": "2026-06-18T09:12:35.628995+00:00"
+    },
+    "ui_preloader": {
+      "sourceDir": "images/ui/preloader",
+      "digest": "5ffc8477d7d516d1f9ee4aa257656d30ece5f03604948913bc5406b7b46893cd",
+      "outputs": [
+        "images/atlases/ui_preloader.png",
+        "images/atlases/ui_preloader.webp",
+        "images/atlases/ui_preloader.json",
+        "images/atlases/ui_preloader.webp.json"
+      ],
+      "updatedAt": "2026-06-18T09:01:43.112639+00:00"
     }
   }
 }

@@ -1,0 +1,56 @@
+{
+  "frames": {
+    "preload_logo": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 254,
+        "h": 236
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 254,
+        "h": 236
+      },
+      "sourceSize": {
+        "w": 254,
+        "h": 236
+      }
+    },
+    "spinner": {
+      "frame": {
+        "x": 256,
+        "y": 0,
+        "w": 93,
+        "h": 143
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 93,
+        "h": 143
+      },
+      "sourceSize": {
+        "w": 93,
+        "h": 143
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "8",
+    "image": "ui_preloader.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 512,
+      "h": 236
+    },
+    "scale": "1",
+    "sourceDir": "images/ui/preloader"
+  }
+}

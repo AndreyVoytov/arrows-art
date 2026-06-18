@@ -1,0 +1,116 @@
+{
+  "frames": {
+    "game_name": {
+      "frame": {
+        "x": 1444,
+        "y": 0,
+        "w": 319,
+        "h": 173
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 319,
+        "h": 173
+      },
+      "sourceSize": {
+        "w": 319,
+        "h": 173
+      }
+    },
+    "loading_bg1": {
+      "frame": {
+        "x": 722,
+        "y": 0,
+        "w": 720,
+        "h": 1279
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 1279
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 1279
+      }
+    },
+    "loading_bg2": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 1279
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 1279
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 1279
+      }
+    },
+    "loading_progress": {
+      "frame": {
+        "x": 639,
+        "y": 1281,
+        "w": 632,
+        "h": 73
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 632,
+        "h": 73
+      },
+      "sourceSize": {
+        "w": 632,
+        "h": 73
+      }
+    },
+    "loading_progress_bg": {
+      "frame": {
+        "x": 0,
+        "y": 1281,
+        "w": 637,
+        "h": 77
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 637,
+        "h": 77
+      },
+      "sourceSize": {
+        "w": 637,
+        "h": 77
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "8",
+    "image": "ui_loader.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 1358
+    },
+    "scale": "1",
+    "sourceDir": "images/ui/loader"
+  }
+}
