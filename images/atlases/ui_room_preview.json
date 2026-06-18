@@ -1,0 +1,56 @@
+{
+  "frames": {
+    "room1_preview": {
+      "frame": {
+        "x": 629,
+        "y": 0,
+        "w": 627,
+        "h": 285
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 627,
+        "h": 285
+      },
+      "sourceSize": {
+        "w": 627,
+        "h": 285
+      }
+    },
+    "room2_preview": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 627,
+        "h": 285
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 627,
+        "h": 285
+      },
+      "sourceSize": {
+        "w": 627,
+        "h": 285
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "8",
+    "image": "ui_room_preview.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 285
+    },
+    "scale": "1",
+    "sourceDir": "images/ui/room_preview"
+  }
+}
