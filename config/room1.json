@@ -855,7 +855,7 @@
       "roomId": "room1",
       "conditions": [
         {
-          "trigger_type": "point_before_action",
+          "trigger_type": "after_action",
           "trigger_key": "room1_trash"
         }
       ],
