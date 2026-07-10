@@ -294,6 +294,8 @@
   "ui_popup_pre_loose_description": "ПОЛУЧИТЕ ВТОРОЙ ШАНС!",
   "ui_popup_pre_loose_header": "Ходы закончились!",
   "ui_popup_prize_header": "Подарок",
+  "ui_popup_purchase_received_button_text": "Хорошо",
+  "ui_popup_purchase_received_header": "Покупка получена!",
   "ui_popup_reward_header": "Подарок",
   "ui_popup_rooms_header": "Комнаты",
   "ui_popup_settings_button_reset": "Сброс прогресса",
