@@ -69,47 +69,49 @@
     },
     "rooms_room1-decor": {
       "sourceDir": "images/rooms/room1-decor",
-      "digest": "92099011d623d539bd93904ce0b5bb8944514369f8113284b28c066972f8db80",
+      "digest": "ad9685bfdd3d92a28110ce3d30a9a145dc60ce45d42453b7efaf2b50997e1174",
       "outputs": [
-        "images/atlases/rooms_room1-decor.png",
-        "images/atlases/rooms_room1-decor.webp",
+        "images/atlases/rooms_room1-decor_1.png",
+        "images/atlases/rooms_room1-decor_1.webp",
+        "images/atlases/rooms_room1-decor_2.png",
+        "images/atlases/rooms_room1-decor_2.webp",
         "images/atlases/rooms_room1-decor.json",
         "images/atlases/rooms_room1-decor.webp.json"
       ],
-      "updatedAt": "2026-06-14T21:11:59.218384+00:00"
+      "updatedAt": "2026-07-14T21:24:50.194205+00:00"
     },
     "rooms_room1-repair": {
       "sourceDir": "images/rooms/room1-repair",
-      "digest": "19051f50c482e1d851eae250133b8dca37ca068ec82bbca1f7430bc46c85c9b2",
+      "digest": "49842a76a1377c465554de27059085425ceed24afa74a370c27bb65aeae4472c",
       "outputs": [
         "images/atlases/rooms_room1-repair.png",
         "images/atlases/rooms_room1-repair.webp",
         "images/atlases/rooms_room1-repair.json",
         "images/atlases/rooms_room1-repair.webp.json"
       ],
-      "updatedAt": "2026-06-14T21:12:09.126699+00:00"
+      "updatedAt": "2026-07-14T21:24:57.425867+00:00"
     },
     "rooms_room2-decor": {
       "sourceDir": "images/rooms/room2-decor",
-      "digest": "391c1757cf6d0449b278399d8ccf9723de888d6c68e7b7e98301605afc3aea75",
+      "digest": "4181bf31bbc9b613bbe1f10c2dad525d227d2314bfeeee679dd992bab8ff88e3",
       "outputs": [
         "images/atlases/rooms_room2-decor.png",
         "images/atlases/rooms_room2-decor.webp",
         "images/atlases/rooms_room2-decor.json",
         "images/atlases/rooms_room2-decor.webp.json"
       ],
-      "updatedAt": "2026-06-14T21:12:12.861515+00:00"
+      "updatedAt": "2026-07-14T21:24:57.531771+00:00"
     },
     "rooms_room2-repair": {
       "sourceDir": "images/rooms/room2-repair",
-      "digest": "02aa47518c441d5b9ea04bc6481f53225a9d5bef377a73211ce2a20107f59fbf",
+      "digest": "cd3f26f63d99ad05cdf81447e98c7cd8c762665073066fbb1f55effe17bda9e8",
       "outputs": [
         "images/atlases/rooms_room2-repair.png",
         "images/atlases/rooms_room2-repair.webp",
         "images/atlases/rooms_room2-repair.json",
         "images/atlases/rooms_room2-repair.webp.json"
       ],
-      "updatedAt": "2026-06-14T21:12:20.700290+00:00"
+      "updatedAt": "2026-07-14T21:25:04.907079+00:00"
     },
     "ui_loader": {
       "sourceDir": "images/ui/loader",

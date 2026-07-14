@@ -1,556 +1,751 @@
 {
-  "frames": {
-    "room1_carpet_A": {
-      "frame": {
-        "x": 475,
-        "y": 564,
-        "w": 470,
-        "h": 288
+  "pages": [
+    {
+      "image": "rooms_room1-decor_1.png",
+      "frames": {
+        "room1_carpet_B": {
+          "frame": {
+            "x": 1444,
+            "y": 1388,
+            "w": 497,
+            "h": 309
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 497,
+            "h": 309
+          },
+          "sourceSize": {
+            "w": 497,
+            "h": 309
+          }
+        },
+        "room1_chair_with_plant_A_1": {
+          "frame": {
+            "x": 443,
+            "y": 1853,
+            "w": 157,
+            "h": 161
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 157,
+            "h": 161
+          },
+          "sourceSize": {
+            "w": 157,
+            "h": 161
+          }
+        },
+        "room1_chair_with_plant_C_1": {
+          "frame": {
+            "x": 266,
+            "y": 1853,
+            "w": 175,
+            "h": 186
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 175,
+            "h": 186
+          },
+          "sourceSize": {
+            "w": 175,
+            "h": 186
+          }
+        },
+        "room1_cupboard_A": {
+          "frame": {
+            "x": 335,
+            "y": 720,
+            "w": 280,
+            "h": 574
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 280,
+            "h": 574
+          },
+          "sourceSize": {
+            "w": 280,
+            "h": 574
+          }
+        },
+        "room1_cupboard_B": {
+          "frame": {
+            "x": 919,
+            "y": 720,
+            "w": 273,
+            "h": 562
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 273,
+            "h": 562
+          },
+          "sourceSize": {
+            "w": 273,
+            "h": 562
+          }
+        },
+        "room1_cupboard_C": {
+          "frame": {
+            "x": 617,
+            "y": 720,
+            "w": 300,
+            "h": 563
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 300,
+            "h": 563
+          },
+          "sourceSize": {
+            "w": 300,
+            "h": 563
+          }
+        },
+        "room1_door_A": {
+          "frame": {
+            "x": 1338,
+            "y": 720,
+            "w": 145,
+            "h": 473
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 145,
+            "h": 473
+          },
+          "sourceSize": {
+            "w": 145,
+            "h": 473
+          }
+        },
+        "room1_door_B": {
+          "frame": {
+            "x": 1194,
+            "y": 720,
+            "w": 142,
+            "h": 480
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 142,
+            "h": 480
+          },
+          "sourceSize": {
+            "w": 142,
+            "h": 480
+          }
+        },
+        "room1_door_C": {
+          "frame": {
+            "x": 1864,
+            "y": 0,
+            "w": 175,
+            "h": 495
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 175,
+            "h": 495
+          },
+          "sourceSize": {
+            "w": 175,
+            "h": 495
+          }
+        },
+        "room1_floor_B": {
+          "frame": {
+            "x": 722,
+            "y": 1388,
+            "w": 720,
+            "h": 462
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 720,
+            "h": 462
+          },
+          "sourceSize": {
+            "w": 720,
+            "h": 462
+          }
+        },
+        "room1_floor_C": {
+          "frame": {
+            "x": 0,
+            "y": 1388,
+            "w": 720,
+            "h": 463
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 720,
+            "h": 463
+          },
+          "sourceSize": {
+            "w": 720,
+            "h": 463
+          }
+        },
+        "room1_luster_B": {
+          "frame": {
+            "x": 0,
+            "y": 1853,
+            "w": 264,
+            "h": 195
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 264,
+            "h": 195
+          },
+          "sourceSize": {
+            "w": 264,
+            "h": 195
+          }
+        },
+        "room1_picture_B": {
+          "frame": {
+            "x": 1942,
+            "y": 720,
+            "w": 102,
+            "h": 287
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 102,
+            "h": 287
+          },
+          "sourceSize": {
+            "w": 102,
+            "h": 287
+          }
+        },
+        "room1_plant_left_A": {
+          "frame": {
+            "x": 1943,
+            "y": 1388,
+            "w": 75,
+            "h": 256
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 75,
+            "h": 256
+          },
+          "sourceSize": {
+            "w": 75,
+            "h": 256
+          }
+        },
+        "room1_walls_A_1": {
+          "frame": {
+            "x": 394,
+            "y": 0,
+            "w": 393,
+            "h": 708
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 708
+          },
+          "sourceSize": {
+            "w": 393,
+            "h": 708
+          }
+        },
+        "room1_walls_A_2": {
+          "frame": {
+            "x": 0,
+            "y": 720,
+            "w": 333,
+            "h": 666
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 333,
+            "h": 666
+          },
+          "sourceSize": {
+            "w": 333,
+            "h": 666
+          }
+        },
+        "room1_walls_B_1": {
+          "frame": {
+            "x": 789,
+            "y": 0,
+            "w": 393,
+            "h": 697
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 393,
+            "h": 697
+          },
+          "sourceSize": {
+            "w": 393,
+            "h": 697
+          }
+        },
+        "room1_walls_B_2": {
+          "frame": {
+            "x": 1525,
+            "y": 0,
+            "w": 337,
+            "h": 676
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 337,
+            "h": 676
+          },
+          "sourceSize": {
+            "w": 337,
+            "h": 676
+          }
+        },
+        "room1_walls_C_1": {
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 718
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 392,
+            "h": 718
+          },
+          "sourceSize": {
+            "w": 392,
+            "h": 718
+          }
+        },
+        "room1_walls_C_2": {
+          "frame": {
+            "x": 1184,
+            "y": 0,
+            "w": 339,
+            "h": 687
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 339,
+            "h": 687
+          },
+          "sourceSize": {
+            "w": 339,
+            "h": 687
+          }
+        },
+        "room1_window_A": {
+          "frame": {
+            "x": 1485,
+            "y": 720,
+            "w": 136,
+            "h": 452
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 136,
+            "h": 452
+          },
+          "sourceSize": {
+            "w": 136,
+            "h": 452
+          }
+        },
+        "room1_window_B": {
+          "frame": {
+            "x": 1775,
+            "y": 720,
+            "w": 165,
+            "h": 385
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 165,
+            "h": 385
+          },
+          "sourceSize": {
+            "w": 165,
+            "h": 385
+          }
+        },
+        "room1_window_C": {
+          "frame": {
+            "x": 1623,
+            "y": 720,
+            "w": 150,
+            "h": 432
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 150,
+            "h": 432
+          },
+          "sourceSize": {
+            "w": 150,
+            "h": 432
+          }
+        }
       },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 470,
-        "h": 288
-      },
-      "sourceSize": {
-        "w": 470,
-        "h": 288
+      "size": {
+        "w": 2048,
+        "h": 2048
       }
     },
-    "room1_carpet_B": {
-      "frame": {
-        "x": 0,
-        "y": 564,
-        "w": 473,
-        "h": 290
+    {
+      "image": "rooms_room1-decor_2.png",
+      "frames": {
+        "room1_carpet_A": {
+          "frame": {
+            "x": 1209,
+            "y": 0,
+            "w": 471,
+            "h": 288
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 471,
+            "h": 288
+          },
+          "sourceSize": {
+            "w": 471,
+            "h": 288
+          }
+        },
+        "room1_carpet_C": {
+          "frame": {
+            "x": 722,
+            "y": 0,
+            "w": 485,
+            "h": 305
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 485,
+            "h": 305
+          },
+          "sourceSize": {
+            "w": 485,
+            "h": 305
+          }
+        },
+        "room1_chair_with_plant_A_2": {
+          "frame": {
+            "x": 485,
+            "y": 446,
+            "w": 100,
+            "h": 207
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 100,
+            "h": 207
+          },
+          "sourceSize": {
+            "w": 100,
+            "h": 207
+          }
+        },
+        "room1_chair_with_plant_B_1": {
+          "frame": {
+            "x": 974,
+            "y": 446,
+            "w": 182,
+            "h": 199
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 182,
+            "h": 199
+          },
+          "sourceSize": {
+            "w": 182,
+            "h": 199
+          }
+        },
+        "room1_chair_with_plant_B_2": {
+          "frame": {
+            "x": 387,
+            "y": 446,
+            "w": 96,
+            "h": 210
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 96,
+            "h": 210
+          },
+          "sourceSize": {
+            "w": 96,
+            "h": 210
+          }
+        },
+        "room1_chair_with_plant_C_2": {
+          "frame": {
+            "x": 867,
+            "y": 446,
+            "w": 105,
+            "h": 201
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 105,
+            "h": 201
+          },
+          "sourceSize": {
+            "w": 105,
+            "h": 201
+          }
+        },
+        "room1_floor_A": {
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 720,
+            "h": 444
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 720,
+            "h": 444
+          },
+          "sourceSize": {
+            "w": 720,
+            "h": 444
+          }
+        },
+        "room1_luster_A": {
+          "frame": {
+            "x": 587,
+            "y": 446,
+            "w": 278,
+            "h": 201
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 278,
+            "h": 201
+          },
+          "sourceSize": {
+            "w": 278,
+            "h": 201
+          }
+        },
+        "room1_luster_C": {
+          "frame": {
+            "x": 107,
+            "y": 446,
+            "w": 278,
+            "h": 211
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 278,
+            "h": 211
+          },
+          "sourceSize": {
+            "w": 278,
+            "h": 211
+          }
+        },
+        "room1_picture_A": {
+          "frame": {
+            "x": 1682,
+            "y": 0,
+            "w": 117,
+            "h": 285
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 117,
+            "h": 285
+          },
+          "sourceSize": {
+            "w": 117,
+            "h": 285
+          }
+        },
+        "room1_picture_C": {
+          "frame": {
+            "x": 1801,
+            "y": 0,
+            "w": 115,
+            "h": 283
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 115,
+            "h": 283
+          },
+          "sourceSize": {
+            "w": 115,
+            "h": 283
+          }
+        },
+        "room1_plant_left_B": {
+          "frame": {
+            "x": 0,
+            "y": 446,
+            "w": 105,
+            "h": 225
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 105,
+            "h": 225
+          },
+          "sourceSize": {
+            "w": 105,
+            "h": 225
+          }
+        },
+        "room1_plant_left_C": {
+          "frame": {
+            "x": 1918,
+            "y": 0,
+            "w": 85,
+            "h": 253
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 85,
+            "h": 253
+          },
+          "sourceSize": {
+            "w": 85,
+            "h": 253
+          }
+        }
       },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 473,
-        "h": 290
-      },
-      "sourceSize": {
-        "w": 473,
-        "h": 290
-      }
-    },
-    "room1_carpet_C": {
-      "frame": {
-        "x": 947,
-        "y": 564,
-        "w": 482,
-        "h": 280
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 482,
-        "h": 280
-      },
-      "sourceSize": {
-        "w": 482,
-        "h": 280
-      }
-    },
-    "room1_chair_with_plant_A_1": {
-      "frame": {
-        "x": 665,
-        "y": 856,
-        "w": 148,
-        "h": 160
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 148,
-        "h": 160
-      },
-      "sourceSize": {
-        "w": 148,
-        "h": 160
-      }
-    },
-    "room1_chair_with_plant_A_2": {
-      "frame": {
-        "x": 1795,
-        "y": 564,
-        "w": 100,
-        "h": 207
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 100,
-        "h": 207
-      },
-      "sourceSize": {
-        "w": 100,
-        "h": 207
-      }
-    },
-    "room1_chair_with_plant_B_1": {
-      "frame": {
-        "x": 1897,
-        "y": 564,
-        "w": 132,
-        "h": 169
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 132,
-        "h": 169
-      },
-      "sourceSize": {
-        "w": 132,
-        "h": 169
-      }
-    },
-    "room1_chair_with_plant_B_2": {
-      "frame": {
-        "x": 1691,
-        "y": 564,
-        "w": 102,
-        "h": 207
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 102,
-        "h": 207
-      },
-      "sourceSize": {
-        "w": 102,
-        "h": 207
-      }
-    },
-    "room1_chair_with_plant_C_1": {
-      "frame": {
-        "x": 509,
-        "y": 856,
-        "w": 154,
-        "h": 168
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 154,
-        "h": 168
-      },
-      "sourceSize": {
-        "w": 154,
-        "h": 168
-      }
-    },
-    "room1_chair_with_plant_C_2": {
-      "frame": {
-        "x": 1587,
-        "y": 564,
-        "w": 102,
-        "h": 207
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 102,
-        "h": 207
-      },
-      "sourceSize": {
-        "w": 102,
-        "h": 207
-      }
-    },
-    "room1_cupboard_A": {
-      "frame": {
-        "x": 0,
-        "y": 0,
-        "w": 241,
-        "h": 562
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 241,
-        "h": 562
-      },
-      "sourceSize": {
-        "w": 241,
-        "h": 562
-      }
-    },
-    "room1_cupboard_B": {
-      "frame": {
-        "x": 487,
-        "y": 0,
-        "w": 236,
-        "h": 560
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 236,
-        "h": 560
-      },
-      "sourceSize": {
-        "w": 236,
-        "h": 560
-      }
-    },
-    "room1_cupboard_C": {
-      "frame": {
-        "x": 243,
-        "y": 0,
-        "w": 242,
-        "h": 560
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 242,
-        "h": 560
-      },
-      "sourceSize": {
-        "w": 242,
-        "h": 560
-      }
-    },
-    "room1_door_A": {
-      "frame": {
-        "x": 865,
-        "y": 0,
-        "w": 145,
-        "h": 473
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 145,
-        "h": 473
-      },
-      "sourceSize": {
-        "w": 145,
-        "h": 473
-      }
-    },
-    "room1_door_B": {
-      "frame": {
-        "x": 1438,
-        "y": 0,
-        "w": 132,
-        "h": 447
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 132,
-        "h": 447
-      },
-      "sourceSize": {
-        "w": 132,
-        "h": 447
-      }
-    },
-    "room1_door_C": {
-      "frame": {
-        "x": 725,
-        "y": 0,
-        "w": 138,
-        "h": 475
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 138,
-        "h": 475
-      },
-      "sourceSize": {
-        "w": 138,
-        "h": 475
-      }
-    },
-    "room1_luster_A": {
-      "frame": {
-        "x": 0,
-        "y": 856,
-        "w": 166,
-        "h": 190
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 166,
-        "h": 190
-      },
-      "sourceSize": {
-        "w": 166,
-        "h": 190
-      }
-    },
-    "room1_luster_B": {
-      "frame": {
-        "x": 339,
-        "y": 856,
-        "w": 168,
-        "h": 188
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 168,
-        "h": 188
-      },
-      "sourceSize": {
-        "w": 168,
-        "h": 188
-      }
-    },
-    "room1_luster_C": {
-      "frame": {
-        "x": 168,
-        "y": 856,
-        "w": 169,
-        "h": 188
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 169,
-        "h": 188
-      },
-      "sourceSize": {
-        "w": 169,
-        "h": 188
-      }
-    },
-    "room1_picture_A": {
-      "frame": {
-        "x": 1794,
-        "y": 0,
-        "w": 117,
-        "h": 285
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 117,
-        "h": 285
-      },
-      "sourceSize": {
-        "w": 117,
-        "h": 285
-      }
-    },
-    "room1_picture_B": {
-      "frame": {
-        "x": 1682,
-        "y": 0,
-        "w": 110,
-        "h": 289
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 110,
-        "h": 289
-      },
-      "sourceSize": {
-        "w": 110,
-        "h": 289
-      }
-    },
-    "room1_picture_C": {
-      "frame": {
-        "x": 1572,
-        "y": 0,
-        "w": 108,
-        "h": 292
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 108,
-        "h": 292
-      },
-      "sourceSize": {
-        "w": 108,
-        "h": 292
-      }
-    },
-    "room1_plant_left_A": {
-      "frame": {
-        "x": 1509,
-        "y": 564,
-        "w": 76,
-        "h": 256
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 76,
-        "h": 256
-      },
-      "sourceSize": {
-        "w": 76,
-        "h": 256
-      }
-    },
-    "room1_plant_left_B": {
-      "frame": {
-        "x": 1431,
-        "y": 564,
-        "w": 76,
-        "h": 258
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 76,
-        "h": 258
-      },
-      "sourceSize": {
-        "w": 76,
-        "h": 258
-      }
-    },
-    "room1_plant_left_C": {
-      "frame": {
-        "x": 1913,
-        "y": 0,
-        "w": 76,
-        "h": 258
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 76,
-        "h": 258
-      },
-      "sourceSize": {
-        "w": 76,
-        "h": 258
-      }
-    },
-    "room1_window_A": {
-      "frame": {
-        "x": 1300,
-        "y": 0,
-        "w": 136,
-        "h": 452
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 136,
-        "h": 452
-      },
-      "sourceSize": {
-        "w": 136,
-        "h": 452
-      }
-    },
-    "room1_window_B": {
-      "frame": {
-        "x": 1156,
-        "y": 0,
-        "w": 142,
-        "h": 455
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 142,
-        "h": 455
-      },
-      "sourceSize": {
-        "w": 142,
-        "h": 455
-      }
-    },
-    "room1_window_C": {
-      "frame": {
-        "x": 1012,
-        "y": 0,
-        "w": 142,
-        "h": 457
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 142,
-        "h": 457
-      },
-      "sourceSize": {
-        "w": 142,
-        "h": 457
+      "size": {
+        "w": 2048,
+        "h": 671
       }
     }
-  },
+  ],
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "8",
-    "image": "rooms_room1-decor.png",
     "format": "RGBA8888",
-    "size": {
-      "w": 2048,
-      "h": 1046
-    },
     "scale": "1",
-    "sourceDir": "images/rooms/room1-decor"
+    "sourceDir": "images/rooms/room1-decor",
+    "pageCount": 2,
+    "maxSize": 2048
   }
 }

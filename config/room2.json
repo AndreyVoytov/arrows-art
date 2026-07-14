@@ -3,164 +3,423 @@
   "background": "room2_room_bg",
   "content": {
     "actionPointOrder": [
+      "room2_broken_curtains",
+      "room2_trash",
+      "room2_small_broken_photo",
+      "room2_broken_vanity_table",
+      "room2_pay_dialogue1",
+      "room2_dirty_toy",
       "room2_broken_wall_left",
       "room2_broken_wall_right",
-      "room2_broken_floor",
-      "room2_trash",
-      "room2_broken_door",
-      "room2_carpet",
+      "room2_pay_dialogue2",
+      "room2_broken_bed",
+      "room2_broken_lamp_right",
+      "room2_old_poster",
+      "room2_webbed_family_picture",
       "room2_window",
-      "room2_chair_with_plant",
-      "room2_picture",
-      "room2_cupboard",
-      "room2_luster",
-      "room2_door",
-      "room2_plant_left"
+      "room2_floor",
+      "room2_walls",
+      "room2_pay_dialogue3",
+      "room2_lamp_right",
+      "room2_vanity_table",
+      "room2_bed",
+      "room2_pay_dialogue4",
+      "room2_toy",
+      "room2_family_picture",
+      "room2_window_decor",
+      "room2_nightstand_left",
+      "room2_vanity_decor"
     ]
   },
   "allActionPoints": [
     {
+      "key": "room2_broken_curtains",
+      "type": "repair",
+      "name_key": "room2_broken_curtains_loc",
+      "multiobjects": [
+        "room2_broken_curtains"
+      ],
+      "x": 188,
+      "y": 381
+    },
+    {
+      "key": "room2_trash",
+      "type": "repair",
+      "name_key": "room2_trash_loc",
+      "multiobjects": [
+        "room2_trash"
+      ],
+      "x": 360,
+      "y": 726
+    },
+    {
+      "key": "room2_small_broken_photo",
+      "type": "repair",
+      "name_key": "room2_small_broken_photo_loc",
+      "multiobjects": [
+        "room2_small_broken_photo"
+      ],
+      "x": 585,
+      "y": 692
+    },
+    {
+      "key": "room2_broken_vanity_table",
+      "type": "repair",
+      "name_key": "room2_broken_vanity_table_loc",
+      "multiobjects": [
+        "room2_broken_vanity_table"
+      ],
+      "x": 588,
+      "y": 504
+    },
+    {
+      "key": "room2_dirty_toy",
+      "type": "repair",
+      "name_key": "room2_dirty_toy_loc",
+      "multiobjects": [
+        "room2_dirty_toy"
+      ],
+      "x": 388,
+      "y": 639
+    },
+    {
       "key": "room2_broken_wall_left",
+      "type": "repair",
       "name_key": "room2_broken_wall_left_loc",
       "multiobjects": [
         "room2_broken_wall_left"
       ],
-      "x": 306,
-      "y": 356,
-      "type": "repair"
+      "x": 182,
+      "y": 344
     },
     {
       "key": "room2_broken_wall_right",
+      "type": "repair",
       "name_key": "room2_broken_wall_right_loc",
       "multiobjects": [
         "room2_broken_wall_right"
       ],
-      "x": 553,
-      "y": 344,
-      "type": "repair"
+      "x": 538,
+      "y": 346
+    },
+    {
+      "key": "room2_broken_bed",
+      "type": "repair",
+      "name_key": "room2_broken_bed_loc",
+      "multiobjects": [
+        "room2_broken_bed"
+      ],
+      "x": 384,
+      "y": 538
+    },
+    {
+      "key": "room2_broken_lamp_right",
+      "type": "repair",
+      "name_key": "room2_broken_lamp_right_loc",
+      "multiobjects": [
+        "room2_broken_lamp_right"
+      ],
+      "x": 520,
+      "y": 334
+    },
+    {
+      "key": "room2_old_poster",
+      "type": "repair",
+      "name_key": "room2_old_poster_loc",
+      "multiobjects": [
+        "room2_old_poster"
+      ],
+      "x": 407,
+      "y": 269
+    },
+    {
+      "key": "room2_webbed_family_picture",
+      "type": "repair",
+      "name_key": "room2_webbed_family_picture_loc",
+      "multiobjects": [
+        "room2_webbed_family_picture"
+      ],
+      "x": 500,
+      "y": 233
     },
     {
       "key": "room2_broken_floor",
+      "type": "repair",
       "name_key": "room2_broken_floor_loc",
       "multiobjects": [
         "room2_broken_floor"
       ],
       "x": 358,
-      "y": 702,
-      "type": "repair"
+      "y": 685
     },
     {
-      "key": "room2_trash",
-      "name_key": "room2_trash_loc",
+      "key": "room2_vanity_stool",
+      "type": "repair",
+      "name_key": "room2_vanity_stool_loc",
       "multiobjects": [
-        "room2_trash"
+        "room2_vanity_stool"
       ],
-      "x": 358,
-      "y": 700,
-      "type": "repair"
+      "x": 528,
+      "y": 636
     },
     {
-      "key": "room2_broken_door",
-      "name_key": "room2_broken_door_loc",
+      "key": "room2_dead_flowers_left",
+      "type": "repair",
+      "name_key": "room2_dead_flowers_left_loc",
       "multiobjects": [
-        "room2_broken_door"
+        "room2_dead_flowers_left"
       ],
-      "x": 130,
-      "y": 443,
-      "type": "repair"
+      "x": 162,
+      "y": 451
     },
     {
-      "key": "room2_carpet",
-      "name_key": "room2_carpet_loc",
+      "key": "room2_dead_flowers_right",
+      "type": "repair",
+      "name_key": "room2_dead_flowers_right_loc",
       "multiobjects": [
-        "room2_carpet"
+        "room2_dead_flowers_right"
       ],
-      "x": 360,
-      "y": 694,
-      "type": "decor"
+      "x": 544,
+      "y": 427
     },
     {
       "key": "room2_window",
+      "type": "decor",
       "name_key": "room2_window_loc",
       "multiobjects": [
-        "room2_window"
+        "room2_window",
+        "room2_window_variant_2",
+        "room2_window_variant_3"
       ],
-      "x": 512,
-      "y": 344,
-      "type": "decor"
+      "x": 0,
+      "y": 0
     },
     {
-      "key": "room2_chair_with_plant",
-      "name_key": "room2_chair_with_plant_loc",
+      "key": "room2_floor",
+      "type": "decor",
+      "name_key": "room2_floor_loc",
       "multiobjects": [
-        "room2_chair_with_plant"
+        "room2_floor",
+        "room2_floor_variant_2",
+        "room2_floor_variant_3"
       ],
-      "x": 622,
-      "y": 584,
-      "type": "decor"
+      "x": 0,
+      "y": 0
     },
     {
-      "key": "room2_picture",
-      "name_key": "room2_picture_loc",
+      "key": "room2_walls",
+      "type": "decor",
+      "name_key": "room2_walls_loc",
       "multiobjects": [
-        "room2_picture",
-        "room2_picture_variant_2",
-        "room2_picture_variant_3"
+        "room2_walls",
+        "room2_walls_variant_2"
       ],
-      "x": 623,
-      "y": 360,
-      "type": "decor"
+      "x": 0,
+      "y": 0
     },
     {
-      "key": "room2_cupboard",
-      "name_key": "room2_cupboard_loc",
+      "key": "room2_lamp_right",
+      "type": "decor",
+      "name_key": "room2_lamp_right_loc",
       "multiobjects": [
-        "room2_cupboard"
+        "room2_lamp_right",
+        "room2_lamp_right_variant_2"
       ],
-      "x": 304,
-      "y": 358,
-      "type": "decor"
+      "x": 0,
+      "y": 0
     },
     {
-      "key": "room2_luster",
-      "name_key": "room2_luster_loc",
+      "key": "room2_vanity_table",
+      "type": "decor",
+      "name_key": "room2_vanity_table_loc",
       "multiobjects": [
-        "room2_luster"
+        "room2_vanity_table",
+        "room2_vanity_table_variant_2",
+        "room2_vanity_table_variant_3"
       ],
-      "x": 393,
-      "y": 128,
-      "type": "decor"
+      "x": 0,
+      "y": 0
     },
     {
-      "key": "room2_door",
-      "name_key": "room2_door_loc",
+      "key": "room2_bed",
+      "type": "decor",
+      "name_key": "room2_bed_loc",
       "multiobjects": [
-        "room2_door"
+        "room2_bed",
+        "room2_bed_variant_2",
+        "room2_bed_variant_3"
       ],
-      "x": 128,
-      "y": 444,
-      "type": "decor"
+      "x": 0,
+      "y": 0
     },
     {
-      "key": "room2_plant_left",
-      "name_key": "room2_plant_left_loc",
+      "key": "room2_toy",
+      "type": "decor",
+      "name_key": "room2_toy_loc",
       "multiobjects": [
-        "room2_plant_left",
-        "room2_plant_left_variant_2",
-        "room2_plant_left_variant_3"
+        "room2_toy",
+        "room2_toy_variant_2",
+        "room2_toy_variant_3"
       ],
-      "x": 54,
-      "y": 586,
-      "type": "decor"
+      "x": 0,
+      "y": 0
+    },
+    {
+      "key": "room2_family_picture",
+      "type": "decor",
+      "name_key": "room2_family_picture_loc",
+      "multiobjects": [
+        "room2_family_picture",
+        "room2_family_picture_variant_2",
+        "room2_family_picture_variant_3"
+      ],
+      "x": 0,
+      "y": 0
+    },
+    {
+      "key": "room2_window_decor",
+      "type": "decor",
+      "name_key": "room2_window_decor_loc",
+      "multiobjects": [
+        "room2_window_decor",
+        "room2_window_decor_variant_2",
+        "room2_window_decor_variant_3"
+      ],
+      "x": 0,
+      "y": 0
+    },
+    {
+      "key": "room2_nightstand_left",
+      "type": "decor",
+      "name_key": "room2_nightstand_left_loc",
+      "multiobjects": [
+        "room2_nightstand_left",
+        "room2_nightstand_left_variant_2",
+        "room2_nightstand_left_variant_3"
+      ],
+      "x": 0,
+      "y": 0
+    },
+    {
+      "key": "room2_vanity_decor",
+      "type": "decor",
+      "name_key": "room2_vanity_decor_loc",
+      "multiobjects": [
+        "room2_vanity_decor",
+        "room2_vanity_decor_variant_2",
+        "room2_vanity_decor_variant_3"
+      ],
+      "x": 0,
+      "y": 0
+    },
+    {
+      "key": "room2_wall",
+      "type": "decor",
+      "name_key": "room2_wall_loc",
+      "multiobjects": [
+        "room2_wall"
+      ],
+      "x": 0,
+      "y": 0
+    },
+    {
+      "key": "room2_lamp right",
+      "type": "decor",
+      "name_key": "room2_lamp right_loc",
+      "multiobjects": [
+        "room2_lamp right"
+      ],
+      "x": 0,
+      "y": 0
+    },
+    {
+      "key": "room2_pay_dialogue1",
+      "type": "dialog",
+      "dialogId": "room2_d3",
+      "multiobject": "",
+      "price": 55,
+      "priceType": "coins",
+      "name_key": "room2_pay_dialogue1_loc"
+    },
+    {
+      "key": "room2_pay_dialogue2",
+      "type": "dialog",
+      "dialogId": "room2_d5",
+      "multiobject": "",
+      "price": 55,
+      "priceType": "coins",
+      "name_key": "room2_pay_dialogue2_loc"
+    },
+    {
+      "key": "room2_pay_dialogue3",
+      "type": "dialog",
+      "dialogId": "room2_d7",
+      "multiobject": "",
+      "price": 55,
+      "priceType": "coins",
+      "name_key": "room2_pay_dialogue3_loc"
+    },
+    {
+      "key": "room2_pay_dialogue4",
+      "type": "dialog",
+      "dialogId": "room2_d8",
+      "multiobject": "",
+      "price": 55,
+      "priceType": "coins",
+      "name_key": "room2_pay_dialogue4_loc"
     }
   ],
   "allMultiobjects": [
+    {
+      "key": "room2_broken_curtains",
+      "parts": [
+        "room2_broken_curtains"
+      ],
+      "price": 75,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_trash",
+      "parts": [
+        "room2_trash_3",
+        "room2_trash_2",
+        "room2_trash_1",
+        "room2_trash_4"
+      ],
+      "price": 65,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_small_broken_photo",
+      "parts": [
+        "room2_small_broken_photo"
+      ],
+      "price": 70,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_broken_vanity_table",
+      "parts": [
+        "room2_broken_vanity_table_2",
+        "room2_broken_vanity_table_1"
+      ],
+      "price": 75,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_dirty_toy",
+      "parts": [
+        "room2_dirty_toy"
+      ],
+      "price": 75,
+      "priceType": "coins"
+    },
     {
       "key": "room2_broken_wall_left",
       "parts": [
         "room2_broken_wall_left"
       ],
-      "price": 99999,
+      "price": 80,
       "priceType": "coins"
     },
     {
@@ -168,7 +427,40 @@
       "parts": [
         "room2_broken_wall_right"
       ],
-      "price": 99999,
+      "price": 80,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_broken_bed",
+      "parts": [
+        "room2_broken_bed"
+      ],
+      "price": 90,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_broken_lamp_right",
+      "parts": [
+        "room2_broken_lamp_right"
+      ],
+      "price": 95,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_old_poster",
+      "parts": [
+        "room2_old_poster"
+      ],
+      "price": 85,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_webbed_family_picture",
+      "parts": [
+        "room2_webbed_family_picture_2",
+        "room2_webbed_family_picture_1"
+      ],
+      "price": 90,
       "priceType": "coins"
     },
     {
@@ -180,30 +472,25 @@
       "priceType": "coins"
     },
     {
-      "key": "room2_trash",
+      "key": "room2_vanity_stool",
       "parts": [
-        "room2_trash_6",
-        "room2_trash_5",
-        "room2_trash_4",
-        "room2_trash_3",
-        "room2_trash_2",
-        "room2_trash_1"
+        "room2_vanity_stool"
       ],
       "price": 99999,
       "priceType": "coins"
     },
     {
-      "key": "room2_broken_door",
+      "key": "room2_dead_flowers_left",
       "parts": [
-        "room2_broken_door"
+        "room2_dead_flowers_left"
       ],
       "price": 99999,
       "priceType": "coins"
     },
     {
-      "key": "room2_carpet",
+      "key": "room2_dead_flowers_right",
       "parts": [
-        "room2_carpet"
+        "room2_dead_flowers_right"
       ],
       "price": 99999,
       "priceType": "coins"
@@ -211,257 +498,833 @@
     {
       "key": "room2_window",
       "parts": [
-        "room2_window"
+        "room2_window_A_1",
+        "room2_window_A_2"
+      ],
+      "price": 195,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_window_variant_2",
+      "parts": [
+        "room2_window_B_1",
+        "room2_window_B_2"
+      ],
+      "price": 250,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_window_variant_3",
+      "parts": [
+        "room2_window_C_1",
+        "room2_window_C_2"
+      ],
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room2_floor",
+      "parts": [
+        "room2_floor_A_1",
+        "room2_floor_A_2"
+      ],
+      "price": 220,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_floor_variant_2",
+      "parts": [
+        "room2_floor_B_1",
+        "room2_floor_B_2"
+      ],
+      "price": 280,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_floor_variant_3",
+      "parts": [
+        "room2_floor_C_1",
+        "room2_floor_C_2"
+      ],
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room2_walls",
+      "parts": [
+        "room2_walls_A_2",
+        "room2_walls_A_1"
+      ],
+      "price": 185,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_walls_variant_2",
+      "parts": [
+        "room2_walls_B_2",
+        "room2_walls_B_1"
+      ],
+      "price": 235,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_lamp_right",
+      "parts": [
+        "room2_lamp_right_B"
+      ],
+      "price": 190,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_lamp_right_variant_2",
+      "parts": [
+        "room2_lamp_right_C"
+      ],
+      "price": 245,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_vanity_table",
+      "parts": [
+        "room2_vanity_table_A_1",
+        "room2_vanity_table_A_2",
+        "room2_vanity_table_A_3"
+      ],
+      "price": 210,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_vanity_table_variant_2",
+      "parts": [
+        "room2_vanity_table_B_1",
+        "room2_vanity_table_B_2",
+        "room2_vanity_table_B_3"
+      ],
+      "price": 270,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_vanity_table_variant_3",
+      "parts": [
+        "room2_vanity_table_C_1",
+        "room2_vanity_table_C_2",
+        "room2_vanity_table_C_3"
+      ],
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room2_bed",
+      "parts": [
+        "room2_bed_A"
+      ],
+      "price": 240,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_bed_variant_2",
+      "parts": [
+        "room2_bed_B"
+      ],
+      "price": 305,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_bed_variant_3",
+      "parts": [
+        "room2_bed_C"
+      ],
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room2_toy",
+      "parts": [
+        "room2_toy_A"
+      ],
+      "price": 200,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_toy_variant_2",
+      "parts": [
+        "room2_toy_B"
+      ],
+      "price": 255,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_toy_variant_3",
+      "parts": [
+        "room2_toy_C"
+      ],
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room2_family_picture",
+      "parts": [
+        "room2_family_picture_A"
+      ],
+      "price": 205,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_family_picture_variant_2",
+      "parts": [
+        "room2_family_picture_B"
+      ],
+      "price": 260,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_family_picture_variant_3",
+      "parts": [
+        "room2_family_picture_C"
+      ],
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room2_window_decor",
+      "parts": [
+        "room2_window_decor_A_2",
+        "room2_window_decor_A_1"
+      ],
+      "price": 230,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_window_decor_variant_2",
+      "parts": [
+        "room2_window_decor_B_2",
+        "room2_window_decor_B_1"
+      ],
+      "price": 295,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_window_decor_variant_3",
+      "parts": [
+        "room2_window_decor_C_2",
+        "room2_window_decor_C_1"
+      ],
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room2_nightstand_left",
+      "parts": [
+        "room2_nightstand_left_A_1",
+        "room2_nightstand_left_A_2"
+      ],
+      "price": 210,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_nightstand_left_variant_2",
+      "parts": [
+        "room2_nightstand_left_B_1",
+        "room2_nightstand_left_B_2"
+      ],
+      "price": 270,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_nightstand_left_variant_3",
+      "parts": [
+        "room2_nightstand_left_C_1",
+        "room2_nightstand_left_C_2"
+      ],
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room2_vanity_decor",
+      "parts": [
+        "room2_vanity_decor_A_1",
+        "room2_vanity_decor_A_2"
+      ],
+      "price": 215,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_vanity_decor_variant_2",
+      "parts": [
+        "room2_vanity_decor_B_1",
+        "room2_vanity_decor_B_2"
+      ],
+      "price": 275,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_vanity_decor_variant_3",
+      "parts": [
+        "room2_vanity_decor_C_1",
+        "room2_vanity_decor_C_2"
+      ],
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room2_wall",
+      "parts": [
+        "room2_wall_2",
+        "room2_wall_1"
       ],
       "price": 99999,
       "priceType": "coins"
     },
     {
-      "key": "room2_chair_with_plant",
+      "key": "room2_lamp right",
       "parts": [
-        "room2_chair_with_plant_1",
-        "room2_chair_with_plant_2"
+        "room2_lamp right"
       ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room2_picture",
-      "parts": [
-        "room2_picture_A"
-      ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room2_picture_variant_2",
-      "parts": [
-        "room2_picture_B"
-      ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room2_picture_variant_3",
-      "parts": [
-        "room2_picture_C"
-      ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room2_cupboard",
-      "parts": [
-        "room2_cupboard"
-      ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room2_luster",
-      "parts": [
-        "room2_luster"
-      ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room2_door",
-      "parts": [
-        "room2_door"
-      ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room2_plant_left",
-      "parts": [
-        "room2_plant_left_A"
-      ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room2_plant_left_variant_2",
-      "parts": [
-        "room2_plant_left_B"
-      ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room2_plant_left_variant_3",
-      "parts": [
-        "room2_plant_left_C"
-      ],
-      "price": 99999,
+      "price": 190,
       "priceType": "coins"
     }
   ],
   "allParts": [
     {
-      "key": "room2_carpet",
-      "type": "decor",
-      "x": 359.5,
-      "y": 694.5,
-      "angle": 0
-    },
-    {
-      "key": "room2_window",
-      "type": "decor",
-      "x": 512,
-      "y": 344,
-      "angle": 225
-    },
-    {
-      "key": "room2_chair_with_plant_1",
-      "type": "decor",
-      "x": 596,
-      "y": 606.5,
-      "angle": 225
-    },
-    {
-      "key": "room2_picture_C",
-      "type": "decor",
-      "x": 623,
-      "y": 359.5,
-      "angle": 225
-    },
-    {
-      "key": "room2_picture_B",
-      "type": "decor",
-      "x": 623,
-      "y": 359.5,
-      "angle": 225
-    },
-    {
-      "key": "room2_picture_A",
-      "type": "decor",
-      "x": 623,
-      "y": 359.5,
-      "angle": 225
-    },
-    {
-      "key": "room2_cupboard",
-      "type": "decor",
-      "x": 303.5,
-      "y": 357.5,
-      "angle": 135
-    },
-    {
-      "key": "room2_luster",
-      "type": "decor",
-      "x": 393,
-      "y": 128,
-      "angle": -180
-    },
-    {
-      "key": "room2_chair_with_plant_2",
-      "type": "decor",
-      "x": 670,
-      "y": 584.5,
-      "angle": 0
-    },
-    {
-      "key": "room2_door",
-      "type": "decor",
-      "x": 127.5,
-      "y": 443.5,
-      "angle": 135
-    },
-    {
-      "key": "room2_plant_left_C",
-      "type": "decor",
-      "x": 53.5,
-      "y": 585.5,
-      "angle": 0
-    },
-    {
-      "key": "room2_plant_left_B",
-      "type": "decor",
-      "x": 53.5,
-      "y": 585.5,
-      "angle": 0
-    },
-    {
-      "key": "room2_plant_left_A",
-      "type": "decor",
-      "x": 53.5,
-      "y": 585.5,
-      "angle": 0
-    },
-    {
       "key": "room2_broken_wall_left",
       "type": "repair",
-      "x": 306,
-      "y": 356.5,
-      "angle": 180
+      "x": 182,
+      "y": 344,
+      "angle": 135
     },
     {
       "key": "room2_broken_wall_right",
       "type": "repair",
-      "x": 553,
-      "y": 344.5,
-      "angle": 180
+      "x": 537.5,
+      "y": 346.5,
+      "angle": 225
     },
     {
       "key": "room2_broken_floor",
       "type": "repair",
-      "x": 358,
-      "y": 702,
-      "angle": 180
-    },
-    {
-      "key": "room2_trash_6",
-      "type": "repair",
-      "x": 612.5,
-      "y": 655.5,
-      "angle": 0
-    },
-    {
-      "key": "room2_trash_5",
-      "type": "repair",
-      "x": 465,
-      "y": 589,
+      "x": 358.5,
+      "y": 685,
       "angle": 0
     },
     {
       "key": "room2_trash_4",
       "type": "repair",
-      "x": 305,
-      "y": 679.5,
-      "angle": 180
+      "x": 511,
+      "y": 698.5,
+      "angle": 0
     },
     {
       "key": "room2_trash_3",
       "type": "repair",
-      "x": 211,
-      "y": 632,
+      "x": 211.5,
+      "y": 655,
       "angle": 0
     },
     {
       "key": "room2_trash_2",
       "type": "repair",
-      "x": 360,
-      "y": 799,
+      "x": 338,
+      "y": 755.5,
       "angle": 0
     },
     {
       "key": "room2_trash_1",
       "type": "repair",
-      "x": 75.5,
-      "y": 704,
+      "x": 363.5,
+      "y": 828.5,
       "angle": 0
     },
     {
-      "key": "room2_broken_door",
-      "type": "repair",
-      "x": 129.5,
-      "y": 443,
+      "key": "room2_wall_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_wall_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_floor_C_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_floor_C_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_window_C_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
       "angle": 135
+    },
+    {
+      "key": "room2_window_C_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 135
+    },
+    {
+      "key": "room2_nightstand_left_C_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_nightstand_left_C_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_bed_C",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_lamp_right_C",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 225
+    },
+    {
+      "key": "room2_vanity_table_C_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_vanity_table_C_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 225
+    },
+    {
+      "key": "room2_vanity_table_C_3",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_toy_C",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_family_picture_C",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 225
+    },
+    {
+      "key": "room2_window_decor_C_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_window_decor_C_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_vanity_decor_C_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_vanity_decor_C_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_walls_B_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 225
+    },
+    {
+      "key": "room2_walls_B_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 135
+    },
+    {
+      "key": "room2_floor_B_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_floor_B_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_window_B_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 135
+    },
+    {
+      "key": "room2_window_B_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 135
+    },
+    {
+      "key": "room2_nightstand_left_B_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_nightstand_left_B_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_bed_B",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_lamp_right_B",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 225
+    },
+    {
+      "key": "room2_vanity_table_B_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_vanity_table_B_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 225
+    },
+    {
+      "key": "room2_vanity_table_B_3",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_toy_B",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_family_picture_B",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 225
+    },
+    {
+      "key": "room2_window_decor_B_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_window_decor_B_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_vanity_decor_B_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_vanity_decor_B_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_walls_A_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 225
+    },
+    {
+      "key": "room2_walls_A_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 135
+    },
+    {
+      "key": "room2_floor_A_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_floor_A_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_window_A_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 135
+    },
+    {
+      "key": "room2_window_A_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 135
+    },
+    {
+      "key": "room2_nightstand_left_A_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_nightstand_left_A_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_bed_A",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_lamp right",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 225
+    },
+    {
+      "key": "room2_vanity_table_A_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_vanity_table_A_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 225
+    },
+    {
+      "key": "room2_vanity_table_A_3",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_toy_A",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_family_picture_A",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 225
+    },
+    {
+      "key": "room2_window_decor_A_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_window_decor_A_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_vanity_decor_A_1",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_vanity_decor_A_2",
+      "type": "decor",
+      "x": 0.5,
+      "y": 0.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_broken_curtains",
+      "type": "repair",
+      "x": 187.5,
+      "y": 381,
+      "angle": 135
+    },
+    {
+      "key": "room2_dirty_toy",
+      "type": "repair",
+      "x": 388.5,
+      "y": 639,
+      "angle": 0
+    },
+    {
+      "key": "room2_old_poster",
+      "type": "repair",
+      "x": 407,
+      "y": 269,
+      "angle": 225
+    },
+    {
+      "key": "room2_broken_vanity_table_1",
+      "type": "repair",
+      "x": 599,
+      "y": 406.5,
+      "angle": 225
+    },
+    {
+      "key": "room2_vanity_stool",
+      "type": "repair",
+      "x": 528.5,
+      "y": 636.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_small_broken_photo",
+      "type": "repair",
+      "x": 585,
+      "y": 691.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_webbed_family_picture_1",
+      "type": "repair",
+      "x": 500.5,
+      "y": 249,
+      "angle": 0
+    },
+    {
+      "key": "room2_dead_flowers_right",
+      "type": "repair",
+      "x": 544,
+      "y": 427,
+      "angle": 0
+    },
+    {
+      "key": "room2_broken_bed",
+      "type": "repair",
+      "x": 383.5,
+      "y": 537.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_broken_lamp_right",
+      "type": "repair",
+      "x": 520,
+      "y": 333.5,
+      "angle": 225
+    },
+    {
+      "key": "room2_broken_vanity_table_2",
+      "type": "repair",
+      "x": 588.5,
+      "y": 563.5,
+      "angle": 0
+    },
+    {
+      "key": "room2_webbed_family_picture_2",
+      "type": "repair",
+      "x": 487,
+      "y": 224,
+      "angle": 225
+    },
+    {
+      "key": "room2_dead_flowers_left",
+      "type": "repair",
+      "x": 162.5,
+      "y": 451,
+      "angle": 0
     }
   ],
-  "award": 25,
   "dialogs": [
     {
       "id": "room2_d1",
@@ -545,7 +1408,7 @@
       "conditions": [
         {
           "trigger_type": "after_action",
-          "trigger_key": "room2_photo"
+          "trigger_key": "room2_family_picture"
         }
       ],
       "award": null,
@@ -676,7 +1539,7 @@
       "conditions": [
         {
           "trigger_type": "after_action",
-          "trigger_key": "room2_Rabbit"
+          "trigger_key": "room2_toy"
         }
       ],
       "award": null,
@@ -1011,8 +1874,51 @@
           "char_state": "henry_neutral",
           "position": "right",
           "text_key": "room2_d9_r1_loc"
+        },
+        {
+          "id": "room2_d9_r2",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room2_d9_r2_loc"
+        },
+        {
+          "id": "room2_d9_r3",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room2_d9_r3_loc"
+        },
+        {
+          "id": "room2_d9_r4",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "right",
+          "text_key": "room2_d9_r4_loc"
+        },
+        {
+          "id": "room2_d9_r5",
+          "char_key": "anna",
+          "char_state": "anna_sad",
+          "position": "left",
+          "text_key": "room2_d9_r5_loc"
+        },
+        {
+          "id": "room2_d9_r6",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "right",
+          "text_key": "room2_d9_r6_loc"
+        },
+        {
+          "id": "room2_d9_r7",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room2_d9_r7_loc"
         }
       ]
     }
-  ]
+  ],
+  "award": 25
 }
