@@ -344,6 +344,8 @@
       "multiobject": "",
       "price": 55,
       "priceType": "coins",
+      "x": 358,
+      "y": 700,
       "name_key": "room2_pay_dialogue1_loc"
     },
     {
@@ -353,6 +355,8 @@
       "multiobject": "",
       "price": 55,
       "priceType": "coins",
+      "x": 358,
+      "y": 700,
       "name_key": "room2_pay_dialogue2_loc"
     },
     {
@@ -362,6 +366,8 @@
       "multiobject": "",
       "price": 55,
       "priceType": "coins",
+      "x": 358,
+      "y": 700,
       "name_key": "room2_pay_dialogue3_loc"
     },
     {
@@ -371,6 +377,8 @@
       "multiobject": "",
       "price": 55,
       "priceType": "coins",
+      "x": 358,
+      "y": 700,
       "name_key": "room2_pay_dialogue4_loc"
     }
   ],
