@@ -93,14 +93,16 @@
     },
     "rooms_room2-decor": {
       "sourceDir": "images/rooms/room2-decor",
-      "digest": "4181bf31bbc9b613bbe1f10c2dad525d227d2314bfeeee679dd992bab8ff88e3",
+      "digest": "8029eeed375cf52c1ee33648f312fa04c70d0a43f6e02ddb7c7eccdc01193b27",
       "outputs": [
-        "images/atlases/rooms_room2-decor.png",
-        "images/atlases/rooms_room2-decor.webp",
+        "images/atlases/rooms_room2-decor_1.png",
+        "images/atlases/rooms_room2-decor_1.webp",
+        "images/atlases/rooms_room2-decor_2.png",
+        "images/atlases/rooms_room2-decor_2.webp",
         "images/atlases/rooms_room2-decor.json",
         "images/atlases/rooms_room2-decor.webp.json"
       ],
-      "updatedAt": "2026-07-14T21:24:57.531771+00:00"
+      "updatedAt": "2026-07-14T21:33:58.506614+00:00"
     },
     "rooms_room2-repair": {
       "sourceDir": "images/rooms/room2-repair",
