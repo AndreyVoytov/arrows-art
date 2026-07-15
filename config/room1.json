@@ -1,6 +1,11 @@
 {
   "key": "room1",
   "background": "room1_room_bg",
+  "atlases": [
+    "rooms_room1-repair",
+    "rooms_room1-surfaces",
+    "rooms_room1-decor"
+  ],
   "content": {
     "actionPointOrder": [
       "room1_trash",
@@ -605,6 +610,7 @@
     {
       "key": "room1_carpet_A",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 371.5,
       "y": 703,
       "angle": 0
@@ -612,6 +618,7 @@
     {
       "key": "room1_carpet_B",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 370.5,
       "y": 701.5,
       "angle": 0
@@ -619,6 +626,7 @@
     {
       "key": "room1_window_A",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 512,
       "y": 344,
       "angle": 225
@@ -626,6 +634,7 @@
     {
       "key": "room1_window_B",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 500.5,
       "y": 312.5,
       "angle": 255
@@ -633,6 +642,7 @@
     {
       "key": "room1_window_C",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 507,
       "y": 332,
       "angle": 225
@@ -640,6 +650,7 @@
     {
       "key": "room1_picture_A",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 622.5,
       "y": 359.5,
       "angle": 225
@@ -647,6 +658,7 @@
     {
       "key": "room1_picture_B",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 629,
       "y": 347.5,
       "angle": 225
@@ -654,6 +666,7 @@
     {
       "key": "room1_cupboard_A",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 301,
       "y": 350,
       "angle": 135
@@ -661,6 +674,7 @@
     {
       "key": "room1_cupboard_B",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 303.5,
       "y": 372,
       "angle": 135
@@ -668,6 +682,7 @@
     {
       "key": "room1_luster_B",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 331,
       "y": 136.5,
       "angle": -180
@@ -675,6 +690,7 @@
     {
       "key": "room1_luster_C",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 338,
       "y": 135.5,
       "angle": -180
@@ -682,6 +698,7 @@
     {
       "key": "room1_luster_A",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 338,
       "y": 133.5,
       "angle": -180
@@ -689,6 +706,7 @@
     {
       "key": "room1_chair_with_plant_A_2",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 670,
       "y": 584.5,
       "angle": 0
@@ -696,6 +714,7 @@
     {
       "key": "room1_chair_with_plant_B_2",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 672,
       "y": 593,
       "angle": 0
@@ -703,6 +722,7 @@
     {
       "key": "room1_chair_with_plant_C_2",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 667.5,
       "y": 586.5,
       "angle": 0
@@ -710,6 +730,7 @@
     {
       "key": "room1_door_A",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 127.5,
       "y": 443.5,
       "angle": 135
@@ -717,6 +738,7 @@
     {
       "key": "room1_door_B",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 125,
       "y": 447,
       "angle": 135
@@ -724,6 +746,7 @@
     {
       "key": "room1_plant_left_B",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 52.5,
       "y": 602.5,
       "angle": 0
@@ -731,6 +754,7 @@
     {
       "key": "room1_plant_left_A",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 53.5,
       "y": 586,
       "angle": 0
@@ -738,6 +762,7 @@
     {
       "key": "room1_broken_wall_left",
       "type": "repair",
+      "atlas_name": "rooms_room1-repair",
       "x": 306,
       "y": 356,
       "angle": 180
@@ -745,6 +770,7 @@
     {
       "key": "room1_broken_wall_right",
       "type": "repair",
+      "atlas_name": "rooms_room1-repair",
       "x": 552.5,
       "y": 344,
       "angle": 180
@@ -752,6 +778,7 @@
     {
       "key": "room1_broken_floor",
       "type": "repair",
+      "atlas_name": "rooms_room1-repair",
       "x": 358,
       "y": 702,
       "angle": 180
@@ -759,6 +786,7 @@
     {
       "key": "room1_trash_3",
       "type": "repair",
+      "atlas_name": "rooms_room1-repair",
       "x": 360.5,
       "y": 798.5,
       "angle": 0
@@ -766,6 +794,7 @@
     {
       "key": "room1_trash_2",
       "type": "repair",
+      "atlas_name": "rooms_room1-repair",
       "x": 212,
       "y": 632,
       "angle": 0
@@ -773,6 +802,7 @@
     {
       "key": "room1_trash_1",
       "type": "repair",
+      "atlas_name": "rooms_room1-repair",
       "x": 77,
       "y": 703,
       "angle": 0
@@ -780,6 +810,7 @@
     {
       "key": "room1_broken_door",
       "type": "repair",
+      "atlas_name": "rooms_room1-repair",
       "x": 130,
       "y": 443.5,
       "angle": 135
@@ -787,6 +818,7 @@
     {
       "key": "room1_broken_cupboard",
       "type": "repair",
+      "atlas_name": "rooms_room1-repair",
       "x": 305,
       "y": 345,
       "angle": 135
@@ -794,6 +826,7 @@
     {
       "key": "room1_broken_window",
       "type": "repair",
+      "atlas_name": "rooms_room1-repair",
       "x": 522,
       "y": 366,
       "angle": 225
@@ -801,6 +834,7 @@
     {
       "key": "room1_dead_plant_2",
       "type": "repair",
+      "atlas_name": "rooms_room1-repair",
       "x": 214,
       "y": 551,
       "angle": 0
@@ -808,6 +842,7 @@
     {
       "key": "room1_dead_plant_1",
       "type": "repair",
+      "atlas_name": "rooms_room1-repair",
       "x": 49.5,
       "y": 595,
       "angle": 0
@@ -815,6 +850,7 @@
     {
       "key": "room1_floor_A",
       "type": "decor",
+      "atlas_name": "rooms_room1-surfaces",
       "x": 360,
       "y": 716,
       "angle": 0
@@ -822,6 +858,7 @@
     {
       "key": "room1_floor_B",
       "type": "decor",
+      "atlas_name": "rooms_room1-surfaces",
       "x": 360,
       "y": 718,
       "angle": 0
@@ -829,6 +866,7 @@
     {
       "key": "room1_floor_C",
       "type": "decor",
+      "atlas_name": "rooms_room1-surfaces",
       "x": 360,
       "y": 718.5,
       "angle": 0
@@ -836,6 +874,7 @@
     {
       "key": "room1_trash_second_1",
       "type": "repair",
+      "atlas_name": "rooms_room1-repair",
       "x": 612.5,
       "y": 654,
       "angle": 0
@@ -843,6 +882,7 @@
     {
       "key": "room1_trash_second_3",
       "type": "repair",
+      "atlas_name": "rooms_room1-repair",
       "x": 465.5,
       "y": 589,
       "angle": 0
@@ -850,6 +890,7 @@
     {
       "key": "room1_trash_second_2",
       "type": "repair",
+      "atlas_name": "rooms_room1-repair",
       "x": 305,
       "y": 679,
       "angle": 180
@@ -857,6 +898,7 @@
     {
       "key": "room1_walls_A_2",
       "type": "decor",
+      "atlas_name": "rooms_room1-surfaces",
       "x": 553.5,
       "y": 339,
       "angle": 0
@@ -864,6 +906,7 @@
     {
       "key": "room1_walls_A_1",
       "type": "decor",
+      "atlas_name": "rooms_room1-surfaces",
       "x": 196.5,
       "y": 360,
       "angle": 0
@@ -871,6 +914,7 @@
     {
       "key": "room1_walls_B_2",
       "type": "decor",
+      "atlas_name": "rooms_room1-surfaces",
       "x": 551.5,
       "y": 343,
       "angle": 0
@@ -878,6 +922,7 @@
     {
       "key": "room1_walls_B_1",
       "type": "decor",
+      "atlas_name": "rooms_room1-surfaces",
       "x": 196.5,
       "y": 353.5,
       "angle": 0
@@ -885,6 +930,7 @@
     {
       "key": "room1_walls_C_2",
       "type": "decor",
+      "atlas_name": "rooms_room1-surfaces",
       "x": 550.5,
       "y": 343.5,
       "angle": 0
@@ -892,6 +938,7 @@
     {
       "key": "room1_walls_C_1",
       "type": "decor",
+      "atlas_name": "rooms_room1-surfaces",
       "x": 196,
       "y": 361,
       "angle": 0
@@ -899,6 +946,7 @@
     {
       "key": "room1_carpet_C",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 369.5,
       "y": 706.5,
       "angle": 0
@@ -906,6 +954,7 @@
     {
       "key": "room1_picture_C",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 623.5,
       "y": 359.5,
       "angle": 225
@@ -913,6 +962,7 @@
     {
       "key": "room1_cupboard_C",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 303,
       "y": 364.5,
       "angle": 135
@@ -920,6 +970,7 @@
     {
       "key": "room1_door_C",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 118.5,
       "y": 451.5,
       "angle": 135
@@ -927,6 +978,7 @@
     {
       "key": "room1_plant_left_C",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 52.5,
       "y": 588.5,
       "angle": 0
@@ -934,6 +986,7 @@
     {
       "key": "room1_chair_with_plant_A_1",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 597.5,
       "y": 606.5,
       "angle": 225
@@ -941,6 +994,7 @@
     {
       "key": "room1_chair_with_plant_B_1",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 602,
       "y": 599.5,
       "angle": 225
@@ -948,6 +1002,7 @@
     {
       "key": "room1_chair_with_plant_C_1",
       "type": "decor",
+      "atlas_name": "rooms_room1-decor",
       "x": 600.5,
       "y": 616,
       "angle": 225
