@@ -62,7 +62,7 @@
     },
     "room2_broken_lamp_right": {
       "frame": {
-        "x": 319,
+        "x": 438,
         "y": 1466,
         "w": 90,
         "h": 101
@@ -162,27 +162,27 @@
     },
     "room2_dead_flowers_left": {
       "frame": {
-        "x": 411,
-        "y": 1466,
-        "w": 75,
-        "h": 94
+        "x": 1927,
+        "y": 962,
+        "w": 87,
+        "h": 108
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 75,
-        "h": 94
+        "w": 87,
+        "h": 108
       },
       "sourceSize": {
-        "w": 75,
-        "h": 94
+        "w": 87,
+        "h": 108
       }
     },
     "room2_dead_flowers_right": {
       "frame": {
-        "x": 1622,
+        "x": 1819,
         "y": 962,
         "w": 106,
         "h": 128
@@ -202,7 +202,7 @@
     },
     "room2_dirty_toy": {
       "frame": {
-        "x": 650,
+        "x": 791,
         "y": 1466,
         "w": 87,
         "h": 72
@@ -222,22 +222,22 @@
     },
     "room2_old_poster": {
       "frame": {
-        "x": 1816,
+        "x": 1723,
         "y": 962,
-        "w": 78,
-        "h": 118
+        "w": 94,
+        "h": 132
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 78,
-        "h": 118
+        "w": 94,
+        "h": 132
       },
       "sourceSize": {
-        "w": 78,
-        "h": 118
+        "w": 94,
+        "h": 132
       }
     },
     "room2_room_bg": {
@@ -262,27 +262,27 @@
     },
     "room2_small_broken_photo": {
       "frame": {
-        "x": 739,
+        "x": 692,
         "y": 1466,
-        "w": 82,
-        "h": 65
+        "w": 97,
+        "h": 80
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 82,
-        "h": 65
+        "w": 97,
+        "h": 80
       },
       "sourceSize": {
-        "w": 82,
-        "h": 65
+        "w": 97,
+        "h": 80
       }
     },
     "room2_trash_1": {
       "frame": {
-        "x": 158,
+        "x": 277,
         "y": 1466,
         "w": 159,
         "h": 105
@@ -342,7 +342,7 @@
     },
     "room2_trash_4": {
       "frame": {
-        "x": 488,
+        "x": 530,
         "y": 1466,
         "w": 160,
         "h": 93
@@ -382,8 +382,8 @@
     },
     "room2_webbed_family_picture_1": {
       "frame": {
-        "x": 1896,
-        "y": 962,
+        "x": 158,
+        "y": 1466,
         "w": 117,
         "h": 106
       },
@@ -402,22 +402,22 @@
     },
     "room2_webbed_family_picture_2": {
       "frame": {
-        "x": 1730,
+        "x": 1622,
         "y": 962,
-        "w": 84,
-        "h": 120
+        "w": 99,
+        "h": 134
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 84,
-        "h": 120
+        "w": 99,
+        "h": 134
       },
       "sourceSize": {
-        "w": 84,
-        "h": 120
+        "w": 99,
+        "h": 134
       }
     }
   },
