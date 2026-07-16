@@ -300,74 +300,27 @@
       "priceType": "coins"
     },
     {
+      "key": "room1_walls_variant_2",
+      "parts": [
+        "room1_walls_B_2",
+        "room1_walls_B_1"
+      ],
+      "price": 165,
+      "priceType": "coins"
+    },
+    {
+      "key": "room1_walls_variant_3",
+      "parts": [
+        "room1_walls_C_2",
+        "room1_walls_C_1"
+      ],
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
       "key": "room1_floor",
       "parts": [
         "room1_floor_A"
-      ],
-      "price": 135,
-      "priceType": "coins"
-    },
-    {
-      "key": "room1_carpet",
-      "parts": [
-        "room1_carpet_A"
-      ],
-      "price": 135,
-      "priceType": "coins"
-    },
-    {
-      "key": "room1_window",
-      "parts": [
-        "room1_window_A"
-      ],
-      "price": 135,
-      "priceType": "coins"
-    },
-    {
-      "key": "room1_chair_with_plant",
-      "parts": [
-        "room1_chair_with_plant_A_1",
-        "room1_chair_with_plant_A_2"
-      ],
-      "price": 125,
-      "priceType": "coins"
-    },
-    {
-      "key": "room1_picture",
-      "parts": [
-        "room1_picture_A"
-      ],
-      "price": 155,
-      "priceType": "coins"
-    },
-    {
-      "key": "room1_cupboard",
-      "parts": [
-        "room1_cupboard_A"
-      ],
-      "price": 150,
-      "priceType": "coins"
-    },
-    {
-      "key": "room1_luster",
-      "parts": [
-        "room1_luster_A"
-      ],
-      "price": 170,
-      "priceType": "coins"
-    },
-    {
-      "key": "room1_door",
-      "parts": [
-        "room1_door_A"
-      ],
-      "price": 125,
-      "priceType": "coins"
-    },
-    {
-      "key": "room1_plant_left",
-      "parts": [
-        "room1_plant_left_A"
       ],
       "price": 135,
       "priceType": "coins"
@@ -381,12 +334,19 @@
       "priceType": "coins"
     },
     {
-      "key": "room1_walls_variant_2",
+      "key": "room1_floor_variant_3",
       "parts": [
-        "room1_walls_B_2",
-        "room1_walls_B_1"
+        "room1_floor_C"
       ],
-      "price": 165,
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room1_carpet",
+      "parts": [
+        "room1_carpet_A"
+      ],
+      "price": 135,
       "priceType": "coins"
     },
     {
@@ -398,11 +358,44 @@
       "priceType": "coins"
     },
     {
+      "key": "room1_carpet_variant_3",
+      "parts": [
+        "room1_carpet_C"
+      ],
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room1_window",
+      "parts": [
+        "room1_window_A"
+      ],
+      "price": 135,
+      "priceType": "coins"
+    },
+    {
       "key": "room1_window_variant_2",
       "parts": [
         "room1_window_B"
       ],
       "price": 175,
+      "priceType": "coins"
+    },
+    {
+      "key": "room1_window_variant_3",
+      "parts": [
+        "room1_window_C"
+      ],
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room1_chair_with_plant",
+      "parts": [
+        "room1_chair_with_plant_A_1",
+        "room1_chair_with_plant_A_2"
+      ],
+      "price": 125,
       "priceType": "coins"
     },
     {
@@ -415,11 +408,44 @@
       "priceType": "coins"
     },
     {
+      "key": "room1_chair_with_plant_variant_3",
+      "parts": [
+        "room1_chair_with_plant_C_1",
+        "room1_chair_with_plant_C_2"
+      ],
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room1_picture",
+      "parts": [
+        "room1_picture_A"
+      ],
+      "price": 155,
+      "priceType": "coins"
+    },
+    {
       "key": "room1_picture_variant_2",
       "parts": [
         "room1_picture_B"
       ],
       "price": 200,
+      "priceType": "coins"
+    },
+    {
+      "key": "room1_picture_variant_3",
+      "parts": [
+        "room1_picture_C"
+      ],
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room1_cupboard",
+      "parts": [
+        "room1_cupboard_A"
+      ],
+      "price": 150,
       "priceType": "coins"
     },
     {
@@ -431,11 +457,43 @@
       "priceType": "coins"
     },
     {
+      "key": "room1_cupboard_variant_3",
+      "parts": [
+        "room1_cupboard_C"
+      ],
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room1_luster",
+      "parts": [
+        "room1_luster_A"
+      ],
+      "price": 170,
+      "priceType": "coins"
+    },
+    {
       "key": "room1_luster_variant_2",
       "parts": [
         "room1_luster_B"
       ],
       "price": 220,
+      "priceType": "coins"
+    },
+    {
+      "key": "room1_luster_variant_3",
+      "parts": [
+        "room1_luster_C"
+      ],
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room1_door",
+      "parts": [
+        "room1_door_A"
+      ],
+      "price": 125,
       "priceType": "coins"
     },
     {
@@ -447,86 +505,28 @@
       "priceType": "coins"
     },
     {
-      "key": "room1_plant_left_variant_2",
-      "parts": [
-        "room1_plant_left_B"
-      ],
-      "price": 175,
-      "priceType": "coins"
-    },
-    {
-      "key": "room1_floor_variant_3",
-      "parts": [
-        "room1_floor_C"
-      ],
-      "price": 5,
-      "priceType": "diamonds"
-    },
-    {
-      "key": "room1_walls_variant_3",
-      "parts": [
-        "room1_walls_C_2",
-        "room1_walls_C_1"
-      ],
-      "price": 5,
-      "priceType": "diamonds"
-    },
-    {
-      "key": "room1_carpet_variant_3",
-      "parts": [
-        "room1_carpet_C"
-      ],
-      "price": 5,
-      "priceType": "diamonds"
-    },
-    {
-      "key": "room1_window_variant_3",
-      "parts": [
-        "room1_window_C"
-      ],
-      "price": 5,
-      "priceType": "diamonds"
-    },
-    {
-      "key": "room1_chair_with_plant_variant_3",
-      "parts": [
-        "room1_chair_with_plant_C_1",
-        "room1_chair_with_plant_C_2"
-      ],
-      "price": 5,
-      "priceType": "diamonds"
-    },
-    {
-      "key": "room1_picture_variant_3",
-      "parts": [
-        "room1_picture_C"
-      ],
-      "price": 5,
-      "priceType": "diamonds"
-    },
-    {
-      "key": "room1_cupboard_variant_3",
-      "parts": [
-        "room1_cupboard_C"
-      ],
-      "price": 5,
-      "priceType": "diamonds"
-    },
-    {
-      "key": "room1_luster_variant_3",
-      "parts": [
-        "room1_luster_C"
-      ],
-      "price": 5,
-      "priceType": "diamonds"
-    },
-    {
       "key": "room1_door_variant_3",
       "parts": [
         "room1_door_C"
       ],
       "price": 5,
       "priceType": "diamonds"
+    },
+    {
+      "key": "room1_plant_left",
+      "parts": [
+        "room1_plant_left_A"
+      ],
+      "price": 135,
+      "priceType": "coins"
+    },
+    {
+      "key": "room1_plant_left_variant_2",
+      "parts": [
+        "room1_plant_left_B"
+      ],
+      "price": 175,
+      "priceType": "coins"
     },
     {
       "key": "room1_plant_left_variant_3",
@@ -614,7 +614,7 @@
       "priceType": "coins"
     }
   ],
-  "allPartsOrderComment": "Порядок — как у слоёв в Photoshop.",
+  "allPartsOrderComment": "Порядок — по слоям варианта A; варианты A/B/C рядом.",
   "allParts": [
     {
       "key": "room1_walls_A_2",
@@ -630,94 +630,6 @@
       "atlas_name": "rooms_room1-surfaces",
       "x": 196.5,
       "y": 360,
-      "angle": 0
-    },
-    {
-      "key": "room1_floor_A",
-      "type": "decor",
-      "atlas_name": "rooms_room1-surfaces",
-      "x": 360,
-      "y": 716,
-      "angle": 0
-    },
-    {
-      "key": "room1_carpet_A",
-      "type": "decor",
-      "atlas_name": "rooms_room1-decor",
-      "x": 371.5,
-      "y": 703,
-      "angle": 0
-    },
-    {
-      "key": "room1_window_A",
-      "type": "decor",
-      "atlas_name": "rooms_room1-decor",
-      "x": 512,
-      "y": 344,
-      "angle": 225
-    },
-    {
-      "key": "room1_chair_with_plant_A_1",
-      "type": "decor",
-      "atlas_name": "rooms_room1-decor",
-      "x": 597.5,
-      "y": 606.5,
-      "angle": 225
-    },
-    {
-      "key": "room1_picture_A",
-      "type": "decor",
-      "atlas_name": "rooms_room1-decor",
-      "x": 622.5,
-      "y": 359.5,
-      "angle": 225
-    },
-    {
-      "key": "room1_cupboard_A",
-      "type": "decor",
-      "atlas_name": "rooms_room1-decor",
-      "x": 301,
-      "y": 350,
-      "angle": 135
-    },
-    {
-      "key": "room1_luster_A",
-      "type": "decor",
-      "atlas_name": "rooms_room1-decor",
-      "x": 338,
-      "y": 133.5,
-      "angle": -180
-    },
-    {
-      "key": "room1_chair_with_plant_A_2",
-      "type": "decor",
-      "atlas_name": "rooms_room1-decor",
-      "x": 670,
-      "y": 584.5,
-      "angle": 0
-    },
-    {
-      "key": "room1_door_A",
-      "type": "decor",
-      "atlas_name": "rooms_room1-decor",
-      "x": 127.5,
-      "y": 443.5,
-      "angle": 135
-    },
-    {
-      "key": "room1_plant_left_A",
-      "type": "decor",
-      "atlas_name": "rooms_room1-decor",
-      "x": 53.5,
-      "y": 586,
-      "angle": 0
-    },
-    {
-      "key": "room1_floor_B",
-      "type": "decor",
-      "atlas_name": "rooms_room1-surfaces",
-      "x": 360,
-      "y": 718,
       "angle": 0
     },
     {
@@ -737,86 +649,6 @@
       "angle": 0
     },
     {
-      "key": "room1_carpet_B",
-      "type": "decor",
-      "atlas_name": "rooms_room1-decor",
-      "x": 370.5,
-      "y": 701.5,
-      "angle": 0
-    },
-    {
-      "key": "room1_window_B",
-      "type": "decor",
-      "atlas_name": "rooms_room1-decor",
-      "x": 500.5,
-      "y": 312.5,
-      "angle": 255
-    },
-    {
-      "key": "room1_chair_with_plant_B_1",
-      "type": "decor",
-      "atlas_name": "rooms_room1-decor",
-      "x": 602,
-      "y": 599.5,
-      "angle": 225
-    },
-    {
-      "key": "room1_picture_B",
-      "type": "decor",
-      "atlas_name": "rooms_room1-decor",
-      "x": 629,
-      "y": 347.5,
-      "angle": 225
-    },
-    {
-      "key": "room1_cupboard_B",
-      "type": "decor",
-      "atlas_name": "rooms_room1-decor",
-      "x": 303.5,
-      "y": 372,
-      "angle": 135
-    },
-    {
-      "key": "room1_luster_B",
-      "type": "decor",
-      "atlas_name": "rooms_room1-decor",
-      "x": 331,
-      "y": 136.5,
-      "angle": -180
-    },
-    {
-      "key": "room1_chair_with_plant_B_2",
-      "type": "decor",
-      "atlas_name": "rooms_room1-decor",
-      "x": 672,
-      "y": 593,
-      "angle": 0
-    },
-    {
-      "key": "room1_door_B",
-      "type": "decor",
-      "atlas_name": "rooms_room1-decor",
-      "x": 125,
-      "y": 447,
-      "angle": 135
-    },
-    {
-      "key": "room1_plant_left_B",
-      "type": "decor",
-      "atlas_name": "rooms_room1-decor",
-      "x": 52.5,
-      "y": 602.5,
-      "angle": 0
-    },
-    {
-      "key": "room1_floor_C",
-      "type": "decor",
-      "atlas_name": "rooms_room1-surfaces",
-      "x": 360,
-      "y": 718.5,
-      "angle": 0
-    },
-    {
       "key": "room1_walls_C_2",
       "type": "decor",
       "atlas_name": "rooms_room1-surfaces",
@@ -833,12 +665,68 @@
       "angle": 0
     },
     {
+      "key": "room1_floor_A",
+      "type": "decor",
+      "atlas_name": "rooms_room1-surfaces",
+      "x": 360,
+      "y": 716,
+      "angle": 0
+    },
+    {
+      "key": "room1_floor_B",
+      "type": "decor",
+      "atlas_name": "rooms_room1-surfaces",
+      "x": 360,
+      "y": 718,
+      "angle": 0
+    },
+    {
+      "key": "room1_floor_C",
+      "type": "decor",
+      "atlas_name": "rooms_room1-surfaces",
+      "x": 360,
+      "y": 718.5,
+      "angle": 0
+    },
+    {
+      "key": "room1_carpet_A",
+      "type": "decor",
+      "atlas_name": "rooms_room1-decor",
+      "x": 371.5,
+      "y": 703,
+      "angle": 0
+    },
+    {
+      "key": "room1_carpet_B",
+      "type": "decor",
+      "atlas_name": "rooms_room1-decor",
+      "x": 370.5,
+      "y": 701.5,
+      "angle": 0
+    },
+    {
       "key": "room1_carpet_C",
       "type": "decor",
       "atlas_name": "rooms_room1-decor",
       "x": 369.5,
       "y": 706.5,
       "angle": 0
+    },
+    {
+      "key": "room1_window_A",
+      "type": "decor",
+      "atlas_name": "rooms_room1-decor",
+      "x": 512,
+      "y": 344,
+      "angle": 225
+    },
+    {
+      "key": "room1_window_B",
+      "type": "decor",
+      "atlas_name": "rooms_room1-decor",
+      "x": 500.5,
+      "y": 312.5,
+      "angle": 255
     },
     {
       "key": "room1_window_C",
@@ -849,11 +737,67 @@
       "angle": 225
     },
     {
+      "key": "room1_chair_with_plant_A_1",
+      "type": "decor",
+      "atlas_name": "rooms_room1-decor",
+      "x": 597.5,
+      "y": 606.5,
+      "angle": 225
+    },
+    {
+      "key": "room1_chair_with_plant_A_2",
+      "type": "decor",
+      "atlas_name": "rooms_room1-decor",
+      "x": 670,
+      "y": 584.5,
+      "angle": 0
+    },
+    {
+      "key": "room1_chair_with_plant_B_1",
+      "type": "decor",
+      "atlas_name": "rooms_room1-decor",
+      "x": 602,
+      "y": 599.5,
+      "angle": 225
+    },
+    {
+      "key": "room1_chair_with_plant_B_2",
+      "type": "decor",
+      "atlas_name": "rooms_room1-decor",
+      "x": 672,
+      "y": 593,
+      "angle": 0
+    },
+    {
       "key": "room1_chair_with_plant_C_1",
       "type": "decor",
       "atlas_name": "rooms_room1-decor",
       "x": 600.5,
       "y": 616,
+      "angle": 225
+    },
+    {
+      "key": "room1_chair_with_plant_C_2",
+      "type": "decor",
+      "atlas_name": "rooms_room1-decor",
+      "x": 667.5,
+      "y": 586.5,
+      "angle": 0
+    },
+    {
+      "key": "room1_picture_A",
+      "type": "decor",
+      "atlas_name": "rooms_room1-decor",
+      "x": 622.5,
+      "y": 359.5,
+      "angle": 225
+    },
+    {
+      "key": "room1_picture_B",
+      "type": "decor",
+      "atlas_name": "rooms_room1-decor",
+      "x": 629,
+      "y": 347.5,
       "angle": 225
     },
     {
@@ -865,12 +809,44 @@
       "angle": 225
     },
     {
+      "key": "room1_cupboard_A",
+      "type": "decor",
+      "atlas_name": "rooms_room1-decor",
+      "x": 301,
+      "y": 350,
+      "angle": 135
+    },
+    {
+      "key": "room1_cupboard_B",
+      "type": "decor",
+      "atlas_name": "rooms_room1-decor",
+      "x": 303.5,
+      "y": 372,
+      "angle": 135
+    },
+    {
       "key": "room1_cupboard_C",
       "type": "decor",
       "atlas_name": "rooms_room1-decor",
       "x": 303,
       "y": 364.5,
       "angle": 135
+    },
+    {
+      "key": "room1_luster_A",
+      "type": "decor",
+      "atlas_name": "rooms_room1-decor",
+      "x": 338,
+      "y": 133.5,
+      "angle": -180
+    },
+    {
+      "key": "room1_luster_B",
+      "type": "decor",
+      "atlas_name": "rooms_room1-decor",
+      "x": 331,
+      "y": 136.5,
+      "angle": -180
     },
     {
       "key": "room1_luster_C",
@@ -881,12 +857,20 @@
       "angle": -180
     },
     {
-      "key": "room1_chair_with_plant_C_2",
+      "key": "room1_door_A",
       "type": "decor",
       "atlas_name": "rooms_room1-decor",
-      "x": 667.5,
-      "y": 586.5,
-      "angle": 0
+      "x": 127.5,
+      "y": 443.5,
+      "angle": 135
+    },
+    {
+      "key": "room1_door_B",
+      "type": "decor",
+      "atlas_name": "rooms_room1-decor",
+      "x": 125,
+      "y": 447,
+      "angle": 135
     },
     {
       "key": "room1_door_C",
@@ -895,6 +879,22 @@
       "x": 118.5,
       "y": 451.5,
       "angle": 135
+    },
+    {
+      "key": "room1_plant_left_A",
+      "type": "decor",
+      "atlas_name": "rooms_room1-decor",
+      "x": 53.5,
+      "y": 586,
+      "angle": 0
+    },
+    {
+      "key": "room1_plant_left_B",
+      "type": "decor",
+      "atlas_name": "rooms_room1-decor",
+      "x": 52.5,
+      "y": 602.5,
+      "angle": 0
     },
     {
       "key": "room1_plant_left_C",
