@@ -63,7 +63,7 @@
   },
   "meta": {
     "app": "scripts/build_atlases.py",
-    "version": "8",
+    "version": "11",
     "image": "characters_henry.png",
     "format": "RGBA8888",
     "size": {

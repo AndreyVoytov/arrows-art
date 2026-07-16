@@ -423,7 +423,7 @@
   },
   "meta": {
     "app": "scripts/build_atlases.py",
-    "version": "8",
+    "version": "11",
     "image": "rooms_room2-repair.webp",
     "format": "RGBA8888",
     "size": {

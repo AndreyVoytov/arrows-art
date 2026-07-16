@@ -43,7 +43,7 @@
   },
   "meta": {
     "app": "scripts/build_atlases.py",
-    "version": "8",
+    "version": "11",
     "image": "ui_room_preview.webp",
     "format": "RGBA8888",
     "size": {

@@ -1203,7 +1203,7 @@
   },
   "meta": {
     "app": "scripts/build_atlases.py",
-    "version": "8",
+    "version": "11",
     "image": "ui_panel.png",
     "format": "RGBA8888",
     "size": {
