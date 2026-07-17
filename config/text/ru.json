@@ -293,6 +293,7 @@
   "ui_free": "БЕСПЛ.",
   "ui_get": "Получить",
   "ui_insufficient_coins": "Недостаточно монет",
+  "ui_insufficient_diamonds": "Недостаточно алмазов",
   "ui_popup_arrow_delete_description": "Нажмите на стрелку, чтобы удалить её",
   "ui_popup_arrow_delete_header": "Ластик",
   "ui_popup_buy_booster_description": "Получите бустер",
