@@ -1,6 +1,7 @@
 {
   "alex": "Алекс",
   "anna": "Анна",
+  "cat": "Котэ",
   "complexity_easy_loc": "Легкий",
   "complexity_educational_loc": "Обучающий",
   "complexity_hard_loc": "Сложный",
@@ -291,6 +292,7 @@
   "ui_buy_for": "Купить за",
   "ui_free": "БЕСПЛ.",
   "ui_get": "Получить",
+  "ui_insufficient_coins": "Недостаточно монет",
   "ui_popup_arrow_delete_description": "Нажмите на стрелку, чтобы удалить её",
   "ui_popup_arrow_delete_header": "Ластик",
   "ui_popup_buy_booster_description": "Получите бустер",
@@ -314,6 +316,7 @@
   "ui_popup_win_button_play": "Играть\nдальше",
   "ui_popup_win_button_refuse": "Нет, спасибо",
   "ui_popup_win_header": "Победа!",
+  "ui_replace_panel_text": "Выберите элемент для замены",
   "ui_reward": "Награда",
   "victor": "Виктор"
 }

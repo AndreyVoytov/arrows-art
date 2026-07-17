@@ -2194,6 +2194,14 @@
         "kate_smirk",
         "kate_angry"
       ]
+    },
+    {
+      "id": "cat",
+      "states": [
+        "cat_neutral",
+        "cat_joy",
+        "cat_embarrassed"
+      ]
     }
   ],
   "constants": {

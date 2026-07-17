@@ -23,16 +23,27 @@
       ],
       "updatedAt": "2026-07-16T09:39:18.756101+00:00"
     },
+    "characters_cat": {
+      "sourceDir": "images/characters/cat",
+      "digest": "96912e0159d8512ebd2f0bcac953e1cf98ff83c94eb5e5835b3823667ed55a77",
+      "outputs": [
+        "images/atlases/characters_cat.png",
+        "images/atlases/characters_cat.webp",
+        "images/atlases/characters_cat.json",
+        "images/atlases/characters_cat.webp.json"
+      ],
+      "updatedAt": "2026-07-17T07:12:19.086023+00:00"
+    },
     "characters_henry": {
       "sourceDir": "images/characters/henry",
-      "digest": "555454a8f702123b42d237db74abc6f66d1b812f88d7fd5ae5881d4de738eff7",
+      "digest": "284f59a8b4e02e49f0cabdd86f9f534551bf3caf410a0a7011be1cb4243b5c83",
       "outputs": [
         "images/atlases/characters_henry.png",
         "images/atlases/characters_henry.webp",
         "images/atlases/characters_henry.json",
         "images/atlases/characters_henry.webp.json"
       ],
-      "updatedAt": "2026-07-16T09:39:21.337585+00:00"
+      "updatedAt": "2026-07-17T07:12:21.599529+00:00"
     },
     "characters_kate": {
       "sourceDir": "images/characters/kate",
