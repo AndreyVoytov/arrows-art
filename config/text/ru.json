@@ -317,6 +317,9 @@
   "ui_popup_win_button_refuse": "Нет, спасибо",
   "ui_popup_win_header": "Победа!",
   "ui_replace_panel_text": "Выберите элемент для замены",
+  "ui_restore_lifes": "Восстановите жизни",
+  "ui_restore_lifes_header": "Купить жизни",
+  "ui_restore_lifes_max": "Макс.",
   "ui_reward": "Награда",
   "victor": "Виктор"
 }

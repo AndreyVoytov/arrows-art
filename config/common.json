@@ -2207,6 +2207,7 @@
   "constants": {
     "lifes_refill_price": 450,
     "lifes_refill_with_ad_count": 1,
+    "lifes_total_count": 5,
     "bulbs_rebuy_price": 900,
     "bulbs_rebuy_count": 3,
     "bulbs_rebuy_with_ad_count": 1,
