@@ -162,7 +162,7 @@
     },
     "room2_dead_flowers_left": {
       "frame": {
-        "x": 1927,
+        "x": 1923,
         "y": 962,
         "w": 87,
         "h": 108
@@ -182,7 +182,7 @@
     },
     "room2_dead_flowers_right": {
       "frame": {
-        "x": 1819,
+        "x": 1815,
         "y": 962,
         "w": 106,
         "h": 128
@@ -222,7 +222,7 @@
     },
     "room2_old_poster": {
       "frame": {
-        "x": 1723,
+        "x": 1622,
         "y": 962,
         "w": 94,
         "h": 132
@@ -402,22 +402,22 @@
     },
     "room2_webbed_family_picture_2": {
       "frame": {
-        "x": 1622,
+        "x": 1718,
         "y": 962,
-        "w": 99,
-        "h": 134
+        "w": 95,
+        "h": 131
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 99,
-        "h": 134
+        "w": 95,
+        "h": 131
       },
       "sourceSize": {
-        "w": 99,
-        "h": 134
+        "w": 95,
+        "h": 131
       }
     }
   },

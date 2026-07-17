@@ -43,8 +43,8 @@
         "room1_walls_variant_2",
         "room1_walls_variant_3"
       ],
-      "x": 360,
-      "y": 360
+      "x": 513.5,
+      "y": 439.5
     },
     {
       "key": "room1_floor",
@@ -55,8 +55,8 @@
         "room1_floor_variant_2",
         "room1_floor_variant_3"
       ],
-      "x": 360,
-      "y": 718
+      "x": 380,
+      "y": 610
     },
     {
       "key": "room1_carpet",
@@ -67,8 +67,8 @@
         "room1_carpet_variant_2",
         "room1_carpet_variant_3"
       ],
-      "x": 370,
-      "y": 706
+      "x": 364,
+      "y": 693
     },
     {
       "key": "room1_window",
@@ -79,8 +79,8 @@
         "room1_window_variant_2",
         "room1_window_variant_3"
       ],
-      "x": 510,
-      "y": 340
+      "x": 519.5,
+      "y": 319.5
     },
     {
       "key": "room1_chair_with_plant",
@@ -91,8 +91,8 @@
         "room1_chair_with_plant_variant_2",
         "room1_chair_with_plant_variant_3"
       ],
-      "x": 616,
-      "y": 591
+      "x": 603.5,
+      "y": 581.5
     },
     {
       "key": "room1_picture",
@@ -103,8 +103,8 @@
         "room1_picture_variant_2",
         "room1_picture_variant_3"
       ],
-      "x": 634,
-      "y": 355
+      "x": 630,
+      "y": 362.5
     },
     {
       "key": "room1_cupboard",
@@ -115,8 +115,8 @@
         "room1_cupboard_variant_2",
         "room1_cupboard_variant_3"
       ],
-      "x": 307,
-      "y": 358
+      "x": 328,
+      "y": 351
     },
     {
       "key": "room1_luster",
@@ -127,8 +127,8 @@
         "room1_luster_variant_2",
         "room1_luster_variant_3"
       ],
-      "x": 338,
-      "y": 136
+      "x": 399.5,
+      "y": 151.5
     },
     {
       "key": "room1_door",
@@ -139,8 +139,8 @@
         "room1_door_variant_2",
         "room1_door_variant_3"
       ],
-      "x": 118,
-      "y": 450
+      "x": 126.5,
+      "y": 438.5
     },
     {
       "key": "room1_plant_left",
@@ -151,8 +151,8 @@
         "room1_plant_left_variant_2",
         "room1_plant_left_variant_3"
       ],
-      "x": 56,
-      "y": 596
+      "x": 56.5,
+      "y": 599.5
     },
     {
       "key": "room1_broken_wall_left",
@@ -171,7 +171,7 @@
       "multiobjects": [
         "room1_broken_wall_right"
       ],
-      "x": 552,
+      "x": 552.5,
       "y": 344
     },
     {
@@ -191,8 +191,8 @@
       "multiobjects": [
         "room1_trash_second"
       ],
-      "x": 426,
-      "y": 647
+      "x": 612.5,
+      "y": 661
     },
     {
       "key": "room1_trash",
@@ -201,8 +201,8 @@
       "multiobjects": [
         "room1_trash"
       ],
-      "x": 243,
-      "y": 722
+      "x": 212,
+      "y": 632
     },
     {
       "key": "room1_broken_door",
@@ -211,7 +211,7 @@
       "multiobjects": [
         "room1_broken_door"
       ],
-      "x": 136,
+      "x": 136.5,
       "y": 449
     },
     {
@@ -241,8 +241,8 @@
       "multiobjects": [
         "room1_dead_plant"
       ],
-      "x": 138,
-      "y": 588
+      "x": 216.5,
+      "y": 545
     },
     {
       "key": "room1_pay_dialogue1",
@@ -621,15 +621,15 @@
       "type": "decor",
       "atlas_name": "rooms_room1-surfaces",
       "x": 553.5,
-      "y": 339,
+      "y": 339.5,
       "angle": 180
     },
     {
       "key": "room1_walls_A_1",
       "type": "decor",
       "atlas_name": "rooms_room1-surfaces",
-      "x": 196.5,
-      "y": 360,
+      "x": 198,
+      "y": 365,
       "angle": 180
     },
     {
@@ -637,7 +637,7 @@
       "type": "decor",
       "atlas_name": "rooms_room1-surfaces",
       "x": 551.5,
-      "y": 343,
+      "y": 341.5,
       "angle": 180
     },
     {
@@ -645,7 +645,7 @@
       "type": "decor",
       "atlas_name": "rooms_room1-surfaces",
       "x": 196.5,
-      "y": 353.5,
+      "y": 352.5,
       "angle": 180
     },
     {
@@ -669,7 +669,7 @@
       "type": "decor",
       "atlas_name": "rooms_room1-surfaces",
       "x": 360,
-      "y": 716,
+      "y": 714,
       "angle": 180
     },
     {
@@ -716,8 +716,8 @@
       "key": "room1_window_A",
       "type": "decor",
       "atlas_name": "rooms_room1-decor",
-      "x": 512,
-      "y": 344,
+      "x": 511.5,
+      "y": 342.5,
       "angle": 45
     },
     {
@@ -836,7 +836,7 @@
       "key": "room1_luster_A",
       "type": "decor",
       "atlas_name": "rooms_room1-decor",
-      "x": 338,
+      "x": 384.5,
       "y": 133.5,
       "angle": 0
     },
@@ -844,7 +844,7 @@
       "key": "room1_luster_B",
       "type": "decor",
       "atlas_name": "rooms_room1-decor",
-      "x": 331,
+      "x": 384.5,
       "y": 136.5,
       "angle": 0
     },
@@ -852,7 +852,7 @@
       "key": "room1_luster_C",
       "type": "decor",
       "atlas_name": "rooms_room1-decor",
-      "x": 338,
+      "x": 384.5,
       "y": 135.5,
       "angle": 0
     },

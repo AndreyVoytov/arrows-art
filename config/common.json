@@ -1,7 +1,9 @@
 {
   "rooms": [
     "room1",
-    "room2"
+    "room2",
+    "room3",
+    "room5"
   ],
   "levelsCount": 160,
   "level_awards": {

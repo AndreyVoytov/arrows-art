@@ -3,9 +3,9 @@
     "room1_floor_A": {
       "frame": {
         "x": 0,
-        "y": 1388,
+        "y": 1387,
         "w": 720,
-        "h": 444
+        "h": 448
       },
       "rotated": false,
       "trimmed": false,
@@ -13,11 +13,11 @@
         "x": 0,
         "y": 0,
         "w": 720,
-        "h": 444
+        "h": 448
       },
       "sourceSize": {
         "w": 720,
-        "h": 444
+        "h": 448
       }
     },
     "room1_floor_B": {
@@ -62,22 +62,22 @@
     },
     "room1_walls_A_1": {
       "frame": {
-        "x": 394,
+        "x": 0,
         "y": 0,
-        "w": 393,
-        "h": 708
+        "w": 396,
+        "h": 718
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 393,
-        "h": 708
+        "w": 396,
+        "h": 718
       },
       "sourceSize": {
-        "w": 393,
-        "h": 708
+        "w": 396,
+        "h": 718
       }
     },
     "room1_walls_A_2": {
@@ -85,7 +85,7 @@
         "x": 0,
         "y": 720,
         "w": 333,
-        "h": 666
+        "h": 665
       },
       "rotated": false,
       "trimmed": false,
@@ -93,19 +93,19 @@
         "x": 0,
         "y": 0,
         "w": 333,
-        "h": 666
+        "h": 665
       },
       "sourceSize": {
         "w": 333,
-        "h": 666
+        "h": 665
       }
     },
     "room1_walls_B_1": {
       "frame": {
-        "x": 789,
+        "x": 792,
         "y": 0,
         "w": 393,
-        "h": 697
+        "h": 699
       },
       "rotated": false,
       "trimmed": false,
@@ -113,19 +113,19 @@
         "x": 0,
         "y": 0,
         "w": 393,
-        "h": 697
+        "h": 699
       },
       "sourceSize": {
         "w": 393,
-        "h": 697
+        "h": 699
       }
     },
     "room1_walls_B_2": {
       "frame": {
-        "x": 1525,
+        "x": 1528,
         "y": 0,
         "w": 337,
-        "h": 676
+        "h": 679
       },
       "rotated": false,
       "trimmed": false,
@@ -133,16 +133,16 @@
         "x": 0,
         "y": 0,
         "w": 337,
-        "h": 676
+        "h": 679
       },
       "sourceSize": {
         "w": 337,
-        "h": 676
+        "h": 679
       }
     },
     "room1_walls_C_1": {
       "frame": {
-        "x": 0,
+        "x": 398,
         "y": 0,
         "w": 392,
         "h": 718
@@ -162,7 +162,7 @@
     },
     "room1_walls_C_2": {
       "frame": {
-        "x": 1184,
+        "x": 1187,
         "y": 0,
         "w": 339,
         "h": 687
@@ -188,7 +188,7 @@
     "format": "RGBA8888",
     "size": {
       "w": 2048,
-      "h": 1832
+      "h": 1835
     },
     "scale": "1",
     "sourceDir": "images/rooms/room1-surfaces"
