@@ -13,11 +13,11 @@
       "room2_small_broken_photo",
       "room2_broken_vanity_table",
       "room2_pay_dialogue1",
+      "room2_broken_bed",
       "room2_dirty_toy",
       "room2_broken_wall_left",
       "room2_broken_wall_right",
       "room2_pay_dialogue2",
-      "room2_broken_bed",
       "room2_broken_lamp_right",
       "room2_old_poster",
       "room2_webbed_family_picture",
@@ -144,9 +144,7 @@
       "type": "decor",
       "name_key": "room2_toy_loc",
       "multiobjects": [
-        "room2_toy",
-        "room2_toy_variant_2",
-        "room2_toy_variant_3"
+        "room2_toy"
       ],
       "x": 394,
       "y": 454.5
@@ -572,26 +570,10 @@
     {
       "key": "room2_toy",
       "parts": [
-        "room2_toy_A"
+        "room2_toy"
       ],
       "price": 200,
       "priceType": "coins"
-    },
-    {
-      "key": "room2_toy_variant_2",
-      "parts": [
-        "room2_toy_B"
-      ],
-      "price": 255,
-      "priceType": "coins"
-    },
-    {
-      "key": "room2_toy_variant_3",
-      "parts": [
-        "room2_toy_C"
-      ],
-      "price": 5,
-      "priceType": "diamonds"
     },
     {
       "key": "room2_family_picture",
@@ -676,7 +658,7 @@
       "parts": [
         "room2_broken_wall_right"
       ],
-      "price": 80,
+      "price": 90,
       "priceType": "coins"
     },
     {
@@ -727,7 +709,7 @@
       "parts": [
         "room2_broken_bed"
       ],
-      "price": 90,
+      "price": 80,
       "priceType": "coins"
     },
     {
@@ -1112,27 +1094,11 @@
       "angle": 180
     },
     {
-      "key": "room2_toy_A",
+      "key": "room2_toy",
       "type": "decor",
       "atlas_name": "rooms_room2-decor",
       "x": 390,
       "y": 459.5,
-      "angle": 180
-    },
-    {
-      "key": "room2_toy_B",
-      "type": "decor",
-      "atlas_name": "rooms_room2-decor",
-      "x": 390.5,
-      "y": 462,
-      "angle": 180
-    },
-    {
-      "key": "room2_toy_C",
-      "type": "decor",
-      "atlas_name": "rooms_room2-decor",
-      "x": 389.5,
-      "y": 457.5,
       "angle": 180
     },
     {

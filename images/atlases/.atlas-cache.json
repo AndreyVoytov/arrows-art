@@ -113,14 +113,14 @@
     },
     "rooms_room2-decor": {
       "sourceDir": "images/rooms/room2-decor",
-      "digest": "1b5ee4192af01b1f974b7d4d6185e700e70d6bf534966489fb1744256d319eac",
+      "digest": "f17617d46ad55ed67b82989d7cc47f9da42afdfdda72f5ba6fb136e0cb46c975",
       "outputs": [
         "images/atlases/rooms_room2-decor.png",
         "images/atlases/rooms_room2-decor.webp",
         "images/atlases/rooms_room2-decor.json",
         "images/atlases/rooms_room2-decor.webp.json"
       ],
-      "updatedAt": "2026-07-17T13:18:02.843173+00:00"
+      "updatedAt": "2026-07-17T13:28:40.403158+00:00"
     },
     "rooms_room2-repair": {
       "sourceDir": "images/rooms/room2-repair",

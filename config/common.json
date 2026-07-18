@@ -2300,7 +2300,8 @@
   "soundVolume": 0.3,
   "shop": [
     {
-      "id": "shop_lot1",
+      "id": 1,
+      "key": "shop_lot1",
       "type": "small",
       "currencyType": "iap",
       "imageKey": "diamonds1",
@@ -2315,7 +2316,8 @@
       ]
     },
     {
-      "id": "shop_lot2",
+      "id": 2,
+      "key": "shop_lot2",
       "type": "small",
       "currencyType": "iap",
       "imageKey": "diamonds2",
@@ -2330,7 +2332,8 @@
       ]
     },
     {
-      "id": "shop_lot3",
+      "id": 3,
+      "key": "shop_lot3",
       "type": "small",
       "currencyType": "iap",
       "imageKey": "diamonds3",
@@ -2345,7 +2348,8 @@
       ]
     },
     {
-      "id": "shop_lot4",
+      "id": 4,
+      "key": "shop_lot4",
       "type": "small",
       "currencyType": "iap",
       "imageKey": "diamonds4",
@@ -2360,7 +2364,8 @@
       ]
     },
     {
-      "id": "shop_lot5",
+      "id": 5,
+      "key": "shop_lot5",
       "type": "small",
       "currencyType": "iap",
       "imageKey": "diamonds5",
@@ -2375,7 +2380,8 @@
       ]
     },
     {
-      "id": "shop_lot6",
+      "id": 6,
+      "key": "shop_lot6",
       "type": "small",
       "currencyType": "iap",
       "imageKey": "diamonds6",
@@ -2390,7 +2396,8 @@
       ]
     },
     {
-      "id": "shop_lot7",
+      "id": 7,
+      "key": "shop_lot7",
       "type": "big",
       "currencyType": "iap",
       "imageKey": "bundle1_image",
@@ -2421,7 +2428,8 @@
       ]
     },
     {
-      "id": "shop_lot8",
+      "id": 8,
+      "key": "shop_lot8",
       "type": "big",
       "currencyType": "iap",
       "imageKey": "bundle2_image",
@@ -2452,7 +2460,8 @@
       ]
     },
     {
-      "id": "shop_lot9",
+      "id": 9,
+      "key": "shop_lot9",
       "type": "big",
       "currencyType": "iap",
       "imageKey": "bundle3_image",
@@ -2483,7 +2492,8 @@
       ]
     },
     {
-      "id": "shop_lot10",
+      "id": 10,
+      "key": "shop_lot10",
       "type": "big",
       "currencyType": "iap",
       "imageKey": "no_ads_bundle_image",

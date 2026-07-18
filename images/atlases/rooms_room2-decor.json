@@ -300,9 +300,9 @@
         "h": 134
       }
     },
-    "room2_toy_A": {
+    "room2_toy": {
       "frame": {
-        "x": 1098,
+        "x": 948,
         "y": 1576,
         "w": 74,
         "h": 83
@@ -318,51 +318,11 @@
       "sourceSize": {
         "w": 74,
         "h": 83
-      }
-    },
-    "room2_toy_B": {
-      "frame": {
-        "x": 630,
-        "y": 1576,
-        "w": 73,
-        "h": 90
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 73,
-        "h": 90
-      },
-      "sourceSize": {
-        "w": 73,
-        "h": 90
-      }
-    },
-    "room2_toy_C": {
-      "frame": {
-        "x": 888,
-        "y": 1576,
-        "w": 73,
-        "h": 85
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 73,
-        "h": 85
-      },
-      "sourceSize": {
-        "w": 73,
-        "h": 85
       }
     },
     "room2_vanity_decor_A_1": {
       "frame": {
-        "x": 820,
+        "x": 745,
         "y": 1576,
         "w": 66,
         "h": 86
@@ -382,7 +342,7 @@
     },
     "room2_vanity_decor_A_2": {
       "frame": {
-        "x": 1174,
+        "x": 1024,
         "y": 1576,
         "w": 65,
         "h": 58
@@ -402,7 +362,7 @@
     },
     "room2_vanity_decor_B_1": {
       "frame": {
-        "x": 1021,
+        "x": 871,
         "y": 1576,
         "w": 75,
         "h": 84
@@ -422,7 +382,7 @@
     },
     "room2_vanity_decor_B_2": {
       "frame": {
-        "x": 1241,
+        "x": 1091,
         "y": 1576,
         "w": 73,
         "h": 52
@@ -442,7 +402,7 @@
     },
     "room2_vanity_decor_C_1": {
       "frame": {
-        "x": 756,
+        "x": 681,
         "y": 1576,
         "w": 62,
         "h": 87
@@ -462,7 +422,7 @@
     },
     "room2_vanity_decor_C_2": {
       "frame": {
-        "x": 1316,
+        "x": 1166,
         "y": 1576,
         "w": 56,
         "h": 51
@@ -822,7 +782,7 @@
     },
     "room2_window_decor_B_1": {
       "frame": {
-        "x": 705,
+        "x": 630,
         "y": 1576,
         "w": 49,
         "h": 88
@@ -862,7 +822,7 @@
     },
     "room2_window_decor_C_1": {
       "frame": {
-        "x": 963,
+        "x": 813,
         "y": 1576,
         "w": 56,
         "h": 85
