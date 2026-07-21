@@ -25,7 +25,7 @@
         "x": 722,
         "y": 0,
         "w": 720,
-        "h": 1279
+        "h": 1400
       },
       "rotated": false,
       "trimmed": false,
@@ -33,11 +33,11 @@
         "x": 0,
         "y": 0,
         "w": 720,
-        "h": 1279
+        "h": 1400
       },
       "sourceSize": {
         "w": 720,
-        "h": 1279
+        "h": 1400
       }
     },
     "loading_bg2": {
@@ -45,7 +45,7 @@
         "x": 0,
         "y": 0,
         "w": 720,
-        "h": 1279
+        "h": 1400
       },
       "rotated": false,
       "trimmed": false,
@@ -53,17 +53,17 @@
         "x": 0,
         "y": 0,
         "w": 720,
-        "h": 1279
+        "h": 1400
       },
       "sourceSize": {
         "w": 720,
-        "h": 1279
+        "h": 1400
       }
     },
     "loading_progress": {
       "frame": {
         "x": 639,
-        "y": 1281,
+        "y": 1402,
         "w": 632,
         "h": 73
       },
@@ -83,7 +83,7 @@
     "loading_progress_bg": {
       "frame": {
         "x": 0,
-        "y": 1281,
+        "y": 1402,
         "w": 637,
         "h": 77
       },
@@ -108,7 +108,7 @@
     "format": "RGBA8888",
     "size": {
       "w": 2048,
-      "h": 1358
+      "h": 1479
     },
     "scale": "1",
     "sourceDir": "images/ui/loader"
