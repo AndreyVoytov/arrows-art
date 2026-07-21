@@ -220,6 +220,26 @@
         "h": 81
       }
     },
+    "invite_icon": {
+      "frame": {
+        "x": 1830,
+        "y": 1402,
+        "w": 46,
+        "h": 34
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 46,
+        "h": 34
+      },
+      "sourceSize": {
+        "w": 46,
+        "h": 34
+      }
+    },
     "life_icon": {
       "frame": {
         "x": 1785,
