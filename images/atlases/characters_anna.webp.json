@@ -2,7 +2,7 @@
   "frames": {
     "anna_angry": {
       "frame": {
-        "x": 0,
+        "x": 343,
         "y": 514,
         "w": 341,
         "h": 512
@@ -22,6 +22,26 @@
     },
     "anna_embarrassed": {
       "frame": {
+        "x": 0,
+        "y": 514,
+        "w": 341,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 512
+      }
+    },
+    "anna_fear": {
+      "frame": {
         "x": 1372,
         "y": 0,
         "w": 341,
@@ -40,7 +60,7 @@
         "h": 512
       }
     },
-    "anna_fear": {
+    "anna_happy": {
       "frame": {
         "x": 1029,
         "y": 0,

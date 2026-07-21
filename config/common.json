@@ -2191,7 +2191,8 @@
         "anna_neutral",
         "anna_sad",
         "anna_fear",
-        "anna_embarrassed"
+        "anna_embarrassed",
+        "anna_happy"
       ]
     },
     {
@@ -2214,7 +2215,8 @@
       "id": "mary",
       "states": [
         "mary_neutral",
-        "mary_smile"
+        "mary_smile",
+        "mary_angry"
       ]
     },
     {

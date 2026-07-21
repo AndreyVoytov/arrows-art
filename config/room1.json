@@ -1046,7 +1046,7 @@
         {
           "id": "room1_d1_r3",
           "char_key": "anna",
-          "char_state": "anna_neutral",
+          "char_state": "anna_sad",
           "position": "left",
           "text_key": "room1_d1_r3_loc"
         },
@@ -1058,18 +1058,18 @@
           "text_key": "room1_d1_r4_loc"
         },
         {
-          "id": "room1_d1_r1",
+          "id": "room1_d1_r5",
           "char_key": "anna",
           "char_state": "anna_neutral",
           "position": "left",
-          "text_key": "room1_d1_r1_loc"
+          "text_key": "room1_d1_r5_loc"
         },
         {
-          "id": "room1_d1_r2",
+          "id": "room1_d1_r6",
           "char_key": "alex",
-          "char_state": "alex_neutral",
+          "char_state": "alex_joy",
           "position": "right",
-          "text_key": "room1_d1_r2_loc"
+          "text_key": "room1_d1_r6_loc"
         }
       ]
     },
@@ -1087,7 +1087,7 @@
         {
           "id": "room1_d2_r3",
           "char_key": "alex",
-          "char_state": "alex_joy",
+          "char_state": "alex_neutral",
           "position": "right",
           "text_key": "room1_d2_r3_loc"
         },
@@ -1447,14 +1447,14 @@
           "id": "room1_d7_r8",
           "char_key": "kate",
           "char_state": "kate_smile",
-          "position": "left",
+          "position": "right",
           "text_key": "room1_d7_r8_loc"
         },
         {
           "id": "room1_d7_r9",
-          "char_key": "kate",
-          "char_state": "kate_neutral",
-          "position": "right",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
           "text_key": "room1_d7_r9_loc"
         },
         {
@@ -1493,9 +1493,9 @@
         },
         {
           "id": "room1_d8_r3",
-          "char_key": "anna",
-          "char_state": "anna_neutral",
-          "position": "left",
+          "char_key": "mary",
+          "char_state": "mary_smile",
+          "position": "right",
           "text_key": "room1_d8_r3_loc"
         },
         {
@@ -1507,10 +1507,17 @@
         },
         {
           "id": "room1_d8_r5",
-          "char_key": "henry",
-          "char_state": "henry_smile",
+          "char_key": "mary",
+          "char_state": "mary_neutral",
           "position": "right",
           "text_key": "room1_d8_r5_loc"
+        },
+        {
+          "id": "room1_d8_r6",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "left",
+          "text_key": "room1_d8_r6_loc"
         }
       ]
     }

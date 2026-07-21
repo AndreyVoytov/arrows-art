@@ -14,14 +14,14 @@
     },
     "characters_anna": {
       "sourceDir": "images/characters/anna",
-      "digest": "e05b8fb75d60710f2d9cb0bf7655c5ce3bd6ed5370eafeb45b04ac4fa9d5be8a",
+      "digest": "3b6d0af823ce469e38779d6c29dd4d054ff0badd9ec8b2d836f94f4f2c5eb9b1",
       "outputs": [
         "images/atlases/characters_anna.png",
         "images/atlases/characters_anna.webp",
         "images/atlases/characters_anna.json",
         "images/atlases/characters_anna.webp.json"
       ],
-      "updatedAt": "2026-07-16T09:39:18.756101+00:00"
+      "updatedAt": "2026-07-21T20:31:25.899442+00:00"
     },
     "characters_cat": {
       "sourceDir": "images/characters/cat",
@@ -58,14 +58,14 @@
     },
     "characters_mary": {
       "sourceDir": "images/characters/mary",
-      "digest": "ccd5172f0053f1d364f05893db967dfa62c265a0991087be22ccb1ed374fdf25",
+      "digest": "a631cff0217a40a1f8902c021a28435b1c47b2d67a7d3e32399883bd2bd1498b",
       "outputs": [
         "images/atlases/characters_mary.png",
         "images/atlases/characters_mary.webp",
         "images/atlases/characters_mary.json",
         "images/atlases/characters_mary.webp.json"
       ],
-      "updatedAt": "2026-07-16T09:39:25.442971+00:00"
+      "updatedAt": "2026-07-21T20:31:28.854378+00:00"
     },
     "characters_victor": {
       "sourceDir": "images/characters/victor",
