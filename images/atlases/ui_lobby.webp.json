@@ -459,26 +459,6 @@
         "w": 92,
         "h": 99
       }
-    },
-    "Слой_3": {
-      "frame": {
-        "x": 1830,
-        "y": 1402,
-        "w": 59,
-        "h": 22
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 59,
-        "h": 22
-      },
-      "sourceSize": {
-        "w": 59,
-        "h": 22
-      }
     }
   },
   "meta": {
