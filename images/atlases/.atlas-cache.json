@@ -1,258 +1,258 @@
 {
-  "version": 11,
+  "version": 12,
   "atlases": {
     "characters_alex": {
       "sourceDir": "images/characters/alex",
-      "digest": "3b8ca8b3725252f95d0f83ee221c2f0851e8314941f135d47bf33db0128d475e",
+      "digest": "d4058a538f4403992b49553ecfa1c86eae7d1136b1854f8d4bec12634ec38af3",
       "outputs": [
-        "images/atlases/characters_alex.png",
-        "images/atlases/characters_alex.webp",
-        "images/atlases/characters_alex.json",
-        "images/atlases/characters_alex.webp.json"
+        "images/atlases/characters_alex_d4058a53.png",
+        "images/atlases/characters_alex_d4058a53.webp",
+        "images/atlases/characters_alex_d4058a53.json",
+        "images/atlases/characters_alex_d4058a53.webp.json"
       ],
-      "updatedAt": "2026-07-16T09:39:13.862719+00:00"
+      "updatedAt": "2026-07-22T10:39:48.823157+00:00"
     },
     "characters_anna": {
       "sourceDir": "images/characters/anna",
-      "digest": "3b6d0af823ce469e38779d6c29dd4d054ff0badd9ec8b2d836f94f4f2c5eb9b1",
+      "digest": "0d369d6af9c04ea196c584267e6d6483dc85fc1bc4f0bf2c15521183259ba0ed",
       "outputs": [
-        "images/atlases/characters_anna.png",
-        "images/atlases/characters_anna.webp",
-        "images/atlases/characters_anna.json",
-        "images/atlases/characters_anna.webp.json"
+        "images/atlases/characters_anna_0d369d6a.png",
+        "images/atlases/characters_anna_0d369d6a.webp",
+        "images/atlases/characters_anna_0d369d6a.json",
+        "images/atlases/characters_anna_0d369d6a.webp.json"
       ],
-      "updatedAt": "2026-07-21T20:31:25.899442+00:00"
+      "updatedAt": "2026-07-22T10:39:56.962390+00:00"
     },
     "characters_cat": {
       "sourceDir": "images/characters/cat",
-      "digest": "96912e0159d8512ebd2f0bcac953e1cf98ff83c94eb5e5835b3823667ed55a77",
+      "digest": "2a7076b221f60b27199a2be5698433e138510071a8c1bf9341ca09cdfcefdbf5",
       "outputs": [
-        "images/atlases/characters_cat.png",
-        "images/atlases/characters_cat.webp",
-        "images/atlases/characters_cat.json",
-        "images/atlases/characters_cat.webp.json"
+        "images/atlases/characters_cat_2a7076b2.png",
+        "images/atlases/characters_cat_2a7076b2.webp",
+        "images/atlases/characters_cat_2a7076b2.json",
+        "images/atlases/characters_cat_2a7076b2.webp.json"
       ],
-      "updatedAt": "2026-07-17T07:12:19.086023+00:00"
+      "updatedAt": "2026-07-22T10:39:59.506995+00:00"
     },
     "characters_henry": {
       "sourceDir": "images/characters/henry",
-      "digest": "284f59a8b4e02e49f0cabdd86f9f534551bf3caf410a0a7011be1cb4243b5c83",
+      "digest": "583d1f37eb7e12d8f2a29da264587c12bd70f659daf1ad074e73fc2e30a7a850",
       "outputs": [
-        "images/atlases/characters_henry.png",
-        "images/atlases/characters_henry.webp",
-        "images/atlases/characters_henry.json",
-        "images/atlases/characters_henry.webp.json"
+        "images/atlases/characters_henry_583d1f37.png",
+        "images/atlases/characters_henry_583d1f37.webp",
+        "images/atlases/characters_henry_583d1f37.json",
+        "images/atlases/characters_henry_583d1f37.webp.json"
       ],
-      "updatedAt": "2026-07-17T07:12:21.599529+00:00"
+      "updatedAt": "2026-07-22T10:40:03.610359+00:00"
     },
     "characters_kate": {
       "sourceDir": "images/characters/kate",
-      "digest": "3098a1dce65b176389ae7ff09c724ccf285d6b353147162d651a18f12eab8da1",
+      "digest": "45e1461655e8215af648abe5aa23b2c6cf19d5c19f46a7bbdb578e74d7f15986",
       "outputs": [
-        "images/atlases/characters_kate.png",
-        "images/atlases/characters_kate.webp",
-        "images/atlases/characters_kate.json",
-        "images/atlases/characters_kate.webp.json"
+        "images/atlases/characters_kate_45e14616.png",
+        "images/atlases/characters_kate_45e14616.webp",
+        "images/atlases/characters_kate_45e14616.json",
+        "images/atlases/characters_kate_45e14616.webp.json"
       ],
-      "updatedAt": "2026-07-16T09:39:23.946616+00:00"
+      "updatedAt": "2026-07-22T10:40:07.950306+00:00"
     },
     "characters_mary": {
       "sourceDir": "images/characters/mary",
-      "digest": "a631cff0217a40a1f8902c021a28435b1c47b2d67a7d3e32399883bd2bd1498b",
+      "digest": "5e75c96c380c4a62d5b971764f354dfe079d9af227924e5b1a3e9944577ba4bb",
       "outputs": [
-        "images/atlases/characters_mary.png",
-        "images/atlases/characters_mary.webp",
-        "images/atlases/characters_mary.json",
-        "images/atlases/characters_mary.webp.json"
+        "images/atlases/characters_mary_5e75c96c.png",
+        "images/atlases/characters_mary_5e75c96c.webp",
+        "images/atlases/characters_mary_5e75c96c.json",
+        "images/atlases/characters_mary_5e75c96c.webp.json"
       ],
-      "updatedAt": "2026-07-21T20:31:28.854378+00:00"
+      "updatedAt": "2026-07-22T10:40:11.448906+00:00"
     },
     "characters_victor": {
       "sourceDir": "images/characters/victor",
-      "digest": "1b980c33e6908c0d675bc31febac83a6f5be1f1bd75ef342568b2de59777f3c1",
+      "digest": "94b61cf4cee5adeb760cdd9859f405872405dbd8de130ae6e35b3146e8eec9a5",
       "outputs": [
-        "images/atlases/characters_victor.png",
-        "images/atlases/characters_victor.webp",
-        "images/atlases/characters_victor.json",
-        "images/atlases/characters_victor.webp.json"
+        "images/atlases/characters_victor_94b61cf4.png",
+        "images/atlases/characters_victor_94b61cf4.webp",
+        "images/atlases/characters_victor_94b61cf4.json",
+        "images/atlases/characters_victor_94b61cf4.webp.json"
       ],
-      "updatedAt": "2026-07-16T09:39:27.193997+00:00"
+      "updatedAt": "2026-07-22T10:40:14.600267+00:00"
     },
     "rooms_room1-decor": {
       "sourceDir": "images/rooms/room1-decor",
-      "digest": "ead029e6a771543d526f95a54562ca05335d4f0074b3c640e5d14214cec5f059",
+      "digest": "c65734c007dc84b4ff283dd82e33ee246d2b624e5b1de4fcdc47f2aef4cd24cf",
       "outputs": [
-        "images/atlases/rooms_room1-decor.png",
-        "images/atlases/rooms_room1-decor.webp",
-        "images/atlases/rooms_room1-decor.json",
-        "images/atlases/rooms_room1-decor.webp.json"
+        "images/atlases/rooms_room1-decor_c65734c0.png",
+        "images/atlases/rooms_room1-decor_c65734c0.webp",
+        "images/atlases/rooms_room1-decor_c65734c0.json",
+        "images/atlases/rooms_room1-decor_c65734c0.webp.json"
       ],
-      "updatedAt": "2026-07-17T13:17:17.279218+00:00"
+      "updatedAt": "2026-07-22T10:40:31.622280+00:00"
     },
     "rooms_room1-repair": {
       "sourceDir": "images/rooms/room1-repair",
-      "digest": "ccf9e75f1e81db8a0a10799a3a53d4111bf087117353a325b20541f946f4d526",
+      "digest": "f372d666b33283928480289bb2037101da106dae4bcfbdba696bee7c3879befe",
       "outputs": [
-        "images/atlases/rooms_room1-repair.png",
-        "images/atlases/rooms_room1-repair.webp",
-        "images/atlases/rooms_room1-repair.json",
-        "images/atlases/rooms_room1-repair.webp.json"
+        "images/atlases/rooms_room1-repair_f372d666.png",
+        "images/atlases/rooms_room1-repair_f372d666.webp",
+        "images/atlases/rooms_room1-repair_f372d666.json",
+        "images/atlases/rooms_room1-repair_f372d666.webp.json"
       ],
-      "updatedAt": "2026-07-17T13:17:28.790435+00:00"
+      "updatedAt": "2026-07-22T10:40:45.672079+00:00"
     },
     "rooms_room1-surfaces": {
       "sourceDir": "images/rooms/room1-surfaces",
-      "digest": "120f0e75cb76471002c88b0820ff370c723864011beb90e7774ad58bfb1dd988",
+      "digest": "05cc1e60fc7816c6c1450b79eea8e2d652d7240170e7c2b6fa415e7bfe28a67c",
       "outputs": [
-        "images/atlases/rooms_room1-surfaces.png",
-        "images/atlases/rooms_room1-surfaces.webp",
-        "images/atlases/rooms_room1-surfaces.json",
-        "images/atlases/rooms_room1-surfaces.webp.json"
+        "images/atlases/rooms_room1-surfaces_05cc1e60.png",
+        "images/atlases/rooms_room1-surfaces_05cc1e60.webp",
+        "images/atlases/rooms_room1-surfaces_05cc1e60.json",
+        "images/atlases/rooms_room1-surfaces_05cc1e60.webp.json"
       ],
-      "updatedAt": "2026-07-17T13:17:43.360800+00:00"
+      "updatedAt": "2026-07-22T10:41:03.258582+00:00"
     },
     "rooms_room2-decor": {
       "sourceDir": "images/rooms/room2-decor",
-      "digest": "f17617d46ad55ed67b82989d7cc47f9da42afdfdda72f5ba6fb136e0cb46c975",
+      "digest": "ffed63118f1a74f0fb7811517a431e0f2708625706f22bb6d6526714fc5acf4e",
       "outputs": [
-        "images/atlases/rooms_room2-decor.png",
-        "images/atlases/rooms_room2-decor.webp",
-        "images/atlases/rooms_room2-decor.json",
-        "images/atlases/rooms_room2-decor.webp.json"
+        "images/atlases/rooms_room2-decor_ffed6311.png",
+        "images/atlases/rooms_room2-decor_ffed6311.webp",
+        "images/atlases/rooms_room2-decor_ffed6311.json",
+        "images/atlases/rooms_room2-decor_ffed6311.webp.json"
       ],
-      "updatedAt": "2026-07-17T13:28:40.403158+00:00"
+      "updatedAt": "2026-07-22T10:41:28.011283+00:00"
     },
     "rooms_room2-repair": {
       "sourceDir": "images/rooms/room2-repair",
-      "digest": "489bd9389f883c98e6634e4b9826493e107fc45c8bc5f661f7dfcf4be542ccce",
+      "digest": "126cc1edac310f4405f5df7b762097317a945064719fa76ba51ca0e8f4425214",
       "outputs": [
-        "images/atlases/rooms_room2-repair.png",
-        "images/atlases/rooms_room2-repair.webp",
-        "images/atlases/rooms_room2-repair.json",
-        "images/atlases/rooms_room2-repair.webp.json"
+        "images/atlases/rooms_room2-repair_126cc1ed.png",
+        "images/atlases/rooms_room2-repair_126cc1ed.webp",
+        "images/atlases/rooms_room2-repair_126cc1ed.json",
+        "images/atlases/rooms_room2-repair_126cc1ed.webp.json"
       ],
-      "updatedAt": "2026-07-17T13:18:12.434582+00:00"
+      "updatedAt": "2026-07-22T10:41:39.904230+00:00"
     },
     "rooms_room2-surfaces": {
       "sourceDir": "images/rooms/room2-surfaces",
-      "digest": "71d2b1725bddb790c659fbe4b9432841c1ec607a3449e0772bdde3a26b4748a5",
+      "digest": "89fe95fd45ac3ac31e1ba6dcb88e492b2093ace1f0968adb0088e3102febdd40",
       "outputs": [
-        "images/atlases/rooms_room2-surfaces.png",
-        "images/atlases/rooms_room2-surfaces.webp",
-        "images/atlases/rooms_room2-surfaces.json",
-        "images/atlases/rooms_room2-surfaces.webp.json"
+        "images/atlases/rooms_room2-surfaces_89fe95fd.png",
+        "images/atlases/rooms_room2-surfaces_89fe95fd.webp",
+        "images/atlases/rooms_room2-surfaces_89fe95fd.json",
+        "images/atlases/rooms_room2-surfaces_89fe95fd.webp.json"
       ],
-      "updatedAt": "2026-07-17T13:18:23.278587+00:00"
+      "updatedAt": "2026-07-22T10:41:51.708047+00:00"
     },
     "rooms_room3-decor": {
       "sourceDir": "images/rooms/room3-decor",
-      "digest": "d3abb75e7055015d7b3c7cffcec5fc98419a89bf4f56f72485e7ca33170deb63",
+      "digest": "0663ff6dbde1fcca359e768074263f7f575c23384f493841fb376fe1aeaa80d5",
       "outputs": [
-        "images/atlases/rooms_room3-decor.png",
-        "images/atlases/rooms_room3-decor.webp",
-        "images/atlases/rooms_room3-decor.json",
-        "images/atlases/rooms_room3-decor.webp.json"
+        "images/atlases/rooms_room3-decor_0663ff6d.png",
+        "images/atlases/rooms_room3-decor_0663ff6d.webp",
+        "images/atlases/rooms_room3-decor_0663ff6d.json",
+        "images/atlases/rooms_room3-decor_0663ff6d.webp.json"
       ],
-      "updatedAt": "2026-07-17T13:18:41.099798+00:00"
+      "updatedAt": "2026-07-22T10:42:11.988925+00:00"
     },
     "rooms_room3-surfaces": {
       "sourceDir": "images/rooms/room3-surfaces",
-      "digest": "a18bed1313de8308371899320cb4d879a26aad0b58cbbe3adc47f3dad5011e82",
+      "digest": "9189abf25dec2cac5e241fa257562340e58f562aec72c7a7525df37d03f1c297",
       "outputs": [
-        "images/atlases/rooms_room3-surfaces.png",
-        "images/atlases/rooms_room3-surfaces.webp",
-        "images/atlases/rooms_room3-surfaces.json",
-        "images/atlases/rooms_room3-surfaces.webp.json"
+        "images/atlases/rooms_room3-surfaces_9189abf2.png",
+        "images/atlases/rooms_room3-surfaces_9189abf2.webp",
+        "images/atlases/rooms_room3-surfaces_9189abf2.json",
+        "images/atlases/rooms_room3-surfaces_9189abf2.webp.json"
       ],
-      "updatedAt": "2026-07-17T13:18:50.141611+00:00"
+      "updatedAt": "2026-07-22T10:42:22.341369+00:00"
     },
     "rooms_room5-decor": {
       "sourceDir": "images/rooms/room5-decor",
-      "digest": "b24dc421cf806cf2740a71161c20ea100389e897058d50ed45244790d0b12a69",
+      "digest": "dfcead0ed00f6916208362031b045abd66b4532a2732b6a7f2b0a826cbbec51f",
       "outputs": [
-        "images/atlases/rooms_room5-decor.png",
-        "images/atlases/rooms_room5-decor.webp",
-        "images/atlases/rooms_room5-decor.json",
-        "images/atlases/rooms_room5-decor.webp.json"
+        "images/atlases/rooms_room5-decor_dfcead0e.png",
+        "images/atlases/rooms_room5-decor_dfcead0e.webp",
+        "images/atlases/rooms_room5-decor_dfcead0e.json",
+        "images/atlases/rooms_room5-decor_dfcead0e.webp.json"
       ],
-      "updatedAt": "2026-07-17T13:19:08.908737+00:00"
+      "updatedAt": "2026-07-22T10:42:43.342072+00:00"
     },
     "rooms_room5-surfaces": {
       "sourceDir": "images/rooms/room5-surfaces",
-      "digest": "7947d755b0667afb4ccde528480ea869cdd4b4903e4c21bfdc70452f514f9744",
+      "digest": "f612b3380f3abe8b20d66b9bdbda249aeeb935e52b888af8d289294ec76c48fc",
       "outputs": [
-        "images/atlases/rooms_room5-surfaces.png",
-        "images/atlases/rooms_room5-surfaces.webp",
-        "images/atlases/rooms_room5-surfaces.json",
-        "images/atlases/rooms_room5-surfaces.webp.json"
+        "images/atlases/rooms_room5-surfaces_f612b338.png",
+        "images/atlases/rooms_room5-surfaces_f612b338.webp",
+        "images/atlases/rooms_room5-surfaces_f612b338.json",
+        "images/atlases/rooms_room5-surfaces_f612b338.webp.json"
       ],
-      "updatedAt": "2026-07-17T13:19:20.394599+00:00"
+      "updatedAt": "2026-07-22T10:42:55.623865+00:00"
     },
     "ui_loader": {
       "sourceDir": "images/ui/loader",
-      "digest": "6da61c3e1b48dea19c0bf5849996da4db05d3ef43a7cd9497180c0445ea0dde1",
+      "digest": "7ced01202408077bec345e8fe03d1fd467b370f5e5fe4a4c423fddabdf1adc89",
       "outputs": [
-        "images/atlases/ui_loader.png",
-        "images/atlases/ui_loader.webp",
-        "images/atlases/ui_loader.json",
-        "images/atlases/ui_loader.webp.json"
+        "images/atlases/ui_loader_7ced0120.png",
+        "images/atlases/ui_loader_7ced0120.webp",
+        "images/atlases/ui_loader_7ced0120.json",
+        "images/atlases/ui_loader_7ced0120.webp.json"
       ],
-      "updatedAt": "2026-07-21T20:44:40.423814+00:00"
+      "updatedAt": "2026-07-22T10:43:08.050335+00:00"
     },
     "ui_lobby": {
       "sourceDir": "images/ui/lobby",
-      "digest": "6ffdd08ff5a2423249a68b0945eadc82ef32804bb2f07e8722505963b18caaa6",
+      "digest": "a5a9bcf92856ac2c686ac623f6583d3e82d4d329c46fbb965a4de073c9cb21c9",
       "outputs": [
-        "images/atlases/ui_lobby.png",
-        "images/atlases/ui_lobby.webp",
-        "images/atlases/ui_lobby.json",
-        "images/atlases/ui_lobby.webp.json"
+        "images/atlases/ui_lobby_a5a9bcf9.png",
+        "images/atlases/ui_lobby_a5a9bcf9.webp",
+        "images/atlases/ui_lobby_a5a9bcf9.json",
+        "images/atlases/ui_lobby_a5a9bcf9.webp.json"
       ],
-      "updatedAt": "2026-07-21T21:29:48.545155+00:00"
+      "updatedAt": "2026-07-22T10:43:14.636799+00:00"
     },
     "ui_panel": {
       "sourceDir": "images/ui/panel",
-      "digest": "577f264a8fc008882de7010ad4a853d7b3cd110f3538219f56c951b7c269b1cb",
+      "digest": "ae40b11f45f07147b216c377ccccc877da5f93731092fbc16449e342df7f9809",
       "outputs": [
-        "images/atlases/ui_panel.png",
-        "images/atlases/ui_panel.webp",
-        "images/atlases/ui_panel.json",
-        "images/atlases/ui_panel.webp.json"
+        "images/atlases/ui_panel_ae40b11f.png",
+        "images/atlases/ui_panel_ae40b11f.webp",
+        "images/atlases/ui_panel_ae40b11f.json",
+        "images/atlases/ui_panel_ae40b11f.webp.json"
       ],
-      "updatedAt": "2026-07-22T09:06:36.889451+00:00"
+      "updatedAt": "2026-07-22T10:43:30.225008+00:00"
     },
     "ui_preloader": {
       "sourceDir": "images/ui/preloader",
-      "digest": "ad265ab69e8bc9ceb012b77ac2b1162a0a02eb68e617052550edd25beb129c12",
+      "digest": "92e9c179efc3aa08215e8dab46309ef7bd9706ddd7c7ae501a36785bb7864aa5",
       "outputs": [
-        "images/atlases/ui_preloader.png",
-        "images/atlases/ui_preloader.webp",
-        "images/atlases/ui_preloader.json",
-        "images/atlases/ui_preloader.webp.json"
+        "images/atlases/ui_preloader_92e9c179.png",
+        "images/atlases/ui_preloader_92e9c179.webp",
+        "images/atlases/ui_preloader_92e9c179.json",
+        "images/atlases/ui_preloader_92e9c179.webp.json"
       ],
-      "updatedAt": "2026-07-16T09:41:09.623952+00:00"
+      "updatedAt": "2026-07-22T10:43:31.490419+00:00"
     },
     "ui_room_preview": {
       "sourceDir": "images/ui/room_preview",
-      "digest": "a62227ad3a3e063273278c2e7415cce72bbd99b0dae3a2836128466295fc177d",
+      "digest": "9789c3ee364b3bcedbcdffeed6586eb2159787a92f3fbab2a96ff877e6641b6d",
       "outputs": [
-        "images/atlases/ui_room_preview.png",
-        "images/atlases/ui_room_preview.webp",
-        "images/atlases/ui_room_preview.json",
-        "images/atlases/ui_room_preview.webp.json"
+        "images/atlases/ui_room_preview_9789c3ee.png",
+        "images/atlases/ui_room_preview_9789c3ee.webp",
+        "images/atlases/ui_room_preview_9789c3ee.json",
+        "images/atlases/ui_room_preview_9789c3ee.webp.json"
       ],
-      "updatedAt": "2026-07-16T09:41:11.900885+00:00"
+      "updatedAt": "2026-07-22T10:43:34.223760+00:00"
     },
     "ui_shop": {
       "sourceDir": "images/ui/shop",
-      "digest": "1aa590fdf40ace0a4d542f842d59d41a13932e7b79c5e3c0e674613a82664fe3",
+      "digest": "48580bb89742e82fb052574e7edaefc3ee08b1993209b8d02e4ebb1886d61032",
       "outputs": [
-        "images/atlases/ui_shop.png",
-        "images/atlases/ui_shop.webp",
-        "images/atlases/ui_shop.json",
-        "images/atlases/ui_shop.webp.json"
+        "images/atlases/ui_shop_48580bb8.png",
+        "images/atlases/ui_shop_48580bb8.webp",
+        "images/atlases/ui_shop_48580bb8.json",
+        "images/atlases/ui_shop_48580bb8.webp.json"
       ],
-      "updatedAt": "2026-07-16T09:41:15.902985+00:00"
+      "updatedAt": "2026-07-22T10:43:39.632978+00:00"
     }
   }
 }

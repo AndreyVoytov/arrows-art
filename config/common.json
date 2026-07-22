@@ -2245,6 +2245,31 @@
       ]
     }
   ],
+  "atlas_hashes": {
+    "characters_alex": "_d4058a53",
+    "characters_anna": "_0d369d6a",
+    "characters_cat": "_2a7076b2",
+    "characters_henry": "_583d1f37",
+    "characters_kate": "_45e14616",
+    "characters_mary": "_5e75c96c",
+    "characters_victor": "_94b61cf4",
+    "rooms_room1-decor": "_c65734c0",
+    "rooms_room1-repair": "_f372d666",
+    "rooms_room1-surfaces": "_05cc1e60",
+    "rooms_room2-decor": "_ffed6311",
+    "rooms_room2-repair": "_126cc1ed",
+    "rooms_room2-surfaces": "_89fe95fd",
+    "rooms_room3-decor": "_0663ff6d",
+    "rooms_room3-surfaces": "_9189abf2",
+    "rooms_room5-decor": "_dfcead0e",
+    "rooms_room5-surfaces": "_f612b338",
+    "ui_loader": "_7ced0120",
+    "ui_lobby": "_a5a9bcf9",
+    "ui_panel": "_ae40b11f",
+    "ui_preloader": "_92e9c179",
+    "ui_room_preview": "_9789c3ee",
+    "ui_shop": "_48580bb8"
+  },
   "constants": {
     "lifes_refill_price": 450,
     "lifes_refill_with_ad_count": 1,

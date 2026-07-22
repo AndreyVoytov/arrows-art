@@ -1,0 +1,96 @@
+{
+  "frames": {
+    "alex_angry": {
+      "frame": {
+        "x": 1029,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 512
+      }
+    },
+    "alex_joy": {
+      "frame": {
+        "x": 686,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 512
+      }
+    },
+    "alex_neutral": {
+      "frame": {
+        "x": 343,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 512
+      }
+    },
+    "alex_sad": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 512
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "12",
+    "image": "characters_alex_d4058a53.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 512
+    },
+    "scale": "1",
+    "sourceDir": "images/characters/alex"
+  }
+}

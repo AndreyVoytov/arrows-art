@@ -577,7 +577,7 @@
         "room1_trash_3",
         "room1_trash_1"
       ],
-      "price": 35,
+      "price": 0,
       "priceType": "coins"
     },
     {
@@ -1056,20 +1056,6 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "room1_d1_r4_loc"
-        },
-        {
-          "id": "room1_d1_r5",
-          "char_key": "anna",
-          "char_state": "anna_neutral",
-          "position": "left",
-          "text_key": "room1_d1_r5_loc"
-        },
-        {
-          "id": "room1_d1_r6",
-          "char_key": "alex",
-          "char_state": "alex_joy",
-          "position": "right",
-          "text_key": "room1_d1_r6_loc"
         }
       ]
     },
@@ -1085,25 +1071,52 @@
       "award": null,
       "replicas": [
         {
-          "id": "room1_d2_r3",
-          "char_key": "alex",
-          "char_state": "alex_neutral",
-          "position": "right",
-          "text_key": "room1_d2_r3_loc"
-        },
-        {
-          "id": "room1_d2_r4",
-          "char_key": "anna",
-          "char_state": "anna_neutral",
-          "position": "left",
-          "text_key": "room1_d2_r4_loc"
-        },
-        {
           "id": "room1_d2_r5",
           "char_key": "anna",
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "room1_d2_r5_loc"
+        },
+        {
+          "id": "room1_d2_r6",
+          "char_key": "alex",
+          "char_state": "alex_joy",
+          "position": "right",
+          "text_key": "room1_d2_r6_loc"
+        }
+      ]
+    },
+    {
+      "id": "room1_d2b",
+      "roomId": "room1",
+      "conditions": [
+        {
+          "trigger_type": "after_action",
+          "trigger_key": "room1_trash_second"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room1_d2b_r3",
+          "char_key": "alex",
+          "char_state": "alex_neutral",
+          "position": "right",
+          "text_key": "room1_d2b_r3_loc"
+        },
+        {
+          "id": "room1_d2b_r4",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room1_d2b_r4_loc"
+        },
+        {
+          "id": "room1_d2b_r5",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room1_d2b_r5_loc"
         }
       ]
     },
