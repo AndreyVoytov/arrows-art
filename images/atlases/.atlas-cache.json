@@ -212,14 +212,14 @@
     },
     "ui_panel": {
       "sourceDir": "images/ui/panel",
-      "digest": "c84998ee3e450055f57004edfd42569258ef509cc41334c27f1bfccd7167567b",
+      "digest": "577f264a8fc008882de7010ad4a853d7b3cd110f3538219f56c951b7c269b1cb",
       "outputs": [
         "images/atlases/ui_panel.png",
         "images/atlases/ui_panel.webp",
         "images/atlases/ui_panel.json",
         "images/atlases/ui_panel.webp.json"
       ],
-      "updatedAt": "2026-07-21T21:30:04.947008+00:00"
+      "updatedAt": "2026-07-22T09:06:36.889451+00:00"
     },
     "ui_preloader": {
       "sourceDir": "images/ui/preloader",
