@@ -201,8 +201,8 @@
       "multiobjects": [
         "room1_trash"
       ],
-      "x": 212,
-      "y": 632
+      "x": 360.5,
+      "y": 798.5
     },
     {
       "key": "room1_broken_door",
@@ -573,9 +573,9 @@
     {
       "key": "room1_trash",
       "parts": [
+        "room1_trash_1",
         "room1_trash_2",
-        "room1_trash_3",
-        "room1_trash_1"
+        "room1_trash_3"
       ],
       "price": 0,
       "priceType": "coins"
@@ -953,6 +953,14 @@
       "angle": null
     },
     {
+      "key": "room1_trash_1",
+      "type": "repair",
+      "atlas_name": "rooms_room1-repair",
+      "x": 360.5,
+      "y": 798.5,
+      "angle": 0
+    },
+    {
       "key": "room1_trash_2",
       "type": "repair",
       "atlas_name": "rooms_room1-repair",
@@ -964,16 +972,8 @@
       "key": "room1_trash_3",
       "type": "repair",
       "atlas_name": "rooms_room1-repair",
-      "x": 360.5,
-      "y": 798.5,
-      "angle": 0
-    },
-    {
-      "key": "room1_trash_1",
-      "type": "repair",
-      "atlas_name": "rooms_room1-repair",
       "x": 77,
-      "y": 703,
+      "y": 704,
       "angle": 0
     },
     {
@@ -1073,7 +1073,7 @@
         {
           "id": "room1_d2_r5",
           "char_key": "anna",
-          "char_state": "anna_neutral",
+          "char_state": "anna_happy",
           "position": "left",
           "text_key": "room1_d2_r5_loc"
         },
@@ -1134,7 +1134,7 @@
         {
           "id": "room1_d3_r1",
           "char_key": "mary",
-          "char_state": "mary_neutral",
+          "char_state": "mary_angry",
           "position": "right",
           "text_key": "room1_d3_r1_loc"
         },
@@ -1514,7 +1514,7 @@
         {
           "id": "room1_d8_r4",
           "char_key": "anna",
-          "char_state": "anna_neutral",
+          "char_state": "anna_happy",
           "position": "left",
           "text_key": "room1_d8_r4_loc"
         },

@@ -19,7 +19,7 @@
         "room3_walls_variant_2",
         "room3_walls_variant_3"
       ],
-      "x": 360,
+      "x": 538.5,
       "y": 335.5
     },
     {
@@ -191,7 +191,8 @@
     {
       "key": "room3_walls",
       "parts": [
-        "room3_walls_A"
+        "room3_walls_A_2",
+        "room3_walls_A_1"
       ],
       "price": 99999,
       "priceType": "coins"
@@ -199,7 +200,8 @@
     {
       "key": "room3_walls_variant_2",
       "parts": [
-        "room3_walls_B"
+        "room3_walls_B_2",
+        "room3_walls_B_1"
       ],
       "price": 99999,
       "priceType": "coins"
@@ -207,7 +209,8 @@
     {
       "key": "room3_walls_variant_3",
       "parts": [
-        "room3_walls_C"
+        "room3_walls_C_2",
+        "room3_walls_C_1"
       ],
       "price": 99999,
       "priceType": "coins"
@@ -456,26 +459,50 @@
   "allPartsOrderComment": "Порядок — по слоям варианта A; варианты A/B/C рядом.",
   "allParts": [
     {
-      "key": "room3_walls_A",
+      "key": "room3_walls_A_2",
       "type": "decor",
       "atlas_name": "rooms_room3-surfaces",
-      "x": 360,
+      "x": 538.5,
       "y": 335.5,
       "angle": 180
     },
     {
-      "key": "room3_walls_B",
+      "key": "room3_walls_A_1",
       "type": "decor",
       "atlas_name": "rooms_room3-surfaces",
-      "x": 360,
+      "x": 181.5,
       "y": 335.5,
       "angle": 180
     },
     {
-      "key": "room3_walls_C",
+      "key": "room3_walls_B_2",
       "type": "decor",
       "atlas_name": "rooms_room3-surfaces",
-      "x": 360,
+      "x": 538.5,
+      "y": 335.5,
+      "angle": 180
+    },
+    {
+      "key": "room3_walls_B_1",
+      "type": "decor",
+      "atlas_name": "rooms_room3-surfaces",
+      "x": 181.5,
+      "y": 335.5,
+      "angle": 180
+    },
+    {
+      "key": "room3_walls_C_2",
+      "type": "decor",
+      "atlas_name": "rooms_room3-surfaces",
+      "x": 538.5,
+      "y": 335,
+      "angle": 180
+    },
+    {
+      "key": "room3_walls_C_1",
+      "type": "decor",
+      "atlas_name": "rooms_room3-surfaces",
+      "x": 181.5,
       "y": 335.5,
       "angle": 180
     },
@@ -732,6 +759,41 @@
       ],
       "award": null,
       "replicas": [
+        {
+          "id": "room3_d1_r3",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room3_d1_r3_loc"
+        },
+        {
+          "id": "room3_d1_r4",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "right",
+          "text_key": "room3_d1_r4_loc"
+        },
+        {
+          "id": "room3_d1_r5",
+          "char_key": "anna",
+          "char_state": "anna_sad",
+          "position": "left",
+          "text_key": "room3_d1_r5_loc"
+        },
+        {
+          "id": "room3_d1_r6",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "right",
+          "text_key": "room3_d1_r6_loc"
+        },
+        {
+          "id": "room3_d1_r7",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room3_d1_r7_loc"
+        },
         {
           "id": "room3_d1_r1",
           "char_key": "anna",

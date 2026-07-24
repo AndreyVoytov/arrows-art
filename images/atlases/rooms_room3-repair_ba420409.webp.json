@@ -1,0 +1,36 @@
+{
+  "frames": {
+    "room3_room_bg": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 960
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 960
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 960
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "12",
+    "image": "rooms_room3-repair_ba420409.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1024,
+      "h": 960
+    },
+    "scale": "1",
+    "sourceDir": "images/rooms/room3-repair"
+  }
+}
