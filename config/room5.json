@@ -7,7 +7,35 @@
     "rooms_room5-decor"
   ],
   "content": {
-    "actionPointOrder": []
+    "actionPointOrder": [
+      "room5_old_armchair",
+      "room5_old_storage_chest",
+      "room5_old_desk_things",
+      "room5_old_rug",
+      "room5_old_daybed",
+      "room5_old_desk",
+      "room5_old_plant",
+      "room5_old_chest_books_boxes",
+      "room5_old_pendant_light",
+      "room5_old_attic_window",
+      "room5_old_bookcase",
+      "room5_old_wall_picture_left",
+      "room5_old_floor",
+      "room5_old_walls",
+      "room5_floor",
+      "room5_walls",
+      "room5_attic_window",
+      "room5_pendant_light",
+      "room5_rug",
+      "room5_bookcase",
+      "room5_desk",
+      "room5_daybed",
+      "room5_wall_picture",
+      "room5_chest_books_boxes",
+      "room5_plant",
+      "room5_desk_books_lamp",
+      "room5_armchair"
+    ]
   },
   "allActionPoints": [
     {
@@ -19,8 +47,8 @@
         "room5_walls_variant_2",
         "room5_walls_variant_3"
       ],
-      "x": 360,
-      "y": 317.5
+      "x": 426,
+      "y": 267.5
     },
     {
       "key": "room5_floor",
@@ -31,32 +59,20 @@
         "room5_floor_variant_2",
         "room5_floor_variant_3"
       ],
-      "x": 360,
-      "y": 681
+      "x": 277,
+      "y": 644
     },
     {
-      "key": "room5_wall_picture_left",
+      "key": "room5_wall_picture",
       "type": "decor",
-      "name_key": "room5_wall_picture_left_loc",
+      "name_key": "room5_wall_picture_loc",
       "multiobjects": [
-        "room5_wall_picture_left",
-        "room5_wall_picture_left_variant_2",
-        "room5_wall_picture_left_variant_3"
+        "room5_wall_picture",
+        "room5_wall_picture_variant_2",
+        "room5_wall_picture_variant_3"
       ],
-      "x": 85,
-      "y": 339
-    },
-    {
-      "key": "room5_wall_picture_right",
-      "type": "decor",
-      "name_key": "room5_wall_picture_right_loc",
-      "multiobjects": [
-        "room5_wall_picture_right",
-        "room5_wall_picture_right_variant_2",
-        "room5_wall_picture_right_variant_3"
-      ],
-      "x": 206.5,
-      "y": 291.5
+      "x": 94,
+      "y": 338
     },
     {
       "key": "room5_attic_window",
@@ -79,8 +95,8 @@
         "room5_bookcase_variant_2",
         "room5_bookcase_variant_3"
       ],
-      "x": 365.5,
-      "y": 383.5
+      "x": 336.5,
+      "y": 358.5
     },
     {
       "key": "room5_plant",
@@ -91,8 +107,8 @@
         "room5_plant_variant_2",
         "room5_plant_variant_3"
       ],
-      "x": 345.5,
-      "y": 296.5
+      "x": 316.5,
+      "y": 254.5
     },
     {
       "key": "room5_rug",
@@ -103,8 +119,8 @@
         "room5_rug_variant_2",
         "room5_rug_variant_3"
       ],
-      "x": 380,
-      "y": 711.5
+      "x": 369,
+      "y": 690.5
     },
     {
       "key": "room5_daybed",
@@ -115,8 +131,8 @@
         "room5_daybed_variant_2",
         "room5_daybed_variant_3"
       ],
-      "x": 180,
-      "y": 503.5
+      "x": 190,
+      "y": 478.5
     },
     {
       "key": "room5_desk",
@@ -151,8 +167,8 @@
         "room5_armchair_variant_2",
         "room5_armchair_variant_3"
       ],
-      "x": 404.5,
-      "y": 585
+      "x": 381.5,
+      "y": 562
     },
     {
       "key": "room5_pendant_light",
@@ -167,18 +183,6 @@
       "y": 140
     },
     {
-      "key": "room5_storage_chest",
-      "type": "decor",
-      "name_key": "room5_storage_chest_loc",
-      "multiobjects": [
-        "room5_storage_chest",
-        "room5_storage_chest_variant_2",
-        "room5_storage_chest_variant_3"
-      ],
-      "x": 635.5,
-      "y": 626
-    },
-    {
       "key": "room5_chest_books_boxes",
       "type": "decor",
       "name_key": "room5_chest_books_boxes_loc",
@@ -187,53 +191,184 @@
         "room5_chest_books_boxes_variant_2",
         "room5_chest_books_boxes_variant_3"
       ],
-      "x": 638,
-      "y": 583.5
+      "x": 632.5,
+      "y": 607
     },
     {
-      "key": "room5_pillars",
-      "type": "decor",
-      "name_key": "room5_pillars_loc",
+      "key": "room5_old_walls",
+      "type": "repair",
+      "name_key": "room5_old_walls_loc",
       "multiobjects": [
-        "room5_pillars",
-        "room5_pillars_variant_2",
-        "room5_pillars_variant_3"
+        "room5_old_walls"
       ],
-      "x": 362.5,
-      "y": 405.5
+      "x": 420,
+      "y": 277.5
+    },
+    {
+      "key": "room5_old_floor",
+      "type": "repair",
+      "name_key": "room5_old_floor_loc",
+      "multiobjects": [
+        "room5_old_floor"
+      ],
+      "x": 423,
+      "y": 614.5
+    },
+    {
+      "key": "room5_old_wall_picture_left",
+      "type": "repair",
+      "name_key": "room5_old_wall_picture_left_loc",
+      "multiobjects": [
+        "room5_old_wall_picture_left"
+      ],
+      "x": 131,
+      "y": 343
+    },
+    {
+      "key": "room5_old_attic_window",
+      "type": "repair",
+      "name_key": "room5_old_attic_window_loc",
+      "multiobjects": [
+        "room5_old_attic_window"
+      ],
+      "x": 534.5,
+      "y": 241.5
+    },
+    {
+      "key": "room5_old_bookcase",
+      "type": "repair",
+      "name_key": "room5_old_bookcase_loc",
+      "multiobjects": [
+        "room5_old_bookcase"
+      ],
+      "x": 329,
+      "y": 344.5
+    },
+    {
+      "key": "room5_old_plant",
+      "type": "repair",
+      "name_key": "room5_old_plant_loc",
+      "multiobjects": [
+        "room5_old_plant"
+      ],
+      "x": 309,
+      "y": 238.5
+    },
+    {
+      "key": "room5_old_rug",
+      "type": "repair",
+      "name_key": "room5_old_rug_loc",
+      "multiobjects": [
+        "room5_old_rug"
+      ],
+      "x": 274,
+      "y": 703.5
+    },
+    {
+      "key": "room5_old_daybed",
+      "type": "repair",
+      "name_key": "room5_old_daybed_loc",
+      "multiobjects": [
+        "room5_old_daybed"
+      ],
+      "x": 201,
+      "y": 483
+    },
+    {
+      "key": "room5_old_desk",
+      "type": "repair",
+      "name_key": "room5_old_desk_loc",
+      "multiobjects": [
+        "room5_old_desk"
+      ],
+      "x": 508,
+      "y": 505
+    },
+    {
+      "key": "room5_old_desk_things",
+      "type": "repair",
+      "name_key": "room5_old_desk_things_loc",
+      "multiobjects": [
+        "room5_old_desk_things"
+      ],
+      "x": 463.5,
+      "y": 423.5
+    },
+    {
+      "key": "room5_old_chest_books_boxes",
+      "type": "repair",
+      "name_key": "room5_old_chest_books_boxes_loc",
+      "multiobjects": [
+        "room5_old_chest_books_boxes"
+      ],
+      "x": 617,
+      "y": 618.5
+    },
+    {
+      "key": "room5_old_armchair",
+      "type": "repair",
+      "name_key": "room5_old_armchair_loc",
+      "multiobjects": [
+        "room5_old_armchair"
+      ],
+      "x": 354,
+      "y": 655.5
+    },
+    {
+      "key": "room5_old_pendant_light",
+      "type": "repair",
+      "name_key": "room5_old_pendant_light_loc",
+      "multiobjects": [
+        "room5_old_pendant_light"
+      ],
+      "x": 442.5,
+      "y": 139.5
+    },
+    {
+      "key": "room5_old_storage_chest",
+      "type": "repair",
+      "name_key": "room5_old_storage_chest_loc",
+      "multiobjects": [
+        "room5_old_storage_chest"
+      ],
+      "x": 87.5,
+      "y": 648.5
     }
   ],
   "allMultiobjects": [
     {
       "key": "room5_walls",
       "parts": [
-        "room5_walls_A"
+        "room5_walls_A_1",
+        "room5_walls_A_2"
       ],
-      "price": 99999,
+      "price": 555,
       "priceType": "coins"
     },
     {
       "key": "room5_walls_variant_2",
       "parts": [
-        "room5_walls_B"
+        "room5_walls_B_1",
+        "room5_walls_B_2"
       ],
-      "price": 99999,
+      "price": 710,
       "priceType": "coins"
     },
     {
       "key": "room5_walls_variant_3",
       "parts": [
-        "room5_walls_C"
+        "room5_walls_C_1",
+        "room5_walls_C_2"
       ],
-      "price": 99999,
-      "priceType": "coins"
+      "price": 10,
+      "priceType": "diamonds"
     },
     {
       "key": "room5_floor",
       "parts": [
         "room5_floor_A"
       ],
-      "price": 99999,
+      "price": 540,
       "priceType": "coins"
     },
     {
@@ -241,7 +376,7 @@
       "parts": [
         "room5_floor_B"
       ],
-      "price": 99999,
+      "price": 690,
       "priceType": "coins"
     },
     {
@@ -249,63 +384,42 @@
       "parts": [
         "room5_floor_C"
       ],
-      "price": 99999,
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room5_wall_picture",
+      "parts": [
+        "room5_wall_picture_A_2",
+        "room5_wall_picture_A_1"
+      ],
+      "price": 465,
       "priceType": "coins"
     },
     {
-      "key": "room5_wall_picture_left",
+      "key": "room5_wall_picture_variant_2",
       "parts": [
-        "room5_wall_picture_left_A"
+        "room5_wall_picture_B_2",
+        "room5_wall_picture_B_1"
       ],
-      "price": 99999,
+      "price": 595,
       "priceType": "coins"
     },
     {
-      "key": "room5_wall_picture_left_variant_2",
+      "key": "room5_wall_picture_variant_3",
       "parts": [
-        "room5_wall_picture_left_B"
+        "room5_wall_picture_C_2",
+        "room5_wall_picture_C_1"
       ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room5_wall_picture_left_variant_3",
-      "parts": [
-        "room5_wall_picture_left_C"
-      ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room5_wall_picture_right",
-      "parts": [
-        "room5_wall_picture_right_A"
-      ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room5_wall_picture_right_variant_2",
-      "parts": [
-        "room5_wall_picture_right_B"
-      ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room5_wall_picture_right_variant_3",
-      "parts": [
-        "room5_wall_picture_right_C"
-      ],
-      "price": 99999,
-      "priceType": "coins"
+      "price": 5,
+      "priceType": "diamonds"
     },
     {
       "key": "room5_attic_window",
       "parts": [
         "room5_attic_window_A"
       ],
-      "price": 99999,
+      "price": 555,
       "priceType": "coins"
     },
     {
@@ -313,7 +427,7 @@
       "parts": [
         "room5_attic_window_B"
       ],
-      "price": 99999,
+      "price": 710,
       "priceType": "coins"
     },
     {
@@ -321,15 +435,15 @@
       "parts": [
         "room5_attic_window_C"
       ],
-      "price": 99999,
-      "priceType": "coins"
+      "price": 10,
+      "priceType": "diamonds"
     },
     {
       "key": "room5_bookcase",
       "parts": [
         "room5_bookcase_A"
       ],
-      "price": 99999,
+      "price": 555,
       "priceType": "coins"
     },
     {
@@ -337,7 +451,7 @@
       "parts": [
         "room5_bookcase_B"
       ],
-      "price": 99999,
+      "price": 710,
       "priceType": "coins"
     },
     {
@@ -345,15 +459,15 @@
       "parts": [
         "room5_bookcase_C"
       ],
-      "price": 99999,
-      "priceType": "coins"
+      "price": 10,
+      "priceType": "diamonds"
     },
     {
       "key": "room5_plant",
       "parts": [
         "room5_plant_A"
       ],
-      "price": 99999,
+      "price": 555,
       "priceType": "coins"
     },
     {
@@ -361,7 +475,7 @@
       "parts": [
         "room5_plant_B"
       ],
-      "price": 99999,
+      "price": 710,
       "priceType": "coins"
     },
     {
@@ -369,15 +483,15 @@
       "parts": [
         "room5_plant_C"
       ],
-      "price": 99999,
-      "priceType": "coins"
+      "price": 10,
+      "priceType": "diamonds"
     },
     {
       "key": "room5_rug",
       "parts": [
         "room5_rug_A"
       ],
-      "price": 99999,
+      "price": 555,
       "priceType": "coins"
     },
     {
@@ -385,7 +499,7 @@
       "parts": [
         "room5_rug_B"
       ],
-      "price": 99999,
+      "price": 710,
       "priceType": "coins"
     },
     {
@@ -393,15 +507,15 @@
       "parts": [
         "room5_rug_C"
       ],
-      "price": 99999,
-      "priceType": "coins"
+      "price": 10,
+      "priceType": "diamonds"
     },
     {
       "key": "room5_daybed",
       "parts": [
         "room5_daybed_A"
       ],
-      "price": 99999,
+      "price": 555,
       "priceType": "coins"
     },
     {
@@ -409,7 +523,7 @@
       "parts": [
         "room5_daybed_B"
       ],
-      "price": 99999,
+      "price": 710,
       "priceType": "coins"
     },
     {
@@ -417,15 +531,15 @@
       "parts": [
         "room5_daybed_C"
       ],
-      "price": 99999,
-      "priceType": "coins"
+      "price": 10,
+      "priceType": "diamonds"
     },
     {
       "key": "room5_desk",
       "parts": [
         "room5_desk_A"
       ],
-      "price": 99999,
+      "price": 505,
       "priceType": "coins"
     },
     {
@@ -433,7 +547,7 @@
       "parts": [
         "room5_desk_B"
       ],
-      "price": 99999,
+      "price": 645,
       "priceType": "coins"
     },
     {
@@ -441,15 +555,15 @@
       "parts": [
         "room5_desk_C"
       ],
-      "price": 99999,
-      "priceType": "coins"
+      "price": 10,
+      "priceType": "diamonds"
     },
     {
       "key": "room5_desk_books_lamp",
       "parts": [
         "room5_desk_books_lamp_A"
       ],
-      "price": 99999,
+      "price": 590,
       "priceType": "coins"
     },
     {
@@ -457,7 +571,7 @@
       "parts": [
         "room5_desk_books_lamp_B"
       ],
-      "price": 99999,
+      "price": 755,
       "priceType": "coins"
     },
     {
@@ -465,15 +579,15 @@
       "parts": [
         "room5_desk_books_lamp_C"
       ],
-      "price": 99999,
-      "priceType": "coins"
+      "price": 10,
+      "priceType": "diamonds"
     },
     {
       "key": "room5_armchair",
       "parts": [
         "room5_armchair_A"
       ],
-      "price": 99999,
+      "price": 535,
       "priceType": "coins"
     },
     {
@@ -481,7 +595,7 @@
       "parts": [
         "room5_armchair_B"
       ],
-      "price": 99999,
+      "price": 685,
       "priceType": "coins"
     },
     {
@@ -489,15 +603,15 @@
       "parts": [
         "room5_armchair_C"
       ],
-      "price": 99999,
-      "priceType": "coins"
+      "price": 10,
+      "priceType": "diamonds"
     },
     {
       "key": "room5_pendant_light",
       "parts": [
         "room5_pendant_light_A"
       ],
-      "price": 99999,
+      "price": 545,
       "priceType": "coins"
     },
     {
@@ -505,7 +619,7 @@
       "parts": [
         "room5_pendant_light_B"
       ],
-      "price": 99999,
+      "price": 700,
       "priceType": "coins"
     },
     {
@@ -513,86 +627,155 @@
       "parts": [
         "room5_pendant_light_C"
       ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room5_storage_chest",
-      "parts": [
-        "room5_storage_chest_A"
-      ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room5_storage_chest_variant_2",
-      "parts": [
-        "room5_storage_chest_B"
-      ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room5_storage_chest_variant_3",
-      "parts": [
-        "room5_storage_chest_C"
-      ],
-      "price": 99999,
-      "priceType": "coins"
+      "price": 10,
+      "priceType": "diamonds"
     },
     {
       "key": "room5_chest_books_boxes",
       "parts": [
-        "room5_chest_books_boxes_A"
+        "room5_chest_books_boxes_A_1",
+        "room5_chest_books_boxes_A_2"
       ],
-      "price": 99999,
+      "price": 515,
       "priceType": "coins"
     },
     {
       "key": "room5_chest_books_boxes_variant_2",
       "parts": [
-        "room5_chest_books_boxes_B"
+        "room5_chest_books_boxes_B_1",
+        "room5_chest_books_boxes_B_2"
       ],
-      "price": 99999,
+      "price": 660,
       "priceType": "coins"
     },
     {
       "key": "room5_chest_books_boxes_variant_3",
       "parts": [
-        "room5_chest_books_boxes_C"
+        "room5_chest_books_boxes_C_1",
+        "room5_chest_books_boxes_C_2"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room5_old_walls",
+      "parts": [
+        "room5_old_walls"
+      ],
+      "price": 220,
+      "priceType": "coins"
+    },
+    {
+      "key": "room5_old_floor",
+      "parts": [
+        "room5_old_floor"
+      ],
+      "price": 220,
+      "priceType": "coins"
+    },
+    {
+      "key": "room5_old_wall_picture_left",
+      "parts": [
+        "room5_old_wall_picture_left"
+      ],
+      "price": 220,
+      "priceType": "coins"
+    },
+    {
+      "key": "room5_old_attic_window",
+      "parts": [
+        "room5_old_attic_window"
+      ],
+      "price": 215,
+      "priceType": "coins"
+    },
+    {
+      "key": "room5_old_bookcase",
+      "parts": [
+        "room5_old_bookcase"
+      ],
+      "price": 240,
+      "priceType": "coins"
+    },
+    {
+      "key": "room5_old_plant",
+      "parts": [
+        "room5_old_plant"
+      ],
+      "price": 235,
+      "priceType": "coins"
+    },
+    {
+      "key": "room5_old_rug",
+      "parts": [
+        "room5_old_rug"
+      ],
+      "price": 200,
+      "priceType": "coins"
+    },
+    {
+      "key": "room5_old_daybed",
+      "parts": [
+        "room5_old_daybed"
+      ],
+      "price": 245,
+      "priceType": "coins"
+    },
+    {
+      "key": "room5_old_desk",
+      "parts": [
+        "room5_old_desk"
+      ],
+      "price": 260,
+      "priceType": "coins"
+    },
+    {
+      "key": "room5_old_desk_things",
+      "parts": [
+        "room5_old_desk_things_3",
+        "room5_old_desk_things_2",
+        "room5_old_desk_things_1"
+      ],
+      "price": 90,
+      "priceType": "coins"
+    },
+    {
+      "key": "room5_old_chest_books_boxes",
+      "parts": [
+        "room5_old_chest_books_boxes"
+      ],
+      "price": 235,
+      "priceType": "coins"
+    },
+    {
+      "key": "room5_old_armchair",
+      "parts": [
+        "room5_old_armchair"
       ],
       "price": 99999,
       "priceType": "coins"
     },
     {
-      "key": "room5_pillars",
+      "key": "room5_old_pendant_light",
       "parts": [
-        "room5_pillars_A"
+        "room5_old_pendant_light"
       ],
-      "price": 99999,
+      "price": 215,
       "priceType": "coins"
     },
     {
-      "key": "room5_pillars_variant_2",
+      "key": "room5_old_storage_chest",
       "parts": [
-        "room5_pillars_B"
+        "room5_old_storage_chest"
       ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room5_pillars_variant_3",
-      "parts": [
-        "room5_pillars_C"
-      ],
-      "price": 99999,
+      "price": 90,
       "priceType": "coins"
     }
   ],
   "allPartsOrderComment": "Порядок — по слоям варианта A; варианты A/B/C рядом.",
   "allParts": [
     {
-      "key": "room5_walls_A",
+      "key": "room5_walls_A_1",
       "type": "decor",
       "atlas_name": "rooms_room5-surfaces",
       "x": 360,
@@ -600,7 +783,15 @@
       "angle": 180
     },
     {
-      "key": "room5_walls_B",
+      "key": "room5_walls_A_2",
+      "type": "decor",
+      "atlas_name": "rooms_room5-surfaces",
+      "x": 362.5,
+      "y": 405.5,
+      "angle": 180
+    },
+    {
+      "key": "room5_walls_B_1",
       "type": "decor",
       "atlas_name": "rooms_room5-surfaces",
       "x": 360,
@@ -608,11 +799,27 @@
       "angle": 180
     },
     {
-      "key": "room5_walls_C",
+      "key": "room5_walls_B_2",
+      "type": "decor",
+      "atlas_name": "rooms_room5-surfaces",
+      "x": 362.5,
+      "y": 412.5,
+      "angle": 180
+    },
+    {
+      "key": "room5_walls_C_1",
       "type": "decor",
       "atlas_name": "rooms_room5-surfaces",
       "x": 360,
       "y": 316.5,
+      "angle": 180
+    },
+    {
+      "key": "room5_walls_C_2",
+      "type": "decor",
+      "atlas_name": "rooms_room5-surfaces",
+      "x": 362.5,
+      "y": 406.5,
       "angle": 180
     },
     {
@@ -640,7 +847,7 @@
       "angle": 180
     },
     {
-      "key": "room5_wall_picture_left_A",
+      "key": "room5_wall_picture_A_2",
       "type": "decor",
       "atlas_name": "rooms_room5-surfaces",
       "x": 85,
@@ -648,23 +855,7 @@
       "angle": 180
     },
     {
-      "key": "room5_wall_picture_left_B",
-      "type": "decor",
-      "atlas_name": "rooms_room5-surfaces",
-      "x": 87.5,
-      "y": 337,
-      "angle": 180
-    },
-    {
-      "key": "room5_wall_picture_left_C",
-      "type": "decor",
-      "atlas_name": "rooms_room5-surfaces",
-      "x": 84,
-      "y": 338.5,
-      "angle": 180
-    },
-    {
-      "key": "room5_wall_picture_right_A",
+      "key": "room5_wall_picture_A_1",
       "type": "decor",
       "atlas_name": "rooms_room5-surfaces",
       "x": 206.5,
@@ -672,7 +863,15 @@
       "angle": 180
     },
     {
-      "key": "room5_wall_picture_right_B",
+      "key": "room5_wall_picture_B_2",
+      "type": "decor",
+      "atlas_name": "rooms_room5-surfaces",
+      "x": 87.5,
+      "y": 337,
+      "angle": 180
+    },
+    {
+      "key": "room5_wall_picture_B_1",
       "type": "decor",
       "atlas_name": "rooms_room5-surfaces",
       "x": 208.5,
@@ -680,7 +879,15 @@
       "angle": 180
     },
     {
-      "key": "room5_wall_picture_right_C",
+      "key": "room5_wall_picture_C_2",
+      "type": "decor",
+      "atlas_name": "rooms_room5-surfaces",
+      "x": 84,
+      "y": 338.5,
+      "angle": 180
+    },
+    {
+      "key": "room5_wall_picture_C_1",
       "type": "decor",
       "atlas_name": "rooms_room5-surfaces",
       "x": 206.5,
@@ -904,7 +1111,7 @@
       "angle": 180
     },
     {
-      "key": "room5_storage_chest_A",
+      "key": "room5_chest_books_boxes_A_1",
       "type": "decor",
       "atlas_name": "rooms_room5-decor",
       "x": 635.5,
@@ -912,23 +1119,7 @@
       "angle": 180
     },
     {
-      "key": "room5_storage_chest_B",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 631,
-      "y": 624,
-      "angle": 180
-    },
-    {
-      "key": "room5_storage_chest_C",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 634.5,
-      "y": 623,
-      "angle": 180
-    },
-    {
-      "key": "room5_chest_books_boxes_A",
+      "key": "room5_chest_books_boxes_A_2",
       "type": "decor",
       "atlas_name": "rooms_room5-decor",
       "x": 638,
@@ -936,7 +1127,15 @@
       "angle": 180
     },
     {
-      "key": "room5_chest_books_boxes_B",
+      "key": "room5_chest_books_boxes_B_1",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 631,
+      "y": 624,
+      "angle": 180
+    },
+    {
+      "key": "room5_chest_books_boxes_B_2",
       "type": "decor",
       "atlas_name": "rooms_room5-decor",
       "x": 642.5,
@@ -944,7 +1143,15 @@
       "angle": 180
     },
     {
-      "key": "room5_chest_books_boxes_C",
+      "key": "room5_chest_books_boxes_C_1",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 634.5,
+      "y": 623,
+      "angle": 180
+    },
+    {
+      "key": "room5_chest_books_boxes_C_2",
       "type": "decor",
       "atlas_name": "rooms_room5-decor",
       "x": 635,
@@ -952,28 +1159,132 @@
       "angle": 180
     },
     {
-      "key": "room5_pillars_A",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 362.5,
-      "y": 405.5,
-      "angle": 180
+      "key": "room5_old_walls",
+      "type": "repair",
+      "atlas_name": "rooms_room5-repair",
+      "x": 360,
+      "y": 325.5,
+      "angle": 0
     },
     {
-      "key": "room5_pillars_B",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 362,
-      "y": 409,
-      "angle": 180
+      "key": "room5_old_floor",
+      "type": "repair",
+      "atlas_name": "rooms_room5-repair",
+      "x": 360,
+      "y": 681.5,
+      "angle": 0
     },
     {
-      "key": "room5_pillars_C",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 362,
-      "y": 403,
-      "angle": 180
+      "key": "room5_old_wall_picture_left",
+      "type": "repair",
+      "atlas_name": "rooms_room5-repair",
+      "x": 131,
+      "y": 343,
+      "angle": 0
+    },
+    {
+      "key": "room5_old_attic_window",
+      "type": "repair",
+      "atlas_name": "rooms_room5-repair",
+      "x": 546.5,
+      "y": 254.5,
+      "angle": 0
+    },
+    {
+      "key": "room5_old_bookcase",
+      "type": "repair",
+      "atlas_name": "rooms_room5-repair",
+      "x": 349,
+      "y": 375.5,
+      "angle": 0
+    },
+    {
+      "key": "room5_old_plant",
+      "type": "repair",
+      "atlas_name": "rooms_room5-repair",
+      "x": 309,
+      "y": 238.5,
+      "angle": 0
+    },
+    {
+      "key": "room5_old_rug",
+      "type": "repair",
+      "atlas_name": "rooms_room5-repair",
+      "x": 341,
+      "y": 761.5,
+      "angle": 0
+    },
+    {
+      "key": "room5_old_daybed",
+      "type": "repair",
+      "atlas_name": "rooms_room5-repair",
+      "x": 189,
+      "y": 502,
+      "angle": 0
+    },
+    {
+      "key": "room5_old_desk",
+      "type": "repair",
+      "atlas_name": "rooms_room5-repair",
+      "x": 508,
+      "y": 505,
+      "angle": 0
+    },
+    {
+      "key": "room5_old_desk_things_3",
+      "type": "repair",
+      "atlas_name": "rooms_room5-repair",
+      "x": 475.5,
+      "y": 460.5,
+      "angle": 0
+    },
+    {
+      "key": "room5_old_desk_things_2",
+      "type": "repair",
+      "atlas_name": "rooms_room5-repair",
+      "x": 578.5,
+      "y": 459.5,
+      "angle": 0
+    },
+    {
+      "key": "room5_old_desk_things_1",
+      "type": "repair",
+      "atlas_name": "rooms_room5-repair",
+      "x": 418,
+      "y": 406,
+      "angle": 0
+    },
+    {
+      "key": "room5_old_chest_books_boxes",
+      "type": "repair",
+      "atlas_name": "rooms_room5-repair",
+      "x": 617,
+      "y": 618.5,
+      "angle": 0
+    },
+    {
+      "key": "room5_old_armchair",
+      "type": "repair",
+      "atlas_name": "rooms_room5-repair",
+      "x": 329,
+      "y": 706.5,
+      "angle": 0
+    },
+    {
+      "key": "room5_old_pendant_light",
+      "type": "repair",
+      "atlas_name": "rooms_room5-repair",
+      "x": 442.5,
+      "y": 139.5,
+      "angle": 0
+    },
+    {
+      "key": "room5_old_storage_chest",
+      "type": "repair",
+      "atlas_name": "rooms_room5-repair",
+      "x": 94.5,
+      "y": 663.5,
+      "angle": 0
     }
   ],
   "award": 25

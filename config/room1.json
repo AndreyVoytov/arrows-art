@@ -171,8 +171,8 @@
       "multiobjects": [
         "room1_broken_wall_right"
       ],
-      "x": 552.5,
-      "y": 344
+      "x": 596.5,
+      "y": 312
     },
     {
       "key": "room1_broken_floor",
@@ -201,8 +201,8 @@
       "multiobjects": [
         "room1_trash"
       ],
-      "x": 360.5,
-      "y": 798.5
+      "x": 312.5,
+      "y": 737.5
     },
     {
       "key": "room1_broken_door",
@@ -231,8 +231,8 @@
       "multiobjects": [
         "room1_broken_window"
       ],
-      "x": 522,
-      "y": 366
+      "x": 513,
+      "y": 331
     },
     {
       "key": "room1_dead_plant",
@@ -1474,7 +1474,7 @@
           "id": "room1_d7_r10",
           "char_key": "anna",
           "char_state": "anna_neutral",
-          "position": "right",
+          "position": "left",
           "text_key": "room1_d7_r10_loc"
         }
       ]
