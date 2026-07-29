@@ -2264,7 +2264,7 @@
     "rooms_room1-decor": "_c65734c0",
     "rooms_room1-repair": "_caff95f8",
     "rooms_room1-surfaces": "_05cc1e60",
-    "rooms_room2-decor": "_f94deb3a",
+    "rooms_room2-decor": "_fc31c8d2",
     "rooms_room2-repair": "_251b063a",
     "rooms_room2-surfaces": "_9aa5c236",
     "rooms_room3-decor": "_0663ff6d",
@@ -2280,9 +2280,9 @@
     "rooms_room6-surfaces": "_3c0b0565",
     "ui_loader": "_7ced0120",
     "ui_lobby": "_a5a9bcf9",
-    "ui_panel": "_ae40b11f",
+    "ui_panel": "_8d71c695",
     "ui_preloader": "_92e9c179",
-    "ui_room_preview": "_9789c3ee",
+    "ui_room_preview": "_1510ac49",
     "ui_shop": "_48580bb8"
   },
   "constants": {

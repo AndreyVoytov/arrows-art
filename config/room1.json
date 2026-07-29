@@ -293,8 +293,8 @@
     {
       "key": "room1_walls",
       "parts": [
-        "room1_walls_A_2",
-        "room1_walls_A_1"
+        "room1_walls_A_1",
+        "room1_walls_A_2"
       ],
       "price": 130,
       "priceType": "coins"
@@ -302,8 +302,8 @@
     {
       "key": "room1_walls_variant_2",
       "parts": [
-        "room1_walls_B_2",
-        "room1_walls_B_1"
+        "room1_walls_B_1",
+        "room1_walls_B_2"
       ],
       "price": 165,
       "priceType": "coins"
@@ -311,8 +311,8 @@
     {
       "key": "room1_walls_variant_3",
       "parts": [
-        "room1_walls_C_2",
-        "room1_walls_C_1"
+        "room1_walls_C_1",
+        "room1_walls_C_2"
       ],
       "price": 5,
       "priceType": "diamonds"
@@ -564,8 +564,8 @@
       "key": "room1_trash_second",
       "parts": [
         "room1_trash_second_1",
-        "room1_trash_second_3",
-        "room1_trash_second_2"
+        "room1_trash_second_2",
+        "room1_trash_second_3"
       ],
       "price": 35,
       "priceType": "coins"
@@ -607,8 +607,8 @@
     {
       "key": "room1_dead_plant",
       "parts": [
-        "room1_dead_plant_2",
-        "room1_dead_plant_1"
+        "room1_dead_plant_1",
+        "room1_dead_plant_2"
       ],
       "price": 40,
       "priceType": "coins"

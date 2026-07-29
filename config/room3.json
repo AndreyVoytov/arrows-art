@@ -350,8 +350,8 @@
     {
       "key": "room3_walls",
       "parts": [
-        "room3_walls_A_2",
-        "room3_walls_A_1"
+        "room3_walls_A_1",
+        "room3_walls_A_2"
       ],
       "price": 325,
       "priceType": "coins"
@@ -359,8 +359,8 @@
     {
       "key": "room3_walls_variant_2",
       "parts": [
-        "room3_walls_B_2",
-        "room3_walls_B_1"
+        "room3_walls_B_1",
+        "room3_walls_B_2"
       ],
       "price": 415,
       "priceType": "coins"
@@ -368,8 +368,8 @@
     {
       "key": "room3_walls_variant_3",
       "parts": [
-        "room3_walls_C_2",
-        "room3_walls_C_1"
+        "room3_walls_C_1",
+        "room3_walls_C_2"
       ],
       "price": 5,
       "priceType": "diamonds"
@@ -823,7 +823,7 @@
       "atlas_name": "rooms_room3-decor",
       "x": 179,
       "y": 315.5,
-      "angle": 180
+      "angle": 315
     },
     {
       "key": "room3_window_B",
@@ -839,7 +839,7 @@
       "atlas_name": "rooms_room3-decor",
       "x": 179,
       "y": 314,
-      "angle": 180
+      "angle": 315
     },
     {
       "key": "room3_bathtub_A",
@@ -919,7 +919,7 @@
       "atlas_name": "rooms_room3-decor",
       "x": 530,
       "y": 295,
-      "angle": 180
+      "angle": 45
     },
     {
       "key": "room3_mirror_B",
@@ -935,7 +935,7 @@
       "atlas_name": "rooms_room3-decor",
       "x": 531.5,
       "y": 294,
-      "angle": 180
+      "angle": 45
     },
     {
       "key": "room3_towel_A",
@@ -991,7 +991,7 @@
       "atlas_name": "rooms_room3-decor",
       "x": 655.5,
       "y": 341.5,
-      "angle": 180
+      "angle": 45
     },
     {
       "key": "room3_small_picture_B",
@@ -1007,7 +1007,7 @@
       "atlas_name": "rooms_room3-decor",
       "x": 657.5,
       "y": 345,
-      "angle": 180
+      "angle": 45
     },
     {
       "key": "room3_old_wall2",
@@ -1015,7 +1015,7 @@
       "atlas_name": "rooms_room3-repair",
       "x": 538.5,
       "y": 347.5,
-      "angle": 0
+      "angle": null
     },
     {
       "key": "room3_old_wall1",
@@ -1023,7 +1023,7 @@
       "atlas_name": "rooms_room3-repair",
       "x": 181.5,
       "y": 343.5,
-      "angle": 0
+      "angle": null
     },
     {
       "key": "room3_old_floor",
@@ -1031,7 +1031,7 @@
       "atlas_name": "rooms_room3-repair",
       "x": 358,
       "y": 696.5,
-      "angle": 0
+      "angle": null
     },
     {
       "key": "room3_old_bathtub",
@@ -1047,7 +1047,7 @@
       "atlas_name": "rooms_room3-repair",
       "x": 512.5,
       "y": 303,
-      "angle": 0
+      "angle": 225
     },
     {
       "key": "room3_old_sink",
@@ -1087,7 +1087,7 @@
       "atlas_name": "rooms_room3-repair",
       "x": 645.5,
       "y": 339,
-      "angle": 0
+      "angle": 225
     },
     {
       "key": "room3_old_rubber_duck",
@@ -1111,7 +1111,7 @@
       "atlas_name": "rooms_room3-repair",
       "x": 166.5,
       "y": 307,
-      "angle": 0
+      "angle": 135
     }
   ],
   "dialogs": [

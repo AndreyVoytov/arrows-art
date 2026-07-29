@@ -72,8 +72,8 @@
         "room2_window_variant_2",
         "room2_window_variant_3"
       ],
-      "x": 200.5,
-      "y": 326.5
+      "x": 218.5,
+      "y": 524.5
     },
     {
       "key": "room2_nightstand_left",
@@ -348,8 +348,8 @@
     {
       "key": "room2_walls",
       "parts": [
-        "room2_walls_A_2",
-        "room2_walls_A_1"
+        "room2_walls_A_1",
+        "room2_walls_A_2"
       ],
       "price": 185,
       "priceType": "coins"
@@ -357,8 +357,8 @@
     {
       "key": "room2_walls_variant_2",
       "parts": [
-        "room2_walls_B_2",
-        "room2_walls_B_1"
+        "room2_walls_B_1",
+        "room2_walls_B_2"
       ],
       "price": 235,
       "priceType": "coins"
@@ -366,8 +366,8 @@
     {
       "key": "room2_walls_variant_3",
       "parts": [
-        "room2_walls_C_2",
-        "room2_walls_C_1"
+        "room2_walls_C_1",
+        "room2_walls_C_2"
       ],
       "price": 5,
       "priceType": "diamonds"
@@ -403,7 +403,8 @@
       "key": "room2_window",
       "parts": [
         "room2_window_A_1",
-        "room2_window_A_2"
+        "room2_window_A_2",
+        "room2_window_A_3"
       ],
       "price": 195,
       "priceType": "coins"
@@ -412,7 +413,8 @@
       "key": "room2_window_variant_2",
       "parts": [
         "room2_window_B_1",
-        "room2_window_B_2"
+        "room2_window_B_2",
+        "room2_window_B_3"
       ],
       "price": 250,
       "priceType": "coins"
@@ -421,7 +423,8 @@
       "key": "room2_window_variant_3",
       "parts": [
         "room2_window_C_1",
-        "room2_window_C_2"
+        "room2_window_C_2",
+        "room2_window_C_3"
       ],
       "price": 5,
       "priceType": "diamonds"
@@ -566,8 +569,8 @@
     {
       "key": "room2_window_decor",
       "parts": [
-        "room2_window_decor_A_2",
-        "room2_window_decor_A_1"
+        "room2_window_decor_A_1",
+        "room2_window_decor_A_2"
       ],
       "price": 230,
       "priceType": "coins"
@@ -575,8 +578,8 @@
     {
       "key": "room2_window_decor_variant_2",
       "parts": [
-        "room2_window_decor_B_2",
-        "room2_window_decor_B_1"
+        "room2_window_decor_B_1",
+        "room2_window_decor_B_2"
       ],
       "price": 295,
       "priceType": "coins"
@@ -584,8 +587,8 @@
     {
       "key": "room2_window_decor_variant_3",
       "parts": [
-        "room2_window_decor_C_2",
-        "room2_window_decor_C_1"
+        "room2_window_decor_C_1",
+        "room2_window_decor_C_2"
       ],
       "price": 5,
       "priceType": "diamonds"
@@ -644,9 +647,9 @@
     {
       "key": "room2_trash",
       "parts": [
-        "room2_trash_3",
+        "room2_trash_1",
         "room2_trash_2",
-        "room2_trash_1"
+        "room2_trash_3"
       ],
       "price": 65,
       "priceType": "coins"
@@ -654,8 +657,8 @@
     {
       "key": "room2_broken_curtains",
       "parts": [
-        "room2_broken_curtains_2",
-        "room2_broken_curtains_1"
+        "room2_broken_curtains_1",
+        "room2_broken_curtains_2"
       ],
       "price": 75,
       "priceType": "coins"
@@ -695,9 +698,9 @@
     {
       "key": "room2_broken_vanity_table",
       "parts": [
-        "room2_broken_vanity_table_3",
+        "room2_broken_vanity_table_1",
         "room2_broken_vanity_table_2",
-        "room2_broken_vanity_table_1"
+        "room2_broken_vanity_table_3"
       ],
       "price": 75,
       "priceType": "coins"
@@ -705,8 +708,8 @@
     {
       "key": "room2_vanity_stool",
       "parts": [
-        "room2_vanity_stool_2",
-        "room2_vanity_stool_1"
+        "room2_vanity_stool_1",
+        "room2_vanity_stool_2"
       ],
       "price": 40,
       "priceType": "coins"
@@ -722,8 +725,8 @@
     {
       "key": "room2_webbed_family_picture",
       "parts": [
-        "room2_webbed_family_picture_2",
-        "room2_webbed_family_picture_1"
+        "room2_webbed_family_picture_1",
+        "room2_webbed_family_picture_2"
       ],
       "price": 90,
       "priceType": "coins"
@@ -737,7 +740,7 @@
       "atlas_name": "rooms_room2-surfaces",
       "x": 538.5,
       "y": 335,
-      "angle": 45
+      "angle": 180
     },
     {
       "key": "room2_walls_A_1",
@@ -745,7 +748,7 @@
       "atlas_name": "rooms_room2-surfaces",
       "x": 181.5,
       "y": 335,
-      "angle": 315
+      "angle": 180
     },
     {
       "key": "room2_walls_B_2",
@@ -753,7 +756,7 @@
       "atlas_name": "rooms_room2-surfaces",
       "x": 538.5,
       "y": 335,
-      "angle": 45
+      "angle": 180
     },
     {
       "key": "room2_walls_B_1",
@@ -761,7 +764,7 @@
       "atlas_name": "rooms_room2-surfaces",
       "x": 181.5,
       "y": 335,
-      "angle": 315
+      "angle": 180
     },
     {
       "key": "room2_walls_C_2",
@@ -769,7 +772,7 @@
       "atlas_name": "rooms_room2-surfaces",
       "x": 538.5,
       "y": 335,
-      "angle": 45
+      "angle": 180
     },
     {
       "key": "room2_walls_C_1",
@@ -777,7 +780,7 @@
       "atlas_name": "rooms_room2-surfaces",
       "x": 181.5,
       "y": 335,
-      "angle": 315
+      "angle": 180
     },
     {
       "key": "room2_floor_A_1",
@@ -828,11 +831,19 @@
       "angle": 180
     },
     {
+      "key": "room2_window_A_3",
+      "type": "decor",
+      "atlas_name": "rooms_room2-decor",
+      "x": 222.5,
+      "y": 739.5,
+      "angle": null
+    },
+    {
       "key": "room2_window_A_1",
       "type": "decor",
       "atlas_name": "rooms_room2-decor",
-      "x": 204.5,
-      "y": 541.5,
+      "x": 195,
+      "y": 330,
       "angle": 315
     },
     {
@@ -844,11 +855,19 @@
       "angle": 315
     },
     {
+      "key": "room2_window_B_3",
+      "type": "decor",
+      "atlas_name": "rooms_room2-decor",
+      "x": 222.5,
+      "y": 739.5,
+      "angle": null
+    },
+    {
       "key": "room2_window_B_1",
       "type": "decor",
       "atlas_name": "rooms_room2-decor",
-      "x": 231.5,
-      "y": 501,
+      "x": 197,
+      "y": 329,
       "angle": 315
     },
     {
@@ -858,6 +877,14 @@
       "x": 195,
       "y": 356,
       "angle": 315
+    },
+    {
+      "key": "room2_window_C_3",
+      "type": "decor",
+      "atlas_name": "rooms_room2-decor",
+      "x": 222.5,
+      "y": 739.5,
+      "angle": null
     },
     {
       "key": "room2_window_C_1",

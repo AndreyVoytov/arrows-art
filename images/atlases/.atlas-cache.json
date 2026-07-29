@@ -113,14 +113,14 @@
     },
     "rooms_room2-decor": {
       "sourceDir": "images/rooms/room2-decor",
-      "digest": "f94deb3a9b9ac6ae3cf8d644b5cf398c9c8593fa13042c3db5995f2633ac6561",
+      "digest": "fc31c8d2d41de4ccd10e10ca96a3f5d3a4ac82280749d0b2e3cebec85545cca8",
       "outputs": [
-        "images/atlases/rooms_room2-decor_f94deb3a.png",
-        "images/atlases/rooms_room2-decor_f94deb3a.webp",
-        "images/atlases/rooms_room2-decor_f94deb3a.json",
-        "images/atlases/rooms_room2-decor_f94deb3a.webp.json"
+        "images/atlases/rooms_room2-decor_fc31c8d2.png",
+        "images/atlases/rooms_room2-decor_fc31c8d2.webp",
+        "images/atlases/rooms_room2-decor_fc31c8d2.json",
+        "images/atlases/rooms_room2-decor_fc31c8d2.webp.json"
       ],
-      "updatedAt": "2026-07-24T08:50:05.318862+00:00"
+      "updatedAt": "2026-07-29T13:52:07.566237+00:00"
     },
     "rooms_room2-repair": {
       "sourceDir": "images/rooms/room2-repair",
@@ -291,14 +291,14 @@
     },
     "ui_panel": {
       "sourceDir": "images/ui/panel",
-      "digest": "ae40b11f45f07147b216c377ccccc877da5f93731092fbc16449e342df7f9809",
+      "digest": "8d71c695671314c719bfc82c43718f1e8fd4589f9c832001a33f6604c929d773",
       "outputs": [
-        "images/atlases/ui_panel_ae40b11f.png",
-        "images/atlases/ui_panel_ae40b11f.webp",
-        "images/atlases/ui_panel_ae40b11f.json",
-        "images/atlases/ui_panel_ae40b11f.webp.json"
+        "images/atlases/ui_panel_8d71c695.png",
+        "images/atlases/ui_panel_8d71c695.webp",
+        "images/atlases/ui_panel_8d71c695.json",
+        "images/atlases/ui_panel_8d71c695.webp.json"
       ],
-      "updatedAt": "2026-07-22T10:43:30.225008+00:00"
+      "updatedAt": "2026-07-29T13:52:21.671657+00:00"
     },
     "ui_preloader": {
       "sourceDir": "images/ui/preloader",
@@ -313,14 +313,14 @@
     },
     "ui_room_preview": {
       "sourceDir": "images/ui/room_preview",
-      "digest": "9789c3ee364b3bcedbcdffeed6586eb2159787a92f3fbab2a96ff877e6641b6d",
+      "digest": "1510ac49859664880446f25fdcab3ccceb8fbc07b173bdc09c777b0df6eec157",
       "outputs": [
-        "images/atlases/ui_room_preview_9789c3ee.png",
-        "images/atlases/ui_room_preview_9789c3ee.webp",
-        "images/atlases/ui_room_preview_9789c3ee.json",
-        "images/atlases/ui_room_preview_9789c3ee.webp.json"
+        "images/atlases/ui_room_preview_1510ac49.png",
+        "images/atlases/ui_room_preview_1510ac49.webp",
+        "images/atlases/ui_room_preview_1510ac49.json",
+        "images/atlases/ui_room_preview_1510ac49.webp.json"
       ],
-      "updatedAt": "2026-07-22T10:43:34.223760+00:00"
+      "updatedAt": "2026-07-29T13:52:30.968621+00:00"
     },
     "ui_shop": {
       "sourceDir": "images/ui/shop",

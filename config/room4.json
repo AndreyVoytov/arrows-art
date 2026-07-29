@@ -448,8 +448,8 @@
     {
       "key": "room4_walls",
       "parts": [
-        "room4_walls_A_2",
-        "room4_walls_A_1"
+        "room4_walls_A_1",
+        "room4_walls_A_2"
       ],
       "price": 385,
       "priceType": "coins"
@@ -457,8 +457,8 @@
     {
       "key": "room4_walls_variant_2",
       "parts": [
-        "room4_walls_B_2",
-        "room4_walls_B_1"
+        "room4_walls_B_1",
+        "room4_walls_B_2"
       ],
       "price": 495,
       "priceType": "coins"
@@ -466,8 +466,8 @@
     {
       "key": "room4_walls_variant_3",
       "parts": [
-        "room4_walls_C_2",
-        "room4_walls_C_1"
+        "room4_walls_C_1",
+        "room4_walls_C_2"
       ],
       "price": 5,
       "priceType": "diamonds"
@@ -667,8 +667,8 @@
     {
       "key": "room4_chairs",
       "parts": [
-        "room4_chairs_A_2",
-        "room4_chairs_A_1"
+        "room4_chairs_A_1",
+        "room4_chairs_A_2"
       ],
       "price": 300,
       "priceType": "coins"
@@ -676,8 +676,8 @@
     {
       "key": "room4_chairs_variant_2",
       "parts": [
-        "room4_chairs_B_2",
-        "room4_chairs_B_1"
+        "room4_chairs_B_1",
+        "room4_chairs_B_2"
       ],
       "price": 520,
       "priceType": "coins"
@@ -685,8 +685,8 @@
     {
       "key": "room4_chairs_variant_3",
       "parts": [
-        "room4_chairs_C_2",
-        "room4_chairs_C_1"
+        "room4_chairs_C_1",
+        "room4_chairs_C_2"
       ],
       "price": 5,
       "priceType": "coins"
@@ -1157,7 +1157,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 168,
       "y": 310.5,
-      "angle": 180
+      "angle": 315
     },
     {
       "key": "room4_window_B",
@@ -1165,7 +1165,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 164,
       "y": 307.5,
-      "angle": 180
+      "angle": 315
     },
     {
       "key": "room4_window_C",
@@ -1173,7 +1173,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 166,
       "y": 318.5,
-      "angle": 180
+      "angle": 315
     },
     {
       "key": "room4_kitchen_sink_A",
@@ -1253,7 +1253,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 64.5,
       "y": 363,
-      "angle": 180
+      "angle": 315
     },
     {
       "key": "room4_dish_cabinet_B",
@@ -1261,7 +1261,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 64.5,
       "y": 364,
-      "angle": 180
+      "angle": 315
     },
     {
       "key": "room4_dish_cabinet_C",
@@ -1373,7 +1373,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 290,
       "y": 305.5,
-      "angle": 180
+      "angle": 315
     },
     {
       "key": "room4_utensil_set_B",
@@ -1381,7 +1381,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 289,
       "y": 305,
-      "angle": 180
+      "angle": 315
     },
     {
       "key": "room4_utensil_set_C",
@@ -1389,7 +1389,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 287,
       "y": 307,
-      "angle": 180
+      "angle": 315
     },
     {
       "key": "room4_extractor_A",
@@ -1397,7 +1397,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 460,
       "y": 215.5,
-      "angle": 180
+      "angle": 45
     },
     {
       "key": "room4_extractor_B",
@@ -1405,7 +1405,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 482.5,
       "y": 248.5,
-      "angle": 180
+      "angle": 45
     },
     {
       "key": "room4_extractor_C",
@@ -1413,7 +1413,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 470.5,
       "y": 249,
-      "angle": 180
+      "angle": 45
     },
     {
       "key": "room4_dish_shelf_A",
@@ -1421,7 +1421,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 575,
       "y": 353,
-      "angle": 180
+      "angle": 45
     },
     {
       "key": "room4_dish_shelf_B",
@@ -1429,7 +1429,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 576.5,
       "y": 353.5,
-      "angle": 180
+      "angle": 45
     },
     {
       "key": "room4_dish_shelf_C",
@@ -1437,7 +1437,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 578,
       "y": 372,
-      "angle": 180
+      "angle": 45
     },
     {
       "key": "room4_fridge_A",
@@ -1445,7 +1445,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 638.5,
       "y": 535.5,
-      "angle": 180
+      "angle": 45
     },
     {
       "key": "room4_fridge_B",
@@ -1453,7 +1453,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 638.5,
       "y": 536,
-      "angle": 180
+      "angle": 45
     },
     {
       "key": "room4_fridge_C",
@@ -1461,7 +1461,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 640.5,
       "y": 541.5,
-      "angle": 180
+      "angle": 45
     },
     {
       "key": "room4_cabinet_first_A",
@@ -1493,7 +1493,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 337.5,
       "y": 153,
-      "angle": 180
+      "angle": 0
     },
     {
       "key": "room4_pendant_lamps_B",
@@ -1501,7 +1501,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 338.5,
       "y": 151,
-      "angle": 180
+      "angle": 0
     },
     {
       "key": "room4_pendant_lamps_C",
@@ -1509,7 +1509,7 @@
       "atlas_name": "rooms_room4-decor",
       "x": 339.5,
       "y": 155.5,
-      "angle": 180
+      "angle": 0
     },
     {
       "key": "room4_old_wall2",
@@ -1517,7 +1517,7 @@
       "atlas_name": "rooms_room4-repair",
       "x": 537.5,
       "y": 335.5,
-      "angle": 0
+      "angle": null
     },
     {
       "key": "room4_old_wall1",
@@ -1525,7 +1525,7 @@
       "atlas_name": "rooms_room4-repair",
       "x": 181.5,
       "y": 336,
-      "angle": 0
+      "angle": null
     },
     {
       "key": "room4_old_floor",
@@ -1533,7 +1533,7 @@
       "atlas_name": "rooms_room4-repair",
       "x": 360,
       "y": 685.5,
-      "angle": 0
+      "angle": null
     },
     {
       "key": "room4_old_rug",
@@ -1549,7 +1549,7 @@
       "atlas_name": "rooms_room4-repair",
       "x": 165.5,
       "y": 310.5,
-      "angle": 0
+      "angle": 135
     },
     {
       "key": "room4_old_kitchen_sink",
@@ -1573,7 +1573,7 @@
       "atlas_name": "rooms_room4-repair",
       "x": 566,
       "y": 375,
-      "angle": 0
+      "angle": 225
     },
     {
       "key": "room4_old_stove",
@@ -1589,7 +1589,7 @@
       "atlas_name": "rooms_room4-repair",
       "x": 68,
       "y": 373.5,
-      "angle": 0
+      "angle": 135
     },
     {
       "key": "room4_old_chairs_1",
@@ -1637,7 +1637,7 @@
       "atlas_name": "rooms_room4-repair",
       "x": 640.5,
       "y": 546,
-      "angle": 0
+      "angle": 225
     },
     {
       "key": "room4_old_flowers",
@@ -1653,7 +1653,7 @@
       "atlas_name": "rooms_room4-repair",
       "x": 296,
       "y": 301,
-      "angle": 0
+      "angle": 135
     },
     {
       "key": "room4_old_pendant_lamps",
@@ -1661,7 +1661,7 @@
       "atlas_name": "rooms_room4-repair",
       "x": 348,
       "y": 159,
-      "angle": 0
+      "angle": -180
     }
   ],
   "award": 25
