@@ -36,14 +36,14 @@
     },
     "characters_henry": {
       "sourceDir": "images/characters/henry",
-      "digest": "583d1f37eb7e12d8f2a29da264587c12bd70f659daf1ad074e73fc2e30a7a850",
+      "digest": "42feaf48177dd24ccc48a7186b900fe17480c0f1ea8ad42b37862f2b8157105a",
       "outputs": [
-        "images/atlases/characters_henry_583d1f37.png",
-        "images/atlases/characters_henry_583d1f37.webp",
-        "images/atlases/characters_henry_583d1f37.json",
-        "images/atlases/characters_henry_583d1f37.webp.json"
+        "images/atlases/characters_henry_42feaf48.png",
+        "images/atlases/characters_henry_42feaf48.webp",
+        "images/atlases/characters_henry_42feaf48.json",
+        "images/atlases/characters_henry_42feaf48.webp.json"
       ],
-      "updatedAt": "2026-07-22T10:40:03.610359+00:00"
+      "updatedAt": "2026-07-29T20:48:49.161332+00:00"
     },
     "characters_kate": {
       "sourceDir": "images/characters/kate",
@@ -280,25 +280,25 @@
     },
     "ui_lobby": {
       "sourceDir": "images/ui/lobby",
-      "digest": "a5a9bcf92856ac2c686ac623f6583d3e82d4d329c46fbb965a4de073c9cb21c9",
+      "digest": "8fbbcca3e2a17dcc2bac713f9194b95973911b59ca8af1f282924f30c5e1d4b1",
       "outputs": [
-        "images/atlases/ui_lobby_a5a9bcf9.png",
-        "images/atlases/ui_lobby_a5a9bcf9.webp",
-        "images/atlases/ui_lobby_a5a9bcf9.json",
-        "images/atlases/ui_lobby_a5a9bcf9.webp.json"
+        "images/atlases/ui_lobby_8fbbcca3.png",
+        "images/atlases/ui_lobby_8fbbcca3.webp",
+        "images/atlases/ui_lobby_8fbbcca3.json",
+        "images/atlases/ui_lobby_8fbbcca3.webp.json"
       ],
-      "updatedAt": "2026-07-22T10:43:14.636799+00:00"
+      "updatedAt": "2026-07-29T20:48:57.489036+00:00"
     },
     "ui_panel": {
       "sourceDir": "images/ui/panel",
-      "digest": "8d71c695671314c719bfc82c43718f1e8fd4589f9c832001a33f6604c929d773",
+      "digest": "29a9f7628dcb12e02d77bb41bcc627ce81269d39a590f244da331f8795276668",
       "outputs": [
-        "images/atlases/ui_panel_8d71c695.png",
-        "images/atlases/ui_panel_8d71c695.webp",
-        "images/atlases/ui_panel_8d71c695.json",
-        "images/atlases/ui_panel_8d71c695.webp.json"
+        "images/atlases/ui_panel_29a9f762.png",
+        "images/atlases/ui_panel_29a9f762.webp",
+        "images/atlases/ui_panel_29a9f762.json",
+        "images/atlases/ui_panel_29a9f762.webp.json"
       ],
-      "updatedAt": "2026-07-29T13:52:21.671657+00:00"
+      "updatedAt": "2026-07-29T20:49:11.485091+00:00"
     },
     "ui_preloader": {
       "sourceDir": "images/ui/preloader",

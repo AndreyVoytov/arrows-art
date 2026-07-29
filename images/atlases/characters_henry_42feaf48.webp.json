@@ -1,0 +1,76 @@
+{
+  "frames": {
+    "henry_embarrassed": {
+      "frame": {
+        "x": 804,
+        "y": 0,
+        "w": 400,
+        "h": 520
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 400,
+        "h": 520
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 520
+      }
+    },
+    "henry_neutral": {
+      "frame": {
+        "x": 402,
+        "y": 0,
+        "w": 400,
+        "h": 520
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 400,
+        "h": 520
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 520
+      }
+    },
+    "henry_smile": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 400,
+        "h": 520
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 400,
+        "h": 520
+      },
+      "sourceSize": {
+        "w": 400,
+        "h": 520
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "12",
+    "image": "characters_henry_42feaf48.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 520
+    },
+    "scale": "1",
+    "sourceDir": "images/characters/henry"
+  }
+}
