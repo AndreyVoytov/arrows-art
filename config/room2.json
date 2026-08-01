@@ -304,7 +304,7 @@
       "type": "dialog",
       "dialogId": "room2_d3",
       "multiobject": "",
-      "price": 55,
+      "price": 100,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -315,7 +315,7 @@
       "type": "dialog",
       "dialogId": "room2_d5",
       "multiobject": "",
-      "price": 55,
+      "price": 100,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -326,7 +326,7 @@
       "type": "dialog",
       "dialogId": "room2_d7",
       "multiobject": "",
-      "price": 55,
+      "price": 100,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -337,7 +337,7 @@
       "type": "dialog",
       "dialogId": "room2_d8",
       "multiobject": "",
-      "price": 55,
+      "price": 100,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -351,7 +351,7 @@
         "room2_walls_A_1",
         "room2_walls_A_2"
       ],
-      "price": 185,
+      "price": 360,
       "priceType": "coins"
     },
     {
@@ -360,7 +360,7 @@
         "room2_walls_B_1",
         "room2_walls_B_2"
       ],
-      "price": 235,
+      "price": 480,
       "priceType": "coins"
     },
     {
@@ -369,7 +369,7 @@
         "room2_walls_C_1",
         "room2_walls_C_2"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {
@@ -378,7 +378,7 @@
         "room2_floor_A_1",
         "room2_floor_A_2"
       ],
-      "price": 220,
+      "price": 340,
       "priceType": "coins"
     },
     {
@@ -387,7 +387,7 @@
         "room2_floor_B_1",
         "room2_floor_B_2"
       ],
-      "price": 280,
+      "price": 450,
       "priceType": "coins"
     },
     {
@@ -396,7 +396,7 @@
         "room2_floor_C_1",
         "room2_floor_C_2"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {
@@ -406,7 +406,7 @@
         "room2_window_A_2",
         "room2_window_A_3"
       ],
-      "price": 195,
+      "price": 320,
       "priceType": "coins"
     },
     {
@@ -416,7 +416,7 @@
         "room2_window_B_2",
         "room2_window_B_3"
       ],
-      "price": 250,
+      "price": 420,
       "priceType": "coins"
     },
     {
@@ -426,7 +426,7 @@
         "room2_window_C_2",
         "room2_window_C_3"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {
@@ -435,7 +435,7 @@
         "room2_nightstand_left_A_1",
         "room2_nightstand_left_A_2"
       ],
-      "price": 210,
+      "price": 320,
       "priceType": "coins"
     },
     {
@@ -444,7 +444,7 @@
         "room2_nightstand_left_B_1",
         "room2_nightstand_left_B_2"
       ],
-      "price": 270,
+      "price": 420,
       "priceType": "coins"
     },
     {
@@ -453,7 +453,7 @@
         "room2_nightstand_left_C_1",
         "room2_nightstand_left_C_2"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {
@@ -461,7 +461,7 @@
       "parts": [
         "room2_bed_A"
       ],
-      "price": 240,
+      "price": 450,
       "priceType": "coins"
     },
     {
@@ -469,7 +469,7 @@
       "parts": [
         "room2_bed_B"
       ],
-      "price": 305,
+      "price": 600,
       "priceType": "coins"
     },
     {
@@ -477,7 +477,7 @@
       "parts": [
         "room2_bed_C"
       ],
-      "price": 5,
+      "price": 15,
       "priceType": "diamonds"
     },
     {
@@ -485,7 +485,7 @@
       "parts": [
         "room2_lamp_right_A"
       ],
-      "price": 190,
+      "price": 260,
       "priceType": "coins"
     },
     {
@@ -493,7 +493,7 @@
       "parts": [
         "room2_lamp_right_B"
       ],
-      "price": 245,
+      "price": 340,
       "priceType": "coins"
     },
     {
@@ -511,7 +511,7 @@
         "room2_vanity_table_A_2",
         "room2_vanity_table_A_3"
       ],
-      "price": 210,
+      "price": 380,
       "priceType": "coins"
     },
     {
@@ -521,7 +521,7 @@
         "room2_vanity_table_B_2",
         "room2_vanity_table_B_3"
       ],
-      "price": 270,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -531,7 +531,7 @@
         "room2_vanity_table_C_2",
         "room2_vanity_table_C_3"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {
@@ -539,7 +539,7 @@
       "parts": [
         "room2_toy"
       ],
-      "price": 200,
+      "price": 250,
       "priceType": "coins"
     },
     {
@@ -547,7 +547,7 @@
       "parts": [
         "room2_family_picture_A"
       ],
-      "price": 205,
+      "price": 250,
       "priceType": "coins"
     },
     {
@@ -555,7 +555,7 @@
       "parts": [
         "room2_family_picture_B"
       ],
-      "price": 260,
+      "price": 330,
       "priceType": "coins"
     },
     {
@@ -572,7 +572,7 @@
         "room2_window_decor_A_1",
         "room2_window_decor_A_2"
       ],
-      "price": 230,
+      "price": 250,
       "priceType": "coins"
     },
     {
@@ -581,7 +581,7 @@
         "room2_window_decor_B_1",
         "room2_window_decor_B_2"
       ],
-      "price": 295,
+      "price": 330,
       "priceType": "coins"
     },
     {
@@ -599,7 +599,7 @@
         "room2_vanity_decor_A_1",
         "room2_vanity_decor_A_2"
       ],
-      "price": 215,
+      "price": 270,
       "priceType": "coins"
     },
     {
@@ -608,7 +608,7 @@
         "room2_vanity_decor_B_1",
         "room2_vanity_decor_B_2"
       ],
-      "price": 275,
+      "price": 350,
       "priceType": "coins"
     },
     {
@@ -625,7 +625,7 @@
       "parts": [
         "room2_broken_wall_right"
       ],
-      "price": 90,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -633,7 +633,7 @@
       "parts": [
         "room2_broken_wall_left"
       ],
-      "price": 80,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -641,7 +641,7 @@
       "parts": [
         "room2_broken_floor"
       ],
-      "price": 40,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -651,7 +651,7 @@
         "room2_trash_2",
         "room2_trash_3"
       ],
-      "price": 65,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -660,7 +660,7 @@
         "room2_broken_curtains_1",
         "room2_broken_curtains_2"
       ],
-      "price": 75,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -668,7 +668,7 @@
       "parts": [
         "room2_dirty_toy"
       ],
-      "price": 75,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -676,7 +676,7 @@
       "parts": [
         "room2_broken_bed"
       ],
-      "price": 80,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -684,7 +684,7 @@
       "parts": [
         "room2_broken_lamp_right"
       ],
-      "price": 95,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -692,7 +692,7 @@
       "parts": [
         "room2_old_poster"
       ],
-      "price": 85,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -702,7 +702,7 @@
         "room2_broken_vanity_table_2",
         "room2_broken_vanity_table_3"
       ],
-      "price": 75,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -711,7 +711,7 @@
         "room2_vanity_stool_1",
         "room2_vanity_stool_2"
       ],
-      "price": 40,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -719,7 +719,7 @@
       "parts": [
         "room2_small_broken_photo"
       ],
-      "price": 70,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -728,7 +728,7 @@
         "room2_webbed_family_picture_1",
         "room2_webbed_family_picture_2"
       ],
-      "price": 90,
+      "price": 200,
       "priceType": "coins"
     }
   ],
@@ -1471,16 +1471,9 @@
         {
           "id": "room2_d2_r5",
           "char_key": "anna",
-          "char_state": "anna_neutral",
+          "char_state": "anna_sad",
           "position": "left",
           "text_key": "room2_d2_r5_loc"
-        },
-        {
-          "id": "room2_d2_r6",
-          "char_key": "anna",
-          "char_state": "anna_neutral",
-          "position": "left",
-          "text_key": "room2_d2_r6_loc"
         },
         {
           "id": "room2_d2_r7",

@@ -1,0 +1,196 @@
+{
+  "frames": {
+    "room3_floor_A": {
+      "frame": {
+        "x": 0,
+        "y": 1302,
+        "w": 720,
+        "h": 504
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 504
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 504
+      }
+    },
+    "room3_floor_B": {
+      "frame": {
+        "x": 1087,
+        "y": 653,
+        "w": 720,
+        "h": 504
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 504
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 504
+      }
+    },
+    "room3_floor_C": {
+      "frame": {
+        "x": 365,
+        "y": 653,
+        "w": 720,
+        "h": 504
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 504
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 504
+      }
+    },
+    "room3_walls_A_1": {
+      "frame": {
+        "x": 0,
+        "y": 653,
+        "w": 363,
+        "h": 647
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 647
+      },
+      "sourceSize": {
+        "w": 363,
+        "h": 647
+      }
+    },
+    "room3_walls_A_2": {
+      "frame": {
+        "x": 1460,
+        "y": 0,
+        "w": 363,
+        "h": 647
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 647
+      },
+      "sourceSize": {
+        "w": 363,
+        "h": 647
+      }
+    },
+    "room3_walls_B_1": {
+      "frame": {
+        "x": 1095,
+        "y": 0,
+        "w": 363,
+        "h": 647
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 647
+      },
+      "sourceSize": {
+        "w": 363,
+        "h": 647
+      }
+    },
+    "room3_walls_B_2": {
+      "frame": {
+        "x": 730,
+        "y": 0,
+        "w": 363,
+        "h": 647
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 647
+      },
+      "sourceSize": {
+        "w": 363,
+        "h": 647
+      }
+    },
+    "room3_walls_C_1": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 651
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 651
+      },
+      "sourceSize": {
+        "w": 363,
+        "h": 651
+      }
+    },
+    "room3_walls_C_2": {
+      "frame": {
+        "x": 365,
+        "y": 0,
+        "w": 363,
+        "h": 650
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 363,
+        "h": 650
+      },
+      "sourceSize": {
+        "w": 363,
+        "h": 650
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "rooms_room3-surfaces_7c085b80.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 1806
+    },
+    "scale": "1",
+    "sourceDir": "images/rooms/room3-surfaces"
+  }
+}

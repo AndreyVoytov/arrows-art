@@ -249,7 +249,7 @@
       "type": "dialog",
       "dialogId": "room1_d3",
       "multiobject": "",
-      "price": 40,
+      "price": 50,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -260,7 +260,7 @@
       "type": "dialog",
       "dialogId": "room1_d4",
       "multiobject": "",
-      "price": 40,
+      "price": 50,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -271,7 +271,7 @@
       "type": "dialog",
       "dialogId": "room1_d6",
       "multiobject": "",
-      "price": 40,
+      "price": 50,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -282,7 +282,7 @@
       "type": "dialog",
       "dialogId": "room1_d7",
       "multiobject": "",
-      "price": 40,
+      "price": 50,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -296,7 +296,7 @@
         "room1_walls_A_1",
         "room1_walls_A_2"
       ],
-      "price": 130,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -305,7 +305,7 @@
         "room1_walls_B_1",
         "room1_walls_B_2"
       ],
-      "price": 165,
+      "price": 270,
       "priceType": "coins"
     },
     {
@@ -322,7 +322,7 @@
       "parts": [
         "room1_floor_A"
       ],
-      "price": 0,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -330,7 +330,7 @@
       "parts": [
         "room1_floor_B"
       ],
-      "price": 175,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -346,7 +346,7 @@
       "parts": [
         "room1_carpet_A"
       ],
-      "price": 135,
+      "price": 140,
       "priceType": "coins"
     },
     {
@@ -354,7 +354,7 @@
       "parts": [
         "room1_carpet_B"
       ],
-      "price": 175,
+      "price": 190,
       "priceType": "coins"
     },
     {
@@ -370,7 +370,7 @@
       "parts": [
         "room1_window_A"
       ],
-      "price": 135,
+      "price": 180,
       "priceType": "coins"
     },
     {
@@ -378,7 +378,7 @@
       "parts": [
         "room1_window_B"
       ],
-      "price": 175,
+      "price": 240,
       "priceType": "coins"
     },
     {
@@ -395,7 +395,7 @@
         "room1_chair_with_plant_A_1",
         "room1_chair_with_plant_A_2"
       ],
-      "price": 125,
+      "price": 160,
       "priceType": "coins"
     },
     {
@@ -404,7 +404,7 @@
         "room1_chair_with_plant_B_1",
         "room1_chair_with_plant_B_2"
       ],
-      "price": 160,
+      "price": 220,
       "priceType": "coins"
     },
     {
@@ -421,7 +421,7 @@
       "parts": [
         "room1_picture_A"
       ],
-      "price": 155,
+      "price": 150,
       "priceType": "coins"
     },
     {
@@ -445,7 +445,7 @@
       "parts": [
         "room1_cupboard_A"
       ],
-      "price": 150,
+      "price": 220,
       "priceType": "coins"
     },
     {
@@ -453,7 +453,7 @@
       "parts": [
         "room1_cupboard_B"
       ],
-      "price": 190,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -469,7 +469,7 @@
       "parts": [
         "room1_luster_A"
       ],
-      "price": 170,
+      "price": 180,
       "priceType": "coins"
     },
     {
@@ -477,7 +477,7 @@
       "parts": [
         "room1_luster_B"
       ],
-      "price": 220,
+      "price": 240,
       "priceType": "coins"
     },
     {
@@ -493,7 +493,7 @@
       "parts": [
         "room1_door_A"
       ],
-      "price": 125,
+      "price": 180,
       "priceType": "coins"
     },
     {
@@ -501,7 +501,7 @@
       "parts": [
         "room1_door_B"
       ],
-      "price": 160,
+      "price": 240,
       "priceType": "coins"
     },
     {
@@ -517,7 +517,7 @@
       "parts": [
         "room1_plant_left_A"
       ],
-      "price": 135,
+      "price": 150,
       "priceType": "coins"
     },
     {
@@ -525,7 +525,7 @@
       "parts": [
         "room1_plant_left_B"
       ],
-      "price": 175,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -541,7 +541,7 @@
       "parts": [
         "room1_broken_wall_left"
       ],
-      "price": 50,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -549,7 +549,7 @@
       "parts": [
         "room1_broken_wall_right"
       ],
-      "price": 50,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -557,7 +557,7 @@
       "parts": [
         "room1_broken_floor"
       ],
-      "price": 50,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -567,7 +567,7 @@
         "room1_trash_second_2",
         "room1_trash_second_3"
       ],
-      "price": 35,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -577,7 +577,7 @@
         "room1_trash_2",
         "room1_trash_3"
       ],
-      "price": 0,
+      "price": 99999,
       "priceType": "coins"
     },
     {
@@ -585,7 +585,7 @@
       "parts": [
         "room1_broken_door"
       ],
-      "price": 50,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -593,7 +593,7 @@
       "parts": [
         "room1_broken_cupboard"
       ],
-      "price": 50,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -601,7 +601,7 @@
       "parts": [
         "room1_broken_window"
       ],
-      "price": 45,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -610,7 +610,7 @@
         "room1_dead_plant_1",
         "room1_dead_plant_2"
       ],
-      "price": 40,
+      "price": 100,
       "priceType": "coins"
     }
   ],
@@ -1071,52 +1071,39 @@
       "award": null,
       "replicas": [
         {
-          "id": "room1_d2_r5",
+          "id": "room1_d2_r1",
           "char_key": "anna",
           "char_state": "anna_happy",
           "position": "left",
-          "text_key": "room1_d2_r5_loc"
+          "text_key": "room1_d2_r1_loc"
         },
         {
-          "id": "room1_d2_r6",
+          "id": "room1_d2_r2",
           "char_key": "alex",
           "char_state": "alex_joy",
           "position": "right",
-          "text_key": "room1_d2_r6_loc"
-        }
-      ]
-    },
-    {
-      "id": "room1_d2b",
-      "roomId": "room1",
-      "conditions": [
+          "text_key": "room1_d2_r2_loc"
+        },
         {
-          "trigger_type": "after_action",
-          "trigger_key": "room1_trash_second"
-        }
-      ],
-      "award": null,
-      "replicas": [
-        {
-          "id": "room1_d2b_r3",
+          "id": "room1_d2_r3",
           "char_key": "alex",
           "char_state": "alex_neutral",
           "position": "right",
-          "text_key": "room1_d2b_r3_loc"
+          "text_key": "room1_d2_r3_loc"
         },
         {
-          "id": "room1_d2b_r4",
+          "id": "room1_d2_r4",
           "char_key": "anna",
           "char_state": "anna_neutral",
           "position": "left",
-          "text_key": "room1_d2b_r4_loc"
+          "text_key": "room1_d2_r4_loc"
         },
         {
-          "id": "room1_d2b_r5",
+          "id": "room1_d2_r5",
           "char_key": "anna",
           "char_state": "anna_neutral",
           "position": "left",
-          "text_key": "room1_d2b_r5_loc"
+          "text_key": "room1_d2_r5_loc"
         }
       ]
     },
@@ -1129,7 +1116,7 @@
           "trigger_key": "room1_pay_dialogue1"
         }
       ],
-      "award": 10,
+      "award": 5,
       "replicas": [
         {
           "id": "room1_d3_r1",
@@ -1198,7 +1185,7 @@
           "trigger_key": "room1_pay_dialogue2"
         }
       ],
-      "award": 10,
+      "award": 5,
       "replicas": [
         {
           "id": "room1_d4_r1",
@@ -1329,7 +1316,7 @@
           "trigger_key": "room1_pay_dialogue3"
         }
       ],
-      "award": 10,
+      "award": 5,
       "replicas": [
         {
           "id": "room1_d6_r1",
@@ -1374,20 +1361,6 @@
           "text_key": "room1_d6_r6_loc"
         },
         {
-          "id": "room1_d6_r7",
-          "char_key": "henry",
-          "char_state": "henry_embarrassed",
-          "position": "right",
-          "text_key": "room1_d6_r7_loc"
-        },
-        {
-          "id": "room1_d6_r8",
-          "char_key": "anna",
-          "char_state": "anna_embarrassed",
-          "position": "left",
-          "text_key": "room1_d6_r8_loc"
-        },
-        {
           "id": "room1_d6_r9",
           "char_key": "anna",
           "char_state": "anna_neutral",
@@ -1405,7 +1378,7 @@
           "trigger_key": "room1_pay_dialogue4"
         }
       ],
-      "award": 10,
+      "award": 5,
       "replicas": [
         {
           "id": "room1_d7_r1",
@@ -1535,5 +1508,5 @@
       ]
     }
   ],
-  "award": 25
+  "award": 15
 }

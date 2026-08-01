@@ -12,12 +12,14 @@
       "room4_old_kitchen_sink",
       "room4_old_pendant_lamps",
       "room4_old_stove",
+      "room4_pay_dialogue1",
       "room4_old_plant",
       "room4_old_flowers",
       "room4_old_dish_cabinet",
       "room4_old_utensil_set",
       "room4_old_cabinet_right",
       "room4_old_dish_shelf",
+      "room4_pay_dialogue2",
       "room4_old_window",
       "room4_old_chairs",
       "room4_old_dining_table",
@@ -33,6 +35,7 @@
       "room4_cabinet_first",
       "room4_stove",
       "room4_extractor",
+      "room4_pay_dialogue3",
       "room4_cabinet_second",
       "room4_kitchen_sink",
       "room4_dish_shelf",
@@ -40,6 +43,7 @@
       "room4_dining_table",
       "room4_chairs",
       "room4_fridge",
+      "room4_pay_dialogue4",
       "room4_table_flowers",
       "room4_dish_cabinet",
       "room4_utensil_set",
@@ -442,6 +446,50 @@
       ],
       "x": 348,
       "y": 159
+    },
+    {
+      "key": "room4_pay_dialogue1",
+      "type": "dialog",
+      "dialogId": "room4_d3",
+      "multiobject": "",
+      "price": 200,
+      "priceType": "coins",
+      "x": 358,
+      "y": 700,
+      "name_key": "room4_pay_dialogue1_loc"
+    },
+    {
+      "key": "room4_pay_dialogue2",
+      "type": "dialog",
+      "dialogId": "room4_d5",
+      "multiobject": "",
+      "price": 200,
+      "priceType": "coins",
+      "x": 358,
+      "y": 700,
+      "name_key": "room4_pay_dialogue2_loc"
+    },
+    {
+      "key": "room4_pay_dialogue3",
+      "type": "dialog",
+      "dialogId": "room4_d9",
+      "multiobject": "",
+      "price": 200,
+      "priceType": "coins",
+      "x": 358,
+      "y": 700,
+      "name_key": "room4_pay_dialogue3_loc"
+    },
+    {
+      "key": "room4_pay_dialogue4",
+      "type": "dialog",
+      "dialogId": "room4_d11",
+      "multiobject": "",
+      "price": 200,
+      "priceType": "coins",
+      "x": 358,
+      "y": 700,
+      "name_key": "room4_pay_dialogue4_loc"
     }
   ],
   "allMultiobjects": [
@@ -451,7 +499,7 @@
         "room4_walls_A_1",
         "room4_walls_A_2"
       ],
-      "price": 385,
+      "price": 750,
       "priceType": "coins"
     },
     {
@@ -460,7 +508,7 @@
         "room4_walls_B_1",
         "room4_walls_B_2"
       ],
-      "price": 495,
+      "price": 980,
       "priceType": "coins"
     },
     {
@@ -469,7 +517,7 @@
         "room4_walls_C_1",
         "room4_walls_C_2"
       ],
-      "price": 5,
+      "price": 40,
       "priceType": "diamonds"
     },
     {
@@ -477,7 +525,7 @@
       "parts": [
         "room4_floor_A"
       ],
-      "price": 420,
+      "price": 700,
       "priceType": "coins"
     },
     {
@@ -485,7 +533,7 @@
       "parts": [
         "room4_floor_B"
       ],
-      "price": 540,
+      "price": 910,
       "priceType": "coins"
     },
     {
@@ -493,7 +541,7 @@
       "parts": [
         "room4_floor_C"
       ],
-      "price": 5,
+      "price": 40,
       "priceType": "diamonds"
     },
     {
@@ -501,7 +549,7 @@
       "parts": [
         "room4_rug_A"
       ],
-      "price": 385,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -509,7 +557,7 @@
       "parts": [
         "room4_rug_B"
       ],
-      "price": 495,
+      "price": 650,
       "priceType": "coins"
     },
     {
@@ -517,7 +565,7 @@
       "parts": [
         "room4_rug_C"
       ],
-      "price": 5,
+      "price": 15,
       "priceType": "diamonds"
     },
     {
@@ -525,7 +573,7 @@
       "parts": [
         "room4_cabinet_second_A"
       ],
-      "price": 385,
+      "price": 650,
       "priceType": "coins"
     },
     {
@@ -533,7 +581,7 @@
       "parts": [
         "room4_cabinet_second_B"
       ],
-      "price": 495,
+      "price": 850,
       "priceType": "coins"
     },
     {
@@ -541,7 +589,7 @@
       "parts": [
         "room4_cabinet_second_C"
       ],
-      "price": 5,
+      "price": 25,
       "priceType": "diamonds"
     },
     {
@@ -549,7 +597,7 @@
       "parts": [
         "room4_window_A"
       ],
-      "price": 385,
+      "price": 600,
       "priceType": "coins"
     },
     {
@@ -557,7 +605,7 @@
       "parts": [
         "room4_window_B"
       ],
-      "price": 495,
+      "price": 780,
       "priceType": "coins"
     },
     {
@@ -565,7 +613,7 @@
       "parts": [
         "room4_window_C"
       ],
-      "price": 5,
+      "price": 30,
       "priceType": "diamonds"
     },
     {
@@ -573,7 +621,7 @@
       "parts": [
         "room4_kitchen_sink_A"
       ],
-      "price": 395,
+      "price": 600,
       "priceType": "coins"
     },
     {
@@ -581,7 +629,7 @@
       "parts": [
         "room4_kitchen_sink_B"
       ],
-      "price": 505,
+      "price": 780,
       "priceType": "coins"
     },
     {
@@ -589,7 +637,7 @@
       "parts": [
         "room4_kitchen_sink_C"
       ],
-      "price": 5,
+      "price": 30,
       "priceType": "diamonds"
     },
     {
@@ -597,7 +645,7 @@
       "parts": [
         "room4_stove_A"
       ],
-      "price": 430,
+      "price": 750,
       "priceType": "coins"
     },
     {
@@ -605,7 +653,7 @@
       "parts": [
         "room4_stove_B"
       ],
-      "price": 550,
+      "price": 980,
       "priceType": "coins"
     },
     {
@@ -613,7 +661,7 @@
       "parts": [
         "room4_stove_C"
       ],
-      "price": 5,
+      "price": 40,
       "priceType": "diamonds"
     },
     {
@@ -621,7 +669,7 @@
       "parts": [
         "room4_cabinet_third_A"
       ],
-      "price": 385,
+      "price": 650,
       "priceType": "coins"
     },
     {
@@ -629,7 +677,7 @@
       "parts": [
         "room4_cabinet_third_B"
       ],
-      "price": 495,
+      "price": 850,
       "priceType": "coins"
     },
     {
@@ -637,7 +685,7 @@
       "parts": [
         "room4_cabinet_third_C"
       ],
-      "price": 5,
+      "price": 25,
       "priceType": "diamonds"
     },
     {
@@ -645,7 +693,7 @@
       "parts": [
         "room4_dish_cabinet_A"
       ],
-      "price": 470,
+      "price": 550,
       "priceType": "coins"
     },
     {
@@ -653,7 +701,7 @@
       "parts": [
         "room4_dish_cabinet_B"
       ],
-      "price": 600,
+      "price": 720,
       "priceType": "coins"
     },
     {
@@ -661,7 +709,7 @@
       "parts": [
         "room4_dish_cabinet_C"
       ],
-      "price": 5,
+      "price": 25,
       "priceType": "diamonds"
     },
     {
@@ -670,7 +718,7 @@
         "room4_chairs_A_1",
         "room4_chairs_A_2"
       ],
-      "price": 300,
+      "price": 550,
       "priceType": "coins"
     },
     {
@@ -679,7 +727,7 @@
         "room4_chairs_B_1",
         "room4_chairs_B_2"
       ],
-      "price": 520,
+      "price": 720,
       "priceType": "coins"
     },
     {
@@ -688,7 +736,7 @@
         "room4_chairs_C_1",
         "room4_chairs_C_2"
       ],
-      "price": 5,
+      "price": 25,
       "priceType": "coins"
     },
     {
@@ -696,7 +744,7 @@
       "parts": [
         "room4_dining_table_A"
       ],
-      "price": 405,
+      "price": 700,
       "priceType": "coins"
     },
     {
@@ -704,7 +752,7 @@
       "parts": [
         "room4_dining_table_B"
       ],
-      "price": 520,
+      "price": 910,
       "priceType": "coins"
     },
     {
@@ -712,7 +760,7 @@
       "parts": [
         "room4_dining_table_C"
       ],
-      "price": 5,
+      "price": 35,
       "priceType": "diamonds"
     },
     {
@@ -720,7 +768,7 @@
       "parts": [
         "room4_table_flowers_A"
       ],
-      "price": 420,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -728,7 +776,7 @@
       "parts": [
         "room4_table_flowers_B"
       ],
-      "price": 540,
+      "price": 650,
       "priceType": "coins"
     },
     {
@@ -736,7 +784,7 @@
       "parts": [
         "room4_table_flowers_C"
       ],
-      "price": 5,
+      "price": 15,
       "priceType": "diamonds"
     },
     {
@@ -744,7 +792,7 @@
       "parts": [
         "room4_utensil_set_A"
       ],
-      "price": 475,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -752,7 +800,7 @@
       "parts": [
         "room4_utensil_set_B"
       ],
-      "price": 610,
+      "price": 650,
       "priceType": "coins"
     },
     {
@@ -760,7 +808,7 @@
       "parts": [
         "room4_utensil_set_C"
       ],
-      "price": 5,
+      "price": 15,
       "priceType": "diamonds"
     },
     {
@@ -768,7 +816,7 @@
       "parts": [
         "room4_extractor_A"
       ],
-      "price": 430,
+      "price": 600,
       "priceType": "coins"
     },
     {
@@ -776,7 +824,7 @@
       "parts": [
         "room4_extractor_B"
       ],
-      "price": 550,
+      "price": 780,
       "priceType": "coins"
     },
     {
@@ -784,7 +832,7 @@
       "parts": [
         "room4_extractor_C"
       ],
-      "price": 5,
+      "price": 30,
       "priceType": "diamonds"
     },
     {
@@ -792,7 +840,7 @@
       "parts": [
         "room4_dish_shelf_A"
       ],
-      "price": 445,
+      "price": 550,
       "priceType": "coins"
     },
     {
@@ -800,7 +848,7 @@
       "parts": [
         "room4_dish_shelf_B"
       ],
-      "price": 570,
+      "price": 720,
       "priceType": "coins"
     },
     {
@@ -808,7 +856,7 @@
       "parts": [
         "room4_dish_shelf_C"
       ],
-      "price": 5,
+      "price": 25,
       "priceType": "diamonds"
     },
     {
@@ -816,7 +864,7 @@
       "parts": [
         "room4_fridge_A"
       ],
-      "price": 455,
+      "price": 850,
       "priceType": "coins"
     },
     {
@@ -824,7 +872,7 @@
       "parts": [
         "room4_fridge_B"
       ],
-      "price": 580,
+      "price": 1100,
       "priceType": "coins"
     },
     {
@@ -832,7 +880,7 @@
       "parts": [
         "room4_fridge_C"
       ],
-      "price": 5,
+      "price": 50,
       "priceType": "diamonds"
     },
     {
@@ -840,7 +888,7 @@
       "parts": [
         "room4_cabinet_first_A"
       ],
-      "price": 385,
+      "price": 650,
       "priceType": "coins"
     },
     {
@@ -848,7 +896,7 @@
       "parts": [
         "room4_cabinet_first_B"
       ],
-      "price": 495,
+      "price": 850,
       "priceType": "coins"
     },
     {
@@ -856,7 +904,7 @@
       "parts": [
         "room4_cabinet_first_C"
       ],
-      "price": 5,
+      "price": 25,
       "priceType": "diamonds"
     },
     {
@@ -864,7 +912,7 @@
       "parts": [
         "room4_pendant_lamps_A"
       ],
-      "price": 430,
+      "price": 600,
       "priceType": "coins"
     },
     {
@@ -872,7 +920,7 @@
       "parts": [
         "room4_pendant_lamps_B"
       ],
-      "price": 550,
+      "price": 780,
       "priceType": "coins"
     },
     {
@@ -880,7 +928,7 @@
       "parts": [
         "room4_pendant_lamps_C"
       ],
-      "price": 5,
+      "price": 30,
       "priceType": "diamonds"
     },
     {
@@ -888,7 +936,7 @@
       "parts": [
         "room4_old_wall2"
       ],
-      "price": 175,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -896,7 +944,7 @@
       "parts": [
         "room4_old_wall1"
       ],
-      "price": 175,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -904,7 +952,7 @@
       "parts": [
         "room4_old_floor"
       ],
-      "price": 150,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -912,7 +960,7 @@
       "parts": [
         "room4_old_rug"
       ],
-      "price": 50,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -920,7 +968,7 @@
       "parts": [
         "room4_old_window"
       ],
-      "price": 195,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -928,7 +976,7 @@
       "parts": [
         "room4_old_kitchen_sink"
       ],
-      "price": 165,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -936,7 +984,7 @@
       "parts": [
         "room4_old_plant"
       ],
-      "price": 150,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -944,7 +992,7 @@
       "parts": [
         "room4_old_dish_shelf"
       ],
-      "price": 90,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -952,7 +1000,7 @@
       "parts": [
         "room4_old_stove"
       ],
-      "price": 185,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -960,7 +1008,7 @@
       "parts": [
         "room4_old_dish_cabinet"
       ],
-      "price": 180,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -969,7 +1017,7 @@
         "room4_old_chairs_1",
         "room4_old_chairs_2"
       ],
-      "price": 100,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -977,7 +1025,7 @@
       "parts": [
         "room4_old_cabinet_right"
       ],
-      "price": 100,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -985,7 +1033,7 @@
       "parts": [
         "room4_old_cabinet left"
       ],
-      "price": 70,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -993,7 +1041,7 @@
       "parts": [
         "room4_old_dining_table"
       ],
-      "price": 185,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -1001,7 +1049,7 @@
       "parts": [
         "room4_old_fridge"
       ],
-      "price": 205,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -1009,7 +1057,7 @@
       "parts": [
         "room4_old_flowers"
       ],
-      "price": 50,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -1017,7 +1065,7 @@
       "parts": [
         "room4_old_utensil_set"
       ],
-      "price": 175,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -1025,7 +1073,7 @@
       "parts": [
         "room4_old_pendant_lamps"
       ],
-      "price": 50,
+      "price": 300,
       "priceType": "coins"
     }
   ],
@@ -1664,5 +1712,618 @@
       "angle": -180
     }
   ],
-  "award": 25
+  "award": 35,
+  "dialogs": [
+    {
+      "id": "room4_d1",
+      "roomId": "room4",
+      "conditions": [
+        {
+          "trigger_type": "on_room_enter",
+          "trigger_key": "room4"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room4_d1_r1",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room4_d1_r1_loc"
+        }
+      ]
+    },
+    {
+      "id": "room4_d2",
+      "roomId": "room4",
+      "conditions": [
+        {
+          "trigger_type": "after_action",
+          "trigger_key": "room4_old_stove"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room4_d2_r1",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room4_d2_r1_loc"
+        },
+        {
+          "id": "room4_d2_r2",
+          "char_key": "anna",
+          "char_state": "anna_sad",
+          "position": "left",
+          "text_key": "room4_d2_r2_loc"
+        },
+        {
+          "id": "room4_d2_r3",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room4_d2_r3_loc"
+        }
+      ]
+    },
+    {
+      "id": "room4_d3",
+      "roomId": "room4",
+      "conditions": [
+        {
+          "trigger_type": "dialog_point",
+          "trigger_key": "room4_pay_dialogue1"
+        }
+      ],
+      "award": 10,
+      "replicas": [
+        {
+          "id": "room4_d3_r1",
+          "char_key": "cat",
+          "char_state": "cat_joy",
+          "position": "right",
+          "text_key": "room4_d3_r1_loc"
+        },
+        {
+          "id": "room4_d3_r2",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room4_d3_r2_loc"
+        },
+        {
+          "id": "room4_d3_r3",
+          "char_key": "cat",
+          "char_state": "cat_neutral",
+          "position": "right",
+          "text_key": "room4_d3_r3_loc"
+        },
+        {
+          "id": "room4_d3_r4",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room4_d3_r4_loc"
+        },
+        {
+          "id": "room4_d3_r5",
+          "char_key": "cat",
+          "char_state": "cat_neutral",
+          "position": "right",
+          "text_key": "room4_d3_r5_loc"
+        },
+        {
+          "id": "room4_d3_r6",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room4_d3_r6_loc"
+        }
+      ]
+    },
+    {
+      "id": "room4_d4",
+      "roomId": "room4",
+      "conditions": [
+        {
+          "trigger_type": "after_action",
+          "trigger_key": "room4_old_flowers"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room4_d4_r1",
+          "char_key": "anna",
+          "char_state": "anna_sad",
+          "position": "left",
+          "text_key": "room4_d4_r1_loc"
+        },
+        {
+          "id": "room4_d4_r2",
+          "char_key": "anna",
+          "char_state": "anna_fear",
+          "position": "left",
+          "text_key": "room4_d4_r2_loc"
+        },
+        {
+          "id": "room4_d4_r3",
+          "char_key": "anna",
+          "char_state": "anna_fear",
+          "position": "left",
+          "text_key": "room4_d4_r3_loc"
+        }
+      ]
+    },
+    {
+      "id": "room4_d5",
+      "roomId": "room4",
+      "conditions": [
+        {
+          "trigger_type": "dialog_point",
+          "trigger_key": "room4_pay_dialogue2"
+        }
+      ],
+      "award": 10,
+      "replicas": [
+        {
+          "id": "room4_d5_r11",
+          "char_key": "alex",
+          "char_state": "alex_joy",
+          "position": "right",
+          "text_key": "room4_d5_r11_loc"
+        },
+        {
+          "id": "room4_d5_r21",
+          "char_key": "cat",
+          "char_state": "cat_embarrassed",
+          "position": "right",
+          "text_key": "room4_d5_r21_loc"
+        },
+        {
+          "id": "room4_d5_r1",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room4_d5_r1_loc"
+        },
+        {
+          "id": "room4_d5_r2",
+          "char_key": "alex",
+          "char_state": "alex_neutral",
+          "position": "right",
+          "text_key": "room4_d5_r2_loc"
+        },
+        {
+          "id": "room4_d5_r3",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room4_d5_r3_loc"
+        },
+        {
+          "id": "room4_d5_r4",
+          "char_key": "alex",
+          "char_state": "alex_joy",
+          "position": "right",
+          "text_key": "room4_d5_r4_loc"
+        },
+        {
+          "id": "room4_d5_r5",
+          "char_key": "anna",
+          "char_state": "anna_embarrassed",
+          "position": "left",
+          "text_key": "room4_d5_r5_loc"
+        },
+        {
+          "id": "room4_d5_r6",
+          "char_key": "alex",
+          "char_state": "alex_neutral",
+          "position": "right",
+          "text_key": "room4_d5_r6_loc"
+        }
+      ]
+    },
+    {
+      "id": "room4_d6",
+      "roomId": "room4",
+      "conditions": [
+        {
+          "trigger_type": "after_action",
+          "trigger_key": "room4_old_fridge"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room4_d6_r1",
+          "char_key": "anna",
+          "char_state": "anna_fear",
+          "position": "left",
+          "text_key": "room4_d6_r1_loc"
+        },
+        {
+          "id": "room4_d6_r2",
+          "char_key": "alex",
+          "char_state": "alex_neutral",
+          "position": "right",
+          "text_key": "room4_d6_r2_loc"
+        },
+        {
+          "id": "room4_d6_r3",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room4_d6_r3_loc"
+        },
+        {
+          "id": "room4_d6_r4",
+          "char_key": "alex",
+          "char_state": "alex_neutral",
+          "position": "right",
+          "text_key": "room4_d6_r4_loc"
+        },
+        {
+          "id": "room4_d6_r5",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room4_d6_r5_loc"
+        }
+      ]
+    },
+    {
+      "id": "room4_d7",
+      "roomId": "room4",
+      "conditions": [
+        {
+          "trigger_type": "on_room_clean",
+          "trigger_key": "room4"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room4_d7_r1",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "right",
+          "text_key": "room4_d7_r1_loc"
+        },
+        {
+          "id": "room4_d7_r2",
+          "char_key": "alex",
+          "char_state": "alex_joy",
+          "position": "left",
+          "text_key": "room4_d7_r2_loc"
+        },
+        {
+          "id": "room4_d7_r3",
+          "char_key": "henry",
+          "char_state": "henry_embarrassed",
+          "position": "right",
+          "text_key": "room4_d7_r3_loc"
+        },
+        {
+          "id": "room4_d7_r4",
+          "char_key": "alex",
+          "char_state": "alex_neutral",
+          "position": "left",
+          "text_key": "room4_d7_r4_loc"
+        },
+        {
+          "id": "room4_d7_r5",
+          "char_key": "cat",
+          "char_state": "cat_embarrassed",
+          "position": "right",
+          "text_key": "room4_d7_r5_loc"
+        }
+      ]
+    },
+    {
+      "id": "room4_d8",
+      "roomId": "room4",
+      "conditions": [
+        {
+          "trigger_type": "after_action",
+          "trigger_key": "room4_window"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room4_d8_r1",
+          "char_key": "alex",
+          "char_state": "alex_sad",
+          "position": "right",
+          "text_key": "room4_d8_r1_loc"
+        },
+        {
+          "id": "room4_d8_r2",
+          "char_key": "anna",
+          "char_state": "anna_fear",
+          "position": "left",
+          "text_key": "room4_d8_r2_loc"
+        },
+        {
+          "id": "room4_d8_r3",
+          "char_key": "alex",
+          "char_state": "alex_sad",
+          "position": "right",
+          "text_key": "room4_d8_r3_loc"
+        },
+        {
+          "id": "room4_d8_r4",
+          "char_key": "anna",
+          "char_state": "anna_sad",
+          "position": "left",
+          "text_key": "room4_d8_r4_loc"
+        },
+        {
+          "id": "room4_d8_r5",
+          "char_key": "alex",
+          "char_state": "alex_neutral",
+          "position": "right",
+          "text_key": "room4_d8_r5_loc"
+        },
+        {
+          "id": "room4_d8_r6",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "right",
+          "text_key": "room4_d8_r6_loc"
+        },
+        {
+          "id": "room4_d8_r7",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room4_d8_r7_loc"
+        },
+        {
+          "id": "room4_d8_r8",
+          "char_key": "henry",
+          "char_state": "henry_neutral",
+          "position": "right",
+          "text_key": "room4_d8_r8_loc"
+        }
+      ]
+    },
+    {
+      "id": "room4_d9",
+      "roomId": "room4",
+      "conditions": [
+        {
+          "trigger_type": "dialog_point",
+          "trigger_key": "room4_pay_dialogue3"
+        }
+      ],
+      "award": 10,
+      "replicas": [
+        {
+          "id": "room4_d9_r1",
+          "char_key": "alex",
+          "char_state": "alex_sad",
+          "position": "right",
+          "text_key": "room4_d9_r1_loc"
+        },
+        {
+          "id": "room4_d9_r2",
+          "char_key": "anna",
+          "char_state": "anna_angry",
+          "position": "left",
+          "text_key": "room4_d9_r2_loc"
+        },
+        {
+          "id": "room4_d9_r3",
+          "char_key": "alex",
+          "char_state": "alex_sad",
+          "position": "right",
+          "text_key": "room4_d9_r3_loc"
+        },
+        {
+          "id": "room4_d9_r4",
+          "char_key": "alex",
+          "char_state": "alex_sad",
+          "position": "right",
+          "text_key": "room4_d9_r4_loc"
+        },
+        {
+          "id": "room4_d9_r5",
+          "char_key": "anna",
+          "char_state": "anna_fear",
+          "position": "left",
+          "text_key": "room4_d9_r5_loc"
+        },
+        {
+          "id": "room4_d9_r6",
+          "char_key": "alex",
+          "char_state": "alex_neutral",
+          "position": "right",
+          "text_key": "room4_d9_r6_loc"
+        },
+        {
+          "id": "room4_d9_r7",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room4_d9_r7_loc"
+        },
+        {
+          "id": "room4_d9_r8",
+          "char_key": "alex",
+          "char_state": "alex_angry",
+          "position": "right",
+          "text_key": "room4_d9_r8_loc"
+        }
+      ]
+    },
+    {
+      "id": "room4_d10",
+      "roomId": "room4",
+      "conditions": [
+        {
+          "trigger_type": "after_action",
+          "trigger_key": "room4_fridge"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room4_d10_r1",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room4_d10_r1_loc"
+        },
+        {
+          "id": "room4_d10_r2",
+          "char_key": "henry",
+          "char_state": "henry_embarrassed",
+          "position": "right",
+          "text_key": "room4_d10_r2_loc"
+        },
+        {
+          "id": "room4_d10_r3",
+          "char_key": "alex",
+          "char_state": "alex_joy",
+          "position": "right",
+          "text_key": "room4_d10_r3_loc"
+        }
+      ]
+    },
+    {
+      "id": "room4_d11",
+      "roomId": "room4",
+      "conditions": [
+        {
+          "trigger_type": "dialog_point",
+          "trigger_key": "room4_pay_dialogue4"
+        }
+      ],
+      "award": 10,
+      "replicas": [
+        {
+          "id": "room4_d11_r1",
+          "char_key": "cat",
+          "char_state": "cat_embarrassed",
+          "position": "right",
+          "text_key": "room4_d11_r1_loc"
+        },
+        {
+          "id": "room4_d11_r2",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room4_d11_r2_loc"
+        },
+        {
+          "id": "room4_d11_r3",
+          "char_key": "alex",
+          "char_state": "alex_neutral",
+          "position": "right",
+          "text_key": "room4_d11_r3_loc"
+        },
+        {
+          "id": "room4_d11_r4",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room4_d11_r4_loc"
+        },
+        {
+          "id": "room4_d11_r5",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "left",
+          "text_key": "room4_d11_r5_loc"
+        },
+        {
+          "id": "room4_d11_r6",
+          "char_key": "alex",
+          "char_state": "alex_joy",
+          "position": "right",
+          "text_key": "room4_d11_r6_loc"
+        },
+        {
+          "id": "room4_d11_r7",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room4_d11_r7_loc"
+        }
+      ]
+    },
+    {
+      "id": "room4_d12",
+      "roomId": "room4",
+      "conditions": [
+        {
+          "trigger_type": "on_room_finished",
+          "trigger_key": "room4"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room4_d12_r1",
+          "char_key": "alex",
+          "char_state": "alex_sad",
+          "position": "right",
+          "text_key": "room4_d12_r1_loc"
+        },
+        {
+          "id": "room4_d12_r2",
+          "char_key": "alex",
+          "char_state": "alex_angry",
+          "position": "right",
+          "text_key": "room4_d12_r2_loc"
+        },
+        {
+          "id": "room4_d12_r3",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room4_d12_r3_loc"
+        },
+        {
+          "id": "room4_d12_r4",
+          "char_key": "alex",
+          "char_state": "alex_sad",
+          "position": "right",
+          "text_key": "room4_d12_r4_loc"
+        },
+        {
+          "id": "room4_d12_r5",
+          "char_key": "alex",
+          "char_state": "alex_sad",
+          "position": "right",
+          "text_key": "room4_d12_r5_loc"
+        },
+        {
+          "id": "room4_d12_r6",
+          "char_key": "cat",
+          "char_state": "cat_embarrassed",
+          "position": "right",
+          "text_key": "room4_d12_r6_loc"
+        },
+        {
+          "id": "room4_d12_r7",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room4_d12_r7_loc"
+        },
+        {
+          "id": "room4_d12_r8",
+          "char_key": "alex",
+          "char_state": "alex_angry",
+          "position": "right",
+          "text_key": "room4_d12_r8_loc"
+        }
+      ]
+    }
+  ]
 }

@@ -11,11 +11,13 @@
       "room5_old_armchair",
       "room5_old_storage_chest",
       "room5_old_desk_things",
+      "room5_pay_dialogue1",
       "room5_old_rug",
       "room5_old_daybed",
       "room5_old_desk",
       "room5_old_plant",
       "room5_old_chest_books_boxes",
+      "room5_pay_dialogue2",
       "room5_old_pendant_light",
       "room5_old_attic_window",
       "room5_old_bookcase",
@@ -26,12 +28,14 @@
       "room5_walls",
       "room5_attic_window",
       "room5_pendant_light",
+      "room5_pay_dialogue3",
       "room5_rug",
       "room5_bookcase",
       "room5_desk",
       "room5_daybed",
       "room5_wall_picture",
       "room5_chest_books_boxes",
+      "room5_pay_dialogue4",
       "room5_plant",
       "room5_desk_books_lamp",
       "room5_armchair"
@@ -333,6 +337,50 @@
       ],
       "x": 87.5,
       "y": 648.5
+    },
+    {
+      "key": "room5_pay_dialogue1",
+      "type": "dialog",
+      "dialogId": "room5_d3",
+      "multiobject": "",
+      "price": 250,
+      "priceType": "coins",
+      "x": 358,
+      "y": 700,
+      "name_key": "room5_pay_dialogue1_loc"
+    },
+    {
+      "key": "room5_pay_dialogue2",
+      "type": "dialog",
+      "dialogId": "room5_d4",
+      "multiobject": "",
+      "price": 250,
+      "priceType": "coins",
+      "x": 358,
+      "y": 700,
+      "name_key": "room5_pay_dialogue2_loc"
+    },
+    {
+      "key": "room5_pay_dialogue3",
+      "type": "dialog",
+      "dialogId": "room5_d7",
+      "multiobject": "",
+      "price": 250,
+      "priceType": "coins",
+      "x": 358,
+      "y": 700,
+      "name_key": "room5_pay_dialogue3_loc"
+    },
+    {
+      "key": "room5_pay_dialogue4",
+      "type": "dialog",
+      "dialogId": "room5_d8",
+      "multiobject": "",
+      "price": 250,
+      "priceType": "coins",
+      "x": 358,
+      "y": 700,
+      "name_key": "room5_pay_dialogue4_loc"
     }
   ],
   "allMultiobjects": [
@@ -342,7 +390,7 @@
         "room5_walls_A_1",
         "room5_walls_A_2"
       ],
-      "price": 555,
+      "price": 1100,
       "priceType": "coins"
     },
     {
@@ -351,7 +399,7 @@
         "room5_walls_B_1",
         "room5_walls_B_2"
       ],
-      "price": 710,
+      "price": 1430,
       "priceType": "coins"
     },
     {
@@ -360,7 +408,7 @@
         "room5_walls_C_1",
         "room5_walls_C_2"
       ],
-      "price": 10,
+      "price": 75,
       "priceType": "diamonds"
     },
     {
@@ -368,7 +416,7 @@
       "parts": [
         "room5_floor_A"
       ],
-      "price": 540,
+      "price": 1000,
       "priceType": "coins"
     },
     {
@@ -376,7 +424,7 @@
       "parts": [
         "room5_floor_B"
       ],
-      "price": 690,
+      "price": 1300,
       "priceType": "coins"
     },
     {
@@ -384,7 +432,7 @@
       "parts": [
         "room5_floor_C"
       ],
-      "price": 10,
+      "price": 65,
       "priceType": "diamonds"
     },
     {
@@ -393,7 +441,7 @@
         "room5_wall_picture_A_1",
         "room5_wall_picture_A_2"
       ],
-      "price": 465,
+      "price": 700,
       "priceType": "coins"
     },
     {
@@ -402,7 +450,7 @@
         "room5_wall_picture_B_1",
         "room5_wall_picture_B_2"
       ],
-      "price": 595,
+      "price": 910,
       "priceType": "coins"
     },
     {
@@ -411,7 +459,7 @@
         "room5_wall_picture_C_1",
         "room5_wall_picture_C_2"
       ],
-      "price": 5,
+      "price": 25,
       "priceType": "diamonds"
     },
     {
@@ -419,7 +467,7 @@
       "parts": [
         "room5_attic_window_A"
       ],
-      "price": 555,
+      "price": 800,
       "priceType": "coins"
     },
     {
@@ -427,7 +475,7 @@
       "parts": [
         "room5_attic_window_B"
       ],
-      "price": 710,
+      "price": 1040,
       "priceType": "coins"
     },
     {
@@ -435,7 +483,7 @@
       "parts": [
         "room5_attic_window_C"
       ],
-      "price": 10,
+      "price": 50,
       "priceType": "diamonds"
     },
     {
@@ -443,7 +491,7 @@
       "parts": [
         "room5_bookcase_A"
       ],
-      "price": 555,
+      "price": 1100,
       "priceType": "coins"
     },
     {
@@ -451,7 +499,7 @@
       "parts": [
         "room5_bookcase_B"
       ],
-      "price": 710,
+      "price": 1430,
       "priceType": "coins"
     },
     {
@@ -459,7 +507,7 @@
       "parts": [
         "room5_bookcase_C"
       ],
-      "price": 10,
+      "price": 70,
       "priceType": "diamonds"
     },
     {
@@ -467,7 +515,7 @@
       "parts": [
         "room5_plant_A"
       ],
-      "price": 555,
+      "price": 700,
       "priceType": "coins"
     },
     {
@@ -475,7 +523,7 @@
       "parts": [
         "room5_plant_B"
       ],
-      "price": 710,
+      "price": 910,
       "priceType": "coins"
     },
     {
@@ -483,7 +531,7 @@
       "parts": [
         "room5_plant_C"
       ],
-      "price": 10,
+      "price": 25,
       "priceType": "diamonds"
     },
     {
@@ -491,7 +539,7 @@
       "parts": [
         "room5_rug_A"
       ],
-      "price": 555,
+      "price": 700,
       "priceType": "coins"
     },
     {
@@ -499,7 +547,7 @@
       "parts": [
         "room5_rug_B"
       ],
-      "price": 710,
+      "price": 910,
       "priceType": "coins"
     },
     {
@@ -507,7 +555,7 @@
       "parts": [
         "room5_rug_C"
       ],
-      "price": 10,
+      "price": 30,
       "priceType": "diamonds"
     },
     {
@@ -515,7 +563,7 @@
       "parts": [
         "room5_daybed_A"
       ],
-      "price": 555,
+      "price": 1200,
       "priceType": "coins"
     },
     {
@@ -523,7 +571,7 @@
       "parts": [
         "room5_daybed_B"
       ],
-      "price": 710,
+      "price": 1560,
       "priceType": "coins"
     },
     {
@@ -531,7 +579,7 @@
       "parts": [
         "room5_daybed_C"
       ],
-      "price": 10,
+      "price": 85,
       "priceType": "diamonds"
     },
     {
@@ -539,7 +587,7 @@
       "parts": [
         "room5_desk_A"
       ],
-      "price": 505,
+      "price": 900,
       "priceType": "coins"
     },
     {
@@ -547,7 +595,7 @@
       "parts": [
         "room5_desk_B"
       ],
-      "price": 645,
+      "price": 1170,
       "priceType": "coins"
     },
     {
@@ -555,7 +603,7 @@
       "parts": [
         "room5_desk_C"
       ],
-      "price": 10,
+      "price": 60,
       "priceType": "diamonds"
     },
     {
@@ -563,7 +611,7 @@
       "parts": [
         "room5_desk_books_lamp_A"
       ],
-      "price": 590,
+      "price": 700,
       "priceType": "coins"
     },
     {
@@ -571,7 +619,7 @@
       "parts": [
         "room5_desk_books_lamp_B"
       ],
-      "price": 755,
+      "price": 910,
       "priceType": "coins"
     },
     {
@@ -579,7 +627,7 @@
       "parts": [
         "room5_desk_books_lamp_C"
       ],
-      "price": 10,
+      "price": 25,
       "priceType": "diamonds"
     },
     {
@@ -587,7 +635,7 @@
       "parts": [
         "room5_armchair_A"
       ],
-      "price": 535,
+      "price": 1000,
       "priceType": "coins"
     },
     {
@@ -595,7 +643,7 @@
       "parts": [
         "room5_armchair_B"
       ],
-      "price": 685,
+      "price": 1300,
       "priceType": "coins"
     },
     {
@@ -603,7 +651,7 @@
       "parts": [
         "room5_armchair_C"
       ],
-      "price": 10,
+      "price": 55,
       "priceType": "diamonds"
     },
     {
@@ -611,7 +659,7 @@
       "parts": [
         "room5_pendant_light_A"
       ],
-      "price": 545,
+      "price": 750,
       "priceType": "coins"
     },
     {
@@ -619,7 +667,7 @@
       "parts": [
         "room5_pendant_light_B"
       ],
-      "price": 700,
+      "price": 980,
       "priceType": "coins"
     },
     {
@@ -627,7 +675,7 @@
       "parts": [
         "room5_pendant_light_C"
       ],
-      "price": 10,
+      "price": 40,
       "priceType": "diamonds"
     },
     {
@@ -636,7 +684,7 @@
         "room5_chest_books_boxes_A_1",
         "room5_chest_books_boxes_A_2"
       ],
-      "price": 515,
+      "price": 850,
       "priceType": "coins"
     },
     {
@@ -645,7 +693,7 @@
         "room5_chest_books_boxes_B_1",
         "room5_chest_books_boxes_B_2"
       ],
-      "price": 660,
+      "price": 1100,
       "priceType": "coins"
     },
     {
@@ -654,7 +702,7 @@
         "room5_chest_books_boxes_C_1",
         "room5_chest_books_boxes_C_2"
       ],
-      "price": 10,
+      "price": 45,
       "priceType": "diamonds"
     },
     {
@@ -662,7 +710,7 @@
       "parts": [
         "room5_old_walls"
       ],
-      "price": 220,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -670,7 +718,7 @@
       "parts": [
         "room5_old_floor"
       ],
-      "price": 220,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -678,7 +726,7 @@
       "parts": [
         "room5_old_wall_picture_left"
       ],
-      "price": 220,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -686,7 +734,7 @@
       "parts": [
         "room5_old_attic_window"
       ],
-      "price": 215,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -694,7 +742,7 @@
       "parts": [
         "room5_old_bookcase"
       ],
-      "price": 240,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -702,7 +750,7 @@
       "parts": [
         "room5_old_plant"
       ],
-      "price": 235,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -710,7 +758,7 @@
       "parts": [
         "room5_old_rug"
       ],
-      "price": 200,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -718,7 +766,7 @@
       "parts": [
         "room5_old_daybed"
       ],
-      "price": 245,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -726,7 +774,7 @@
       "parts": [
         "room5_old_desk"
       ],
-      "price": 260,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -736,7 +784,7 @@
         "room5_old_desk_things_2",
         "room5_old_desk_things_3"
       ],
-      "price": 90,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -744,7 +792,7 @@
       "parts": [
         "room5_old_chest_books_boxes"
       ],
-      "price": 235,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -752,7 +800,7 @@
       "parts": [
         "room5_old_armchair"
       ],
-      "price": 99999,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -760,7 +808,7 @@
       "parts": [
         "room5_old_pendant_light"
       ],
-      "price": 215,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -768,7 +816,7 @@
       "parts": [
         "room5_old_storage_chest"
       ],
-      "price": 90,
+      "price": 400,
       "priceType": "coins"
     }
   ],
@@ -1287,5 +1335,607 @@
       "angle": 0
     }
   ],
-  "award": 25
+  "award": 40,
+  "dialogs": [
+    {
+      "id": "room5_d1",
+      "roomId": "room5",
+      "conditions": [
+        {
+          "trigger_type": "on_room_enter",
+          "trigger_key": "room5"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room5_d1_r1",
+          "char_key": "anna",
+          "char_state": "anna_fear",
+          "position": "left",
+          "text_key": "room5_d1_r1_loc"
+        },
+        {
+          "id": "room5_d1_r2",
+          "char_key": "henry",
+          "char_state": "henry_neutral",
+          "position": "right",
+          "text_key": "room5_d1_r2_loc"
+        },
+        {
+          "id": "room5_d1_r3",
+          "char_key": "anna",
+          "char_state": "anna_sad",
+          "position": "left",
+          "text_key": "room5_d1_r3_loc"
+        },
+        {
+          "id": "room5_d1_r4",
+          "char_key": "anna",
+          "char_state": "anna_fear",
+          "position": "left",
+          "text_key": "room5_d1_r4_loc"
+        },
+        {
+          "id": "room5_d1_r5",
+          "char_key": "anna",
+          "char_state": "anna_fear",
+          "position": "left",
+          "text_key": "room5_d1_r5_loc"
+        },
+        {
+          "id": "room5_d1_r6",
+          "char_key": "henry",
+          "char_state": "henry_neutral",
+          "position": "right",
+          "text_key": "room5_d1_r6_loc"
+        }
+      ]
+    },
+    {
+      "id": "room5_d2",
+      "roomId": "room5",
+      "conditions": [
+        {
+          "trigger_type": "after_action",
+          "trigger_key": "room5_old_storage_chest"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room5_d2_r1",
+          "char_key": "anna",
+          "char_state": "anna_sad",
+          "position": "left",
+          "text_key": "room5_d2_r1_loc"
+        },
+        {
+          "id": "room5_d2_r2",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room5_d2_r2_loc"
+        },
+        {
+          "id": "room5_d2_r3",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room5_d2_r3_loc"
+        },
+        {
+          "id": "room5_d2_r4",
+          "char_key": "anna",
+          "char_state": "anna_sad",
+          "position": "left",
+          "text_key": "room5_d2_r4_loc"
+        },
+        {
+          "id": "room5_d2_r5",
+          "char_key": "anna",
+          "char_state": "anna_sad",
+          "position": "left",
+          "text_key": "room5_d2_r5_loc"
+        },
+        {
+          "id": "room5_d2_r6",
+          "char_key": "anna",
+          "char_state": "anna_sad",
+          "position": "left",
+          "text_key": "room5_d2_r6_loc"
+        },
+        {
+          "id": "room5_d2_r7",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room5_d2_r7_loc"
+        }
+      ]
+    },
+    {
+      "id": "room5_d3",
+      "roomId": "room5",
+      "conditions": [
+        {
+          "trigger_type": "dialog_point",
+          "trigger_key": "room5_pay_dialogue1"
+        }
+      ],
+      "award": 15,
+      "replicas": [
+        {
+          "id": "room5_d3_r1",
+          "char_key": "mary",
+          "char_state": "mary_neutral",
+          "position": "right",
+          "text_key": "room5_d3_r1_loc"
+        },
+        {
+          "id": "room5_d3_r2",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room5_d3_r2_loc"
+        },
+        {
+          "id": "room5_d3_r3",
+          "char_key": "mary",
+          "char_state": "mary_neutral",
+          "position": "right",
+          "text_key": "room5_d3_r3_loc"
+        },
+        {
+          "id": "room5_d3_r4",
+          "char_key": "anna",
+          "char_state": "anna_happy",
+          "position": "left",
+          "text_key": "room5_d3_r4_loc"
+        },
+        {
+          "id": "room5_d3_r5",
+          "char_key": "mary",
+          "char_state": "mary_angry",
+          "position": "right",
+          "text_key": "room5_d3_r5_loc"
+        },
+        {
+          "id": "room5_d3_r6",
+          "char_key": "mary",
+          "char_state": "mary_neutral",
+          "position": "right",
+          "text_key": "room5_d3_r6_loc"
+        },
+        {
+          "id": "room5_d3_r7",
+          "char_key": "anna",
+          "char_state": "anna_fear",
+          "position": "left",
+          "text_key": "room5_d3_r7_loc"
+        },
+        {
+          "id": "room5_d3_r8",
+          "char_key": "mary",
+          "char_state": "mary_neutral",
+          "position": "right",
+          "text_key": "room5_d3_r8_loc"
+        }
+      ]
+    },
+    {
+      "id": "room5_d4",
+      "roomId": "room5",
+      "conditions": [
+        {
+          "trigger_type": "dialog_point",
+          "trigger_key": "room5_pay_dialogue2"
+        }
+      ],
+      "award": 15,
+      "replicas": [
+        {
+          "id": "room5_d4_r1",
+          "char_key": "alex",
+          "char_state": "alex_neutral",
+          "position": "right",
+          "text_key": "room5_d4_r1_loc"
+        },
+        {
+          "id": "room5_d4_r2",
+          "char_key": "anna",
+          "char_state": "anna_happy",
+          "position": "left",
+          "text_key": "room5_d4_r2_loc"
+        },
+        {
+          "id": "room5_d4_r3",
+          "char_key": "alex",
+          "char_state": "alex_neutral",
+          "position": "right",
+          "text_key": "room5_d4_r3_loc"
+        },
+        {
+          "id": "room5_d4_r4",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room5_d4_r4_loc"
+        },
+        {
+          "id": "room5_d4_r5",
+          "char_key": "alex",
+          "char_state": "alex_joy",
+          "position": "right",
+          "text_key": "room5_d4_r5_loc"
+        },
+        {
+          "id": "room5_d4_r6",
+          "char_key": "cat",
+          "char_state": "cat_joy",
+          "position": "right",
+          "text_key": "room5_d4_r6_loc"
+        },
+        {
+          "id": "room5_d4_r7",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "left",
+          "text_key": "room5_d4_r7_loc"
+        },
+        {
+          "id": "room5_d4_r8",
+          "char_key": "alex",
+          "char_state": "alex_angry",
+          "position": "right",
+          "text_key": "room5_d4_r8_loc"
+        },
+        {
+          "id": "room5_d4_r9",
+          "char_key": "henry",
+          "char_state": "henry_embarrassed",
+          "position": "left",
+          "text_key": "room5_d4_r9_loc"
+        },
+        {
+          "id": "room5_d4_r10",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room5_d4_r10_loc"
+        }
+      ]
+    },
+    {
+      "id": "room5_d5",
+      "roomId": "room5",
+      "conditions": [
+        {
+          "trigger_type": "after_action",
+          "trigger_key": "room5_old_bookcase"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room5_d5_r1",
+          "char_key": "anna",
+          "char_state": "anna_happy",
+          "position": "left",
+          "text_key": "room5_d5_r1_loc"
+        },
+        {
+          "id": "room5_d5_r2",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "right",
+          "text_key": "room5_d5_r2_loc"
+        },
+        {
+          "id": "room5_d5_r3",
+          "char_key": "anna",
+          "char_state": "anna_embarrassed",
+          "position": "left",
+          "text_key": "room5_d5_r3_loc"
+        },
+        {
+          "id": "room5_d5_r4",
+          "char_key": "anna",
+          "char_state": "anna_embarrassed",
+          "position": "left",
+          "text_key": "room5_d5_r4_loc"
+        },
+        {
+          "id": "room5_d5_r5",
+          "char_key": "henry",
+          "char_state": "henry_neutral",
+          "position": "right",
+          "text_key": "room5_d5_r5_loc"
+        },
+        {
+          "id": "room5_d5_r6",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room5_d5_r6_loc"
+        },
+        {
+          "id": "room5_d5_r7",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "right",
+          "text_key": "room5_d5_r7_loc"
+        }
+      ]
+    },
+    {
+      "id": "room5_d6",
+      "roomId": "room5",
+      "conditions": [
+        {
+          "trigger_type": "on_room_clean",
+          "trigger_key": "room5"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room5_d6_r1",
+          "char_key": "victor",
+          "char_state": "victor_smirk",
+          "position": "right",
+          "text_key": "room5_d6_r1_loc"
+        },
+        {
+          "id": "room5_d6_r2",
+          "char_key": "anna",
+          "char_state": "anna_fear",
+          "position": "left",
+          "text_key": "room5_d6_r2_loc"
+        },
+        {
+          "id": "room5_d6_r3",
+          "char_key": "victor",
+          "char_state": "victor_smirk",
+          "position": "right",
+          "text_key": "room5_d6_r3_loc"
+        },
+        {
+          "id": "room5_d6_r4",
+          "char_key": "anna",
+          "char_state": "anna_angry",
+          "position": "left",
+          "text_key": "room5_d6_r4_loc"
+        },
+        {
+          "id": "room5_d6_r5",
+          "char_key": "victor",
+          "char_state": "victor_neutral",
+          "position": "right",
+          "text_key": "room5_d6_r5_loc"
+        },
+        {
+          "id": "room5_d6_r6",
+          "char_key": "anna",
+          "char_state": "anna_angry",
+          "position": "left",
+          "text_key": "room5_d6_r6_loc"
+        },
+        {
+          "id": "room5_d6_r7",
+          "char_key": "henry",
+          "char_state": "henry_neutral",
+          "position": "right",
+          "text_key": "room5_d6_r7_loc"
+        },
+        {
+          "id": "room5_d6_r8",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room5_d6_r8_loc"
+        },
+        {
+          "id": "room5_d6_r9",
+          "char_key": "victor",
+          "char_state": "victor_smirk",
+          "position": "right",
+          "text_key": "room5_d6_r9_loc"
+        },
+        {
+          "id": "room5_d6_r10",
+          "char_key": "anna",
+          "char_state": "anna_angry",
+          "position": "left",
+          "text_key": "room5_d6_r10_loc"
+        }
+      ]
+    },
+    {
+      "id": "room5_d7",
+      "roomId": "room5",
+      "conditions": [
+        {
+          "trigger_type": "dialog_point",
+          "trigger_key": "room5_pay_dialogue3"
+        }
+      ],
+      "award": 15,
+      "replicas": [
+        {
+          "id": "room5_d7_r1",
+          "char_key": "victor",
+          "char_state": "victor_neutral",
+          "position": "right",
+          "text_key": "room5_d7_r1_loc"
+        },
+        {
+          "id": "room5_d7_r2",
+          "char_key": "alex",
+          "char_state": "alex_sad",
+          "position": "left",
+          "text_key": "room5_d7_r2_loc"
+        },
+        {
+          "id": "room5_d7_r3",
+          "char_key": "victor",
+          "char_state": "victor_smirk",
+          "position": "right",
+          "text_key": "room5_d7_r3_loc"
+        },
+        {
+          "id": "room5_d7_r4",
+          "char_key": "anna",
+          "char_state": "anna_angry",
+          "position": "left",
+          "text_key": "room5_d7_r4_loc"
+        },
+        {
+          "id": "room5_d7_r5",
+          "char_key": "henry",
+          "char_state": "henry_neutral",
+          "position": "right",
+          "text_key": "room5_d7_r5_loc"
+        },
+        {
+          "id": "room5_d7_r6",
+          "char_key": "alex",
+          "char_state": "alex_sad",
+          "position": "left",
+          "text_key": "room5_d7_r6_loc"
+        },
+        {
+          "id": "room5_d7_r7",
+          "char_key": "victor",
+          "char_state": "victor_neutral",
+          "position": "right",
+          "text_key": "room5_d7_r7_loc"
+        },
+        {
+          "id": "room5_d7_r8",
+          "char_key": "alex",
+          "char_state": "alex_neutral",
+          "position": "left",
+          "text_key": "room5_d7_r8_loc"
+        },
+        {
+          "id": "room5_d7_r9",
+          "char_key": "anna",
+          "char_state": "anna_sad",
+          "position": "left",
+          "text_key": "room5_d7_r9_loc"
+        }
+      ]
+    },
+    {
+      "id": "room5_d8",
+      "roomId": "room5",
+      "conditions": [
+        {
+          "trigger_type": "dialog_point",
+          "trigger_key": "room5_pay_dialogue4"
+        }
+      ],
+      "award": 15,
+      "replicas": [
+        {
+          "id": "room5_d8_r10",
+          "char_key": "victor",
+          "char_state": "victor_neutral",
+          "position": "right",
+          "text_key": "room5_d8_r10_loc"
+        },
+        {
+          "id": "room5_d8_r11",
+          "char_key": "henry",
+          "char_state": "henry_neutral",
+          "position": "left",
+          "text_key": "room5_d8_r11_loc"
+        },
+        {
+          "id": "room5_d8_r12",
+          "char_key": "victor",
+          "char_state": "victor_smirk",
+          "position": "right",
+          "text_key": "room5_d8_r12_loc"
+        }
+      ]
+    },
+    {
+      "id": "room5_d9",
+      "roomId": "room5",
+      "conditions": [
+        {
+          "trigger_type": "on_room_finished",
+          "trigger_key": "room5"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room5_d9_r1",
+          "char_key": "alex",
+          "char_state": "alex_joy",
+          "position": "right",
+          "text_key": "room5_d9_r1_loc"
+        },
+        {
+          "id": "room5_d9_r2",
+          "char_key": "anna",
+          "char_state": "anna_happy",
+          "position": "left",
+          "text_key": "room5_d9_r2_loc"
+        },
+        {
+          "id": "room5_d9_r3",
+          "char_key": "alex",
+          "char_state": "alex_neutral",
+          "position": "right",
+          "text_key": "room5_d9_r3_loc"
+        },
+        {
+          "id": "room5_d9_r4",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "right",
+          "text_key": "room5_d9_r4_loc"
+        },
+        {
+          "id": "room5_d9_r5",
+          "char_key": "anna",
+          "char_state": "anna_embarrassed",
+          "position": "left",
+          "text_key": "room5_d9_r5_loc"
+        },
+        {
+          "id": "room5_d9_r6",
+          "char_key": "alex",
+          "char_state": "alex_neutral",
+          "position": "right",
+          "text_key": "room5_d9_r6_loc"
+        },
+        {
+          "id": "room5_d9_r7",
+          "char_key": "alex",
+          "char_state": "alex_neutral",
+          "position": "right",
+          "text_key": "room5_d9_r7_loc"
+        },
+        {
+          "id": "room5_d9_r8",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room5_d9_r8_loc"
+        },
+        {
+          "id": "room5_d9_r9",
+          "char_key": "henry",
+          "char_state": "henry_embarrassed",
+          "position": "right",
+          "text_key": "room5_d9_r9_loc"
+        }
+      ]
+    }
+  ]
 }
