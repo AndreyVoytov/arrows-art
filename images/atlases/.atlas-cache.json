@@ -315,12 +315,12 @@
       "sourceDir": "images/ui/room_preview",
       "digest": "68b255d7c6301200f6530c46ccf9935c7d8553430eb1793636b4a587cdae6a00",
       "outputs": [
-        "images/atlases/ui/ui_room_preview_68b255d7.png",
-        "images/atlases/ui/ui_room_preview_68b255d7.webp",
-        "images/atlases/ui/ui_room_preview_68b255d7.json",
-        "images/atlases/ui/ui_room_preview_68b255d7.webp.json"
+        "images/atlases/content/ui_room_preview_68b255d7.png",
+        "images/atlases/content/ui_room_preview_68b255d7.webp",
+        "images/atlases/content/ui_room_preview_68b255d7.json",
+        "images/atlases/content/ui_room_preview_68b255d7.webp.json"
       ],
-      "updatedAt": "2026-08-01T22:17:12.990820+00:00"
+      "updatedAt": "2026-08-02T07:53:58.024758+00:00"
     },
     "ui_shop": {
       "sourceDir": "images/ui/shop",
