@@ -491,5 +491,6 @@
   "ui_reward": "Ödül",
   "ui_skip": "Atla",
   "victor": "galip",
-  "wand": "Sihirli değnek"
+  "wand": "Sihirli değnek",
+  "ui_ads_disabled": "Reklam devre dışı bırakıldı"
 }

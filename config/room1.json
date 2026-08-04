@@ -305,8 +305,8 @@
         "room1_walls_B_1",
         "room1_walls_B_2"
       ],
-      "price": 270,
-      "priceType": "coins"
+      "price": 5,
+      "priceType": "diamonds"
     },
     {
       "key": "room1_walls_variant_3",
@@ -314,15 +314,15 @@
         "room1_walls_C_1",
         "room1_walls_C_2"
       ],
-      "price": 5,
-      "priceType": "diamonds"
+      "price": 270,
+      "priceType": "coins"
     },
     {
       "key": "room1_floor",
       "parts": [
         "room1_floor_A"
       ],
-      "price": 200,
+      "price": 0,
       "priceType": "coins"
     },
     {
@@ -346,8 +346,8 @@
       "parts": [
         "room1_carpet_A"
       ],
-      "price": 140,
-      "priceType": "coins"
+      "price": 5,
+      "priceType": "diamonds"
     },
     {
       "key": "room1_carpet_variant_2",
@@ -362,8 +362,8 @@
       "parts": [
         "room1_carpet_C"
       ],
-      "price": 5,
-      "priceType": "diamonds"
+      "price": 140,
+      "priceType": "coins"
     },
     {
       "key": "room1_window",
@@ -378,16 +378,16 @@
       "parts": [
         "room1_window_B"
       ],
-      "price": 240,
-      "priceType": "coins"
+      "price": 5,
+      "priceType": "diamonds"
     },
     {
       "key": "room1_window_variant_3",
       "parts": [
         "room1_window_C"
       ],
-      "price": 5,
-      "priceType": "diamonds"
+      "price": 240,
+      "priceType": "coins"
     },
     {
       "key": "room1_chair_with_plant",
@@ -404,8 +404,8 @@
         "room1_chair_with_plant_B_1",
         "room1_chair_with_plant_B_2"
       ],
-      "price": 220,
-      "priceType": "coins"
+      "price": 5,
+      "priceType": "diamonds"
     },
     {
       "key": "room1_chair_with_plant_variant_3",
@@ -413,23 +413,23 @@
         "room1_chair_with_plant_C_1",
         "room1_chair_with_plant_C_2"
       ],
-      "price": 5,
-      "priceType": "diamonds"
+      "price": 220,
+      "priceType": "coins"
     },
     {
       "key": "room1_picture",
       "parts": [
         "room1_picture_A"
       ],
-      "price": 150,
-      "priceType": "coins"
+      "price": 5,
+      "priceType": "diamonds"
     },
     {
       "key": "room1_picture_variant_2",
       "parts": [
         "room1_picture_B"
       ],
-      "price": 200,
+      "price": 150,
       "priceType": "coins"
     },
     {
@@ -437,8 +437,8 @@
       "parts": [
         "room1_picture_C"
       ],
-      "price": 5,
-      "priceType": "diamonds"
+      "price": 200,
+      "priceType": "coins"
     },
     {
       "key": "room1_cupboard",
@@ -517,7 +517,7 @@
       "parts": [
         "room1_plant_left_A"
       ],
-      "price": 150,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -525,16 +525,16 @@
       "parts": [
         "room1_plant_left_B"
       ],
-      "price": 200,
-      "priceType": "coins"
+      "price": 5,
+      "priceType": "diamonds"
     },
     {
       "key": "room1_plant_left_variant_3",
       "parts": [
         "room1_plant_left_C"
       ],
-      "price": 5,
-      "priceType": "diamonds"
+      "price": 150,
+      "priceType": "coins"
     },
     {
       "key": "room1_broken_wall_left",
@@ -577,7 +577,7 @@
         "room1_trash_2",
         "room1_trash_3"
       ],
-      "price": 99999,
+      "price": 0,
       "priceType": "coins"
     },
     {

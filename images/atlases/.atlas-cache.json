@@ -269,14 +269,14 @@
     },
     "ui_loader": {
       "sourceDir": "images/ui/loader",
-      "digest": "bb663ab640b4521032c86be379b8acc2f6dfbf5c12c3a487873b7c65f3dfaa74",
+      "digest": "a99b51dd52d6a5915dbea00637fe5cc0abf0f95691616afea8a4615e6687424c",
       "outputs": [
-        "images/atlases/ui/ui_loader_bb663ab6.png",
-        "images/atlases/ui/ui_loader_bb663ab6.webp",
-        "images/atlases/ui/ui_loader_bb663ab6.json",
-        "images/atlases/ui/ui_loader_bb663ab6.webp.json"
+        "images/atlases/ui/ui_loader_a99b51dd.png",
+        "images/atlases/ui/ui_loader_a99b51dd.webp",
+        "images/atlases/ui/ui_loader_a99b51dd.json",
+        "images/atlases/ui/ui_loader_a99b51dd.webp.json"
       ],
-      "updatedAt": "2026-08-01T22:16:39.404673+00:00"
+      "updatedAt": "2026-08-02T22:13:26.245114+00:00"
     },
     "ui_lobby": {
       "sourceDir": "images/ui/lobby",
@@ -291,14 +291,14 @@
     },
     "ui_panel": {
       "sourceDir": "images/ui/panel",
-      "digest": "ac1a15e6ff490d3ec2e3dbeb4572f36d60295ec416924caa3055e41c1d1f8980",
+      "digest": "e298a16d947601b7ea3c28df8d412706addc488b0b5357fc21859adf78433426",
       "outputs": [
-        "images/atlases/ui/ui_panel_ac1a15e6.png",
-        "images/atlases/ui/ui_panel_ac1a15e6.webp",
-        "images/atlases/ui/ui_panel_ac1a15e6.json",
-        "images/atlases/ui/ui_panel_ac1a15e6.webp.json"
+        "images/atlases/ui/ui_panel_e298a16d.png",
+        "images/atlases/ui/ui_panel_e298a16d.webp",
+        "images/atlases/ui/ui_panel_e298a16d.json",
+        "images/atlases/ui/ui_panel_e298a16d.webp.json"
       ],
-      "updatedAt": "2026-08-01T22:17:01.332666+00:00"
+      "updatedAt": "2026-08-02T22:13:41.728217+00:00"
     },
     "ui_preloader": {
       "sourceDir": "images/ui/preloader",

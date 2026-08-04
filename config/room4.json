@@ -549,7 +549,7 @@
       "parts": [
         "room4_rug_A"
       ],
-      "price": 500,
+      "price": 650,
       "priceType": "coins"
     },
     {
@@ -557,16 +557,16 @@
       "parts": [
         "room4_rug_B"
       ],
-      "price": 650,
-      "priceType": "coins"
+      "price": 15,
+      "priceType": "diamonds"
     },
     {
       "key": "room4_rug_variant_3",
       "parts": [
         "room4_rug_C"
       ],
-      "price": 15,
-      "priceType": "diamonds"
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room4_cabinet_second",
@@ -581,24 +581,24 @@
       "parts": [
         "room4_cabinet_second_B"
       ],
-      "price": 850,
-      "priceType": "coins"
+      "price": 25,
+      "priceType": "diamonds"
     },
     {
       "key": "room4_cabinet_second_variant_3",
       "parts": [
         "room4_cabinet_second_C"
       ],
-      "price": 25,
-      "priceType": "diamonds"
+      "price": 850,
+      "priceType": "coins"
     },
     {
       "key": "room4_window",
       "parts": [
         "room4_window_A"
       ],
-      "price": 600,
-      "priceType": "coins"
+      "price": 30,
+      "priceType": "diamonds"
     },
     {
       "key": "room4_window_variant_2",
@@ -613,8 +613,8 @@
       "parts": [
         "room4_window_C"
       ],
-      "price": 30,
-      "priceType": "diamonds"
+      "price": 600,
+      "priceType": "coins"
     },
     {
       "key": "room4_kitchen_sink",
@@ -629,16 +629,16 @@
       "parts": [
         "room4_kitchen_sink_B"
       ],
-      "price": 780,
-      "priceType": "coins"
+      "price": 30,
+      "priceType": "diamonds"
     },
     {
       "key": "room4_kitchen_sink_variant_3",
       "parts": [
         "room4_kitchen_sink_C"
       ],
-      "price": 30,
-      "priceType": "diamonds"
+      "price": 780,
+      "priceType": "coins"
     },
     {
       "key": "room4_stove",
@@ -693,8 +693,8 @@
       "parts": [
         "room4_dish_cabinet_A"
       ],
-      "price": 550,
-      "priceType": "coins"
+      "price": 25,
+      "priceType": "diamonds"
     },
     {
       "key": "room4_dish_cabinet_variant_2",
@@ -709,8 +709,8 @@
       "parts": [
         "room4_dish_cabinet_C"
       ],
-      "price": 25,
-      "priceType": "diamonds"
+      "price": 550,
+      "priceType": "coins"
     },
     {
       "key": "room4_chairs",
@@ -718,7 +718,7 @@
         "room4_chairs_A_1",
         "room4_chairs_A_2"
       ],
-      "price": 550,
+      "price": 25,
       "priceType": "coins"
     },
     {
@@ -736,7 +736,7 @@
         "room4_chairs_C_1",
         "room4_chairs_C_2"
       ],
-      "price": 25,
+      "price": 550,
       "priceType": "coins"
     },
     {
@@ -792,8 +792,8 @@
       "parts": [
         "room4_utensil_set_A"
       ],
-      "price": 500,
-      "priceType": "coins"
+      "price": 15,
+      "priceType": "diamonds"
     },
     {
       "key": "room4_utensil_set_variant_2",
@@ -808,23 +808,23 @@
       "parts": [
         "room4_utensil_set_C"
       ],
-      "price": 15,
-      "priceType": "diamonds"
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room4_extractor",
       "parts": [
         "room4_extractor_A"
       ],
-      "price": 600,
-      "priceType": "coins"
+      "price": 30,
+      "priceType": "diamonds"
     },
     {
       "key": "room4_extractor_variant_2",
       "parts": [
         "room4_extractor_B"
       ],
-      "price": 780,
+      "price": 600,
       "priceType": "coins"
     },
     {
@@ -832,8 +832,8 @@
       "parts": [
         "room4_extractor_C"
       ],
-      "price": 30,
-      "priceType": "diamonds"
+      "price": 780,
+      "priceType": "coins"
     },
     {
       "key": "room4_dish_shelf",
@@ -848,16 +848,16 @@
       "parts": [
         "room4_dish_shelf_B"
       ],
-      "price": 720,
-      "priceType": "coins"
+      "price": 25,
+      "priceType": "diamonds"
     },
     {
       "key": "room4_dish_shelf_variant_3",
       "parts": [
         "room4_dish_shelf_C"
       ],
-      "price": 25,
-      "priceType": "diamonds"
+      "price": 720,
+      "priceType": "coins"
     },
     {
       "key": "room4_fridge",
@@ -888,15 +888,15 @@
       "parts": [
         "room4_cabinet_first_A"
       ],
-      "price": 650,
-      "priceType": "coins"
+      "price": 25,
+      "priceType": "diamonds"
     },
     {
       "key": "room4_cabinet_first_variant_2",
       "parts": [
         "room4_cabinet_first_B"
       ],
-      "price": 850,
+      "price": 650,
       "priceType": "coins"
     },
     {
@@ -904,23 +904,23 @@
       "parts": [
         "room4_cabinet_first_C"
       ],
-      "price": 25,
-      "priceType": "diamonds"
+      "price": 850,
+      "priceType": "coins"
     },
     {
       "key": "room4_pendant_lamps",
       "parts": [
         "room4_pendant_lamps_A"
       ],
-      "price": 600,
-      "priceType": "coins"
+      "price": 30,
+      "priceType": "diamonds"
     },
     {
       "key": "room4_pendant_lamps_variant_2",
       "parts": [
         "room4_pendant_lamps_B"
       ],
-      "price": 780,
+      "price": 600,
       "priceType": "coins"
     },
     {
@@ -928,8 +928,8 @@
       "parts": [
         "room4_pendant_lamps_C"
       ],
-      "price": 30,
-      "priceType": "diamonds"
+      "price": 780,
+      "priceType": "coins"
     },
     {
       "key": "room4_old_wall2",

@@ -491,5 +491,6 @@
   "ui_reward": "Reward",
   "ui_skip": "Skip",
   "victor": "Victor",
-  "wand": "Magic wand"
+  "wand": "Magic wand",
+  "ui_ads_disabled": "Advertising disabled"
 }

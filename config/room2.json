@@ -351,7 +351,7 @@
         "room2_walls_A_1",
         "room2_walls_A_2"
       ],
-      "price": 360,
+      "price": 480,
       "priceType": "coins"
     },
     {
@@ -360,8 +360,8 @@
         "room2_walls_B_1",
         "room2_walls_B_2"
       ],
-      "price": 480,
-      "priceType": "coins"
+      "price": 10,
+      "priceType": "diamonds"
     },
     {
       "key": "room2_walls_variant_3",
@@ -369,8 +369,8 @@
         "room2_walls_C_1",
         "room2_walls_C_2"
       ],
-      "price": 10,
-      "priceType": "diamonds"
+      "price": 360,
+      "priceType": "coins"
     },
     {
       "key": "room2_floor",
@@ -406,7 +406,7 @@
         "room2_window_A_2",
         "room2_window_A_3"
       ],
-      "price": 320,
+      "price": 420,
       "priceType": "coins"
     },
     {
@@ -416,8 +416,8 @@
         "room2_window_B_2",
         "room2_window_B_3"
       ],
-      "price": 420,
-      "priceType": "coins"
+      "price": 10,
+      "priceType": "diamonds"
     },
     {
       "key": "room2_window_variant_3",
@@ -426,8 +426,8 @@
         "room2_window_C_2",
         "room2_window_C_3"
       ],
-      "price": 10,
-      "priceType": "diamonds"
+      "price": 320,
+      "priceType": "coins"
     },
     {
       "key": "room2_nightstand_left",
@@ -444,8 +444,8 @@
         "room2_nightstand_left_B_1",
         "room2_nightstand_left_B_2"
       ],
-      "price": 420,
-      "priceType": "coins"
+      "price": 10,
+      "priceType": "diamonds"
     },
     {
       "key": "room2_nightstand_left_variant_3",
@@ -453,8 +453,8 @@
         "room2_nightstand_left_C_1",
         "room2_nightstand_left_C_2"
       ],
-      "price": 10,
-      "priceType": "diamonds"
+      "price": 420,
+      "priceType": "coins"
     },
     {
       "key": "room2_bed",
@@ -469,24 +469,24 @@
       "parts": [
         "room2_bed_B"
       ],
-      "price": 600,
-      "priceType": "coins"
+      "price": 15,
+      "priceType": "diamonds"
     },
     {
       "key": "room2_bed_variant_3",
       "parts": [
         "room2_bed_C"
       ],
-      "price": 15,
-      "priceType": "diamonds"
+      "price": 600,
+      "priceType": "coins"
     },
     {
       "key": "room2_lamp_right",
       "parts": [
         "room2_lamp_right_A"
       ],
-      "price": 260,
-      "priceType": "coins"
+      "price": 5,
+      "priceType": "diamonds"
     },
     {
       "key": "room2_lamp_right_variant_2",
@@ -501,8 +501,8 @@
       "parts": [
         "room2_lamp_right_C"
       ],
-      "price": 5,
-      "priceType": "diamonds"
+      "price": 260,
+      "priceType": "coins"
     },
     {
       "key": "room2_vanity_table",
@@ -521,8 +521,8 @@
         "room2_vanity_table_B_2",
         "room2_vanity_table_B_3"
       ],
-      "price": 500,
-      "priceType": "coins"
+      "price": 10,
+      "priceType": "diamonds"
     },
     {
       "key": "room2_vanity_table_variant_3",
@@ -531,16 +531,16 @@
         "room2_vanity_table_C_2",
         "room2_vanity_table_C_3"
       ],
-      "price": 10,
-      "priceType": "diamonds"
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room2_toy",
       "parts": [
         "room2_toy"
       ],
-      "price": 250,
-      "priceType": "coins"
+      "price": 5,
+      "priceType": "diamonds"
     },
     {
       "key": "room2_family_picture",
@@ -572,7 +572,7 @@
         "room2_window_decor_A_1",
         "room2_window_decor_A_2"
       ],
-      "price": 250,
+      "price": 330,
       "priceType": "coins"
     },
     {
@@ -581,8 +581,8 @@
         "room2_window_decor_B_1",
         "room2_window_decor_B_2"
       ],
-      "price": 330,
-      "priceType": "coins"
+      "price": 5,
+      "priceType": "diamonds"
     },
     {
       "key": "room2_window_decor_variant_3",
@@ -590,8 +590,8 @@
         "room2_window_decor_C_1",
         "room2_window_decor_C_2"
       ],
-      "price": 5,
-      "priceType": "diamonds"
+      "price": 250,
+      "priceType": "coins"
     },
     {
       "key": "room2_vanity_decor",
@@ -608,8 +608,8 @@
         "room2_vanity_decor_B_1",
         "room2_vanity_decor_B_2"
       ],
-      "price": 350,
-      "priceType": "coins"
+      "price": 5,
+      "priceType": "diamonds"
     },
     {
       "key": "room2_vanity_decor_variant_3",
@@ -617,8 +617,8 @@
         "room2_vanity_decor_C_1",
         "room2_vanity_decor_C_2"
       ],
-      "price": 5,
-      "priceType": "diamonds"
+      "price": 350,
+      "priceType": "coins"
     },
     {
       "key": "room2_broken_wall_right",

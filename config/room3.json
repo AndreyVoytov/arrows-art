@@ -353,8 +353,8 @@
         "room3_walls_A_1",
         "room3_walls_A_2"
       ],
-      "price": 900,
-      "priceType": "coins"
+      "price": 25,
+      "priceType": "diamonds"
     },
     {
       "key": "room3_walls_variant_2",
@@ -362,7 +362,7 @@
         "room3_walls_B_1",
         "room3_walls_B_2"
       ],
-      "price": 1170,
+      "price": 900,
       "priceType": "coins"
     },
     {
@@ -371,16 +371,16 @@
         "room3_walls_C_1",
         "room3_walls_C_2"
       ],
-      "price": 25,
-      "priceType": "diamonds"
+      "price": 1170,
+      "priceType": "coins"
     },
     {
       "key": "room3_floor",
       "parts": [
         "room3_floor_A"
       ],
-      "price": 850,
-      "priceType": "coins"
+      "price": 25,
+      "priceType": "diamonds"
     },
     {
       "key": "room3_floor_variant_2",
@@ -395,8 +395,8 @@
       "parts": [
         "room3_floor_C"
       ],
-      "price": 25,
-      "priceType": "diamonds"
+      "price": 850,
+      "priceType": "coins"
     },
     {
       "key": "room3_carpet",
@@ -427,8 +427,8 @@
       "parts": [
         "room3_window_A"
       ],
-      "price": 650,
-      "priceType": "coins"
+      "price": 15,
+      "priceType": "diamonds"
     },
     {
       "key": "room3_window_variant_2",
@@ -443,16 +443,16 @@
       "parts": [
         "room3_window_C"
       ],
-      "price": 15,
-      "priceType": "diamonds"
+      "price": 650,
+      "priceType": "coins"
     },
     {
       "key": "room3_bathtub",
       "parts": [
         "room3_bathtub_A"
       ],
-      "price": 1100,
-      "priceType": "coins"
+      "price": 35,
+      "priceType": "diamonds"
     },
     {
       "key": "room3_bathtub_variant_2",
@@ -467,15 +467,15 @@
       "parts": [
         "room3_bathtub_C"
       ],
-      "price": 35,
-      "priceType": "diamonds"
+      "price": 1100,
+      "priceType": "coins"
     },
     {
       "key": "room3_sink",
       "parts": [
         "room3_sink_A"
       ],
-      "price": 750,
+      "price": 980,
       "priceType": "coins"
     },
     {
@@ -483,16 +483,16 @@
       "parts": [
         "room3_sink_B"
       ],
-      "price": 980,
-      "priceType": "coins"
+      "price": 15,
+      "priceType": "diamonds"
     },
     {
       "key": "room3_sink_variant_3",
       "parts": [
         "room3_sink_C"
       ],
-      "price": 15,
-      "priceType": "diamonds"
+      "price": 750,
+      "priceType": "coins"
     },
     {
       "key": "room3_toilet",
@@ -507,24 +507,24 @@
       "parts": [
         "room3_toilet_B"
       ],
-      "price": 980,
-      "priceType": "coins"
+      "price": 15,
+      "priceType": "diamonds"
     },
     {
       "key": "room3_toilet_variant_3",
       "parts": [
         "room3_toilet_C"
       ],
-      "price": 15,
-      "priceType": "diamonds"
+      "price": 980,
+      "priceType": "coins"
     },
     {
       "key": "room3_mirror",
       "parts": [
         "room3_mirror_A"
       ],
-      "price": 650,
-      "priceType": "coins"
+      "price": 15,
+      "priceType": "diamonds"
     },
     {
       "key": "room3_mirror_variant_2",
@@ -539,8 +539,8 @@
       "parts": [
         "room3_mirror_C"
       ],
-      "price": 15,
-      "priceType": "diamonds"
+      "price": 650,
+      "priceType": "coins"
     },
     {
       "key": "room3_towel",
@@ -571,7 +571,7 @@
       "parts": [
         "room3_plant_A"
       ],
-      "price": 500,
+      "price": 650,
       "priceType": "coins"
     },
     {
@@ -579,31 +579,31 @@
       "parts": [
         "room3_plant_B"
       ],
-      "price": 650,
-      "priceType": "coins"
+      "price": 10,
+      "priceType": "diamonds"
     },
     {
       "key": "room3_plant_variant_3",
       "parts": [
         "room3_plant_C"
       ],
-      "price": 10,
-      "priceType": "diamonds"
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room3_small_picture",
       "parts": [
         "room3_small_picture_A"
       ],
-      "price": 500,
-      "priceType": "coins"
+      "price": 10,
+      "priceType": "diamonds"
     },
     {
       "key": "room3_small_picture_variant_2",
       "parts": [
         "room3_small_picture_B"
       ],
-      "price": 650,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -611,8 +611,8 @@
       "parts": [
         "room3_small_picture_C"
       ],
-      "price": 10,
-      "priceType": "diamonds"
+      "price": 650,
+      "priceType": "coins"
     },
     {
       "key": "room3_old_wall2",
