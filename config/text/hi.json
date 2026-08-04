@@ -492,5 +492,9 @@
   "ui_skip": "छोड़ें",
   "victor": "विक्टर",
   "wand": "जादू की छड़ी",
-  "ui_ads_disabled": "विज्ञापन अक्षम किया गया"
+  "ui_ads_disabled": "विज्ञापन अक्षम किया गया",
+  "ui_levels_completed_header": "बधाई हो!",
+  "ui_levels_completed_message": "आपने सभी स्तर पूरे कर लिए हैं! हम जल्द ही खेल में और भी अधिक स्तर जोड़ेंगे।",
+  "ui_rooms_completed_header": "बधाई हो!",
+  "ui_rooms_completed_message": "आपने सभी कमरे पूरे कर लिए हैं! हम जल्द ही खेल में और भी अधिक कमरे जोड़ेंगे।"
 }

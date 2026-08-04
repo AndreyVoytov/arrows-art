@@ -492,5 +492,9 @@
   "ui_skip": "Kihagyás",
   "victor": "Victor",
   "wand": "Varázspálca",
-  "ui_ads_disabled": "A hirdetés le van tiltva"
+  "ui_ads_disabled": "A hirdetés le van tiltva",
+  "ui_levels_completed_header": "Gratulálok!",
+  "ui_levels_completed_message": "Minden szintet teljesített! Hamarosan még több szinttel bővül a játék.",
+  "ui_rooms_completed_header": "Gratulálok!",
+  "ui_rooms_completed_message": "Elkészítette az összes szobát! Hamarosan még több szobával bővítjük a játékot."
 }

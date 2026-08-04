@@ -492,5 +492,9 @@
   "ui_skip": "Sari peste",
   "victor": "Victor",
   "wand": "Bagheta magică",
-  "ui_ads_disabled": "Publicitatea dezactivată"
+  "ui_ads_disabled": "Publicitatea dezactivată",
+  "ui_levels_completed_header": "Felicitări!",
+  "ui_levels_completed_message": "Ai terminat toate nivelurile! În curând vom adăuga și mai multe niveluri în joc.",
+  "ui_rooms_completed_header": "Felicitări!",
+  "ui_rooms_completed_message": "Ai terminat toate camerele! În curând vom adăuga și mai multe camere la joc."
 }

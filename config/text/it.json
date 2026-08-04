@@ -492,5 +492,9 @@
   "ui_skip": "Salta",
   "victor": "Vittorio",
   "wand": "Bacchetta magica",
-  "ui_ads_disabled": "Pubblicità disabilitata"
+  "ui_ads_disabled": "Pubblicità disabilitata",
+  "ui_levels_completed_header": "Congratulazioni!",
+  "ui_levels_completed_message": "Hai completato tutti i livelli! Presto aggiungeremo ancora più livelli al gioco.",
+  "ui_rooms_completed_header": "Congratulazioni!",
+  "ui_rooms_completed_message": "Hai completato tutte le stanze! Presto aggiungeremo ancora più stanze al gioco."
 }

@@ -492,5 +492,9 @@
   "ui_skip": "Пропускане",
   "victor": "Виктор",
   "wand": "Магическа пръчка",
-  "ui_ads_disabled": "Рекламата е деактивирана"
+  "ui_ads_disabled": "Рекламата е деактивирана",
+  "ui_levels_completed_header": "честито!",
+  "ui_levels_completed_message": "Завършихте всички нива! Скоро ще добавим още нива към играта.",
+  "ui_rooms_completed_header": "честито!",
+  "ui_rooms_completed_message": "Завършихте всички стаи! Скоро ще добавим още стаи към играта."
 }

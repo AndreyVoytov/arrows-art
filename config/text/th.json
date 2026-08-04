@@ -492,5 +492,9 @@
   "ui_skip": "ข้าม",
   "victor": "วิคเตอร์",
   "wand": "ไม้กายสิทธิ์",
-  "ui_ads_disabled": "การโฆษณาถูกปิดใช้งาน"
+  "ui_ads_disabled": "การโฆษณาถูกปิดใช้งาน",
+  "ui_levels_completed_header": "ยินดีด้วย!",
+  "ui_levels_completed_message": "คุณผ่านทุกระดับแล้ว! เร็วๆ นี้เราจะเพิ่มระดับต่างๆ ให้กับเกมมากขึ้น",
+  "ui_rooms_completed_header": "ยินดีด้วย!",
+  "ui_rooms_completed_message": "คุณทำห้องทั้งหมดเสร็จแล้ว! เร็วๆ นี้เราจะเพิ่มห้องเพิ่มเติมให้กับเกม"
 }

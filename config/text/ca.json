@@ -492,5 +492,9 @@
   "ui_skip": "Saltar",
   "victor": "Víctor",
   "wand": "Vareta màgica",
-  "ui_ads_disabled": "Publicitat desactivada"
+  "ui_ads_disabled": "Publicitat desactivada",
+  "ui_levels_completed_header": "Felicitats!",
+  "ui_levels_completed_message": "Has completat tots els nivells! Aviat afegirem encara més nivells al joc.",
+  "ui_rooms_completed_header": "Felicitats!",
+  "ui_rooms_completed_message": "Heu completat totes les sales! Aviat afegirem encara més sales al joc."
 }

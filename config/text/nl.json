@@ -492,5 +492,9 @@
   "ui_skip": "Overslaan",
   "victor": "Victor",
   "wand": "Toverstaf",
-  "ui_ads_disabled": "Reclame uitgeschakeld"
+  "ui_ads_disabled": "Reclame uitgeschakeld",
+  "ui_levels_completed_header": "Gefeliciteerd!",
+  "ui_levels_completed_message": "Je hebt alle niveaus voltooid! We zullen binnenkort nog meer niveaus aan het spel toevoegen.",
+  "ui_rooms_completed_header": "Gefeliciteerd!",
+  "ui_rooms_completed_message": "Je hebt alle kamers voltooid! Binnenkort zullen we nog meer kamers aan het spel toevoegen."
 }

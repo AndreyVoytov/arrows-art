@@ -492,5 +492,9 @@
   "ui_skip": "Saltar",
   "victor": "Víctor",
   "wand": "varita magica",
-  "ui_ads_disabled": "Publicidad desactivada"
+  "ui_ads_disabled": "Publicidad desactivada",
+  "ui_levels_completed_header": "¡Felicidades!",
+  "ui_levels_completed_message": "¡Has completado todos los niveles! Pronto agregaremos aún más niveles al juego.",
+  "ui_rooms_completed_header": "¡Felicidades!",
+  "ui_rooms_completed_message": "¡Has completado todas las habitaciones! Pronto agregaremos aún más salas al juego."
 }

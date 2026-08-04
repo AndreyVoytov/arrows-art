@@ -492,5 +492,9 @@
   "ui_skip": "Скип",
   "victor": "Викторе",
   "wand": "Магични штапић",
-  "ui_ads_disabled": "Оглашавање је онемогућено"
+  "ui_ads_disabled": "Оглашавање је онемогућено",
+  "ui_levels_completed_header": "Честитамо!",
+  "ui_levels_completed_message": "Завршили сте све нивое! Ускоро ћемо додати још више нивоа игри.",
+  "ui_rooms_completed_header": "Честитамо!",
+  "ui_rooms_completed_message": "Завршили сте све собе! Ускоро ћемо додати још соба у игру."
 }

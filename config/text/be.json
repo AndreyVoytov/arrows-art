@@ -492,5 +492,9 @@
   "ui_skip": "Прапусціць",
   "victor": "Віктар",
   "wand": "Чароўная палачка",
-  "ui_ads_disabled": "Рэклама адключаная"
+  "ui_ads_disabled": "Рэклама адключаная",
+  "ui_levels_completed_header": "Віншуем!",
+  "ui_levels_completed_message": "Вы прайшлі ўсе ўзроўні! У хуткім часе мы дадамо яшчэ больш узроўняў у гульню.",
+  "ui_rooms_completed_header": "Віншуем!",
+  "ui_rooms_completed_message": "Вы прайшлі ўсе пакоі! У хуткім часе мы дадамо яшчэ больш пакояў у гульню."
 }

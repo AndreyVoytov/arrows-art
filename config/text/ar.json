@@ -492,5 +492,9 @@
   "ui_skip": "تخطي",
   "victor": "فيكتور",
   "wand": "العصا السحرية",
-  "ui_ads_disabled": "تم تعطيل الإعلان"
+  "ui_ads_disabled": "تم تعطيل الإعلان",
+  "ui_levels_completed_header": "تهانينا!",
+  "ui_levels_completed_message": "لقد أكملت جميع المستويات! سنضيف قريبًا المزيد من المستويات إلى اللعبة.",
+  "ui_rooms_completed_header": "تهانينا!",
+  "ui_rooms_completed_message": "لقد أكملت جميع الغرف! سنضيف قريبًا المزيد من الغرف إلى اللعبة."
 }

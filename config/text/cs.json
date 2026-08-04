@@ -492,5 +492,9 @@
   "ui_skip": "Přeskočit",
   "victor": "Victor",
   "wand": "Kouzelná hůlka",
-  "ui_ads_disabled": "Reklama zakázána"
+  "ui_ads_disabled": "Reklama zakázána",
+  "ui_levels_completed_header": "Gratuluji!",
+  "ui_levels_completed_message": "Dokončili jste všechny úrovně! Brzy do hry přidáme ještě další úrovně.",
+  "ui_rooms_completed_header": "Gratuluji!",
+  "ui_rooms_completed_message": "Dokončili jste všechny místnosti! Brzy do hry přidáme ještě další místnosti."
 }

@@ -492,5 +492,9 @@
   "ui_skip": "Geçmek",
   "victor": "Wiktor",
   "wand": "Jadyly taýajyk",
-  "ui_ads_disabled": "Mahabat ýapyk"
+  "ui_ads_disabled": "Mahabat ýapyk",
+  "ui_levels_completed_header": "Gutlaýarys!",
+  "ui_levels_completed_message": "Levelshli derejeleri tamamladyňyz! Soonakyn wagtda oýna has köp dereje goşarys.",
+  "ui_rooms_completed_header": "Gutlaýarys!",
+  "ui_rooms_completed_message": "Thehli otaglary tamamladyňyz! Soonakyn wagtda oýna has köp otag goşarys."
 }

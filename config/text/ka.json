@@ -492,5 +492,9 @@
   "ui_skip": "გამოტოვება",
   "victor": "ვიქტორ",
   "wand": "ჯადოსნური ჯოხი",
-  "ui_ads_disabled": "რეკლამა გამორთულია"
+  "ui_ads_disabled": "რეკლამა გამორთულია",
+  "ui_levels_completed_header": "გილოცავ!",
+  "ui_levels_completed_message": "თქვენ დაასრულეთ ყველა დონე! ჩვენ მალე კიდევ უფრო მეტ დონეს დავამატებთ თამაშს.",
+  "ui_rooms_completed_header": "გილოცავ!",
+  "ui_rooms_completed_message": "თქვენ დაასრულეთ ყველა ოთახი! მალე თამაშს კიდევ უფრო მეტ ოთახს დავამატებთ."
 }

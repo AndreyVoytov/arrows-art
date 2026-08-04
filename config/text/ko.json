@@ -492,5 +492,9 @@
   "ui_skip": "건너뛰기",
   "victor": "빅터",
   "wand": "마술 지팡이",
-  "ui_ads_disabled": "광고가 비활성화되었습니다."
+  "ui_ads_disabled": "광고가 비활성화되었습니다.",
+  "ui_levels_completed_header": "축하해요!",
+  "ui_levels_completed_message": "모든 레벨을 완료했습니다! 우리는 곧 게임에 더 많은 레벨을 추가할 예정입니다.",
+  "ui_rooms_completed_header": "축하해요!",
+  "ui_rooms_completed_message": "모든 방을 완료했습니다! 우리는 곧 게임에 더 많은 방을 추가할 예정입니다."
 }

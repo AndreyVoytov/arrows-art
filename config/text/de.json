@@ -492,5 +492,9 @@
   "ui_skip": "Überspringen",
   "victor": "Viktor",
   "wand": "Zauberstab",
-  "ui_ads_disabled": "Werbung deaktiviert"
+  "ui_ads_disabled": "Werbung deaktiviert",
+  "ui_levels_completed_header": "Glückwunsch!",
+  "ui_levels_completed_message": "Du hast alle Level abgeschlossen! Wir werden dem Spiel bald noch mehr Level hinzufügen.",
+  "ui_rooms_completed_header": "Glückwunsch!",
+  "ui_rooms_completed_message": "Du hast alle Räume fertiggestellt! Wir werden dem Spiel bald noch mehr Räume hinzufügen."
 }

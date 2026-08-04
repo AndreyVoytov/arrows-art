@@ -492,5 +492,9 @@
   "ui_skip": "Sauter",
   "victor": "Victor",
   "wand": "Baguette magique",
-  "ui_ads_disabled": "Publicité désactivée"
+  "ui_ads_disabled": "Publicité désactivée",
+  "ui_levels_completed_header": "Félicitations!",
+  "ui_levels_completed_message": "Vous avez terminé tous les niveaux ! Nous ajouterons bientôt encore plus de niveaux au jeu.",
+  "ui_rooms_completed_header": "Félicitations!",
+  "ui_rooms_completed_message": "Vous avez terminé toutes les pièces ! Nous ajouterons bientôt encore plus de salles au jeu."
 }

@@ -492,5 +492,9 @@
   "ui_skip": "Preskočiť",
   "victor": "Victor",
   "wand": "Čarovný prútik",
-  "ui_ads_disabled": "Reklama je zakázaná"
+  "ui_ads_disabled": "Reklama je zakázaná",
+  "ui_levels_completed_header": "Gratulujem!",
+  "ui_levels_completed_message": "Dokončili ste všetky úrovne! Čoskoro do hry pridáme ešte viac úrovní.",
+  "ui_rooms_completed_header": "Gratulujem!",
+  "ui_rooms_completed_message": "Dokončili ste všetky miestnosti! Čoskoro do hry pridáme ešte viac miestností."
 }

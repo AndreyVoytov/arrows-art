@@ -492,5 +492,9 @@
   "ui_skip": "Skip",
   "victor": "Victor",
   "wand": "Magic wand",
-  "ui_ads_disabled": "Advertising disabled"
+  "ui_ads_disabled": "Advertising disabled",
+  "ui_levels_completed_header": "Congratulations!",
+  "ui_levels_completed_message": "You have completed all levels! We will soon add even more levels to the game.",
+  "ui_rooms_completed_header": "Congratulations!",
+  "ui_rooms_completed_message": "You have completed all the rooms! We will soon add even more rooms to the game."
 }

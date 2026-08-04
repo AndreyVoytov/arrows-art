@@ -457,6 +457,8 @@
   "ui_insufficient_diamonds": "Недостаточно алмазов",
   "ui_invite": "Пригласить",
   "ui_invite_text": "Пригласите друзей и играйте вместе!",
+  "ui_levels_completed_header": "Поздравляем!",
+  "ui_levels_completed_message": "Вы прошли все уровни! В скором времени мы добавим ещё больше уровней в игру.",
   "ui_popup_arrow_delete_description": "Нажмите на стрелку, чтобы удалить её",
   "ui_popup_arrow_delete_header": "Ластик",
   "ui_popup_buy_booster_description": "Получите бустер",
@@ -490,6 +492,8 @@
   "ui_restore_lifes_header": "Купить жизни",
   "ui_restore_lifes_max": "Макс.",
   "ui_reward": "Награда",
+  "ui_rooms_completed_header": "Поздравляем!",
+  "ui_rooms_completed_message": "Вы прошли все комнаты! В скором времени мы добавим ещё больше комнат в игру.",
   "ui_skip": "Пропустить",
   "victor": "Виктор",
   "wand": "Волшебная палочка"
