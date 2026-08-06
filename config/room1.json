@@ -305,7 +305,7 @@
         "room1_walls_B_1",
         "room1_walls_B_2"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {
@@ -338,7 +338,7 @@
       "parts": [
         "room1_floor_C"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {
@@ -346,7 +346,7 @@
       "parts": [
         "room1_carpet_A"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {
@@ -378,7 +378,7 @@
       "parts": [
         "room1_window_B"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {
@@ -404,7 +404,7 @@
         "room1_chair_with_plant_B_1",
         "room1_chair_with_plant_B_2"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {
@@ -421,7 +421,7 @@
       "parts": [
         "room1_picture_A"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {
@@ -461,7 +461,7 @@
       "parts": [
         "room1_cupboard_C"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {
@@ -485,7 +485,7 @@
       "parts": [
         "room1_luster_C"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {
@@ -509,7 +509,7 @@
       "parts": [
         "room1_door_C"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {
@@ -525,7 +525,7 @@
       "parts": [
         "room1_plant_left_B"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {

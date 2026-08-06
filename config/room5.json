@@ -388,7 +388,8 @@
       "key": "room5_walls",
       "parts": [
         "room5_walls_A_1",
-        "room5_walls_A_2"
+        "room5_walls_A_2",
+        "room5_walls_A_3"
       ],
       "price": 75,
       "priceType": "diamonds"
@@ -397,7 +398,8 @@
       "key": "room5_walls_variant_2",
       "parts": [
         "room5_walls_B_1",
-        "room5_walls_B_2"
+        "room5_walls_B_2",
+        "room5_walls_B_3"
       ],
       "price": 1430,
       "priceType": "coins"
@@ -406,7 +408,8 @@
       "key": "room5_walls_variant_3",
       "parts": [
         "room5_walls_C_1",
-        "room5_walls_C_2"
+        "room5_walls_C_2",
+        "room5_walls_C_3"
       ],
       "price": 1100,
       "priceType": "coins"
@@ -834,8 +837,16 @@
       "key": "room5_walls_A_2",
       "type": "decor",
       "atlas_name": "rooms_room5-surfaces",
-      "x": 362.5,
+      "x": 155,
       "y": 405.5,
+      "angle": 180
+    },
+    {
+      "key": "room5_walls_A_3",
+      "type": "decor",
+      "atlas_name": "rooms_room5-surfaces",
+      "x": 568.5,
+      "y": 403.5,
       "angle": 180
     },
     {
@@ -850,8 +861,16 @@
       "key": "room5_walls_B_2",
       "type": "decor",
       "atlas_name": "rooms_room5-surfaces",
-      "x": 362.5,
+      "x": 155,
       "y": 412.5,
+      "angle": 180
+    },
+    {
+      "key": "room5_walls_B_3",
+      "type": "decor",
+      "atlas_name": "rooms_room5-surfaces",
+      "x": 568.5,
+      "y": 414.5,
       "angle": 180
     },
     {
@@ -866,8 +885,16 @@
       "key": "room5_walls_C_2",
       "type": "decor",
       "atlas_name": "rooms_room5-surfaces",
-      "x": 362.5,
-      "y": 406.5,
+      "x": 155,
+      "y": 408.5,
+      "angle": 180
+    },
+    {
+      "key": "room5_walls_C_3",
+      "type": "decor",
+      "atlas_name": "rooms_room5-surfaces",
+      "x": 569,
+      "y": 396.5,
       "angle": 180
     },
     {
@@ -1335,7 +1362,6 @@
       "angle": 0
     }
   ],
-  "award": 40,
   "dialogs": [
     {
       "id": "room5_d1",
@@ -1937,5 +1963,6 @@
         }
       ]
     }
-  ]
+  ],
+  "award": 40
 }

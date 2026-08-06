@@ -485,7 +485,7 @@
       "parts": [
         "room2_lamp_right_A"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {
@@ -539,7 +539,7 @@
       "parts": [
         "room2_toy"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {
@@ -563,7 +563,7 @@
       "parts": [
         "room2_family_picture_C"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {
@@ -581,7 +581,7 @@
         "room2_window_decor_B_1",
         "room2_window_decor_B_2"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {
@@ -608,7 +608,7 @@
         "room2_vanity_decor_B_1",
         "room2_vanity_decor_B_2"
       ],
-      "price": 5,
+      "price": 10,
       "priceType": "diamonds"
     },
     {

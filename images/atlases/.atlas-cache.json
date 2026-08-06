@@ -234,16 +234,14 @@
     },
     "rooms_room5-surfaces": {
       "sourceDir": "images/rooms/room5-surfaces",
-      "digest": "40e1fa9b478ef3e2f222d80c4100bbab3ea24eb3f646e5b23ed34e5562acfe28",
+      "digest": "eb425dd87f921cf32baf265d2cc718d64cfa148b12c2fd902038a99a931a0046",
       "outputs": [
-        "images/atlases/content/rooms_room5-surfaces_40e1fa9b_1.png",
-        "images/atlases/content/rooms_room5-surfaces_40e1fa9b_1.webp",
-        "images/atlases/content/rooms_room5-surfaces_40e1fa9b_2.png",
-        "images/atlases/content/rooms_room5-surfaces_40e1fa9b_2.webp",
-        "images/atlases/content/rooms_room5-surfaces_40e1fa9b.json",
-        "images/atlases/content/rooms_room5-surfaces_40e1fa9b.webp.json"
+        "images/atlases/content/rooms_room5-surfaces_eb425dd8.png",
+        "images/atlases/content/rooms_room5-surfaces_eb425dd8.webp",
+        "images/atlases/content/rooms_room5-surfaces_eb425dd8.json",
+        "images/atlases/content/rooms_room5-surfaces_eb425dd8.webp.json"
       ],
-      "updatedAt": "2026-08-01T22:15:55.904909+00:00"
+      "updatedAt": "2026-08-06T18:50:34.017141+00:00"
     },
     "rooms_room6-decor": {
       "sourceDir": "images/rooms/room6-decor",
