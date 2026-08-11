@@ -184,7 +184,7 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "rooms_room1-surfaces_1add46f8.png",
+    "image": "rooms_room1-surfaces_23cd377c.png",
     "format": "RGBA8888",
     "size": {
       "w": 2048,

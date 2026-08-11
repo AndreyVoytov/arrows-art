@@ -20,7 +20,7 @@
         "h": 520
       }
     },
-    "henry_neutral (2)": {
+    "henry_neutral": {
       "frame": {
         "x": 402,
         "y": 0,
@@ -64,7 +64,7 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "characters_henry_c8c85c74.png",
+    "image": "characters_henry_8e3199d9.png",
     "format": "RGBA8888",
     "size": {
       "w": 2048,

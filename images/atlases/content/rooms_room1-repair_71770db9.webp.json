@@ -4,20 +4,20 @@
       "frame": {
         "x": 1673,
         "y": 0,
-        "w": 246,
-        "h": 554
+        "w": 288,
+        "h": 577
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 246,
-        "h": 554
+        "w": 288,
+        "h": 577
       },
       "sourceSize": {
-        "w": 246,
-        "h": 554
+        "w": 288,
+        "h": 577
       }
     },
     "room1_broken_door": {
@@ -122,7 +122,7 @@
     },
     "room1_dead_plant_1": {
       "frame": {
-        "x": 1921,
+        "x": 1963,
         "y": 0,
         "w": 82,
         "h": 282
@@ -205,7 +205,7 @@
         "x": 331,
         "y": 1454,
         "w": 168,
-        "h": 76
+        "h": 68
       },
       "rotated": false,
       "trimmed": false,
@@ -213,11 +213,11 @@
         "x": 0,
         "y": 0,
         "w": 168,
-        "h": 76
+        "h": 68
       },
       "sourceSize": {
         "w": 168,
-        "h": 76
+        "h": 68
       }
     },
     "room1_trash_3": {
@@ -304,7 +304,7 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "rooms_room1-repair_d447440a.png",
+    "image": "rooms_room1-repair_71770db9.webp",
     "format": "RGBA8888",
     "size": {
       "w": 2048,

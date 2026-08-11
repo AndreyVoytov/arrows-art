@@ -221,8 +221,8 @@
       "multiobjects": [
         "room1_broken_cupboard"
       ],
-      "x": 305,
-      "y": 345
+      "x": 293,
+      "y": 356.5
     },
     {
       "key": "room1_broken_window",
@@ -965,7 +965,7 @@
       "type": "repair",
       "atlas_name": "rooms_room1-repair",
       "x": 212,
-      "y": 632,
+      "y": 636,
       "angle": 0
     },
     {
@@ -988,8 +988,8 @@
       "key": "room1_broken_cupboard",
       "type": "repair",
       "atlas_name": "rooms_room1-repair",
-      "x": 305,
-      "y": 345,
+      "x": 293,
+      "y": 356.5,
       "angle": 135
     },
     {
