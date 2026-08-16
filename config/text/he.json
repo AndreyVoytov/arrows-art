@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "מזל טוב!",
   "ui_levels_completed_message": "השלמת את כל הרמות! בקרוב נוסיף עוד רמות למשחק.",
   "ui_rooms_completed_header": "מזל טוב!",
-  "ui_rooms_completed_message": "סיימתם את כל החדרים! בקרוב נוסיף עוד חדרים למשחק."
+  "ui_rooms_completed_message": "סיימתם את כל החדרים! בקרוב נוסיף עוד חדרים למשחק.",
+  "ui_cannot_show_ad": "הצגת הפרסומת נכשלה"
 }

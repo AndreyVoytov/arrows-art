@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "تهانينا!",
   "ui_levels_completed_message": "لقد أكملت جميع المستويات! سنضيف قريبًا المزيد من المستويات إلى اللعبة.",
   "ui_rooms_completed_header": "تهانينا!",
-  "ui_rooms_completed_message": "لقد أكملت جميع الغرف! سنضيف قريبًا المزيد من الغرف إلى اللعبة."
+  "ui_rooms_completed_message": "لقد أكملت جميع الغرف! سنضيف قريبًا المزيد من الغرف إلى اللعبة.",
+  "ui_cannot_show_ad": "فشل في إظهار الإعلان"
 }

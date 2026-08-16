@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "честито!",
   "ui_levels_completed_message": "Завършихте всички нива! Скоро ще добавим още нива към играта.",
   "ui_rooms_completed_header": "честито!",
-  "ui_rooms_completed_message": "Завършихте всички стаи! Скоро ще добавим още стаи към играта."
+  "ui_rooms_completed_message": "Завършихте всички стаи! Скоро ще добавим още стаи към играта.",
+  "ui_cannot_show_ad": "Неуспешно показване на реклама"
 }

@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "Gratulálok!",
   "ui_levels_completed_message": "Minden szintet teljesített! Hamarosan még több szinttel bővül a játék.",
   "ui_rooms_completed_header": "Gratulálok!",
-  "ui_rooms_completed_message": "Elkészítette az összes szobát! Hamarosan még több szobával bővítjük a játékot."
+  "ui_rooms_completed_message": "Elkészítette az összes szobát! Hamarosan még több szobával bővítjük a játékot.",
+  "ui_cannot_show_ad": "A hirdetés megjelenítése nem sikerült"
 }

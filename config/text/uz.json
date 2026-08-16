@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "Tabriklaymiz!",
   "ui_levels_completed_message": "Siz barcha darajalarni tugatdingiz! Tez orada o'yinga yanada ko'proq darajalarni qo'shamiz.",
   "ui_rooms_completed_header": "Tabriklaymiz!",
-  "ui_rooms_completed_message": "Siz barcha xonalarni to'ldirdingiz! Tez orada o'yinga ko'proq xonalarni qo'shamiz."
+  "ui_rooms_completed_message": "Siz barcha xonalarni to'ldirdingiz! Tez orada o'yinga ko'proq xonalarni qo'shamiz.",
+  "ui_cannot_show_ad": "Reklamani ko'rsatib bo'lmadi"
 }

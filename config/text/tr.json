@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "Tebrikler!",
   "ui_levels_completed_message": "Tüm seviyeleri tamamladınız! Yakında oyuna daha fazla seviye ekleyeceğiz.",
   "ui_rooms_completed_header": "Tebrikler!",
-  "ui_rooms_completed_message": "Tüm odaları tamamladınız! Yakında oyuna daha fazla oda ekleyeceğiz."
+  "ui_rooms_completed_message": "Tüm odaları tamamladınız! Yakında oyuna daha fazla oda ekleyeceğiz.",
+  "ui_cannot_show_ad": "Reklam gösterilemedi"
 }

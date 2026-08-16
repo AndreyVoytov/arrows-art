@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "Gratulacje!",
   "ui_levels_completed_message": "Ukończyłeś wszystkie poziomy! Wkrótce dodamy do gry jeszcze więcej poziomów.",
   "ui_rooms_completed_header": "Gratulacje!",
-  "ui_rooms_completed_message": "Skompletowałeś wszystkie pokoje! Wkrótce dodamy do gry jeszcze więcej pokoi."
+  "ui_rooms_completed_message": "Skompletowałeś wszystkie pokoje! Wkrótce dodamy do gry jeszcze więcej pokoi.",
+  "ui_cannot_show_ad": "Nie udało się wyświetlić reklamy"
 }

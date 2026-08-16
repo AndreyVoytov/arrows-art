@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "Congratulations!",
   "ui_levels_completed_message": "You have completed all levels! We will soon add even more levels to the game.",
   "ui_rooms_completed_header": "Congratulations!",
-  "ui_rooms_completed_message": "You have completed all the rooms! We will soon add even more rooms to the game."
+  "ui_rooms_completed_message": "You have completed all the rooms! We will soon add even more rooms to the game.",
+  "ui_cannot_show_ad": "Failed to show the ad"
 }

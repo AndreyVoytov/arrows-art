@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "Gutlaýarys!",
   "ui_levels_completed_message": "Levelshli derejeleri tamamladyňyz! Soonakyn wagtda oýna has köp dereje goşarys.",
   "ui_rooms_completed_header": "Gutlaýarys!",
-  "ui_rooms_completed_message": "Thehli otaglary tamamladyňyz! Soonakyn wagtda oýna has köp otag goşarys."
+  "ui_rooms_completed_message": "Thehli otaglary tamamladyňyz! Soonakyn wagtda oýna has köp otag goşarys.",
+  "ui_cannot_show_ad": "Mahabaty görkezip bolmady"
 }

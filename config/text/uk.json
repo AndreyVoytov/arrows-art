@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "Вітаємо!",
   "ui_levels_completed_message": "Ви пройшли усі рівні! Незабаром ми додамо ще більше рівнів у гру.",
   "ui_rooms_completed_header": "Вітаємо!",
-  "ui_rooms_completed_message": "Ви пройшли усі кімнати! Незабаром ми додамо ще більше кімнат у гру."
+  "ui_rooms_completed_message": "Ви пройшли усі кімнати! Незабаром ми додамо ще більше кімнат у гру.",
+  "ui_cannot_show_ad": "Не вдалося показати рекламу"
 }

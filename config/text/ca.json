@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "Felicitats!",
   "ui_levels_completed_message": "Has completat tots els nivells! Aviat afegirem encara més nivells al joc.",
   "ui_rooms_completed_header": "Felicitats!",
-  "ui_rooms_completed_message": "Heu completat totes les sales! Aviat afegirem encara més sales al joc."
+  "ui_rooms_completed_message": "Heu completat totes les sales! Aviat afegirem encara més sales al joc.",
+  "ui_cannot_show_ad": "No s'ha pogut mostrar l'anunci"
 }

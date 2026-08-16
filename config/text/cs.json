@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "Gratuluji!",
   "ui_levels_completed_message": "Dokončili jste všechny úrovně! Brzy do hry přidáme ještě další úrovně.",
   "ui_rooms_completed_header": "Gratuluji!",
-  "ui_rooms_completed_message": "Dokončili jste všechny místnosti! Brzy do hry přidáme ještě další místnosti."
+  "ui_rooms_completed_message": "Dokončili jste všechny místnosti! Brzy do hry přidáme ještě další místnosti.",
+  "ui_cannot_show_ad": "Nepodařilo se zobrazit reklamu"
 }

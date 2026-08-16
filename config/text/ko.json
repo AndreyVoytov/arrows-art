@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "축하해요!",
   "ui_levels_completed_message": "모든 레벨을 완료했습니다! 우리는 곧 게임에 더 많은 레벨을 추가할 예정입니다.",
   "ui_rooms_completed_header": "축하해요!",
-  "ui_rooms_completed_message": "모든 방을 완료했습니다! 우리는 곧 게임에 더 많은 방을 추가할 예정입니다."
+  "ui_rooms_completed_message": "모든 방을 완료했습니다! 우리는 곧 게임에 더 많은 방을 추가할 예정입니다.",
+  "ui_cannot_show_ad": "광고를 표시하지 못했습니다."
 }

@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "Chúc mừng!",
   "ui_levels_completed_message": "Bạn đã hoàn thành tất cả các cấp độ! Chúng tôi sẽ sớm bổ sung thêm nhiều cấp độ hơn cho trò chơi.",
   "ui_rooms_completed_header": "Chúc mừng!",
-  "ui_rooms_completed_message": "Bạn đã hoàn thành tất cả các phòng! Chúng tôi sẽ sớm bổ sung thêm nhiều phòng hơn nữa vào trò chơi."
+  "ui_rooms_completed_message": "Bạn đã hoàn thành tất cả các phòng! Chúng tôi sẽ sớm bổ sung thêm nhiều phòng hơn nữa vào trò chơi.",
+  "ui_cannot_show_ad": "Không hiển thị được quảng cáo"
 }

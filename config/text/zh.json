@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "恭喜！",
   "ui_levels_completed_message": "您已完成所有关卡！我们很快就会为游戏添加更多关卡。",
   "ui_rooms_completed_header": "恭喜！",
-  "ui_rooms_completed_message": "您已完成所有房间！我们很快就会在游戏中添加更多房间。"
+  "ui_rooms_completed_message": "您已完成所有房间！我们很快就会在游戏中添加更多房间。",
+  "ui_cannot_show_ad": "广告展示失败"
 }

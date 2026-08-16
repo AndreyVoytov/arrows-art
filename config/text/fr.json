@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "Félicitations!",
   "ui_levels_completed_message": "Vous avez terminé tous les niveaux ! Nous ajouterons bientôt encore plus de niveaux au jeu.",
   "ui_rooms_completed_header": "Félicitations!",
-  "ui_rooms_completed_message": "Vous avez terminé toutes les pièces ! Nous ajouterons bientôt encore plus de salles au jeu."
+  "ui_rooms_completed_message": "Vous avez terminé toutes les pièces ! Nous ajouterons bientôt encore plus de salles au jeu.",
+  "ui_cannot_show_ad": "Échec de l'affichage de la publicité"
 }

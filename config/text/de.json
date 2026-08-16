@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "Glückwunsch!",
   "ui_levels_completed_message": "Du hast alle Level abgeschlossen! Wir werden dem Spiel bald noch mehr Level hinzufügen.",
   "ui_rooms_completed_header": "Glückwunsch!",
-  "ui_rooms_completed_message": "Du hast alle Räume fertiggestellt! Wir werden dem Spiel bald noch mehr Räume hinzufügen."
+  "ui_rooms_completed_message": "Du hast alle Räume fertiggestellt! Wir werden dem Spiel bald noch mehr Räume hinzufügen.",
+  "ui_cannot_show_ad": "Werbung konnte nicht angezeigt werden"
 }

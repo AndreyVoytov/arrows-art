@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "Selamat!",
   "ui_levels_completed_message": "Anda telah menyelesaikan semua level! Kami akan segera menambahkan lebih banyak level ke dalam game.",
   "ui_rooms_completed_header": "Selamat!",
-  "ui_rooms_completed_message": "Anda telah menyelesaikan semua ruangan! Kami akan segera menambahkan lebih banyak ruangan ke dalam game."
+  "ui_rooms_completed_message": "Anda telah menyelesaikan semua ruangan! Kami akan segera menambahkan lebih banyak ruangan ke dalam game.",
+  "ui_cannot_show_ad": "Gagal menampilkan iklan"
 }

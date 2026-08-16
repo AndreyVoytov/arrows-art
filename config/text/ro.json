@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "Felicitări!",
   "ui_levels_completed_message": "Ai terminat toate nivelurile! În curând vom adăuga și mai multe niveluri în joc.",
   "ui_rooms_completed_header": "Felicitări!",
-  "ui_rooms_completed_message": "Ai terminat toate camerele! În curând vom adăuga și mai multe camere la joc."
+  "ui_rooms_completed_message": "Ai terminat toate camerele! În curând vom adăuga și mai multe camere la joc.",
+  "ui_cannot_show_ad": "Anunțul nu a putut fi afișat"
 }

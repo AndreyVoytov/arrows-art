@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "Parabéns!",
   "ui_levels_completed_message": "Você completou todos os níveis! Em breve adicionaremos ainda mais níveis ao jogo.",
   "ui_rooms_completed_header": "Parabéns!",
-  "ui_rooms_completed_message": "Você completou todos os quartos! Em breve adicionaremos ainda mais salas ao jogo."
+  "ui_rooms_completed_message": "Você completou todos os quartos! Em breve adicionaremos ainda mais salas ao jogo.",
+  "ui_cannot_show_ad": "Não foi possível exibir o anúncio"
 }

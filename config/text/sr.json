@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "Честитамо!",
   "ui_levels_completed_message": "Завршили сте све нивое! Ускоро ћемо додати још више нивоа игри.",
   "ui_rooms_completed_header": "Честитамо!",
-  "ui_rooms_completed_message": "Завршили сте све собе! Ускоро ћемо додати још соба у игру."
+  "ui_rooms_completed_message": "Завршили сте све собе! Ускоро ћемо додати још соба у игру.",
+  "ui_cannot_show_ad": "Приказивање огласа није успело"
 }

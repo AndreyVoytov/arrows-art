@@ -496,5 +496,6 @@
   "ui_levels_completed_header": "बधाई हो!",
   "ui_levels_completed_message": "आपने सभी स्तर पूरे कर लिए हैं! हम जल्द ही खेल में और भी अधिक स्तर जोड़ेंगे।",
   "ui_rooms_completed_header": "बधाई हो!",
-  "ui_rooms_completed_message": "आपने सभी कमरे पूरे कर लिए हैं! हम जल्द ही खेल में और भी अधिक कमरे जोड़ेंगे।"
+  "ui_rooms_completed_message": "आपने सभी कमरे पूरे कर लिए हैं! हम जल्द ही खेल में और भी अधिक कमरे जोड़ेंगे।",
+  "ui_cannot_show_ad": "विज्ञापन दिखाने में विफल"
 }
