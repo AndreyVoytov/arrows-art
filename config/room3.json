@@ -619,7 +619,7 @@
       "parts": [
         "room3_old_wall2"
       ],
-      "price": 250,
+      "price": 150,
       "priceType": "coins"
     },
     {
@@ -627,7 +627,7 @@
       "parts": [
         "room3_old_wall1"
       ],
-      "price": 250,
+      "price": 150,
       "priceType": "coins"
     },
     {
@@ -635,7 +635,7 @@
       "parts": [
         "room3_old_floor"
       ],
-      "price": 250,
+      "price": 150,
       "priceType": "coins"
     },
     {
@@ -643,7 +643,7 @@
       "parts": [
         "room3_old_bathtub"
       ],
-      "price": 250,
+      "price": 150,
       "priceType": "coins"
     },
     {
@@ -651,7 +651,7 @@
       "parts": [
         "room3_old_mirror"
       ],
-      "price": 250,
+      "price": 150,
       "priceType": "coins"
     },
     {
@@ -659,7 +659,7 @@
       "parts": [
         "room3_old_sink"
       ],
-      "price": 250,
+      "price": 150,
       "priceType": "coins"
     },
     {
@@ -667,7 +667,7 @@
       "parts": [
         "room3_old_toilet"
       ],
-      "price": 250,
+      "price": 150,
       "priceType": "coins"
     },
     {
@@ -675,7 +675,7 @@
       "parts": [
         "room3_old_towel"
       ],
-      "price": 250,
+      "price": 150,
       "priceType": "coins"
     },
     {
@@ -683,7 +683,7 @@
       "parts": [
         "room3_old_plant"
       ],
-      "price": 250,
+      "price": 150,
       "priceType": "coins"
     },
     {
@@ -691,7 +691,7 @@
       "parts": [
         "room3_old_picture"
       ],
-      "price": 250,
+      "price": 150,
       "priceType": "coins"
     },
     {
@@ -699,7 +699,7 @@
       "parts": [
         "room3_old_rubber_duck"
       ],
-      "price": 250,
+      "price": 150,
       "priceType": "coins"
     },
     {
@@ -707,7 +707,7 @@
       "parts": [
         "room3_old_rug"
       ],
-      "price": 250,
+      "price": 150,
       "priceType": "coins"
     },
     {
@@ -715,7 +715,7 @@
       "parts": [
         "room3_old_window"
       ],
-      "price": 250,
+      "price": 150,
       "priceType": "coins"
     }
   ],

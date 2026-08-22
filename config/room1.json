@@ -541,7 +541,7 @@
       "parts": [
         "room1_broken_wall_left"
       ],
-      "price": 100,
+      "price": 50,
       "priceType": "coins"
     },
     {
@@ -549,7 +549,7 @@
       "parts": [
         "room1_broken_wall_right"
       ],
-      "price": 100,
+      "price": 50,
       "priceType": "coins"
     },
     {
@@ -557,7 +557,7 @@
       "parts": [
         "room1_broken_floor"
       ],
-      "price": 100,
+      "price": 50,
       "priceType": "coins"
     },
     {
@@ -567,7 +567,7 @@
         "room1_trash_second_2",
         "room1_trash_second_3"
       ],
-      "price": 100,
+      "price": 50,
       "priceType": "coins"
     },
     {
@@ -585,7 +585,7 @@
       "parts": [
         "room1_broken_door"
       ],
-      "price": 100,
+      "price": 50,
       "priceType": "coins"
     },
     {
@@ -593,7 +593,7 @@
       "parts": [
         "room1_broken_cupboard"
       ],
-      "price": 100,
+      "price": 50,
       "priceType": "coins"
     },
     {
@@ -601,7 +601,7 @@
       "parts": [
         "room1_broken_window"
       ],
-      "price": 100,
+      "price": 50,
       "priceType": "coins"
     },
     {
@@ -610,7 +610,7 @@
         "room1_dead_plant_1",
         "room1_dead_plant_2"
       ],
-      "price": 100,
+      "price": 50,
       "priceType": "coins"
     }
   ],

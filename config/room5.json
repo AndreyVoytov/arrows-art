@@ -713,7 +713,7 @@
       "parts": [
         "room5_old_walls"
       ],
-      "price": 400,
+      "price": 250,
       "priceType": "coins"
     },
     {
@@ -721,7 +721,7 @@
       "parts": [
         "room5_old_floor"
       ],
-      "price": 400,
+      "price": 250,
       "priceType": "coins"
     },
     {
@@ -729,7 +729,7 @@
       "parts": [
         "room5_old_wall_picture_left"
       ],
-      "price": 400,
+      "price": 250,
       "priceType": "coins"
     },
     {
@@ -737,7 +737,7 @@
       "parts": [
         "room5_old_attic_window"
       ],
-      "price": 400,
+      "price": 250,
       "priceType": "coins"
     },
     {
@@ -745,7 +745,7 @@
       "parts": [
         "room5_old_bookcase"
       ],
-      "price": 400,
+      "price": 250,
       "priceType": "coins"
     },
     {
@@ -753,7 +753,7 @@
       "parts": [
         "room5_old_plant"
       ],
-      "price": 400,
+      "price": 250,
       "priceType": "coins"
     },
     {
@@ -761,7 +761,7 @@
       "parts": [
         "room5_old_rug"
       ],
-      "price": 400,
+      "price": 250,
       "priceType": "coins"
     },
     {
@@ -769,7 +769,7 @@
       "parts": [
         "room5_old_daybed"
       ],
-      "price": 400,
+      "price": 250,
       "priceType": "coins"
     },
     {
@@ -777,7 +777,7 @@
       "parts": [
         "room5_old_desk"
       ],
-      "price": 400,
+      "price": 250,
       "priceType": "coins"
     },
     {
@@ -787,7 +787,7 @@
         "room5_old_desk_things_2",
         "room5_old_desk_things_3"
       ],
-      "price": 400,
+      "price": 250,
       "priceType": "coins"
     },
     {
@@ -795,7 +795,7 @@
       "parts": [
         "room5_old_chest_books_boxes"
       ],
-      "price": 400,
+      "price": 250,
       "priceType": "coins"
     },
     {
@@ -803,7 +803,7 @@
       "parts": [
         "room5_old_armchair"
       ],
-      "price": 400,
+      "price": 250,
       "priceType": "coins"
     },
     {
@@ -811,7 +811,7 @@
       "parts": [
         "room5_old_pendant_light"
       ],
-      "price": 400,
+      "price": 250,
       "priceType": "coins"
     },
     {
@@ -819,7 +819,7 @@
       "parts": [
         "room5_old_storage_chest"
       ],
-      "price": 400,
+      "price": 250,
       "priceType": "coins"
     }
   ],

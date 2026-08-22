@@ -625,7 +625,7 @@
       "parts": [
         "room2_broken_wall_right"
       ],
-      "price": 200,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -633,7 +633,7 @@
       "parts": [
         "room2_broken_wall_left"
       ],
-      "price": 200,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -641,7 +641,7 @@
       "parts": [
         "room2_broken_floor"
       ],
-      "price": 200,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -651,7 +651,7 @@
         "room2_trash_2",
         "room2_trash_3"
       ],
-      "price": 200,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -660,7 +660,7 @@
         "room2_broken_curtains_1",
         "room2_broken_curtains_2"
       ],
-      "price": 200,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -668,7 +668,7 @@
       "parts": [
         "room2_dirty_toy"
       ],
-      "price": 200,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -676,7 +676,7 @@
       "parts": [
         "room2_broken_bed"
       ],
-      "price": 200,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -684,7 +684,7 @@
       "parts": [
         "room2_broken_lamp_right"
       ],
-      "price": 200,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -692,7 +692,7 @@
       "parts": [
         "room2_old_poster"
       ],
-      "price": 200,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -702,7 +702,7 @@
         "room2_broken_vanity_table_2",
         "room2_broken_vanity_table_3"
       ],
-      "price": 200,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -711,7 +711,7 @@
         "room2_vanity_stool_1",
         "room2_vanity_stool_2"
       ],
-      "price": 200,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -719,7 +719,7 @@
       "parts": [
         "room2_small_broken_photo"
       ],
-      "price": 200,
+      "price": 100,
       "priceType": "coins"
     },
     {
@@ -728,7 +728,7 @@
         "room2_webbed_family_picture_1",
         "room2_webbed_family_picture_2"
       ],
-      "price": 200,
+      "price": 100,
       "priceType": "coins"
     }
   ],

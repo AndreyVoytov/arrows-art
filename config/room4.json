@@ -936,7 +936,7 @@
       "parts": [
         "room4_old_wall2"
       ],
-      "price": 300,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -944,7 +944,7 @@
       "parts": [
         "room4_old_wall1"
       ],
-      "price": 300,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -952,7 +952,7 @@
       "parts": [
         "room4_old_floor"
       ],
-      "price": 300,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -960,7 +960,7 @@
       "parts": [
         "room4_old_rug"
       ],
-      "price": 300,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -968,7 +968,7 @@
       "parts": [
         "room4_old_window"
       ],
-      "price": 300,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -976,7 +976,7 @@
       "parts": [
         "room4_old_kitchen_sink"
       ],
-      "price": 300,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -984,7 +984,7 @@
       "parts": [
         "room4_old_plant"
       ],
-      "price": 300,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -992,7 +992,7 @@
       "parts": [
         "room4_old_dish_shelf"
       ],
-      "price": 300,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -1000,7 +1000,7 @@
       "parts": [
         "room4_old_stove"
       ],
-      "price": 300,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -1008,7 +1008,7 @@
       "parts": [
         "room4_old_dish_cabinet"
       ],
-      "price": 300,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -1017,7 +1017,7 @@
         "room4_old_chairs_1",
         "room4_old_chairs_2"
       ],
-      "price": 300,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -1025,7 +1025,7 @@
       "parts": [
         "room4_old_cabinet_right"
       ],
-      "price": 300,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -1033,7 +1033,7 @@
       "parts": [
         "room4_old_cabinet left"
       ],
-      "price": 300,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -1041,7 +1041,7 @@
       "parts": [
         "room4_old_dining_table"
       ],
-      "price": 300,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -1049,7 +1049,7 @@
       "parts": [
         "room4_old_fridge"
       ],
-      "price": 300,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -1057,7 +1057,7 @@
       "parts": [
         "room4_old_flowers"
       ],
-      "price": 300,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -1065,7 +1065,7 @@
       "parts": [
         "room4_old_utensil_set"
       ],
-      "price": 300,
+      "price": 200,
       "priceType": "coins"
     },
     {
@@ -1073,7 +1073,7 @@
       "parts": [
         "room4_old_pendant_lamps"
       ],
-      "price": 300,
+      "price": 200,
       "priceType": "coins"
     }
   ],

@@ -44,6 +44,14 @@
     "room5"
   ],
   "levelsCount": 301,
+  "colorMapping": {
+    "yellow": "#ffcf3d",
+    "red": "#ff5b62",
+    "blue": "#53a7ff",
+    "green": "#92e85f",
+    "purple": "#bc7cff",
+    "gray": "#9ca0a6"
+  },
   "level_awards": {
     "complexities": [
       {
@@ -85,30 +93,30 @@
       {
         "level": 1,
         "complexity": "Educational",
-        "award": 30,
+        "award": 0,
         "bonus": "bulb",
         "bonusCount": 3
       },
       {
         "level": 2,
         "complexity": "Educational",
-        "award": 30,
+        "award": 0,
         "bonus": "eraser",
         "bonusCount": 3
       },
       {
         "level": 3,
-        "complexity": "Educational",
-        "award": 30,
-        "bonus": "wand",
-        "bonusCount": 3
+        "complexity": "Easy",
+        "award": 60,
+        "bonus": null,
+        "bonusCount": null
       },
       {
         "level": 4,
         "complexity": "Easy",
         "award": 60,
-        "bonus": "ruler",
-        "bonusCount": 3
+        "bonus": null,
+        "bonusCount": null
       },
       {
         "level": 5,
@@ -121,8 +129,8 @@
         "level": 6,
         "complexity": "Medium",
         "award": 80,
-        "bonus": null,
-        "bonusCount": null
+        "bonus": "wand",
+        "bonusCount": 3
       },
       {
         "level": 7,
@@ -142,8 +150,8 @@
         "level": 9,
         "complexity": "Medium",
         "award": 80,
-        "bonus": null,
-        "bonusCount": null
+        "bonus": "ruler",
+        "bonusCount": 3
       },
       {
         "level": 10,
@@ -2260,7 +2268,7 @@
     "characters_henry": "_8e3199d9",
     "characters_kate": "_c4b1c52a",
     "characters_mary": "_182c262b",
-    "characters_victor": "_e9a5eb6b",
+    "characters_victor": "_6aed95b1",
     "rooms_room1-decor": "_87a5a7d4",
     "rooms_room1-repair": "_71770db9",
     "rooms_room1-surfaces": "_23cd377c",
@@ -2278,12 +2286,13 @@
     "rooms_room5-surfaces": "_eb425dd8",
     "rooms_room6-decor": "_7d54e70e",
     "rooms_room6-surfaces": "_5e3a4f3b",
+    "ui_daily_gift": "_cbcfc145",
     "ui_loader": "_a99b51dd",
     "ui_lobby": "_ce526992",
-    "ui_panel": "_e298a16d",
+    "ui_panel": "_4acecdb5",
     "ui_preloader": "_78d92328",
     "ui_room_preview": "_68b255d7",
-    "ui_shop": "_55299df2"
+    "ui_shop": "_c0d8fa3c"
   },
   "constants": {
     "lifes_refill_price": 25,
@@ -2303,7 +2312,8 @@
     "ruler_rebuy_with_ad_count": 3,
     "stars_rebuy_price": 25,
     "stars_rebuy_count": 3,
-    "stars_rebuy_with_ad_count": 1
+    "stars_rebuy_with_ad_count": 1,
+    "can_get_daily_gift_after_level": 5
   },
   "sounds": [
     {
@@ -2600,6 +2610,114 @@
         {
           "type": "ruler",
           "count": 1
+        }
+      ]
+    }
+  ],
+  "daily_gift": [
+    {
+      "id": 1,
+      "key": "daily_gift1",
+      "type": "small",
+      "backgroundKey": "daily_award_panel",
+      "backgroundInactiveKey": "daily_award_panel_inactive",
+      "atlasKey": "ui_daily_gift",
+      "rewards": [
+        {
+          "type": "diamonds",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "key": "daily_gift2",
+      "type": "small",
+      "backgroundKey": "daily_award_panel",
+      "backgroundInactiveKey": "daily_award_panel_inactive",
+      "atlasKey": "ui_daily_gift",
+      "rewards": [
+        {
+          "type": "bulb",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "key": "daily_gift3",
+      "type": "small",
+      "backgroundKey": "daily_award_panel",
+      "backgroundInactiveKey": "daily_award_panel_inactive",
+      "atlasKey": "ui_daily_gift",
+      "rewards": [
+        {
+          "type": "eraser",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "key": "daily_gift4",
+      "type": "small",
+      "backgroundKey": "daily_award_panel",
+      "backgroundInactiveKey": "daily_award_panel_inactive",
+      "atlasKey": "ui_daily_gift",
+      "rewards": [
+        {
+          "type": "wand",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "key": "daily_gift5",
+      "type": "small",
+      "backgroundKey": "daily_award_panel",
+      "backgroundInactiveKey": "daily_award_panel_inactive",
+      "atlasKey": "ui_daily_gift",
+      "rewards": [
+        {
+          "type": "coins",
+          "count": 100
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "key": "daily_gift6",
+      "type": "small",
+      "backgroundKey": "daily_award_panel",
+      "backgroundInactiveKey": "daily_award_panel_inactive",
+      "atlasKey": "ui_daily_gift",
+      "rewards": [
+        {
+          "type": "ruler",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "key": "daily_gift7",
+      "type": "big",
+      "backgroundKey": "daily_big_award_panel",
+      "backgroundInactiveKey": "daily_big_award_panel_inactive",
+      "atlasKey": "ui_daily_gift",
+      "rewards": [
+        {
+          "type": "diamonds",
+          "count": 100
+        },
+        {
+          "type": "bulb",
+          "count": 3
+        },
+        {
+          "type": "eraser",
+          "count": 3
         }
       ]
     }

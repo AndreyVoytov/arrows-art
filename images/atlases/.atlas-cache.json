@@ -69,14 +69,14 @@
     },
     "characters_victor": {
       "sourceDir": "images/characters/victor",
-      "digest": "e9a5eb6b2a9acff5c42bd72ebef27cf02f9d5a69d0666d063bc9166383b3dd58",
+      "digest": "6aed95b1085b957a6880f35e8a19411f8b8342c079335d906d16ae710f9c0610",
       "outputs": [
-        "images/atlases/content/characters_victor_e9a5eb6b.png",
-        "images/atlases/content/characters_victor_e9a5eb6b.webp",
-        "images/atlases/content/characters_victor_e9a5eb6b.json",
-        "images/atlases/content/characters_victor_e9a5eb6b.webp.json"
+        "images/atlases/content/characters_victor_6aed95b1.png",
+        "images/atlases/content/characters_victor_6aed95b1.webp",
+        "images/atlases/content/characters_victor_6aed95b1.json",
+        "images/atlases/content/characters_victor_6aed95b1.webp.json"
       ],
-      "updatedAt": "2026-08-01T22:11:46.164965+00:00"
+      "updatedAt": "2026-08-22T21:21:22.249650+00:00"
     },
     "rooms_room1-decor": {
       "sourceDir": "images/rooms/room1-decor",
@@ -265,6 +265,17 @@
       ],
       "updatedAt": "2026-08-01T22:16:27.451820+00:00"
     },
+    "ui_daily_gift": {
+      "sourceDir": "images/ui/daily_gift",
+      "digest": "cbcfc1458476677f4dd092ea42da8b24ebbc727cb644f82f82a405fce2270818",
+      "outputs": [
+        "images/atlases/ui/ui_daily_gift_cbcfc145.png",
+        "images/atlases/ui/ui_daily_gift_cbcfc145.webp",
+        "images/atlases/ui/ui_daily_gift_cbcfc145.json",
+        "images/atlases/ui/ui_daily_gift_cbcfc145.webp.json"
+      ],
+      "updatedAt": "2026-08-22T21:21:26.055644+00:00"
+    },
     "ui_loader": {
       "sourceDir": "images/ui/loader",
       "digest": "a99b51dd52d6a5915dbea00637fe5cc0abf0f95691616afea8a4615e6687424c",
@@ -289,14 +300,14 @@
     },
     "ui_panel": {
       "sourceDir": "images/ui/panel",
-      "digest": "e298a16d947601b7ea3c28df8d412706addc488b0b5357fc21859adf78433426",
+      "digest": "4acecdb5657d082ee9be381dc5431bd12ebf31a70cf777527d7597716d926b86",
       "outputs": [
-        "images/atlases/ui/ui_panel_e298a16d.png",
-        "images/atlases/ui/ui_panel_e298a16d.webp",
-        "images/atlases/ui/ui_panel_e298a16d.json",
-        "images/atlases/ui/ui_panel_e298a16d.webp.json"
+        "images/atlases/ui/ui_panel_4acecdb5.png",
+        "images/atlases/ui/ui_panel_4acecdb5.webp",
+        "images/atlases/ui/ui_panel_4acecdb5.json",
+        "images/atlases/ui/ui_panel_4acecdb5.webp.json"
       ],
-      "updatedAt": "2026-08-02T22:13:41.728217+00:00"
+      "updatedAt": "2026-08-22T21:21:37.722171+00:00"
     },
     "ui_preloader": {
       "sourceDir": "images/ui/preloader",
@@ -322,14 +333,14 @@
     },
     "ui_shop": {
       "sourceDir": "images/ui/shop",
-      "digest": "55299df28d74efd5027e6ebc1c15320d68d045fdae6900ca94f9261a2543547a",
+      "digest": "c0d8fa3cedd55b4c0e26ba80c8e7478b496d15a317666706f489a3b66f4c1c29",
       "outputs": [
-        "images/atlases/ui/ui_shop_55299df2.png",
-        "images/atlases/ui/ui_shop_55299df2.webp",
-        "images/atlases/ui/ui_shop_55299df2.json",
-        "images/atlases/ui/ui_shop_55299df2.webp.json"
+        "images/atlases/ui/ui_shop_c0d8fa3c.png",
+        "images/atlases/ui/ui_shop_c0d8fa3c.webp",
+        "images/atlases/ui/ui_shop_c0d8fa3c.json",
+        "images/atlases/ui/ui_shop_c0d8fa3c.webp.json"
       ],
-      "updatedAt": "2026-08-01T22:17:18.567091+00:00"
+      "updatedAt": "2026-08-22T21:21:41.810093+00:00"
     }
   }
 }
