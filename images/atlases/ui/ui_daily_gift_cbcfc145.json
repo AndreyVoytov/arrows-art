@@ -1,0 +1,196 @@
+{
+  "frames": {
+    "daily_award_button": {
+      "frame": {
+        "x": 418,
+        "y": 247,
+        "w": 169,
+        "h": 61
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 169,
+        "h": 61
+      },
+      "sourceSize": {
+        "w": 169,
+        "h": 61
+      }
+    },
+    "daily_award_check": {
+      "frame": {
+        "x": 1945,
+        "y": 0,
+        "w": 52,
+        "h": 39
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 52,
+        "h": 39
+      },
+      "sourceSize": {
+        "w": 52,
+        "h": 39
+      }
+    },
+    "daily_award_panel": {
+      "frame": {
+        "x": 209,
+        "y": 247,
+        "w": 207,
+        "h": 235
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 207,
+        "h": 235
+      },
+      "sourceSize": {
+        "w": 207,
+        "h": 235
+      }
+    },
+    "daily_award_panel_inactive": {
+      "frame": {
+        "x": 0,
+        "y": 247,
+        "w": 207,
+        "h": 235
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 207,
+        "h": 235
+      },
+      "sourceSize": {
+        "w": 207,
+        "h": 235
+      }
+    },
+    "daily_big_award_panel": {
+      "frame": {
+        "x": 1332,
+        "y": 0,
+        "w": 611,
+        "h": 235
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 611,
+        "h": 235
+      },
+      "sourceSize": {
+        "w": 611,
+        "h": 235
+      }
+    },
+    "daily_big_award_panel_inactive": {
+      "frame": {
+        "x": 719,
+        "y": 0,
+        "w": 611,
+        "h": 235
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 611,
+        "h": 235
+      },
+      "sourceSize": {
+        "w": 611,
+        "h": 235
+      }
+    },
+    "everyday_gift_header": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 717,
+        "h": 245
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 717,
+        "h": 245
+      },
+      "sourceSize": {
+        "w": 717,
+        "h": 245
+      }
+    },
+    "everyday_gift_shadow": {
+      "frame": {
+        "x": 589,
+        "y": 247,
+        "w": 46,
+        "h": 21
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 46,
+        "h": 21
+      },
+      "sourceSize": {
+        "w": 46,
+        "h": 21
+      }
+    },
+    "everyday_gift_shadow_inactive_copy": {
+      "frame": {
+        "x": 1999,
+        "y": 0,
+        "w": 46,
+        "h": 21
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 46,
+        "h": 21
+      },
+      "sourceSize": {
+        "w": 46,
+        "h": 21
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "ui_daily_gift_cbcfc145.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 482
+    },
+    "scale": "1",
+    "sourceDir": "images/ui/daily_gift"
+  }
+}
