@@ -78,6 +78,50 @@
       ],
       "updatedAt": "2026-08-22T21:21:22.249650+00:00"
     },
+    "offer_autamn_set": {
+      "sourceDir": "images/offer/autamn_set",
+      "digest": "cf6c6c478c52e0cfb54083b00299ab362780615b353bbd008d68bfe4ad2644eb",
+      "outputs": [
+        "images/atlases/offer/offer_autamn_set_cf6c6c47.png",
+        "images/atlases/offer/offer_autamn_set_cf6c6c47.webp",
+        "images/atlases/offer/offer_autamn_set_cf6c6c47.json",
+        "images/atlases/offer/offer_autamn_set_cf6c6c47.webp.json"
+      ],
+      "updatedAt": "2026-08-27T10:53:19.747495+00:00"
+    },
+    "offer_newbie_set": {
+      "sourceDir": "images/offer/newbie_set",
+      "digest": "e7fcfe75970c3d9d429e0ac846f05d969b49c2fba28636e48fbe8b0490c5381a",
+      "outputs": [
+        "images/atlases/offer/offer_newbie_set_e7fcfe75.png",
+        "images/atlases/offer/offer_newbie_set_e7fcfe75.webp",
+        "images/atlases/offer/offer_newbie_set_e7fcfe75.json",
+        "images/atlases/offer/offer_newbie_set_e7fcfe75.webp.json"
+      ],
+      "updatedAt": "2026-08-27T10:53:27.827306+00:00"
+    },
+    "offer_no_ads": {
+      "sourceDir": "images/offer/no_ads",
+      "digest": "eb6aa3c228c689622ecbc3efdf5bf31ff133dfcbe81c88c63b93624d862debea",
+      "outputs": [
+        "images/atlases/offer/offer_no_ads_eb6aa3c2.png",
+        "images/atlases/offer/offer_no_ads_eb6aa3c2.webp",
+        "images/atlases/offer/offer_no_ads_eb6aa3c2.json",
+        "images/atlases/offer/offer_no_ads_eb6aa3c2.webp.json"
+      ],
+      "updatedAt": "2026-08-27T10:53:34.160986+00:00"
+    },
+    "offer_room2_set": {
+      "sourceDir": "images/offer/room2_set",
+      "digest": "6c0240701fcbf2bbceefd276fccdcb8d16d26f4dbf16306f04929cbf0b0956b9",
+      "outputs": [
+        "images/atlases/offer/offer_room2_set_6c024070.png",
+        "images/atlases/offer/offer_room2_set_6c024070.webp",
+        "images/atlases/offer/offer_room2_set_6c024070.json",
+        "images/atlases/offer/offer_room2_set_6c024070.webp.json"
+      ],
+      "updatedAt": "2026-08-27T10:53:41.028229+00:00"
+    },
     "rooms_room1-decor": {
       "sourceDir": "images/rooms/room1-decor",
       "digest": "87a5a7d494e6877f6db134a21d065843f3fdb0ef5f72b6bb5666007712ebe0c0",
@@ -267,14 +311,14 @@
     },
     "ui_daily_gift": {
       "sourceDir": "images/ui/daily_gift",
-      "digest": "cbcfc1458476677f4dd092ea42da8b24ebbc727cb644f82f82a405fce2270818",
+      "digest": "98ad1539aa4ef07fcf7fec3fa6f7c80fd89898a7cf7b11534678e38d61ca69ab",
       "outputs": [
-        "images/atlases/ui/ui_daily_gift_cbcfc145.png",
-        "images/atlases/ui/ui_daily_gift_cbcfc145.webp",
-        "images/atlases/ui/ui_daily_gift_cbcfc145.json",
-        "images/atlases/ui/ui_daily_gift_cbcfc145.webp.json"
+        "images/atlases/ui/ui_daily_gift_98ad1539.png",
+        "images/atlases/ui/ui_daily_gift_98ad1539.webp",
+        "images/atlases/ui/ui_daily_gift_98ad1539.json",
+        "images/atlases/ui/ui_daily_gift_98ad1539.webp.json"
       ],
-      "updatedAt": "2026-08-22T21:21:26.055644+00:00"
+      "updatedAt": "2026-08-27T10:53:45.263021+00:00"
     },
     "ui_loader": {
       "sourceDir": "images/ui/loader",
@@ -300,14 +344,14 @@
     },
     "ui_panel": {
       "sourceDir": "images/ui/panel",
-      "digest": "4acecdb5657d082ee9be381dc5431bd12ebf31a70cf777527d7597716d926b86",
+      "digest": "6a0062440b0af39abb1b8138a2dbad9ba3309c452229c749db396fd769ce82cf",
       "outputs": [
-        "images/atlases/ui/ui_panel_4acecdb5.png",
-        "images/atlases/ui/ui_panel_4acecdb5.webp",
-        "images/atlases/ui/ui_panel_4acecdb5.json",
-        "images/atlases/ui/ui_panel_4acecdb5.webp.json"
+        "images/atlases/ui/ui_panel_6a006244.png",
+        "images/atlases/ui/ui_panel_6a006244.webp",
+        "images/atlases/ui/ui_panel_6a006244.json",
+        "images/atlases/ui/ui_panel_6a006244.webp.json"
       ],
-      "updatedAt": "2026-08-22T21:21:37.722171+00:00"
+      "updatedAt": "2026-08-27T11:28:23.687808+00:00"
     },
     "ui_preloader": {
       "sourceDir": "images/ui/preloader",
@@ -333,14 +377,14 @@
     },
     "ui_shop": {
       "sourceDir": "images/ui/shop",
-      "digest": "c0d8fa3cedd55b4c0e26ba80c8e7478b496d15a317666706f489a3b66f4c1c29",
+      "digest": "cbb265596aa447a3cac4596bac80194baa9eaf43010f7319fdbd9162052d7076",
       "outputs": [
-        "images/atlases/ui/ui_shop_c0d8fa3c.png",
-        "images/atlases/ui/ui_shop_c0d8fa3c.webp",
-        "images/atlases/ui/ui_shop_c0d8fa3c.json",
-        "images/atlases/ui/ui_shop_c0d8fa3c.webp.json"
+        "images/atlases/ui/ui_shop_cbb26559.png",
+        "images/atlases/ui/ui_shop_cbb26559.webp",
+        "images/atlases/ui/ui_shop_cbb26559.json",
+        "images/atlases/ui/ui_shop_cbb26559.webp.json"
       ],
-      "updatedAt": "2026-08-22T21:21:41.810093+00:00"
+      "updatedAt": "2026-08-27T10:54:11.612597+00:00"
     }
   }
 }

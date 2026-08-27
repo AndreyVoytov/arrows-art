@@ -2269,6 +2269,10 @@
     "characters_kate": "_c4b1c52a",
     "characters_mary": "_182c262b",
     "characters_victor": "_6aed95b1",
+    "offer_autamn_set": "_cf6c6c47",
+    "offer_newbie_set": "_e7fcfe75",
+    "offer_no_ads": "_eb6aa3c2",
+    "offer_room2_set": "_6c024070",
     "rooms_room1-decor": "_87a5a7d4",
     "rooms_room1-repair": "_71770db9",
     "rooms_room1-surfaces": "_23cd377c",
@@ -2286,13 +2290,13 @@
     "rooms_room5-surfaces": "_eb425dd8",
     "rooms_room6-decor": "_7d54e70e",
     "rooms_room6-surfaces": "_5e3a4f3b",
-    "ui_daily_gift": "_cbcfc145",
+    "ui_daily_gift": "_98ad1539",
     "ui_loader": "_a99b51dd",
     "ui_lobby": "_ce526992",
-    "ui_panel": "_4acecdb5",
+    "ui_panel": "_6a006244",
     "ui_preloader": "_78d92328",
     "ui_room_preview": "_68b255d7",
-    "ui_shop": "_c0d8fa3c"
+    "ui_shop": "_cbb26559"
   },
   "constants": {
     "lifes_refill_price": 25,
@@ -2520,6 +2524,7 @@
       "id": 8,
       "key": "shop_lot8",
       "type": "big",
+      "mark": "hit",
       "currencyType": "iap",
       "imageKey": "bundle2_image",
       "backgroundKey": "shop_big_item_panel",
@@ -2552,6 +2557,7 @@
       "id": 9,
       "key": "shop_lot9",
       "type": "big",
+      "mark": "bestSeller",
       "currencyType": "iap",
       "imageKey": "bundle3_image",
       "backgroundKey": "shop_big_item_panel",
@@ -2653,7 +2659,7 @@
       "rewards": [
         {
           "type": "eraser",
-          "count": 3
+          "count": 2
         }
       ]
     },
@@ -2667,7 +2673,7 @@
       "rewards": [
         {
           "type": "wand",
-          "count": 4
+          "count": 3
         }
       ]
     },
@@ -2681,7 +2687,7 @@
       "rewards": [
         {
           "type": "coins",
-          "count": 100
+          "count": 2500
         }
       ]
     },
@@ -2695,7 +2701,7 @@
       "rewards": [
         {
           "type": "ruler",
-          "count": 5
+          "count": 4
         }
       ]
     },
@@ -2718,6 +2724,212 @@
         {
           "type": "eraser",
           "count": 3
+        }
+      ]
+    }
+  ],
+  "offers": [
+    {
+      "key": "no_ads",
+      "header_x": 2.333,
+      "header_y": -77.667,
+      "shine_x": 14.667,
+      "shine_y": -270,
+      "close_button_x": 221,
+      "close_button_y": -183.667,
+      "buy_button_x": 4.667,
+      "buy_button_y": 410.333,
+      "price_x": 13.333,
+      "price_y": 410,
+      "safe_area_x": 4.667,
+      "safe_area_y": 157,
+      "id": 101,
+      "atlasKey": "offer_no_ads",
+      "price": 100,
+      "trigger_on_level": 7,
+      "active_hours": 48,
+      "header_color": "#ffffff",
+      "header_stroke": "#531e74",
+      "price_color": "#ffffff",
+      "price_stroke": "#0d542f",
+      "count_color": "#ffffff",
+      "count_stroke": "#642b09",
+      "rewards": [
+        {
+          "type": "bulb",
+          "count": 1
+        },
+        {
+          "type": "eraser",
+          "count": 1
+        },
+        {
+          "type": "wand",
+          "count": 1
+        },
+        {
+          "type": "ruler",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "newbie_set",
+      "header_x": 7,
+      "header_y": -349.833,
+      "shine_x": -0.667,
+      "shine_y": -323.167,
+      "close_button_x": 227,
+      "close_button_y": -212.167,
+      "buy_button_x": 4.667,
+      "buy_button_y": 499.167,
+      "price_x": 12.667,
+      "price_y": 498.833,
+      "safe_area_x": 8,
+      "safe_area_y": 272.5,
+      "time_left_x": 33,
+      "time_left_y": 43.833,
+      "id": 102,
+      "atlasKey": "offer_newbie_set",
+      "price": 100,
+      "trigger_on_level": 12,
+      "active_hours": 48,
+      "header_color": "#ffffff",
+      "header_stroke": "#780f40",
+      "price_color": "#ffffff",
+      "price_stroke": "#0d542f",
+      "count_color": "#ffffff",
+      "count_stroke": "#642b09",
+      "time_left_color": "#ffffff",
+      "time_left_stroke": "#965224",
+      "rewards": [
+        {
+          "type": "diamonds",
+          "count": 10
+        },
+        {
+          "type": "bulb",
+          "count": 1
+        },
+        {
+          "type": "eraser",
+          "count": 1
+        },
+        {
+          "type": "wand",
+          "count": 1
+        },
+        {
+          "type": "ruler",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "key": "room2_set",
+      "header_x": 0.667,
+      "header_y": -60.667,
+      "shine_x": 14.667,
+      "shine_y": -255.333,
+      "close_button_x": 221,
+      "close_button_y": -169,
+      "buy_button_x": 4.667,
+      "buy_button_y": 447,
+      "price_x": 9.333,
+      "price_y": 446.667,
+      "safe_area_x": 8.667,
+      "safe_area_y": 209.667,
+      "time_left_x": 28,
+      "time_left_y": 8.667,
+      "id": 103,
+      "atlasKey": "offer_room2_set",
+      "price": 100,
+      "trigger_on_room_start": "room2",
+      "active_hours": 48,
+      "header_color": "#ffffff",
+      "header_stroke": "#531e74",
+      "price_color": "#ffffff",
+      "price_stroke": "#0d542f",
+      "count_color": "#ffffff",
+      "count_stroke": "#642b09",
+      "time_left_color": "#ffffff",
+      "time_left_stroke": "#965224",
+      "rewards": [
+        {
+          "type": "diamonds",
+          "count": 100
+        },
+        {
+          "type": "coins",
+          "count": 120
+        },
+        {
+          "type": "bulb",
+          "count": 2
+        },
+        {
+          "type": "eraser",
+          "count": 2
+        },
+        {
+          "type": "wand",
+          "count": 2
+        },
+        {
+          "type": "ruler",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "key": "autamn_set",
+      "header_x": -1,
+      "header_y": 324.5,
+      "shine_x": -34,
+      "shine_y": -254.167,
+      "close_button_x": 268.333,
+      "close_button_y": -121.167,
+      "buy_button_x": 4.667,
+      "buy_button_y": 440.833,
+      "price_x": 12,
+      "price_y": 440.5,
+      "safe_area_x": 6.667,
+      "safe_area_y": 116.167,
+      "time_left_x": 32.333,
+      "time_left_y": -105.167,
+      "id": 104,
+      "atlasKey": "offer_autamn_set",
+      "price": 100,
+      "trigger_on_date": "15.09",
+      "active_hours": 48,
+      "header_color": "#ffffff",
+      "header_stroke": "#531e74",
+      "price_color": "#ffffff",
+      "price_stroke": "#0d542f",
+      "count_color": "#ffffff",
+      "count_stroke": "#642b09",
+      "time_left_color": "#ffffff",
+      "time_left_stroke": "#965224",
+      "rewards": [
+        {
+          "type": "diamonds",
+          "count": 50
+        },
+        {
+          "type": "bulb",
+          "count": 1
+        },
+        {
+          "type": "eraser",
+          "count": 1
+        },
+        {
+          "type": "wand",
+          "count": 1
+        },
+        {
+          "type": "ruler",
+          "count": 1
         }
       ]
     }

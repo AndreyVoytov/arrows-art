@@ -1,0 +1,96 @@
+{
+  "frames": {
+    "buy_button": {
+      "frame": {
+        "x": 722,
+        "y": 0,
+        "w": 327,
+        "h": 146
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 327,
+        "h": 146
+      },
+      "sourceSize": {
+        "w": 327,
+        "h": 146
+      }
+    },
+    "close_button": {
+      "frame": {
+        "x": 1051,
+        "y": 0,
+        "w": 94,
+        "h": 116
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 94,
+        "h": 116
+      },
+      "sourceSize": {
+        "w": 94,
+        "h": 116
+      }
+    },
+    "icon": {
+      "frame": {
+        "x": 1147,
+        "y": 0,
+        "w": 88,
+        "h": 84
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 88,
+        "h": 84
+      },
+      "sourceSize": {
+        "w": 88,
+        "h": 84
+      }
+    },
+    "panel": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 1056
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 1056
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 1056
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "offer_no_ads_eb6aa3c2.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 1056
+    },
+    "scale": "1",
+    "sourceDir": "images/offer/no_ads"
+  }
+}

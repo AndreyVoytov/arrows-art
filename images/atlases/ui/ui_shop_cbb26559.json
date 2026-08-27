@@ -1,5 +1,25 @@
 {
   "frames": {
+    "best_value_bg": {
+      "frame": {
+        "x": 1069,
+        "y": 263,
+        "w": 142,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 142,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 142,
+        "h": 96
+      }
+    },
     "bundle1_image": {
       "frame": {
         "x": 1512,
@@ -180,6 +200,26 @@
         "h": 124
       }
     },
+    "hit_bg": {
+      "frame": {
+        "x": 925,
+        "y": 263,
+        "w": 142,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 142,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 142,
+        "h": 96
+      }
+    },
     "no_ads_bundle_image": {
       "frame": {
         "x": 1822,
@@ -202,7 +242,7 @@
     },
     "ribbon_red": {
       "frame": {
-        "x": 925,
+        "x": 1213,
         "y": 263,
         "w": 428,
         "h": 71
@@ -242,7 +282,7 @@
     },
     "shop_booster_shadow": {
       "frame": {
-        "x": 1355,
+        "x": 1643,
         "y": 263,
         "w": 46,
         "h": 21
@@ -284,7 +324,7 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "ui_shop_c0d8fa3c.webp",
+    "image": "ui_shop_cbb26559.png",
     "format": "RGBA8888",
     "size": {
       "w": 2048,

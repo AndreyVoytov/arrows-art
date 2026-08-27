@@ -24,20 +24,20 @@
       "frame": {
         "x": 1945,
         "y": 0,
-        "w": 52,
-        "h": 39
+        "w": 51,
+        "h": 37
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 52,
-        "h": 39
+        "w": 51,
+        "h": 37
       },
       "sourceSize": {
-        "w": 52,
-        "h": 39
+        "w": 51,
+        "h": 37
       }
     },
     "daily_award_panel": {
@@ -142,27 +142,7 @@
     },
     "everyday_gift_shadow": {
       "frame": {
-        "x": 589,
-        "y": 247,
-        "w": 46,
-        "h": 21
-      },
-      "rotated": false,
-      "trimmed": false,
-      "spriteSourceSize": {
-        "x": 0,
-        "y": 0,
-        "w": 46,
-        "h": 21
-      },
-      "sourceSize": {
-        "w": 46,
-        "h": 21
-      }
-    },
-    "everyday_gift_shadow_inactive_copy": {
-      "frame": {
-        "x": 1999,
+        "x": 1998,
         "y": 0,
         "w": 46,
         "h": 21
@@ -184,7 +164,7 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "ui_daily_gift_cbcfc145.png",
+    "image": "ui_daily_gift_98ad1539.png",
     "format": "RGBA8888",
     "size": {
       "w": 2048,
