@@ -2293,7 +2293,7 @@
     "ui_daily_gift": "_98ad1539",
     "ui_loader": "_a99b51dd",
     "ui_lobby": "_ce526992",
-    "ui_panel": "_6a006244",
+    "ui_panel": "_bf4c08d1",
     "ui_preloader": "_78d92328",
     "ui_room_preview": "_68b255d7",
     "ui_shop": "_cbb26559"
@@ -2399,8 +2399,95 @@
       "currencyType": "iap",
       "imageKey": "diamonds1",
       "backgroundKey": "shop_item_panel",
-      "atlasKey": "ui_shop",
-      "price": 49,
+      "atlasKey": "ui_shop"
+    },
+    {
+      "id": 2,
+      "key": "shop_lot2",
+      "type": "small",
+      "currencyType": "iap",
+      "imageKey": "diamonds2",
+      "backgroundKey": "shop_item_panel",
+      "atlasKey": "ui_shop"
+    },
+    {
+      "id": 3,
+      "key": "shop_lot3",
+      "type": "small",
+      "currencyType": "iap",
+      "imageKey": "diamonds3",
+      "backgroundKey": "shop_item_panel",
+      "atlasKey": "ui_shop"
+    },
+    {
+      "id": 4,
+      "key": "shop_lot4",
+      "type": "small",
+      "currencyType": "iap",
+      "imageKey": "diamonds4",
+      "backgroundKey": "shop_item_panel",
+      "atlasKey": "ui_shop"
+    },
+    {
+      "id": 5,
+      "key": "shop_lot5",
+      "type": "small",
+      "currencyType": "iap",
+      "imageKey": "diamonds5",
+      "backgroundKey": "shop_item_panel",
+      "atlasKey": "ui_shop"
+    },
+    {
+      "id": 6,
+      "key": "shop_lot6",
+      "type": "small",
+      "currencyType": "iap",
+      "imageKey": "diamonds6",
+      "backgroundKey": "shop_item_panel",
+      "atlasKey": "ui_shop"
+    },
+    {
+      "id": 7,
+      "key": "shop_lot7",
+      "type": "big",
+      "currencyType": "iap",
+      "imageKey": "bundle1_image",
+      "backgroundKey": "shop_big_item_panel",
+      "atlasKey": "ui_shop"
+    },
+    {
+      "id": 8,
+      "key": "shop_lot8",
+      "type": "big",
+      "mark": "hit",
+      "currencyType": "iap",
+      "imageKey": "bundle2_image",
+      "backgroundKey": "shop_big_item_panel",
+      "atlasKey": "ui_shop"
+    },
+    {
+      "id": 9,
+      "key": "shop_lot9",
+      "type": "big",
+      "mark": "bestSeller",
+      "currencyType": "iap",
+      "imageKey": "bundle3_image",
+      "backgroundKey": "shop_big_item_panel",
+      "atlasKey": "ui_shop"
+    },
+    {
+      "id": 10,
+      "key": "shop_lot10",
+      "type": "big",
+      "currencyType": "iap",
+      "imageKey": "no_ads_bundle_image",
+      "backgroundKey": "shop_big_item_panel",
+      "atlasKey": "ui_shop"
+    }
+  ],
+  "lots": [
+    {
+      "id": 1,
       "rewards": [
         {
           "type": "diamonds",
@@ -2410,13 +2497,6 @@
     },
     {
       "id": 2,
-      "key": "shop_lot2",
-      "type": "small",
-      "currencyType": "iap",
-      "imageKey": "diamonds2",
-      "backgroundKey": "shop_item_panel",
-      "atlasKey": "ui_shop",
-      "price": 99,
       "rewards": [
         {
           "type": "diamonds",
@@ -2426,13 +2506,6 @@
     },
     {
       "id": 3,
-      "key": "shop_lot3",
-      "type": "small",
-      "currencyType": "iap",
-      "imageKey": "diamonds3",
-      "backgroundKey": "shop_item_panel",
-      "atlasKey": "ui_shop",
-      "price": 249,
       "rewards": [
         {
           "type": "diamonds",
@@ -2442,13 +2515,6 @@
     },
     {
       "id": 4,
-      "key": "shop_lot4",
-      "type": "small",
-      "currencyType": "iap",
-      "imageKey": "diamonds4",
-      "backgroundKey": "shop_item_panel",
-      "atlasKey": "ui_shop",
-      "price": 499,
       "rewards": [
         {
           "type": "diamonds",
@@ -2458,13 +2524,6 @@
     },
     {
       "id": 5,
-      "key": "shop_lot5",
-      "type": "small",
-      "currencyType": "iap",
-      "imageKey": "diamonds5",
-      "backgroundKey": "shop_item_panel",
-      "atlasKey": "ui_shop",
-      "price": 799,
       "rewards": [
         {
           "type": "diamonds",
@@ -2474,13 +2533,6 @@
     },
     {
       "id": 6,
-      "key": "shop_lot6",
-      "type": "small",
-      "currencyType": "iap",
-      "imageKey": "diamonds6",
-      "backgroundKey": "shop_item_panel",
-      "atlasKey": "ui_shop",
-      "price": 1499,
       "rewards": [
         {
           "type": "diamonds",
@@ -2490,13 +2542,6 @@
     },
     {
       "id": 7,
-      "key": "shop_lot7",
-      "type": "big",
-      "currencyType": "iap",
-      "imageKey": "bundle1_image",
-      "backgroundKey": "shop_big_item_panel",
-      "atlasKey": "ui_shop",
-      "price": 149,
       "rewards": [
         {
           "type": "diamonds",
@@ -2522,14 +2567,6 @@
     },
     {
       "id": 8,
-      "key": "shop_lot8",
-      "type": "big",
-      "mark": "hit",
-      "currencyType": "iap",
-      "imageKey": "bundle2_image",
-      "backgroundKey": "shop_big_item_panel",
-      "atlasKey": "ui_shop",
-      "price": 299,
       "rewards": [
         {
           "type": "diamonds",
@@ -2555,14 +2592,6 @@
     },
     {
       "id": 9,
-      "key": "shop_lot9",
-      "type": "big",
-      "mark": "bestSeller",
-      "currencyType": "iap",
-      "imageKey": "bundle3_image",
-      "backgroundKey": "shop_big_item_panel",
-      "atlasKey": "ui_shop",
-      "price": 599,
       "rewards": [
         {
           "type": "diamonds",
@@ -2588,18 +2617,96 @@
     },
     {
       "id": 10,
-      "key": "shop_lot10",
-      "type": "big",
-      "currencyType": "iap",
-      "imageKey": "no_ads_bundle_image",
-      "backgroundKey": "shop_big_item_panel",
-      "atlasKey": "ui_shop",
-      "price": 99,
       "adsDisable": -1,
       "rewards": [
         {
           "type": "diamonds",
           "count": 0
+        },
+        {
+          "type": "bulb",
+          "count": 1
+        },
+        {
+          "type": "eraser",
+          "count": 1
+        },
+        {
+          "type": "wand",
+          "count": 1
+        },
+        {
+          "type": "ruler",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "adsDisable": -1,
+      "rewards": [
+        {
+          "type": "bulb",
+          "count": 1
+        },
+        {
+          "type": "eraser",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "rewards": [
+        {
+          "type": "diamonds",
+          "count": 100
+        },
+        {
+          "type": "bulb",
+          "count": 2
+        },
+        {
+          "type": "eraser",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "rewards": [
+        {
+          "type": "diamonds",
+          "count": 100
+        },
+        {
+          "type": "coins",
+          "count": 120
+        },
+        {
+          "type": "bulb",
+          "count": 2
+        },
+        {
+          "type": "eraser",
+          "count": 2
+        },
+        {
+          "type": "wand",
+          "count": 2
+        },
+        {
+          "type": "ruler",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "rewards": [
+        {
+          "type": "diamonds",
+          "count": 50
         },
         {
           "type": "bulb",
@@ -2731,207 +2838,247 @@
   "offers": [
     {
       "key": "no_ads",
-      "header_x": 2.333,
-      "header_y": -77.667,
-      "shine_x": 14.667,
-      "shine_y": -270,
-      "close_button_x": 221,
-      "close_button_y": -183.667,
-      "buy_button_x": 4.667,
-      "buy_button_y": 410.333,
-      "price_x": 13.333,
-      "price_y": 410,
-      "safe_area_x": 4.667,
-      "safe_area_y": 157,
+      "elements_pos": {
+        "panel": {
+          "x": 0,
+          "y": 0
+        },
+        "header": {
+          "x": 2.333,
+          "y": -77.667
+        },
+        "shine": {
+          "x": 14.667,
+          "y": -270
+        },
+        "close_button": {
+          "x": 221,
+          "y": -183.667
+        },
+        "buy_button": {
+          "x": 4.667,
+          "y": 410.333
+        },
+        "price": {
+          "x": 13.333,
+          "y": 410
+        },
+        "safe_area": {
+          "x": 4.667,
+          "y": 157
+        }
+      },
       "id": 101,
       "atlasKey": "offer_no_ads",
-      "price": 100,
-      "trigger_on_level": 7,
-      "active_hours": 48,
-      "header_color": "#ffffff",
-      "header_stroke": "#531e74",
-      "price_color": "#ffffff",
-      "price_stroke": "#0d542f",
-      "count_color": "#ffffff",
-      "count_stroke": "#642b09",
-      "rewards": [
-        {
-          "type": "bulb",
-          "count": 1
+      "trigger": "on_level_complete_10",
+      "duration": 24,
+      "elements_style": {
+        "header": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#531e74",
+          "is_stroke": true
         },
-        {
-          "type": "eraser",
-          "count": 1
+        "price": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#0d542f",
+          "is_stroke": true
         },
-        {
-          "type": "wand",
-          "count": 1
-        },
-        {
-          "type": "ruler",
-          "count": 1
+        "count": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#642b09",
+          "is_stroke": true
         }
-      ]
+      }
     },
     {
       "key": "newbie_set",
-      "header_x": 7,
-      "header_y": -349.833,
-      "shine_x": -0.667,
-      "shine_y": -323.167,
-      "close_button_x": 227,
-      "close_button_y": -212.167,
-      "buy_button_x": 4.667,
-      "buy_button_y": 499.167,
-      "price_x": 12.667,
-      "price_y": 498.833,
-      "safe_area_x": 8,
-      "safe_area_y": 272.5,
-      "time_left_x": 33,
-      "time_left_y": 43.833,
+      "elements_pos": {
+        "panel": {
+          "x": 0,
+          "y": 0
+        },
+        "header": {
+          "x": 7,
+          "y": -349.833
+        },
+        "shine": {
+          "x": -0.667,
+          "y": -323.167
+        },
+        "close_button": {
+          "x": 227,
+          "y": -212.167
+        },
+        "buy_button": {
+          "x": 4.667,
+          "y": 499.167
+        },
+        "price": {
+          "x": 12.667,
+          "y": 498.833
+        },
+        "safe_area": {
+          "x": 8,
+          "y": 272.5
+        },
+        "time_left": {
+          "x": 33,
+          "y": 43.833
+        }
+      },
       "id": 102,
       "atlasKey": "offer_newbie_set",
-      "price": 100,
-      "trigger_on_level": 12,
-      "active_hours": 48,
-      "header_color": "#ffffff",
-      "header_stroke": "#780f40",
-      "price_color": "#ffffff",
-      "price_stroke": "#0d542f",
-      "count_color": "#ffffff",
-      "count_stroke": "#642b09",
-      "time_left_color": "#ffffff",
-      "time_left_stroke": "#965224",
-      "rewards": [
-        {
-          "type": "diamonds",
-          "count": 10
+      "trigger": "on_level_complete_15",
+      "duration": 48,
+      "elements_style": {
+        "header": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#780f40",
+          "is_stroke": true
         },
-        {
-          "type": "bulb",
-          "count": 1
+        "price": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#0d542f",
+          "is_stroke": true
         },
-        {
-          "type": "eraser",
-          "count": 1
+        "count": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#642b09",
+          "is_stroke": true
         },
-        {
-          "type": "wand",
-          "count": 1
-        },
-        {
-          "type": "ruler",
-          "count": 1
+        "time_left": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#965224",
+          "is_stroke": true
         }
-      ]
+      }
     },
     {
       "key": "room2_set",
-      "header_x": 0.667,
-      "header_y": -60.667,
-      "shine_x": 14.667,
-      "shine_y": -255.333,
-      "close_button_x": 221,
-      "close_button_y": -169,
-      "buy_button_x": 4.667,
-      "buy_button_y": 447,
-      "price_x": 9.333,
-      "price_y": 446.667,
-      "safe_area_x": 8.667,
-      "safe_area_y": 209.667,
-      "time_left_x": 28,
-      "time_left_y": 8.667,
+      "elements_pos": {
+        "panel": {
+          "x": 0,
+          "y": 0
+        },
+        "header": {
+          "x": 0.667,
+          "y": -60.667
+        },
+        "shine": {
+          "x": 14.667,
+          "y": -255.333
+        },
+        "close_button": {
+          "x": 221,
+          "y": -169
+        },
+        "buy_button": {
+          "x": 4.667,
+          "y": 447
+        },
+        "price": {
+          "x": 9.333,
+          "y": 446.667
+        },
+        "safe_area": {
+          "x": 8.667,
+          "y": 209.667
+        },
+        "time_left": {
+          "x": 28,
+          "y": 8.667
+        }
+      },
       "id": 103,
       "atlasKey": "offer_room2_set",
-      "price": 100,
-      "trigger_on_room_start": "room2",
-      "active_hours": 48,
-      "header_color": "#ffffff",
-      "header_stroke": "#531e74",
-      "price_color": "#ffffff",
-      "price_stroke": "#0d542f",
-      "count_color": "#ffffff",
-      "count_stroke": "#642b09",
-      "time_left_color": "#ffffff",
-      "time_left_stroke": "#965224",
-      "rewards": [
-        {
-          "type": "diamonds",
-          "count": 100
+      "trigger": "on_room_start_room2",
+      "duration": 48,
+      "elements_style": {
+        "header": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#531e74",
+          "is_stroke": true
         },
-        {
-          "type": "coins",
-          "count": 120
+        "price": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#0d542f",
+          "is_stroke": true
         },
-        {
-          "type": "bulb",
-          "count": 2
+        "count": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#642b09",
+          "is_stroke": true
         },
-        {
-          "type": "eraser",
-          "count": 2
-        },
-        {
-          "type": "wand",
-          "count": 2
-        },
-        {
-          "type": "ruler",
-          "count": 2
+        "time_left": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#965224",
+          "is_stroke": true
         }
-      ]
+      }
     },
     {
       "key": "autamn_set",
-      "header_x": -1,
-      "header_y": 324.5,
-      "shine_x": -34,
-      "shine_y": -254.167,
-      "close_button_x": 268.333,
-      "close_button_y": -121.167,
-      "buy_button_x": 4.667,
-      "buy_button_y": 440.833,
-      "price_x": 12,
-      "price_y": 440.5,
-      "safe_area_x": 6.667,
-      "safe_area_y": 116.167,
-      "time_left_x": 32.333,
-      "time_left_y": -105.167,
+      "elements_pos": {
+        "panel": {
+          "x": 0,
+          "y": 0
+        },
+        "header": {
+          "x": -1,
+          "y": 324.5
+        },
+        "shine": {
+          "x": -34,
+          "y": -254.167
+        },
+        "close_button": {
+          "x": 268.333,
+          "y": -121.167
+        },
+        "buy_button": {
+          "x": 4.667,
+          "y": 440.833
+        },
+        "price": {
+          "x": 12,
+          "y": 440.5
+        },
+        "safe_area": {
+          "x": 6.667,
+          "y": 116.167
+        },
+        "time_left": {
+          "x": 32.333,
+          "y": -105.167
+        }
+      },
       "id": 104,
       "atlasKey": "offer_autamn_set",
-      "price": 100,
-      "trigger_on_date": "15.09",
-      "active_hours": 48,
-      "header_color": "#ffffff",
-      "header_stroke": "#531e74",
-      "price_color": "#ffffff",
-      "price_stroke": "#0d542f",
-      "count_color": "#ffffff",
-      "count_stroke": "#642b09",
-      "time_left_color": "#ffffff",
-      "time_left_stroke": "#965224",
-      "rewards": [
-        {
-          "type": "diamonds",
-          "count": 50
+      "trigger": "on_enter_game",
+      "global_start": "2026-09-15",
+      "global_end": "2026-09-17",
+      "elements_style": {
+        "header": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#531e74",
+          "is_stroke": true
         },
-        {
-          "type": "bulb",
-          "count": 1
+        "price": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#0d542f",
+          "is_stroke": true
         },
-        {
-          "type": "eraser",
-          "count": 1
+        "count": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#642b09",
+          "is_stroke": true
         },
-        {
-          "type": "wand",
-          "count": 1
-        },
-        {
-          "type": "ruler",
-          "count": 1
+        "time_left": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#965224",
+          "is_stroke": true
         }
-      ]
+      }
     }
   ]
 }
