@@ -2269,10 +2269,10 @@
     "characters_kate": "_c4b1c52a",
     "characters_mary": "_182c262b",
     "characters_victor": "_6aed95b1",
-    "offer_autamn_set": "_cf6c6c47",
-    "offer_newbie_set": "_e7fcfe75",
-    "offer_no_ads": "_eb6aa3c2",
-    "offer_room2_set": "_6c024070",
+    "offer_autamn_set": "_c8e7cdcd",
+    "offer_newbie_set": "_32e73c18",
+    "offer_no_ads": "_fd5ace18",
+    "offer_room2_set": "_ea4bdfa6",
     "rooms_room1-decor": "_87a5a7d4",
     "rooms_room1-repair": "_71770db9",
     "rooms_room1-surfaces": "_23cd377c",
@@ -2865,12 +2865,18 @@
         },
         "safe_area": {
           "x": 4.667,
-          "y": 157
+          "y": 177,
+          "width": 441,
+          "height": 353
+        },
+        "time_left": {
+          "x": 31.667,
+          "y": -6.333
         }
       },
       "id": 101,
       "atlasKey": "offer_no_ads",
-      "trigger": "on_level_complete_10",
+      "trigger": "on_inter_ad",
       "duration": 24,
       "elements_style": {
         "header": {
@@ -2887,6 +2893,11 @@
           "fill_color": "#ffffff",
           "stroke_color": "#642b09",
           "is_stroke": true
+        },
+        "time_left": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#634029",
+          "is_stroke": true
         }
       }
     },
@@ -2899,31 +2910,33 @@
         },
         "header": {
           "x": 7,
-          "y": -349.833
+          "y": -378.833
         },
         "shine": {
           "x": -0.667,
-          "y": -323.167
+          "y": -352.167
         },
         "close_button": {
           "x": 227,
-          "y": -212.167
+          "y": -241.167
         },
         "buy_button": {
           "x": 4.667,
-          "y": 499.167
+          "y": 470.167
         },
         "price": {
           "x": 12.667,
-          "y": 498.833
+          "y": 469.833
         },
         "safe_area": {
           "x": 8,
-          "y": 272.5
+          "y": 243.5,
+          "width": 441,
+          "height": 353
         },
         "time_left": {
           "x": 33,
-          "y": 43.833
+          "y": 14.833
         }
       },
       "id": 102,
@@ -2962,36 +2975,38 @@
         },
         "header": {
           "x": 0.667,
-          "y": -60.667
+          "y": -94.667
         },
         "shine": {
           "x": 14.667,
-          "y": -255.333
+          "y": -289.333
         },
         "close_button": {
           "x": 221,
-          "y": -169
+          "y": -203
         },
         "buy_button": {
           "x": 4.667,
-          "y": 447
+          "y": 413
         },
         "price": {
           "x": 9.333,
-          "y": 446.667
+          "y": 412.667
         },
         "safe_area": {
           "x": 8.667,
-          "y": 209.667
+          "y": 175.667,
+          "width": 441,
+          "height": 353
         },
         "time_left": {
           "x": 28,
-          "y": 8.667
+          "y": -25.333
         }
       },
       "id": 103,
       "atlasKey": "offer_room2_set",
-      "trigger": "on_room_start_room2",
+      "trigger": "after_dialog_room2_d1",
       "duration": 48,
       "elements_style": {
         "header": {
@@ -3025,31 +3040,33 @@
         },
         "header": {
           "x": -1,
-          "y": 324.5
+          "y": 287.5
         },
         "shine": {
           "x": -34,
-          "y": -254.167
+          "y": -291.167
         },
         "close_button": {
           "x": 268.333,
-          "y": -121.167
+          "y": -158.167
         },
         "buy_button": {
           "x": 4.667,
-          "y": 440.833
+          "y": 403.833
         },
         "price": {
           "x": 12,
-          "y": 440.5
+          "y": 403.5
         },
         "safe_area": {
           "x": 6.667,
-          "y": 116.167
+          "y": 79.167,
+          "width": 441,
+          "height": 353
         },
         "time_left": {
           "x": 32.333,
-          "y": -105.167
+          "y": -142.167
         }
       },
       "id": 104,
@@ -3057,6 +3074,7 @@
       "trigger": "on_enter_game",
       "global_start": "2026-09-15",
       "global_end": "2026-09-17",
+      "duration": -1,
       "elements_style": {
         "header": {
           "fill_color": "#ffffff",

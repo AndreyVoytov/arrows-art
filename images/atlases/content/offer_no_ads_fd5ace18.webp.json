@@ -44,20 +44,20 @@
       "frame": {
         "x": 1147,
         "y": 0,
-        "w": 105,
-        "h": 107
+        "w": 88,
+        "h": 84
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 105,
-        "h": 107
+        "w": 88,
+        "h": 84
       },
       "sourceSize": {
-        "w": 105,
-        "h": 107
+        "w": 88,
+        "h": 84
       }
     },
     "panel": {
@@ -65,7 +65,7 @@
         "x": 0,
         "y": 0,
         "w": 720,
-        "h": 951
+        "h": 1056
       },
       "rotated": false,
       "trimmed": false,
@@ -73,24 +73,24 @@
         "x": 0,
         "y": 0,
         "w": 720,
-        "h": 951
+        "h": 1056
       },
       "sourceSize": {
         "w": 720,
-        "h": 951
+        "h": 1056
       }
     }
   },
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "offer_autamn_set_cf6c6c47.png",
+    "image": "offer_no_ads_fd5ace18.webp",
     "format": "RGBA8888",
     "size": {
       "w": 2048,
-      "h": 951
+      "h": 1056
     },
     "scale": "1",
-    "sourceDir": "images/offer/autamn_set"
+    "sourceDir": "images/offer/no_ads"
   }
 }

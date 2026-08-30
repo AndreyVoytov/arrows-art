@@ -65,7 +65,7 @@
         "x": 0,
         "y": 0,
         "w": 720,
-        "h": 951
+        "h": 903
       },
       "rotated": false,
       "trimmed": false,
@@ -73,22 +73,22 @@
         "x": 0,
         "y": 0,
         "w": 720,
-        "h": 951
+        "h": 903
       },
       "sourceSize": {
         "w": 720,
-        "h": 951
+        "h": 903
       }
     }
   },
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "offer_autamn_set_cf6c6c47.webp",
+    "image": "offer_autamn_set_c8e7cdcd.webp",
     "format": "RGBA8888",
     "size": {
       "w": 2048,
-      "h": 951
+      "h": 903
     },
     "scale": "1",
     "sourceDir": "images/offer/autamn_set"
