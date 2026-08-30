@@ -2877,6 +2877,8 @@
       "id": 101,
       "atlasKey": "offer_no_ads",
       "trigger": "on_inter_ad",
+      "global_start": -1,
+      "global_end": -1,
       "duration": 24,
       "elements_style": {
         "header": {
@@ -2942,6 +2944,8 @@
       "id": 102,
       "atlasKey": "offer_newbie_set",
       "trigger": "on_level_complete_15",
+      "global_start": -1,
+      "global_end": -1,
       "duration": 48,
       "elements_style": {
         "header": {
@@ -3006,7 +3010,9 @@
       },
       "id": 103,
       "atlasKey": "offer_room2_set",
-      "trigger": "after_dialog_room2_d1",
+      "trigger": "on_room_start_room2",
+      "global_start": -1,
+      "global_end": -1,
       "duration": 48,
       "elements_style": {
         "header": {
