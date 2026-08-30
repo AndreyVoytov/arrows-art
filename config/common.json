@@ -2270,9 +2270,9 @@
     "characters_mary": "_182c262b",
     "characters_victor": "_6aed95b1",
     "offer_autamn_set": "_c8e7cdcd",
-    "offer_newbie_set": "_32e73c18",
+    "offer_newbie_set": "_4d24bf39",
     "offer_no_ads": "_fd5ace18",
-    "offer_room2_set": "_ea4bdfa6",
+    "offer_room2_set": "_56701f78",
     "rooms_room1-decor": "_87a5a7d4",
     "rooms_room1-repair": "_71770db9",
     "rooms_room1-surfaces": "_23cd377c",
@@ -2647,11 +2647,11 @@
       "rewards": [
         {
           "type": "bulb",
-          "count": 1
+          "count": 2
         },
         {
           "type": "eraser",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -2660,15 +2660,23 @@
       "rewards": [
         {
           "type": "diamonds",
-          "count": 100
+          "count": 150
         },
         {
           "type": "bulb",
-          "count": 2
+          "count": 1
         },
         {
           "type": "eraser",
-          "count": 2
+          "count": 1
+        },
+        {
+          "type": "wand",
+          "count": 1
+        },
+        {
+          "type": "ruler",
+          "count": 1
         }
       ]
     },
@@ -2876,7 +2884,7 @@
       },
       "id": 101,
       "atlasKey": "offer_no_ads",
-      "trigger": "on_inter_ad",
+      "trigger": "disable_ad",
       "global_start": -1,
       "global_end": -1,
       "duration": 24,
@@ -2912,41 +2920,41 @@
         },
         "header": {
           "x": 7,
-          "y": -378.833
+          "y": -422.667
         },
         "shine": {
           "x": -0.667,
-          "y": -352.167
+          "y": -396
         },
         "close_button": {
           "x": 227,
-          "y": -241.167
+          "y": -285
         },
         "buy_button": {
           "x": 4.667,
-          "y": 470.167
+          "y": 426.333
         },
         "price": {
           "x": 12.667,
-          "y": 469.833
+          "y": 426
         },
         "safe_area": {
           "x": 8,
-          "y": 243.5,
+          "y": 199.667,
           "width": 441,
           "height": 353
         },
         "time_left": {
           "x": 33,
-          "y": 14.833
+          "y": -29
         }
       },
       "id": 102,
       "atlasKey": "offer_newbie_set",
-      "trigger": "on_level_complete_15",
+      "trigger": "on_lobby_enter_levels_completed_15",
       "global_start": -1,
       "global_end": -1,
-      "duration": 48,
+      "duration": 24,
       "elements_style": {
         "header": {
           "fill_color": "#ffffff",
@@ -3077,9 +3085,9 @@
       },
       "id": 104,
       "atlasKey": "offer_autamn_set",
-      "trigger": "on_enter_game",
-      "global_start": "2026-09-15",
-      "global_end": "2026-09-17",
+      "trigger": "on_lobby_enter",
+      "global_start": "2026-08-30",
+      "global_end": "2026-09-06",
       "duration": -1,
       "elements_style": {
         "header": {

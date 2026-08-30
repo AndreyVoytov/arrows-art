@@ -65,7 +65,7 @@
         "x": 0,
         "y": 0,
         "w": 720,
-        "h": 1045
+        "h": 958
       },
       "rotated": false,
       "trimmed": false,
@@ -73,22 +73,22 @@
         "x": 0,
         "y": 0,
         "w": 720,
-        "h": 1045
+        "h": 958
       },
       "sourceSize": {
         "w": 720,
-        "h": 1045
+        "h": 958
       }
     }
   },
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "offer_newbie_set_32e73c18.png",
+    "image": "offer_newbie_set_4d24bf39.png",
     "format": "RGBA8888",
     "size": {
       "w": 2048,
-      "h": 1045
+      "h": 958
     },
     "scale": "1",
     "sourceDir": "images/offer/newbie_set"

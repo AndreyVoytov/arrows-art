@@ -65,7 +65,7 @@
         "x": 0,
         "y": 0,
         "w": 720,
-        "h": 922
+        "h": 958
       },
       "rotated": false,
       "trimmed": false,
@@ -73,24 +73,24 @@
         "x": 0,
         "y": 0,
         "w": 720,
-        "h": 922
+        "h": 958
       },
       "sourceSize": {
         "w": 720,
-        "h": 922
+        "h": 958
       }
     }
   },
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "offer_room2_set_ea4bdfa6.png",
+    "image": "offer_newbie_set_4d24bf39.webp",
     "format": "RGBA8888",
     "size": {
       "w": 2048,
-      "h": 922
+      "h": 958
     },
     "scale": "1",
-    "sourceDir": "images/offer/room2_set"
+    "sourceDir": "images/offer/newbie_set"
   }
 }
