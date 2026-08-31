@@ -2,47 +2,47 @@
   "frames": {
     "buy_button": {
       "frame": {
-        "x": 722,
+        "x": 663,
         "y": 0,
-        "w": 327,
-        "h": 146
+        "w": 295,
+        "h": 133
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 327,
-        "h": 146
+        "w": 295,
+        "h": 133
       },
       "sourceSize": {
-        "w": 327,
-        "h": 146
+        "w": 295,
+        "h": 133
       }
     },
     "close_button": {
       "frame": {
-        "x": 1051,
+        "x": 1067,
         "y": 0,
-        "w": 94,
-        "h": 116
+        "w": 85,
+        "h": 104
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 94,
-        "h": 116
+        "w": 85,
+        "h": 104
       },
       "sourceSize": {
-        "w": 94,
-        "h": 116
+        "w": 85,
+        "h": 104
       }
     },
     "icon": {
       "frame": {
-        "x": 1147,
+        "x": 960,
         "y": 0,
         "w": 105,
         "h": 107
@@ -64,31 +64,31 @@
       "frame": {
         "x": 0,
         "y": 0,
-        "w": 720,
-        "h": 922
+        "w": 661,
+        "h": 830
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 720,
-        "h": 922
+        "w": 661,
+        "h": 830
       },
       "sourceSize": {
-        "w": 720,
-        "h": 922
+        "w": 661,
+        "h": 830
       }
     }
   },
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "offer_room2_set_56701f78.webp",
+    "image": "offer_room2_set_7b5f0a50.png",
     "format": "RGBA8888",
     "size": {
       "w": 2048,
-      "h": 922
+      "h": 830
     },
     "scale": "1",
     "sourceDir": "images/offer/room2_set"

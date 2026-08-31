@@ -2,95 +2,95 @@
   "frames": {
     "buy_button": {
       "frame": {
-        "x": 722,
+        "x": 642,
         "y": 0,
-        "w": 327,
-        "h": 146
+        "w": 285,
+        "h": 128
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 327,
-        "h": 146
+        "w": 285,
+        "h": 128
       },
       "sourceSize": {
-        "w": 327,
-        "h": 146
+        "w": 285,
+        "h": 128
       }
     },
     "close_button": {
       "frame": {
-        "x": 1051,
+        "x": 929,
         "y": 0,
-        "w": 94,
-        "h": 116
+        "w": 81,
+        "h": 101
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 94,
-        "h": 116
+        "w": 81,
+        "h": 101
       },
       "sourceSize": {
-        "w": 94,
-        "h": 116
+        "w": 81,
+        "h": 101
       }
     },
     "icon": {
       "frame": {
-        "x": 1147,
+        "x": 1012,
         "y": 0,
-        "w": 105,
-        "h": 107
+        "w": 88,
+        "h": 84
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 105,
-        "h": 107
+        "w": 88,
+        "h": 84
       },
       "sourceSize": {
-        "w": 105,
-        "h": 107
+        "w": 88,
+        "h": 84
       }
     },
     "panel": {
       "frame": {
         "x": 0,
         "y": 0,
-        "w": 720,
-        "h": 958
+        "w": 640,
+        "h": 918
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 720,
-        "h": 958
+        "w": 640,
+        "h": 918
       },
       "sourceSize": {
-        "w": 720,
-        "h": 958
+        "w": 640,
+        "h": 918
       }
     }
   },
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "offer_newbie_set_4d24bf39.webp",
+    "image": "offer_no_ads_92c5a3fc.webp",
     "format": "RGBA8888",
     "size": {
       "w": 2048,
-      "h": 958
+      "h": 918
     },
     "scale": "1",
-    "sourceDir": "images/offer/newbie_set"
+    "sourceDir": "images/offer/no_ads"
   }
 }
