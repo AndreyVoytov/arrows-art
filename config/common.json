@@ -2317,7 +2317,10 @@
     "stars_rebuy_price": 25,
     "stars_rebuy_count": 3,
     "stars_rebuy_with_ad_count": 1,
-    "can_get_daily_gift_after_level": 5
+    "can_get_daily_gift_after_level": 5,
+    "superbooster_from_level": 7,
+    "suporbooster_levels_to_activate": 5,
+    "suporbooster_arrows_to_use": 5
   },
   "sounds": [
     {
