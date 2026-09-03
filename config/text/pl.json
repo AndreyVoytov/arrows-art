@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "Ukończyłeś wszystkie poziomy! Wkrótce dodamy do gry jeszcze więcej poziomów.",
   "ui_rooms_completed_header": "Gratulacje!",
   "ui_rooms_completed_message": "Skompletowałeś wszystkie pokoje! Wkrótce dodamy do gry jeszcze więcej pokoi.",
-  "ui_cannot_show_ad": "Nie udało się wyświetlić reklamy"
+  "ui_cannot_show_ad": "Nie udało się wyświetlić reklamy",
+  "ui_active": "AKTYWNY",
+  "ui_level_exit": "Rezygnacja z gry",
+  "ui_level_exit_waringn": "Stracisz bonusy. Nadal wychodzisz?",
+  "ui_superbooster": "Super Sherlocku",
+  "ui_superbooster_desc1": "Po przebudzeniu pomaga przejść poziomy",
+  "ui_superbooster_desc2": "Ale jeśli zostanie pokonany, przebudzenie postępu zostanie utracone"
 }

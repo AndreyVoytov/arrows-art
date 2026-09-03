@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "Bạn đã hoàn thành tất cả các cấp độ! Chúng tôi sẽ sớm bổ sung thêm nhiều cấp độ hơn cho trò chơi.",
   "ui_rooms_completed_header": "Chúc mừng!",
   "ui_rooms_completed_message": "Bạn đã hoàn thành tất cả các phòng! Chúng tôi sẽ sớm bổ sung thêm nhiều phòng hơn nữa vào trò chơi.",
-  "ui_cannot_show_ad": "Không hiển thị được quảng cáo"
+  "ui_cannot_show_ad": "Không hiển thị được quảng cáo",
+  "ui_active": "HOẠT ĐỘNG",
+  "ui_level_exit": "Thoát khỏi trò chơi",
+  "ui_level_exit_waringn": "Bạn sẽ mất tiền thưởng. Vẫn đi ra ngoài à?",
+  "ui_superbooster": "Siêu Sherlock",
+  "ui_superbooster_desc1": "Khi thức tỉnh, giúp vượt qua các cấp độ",
+  "ui_superbooster_desc2": "Nhưng nếu bị đánh bại, tiến trình thức tỉnh sẽ bị mất"
 }

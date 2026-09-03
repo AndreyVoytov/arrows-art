@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "すべてのレベルを完了しました!まもなくさらに多くのレベルをゲームに追加する予定です。",
   "ui_rooms_completed_header": "おめでとう！",
   "ui_rooms_completed_message": "すべての部屋が完成しました！間もなくさらに多くの部屋をゲームに追加する予定です。",
-  "ui_cannot_show_ad": "広告の表示に失敗しました"
+  "ui_cannot_show_ad": "広告の表示に失敗しました",
+  "ui_active": "アクティブ",
+  "ui_level_exit": "ゲームを終了する",
+  "ui_level_exit_waringn": "ボーナスを失うことになります。まだ外出しますか？",
+  "ui_superbooster": "スーパーシャーロック",
+  "ui_superbooster_desc1": "目覚めると、レベルを通過するのに役立ちます",
+  "ui_superbooster_desc2": "ただし、敗北すると覚醒の進行状況は失われます"
 }

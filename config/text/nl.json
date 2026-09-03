@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "Je hebt alle niveaus voltooid! We zullen binnenkort nog meer niveaus aan het spel toevoegen.",
   "ui_rooms_completed_header": "Gefeliciteerd!",
   "ui_rooms_completed_message": "Je hebt alle kamers voltooid! Binnenkort zullen we nog meer kamers aan het spel toevoegen.",
-  "ui_cannot_show_ad": "Kan advertentie niet weergeven"
+  "ui_cannot_show_ad": "Kan advertentie niet weergeven",
+  "ui_active": "ACTIEF",
+  "ui_level_exit": "Het spel verlaten",
+  "ui_level_exit_waringn": "Je verliest bonussen. Toch uitgaan?",
+  "ui_superbooster": "Super-Sherlock",
+  "ui_superbooster_desc1": "Wanneer het wordt gewekt, helpt het om niveaus te halen",
+  "ui_superbooster_desc2": "Maar als het wordt verslagen, gaat de ontwakende vooruitgang verloren"
 }

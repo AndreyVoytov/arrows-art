@@ -2292,8 +2292,8 @@
     "rooms_room6-surfaces": "_5e3a4f3b",
     "ui_daily_gift": "_98ad1539",
     "ui_loader": "_a99b51dd",
-    "ui_lobby": "_ce526992",
-    "ui_panel": "_bf4c08d1",
+    "ui_lobby": "_bfc0c6fe",
+    "ui_panel": "_a20ff39c",
     "ui_preloader": "_78d92328",
     "ui_room_preview": "_68b255d7",
     "ui_shop": "_cbb26559"
@@ -2846,34 +2846,6 @@
   "offers": [
     {
       "key": "no_ads",
-      "id": 101,
-      "atlasKey": "offer_no_ads",
-      "trigger": "on_inter_show",
-      "global_start": -1,
-      "global_end": -1,
-      "duration": 24,
-      "elements_style": {
-        "header": {
-          "fill_color": "#ffffff",
-          "stroke_color": "#531e74",
-          "is_stroke": true
-        },
-        "price": {
-          "fill_color": "#ffffff",
-          "stroke_color": "#0d542f",
-          "is_stroke": true
-        },
-        "count": {
-          "fill_color": "#ffffff",
-          "stroke_color": "#642b09",
-          "is_stroke": true
-        },
-        "time_left": {
-          "fill_color": "#ffffff",
-          "stroke_color": "#634029",
-          "is_stroke": true
-        }
-      },
       "elements_pos": {
         "panel": {
           "x": 0,
@@ -2909,20 +2881,17 @@
           "x": 21,
           "y": -5.333
         }
-      }
-    },
-    {
-      "key": "newbie_set",
-      "id": 102,
-      "atlasKey": "offer_newbie_set",
-      "trigger": "on_level_complete_15",
+      },
+      "id": 101,
+      "atlasKey": "offer_no_ads",
+      "trigger": "on_inter_show",
       "global_start": -1,
       "global_end": -1,
       "duration": 24,
       "elements_style": {
         "header": {
           "fill_color": "#ffffff",
-          "stroke_color": "#780f40",
+          "stroke_color": "#531e74",
           "is_stroke": true
         },
         "price": {
@@ -2937,10 +2906,13 @@
         },
         "time_left": {
           "fill_color": "#ffffff",
-          "stroke_color": "#965224",
+          "stroke_color": "#634029",
           "is_stroke": true
         }
-      },
+      }
+    },
+    {
+      "key": "newbie_set",
       "elements_pos": {
         "panel": {
           "x": 0,
@@ -2976,20 +2948,17 @@
           "x": 23.167,
           "y": -26.167
         }
-      }
-    },
-    {
-      "key": "room2_set",
-      "id": 103,
-      "atlasKey": "offer_room2_set",
-      "trigger": "on_room_start_room2",
+      },
+      "id": 102,
+      "atlasKey": "offer_newbie_set",
+      "trigger": "on_level_complete_15",
       "global_start": -1,
       "global_end": -1,
-      "duration": 48,
+      "duration": 24,
       "elements_style": {
         "header": {
           "fill_color": "#ffffff",
-          "stroke_color": "#531e74",
+          "stroke_color": "#780f40",
           "is_stroke": true
         },
         "price": {
@@ -3007,7 +2976,10 @@
           "stroke_color": "#965224",
           "is_stroke": true
         }
-      },
+      }
+    },
+    {
+      "key": "room2_set",
       "elements_pos": {
         "panel": {
           "x": 0,
@@ -3043,16 +3015,13 @@
           "x": 18.833,
           "y": -22.333
         }
-      }
-    },
-    {
-      "key": "autamn_set",
-      "id": 104,
-      "atlasKey": "offer_autamn_set",
-      "trigger": "on_lobby_enter",
-      "global_start": "2026-08-30",
-      "global_end": "2026-09-06",
-      "duration": -1,
+      },
+      "id": 103,
+      "atlasKey": "offer_room2_set",
+      "trigger": "on_room_start_room2",
+      "global_start": -1,
+      "global_end": -1,
+      "duration": 48,
       "elements_style": {
         "header": {
           "fill_color": "#ffffff",
@@ -3074,7 +3043,10 @@
           "stroke_color": "#965224",
           "is_stroke": true
         }
-      },
+      }
+    },
+    {
+      "key": "autamn_set",
       "elements_pos": {
         "panel": {
           "x": 0,
@@ -3109,6 +3081,34 @@
         "time_left": {
           "x": 22.5,
           "y": -128.333
+        }
+      },
+      "id": 104,
+      "atlasKey": "offer_autamn_set",
+      "trigger": "on_lobby_enter",
+      "global_start": "2026-08-30",
+      "global_end": "2026-09-06",
+      "duration": -1,
+      "elements_style": {
+        "header": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#531e74",
+          "is_stroke": true
+        },
+        "price": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#0d542f",
+          "is_stroke": true
+        },
+        "count": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#642b09",
+          "is_stroke": true
+        },
+        "time_left": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#965224",
+          "is_stroke": true
         }
       }
     }

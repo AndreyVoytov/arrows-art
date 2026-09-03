@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "Minden szintet teljesített! Hamarosan még több szinttel bővül a játék.",
   "ui_rooms_completed_header": "Gratulálok!",
   "ui_rooms_completed_message": "Elkészítette az összes szobát! Hamarosan még több szobával bővítjük a játékot.",
-  "ui_cannot_show_ad": "A hirdetés megjelenítése nem sikerült"
+  "ui_cannot_show_ad": "A hirdetés megjelenítése nem sikerült",
+  "ui_active": "AKTÍV",
+  "ui_level_exit": "Kilépés a játékból",
+  "ui_level_exit_waringn": "Elveszíted a bónuszokat. Még mindig kimenni?",
+  "ui_superbooster": "Szuper Sherlock",
+  "ui_superbooster_desc1": "Amikor felébred, segít átjutni a szinteken",
+  "ui_superbooster_desc2": "De ha legyőzik, az ébredő haladás elveszik"
 }

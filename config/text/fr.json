@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "Vous avez terminé tous les niveaux ! Nous ajouterons bientôt encore plus de niveaux au jeu.",
   "ui_rooms_completed_header": "Félicitations!",
   "ui_rooms_completed_message": "Vous avez terminé toutes les pièces ! Nous ajouterons bientôt encore plus de salles au jeu.",
-  "ui_cannot_show_ad": "Échec de l'affichage de la publicité"
+  "ui_cannot_show_ad": "Échec de l'affichage de la publicité",
+  "ui_active": "ACTIF",
+  "ui_level_exit": "Quitter le jeu",
+  "ui_level_exit_waringn": "Vous perdrez des bonus. Vous sortez toujours ?",
+  "ui_superbooster": "Super Sherlock",
+  "ui_superbooster_desc1": "Au réveil, aide à passer les niveaux",
+  "ui_superbooster_desc2": "Mais en cas de défaite, la progression de l'éveil est perdue"
 }

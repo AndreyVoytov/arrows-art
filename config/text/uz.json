@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "Siz barcha darajalarni tugatdingiz! Tez orada o'yinga yanada ko'proq darajalarni qo'shamiz.",
   "ui_rooms_completed_header": "Tabriklaymiz!",
   "ui_rooms_completed_message": "Siz barcha xonalarni to'ldirdingiz! Tez orada o'yinga ko'proq xonalarni qo'shamiz.",
-  "ui_cannot_show_ad": "Reklamani ko'rsatib bo'lmadi"
+  "ui_cannot_show_ad": "Reklamani ko'rsatib bo'lmadi",
+  "ui_active": "FAOL",
+  "ui_level_exit": "O'yindan chiqish",
+  "ui_level_exit_waringn": "Siz bonuslarni yo'qotasiz. Hali ham tashqariga chiqasizmi?",
+  "ui_superbooster": "Super Sherlok",
+  "ui_superbooster_desc1": "Uyg'onganda, darajalardan o'tishga yordam beradi",
+  "ui_superbooster_desc2": "Ammo mag'lub bo'lsa, uyg'onish taraqqiyoti yo'qoladi"
 }

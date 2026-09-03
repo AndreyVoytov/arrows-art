@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "आपने सभी स्तर पूरे कर लिए हैं! हम जल्द ही खेल में और भी अधिक स्तर जोड़ेंगे।",
   "ui_rooms_completed_header": "बधाई हो!",
   "ui_rooms_completed_message": "आपने सभी कमरे पूरे कर लिए हैं! हम जल्द ही खेल में और भी अधिक कमरे जोड़ेंगे।",
-  "ui_cannot_show_ad": "विज्ञापन दिखाने में विफल"
+  "ui_cannot_show_ad": "विज्ञापन दिखाने में विफल",
+  "ui_active": "सक्रिय",
+  "ui_level_exit": "खेल छोड़ना",
+  "ui_level_exit_waringn": "आप बोनस खो देंगे. अभी भी बाहर जाओ?",
+  "ui_superbooster": "सुपर शर्लक",
+  "ui_superbooster_desc1": "जागृत होने पर, स्तरों को पार करने में मदद मिलती है",
+  "ui_superbooster_desc2": "लेकिन यदि पराजित हो गये तो जागृति की प्रगति नष्ट हो जाती है"
 }

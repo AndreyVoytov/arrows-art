@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "השלמת את כל הרמות! בקרוב נוסיף עוד רמות למשחק.",
   "ui_rooms_completed_header": "מזל טוב!",
   "ui_rooms_completed_message": "סיימתם את כל החדרים! בקרוב נוסיף עוד חדרים למשחק.",
-  "ui_cannot_show_ad": "הצגת הפרסומת נכשלה"
+  "ui_cannot_show_ad": "הצגת הפרסומת נכשלה",
+  "ui_active": "פעיל",
+  "ui_level_exit": "עוזבים את המשחק",
+  "ui_level_exit_waringn": "אתה תפסיד בונוסים. עדיין לצאת?",
+  "ui_superbooster": "סופר שרלוק",
+  "ui_superbooster_desc1": "כאשר מתעוררים, עוזר לעבור רמות",
+  "ui_superbooster_desc2": "אבל אם מובס, התקדמות ההתעוררות אובדת"
 }

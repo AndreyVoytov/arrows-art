@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "您已完成所有关卡！我们很快就会为游戏添加更多关卡。",
   "ui_rooms_completed_header": "恭喜！",
   "ui_rooms_completed_message": "您已完成所有房间！我们很快就会在游戏中添加更多房间。",
-  "ui_cannot_show_ad": "广告展示失败"
+  "ui_cannot_show_ad": "广告展示失败",
+  "ui_active": "活跃",
+  "ui_level_exit": "退出游戏",
+  "ui_level_exit_waringn": "您将失去奖金。还出去吗？",
+  "ui_superbooster": "超级夏洛克",
+  "ui_superbooster_desc1": "觉醒后，有助于通过关卡",
+  "ui_superbooster_desc2": "但如果被击败，觉醒进度就会丢失"
 }

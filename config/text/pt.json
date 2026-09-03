@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "Você completou todos os níveis! Em breve adicionaremos ainda mais níveis ao jogo.",
   "ui_rooms_completed_header": "Parabéns!",
   "ui_rooms_completed_message": "Você completou todos os quartos! Em breve adicionaremos ainda mais salas ao jogo.",
-  "ui_cannot_show_ad": "Não foi possível exibir o anúncio"
+  "ui_cannot_show_ad": "Não foi possível exibir o anúncio",
+  "ui_active": "ATIVO",
+  "ui_level_exit": "Saindo do jogo",
+  "ui_level_exit_waringn": "Você perderá bônus. Ainda sai?",
+  "ui_superbooster": "Super Sherlock",
+  "ui_superbooster_desc1": "Quando acordado, ajuda a passar de nível",
+  "ui_superbooster_desc2": "Mas se for derrotado, o progresso do despertar será perdido"
 }

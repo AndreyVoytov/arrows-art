@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "Has completat tots els nivells! Aviat afegirem encara més nivells al joc.",
   "ui_rooms_completed_header": "Felicitats!",
   "ui_rooms_completed_message": "Heu completat totes les sales! Aviat afegirem encara més sales al joc.",
-  "ui_cannot_show_ad": "No s'ha pogut mostrar l'anunci"
+  "ui_cannot_show_ad": "No s'ha pogut mostrar l'anunci",
+  "ui_active": "ACTIVA",
+  "ui_level_exit": "Abandonar el joc",
+  "ui_level_exit_waringn": "Perdràs bonificacions. Encara surts?",
+  "ui_superbooster": "Super Sherlock",
+  "ui_superbooster_desc1": "Quan es desperta, ajuda a superar els nivells",
+  "ui_superbooster_desc2": "Però si es derrota, es perd el progrés del despertar"
 }

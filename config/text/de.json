@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "Du hast alle Level abgeschlossen! Wir werden dem Spiel bald noch mehr Level hinzufügen.",
   "ui_rooms_completed_header": "Glückwunsch!",
   "ui_rooms_completed_message": "Du hast alle Räume fertiggestellt! Wir werden dem Spiel bald noch mehr Räume hinzufügen.",
-  "ui_cannot_show_ad": "Werbung konnte nicht angezeigt werden"
+  "ui_cannot_show_ad": "Werbung konnte nicht angezeigt werden",
+  "ui_active": "AKTIV",
+  "ui_level_exit": "Das Spiel beenden",
+  "ui_level_exit_waringn": "Sie verlieren Boni. Immer noch ausgehen?",
+  "ui_superbooster": "Super Sherlock",
+  "ui_superbooster_desc1": "Wenn er erwacht ist, hilft er beim Bestehen von Levels",
+  "ui_superbooster_desc2": "Aber wenn er besiegt wird, geht der Fortschritt des Erwachens verloren"
 }

@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "Tüm seviyeleri tamamladınız! Yakında oyuna daha fazla seviye ekleyeceğiz.",
   "ui_rooms_completed_header": "Tebrikler!",
   "ui_rooms_completed_message": "Tüm odaları tamamladınız! Yakında oyuna daha fazla oda ekleyeceğiz.",
-  "ui_cannot_show_ad": "Reklam gösterilemedi"
+  "ui_cannot_show_ad": "Reklam gösterilemedi",
+  "ui_active": "AKTİF",
+  "ui_level_exit": "Oyunu bırakma",
+  "ui_level_exit_waringn": "Bonusları kaybedeceksiniz. Hala dışarı çıkıyor musun?",
+  "ui_superbooster": "Süper Sherlock",
+  "ui_superbooster_desc1": "Uyandırıldığında seviyeleri geçmeye yardımcı olur",
+  "ui_superbooster_desc2": "Ancak yenilirse uyanış süreci kaybolur"
 }

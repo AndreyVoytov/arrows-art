@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "Hai completato tutti i livelli! Presto aggiungeremo ancora più livelli al gioco.",
   "ui_rooms_completed_header": "Congratulazioni!",
   "ui_rooms_completed_message": "Hai completato tutte le stanze! Presto aggiungeremo ancora più stanze al gioco.",
-  "ui_cannot_show_ad": "Impossibile mostrare l'annuncio"
+  "ui_cannot_show_ad": "Impossibile mostrare l'annuncio",
+  "ui_active": "ATTIVO",
+  "ui_level_exit": "Abbandonare il gioco",
+  "ui_level_exit_waringn": "Perderai i bonus. Esci ancora?",
+  "ui_superbooster": "Super Sherlock",
+  "ui_superbooster_desc1": "Quando risvegliato, aiuta a superare i livelli",
+  "ui_superbooster_desc2": "Ma se sconfitto, il progresso del risveglio andrà perso"
 }

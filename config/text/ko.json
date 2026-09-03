@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "모든 레벨을 완료했습니다! 우리는 곧 게임에 더 많은 레벨을 추가할 예정입니다.",
   "ui_rooms_completed_header": "축하해요!",
   "ui_rooms_completed_message": "모든 방을 완료했습니다! 우리는 곧 게임에 더 많은 방을 추가할 예정입니다.",
-  "ui_cannot_show_ad": "광고를 표시하지 못했습니다."
+  "ui_cannot_show_ad": "광고를 표시하지 못했습니다.",
+  "ui_active": "활성",
+  "ui_level_exit": "게임 종료",
+  "ui_level_exit_waringn": "보너스를 잃게 됩니다. 아직도 나가?",
+  "ui_superbooster": "슈퍼 셜록",
+  "ui_superbooster_desc1": "각성 시 레벨 통과에 도움이 됩니다.",
+  "ui_superbooster_desc2": "단, 패배하면 각성 진행도가 상실됩니다."
 }

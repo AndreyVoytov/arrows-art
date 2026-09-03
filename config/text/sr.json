@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "Завршили сте све нивое! Ускоро ћемо додати још више нивоа игри.",
   "ui_rooms_completed_header": "Честитамо!",
   "ui_rooms_completed_message": "Завршили сте све собе! Ускоро ћемо додати још соба у игру.",
-  "ui_cannot_show_ad": "Приказивање огласа није успело"
+  "ui_cannot_show_ad": "Приказивање огласа није успело",
+  "ui_active": "АКТИВНО",
+  "ui_level_exit": "Напуштање игре",
+  "ui_level_exit_waringn": "Изгубићете бонусе. Још увек излазиш?",
+  "ui_superbooster": "Супер Шерлок",
+  "ui_superbooster_desc1": "Када се пробуди, помаже у проласку нивоа",
+  "ui_superbooster_desc2": "Али ако се победи, напредак у буђењу је изгубљен"
 }

@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "Ви пройшли усі рівні! Незабаром ми додамо ще більше рівнів у гру.",
   "ui_rooms_completed_header": "Вітаємо!",
   "ui_rooms_completed_message": "Ви пройшли усі кімнати! Незабаром ми додамо ще більше кімнат у гру.",
-  "ui_cannot_show_ad": "Не вдалося показати рекламу"
+  "ui_cannot_show_ad": "Не вдалося показати рекламу",
+  "ui_active": "АКТИВНИЙ",
+  "ui_level_exit": "Вихід із гри",
+  "ui_level_exit_waringn": "Ви втратите бонуси. Все одно вийти?",
+  "ui_superbooster": "Супер-шерлок",
+  "ui_superbooster_desc1": "Коли прокинувся, допомагає проходити рівні",
+  "ui_superbooster_desc2": "Але при поразці прогрес пробудження втрачається"
 }

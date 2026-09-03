@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "Dokončili ste všetky úrovne! Čoskoro do hry pridáme ešte viac úrovní.",
   "ui_rooms_completed_header": "Gratulujem!",
   "ui_rooms_completed_message": "Dokončili ste všetky miestnosti! Čoskoro do hry pridáme ešte viac miestností.",
-  "ui_cannot_show_ad": "Nepodarilo sa zobraziť reklamu"
+  "ui_cannot_show_ad": "Nepodarilo sa zobraziť reklamu",
+  "ui_active": "AKTÍVNY",
+  "ui_level_exit": "Ukončenie hry",
+  "ui_level_exit_waringn": "Prídete o bonusy. Stále ísť von?",
+  "ui_superbooster": "Super Sherlock",
+  "ui_superbooster_desc1": "Po prebudení pomáha prekonať úrovne",
+  "ui_superbooster_desc2": "Ale ak je porazený, prebúdzací pokrok je stratený"
 }

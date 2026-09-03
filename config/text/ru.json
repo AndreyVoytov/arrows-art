@@ -450,6 +450,7 @@
   "shop_lot8": "Оптимальный набор",
   "shop_lot9": "Премиум набор",
   "ui_accept": "Принять",
+  "ui_active": "АКТИВЕН",
   "ui_ads_disabled": "Реклама отключена",
   "ui_apply": "Применить",
   "ui_best_seller": "выгодно",
@@ -473,6 +474,8 @@
   "ui_insufficient_diamonds": "Недостаточно алмазов",
   "ui_invite": "Пригласить",
   "ui_invite_text": "Пригласите друзей и играйте вместе!",
+  "ui_level_exit": "Выход из игры",
+  "ui_level_exit_waringn": "Вы потеряете бонусы. Всё равно выйти?",
   "ui_levels_completed_header": "Поздравляем!",
   "ui_levels_completed_message": "Вы прошли все уровни! В скором времени мы добавим ещё больше уровней в игру.",
   "ui_popup_arrow_delete_description": "Нажмите на стрелку, чтобы удалить её",
@@ -511,6 +514,9 @@
   "ui_rooms_completed_header": "Поздравляем!",
   "ui_rooms_completed_message": "Вы прошли все комнаты! В скором времени мы добавим ещё больше комнат в игру.",
   "ui_skip": "Пропустить",
+  "ui_superbooster": "Супер-шерлок",
+  "ui_superbooster_desc1": "Когда пробудился, помогает проходить уровни",
+  "ui_superbooster_desc2": "Но при поражении прогресс пробуждения теряется",
   "victor": "Виктор",
   "wand": "Волшебная палочка"
 }

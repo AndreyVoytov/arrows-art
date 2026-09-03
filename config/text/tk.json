@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "Levelshli derejeleri tamamladyňyz! Soonakyn wagtda oýna has köp dereje goşarys.",
   "ui_rooms_completed_header": "Gutlaýarys!",
   "ui_rooms_completed_message": "Thehli otaglary tamamladyňyz! Soonakyn wagtda oýna has köp otag goşarys.",
-  "ui_cannot_show_ad": "Mahabaty görkezip bolmady"
+  "ui_cannot_show_ad": "Mahabaty görkezip bolmady",
+  "ui_active": "HEREKET",
+  "ui_level_exit": "Oýundan çykmak",
+  "ui_level_exit_waringn": "Bonuslary ýitirersiňiz. Entegem çykýarsyňyzmy?",
+  "ui_superbooster": "Super Şerlok",
+  "ui_superbooster_desc1": "Oýananda derejeleriň geçmegine kömek edýär",
+  "ui_superbooster_desc2": "Emma ýeňilse, oýanma ösüşi ýitýär"
 }

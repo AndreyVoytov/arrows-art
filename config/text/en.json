@@ -512,5 +512,11 @@
   "ui_levels_completed_message": "You have completed all levels! We will soon add even more levels to the game.",
   "ui_rooms_completed_header": "Congratulations!",
   "ui_rooms_completed_message": "You have completed all the rooms! We will soon add even more rooms to the game.",
-  "ui_cannot_show_ad": "Failed to show the ad"
+  "ui_cannot_show_ad": "Failed to show the ad",
+  "ui_active": "ACTIVE",
+  "ui_level_exit": "Quitting the game",
+  "ui_level_exit_waringn": "You will lose bonuses. Still go out?",
+  "ui_superbooster": "Super Sherlock",
+  "ui_superbooster_desc1": "When awakened, helps to pass levels",
+  "ui_superbooster_desc2": "But if defeated, awakening progress is lost"
 }
