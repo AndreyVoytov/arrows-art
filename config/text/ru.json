@@ -218,7 +218,7 @@
   "room2_luster_loc": "Люстра",
   "room2_picture_loc": "Картина",
   "room2_plant_left_loc": "Растение",
-  "room2_set": "Спальный набор",
+  "room2_set": "Набор для спальни",
   "room2_trash_loc": "Мусор на полу",
   "room2_window_loc": "Окно",
   "room3": "Ванная",
@@ -478,8 +478,11 @@
   "ui_level_exit_waringn": "Котик перестанет помогать. Всё равно сдаться?",
   "ui_levels_completed_header": "Поздравляем!",
   "ui_levels_completed_message": "Вы прошли все уровни! В скором времени мы добавим ещё больше уровней в игру.",
+  "ui_no": "НЕТ",
   "ui_popup_arrow_delete_description": "Нажмите на стрелку, чтобы удалить её",
   "ui_popup_arrow_delete_header": "Ластик",
+  "ui_popup_booster_loose_description": "Принять поражение?",
+  "ui_popup_booster_loose_header": "Котик перестанет помогать. Всё равно сдаться?",
   "ui_popup_buy_booster_description": "Получите бустер",
   "ui_popup_buy_booster_header": "Получить бустер",
   "ui_popup_debug_button_add_coins": "Добавить монеты",
@@ -517,6 +520,7 @@
   "ui_superbooster": "Шерлок",
   "ui_superbooster_desc1": "Помогает проходить уровни, когда не спит",
   "ui_superbooster_desc2": "Засыпает, если Вы проиграете",
+  "ui_yes": "ДА",
   "victor": "Виктор",
   "wand": "Волшебная палочка"
 }

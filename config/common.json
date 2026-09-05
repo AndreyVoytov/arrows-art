@@ -2293,7 +2293,7 @@
     "ui_daily_gift": "_98ad1539",
     "ui_loader": "_a99b51dd",
     "ui_lobby": "_bfc0c6fe",
-    "ui_panel": "_a20ff39c",
+    "ui_panel": "_108b590b",
     "ui_preloader": "_78d92328",
     "ui_room_preview": "_68b255d7",
     "ui_shop": "_cbb26559"
@@ -2318,8 +2318,8 @@
     "stars_rebuy_count": 3,
     "stars_rebuy_with_ad_count": 1,
     "can_get_daily_gift_after_level": 5,
-    "superbooster_from_level": 7,
-    "suporbooster_levels_to_activate": 5,
+    "superbooster_from_level": 1,
+    "suporbooster_levels_to_activate": 10,
     "suporbooster_arrows_to_use": 4
   },
   "sounds": [
@@ -2692,7 +2692,7 @@
         },
         {
           "type": "coins",
-          "count": 120
+          "count": 3000
         },
         {
           "type": "bulb",
@@ -2717,23 +2717,23 @@
       "rewards": [
         {
           "type": "diamonds",
-          "count": 50
+          "count": 250
         },
         {
           "type": "bulb",
-          "count": 1
+          "count": 2
         },
         {
           "type": "eraser",
-          "count": 1
+          "count": 2
         },
         {
           "type": "wand",
-          "count": 1
+          "count": 2
         },
         {
           "type": "ruler",
-          "count": 1
+          "count": 2
         }
       ]
     }
@@ -2957,7 +2957,7 @@
       "trigger": "on_level_complete_15",
       "global_start": -1,
       "global_end": -1,
-      "duration": 24,
+      "duration": 48,
       "elements_style": {
         "header": {
           "fill_color": "#ffffff",
@@ -3024,7 +3024,7 @@
       "trigger": "on_room_start_room2",
       "global_start": -1,
       "global_end": -1,
-      "duration": 48,
+      "duration": 24,
       "elements_style": {
         "header": {
           "fill_color": "#ffffff",
