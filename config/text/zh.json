@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "您将失去奖金。还出去吗？",
   "ui_superbooster": "超级夏洛克",
   "ui_superbooster_desc1": "觉醒后，有助于通过关卡",
-  "ui_superbooster_desc2": "但如果被击败，觉醒进度就会丢失"
+  "ui_superbooster_desc2": "但如果被击败，觉醒进度就会丢失",
+  "ui_no": "否",
+  "ui_popup_booster_loose_description": "接受失败吗？",
+  "ui_popup_booster_loose_header": "小猫将不再提供帮助。仍要放弃吗？",
+  "ui_yes": "是"
 }

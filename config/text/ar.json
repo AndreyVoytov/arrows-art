@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "سوف تفقد المكافآت. لا يزال الخروج؟",
   "ui_superbooster": "سوبر شيرلوك",
   "ui_superbooster_desc1": "عند الاستيقاظ، يساعد على اجتياز المستويات",
-  "ui_superbooster_desc2": "ولكن إذا هُزمت، فسيتم فقدان التقدم في الصحوة"
+  "ui_superbooster_desc2": "ولكن إذا هُزمت، فسيتم فقدان التقدم في الصحوة",
+  "ui_no": "لا",
+  "ui_popup_booster_loose_description": "هل تقبل الهزيمة؟",
+  "ui_popup_booster_loose_header": "سيتوقف القط عن المساعدة. هل تريد الاستسلام على أي حال؟",
+  "ui_yes": "نعم"
 }

@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "אתה תפסיד בונוסים. עדיין לצאת?",
   "ui_superbooster": "סופר שרלוק",
   "ui_superbooster_desc1": "כאשר מתעוררים, עוזר לעבור רמות",
-  "ui_superbooster_desc2": "אבל אם מובס, התקדמות ההתעוררות אובדת"
+  "ui_superbooster_desc2": "אבל אם מובס, התקדמות ההתעוררות אובדת",
+  "ui_no": "לא",
+  "ui_popup_booster_loose_description": "לקבל את התבוסה?",
+  "ui_popup_booster_loose_header": "החתלתול יפסיק לעזור. לוותר בכל זאת?",
+  "ui_yes": "כן"
 }

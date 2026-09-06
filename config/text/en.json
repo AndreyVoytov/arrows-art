@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "You will lose bonuses. Still go out?",
   "ui_superbooster": "Super Sherlock",
   "ui_superbooster_desc1": "When awakened, helps to pass levels",
-  "ui_superbooster_desc2": "But if defeated, awakening progress is lost"
+  "ui_superbooster_desc2": "But if defeated, awakening progress is lost",
+  "ui_no": "NO",
+  "ui_popup_booster_loose_description": "Accept defeat?",
+  "ui_popup_booster_loose_header": "The kitty will stop helping. Give up anyway?",
+  "ui_yes": "YES"
 }

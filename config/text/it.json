@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Perderai i bonus. Esci ancora?",
   "ui_superbooster": "Super Sherlock",
   "ui_superbooster_desc1": "Quando risvegliato, aiuta a superare i livelli",
-  "ui_superbooster_desc2": "Ma se sconfitto, il progresso del risveglio andrà perso"
+  "ui_superbooster_desc2": "Ma se sconfitto, il progresso del risveglio andrà perso",
+  "ui_no": "NO",
+  "ui_popup_booster_loose_description": "Accettare la sconfitta?",
+  "ui_popup_booster_loose_header": "Il gattino smetterà di aiutarti. Arrendersi comunque?",
+  "ui_yes": "SÌ"
 }

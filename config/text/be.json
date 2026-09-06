@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Вы страціце бонусы. Усё роўна выйсці?",
   "ui_superbooster": "Супер-шэрлак",
   "ui_superbooster_desc1": "Калі абудзіўся, дапамагае праходзіць узроўні",
-  "ui_superbooster_desc2": "Але пры паразе прагрэс абуджэння губляецца"
+  "ui_superbooster_desc2": "Але пры паразе прагрэс абуджэння губляецца",
+  "ui_no": "НЕ",
+  "ui_popup_booster_loose_description": "Прыняць паражэнне?",
+  "ui_popup_booster_loose_header": "Коцік перастане дапамагаць. Усё роўна здацца?",
+  "ui_yes": "ТАК"
 }

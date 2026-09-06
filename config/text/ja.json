@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "ボーナスを失うことになります。まだ外出しますか？",
   "ui_superbooster": "スーパーシャーロック",
   "ui_superbooster_desc1": "目覚めると、レベルを通過するのに役立ちます",
-  "ui_superbooster_desc2": "ただし、敗北すると覚醒の進行状況は失われます"
+  "ui_superbooster_desc2": "ただし、敗北すると覚醒の進行状況は失われます",
+  "ui_no": "いいえ",
+  "ui_popup_booster_loose_description": "敗北を受け入れますか？",
+  "ui_popup_booster_loose_header": "ネコちゃんは助けてくれなくなります。それでも諦めますか？",
+  "ui_yes": "はい"
 }

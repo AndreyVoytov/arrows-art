@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Siz bonuslarni yo'qotasiz. Hali ham tashqariga chiqasizmi?",
   "ui_superbooster": "Super Sherlok",
   "ui_superbooster_desc1": "Uyg'onganda, darajalardan o'tishga yordam beradi",
-  "ui_superbooster_desc2": "Ammo mag'lub bo'lsa, uyg'onish taraqqiyoti yo'qoladi"
+  "ui_superbooster_desc2": "Ammo mag'lub bo'lsa, uyg'onish taraqqiyoti yo'qoladi",
+  "ui_no": "YO‘Q",
+  "ui_popup_booster_loose_description": "Mag‘lubiyatni qabul qilasizmi?",
+  "ui_popup_booster_loose_header": "Mushukcha yordam berishni to‘xtatadi. Baribir taslim bo‘lasizmi?",
+  "ui_yes": "HA"
 }

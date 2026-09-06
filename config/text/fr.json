@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Vous perdrez des bonus. Vous sortez toujours ?",
   "ui_superbooster": "Super Sherlock",
   "ui_superbooster_desc1": "Au réveil, aide à passer les niveaux",
-  "ui_superbooster_desc2": "Mais en cas de défaite, la progression de l'éveil est perdue"
+  "ui_superbooster_desc2": "Mais en cas de défaite, la progression de l'éveil est perdue",
+  "ui_no": "NON",
+  "ui_popup_booster_loose_description": "Accepter la défaite ?",
+  "ui_popup_booster_loose_header": "Le chaton cessera de vous aider. Abandonner quand même ?",
+  "ui_yes": "OUI"
 }

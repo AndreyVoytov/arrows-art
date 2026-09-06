@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Bonuslary ýitirersiňiz. Entegem çykýarsyňyzmy?",
   "ui_superbooster": "Super Şerlok",
   "ui_superbooster_desc1": "Oýananda derejeleriň geçmegine kömek edýär",
-  "ui_superbooster_desc2": "Emma ýeňilse, oýanma ösüşi ýitýär"
+  "ui_superbooster_desc2": "Emma ýeňilse, oýanma ösüşi ýitýär",
+  "ui_no": "ÝOK",
+  "ui_popup_booster_loose_description": "Ýeňlişi kabul etmelimi?",
+  "ui_popup_booster_loose_header": "Pişik kömek bermegini bes eder. Şonda-da boýun egmelimi?",
+  "ui_yes": "HAWA"
 }

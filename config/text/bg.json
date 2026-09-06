@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Ще загубите бонуси. Все още излизате?",
   "ui_superbooster": "Супер Шерлок",
   "ui_superbooster_desc1": "Когато се събуди, помага за преминаване на нива",
-  "ui_superbooster_desc2": "Но ако бъде победен, прогресът на пробуждането се губи"
+  "ui_superbooster_desc2": "Но ако бъде победен, прогресът на пробуждането се губи",
+  "ui_no": "НЕ",
+  "ui_popup_booster_loose_description": "Да приемете поражението?",
+  "ui_popup_booster_loose_header": "Котето ще спре да помага. Все пак да се предадете?",
+  "ui_yes": "ДА"
 }

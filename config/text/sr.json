@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Изгубићете бонусе. Још увек излазиш?",
   "ui_superbooster": "Супер Шерлок",
   "ui_superbooster_desc1": "Када се пробуди, помаже у проласку нивоа",
-  "ui_superbooster_desc2": "Али ако се победи, напредак у буђењу је изгубљен"
+  "ui_superbooster_desc2": "Али ако се победи, напредак у буђењу је изгубљен",
+  "ui_no": "НЕ",
+  "ui_popup_booster_loose_description": "Прихватити пораз?",
+  "ui_popup_booster_loose_header": "Маче ће престати да помаже. Ипак одустати?",
+  "ui_yes": "ДА"
 }

@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Perdràs bonificacions. Encara surts?",
   "ui_superbooster": "Super Sherlock",
   "ui_superbooster_desc1": "Quan es desperta, ajuda a superar els nivells",
-  "ui_superbooster_desc2": "Però si es derrota, es perd el progrés del despertar"
+  "ui_superbooster_desc2": "Però si es derrota, es perd el progrés del despertar",
+  "ui_no": "NO",
+  "ui_popup_booster_loose_description": "Acceptar la derrota?",
+  "ui_popup_booster_loose_header": "El gatet deixarà d'ajudar. Vols rendir-te igualment?",
+  "ui_yes": "SÍ"
 }

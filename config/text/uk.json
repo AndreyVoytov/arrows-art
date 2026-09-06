@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Ви втратите бонуси. Все одно вийти?",
   "ui_superbooster": "Супер-шерлок",
   "ui_superbooster_desc1": "Коли прокинувся, допомагає проходити рівні",
-  "ui_superbooster_desc2": "Але при поразці прогрес пробудження втрачається"
+  "ui_superbooster_desc2": "Але при поразці прогрес пробудження втрачається",
+  "ui_no": "НІ",
+  "ui_popup_booster_loose_description": "Прийняти поразку?",
+  "ui_popup_booster_loose_header": "Котик перестане допомагати. Усе одно здатися?",
+  "ui_yes": "ТАК"
 }

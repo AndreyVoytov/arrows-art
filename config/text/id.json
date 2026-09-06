@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Anda akan kehilangan bonus. Masih keluar?",
   "ui_superbooster": "Super Sherlock",
   "ui_superbooster_desc1": "Saat terbangun, membantu untuk melewati level",
-  "ui_superbooster_desc2": "Namun jika dikalahkan, kemajuan kebangkitan akan hilang"
+  "ui_superbooster_desc2": "Namun jika dikalahkan, kemajuan kebangkitan akan hilang",
+  "ui_no": "TIDAK",
+  "ui_popup_booster_loose_description": "Terima kekalahan?",
+  "ui_popup_booster_loose_header": "Si kucing akan berhenti membantu. Tetap menyerah?",
+  "ui_yes": "YA"
 }

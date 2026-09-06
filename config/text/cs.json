@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Přijdete o bonusy. Ještě jít ven?",
   "ui_superbooster": "Super Sherlock",
   "ui_superbooster_desc1": "Po probuzení pomáhá překonat úrovně",
-  "ui_superbooster_desc2": "Ale pokud je poražen, probouzející se pokrok je ztracen"
+  "ui_superbooster_desc2": "Ale pokud je poražen, probouzející se pokrok je ztracen",
+  "ui_no": "NE",
+  "ui_popup_booster_loose_description": "Přijmout porážku?",
+  "ui_popup_booster_loose_header": "Kočička přestane pomáhat. Přesto se vzdát?",
+  "ui_yes": "ANO"
 }

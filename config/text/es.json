@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Perderás bonificaciones. ¿Todavía sales?",
   "ui_superbooster": "Súper Sherlock",
   "ui_superbooster_desc1": "Cuando se despierta, ayuda a pasar niveles.",
-  "ui_superbooster_desc2": "Pero si se derrota, el progreso del despertar se pierde."
+  "ui_superbooster_desc2": "Pero si se derrota, el progreso del despertar se pierde.",
+  "ui_no": "NO",
+  "ui_popup_booster_loose_description": "¿Aceptar la derrota?",
+  "ui_popup_booster_loose_header": "El gatito dejará de ayudar. ¿Rendirse de todos modos?",
+  "ui_yes": "SÍ"
 }

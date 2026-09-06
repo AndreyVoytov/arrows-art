@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Bonusları kaybedeceksiniz. Hala dışarı çıkıyor musun?",
   "ui_superbooster": "Süper Sherlock",
   "ui_superbooster_desc1": "Uyandırıldığında seviyeleri geçmeye yardımcı olur",
-  "ui_superbooster_desc2": "Ancak yenilirse uyanış süreci kaybolur"
+  "ui_superbooster_desc2": "Ancak yenilirse uyanış süreci kaybolur",
+  "ui_no": "HAYIR",
+  "ui_popup_booster_loose_description": "Yenilgiyi kabul etmek?",
+  "ui_popup_booster_loose_header": "Kedicik yardım etmeyi bırakacak. Yine de pes etmek istiyor musun?",
+  "ui_yes": "EVET"
 }

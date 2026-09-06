@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Je verliest bonussen. Toch uitgaan?",
   "ui_superbooster": "Super-Sherlock",
   "ui_superbooster_desc1": "Wanneer het wordt gewekt, helpt het om niveaus te halen",
-  "ui_superbooster_desc2": "Maar als het wordt verslagen, gaat de ontwakende vooruitgang verloren"
+  "ui_superbooster_desc2": "Maar als het wordt verslagen, gaat de ontwakende vooruitgang verloren",
+  "ui_no": "NEE",
+  "ui_popup_booster_loose_description": "Nederlaag accepteren?",
+  "ui_popup_booster_loose_header": "Het katje zal niet meer helpen. Toch opgeven?",
+  "ui_yes": "JA"
 }

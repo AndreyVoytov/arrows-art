@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Bạn sẽ mất tiền thưởng. Vẫn đi ra ngoài à?",
   "ui_superbooster": "Siêu Sherlock",
   "ui_superbooster_desc1": "Khi thức tỉnh, giúp vượt qua các cấp độ",
-  "ui_superbooster_desc2": "Nhưng nếu bị đánh bại, tiến trình thức tỉnh sẽ bị mất"
+  "ui_superbooster_desc2": "Nhưng nếu bị đánh bại, tiến trình thức tỉnh sẽ bị mất",
+  "ui_no": "KHÔNG",
+  "ui_popup_booster_loose_description": "Chấp nhận thất bại?",
+  "ui_popup_booster_loose_header": "Mèo con sẽ ngừng giúp đỡ. Vẫn bỏ cuộc?",
+  "ui_yes": "CÓ"
 }

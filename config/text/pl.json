@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Stracisz bonusy. Nadal wychodzisz?",
   "ui_superbooster": "Super Sherlocku",
   "ui_superbooster_desc1": "Po przebudzeniu pomaga przejść poziomy",
-  "ui_superbooster_desc2": "Ale jeśli zostanie pokonany, przebudzenie postępu zostanie utracone"
+  "ui_superbooster_desc2": "Ale jeśli zostanie pokonany, przebudzenie postępu zostanie utracone",
+  "ui_no": "NIE",
+  "ui_popup_booster_loose_description": "Zaakceptować porażkę?",
+  "ui_popup_booster_loose_header": "Kotek przestanie pomagać. Mimo to się poddać?",
+  "ui_yes": "TAK"
 }

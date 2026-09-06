@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Siz bonusları itirəcəksiniz. Hələ çölə çıxmaq?",
   "ui_superbooster": "Super şerlok",
   "ui_superbooster_desc1": "Oyandıqda səviyyələri keçməyə kömək edir",
-  "ui_superbooster_desc2": "Ancaq məğlub olarsa, oyanış tərəqqi itirilir"
+  "ui_superbooster_desc2": "Ancaq məğlub olarsa, oyanış tərəqqi itirilir",
+  "ui_no": "XEYR",
+  "ui_popup_booster_loose_description": "Məğlubiyyəti qəbul etmək?",
+  "ui_popup_booster_loose_header": "Pişik kömək etməyi dayandıracaq. Yenə də təslim olmaq?",
+  "ui_yes": "BƏLİ"
 }

@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Sie verlieren Boni. Immer noch ausgehen?",
   "ui_superbooster": "Super Sherlock",
   "ui_superbooster_desc1": "Wenn er erwacht ist, hilft er beim Bestehen von Levels",
-  "ui_superbooster_desc2": "Aber wenn er besiegt wird, geht der Fortschritt des Erwachens verloren"
+  "ui_superbooster_desc2": "Aber wenn er besiegt wird, geht der Fortschritt des Erwachens verloren",
+  "ui_no": "NEIN",
+  "ui_popup_booster_loose_description": "Niederlage akzeptieren?",
+  "ui_popup_booster_loose_header": "Das Kätzchen hilft dann nicht mehr. Trotzdem aufgeben?",
+  "ui_yes": "JA"
 }

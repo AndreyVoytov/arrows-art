@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "आप बोनस खो देंगे. अभी भी बाहर जाओ?",
   "ui_superbooster": "सुपर शर्लक",
   "ui_superbooster_desc1": "जागृत होने पर, स्तरों को पार करने में मदद मिलती है",
-  "ui_superbooster_desc2": "लेकिन यदि पराजित हो गये तो जागृति की प्रगति नष्ट हो जाती है"
+  "ui_superbooster_desc2": "लेकिन यदि पराजित हो गये तो जागृति की प्रगति नष्ट हो जाती है",
+  "ui_no": "नहीं",
+  "ui_popup_booster_loose_description": "हार स्वीकार करें?",
+  "ui_popup_booster_loose_header": "बिल्ली का बच्चा मदद करना बंद कर देगा। फिर भी हार मानें?",
+  "ui_yes": "हाँ"
 }

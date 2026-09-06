@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Elveszíted a bónuszokat. Még mindig kimenni?",
   "ui_superbooster": "Szuper Sherlock",
   "ui_superbooster_desc1": "Amikor felébred, segít átjutni a szinteken",
-  "ui_superbooster_desc2": "De ha legyőzik, az ébredő haladás elveszik"
+  "ui_superbooster_desc2": "De ha legyőzik, az ébredő haladás elveszik",
+  "ui_no": "NEM",
+  "ui_popup_booster_loose_description": "Elfogadod a vereséget?",
+  "ui_popup_booster_loose_header": "A cica nem fog tovább segíteni. Mégis feladod?",
+  "ui_yes": "IGEN"
 }

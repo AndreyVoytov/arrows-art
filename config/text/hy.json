@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Դուք կկորցնեք բոնուսներ: Դեռ դուրս գա՞ս։",
   "ui_superbooster": "Սուպեր Շերլոկ",
   "ui_superbooster_desc1": "Երբ արթնանում է, օգնում է անցնել մակարդակները",
-  "ui_superbooster_desc2": "Բայց պարտվելու դեպքում արթնացող առաջընթացը կորչում է"
+  "ui_superbooster_desc2": "Բայց պարտվելու դեպքում արթնացող առաջընթացը կորչում է",
+  "ui_no": "ՈՉ",
+  "ui_popup_booster_loose_description": "Ընդունե՞լ պարտությունը։",
+  "ui_popup_booster_loose_header": "Փիսիկը կդադարի օգնել։ Միևնույն է հանձնվե՞լ։",
+  "ui_yes": "ԱՅՈ"
 }

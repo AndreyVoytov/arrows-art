@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Você perderá bônus. Ainda sai?",
   "ui_superbooster": "Super Sherlock",
   "ui_superbooster_desc1": "Quando acordado, ajuda a passar de nível",
-  "ui_superbooster_desc2": "Mas se for derrotado, o progresso do despertar será perdido"
+  "ui_superbooster_desc2": "Mas se for derrotado, o progresso do despertar será perdido",
+  "ui_no": "NÃO",
+  "ui_popup_booster_loose_description": "Aceitar a derrota?",
+  "ui_popup_booster_loose_header": "O gatinho deixará de ajudar. Desistir mesmo assim?",
+  "ui_yes": "SIM"
 }

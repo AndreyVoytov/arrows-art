@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "คุณจะสูญเสียโบนัส ยังออกไปอีกเหรอ?",
   "ui_superbooster": "ซุปเปอร์ เชอร์ล็อค",
   "ui_superbooster_desc1": "เมื่อตื่นขึ้นจะช่วยให้ผ่านด่านต่างๆ",
-  "ui_superbooster_desc2": "แต่หากพ่ายแพ้ ความก้าวหน้าในการปลุกพลังก็จะหายไป"
+  "ui_superbooster_desc2": "แต่หากพ่ายแพ้ ความก้าวหน้าในการปลุกพลังก็จะหายไป",
+  "ui_no": "ไม่",
+  "ui_popup_booster_loose_description": "ยอมรับความพ่ายแพ้ไหม?",
+  "ui_popup_booster_loose_header": "เจ้าเหมียวจะหยุดช่วย ยังจะยอมแพ้อยู่ไหม?",
+  "ui_yes": "ใช่"
 }

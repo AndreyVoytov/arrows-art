@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "پاداش ها را از دست خواهید داد. هنوز هم برو بیرون؟",
   "ui_superbooster": "سوپر شرلوک",
   "ui_superbooster_desc1": "وقتی بیدار می شود، به عبور از سطوح کمک می کند",
-  "ui_superbooster_desc2": "اما در صورت شکست، پیشرفت بیداری از بین می رود"
+  "ui_superbooster_desc2": "اما در صورت شکست، پیشرفت بیداری از بین می رود",
+  "ui_no": "خیر",
+  "ui_popup_booster_loose_description": "شکست را می‌پذیرید؟",
+  "ui_popup_booster_loose_header": "بچه‌گربه دیگر کمک نخواهد کرد. با این حال تسلیم می‌شوید؟",
+  "ui_yes": "بله"
 }

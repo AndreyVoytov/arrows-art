@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "Vei pierde bonusuri. Mai iesi afara?",
   "ui_superbooster": "Super Sherlock",
   "ui_superbooster_desc1": "Când este trezit, ajută la trecerea de niveluri",
-  "ui_superbooster_desc2": "Dar dacă este învins, progresul trezirii este pierdut"
+  "ui_superbooster_desc2": "Dar dacă este învins, progresul trezirii este pierdut",
+  "ui_no": "NU",
+  "ui_popup_booster_loose_description": "Accepți înfrângerea?",
+  "ui_popup_booster_loose_header": "Pisicuța nu va mai ajuta. Renunți oricum?",
+  "ui_yes": "DA"
 }

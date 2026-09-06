@@ -518,5 +518,9 @@
   "ui_level_exit_waringn": "보너스를 잃게 됩니다. 아직도 나가?",
   "ui_superbooster": "슈퍼 셜록",
   "ui_superbooster_desc1": "각성 시 레벨 통과에 도움이 됩니다.",
-  "ui_superbooster_desc2": "단, 패배하면 각성 진행도가 상실됩니다."
+  "ui_superbooster_desc2": "단, 패배하면 각성 진행도가 상실됩니다.",
+  "ui_no": "아니요",
+  "ui_popup_booster_loose_description": "패배를 받아들이시겠습니까?",
+  "ui_popup_booster_loose_header": "고양이가 더 이상 도와주지 않습니다. 그래도 포기하시겠습니까?",
+  "ui_yes": "예"
 }
