@@ -142,7 +142,7 @@
     },
     "cat_particle": {
       "frame": {
-        "x": 1148,
+        "x": 1205,
         "y": 1420,
         "w": 35,
         "h": 30
@@ -160,9 +160,29 @@
         "h": 30
       }
     },
-    "close_button_big": {
+    "cat_paw": {
       "frame": {
         "x": 800,
+        "y": 1420,
+        "w": 55,
+        "h": 49
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 55,
+        "h": 49
+      },
+      "sourceSize": {
+        "w": 55,
+        "h": 49
+      }
+    },
+    "close_button_big": {
+      "frame": {
+        "x": 857,
         "y": 1420,
         "w": 49,
         "h": 49
@@ -742,7 +762,7 @@
     },
     "popup_middle": {
       "frame": {
-        "x": 1185,
+        "x": 1242,
         "y": 1420,
         "w": 481,
         "h": 27
@@ -842,7 +862,7 @@
     },
     "pupup_close_button": {
       "frame": {
-        "x": 1115,
+        "x": 1172,
         "y": 1420,
         "w": 31,
         "h": 31
@@ -1062,7 +1082,7 @@
     },
     "skip_button": {
       "frame": {
-        "x": 900,
+        "x": 957,
         "y": 1420,
         "w": 63,
         "h": 41
@@ -1122,7 +1142,7 @@
     },
     "star": {
       "frame": {
-        "x": 851,
+        "x": 908,
         "y": 1420,
         "w": 47,
         "h": 45
@@ -1282,7 +1302,7 @@
     },
     "superbooster_progress": {
       "frame": {
-        "x": 965,
+        "x": 1022,
         "y": 1420,
         "w": 148,
         "h": 34
@@ -1464,7 +1484,7 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "ui_panel_108b590b.webp",
+    "image": "ui_panel_7ed95538.png",
     "format": "RGBA8888",
     "size": {
       "w": 2048,
