@@ -278,6 +278,25 @@
         "alice_fear",
         "alice_wink"
       ]
+    },
+    {
+      "id": "miller",
+      "states": [
+        "miller_neutral",
+        "miller_haughty",
+        "miller_surprise",
+        "miller_angry"
+      ]
+    },
+    {
+      "id": "clare",
+      "states": [
+        "clare_neutral",
+        "clare_sad",
+        "clare_surprise",
+        "clare_angry",
+        "clare_smirk"
+      ]
     }
   ],
   "atlas_hashes": {
@@ -337,7 +356,7 @@
     "stars_rebuy_count": 3,
     "stars_rebuy_with_ad_count": 1,
     "can_get_daily_gift_after_level": 5,
-    "superbooster_from_level": 1,
+    "superbooster_from_level": 0,
     "suporbooster_levels_to_activate": 10,
     "suporbooster_arrows_to_use": 4
   },
@@ -416,6 +435,7 @@
   "shop": [
     {
       "id": 1,
+      "haveMark": false,
       "key": "shop_lot1",
       "type": "small",
       "currencyType": "iap",
@@ -425,6 +445,7 @@
     },
     {
       "id": 2,
+      "haveMark": false,
       "key": "shop_lot2",
       "type": "small",
       "currencyType": "iap",
@@ -434,6 +455,7 @@
     },
     {
       "id": 3,
+      "haveMark": false,
       "key": "shop_lot3",
       "type": "small",
       "currencyType": "iap",
@@ -443,6 +465,7 @@
     },
     {
       "id": 4,
+      "haveMark": false,
       "key": "shop_lot4",
       "type": "small",
       "currencyType": "iap",
@@ -452,8 +475,11 @@
     },
     {
       "id": 5,
+      "haveMark": true,
       "key": "shop_lot5",
       "type": "small",
+      "mark": "ui_hit",
+      "markImageKey": "hit_bg",
       "currencyType": "iap",
       "imageKey": "diamonds5",
       "backgroundKey": "shop_item_panel",
@@ -461,6 +487,7 @@
     },
     {
       "id": 6,
+      "haveMark": false,
       "key": "shop_lot6",
       "type": "small",
       "currencyType": "iap",
@@ -470,6 +497,7 @@
     },
     {
       "id": 7,
+      "haveMark": false,
       "key": "shop_lot7",
       "type": "big",
       "currencyType": "iap",
@@ -479,9 +507,11 @@
     },
     {
       "id": 8,
+      "haveMark": true,
       "key": "shop_lot8",
       "type": "big",
-      "mark": "hit",
+      "mark": "ui_best_seller",
+      "markImageKey": "best_value_bg",
       "currencyType": "iap",
       "imageKey": "bundle2_image",
       "backgroundKey": "shop_big_item_panel",
@@ -489,9 +519,9 @@
     },
     {
       "id": 9,
+      "haveMark": false,
       "key": "shop_lot9",
       "type": "big",
-      "mark": "bestSeller",
       "currencyType": "iap",
       "imageKey": "bundle3_image",
       "backgroundKey": "shop_big_item_panel",
@@ -499,6 +529,7 @@
     },
     {
       "id": 10,
+      "haveMark": false,
       "key": "shop_lot10",
       "type": "big",
       "currencyType": "iap",
@@ -941,6 +972,57 @@
   "offers": [
     {
       "key": "no_ads",
+      "elements_pos": {
+        "panel": {
+          "x": 0,
+          "y": 0
+        },
+        "header": {
+          "x": -4.333,
+          "y": -91.333
+        },
+        "shine": {
+          "x": 6.333,
+          "y": -258.667
+        },
+        "close_button": {
+          "x": 186,
+          "y": -183.333
+        },
+        "buy_button": {
+          "x": -2,
+          "y": 372
+        },
+        "price": {
+          "x": 5.333,
+          "y": 372.667
+        },
+        "safe_area": {
+          "x": -2.333,
+          "y": 130,
+          "width": 385,
+          "height": 308
+        },
+        "description": {
+          "x": -0.667,
+          "y": 283.333,
+          "width": 291,
+          "height": 57
+        },
+        "discount": {
+          "x": 200.333,
+          "y": 323.667,
+          "angle": -20
+        },
+        "discount_label": {
+          "x": 171,
+          "y": 343.333
+        },
+        "time_left": {
+          "x": 21,
+          "y": -29.333
+        }
+      },
       "id": 101,
       "atlasKey": "offer_no_ads",
       "discount": "-50%",
@@ -981,61 +1063,55 @@
           "stroke_color": "#482c19",
           "is_stroke": true
         }
-      },
+      }
+    },
+    {
+      "key": "newbie_set",
       "elements_pos": {
         "panel": {
           "x": 0,
           "y": 0
         },
+        "header": {
+          "x": -0.5,
+          "y": -380.167
+        },
+        "shine": {
+          "x": -6.833,
+          "y": -353.167
+        },
+        "close_button": {
+          "x": 197.833,
+          "y": -256.5
+        },
+        "buy_button": {
+          "x": -2.167,
+          "y": 381.833
+        },
+        "price": {
+          "x": 4.833,
+          "y": 383.167
+        },
+        "safe_area": {
+          "x": 0.833,
+          "y": 179.833,
+          "width": 397,
+          "height": 319
+        },
         "discount": {
-          "x": 200.333,
-          "y": 323.667,
+          "x": 200.5,
+          "y": 327.167,
           "angle": -20
         },
         "discount_label": {
-          "x": 171,
-          "y": 343.333
-        },
-        "header": {
-          "x": -4.333,
-          "y": -91.333
-        },
-        "shine": {
-          "x": 6.333,
-          "y": -258.667
-        },
-        "close_button": {
-          "x": 186,
-          "y": -183.333
-        },
-        "buy_button": {
-          "x": -2,
-          "y": 372
-        },
-        "price": {
-          "x": 5.333,
-          "y": 372.667
-        },
-        "safe_area": {
-          "x": -2.333,
-          "y": 130,
-          "width": 385,
-          "height": 308
-        },
-        "description": {
-          "x": -0.667,
-          "y": 283.333,
-          "width": 291,
-          "height": 57
+          "x": 171.833,
+          "y": 348.5
         },
         "time_left": {
-          "x": 21,
-          "y": -29.333
+          "x": 23.167,
+          "y": -26.167
         }
-      }
-    },
-    {
-      "key": "newbie_set",
+      },
       "id": 102,
       "atlasKey": "offer_newbie_set",
       "discount": "-50%",
@@ -1071,55 +1147,55 @@
           "stroke_color": "#6f0104",
           "is_stroke": true
         }
-      },
+      }
+    },
+    {
+      "key": "room2_set",
       "elements_pos": {
         "panel": {
           "x": 0,
           "y": 0
         },
-        "discount": {
-          "x": 200.5,
-          "y": 327.167,
-          "angle": -20
-        },
-        "discount_label": {
-          "x": 171.833,
-          "y": 348.5
-        },
         "header": {
-          "x": -0.5,
-          "y": -380.167
+          "x": -5.833,
+          "y": -85
         },
         "shine": {
-          "x": -6.833,
-          "y": -353.167
+          "x": 6.5,
+          "y": -260.667
         },
         "close_button": {
-          "x": 197.833,
-          "y": -256.5
+          "x": 192.5,
+          "y": -182.667
         },
         "buy_button": {
           "x": -2.167,
-          "y": 381.833
+          "y": 370.333
         },
         "price": {
-          "x": 4.833,
-          "y": 383.167
+          "x": 2.167,
+          "y": 371.667
         },
         "safe_area": {
-          "x": 0.833,
-          "y": 179.833,
-          "width": 397,
-          "height": 319
+          "x": 1.167,
+          "y": 158,
+          "width": 398,
+          "height": 318
+        },
+        "discount": {
+          "x": 207.833,
+          "y": 314.333,
+          "angle": -20
+        },
+        "discount_label": {
+          "x": 177.833,
+          "y": 335.667
         },
         "time_left": {
-          "x": 23.167,
-          "y": -26.167
+          "x": 18.833,
+          "y": -22.333
         }
-      }
-    },
-    {
-      "key": "room2_set",
+      },
       "id": 103,
       "atlasKey": "offer_room2_set",
       "discount": "-75%",
@@ -1155,55 +1231,55 @@
           "stroke_color": "#6f0104",
           "is_stroke": true
         }
-      },
+      }
+    },
+    {
+      "key": "autamn_set",
       "elements_pos": {
         "panel": {
           "x": 0,
           "y": 0
         },
-        "discount": {
-          "x": 207.833,
-          "y": 314.333,
-          "angle": -20
-        },
-        "discount_label": {
-          "x": 177.833,
-          "y": 335.667
-        },
         "header": {
-          "x": -5.833,
-          "y": -85
+          "x": -7.5,
+          "y": 258.333
         },
         "shine": {
-          "x": 6.5,
-          "y": -260.667
+          "x": -36.833,
+          "y": -262.667
         },
         "close_button": {
-          "x": 192.5,
-          "y": -182.667
+          "x": 235.167,
+          "y": -142.667
         },
         "buy_button": {
           "x": -2.167,
-          "y": 370.333
+          "y": 361.667
         },
         "price": {
-          "x": 2.167,
-          "y": 371.667
+          "x": 4.167,
+          "y": 363
         },
         "safe_area": {
-          "x": 1.167,
-          "y": 158,
-          "width": 398,
-          "height": 318
+          "x": -0.5,
+          "y": 71,
+          "width": 397,
+          "height": 319
+        },
+        "discount": {
+          "x": 205.167,
+          "y": 324.667,
+          "angle": -20
+        },
+        "discount_label": {
+          "x": 175.833,
+          "y": 345.667
         },
         "time_left": {
-          "x": 18.833,
-          "y": -22.333
+          "x": 22.5,
+          "y": -128.333
         }
-      }
-    },
-    {
-      "key": "autamn_set",
+      },
       "id": 104,
       "atlasKey": "offer_autamn_set",
       "discount": "-50%",
@@ -1238,51 +1314,6 @@
           "fill_color": "#ffffff",
           "stroke_color": "#6f0104",
           "is_stroke": true
-        }
-      },
-      "elements_pos": {
-        "panel": {
-          "x": 0,
-          "y": 0
-        },
-        "discount": {
-          "x": 205.167,
-          "y": 324.667,
-          "angle": -20
-        },
-        "discount_label": {
-          "x": 175.833,
-          "y": 345.667
-        },
-        "header": {
-          "x": -7.5,
-          "y": 258.333
-        },
-        "shine": {
-          "x": -36.833,
-          "y": -262.667
-        },
-        "close_button": {
-          "x": 235.167,
-          "y": -142.667
-        },
-        "buy_button": {
-          "x": -2.167,
-          "y": 361.667
-        },
-        "price": {
-          "x": 4.167,
-          "y": 363
-        },
-        "safe_area": {
-          "x": -0.5,
-          "y": 71,
-          "width": 397,
-          "height": 319
-        },
-        "time_left": {
-          "x": 22.5,
-          "y": -128.333
         }
       }
     }
