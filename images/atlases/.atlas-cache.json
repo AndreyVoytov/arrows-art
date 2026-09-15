@@ -80,47 +80,47 @@
     },
     "offer_autamn_set": {
       "sourceDir": "images/offer/autamn_set",
-      "digest": "5cafcb28d29ffb4d9a4fa1d4a45cb9d13bdc93a65f2d6212abb743ec6106e375",
+      "digest": "4eb80e442ff6bf02448518b05376ce824b83f1e51abad38da966178f77347c73",
       "outputs": [
-        "images/atlases/content/offer_autamn_set_5cafcb28.png",
-        "images/atlases/content/offer_autamn_set_5cafcb28.webp",
-        "images/atlases/content/offer_autamn_set_5cafcb28.json",
-        "images/atlases/content/offer_autamn_set_5cafcb28.webp.json"
+        "images/atlases/content/offer_autamn_set_4eb80e44.png",
+        "images/atlases/content/offer_autamn_set_4eb80e44.webp",
+        "images/atlases/content/offer_autamn_set_4eb80e44.json",
+        "images/atlases/content/offer_autamn_set_4eb80e44.webp.json"
       ],
-      "updatedAt": "2026-08-31T09:44:37.857141+00:00"
+      "updatedAt": "2026-09-15T11:10:44.109122+00:00"
     },
     "offer_newbie_set": {
       "sourceDir": "images/offer/newbie_set",
-      "digest": "899f2a3739f84f7cf6aba9e70492683ba46befd712cdb266937d893bd5681dbb",
+      "digest": "d49e61212d4ace93b0e7ad63e1fefffab6a3c95bc6608414f91869fd8b334443",
       "outputs": [
-        "images/atlases/content/offer_newbie_set_899f2a37.png",
-        "images/atlases/content/offer_newbie_set_899f2a37.webp",
-        "images/atlases/content/offer_newbie_set_899f2a37.json",
-        "images/atlases/content/offer_newbie_set_899f2a37.webp.json"
+        "images/atlases/content/offer_newbie_set_d49e6121.png",
+        "images/atlases/content/offer_newbie_set_d49e6121.webp",
+        "images/atlases/content/offer_newbie_set_d49e6121.json",
+        "images/atlases/content/offer_newbie_set_d49e6121.webp.json"
       ],
-      "updatedAt": "2026-08-31T09:44:45.353818+00:00"
+      "updatedAt": "2026-09-15T11:10:52.541048+00:00"
     },
     "offer_no_ads": {
       "sourceDir": "images/offer/no_ads",
-      "digest": "92c5a3fc3485ffc65be0166ad7d73fe06e6337746888d0e90d9092194dd60292",
+      "digest": "09f40fd3a1f90b4b0a32eb3613e1842894ae6d3bc4cef4dbf9ca9aec896baf55",
       "outputs": [
-        "images/atlases/content/offer_no_ads_92c5a3fc.png",
-        "images/atlases/content/offer_no_ads_92c5a3fc.webp",
-        "images/atlases/content/offer_no_ads_92c5a3fc.json",
-        "images/atlases/content/offer_no_ads_92c5a3fc.webp.json"
+        "images/atlases/content/offer_no_ads_09f40fd3.png",
+        "images/atlases/content/offer_no_ads_09f40fd3.webp",
+        "images/atlases/content/offer_no_ads_09f40fd3.json",
+        "images/atlases/content/offer_no_ads_09f40fd3.webp.json"
       ],
-      "updatedAt": "2026-08-31T09:44:50.946619+00:00"
+      "updatedAt": "2026-09-15T11:11:00.024438+00:00"
     },
     "offer_room2_set": {
       "sourceDir": "images/offer/room2_set",
-      "digest": "7b5f0a5032437f0b96613ab088f7f6068889ea6f444e6896522b24749d769a26",
+      "digest": "5dd2248ff5588c4a90d60a6e9097e135f42f44dabebd153ef4c49c4aaa6f8753",
       "outputs": [
-        "images/atlases/content/offer_room2_set_7b5f0a50.png",
-        "images/atlases/content/offer_room2_set_7b5f0a50.webp",
-        "images/atlases/content/offer_room2_set_7b5f0a50.json",
-        "images/atlases/content/offer_room2_set_7b5f0a50.webp.json"
+        "images/atlases/content/offer_room2_set_5dd2248f.png",
+        "images/atlases/content/offer_room2_set_5dd2248f.webp",
+        "images/atlases/content/offer_room2_set_5dd2248f.json",
+        "images/atlases/content/offer_room2_set_5dd2248f.webp.json"
       ],
-      "updatedAt": "2026-08-31T09:44:58.018735+00:00"
+      "updatedAt": "2026-09-15T11:11:07.103068+00:00"
     },
     "rooms_room1-decor": {
       "sourceDir": "images/rooms/room1-decor",
@@ -322,36 +322,36 @@
     },
     "ui_loader": {
       "sourceDir": "images/ui/loader",
-      "digest": "a99b51dd52d6a5915dbea00637fe5cc0abf0f95691616afea8a4615e6687424c",
+      "digest": "47cc894aa413debcf52e0c29d386d0b4d2187a54e5f0dd05942ff22faa67721c",
       "outputs": [
-        "images/atlases/ui/ui_loader_a99b51dd.png",
-        "images/atlases/ui/ui_loader_a99b51dd.webp",
-        "images/atlases/ui/ui_loader_a99b51dd.json",
-        "images/atlases/ui/ui_loader_a99b51dd.webp.json"
+        "images/atlases/ui/ui_loader_47cc894a.png",
+        "images/atlases/ui/ui_loader_47cc894a.webp",
+        "images/atlases/ui/ui_loader_47cc894a.json",
+        "images/atlases/ui/ui_loader_47cc894a.webp.json"
       ],
-      "updatedAt": "2026-08-02T22:13:26.245114+00:00"
+      "updatedAt": "2026-09-15T11:11:19.991273+00:00"
     },
     "ui_lobby": {
       "sourceDir": "images/ui/lobby",
-      "digest": "e4803a611a9a5604b2d67329d678956416923e5f223fbc305d8e689729053833",
+      "digest": "015eade282e3d84b85f0f1fc4b2d8906a00feb2c4785462abfd0cd9091e87072",
       "outputs": [
-        "images/atlases/ui/ui_lobby_e4803a61.png",
-        "images/atlases/ui/ui_lobby_e4803a61.webp",
-        "images/atlases/ui/ui_lobby_e4803a61.json",
-        "images/atlases/ui/ui_lobby_e4803a61.webp.json"
+        "images/atlases/ui/ui_lobby_015eade2.png",
+        "images/atlases/ui/ui_lobby_015eade2.webp",
+        "images/atlases/ui/ui_lobby_015eade2.json",
+        "images/atlases/ui/ui_lobby_015eade2.webp.json"
       ],
-      "updatedAt": "2026-09-14T13:50:27.686688+00:00"
+      "updatedAt": "2026-09-15T11:11:28.686461+00:00"
     },
     "ui_panel": {
       "sourceDir": "images/ui/panel",
-      "digest": "7ed95538026c37cbf7a8f63b4212720dc78d57f76a1b81ece19cc579f5615838",
+      "digest": "c091f6089c5bcf61b79c261e729f2fd1ca4c76360b5ef0805a7d5b434a61b43c",
       "outputs": [
-        "images/atlases/ui/ui_panel_7ed95538.png",
-        "images/atlases/ui/ui_panel_7ed95538.webp",
-        "images/atlases/ui/ui_panel_7ed95538.json",
-        "images/atlases/ui/ui_panel_7ed95538.webp.json"
+        "images/atlases/ui/ui_panel_c091f608.png",
+        "images/atlases/ui/ui_panel_c091f608.webp",
+        "images/atlases/ui/ui_panel_c091f608.json",
+        "images/atlases/ui/ui_panel_c091f608.webp.json"
       ],
-      "updatedAt": "2026-09-07T09:36:46.883120+00:00"
+      "updatedAt": "2026-09-15T11:11:43.819280+00:00"
     },
     "ui_preloader": {
       "sourceDir": "images/ui/preloader",
@@ -377,14 +377,14 @@
     },
     "ui_shop": {
       "sourceDir": "images/ui/shop",
-      "digest": "cbb265596aa447a3cac4596bac80194baa9eaf43010f7319fdbd9162052d7076",
+      "digest": "87e7aa064b981187a87e206fcb897e734d667b7963dfda7f25112894726a2a42",
       "outputs": [
-        "images/atlases/ui/ui_shop_cbb26559.png",
-        "images/atlases/ui/ui_shop_cbb26559.webp",
-        "images/atlases/ui/ui_shop_cbb26559.json",
-        "images/atlases/ui/ui_shop_cbb26559.webp.json"
+        "images/atlases/ui/ui_shop_87e7aa06.png",
+        "images/atlases/ui/ui_shop_87e7aa06.webp",
+        "images/atlases/ui/ui_shop_87e7aa06.json",
+        "images/atlases/ui/ui_shop_87e7aa06.webp.json"
       ],
-      "updatedAt": "2026-08-27T10:54:11.612597+00:00"
+      "updatedAt": "2026-09-15T11:11:51.084795+00:00"
     }
   }
 }

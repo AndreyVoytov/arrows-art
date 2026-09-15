@@ -288,10 +288,10 @@
     "characters_kate": "_c4b1c52a",
     "characters_mary": "_182c262b",
     "characters_victor": "_6aed95b1",
-    "offer_autamn_set": "_5cafcb28",
-    "offer_newbie_set": "_899f2a37",
-    "offer_no_ads": "_92c5a3fc",
-    "offer_room2_set": "_7b5f0a50",
+    "offer_autamn_set": "_4eb80e44",
+    "offer_newbie_set": "_d49e6121",
+    "offer_no_ads": "_09f40fd3",
+    "offer_room2_set": "_5dd2248f",
     "rooms_room1-decor": "_87a5a7d4",
     "rooms_room1-repair": "_71770db9",
     "rooms_room1-surfaces": "_23cd377c",
@@ -310,12 +310,12 @@
     "rooms_room6-decor": "_7d54e70e",
     "rooms_room6-surfaces": "_5e3a4f3b",
     "ui_daily_gift": "_98ad1539",
-    "ui_loader": "_a99b51dd",
-    "ui_lobby": "_e4803a61",
-    "ui_panel": "_7ed95538",
+    "ui_loader": "_47cc894a",
+    "ui_lobby": "_015eade2",
+    "ui_panel": "_c091f608",
     "ui_preloader": "_78d92328",
     "ui_room_preview": "_68b255d7",
-    "ui_shop": "_cbb26559"
+    "ui_shop": "_87e7aa06"
   },
   "constants": {
     "lifes_refill_price": 25,
@@ -941,44 +941,11 @@
   "offers": [
     {
       "key": "no_ads",
-      "elements_pos": {
-        "panel": {
-          "x": 0,
-          "y": 0
-        },
-        "header": {
-          "x": -4.333,
-          "y": -67.333
-        },
-        "shine": {
-          "x": 6.333,
-          "y": -234.667
-        },
-        "close_button": {
-          "x": 186,
-          "y": -159.333
-        },
-        "buy_button": {
-          "x": -2,
-          "y": 356
-        },
-        "price": {
-          "x": 5.333,
-          "y": 356.667
-        },
-        "safe_area": {
-          "x": -2.333,
-          "y": 154,
-          "width": 385,
-          "height": 308
-        },
-        "time_left": {
-          "x": 21,
-          "y": -5.333
-        }
-      },
       "id": 101,
       "atlasKey": "offer_no_ads",
+      "discount": "-50%",
+      "haveDescription": true,
+      "descriptionKey": "no_ads_desc",
       "trigger": "on_inter_show",
       "global_start": -1,
       "global_end": -1,
@@ -1003,49 +970,77 @@
           "fill_color": "#ffffff",
           "stroke_color": "#634029",
           "is_stroke": true
+        },
+        "discount": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#6f0104",
+          "is_stroke": true
+        },
+        "description": {
+          "fill_color": "#e2a47b",
+          "stroke_color": "#482c19",
+          "is_stroke": true
         }
-      }
-    },
-    {
-      "key": "newbie_set",
+      },
       "elements_pos": {
         "panel": {
           "x": 0,
           "y": 0
         },
+        "discount": {
+          "x": 200.333,
+          "y": 323.667,
+          "angle": -20
+        },
+        "discount_label": {
+          "x": 171,
+          "y": 343.333
+        },
         "header": {
-          "x": -0.5,
-          "y": -379.333
+          "x": -4.333,
+          "y": -91.333
         },
         "shine": {
-          "x": -6.833,
-          "y": -352.333
+          "x": 6.333,
+          "y": -258.667
         },
         "close_button": {
-          "x": 197.833,
-          "y": -255.667
+          "x": 186,
+          "y": -183.333
         },
         "buy_button": {
-          "x": -2.167,
-          "y": 382.667
+          "x": -2,
+          "y": 372
         },
         "price": {
-          "x": 4.833,
-          "y": 384
+          "x": 5.333,
+          "y": 372.667
         },
         "safe_area": {
-          "x": 0.833,
-          "y": 180.667,
-          "width": 397,
-          "height": 319
+          "x": -2.333,
+          "y": 130,
+          "width": 385,
+          "height": 308
+        },
+        "description": {
+          "x": -0.667,
+          "y": 283.333,
+          "width": 291,
+          "height": 57
         },
         "time_left": {
-          "x": 23.167,
-          "y": -25.333
+          "x": 21,
+          "y": -29.333
         }
-      },
+      }
+    },
+    {
+      "key": "newbie_set",
       "id": 102,
       "atlasKey": "offer_newbie_set",
+      "discount": "-50%",
+      "haveDescription": false,
+      "descriptionKey": "newbie_set_desc",
       "trigger": "on_level_complete_15",
       "global_start": -1,
       "global_end": -1,
@@ -1070,15 +1065,110 @@
           "fill_color": "#ffffff",
           "stroke_color": "#965224",
           "is_stroke": true
+        },
+        "discount": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#6f0104",
+          "is_stroke": true
+        }
+      },
+      "elements_pos": {
+        "panel": {
+          "x": 0,
+          "y": 0
+        },
+        "discount": {
+          "x": 200.5,
+          "y": 327.167,
+          "angle": -20
+        },
+        "discount_label": {
+          "x": 171.833,
+          "y": 348.5
+        },
+        "header": {
+          "x": -0.5,
+          "y": -380.167
+        },
+        "shine": {
+          "x": -6.833,
+          "y": -353.167
+        },
+        "close_button": {
+          "x": 197.833,
+          "y": -256.5
+        },
+        "buy_button": {
+          "x": -2.167,
+          "y": 381.833
+        },
+        "price": {
+          "x": 4.833,
+          "y": 383.167
+        },
+        "safe_area": {
+          "x": 0.833,
+          "y": 179.833,
+          "width": 397,
+          "height": 319
+        },
+        "time_left": {
+          "x": 23.167,
+          "y": -26.167
         }
       }
     },
     {
       "key": "room2_set",
+      "id": 103,
+      "atlasKey": "offer_room2_set",
+      "discount": "-75%",
+      "haveDescription": false,
+      "descriptionKey": "room2_set_desc",
+      "trigger": "on_room_start_room2",
+      "global_start": -1,
+      "global_end": -1,
+      "duration": 24,
+      "elements_style": {
+        "header": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#531e74",
+          "is_stroke": true
+        },
+        "price": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#0d542f",
+          "is_stroke": true
+        },
+        "count": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#642b09",
+          "is_stroke": true
+        },
+        "time_left": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#965224",
+          "is_stroke": true
+        },
+        "discount": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#6f0104",
+          "is_stroke": true
+        }
+      },
       "elements_pos": {
         "panel": {
           "x": 0,
           "y": 0
+        },
+        "discount": {
+          "x": 207.833,
+          "y": 314.333,
+          "angle": -20
+        },
+        "discount_label": {
+          "x": 177.833,
+          "y": 335.667
         },
         "header": {
           "x": -5.833,
@@ -1110,76 +1200,15 @@
           "x": 18.833,
           "y": -22.333
         }
-      },
-      "id": 103,
-      "atlasKey": "offer_room2_set",
-      "trigger": "on_room_start_room2",
-      "global_start": -1,
-      "global_end": -1,
-      "duration": 24,
-      "elements_style": {
-        "header": {
-          "fill_color": "#ffffff",
-          "stroke_color": "#531e74",
-          "is_stroke": true
-        },
-        "price": {
-          "fill_color": "#ffffff",
-          "stroke_color": "#0d542f",
-          "is_stroke": true
-        },
-        "count": {
-          "fill_color": "#ffffff",
-          "stroke_color": "#642b09",
-          "is_stroke": true
-        },
-        "time_left": {
-          "fill_color": "#ffffff",
-          "stroke_color": "#965224",
-          "is_stroke": true
-        }
       }
     },
     {
       "key": "autamn_set",
-      "elements_pos": {
-        "panel": {
-          "x": 0,
-          "y": 0
-        },
-        "header": {
-          "x": -7.5,
-          "y": 258.167
-        },
-        "shine": {
-          "x": -36.833,
-          "y": -262.833
-        },
-        "close_button": {
-          "x": 235.167,
-          "y": -142.833
-        },
-        "buy_button": {
-          "x": -2.167,
-          "y": 361.5
-        },
-        "price": {
-          "x": 4.167,
-          "y": 362.833
-        },
-        "safe_area": {
-          "x": -0.5,
-          "y": 70.833,
-          "width": 397,
-          "height": 319
-        },
-        "time_left": {
-          "x": 22.5,
-          "y": -128.5
-        }
-      },
       "id": 104,
       "atlasKey": "offer_autamn_set",
+      "discount": "-50%",
+      "haveDescription": false,
+      "descriptionKey": "autamn_set_desc",
       "trigger": "on_lobby_enter",
       "global_start": "2026-08-30",
       "global_end": "2026-09-06",
@@ -1204,6 +1233,56 @@
           "fill_color": "#ffffff",
           "stroke_color": "#965224",
           "is_stroke": true
+        },
+        "discount": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#6f0104",
+          "is_stroke": true
+        }
+      },
+      "elements_pos": {
+        "panel": {
+          "x": 0,
+          "y": 0
+        },
+        "discount": {
+          "x": 205.167,
+          "y": 324.667,
+          "angle": -20
+        },
+        "discount_label": {
+          "x": 175.833,
+          "y": 345.667
+        },
+        "header": {
+          "x": -7.5,
+          "y": 258.333
+        },
+        "shine": {
+          "x": -36.833,
+          "y": -262.667
+        },
+        "close_button": {
+          "x": 235.167,
+          "y": -142.667
+        },
+        "buy_button": {
+          "x": -2.167,
+          "y": 361.667
+        },
+        "price": {
+          "x": 4.167,
+          "y": 363
+        },
+        "safe_area": {
+          "x": -0.5,
+          "y": 71,
+          "width": 397,
+          "height": 319
+        },
+        "time_left": {
+          "x": 22.5,
+          "y": -128.333
         }
       }
     }
