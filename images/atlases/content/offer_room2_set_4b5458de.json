@@ -5,7 +5,7 @@
         "x": 884,
         "y": 0,
         "w": 295,
-        "h": 133
+        "h": 127
       },
       "rotated": false,
       "trimmed": false,
@@ -13,11 +13,11 @@
         "x": 0,
         "y": 0,
         "w": 295,
-        "h": 133
+        "h": 127
       },
       "sourceSize": {
         "w": 295,
-        "h": 133
+        "h": 127
       }
     },
     "close_button": {
@@ -25,7 +25,7 @@
         "x": 1181,
         "y": 0,
         "w": 85,
-        "h": 104
+        "h": 99
       },
       "rotated": false,
       "trimmed": false,
@@ -33,11 +33,11 @@
         "x": 0,
         "y": 0,
         "w": 85,
-        "h": 104
+        "h": 99
       },
       "sourceSize": {
         "w": 85,
-        "h": 104
+        "h": 99
       }
     },
     "discount_label": {
@@ -45,7 +45,7 @@
         "x": 663,
         "y": 0,
         "w": 219,
-        "h": 255
+        "h": 215
       },
       "rotated": false,
       "trimmed": false,
@@ -53,11 +53,11 @@
         "x": 0,
         "y": 0,
         "w": 219,
-        "h": 255
+        "h": 215
       },
       "sourceSize": {
         "w": 219,
-        "h": 255
+        "h": 215
       }
     },
     "icon": {
@@ -104,7 +104,7 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "offer_room2_set_5dd2248f.webp",
+    "image": "offer_room2_set_4b5458de.png",
     "format": "RGBA8888",
     "size": {
       "w": 2048,

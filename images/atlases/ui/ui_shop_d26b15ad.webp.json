@@ -2,22 +2,22 @@
   "frames": {
     "best_value_bg": {
       "frame": {
-        "x": 1072,
+        "x": 1071,
         "y": 263,
-        "w": 145,
-        "h": 91
+        "w": 144,
+        "h": 74
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 145,
-        "h": 91
+        "w": 144,
+        "h": 74
       },
       "sourceSize": {
-        "w": 145,
-        "h": 91
+        "w": 144,
+        "h": 74
       }
     },
     "bundle1_image": {
@@ -204,20 +204,20 @@
       "frame": {
         "x": 925,
         "y": 263,
-        "w": 145,
-        "h": 91
+        "w": 144,
+        "h": 74
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 145,
-        "h": 91
+        "w": 144,
+        "h": 74
       },
       "sourceSize": {
-        "w": 145,
-        "h": 91
+        "w": 144,
+        "h": 74
       }
     },
     "no_ads_bundle_image": {
@@ -242,7 +242,7 @@
     },
     "ribbon_red": {
       "frame": {
-        "x": 1219,
+        "x": 1217,
         "y": 263,
         "w": 428,
         "h": 71
@@ -282,7 +282,7 @@
     },
     "shop_booster_shadow": {
       "frame": {
-        "x": 1649,
+        "x": 1647,
         "y": 263,
         "w": 46,
         "h": 21
@@ -324,7 +324,7 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "ui_shop_87e7aa06.png",
+    "image": "ui_shop_d26b15ad.webp",
     "format": "RGBA8888",
     "size": {
       "w": 2048,

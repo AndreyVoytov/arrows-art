@@ -2,50 +2,50 @@
   "frames": {
     "buy_button": {
       "frame": {
-        "x": 886,
+        "x": 863,
         "y": 0,
-        "w": 295,
-        "h": 131
+        "w": 285,
+        "h": 123
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 295,
-        "h": 131
+        "w": 285,
+        "h": 123
       },
       "sourceSize": {
-        "w": 295,
-        "h": 131
+        "w": 285,
+        "h": 123
       }
     },
     "close_button": {
       "frame": {
-        "x": 1302,
+        "x": 1150,
         "y": 0,
-        "w": 85,
-        "h": 104
+        "w": 81,
+        "h": 96
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 85,
-        "h": 104
+        "w": 81,
+        "h": 96
       },
       "sourceSize": {
-        "w": 85,
-        "h": 104
+        "w": 81,
+        "h": 96
       }
     },
     "discount_label": {
       "frame": {
-        "x": 665,
+        "x": 642,
         "y": 0,
         "w": 219,
-        "h": 255
+        "h": 215
       },
       "rotated": false,
       "trimmed": false,
@@ -53,64 +53,64 @@
         "x": 0,
         "y": 0,
         "w": 219,
-        "h": 255
+        "h": 215
       },
       "sourceSize": {
         "w": 219,
-        "h": 255
+        "h": 215
       }
     },
     "icon": {
       "frame": {
-        "x": 1183,
+        "x": 1233,
         "y": 0,
-        "w": 117,
-        "h": 113
+        "w": 88,
+        "h": 84
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 117,
-        "h": 113
+        "w": 88,
+        "h": 84
       },
       "sourceSize": {
-        "w": 117,
-        "h": 113
+        "w": 88,
+        "h": 84
       }
     },
     "panel": {
       "frame": {
         "x": 0,
         "y": 0,
-        "w": 663,
-        "h": 863
+        "w": 640,
+        "h": 913
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 663,
-        "h": 863
+        "w": 640,
+        "h": 913
       },
       "sourceSize": {
-        "w": 663,
-        "h": 863
+        "w": 640,
+        "h": 913
       }
     }
   },
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "offer_newbie_set_d49e6121.webp",
+    "image": "offer_no_ads_d5859294.png",
     "format": "RGBA8888",
     "size": {
       "w": 2048,
-      "h": 863
+      "h": 913
     },
     "scale": "1",
-    "sourceDir": "images/offer/newbie_set"
+    "sourceDir": "images/offer/no_ads"
   }
 }

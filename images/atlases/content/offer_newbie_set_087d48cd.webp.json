@@ -5,7 +5,7 @@
         "x": 886,
         "y": 0,
         "w": 295,
-        "h": 132
+        "h": 127
       },
       "rotated": false,
       "trimmed": false,
@@ -13,19 +13,19 @@
         "x": 0,
         "y": 0,
         "w": 295,
-        "h": 132
+        "h": 127
       },
       "sourceSize": {
         "w": 295,
-        "h": 132
+        "h": 127
       }
     },
     "close_button": {
       "frame": {
-        "x": 1183,
+        "x": 1302,
         "y": 0,
         "w": 85,
-        "h": 104
+        "h": 99
       },
       "rotated": false,
       "trimmed": false,
@@ -33,11 +33,11 @@
         "x": 0,
         "y": 0,
         "w": 85,
-        "h": 104
+        "h": 99
       },
       "sourceSize": {
         "w": 85,
-        "h": 104
+        "h": 99
       }
     },
     "discount_label": {
@@ -45,7 +45,7 @@
         "x": 665,
         "y": 0,
         "w": 219,
-        "h": 255
+        "h": 215
       },
       "rotated": false,
       "trimmed": false,
@@ -53,31 +53,31 @@
         "x": 0,
         "y": 0,
         "w": 219,
-        "h": 255
+        "h": 215
       },
       "sourceSize": {
         "w": 219,
-        "h": 255
+        "h": 215
       }
     },
     "icon": {
       "frame": {
-        "x": 1270,
+        "x": 1183,
         "y": 0,
-        "w": 99,
-        "h": 96
+        "w": 117,
+        "h": 113
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 99,
-        "h": 96
+        "w": 117,
+        "h": 113
       },
       "sourceSize": {
-        "w": 99,
-        "h": 96
+        "w": 117,
+        "h": 113
       }
     },
     "panel": {
@@ -85,7 +85,7 @@
         "x": 0,
         "y": 0,
         "w": 663,
-        "h": 814
+        "h": 863
       },
       "rotated": false,
       "trimmed": false,
@@ -93,24 +93,24 @@
         "x": 0,
         "y": 0,
         "w": 663,
-        "h": 814
+        "h": 863
       },
       "sourceSize": {
         "w": 663,
-        "h": 814
+        "h": 863
       }
     }
   },
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "offer_autamn_set_4eb80e44.png",
+    "image": "offer_newbie_set_087d48cd.webp",
     "format": "RGBA8888",
     "size": {
       "w": 2048,
-      "h": 814
+      "h": 863
     },
     "scale": "1",
-    "sourceDir": "images/offer/autamn_set"
+    "sourceDir": "images/offer/newbie_set"
   }
 }

@@ -307,10 +307,10 @@
     "characters_kate": "_c4b1c52a",
     "characters_mary": "_182c262b",
     "characters_victor": "_6aed95b1",
-    "offer_autamn_set": "_4eb80e44",
-    "offer_newbie_set": "_d49e6121",
-    "offer_no_ads": "_09f40fd3",
-    "offer_room2_set": "_5dd2248f",
+    "offer_autamn_set": "_96cbb5ee",
+    "offer_newbie_set": "_087d48cd",
+    "offer_no_ads": "_d5859294",
+    "offer_room2_set": "_4b5458de",
     "rooms_room1-decor": "_87a5a7d4",
     "rooms_room1-repair": "_71770db9",
     "rooms_room1-surfaces": "_23cd377c",
@@ -331,10 +331,10 @@
     "ui_daily_gift": "_98ad1539",
     "ui_loader": "_47cc894a",
     "ui_lobby": "_015eade2",
-    "ui_panel": "_c091f608",
+    "ui_panel": "_f0fec1a6",
     "ui_preloader": "_78d92328",
     "ui_room_preview": "_68b255d7",
-    "ui_shop": "_87e7aa06"
+    "ui_shop": "_d26b15ad"
   },
   "constants": {
     "lifes_refill_price": 25,
@@ -358,7 +358,8 @@
     "can_get_daily_gift_after_level": 5,
     "superbooster_from_level": 0,
     "suporbooster_levels_to_activate": 10,
-    "suporbooster_arrows_to_use": 4
+    "suporbooster_arrows_to_use": 4,
+    "level_of_day_from_level": 24
   },
   "sounds": [
     {
@@ -480,6 +481,7 @@
       "type": "small",
       "mark": "ui_hit",
       "markImageKey": "hit_bg",
+      "markStrokeColor": "#c71e63",
       "currencyType": "iap",
       "imageKey": "diamonds5",
       "backgroundKey": "shop_item_panel",
@@ -510,8 +512,9 @@
       "haveMark": true,
       "key": "shop_lot8",
       "type": "big",
-      "mark": "ui_best_seller",
+      "mark": "ui_best_value",
       "markImageKey": "best_value_bg",
+      "markStrokeColor": "#a83f1a",
       "currencyType": "iap",
       "imageKey": "bundle2_image",
       "backgroundKey": "shop_big_item_panel",
@@ -979,48 +982,48 @@
         },
         "header": {
           "x": -4.333,
-          "y": -91.333
+          "y": -117.833
         },
         "shine": {
           "x": 6.333,
-          "y": -258.667
+          "y": -285.167
         },
         "close_button": {
           "x": 186,
-          "y": -183.333
+          "y": -209.833
         },
         "buy_button": {
           "x": -2,
-          "y": 372
+          "y": 345.5
         },
         "price": {
           "x": 5.333,
-          "y": 372.667
+          "y": 346.167
         },
         "safe_area": {
           "x": -2.333,
-          "y": 130,
+          "y": 103.5,
           "width": 385,
           "height": 308
         },
         "description": {
           "x": -0.667,
-          "y": 283.333,
+          "y": 256.833,
           "width": 291,
           "height": 57
         },
         "discount": {
           "x": 200.333,
-          "y": 323.667,
+          "y": 297.167,
           "angle": -20
         },
         "discount_label": {
           "x": 171,
-          "y": 343.333
+          "y": 316.833
         },
         "time_left": {
           "x": 21,
-          "y": -29.333
+          "y": -55.833
         }
       },
       "id": 101,

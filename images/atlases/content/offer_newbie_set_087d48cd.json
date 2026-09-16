@@ -2,10 +2,10 @@
   "frames": {
     "buy_button": {
       "frame": {
-        "x": 884,
+        "x": 886,
         "y": 0,
         "w": 295,
-        "h": 133
+        "h": 127
       },
       "rotated": false,
       "trimmed": false,
@@ -13,19 +13,19 @@
         "x": 0,
         "y": 0,
         "w": 295,
-        "h": 133
+        "h": 127
       },
       "sourceSize": {
         "w": 295,
-        "h": 133
+        "h": 127
       }
     },
     "close_button": {
       "frame": {
-        "x": 1181,
+        "x": 1302,
         "y": 0,
         "w": 85,
-        "h": 104
+        "h": 99
       },
       "rotated": false,
       "trimmed": false,
@@ -33,19 +33,19 @@
         "x": 0,
         "y": 0,
         "w": 85,
-        "h": 104
+        "h": 99
       },
       "sourceSize": {
         "w": 85,
-        "h": 104
+        "h": 99
       }
     },
     "discount_label": {
       "frame": {
-        "x": 663,
+        "x": 665,
         "y": 0,
         "w": 219,
-        "h": 255
+        "h": 215
       },
       "rotated": false,
       "trimmed": false,
@@ -53,64 +53,64 @@
         "x": 0,
         "y": 0,
         "w": 219,
-        "h": 255
+        "h": 215
       },
       "sourceSize": {
         "w": 219,
-        "h": 255
+        "h": 215
       }
     },
     "icon": {
       "frame": {
-        "x": 1268,
+        "x": 1183,
         "y": 0,
-        "w": 86,
-        "h": 81
+        "w": 117,
+        "h": 113
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 86,
-        "h": 81
+        "w": 117,
+        "h": 113
       },
       "sourceSize": {
-        "w": 86,
-        "h": 81
+        "w": 117,
+        "h": 113
       }
     },
     "panel": {
       "frame": {
         "x": 0,
         "y": 0,
-        "w": 661,
-        "h": 830
+        "w": 663,
+        "h": 863
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 661,
-        "h": 830
+        "w": 663,
+        "h": 863
       },
       "sourceSize": {
-        "w": 661,
-        "h": 830
+        "w": 663,
+        "h": 863
       }
     }
   },
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "offer_room2_set_5dd2248f.png",
+    "image": "offer_newbie_set_087d48cd.png",
     "format": "RGBA8888",
     "size": {
       "w": 2048,
-      "h": 830
+      "h": 863
     },
     "scale": "1",
-    "sourceDir": "images/offer/room2_set"
+    "sourceDir": "images/offer/newbie_set"
   }
 }
