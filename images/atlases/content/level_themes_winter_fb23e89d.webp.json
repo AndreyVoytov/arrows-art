@@ -1,0 +1,116 @@
+{
+  "frames": {
+    "bg": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 1400
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 1400
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 1400
+      }
+    },
+    "close_button": {
+      "frame": {
+        "x": 1548,
+        "y": 0,
+        "w": 31,
+        "h": 31
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 31,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 31,
+        "h": 31
+      }
+    },
+    "header_decor": {
+      "frame": {
+        "x": 722,
+        "y": 0,
+        "w": 538,
+        "h": 395
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 538,
+        "h": 395
+      },
+      "sourceSize": {
+        "w": 538,
+        "h": 395
+      }
+    },
+    "icon": {
+      "frame": {
+        "x": 1262,
+        "y": 0,
+        "w": 142,
+        "h": 143
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 142,
+        "h": 143
+      },
+      "sourceSize": {
+        "w": 142,
+        "h": 143
+      }
+    },
+    "icon_completed": {
+      "frame": {
+        "x": 1406,
+        "y": 0,
+        "w": 140,
+        "h": 142
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 140,
+        "h": 142
+      },
+      "sourceSize": {
+        "w": 140,
+        "h": 142
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "level_themes_winter_fb23e89d.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 1400
+    },
+    "scale": "1",
+    "sourceDir": "images/level_themes/winter"
+  }
+}

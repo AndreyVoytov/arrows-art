@@ -307,6 +307,10 @@
     "characters_kate": "_c4b1c52a",
     "characters_mary": "_182c262b",
     "characters_victor": "_6aed95b1",
+    "level_themes_autumn": "_344dc82e",
+    "level_themes_spring": "_a6b9c479",
+    "level_themes_summer": "_4ce3d6b4",
+    "level_themes_winter": "_fb23e89d",
     "offer_autamn_set": "_96cbb5ee",
     "offer_newbie_set": "_087d48cd",
     "offer_no_ads": "_d5859294",
@@ -331,7 +335,7 @@
     "ui_daily_gift": "_98ad1539",
     "ui_loader": "_47cc894a",
     "ui_lobby": "_015eade2",
-    "ui_panel": "_f0fec1a6",
+    "ui_panel": "_20822035",
     "ui_preloader": "_78d92328",
     "ui_room_preview": "_68b255d7",
     "ui_shop": "_d26b15ad"
@@ -359,7 +363,7 @@
     "superbooster_from_level": 0,
     "suporbooster_levels_to_activate": 10,
     "suporbooster_arrows_to_use": 4,
-    "level_of_day_from_level": 24
+    "level_of_day_from_level": 10
   },
   "sounds": [
     {
@@ -970,6 +974,36 @@
           "count": 3
         }
       ]
+    }
+  ],
+  "level_themes": [
+    {
+      "key": "spring",
+      "start_date": "2026-03-01",
+      "end_date": "2026-05-31",
+      "atlas_key": "level_themes_spring",
+      "header_color": "#2a5918"
+    },
+    {
+      "key": "summer",
+      "start_date": "2026-06-01",
+      "end_date": "2026-08-31",
+      "atlas_key": "level_themes_summer",
+      "header_color": "#783e34"
+    },
+    {
+      "key": "autumn",
+      "start_date": "2026-09-01",
+      "end_date": "2026-11-30",
+      "atlas_key": "level_themes_autumn",
+      "header_color": "#6e3114"
+    },
+    {
+      "key": "winter",
+      "start_date": "2026-12-01",
+      "end_date": "2027-02-28",
+      "atlas_key": "level_themes_winter",
+      "header_color": "#1f3d59"
     }
   ],
   "offers": [

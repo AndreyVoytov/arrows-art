@@ -78,6 +78,50 @@
       ],
       "updatedAt": "2026-08-22T21:21:22.249650+00:00"
     },
+    "level_themes_autumn": {
+      "sourceDir": "images/level_themes/autumn",
+      "digest": "344dc82e1d4249e64edbe8d11740962afb67c37f9480de9e5c20510c6ec7cb60",
+      "outputs": [
+        "images/atlases/content/level_themes_autumn_344dc82e.png",
+        "images/atlases/content/level_themes_autumn_344dc82e.webp",
+        "images/atlases/content/level_themes_autumn_344dc82e.json",
+        "images/atlases/content/level_themes_autumn_344dc82e.webp.json"
+      ],
+      "updatedAt": "2026-09-17T09:26:49.720308+00:00"
+    },
+    "level_themes_spring": {
+      "sourceDir": "images/level_themes/spring",
+      "digest": "a6b9c47939b3f307f2dbbf11cbf95c432d8a1aaac9aaa5c9dc67d91746cc1e64",
+      "outputs": [
+        "images/atlases/content/level_themes_spring_a6b9c479.png",
+        "images/atlases/content/level_themes_spring_a6b9c479.webp",
+        "images/atlases/content/level_themes_spring_a6b9c479.json",
+        "images/atlases/content/level_themes_spring_a6b9c479.webp.json"
+      ],
+      "updatedAt": "2026-09-17T09:26:55.919553+00:00"
+    },
+    "level_themes_summer": {
+      "sourceDir": "images/level_themes/summer",
+      "digest": "4ce3d6b417107718ee7e355839d8b301b9d915d2e1acf63aac6fa44056cf9f73",
+      "outputs": [
+        "images/atlases/content/level_themes_summer_4ce3d6b4.png",
+        "images/atlases/content/level_themes_summer_4ce3d6b4.webp",
+        "images/atlases/content/level_themes_summer_4ce3d6b4.json",
+        "images/atlases/content/level_themes_summer_4ce3d6b4.webp.json"
+      ],
+      "updatedAt": "2026-09-17T09:27:02.094726+00:00"
+    },
+    "level_themes_winter": {
+      "sourceDir": "images/level_themes/winter",
+      "digest": "fb23e89da57085cec69cc6ca976e6879ef14d29f560a00836673807d6caef521",
+      "outputs": [
+        "images/atlases/content/level_themes_winter_fb23e89d.png",
+        "images/atlases/content/level_themes_winter_fb23e89d.webp",
+        "images/atlases/content/level_themes_winter_fb23e89d.json",
+        "images/atlases/content/level_themes_winter_fb23e89d.webp.json"
+      ],
+      "updatedAt": "2026-09-17T09:27:08.420328+00:00"
+    },
     "offer_autamn_set": {
       "sourceDir": "images/offer/autamn_set",
       "digest": "96cbb5ee833cbdb8c4901d3bb01475bec534fcbd42da701749cde3f1d7cfa66b",
@@ -344,14 +388,14 @@
     },
     "ui_panel": {
       "sourceDir": "images/ui/panel",
-      "digest": "f0fec1a6ab6417109f8006f132b70d6f57db02c3e6a01f5e5bbaa6bf4b085d62",
+      "digest": "2082203567f2af811d4233a9b04de7da662cbd688ee20f973b70f485402c9ab9",
       "outputs": [
-        "images/atlases/ui/ui_panel_f0fec1a6.png",
-        "images/atlases/ui/ui_panel_f0fec1a6.webp",
-        "images/atlases/ui/ui_panel_f0fec1a6.json",
-        "images/atlases/ui/ui_panel_f0fec1a6.webp.json"
+        "images/atlases/ui/ui_panel_20822035.png",
+        "images/atlases/ui/ui_panel_20822035.webp",
+        "images/atlases/ui/ui_panel_20822035.json",
+        "images/atlases/ui/ui_panel_20822035.webp.json"
       ],
-      "updatedAt": "2026-09-16T10:43:56.391610+00:00"
+      "updatedAt": "2026-09-17T09:44:41.669945+00:00"
     },
     "ui_preloader": {
       "sourceDir": "images/ui/preloader",

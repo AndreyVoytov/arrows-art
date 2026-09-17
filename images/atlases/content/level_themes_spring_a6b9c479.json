@@ -1,0 +1,116 @@
+{
+  "frames": {
+    "bg": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 1400
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 1400
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 1400
+      }
+    },
+    "close_button": {
+      "frame": {
+        "x": 1539,
+        "y": 0,
+        "w": 31,
+        "h": 31
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 31,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 31,
+        "h": 31
+      }
+    },
+    "header_decor": {
+      "frame": {
+        "x": 722,
+        "y": 0,
+        "w": 521,
+        "h": 397
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 521,
+        "h": 397
+      },
+      "sourceSize": {
+        "w": 521,
+        "h": 397
+      }
+    },
+    "icon": {
+      "frame": {
+        "x": 1392,
+        "y": 0,
+        "w": 145,
+        "h": 144
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 145,
+        "h": 144
+      },
+      "sourceSize": {
+        "w": 145,
+        "h": 144
+      }
+    },
+    "icon_completed": {
+      "frame": {
+        "x": 1245,
+        "y": 0,
+        "w": 145,
+        "h": 145
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 145,
+        "h": 145
+      },
+      "sourceSize": {
+        "w": 145,
+        "h": 145
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "level_themes_spring_a6b9c479.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 1400
+    },
+    "scale": "1",
+    "sourceDir": "images/level_themes/spring"
+  }
+}
