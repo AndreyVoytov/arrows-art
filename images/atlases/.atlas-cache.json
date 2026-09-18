@@ -80,47 +80,47 @@
     },
     "level_themes_autumn": {
       "sourceDir": "images/level_themes/autumn",
-      "digest": "344dc82e1d4249e64edbe8d11740962afb67c37f9480de9e5c20510c6ec7cb60",
+      "digest": "b7b39fadf059f39b0a376dec95bde83a1e6f0b2240352b7c224782d53110b23b",
       "outputs": [
-        "images/atlases/content/level_themes_autumn_344dc82e.png",
-        "images/atlases/content/level_themes_autumn_344dc82e.webp",
-        "images/atlases/content/level_themes_autumn_344dc82e.json",
-        "images/atlases/content/level_themes_autumn_344dc82e.webp.json"
+        "images/atlases/content/level_themes_autumn_b7b39fad.png",
+        "images/atlases/content/level_themes_autumn_b7b39fad.webp",
+        "images/atlases/content/level_themes_autumn_b7b39fad.json",
+        "images/atlases/content/level_themes_autumn_b7b39fad.webp.json"
       ],
-      "updatedAt": "2026-09-17T09:26:49.720308+00:00"
+      "updatedAt": "2026-09-18T09:47:30.738698+00:00"
     },
     "level_themes_spring": {
       "sourceDir": "images/level_themes/spring",
-      "digest": "a6b9c47939b3f307f2dbbf11cbf95c432d8a1aaac9aaa5c9dc67d91746cc1e64",
+      "digest": "89770cbc5ffbcaa87c1e143345786b52694a6be1eaf80fa742e3bee9d327b4ed",
       "outputs": [
-        "images/atlases/content/level_themes_spring_a6b9c479.png",
-        "images/atlases/content/level_themes_spring_a6b9c479.webp",
-        "images/atlases/content/level_themes_spring_a6b9c479.json",
-        "images/atlases/content/level_themes_spring_a6b9c479.webp.json"
+        "images/atlases/content/level_themes_spring_89770cbc.png",
+        "images/atlases/content/level_themes_spring_89770cbc.webp",
+        "images/atlases/content/level_themes_spring_89770cbc.json",
+        "images/atlases/content/level_themes_spring_89770cbc.webp.json"
       ],
-      "updatedAt": "2026-09-17T09:26:55.919553+00:00"
+      "updatedAt": "2026-09-18T09:50:35.970328+00:00"
     },
     "level_themes_summer": {
       "sourceDir": "images/level_themes/summer",
-      "digest": "4ce3d6b417107718ee7e355839d8b301b9d915d2e1acf63aac6fa44056cf9f73",
+      "digest": "8c896f326a8bec3f4a1004cfb433fed7b1be28ab446769af9891adddcbaf3d4e",
       "outputs": [
-        "images/atlases/content/level_themes_summer_4ce3d6b4.png",
-        "images/atlases/content/level_themes_summer_4ce3d6b4.webp",
-        "images/atlases/content/level_themes_summer_4ce3d6b4.json",
-        "images/atlases/content/level_themes_summer_4ce3d6b4.webp.json"
+        "images/atlases/content/level_themes_summer_8c896f32.png",
+        "images/atlases/content/level_themes_summer_8c896f32.webp",
+        "images/atlases/content/level_themes_summer_8c896f32.json",
+        "images/atlases/content/level_themes_summer_8c896f32.webp.json"
       ],
-      "updatedAt": "2026-09-17T09:27:02.094726+00:00"
+      "updatedAt": "2026-09-18T09:50:42.838231+00:00"
     },
     "level_themes_winter": {
       "sourceDir": "images/level_themes/winter",
-      "digest": "fb23e89da57085cec69cc6ca976e6879ef14d29f560a00836673807d6caef521",
+      "digest": "4b5a097007912a67f10dd8dfe4abdf9f2fa9a5365227337b41f3912aca70e5f4",
       "outputs": [
-        "images/atlases/content/level_themes_winter_fb23e89d.png",
-        "images/atlases/content/level_themes_winter_fb23e89d.webp",
-        "images/atlases/content/level_themes_winter_fb23e89d.json",
-        "images/atlases/content/level_themes_winter_fb23e89d.webp.json"
+        "images/atlases/content/level_themes_winter_4b5a0970.png",
+        "images/atlases/content/level_themes_winter_4b5a0970.webp",
+        "images/atlases/content/level_themes_winter_4b5a0970.json",
+        "images/atlases/content/level_themes_winter_4b5a0970.webp.json"
       ],
-      "updatedAt": "2026-09-17T09:27:08.420328+00:00"
+      "updatedAt": "2026-09-18T09:50:49.204937+00:00"
     },
     "offer_autamn_set": {
       "sourceDir": "images/offer/autamn_set",
@@ -388,14 +388,14 @@
     },
     "ui_panel": {
       "sourceDir": "images/ui/panel",
-      "digest": "2082203567f2af811d4233a9b04de7da662cbd688ee20f973b70f485402c9ab9",
+      "digest": "6cbf767dc6b694afc9a90b9e6e1ee2804bd98a56b50abb326823d277ea59d13f",
       "outputs": [
-        "images/atlases/ui/ui_panel_20822035.png",
-        "images/atlases/ui/ui_panel_20822035.webp",
-        "images/atlases/ui/ui_panel_20822035.json",
-        "images/atlases/ui/ui_panel_20822035.webp.json"
+        "images/atlases/ui/ui_panel_6cbf767d.png",
+        "images/atlases/ui/ui_panel_6cbf767d.webp",
+        "images/atlases/ui/ui_panel_6cbf767d.json",
+        "images/atlases/ui/ui_panel_6cbf767d.webp.json"
       ],
-      "updatedAt": "2026-09-17T09:44:41.669945+00:00"
+      "updatedAt": "2026-09-18T09:47:47.616805+00:00"
     },
     "ui_preloader": {
       "sourceDir": "images/ui/preloader",

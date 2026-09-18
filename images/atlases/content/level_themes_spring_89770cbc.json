@@ -22,7 +22,7 @@
     },
     "close_button": {
       "frame": {
-        "x": 1539,
+        "x": 1528,
         "y": 0,
         "w": 31,
         "h": 31
@@ -44,25 +44,25 @@
       "frame": {
         "x": 722,
         "y": 0,
-        "w": 521,
-        "h": 397
+        "w": 510,
+        "h": 335
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 521,
-        "h": 397
+        "w": 510,
+        "h": 335
       },
       "sourceSize": {
-        "w": 521,
-        "h": 397
+        "w": 510,
+        "h": 335
       }
     },
     "icon": {
       "frame": {
-        "x": 1392,
+        "x": 1381,
         "y": 0,
         "w": 145,
         "h": 144
@@ -82,7 +82,7 @@
     },
     "icon_completed": {
       "frame": {
-        "x": 1245,
+        "x": 1234,
         "y": 0,
         "w": 145,
         "h": 145
@@ -104,7 +104,7 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "level_themes_spring_a6b9c479.webp",
+    "image": "level_themes_spring_89770cbc.png",
     "format": "RGBA8888",
     "size": {
       "w": 2048,

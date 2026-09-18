@@ -22,7 +22,7 @@
     },
     "close_button": {
       "frame": {
-        "x": 1539,
+        "x": 1544,
         "y": 0,
         "w": 31,
         "h": 31
@@ -44,73 +44,73 @@
       "frame": {
         "x": 722,
         "y": 0,
-        "w": 521,
-        "h": 397
+        "w": 534,
+        "h": 316
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 521,
-        "h": 397
+        "w": 534,
+        "h": 316
       },
       "sourceSize": {
-        "w": 521,
-        "h": 397
+        "w": 534,
+        "h": 316
       }
     },
     "icon": {
       "frame": {
-        "x": 1392,
+        "x": 1258,
         "y": 0,
-        "w": 145,
-        "h": 144
+        "w": 142,
+        "h": 143
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 145,
-        "h": 144
+        "w": 142,
+        "h": 143
       },
       "sourceSize": {
-        "w": 145,
-        "h": 144
+        "w": 142,
+        "h": 143
       }
     },
     "icon_completed": {
       "frame": {
-        "x": 1245,
+        "x": 1402,
         "y": 0,
-        "w": 145,
-        "h": 145
+        "w": 140,
+        "h": 142
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 145,
-        "h": 145
+        "w": 140,
+        "h": 142
       },
       "sourceSize": {
-        "w": 145,
-        "h": 145
+        "w": 140,
+        "h": 142
       }
     }
   },
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "level_themes_spring_a6b9c479.png",
+    "image": "level_themes_winter_4b5a0970.webp",
     "format": "RGBA8888",
     "size": {
       "w": 2048,
       "h": 1400
     },
     "scale": "1",
-    "sourceDir": "images/level_themes/spring"
+    "sourceDir": "images/level_themes/winter"
   }
 }
