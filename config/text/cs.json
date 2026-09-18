@@ -554,6 +554,7 @@
   "ui_level_exit_waringn": "Kočka přestane pomáhat. Přesto se vzdát?",
   "ui_level_leave_confirm": "Opravdu chcete opustit úroveň?",
   "ui_level_of_the_day": "Úroveň dne",
+  "ui_level_of_the_day_already_completed": "Úroveň dne již byla dokončena",
   "ui_level_of_the_day_intro": "Hrajte každý den na speciální úrovni dne a získejte hodnotné odměny",
   "ui_level_of_the_day_loose": "To je v pořádku! Nemáte co ztratit a můžete to zkusit znovu",
   "ui_level_of_the_day_win_desc1": "Úroveň dne dokončena!",

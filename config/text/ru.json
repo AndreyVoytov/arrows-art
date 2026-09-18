@@ -554,6 +554,7 @@
   "ui_level_exit_waringn": "Котик перестанет помогать. Всё равно сдаться?",
   "ui_level_leave_confirm": "Вы действительно хотите покинуть уровень?",
   "ui_level_of_the_day": "Уровень дня",
+  "ui_level_of_the_day_already_completed": "Уровень дня уже пройден",
   "ui_level_of_the_day_intro": "Играйте каждый день в специальный уровень дняи получайте ценные награды",
   "ui_level_of_the_day_loose": "Ничего страшного! Вы ничего не теряете и можете попробовать снова",
   "ui_level_of_the_day_win_desc1": "Уровень дня пройден!",
