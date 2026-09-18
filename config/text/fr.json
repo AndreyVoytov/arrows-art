@@ -609,5 +609,6 @@
   "ui_superbooster_desc2": "S'endort si tu perds",
   "ui_yes": "OUI",
   "victor": "Victor",
-  "wand": "Baguette magique"
+  "wand": "Baguette magique",
+  "ui_level_leave_header": "Quitter le jeu"
 }

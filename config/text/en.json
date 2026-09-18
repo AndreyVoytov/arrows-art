@@ -609,5 +609,6 @@
   "ui_superbooster_desc2": "Falls asleep if you lose",
   "ui_yes": "YES",
   "victor": "Victor",
-  "wand": "Magic wand"
+  "wand": "Magic wand",
+  "ui_level_leave_header": "Quitting the game"
 }

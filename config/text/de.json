@@ -609,5 +609,6 @@
   "ui_superbooster_desc2": "Schläft ein, wenn du verlierst",
   "ui_yes": "JA",
   "victor": "Viktor",
-  "wand": "Zauberstab"
+  "wand": "Zauberstab",
+  "ui_level_leave_header": "Das Spiel beenden"
 }

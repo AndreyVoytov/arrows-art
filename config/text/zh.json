@@ -609,5 +609,6 @@
   "ui_superbooster_desc2": "如果你输了就会睡着",
   "ui_yes": "是的",
   "victor": "维克多",
-  "wand": "魔法棒"
+  "wand": "魔法棒",
+  "ui_level_leave_header": "退出游戏"
 }

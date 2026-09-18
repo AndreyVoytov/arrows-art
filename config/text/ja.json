@@ -609,5 +609,6 @@
   "ui_superbooster_desc2": "負けると眠くなる",
   "ui_yes": "はい",
   "victor": "ビクター",
-  "wand": "魔法の杖"
+  "wand": "魔法の杖",
+  "ui_level_leave_header": "ゲームを終了する"
 }

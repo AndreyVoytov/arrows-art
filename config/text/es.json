@@ -609,5 +609,6 @@
   "ui_superbooster_desc2": "Se queda dormido si pierdes",
   "ui_yes": "SI",
   "victor": "Víctor",
-  "wand": "varita magica"
+  "wand": "varita magica",
+  "ui_level_leave_header": "Salir del juego"
 }

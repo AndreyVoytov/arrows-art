@@ -609,5 +609,6 @@
   "ui_superbooster_desc2": "Заспи ако изгубиш",
   "ui_yes": "ДА",
   "victor": "Викторе",
-  "wand": "Магични штапић"
+  "wand": "Магични штапић",
+  "ui_level_leave_header": "Напуштање игре"
 }

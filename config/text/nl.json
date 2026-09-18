@@ -609,5 +609,6 @@
   "ui_superbooster_desc2": "Valt in slaap als je verliest",
   "ui_yes": "JA",
   "victor": "Victor",
-  "wand": "Toverstaf"
+  "wand": "Toverstaf",
+  "ui_level_leave_header": "Het spel verlaten"
 }

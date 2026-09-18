@@ -609,5 +609,6 @@
   "ui_superbooster_desc2": "지면 잠든다",
   "ui_yes": "예",
   "victor": "빅터",
-  "wand": "마술 지팡이"
+  "wand": "마술 지팡이",
+  "ui_level_leave_header": "게임 종료"
 }
