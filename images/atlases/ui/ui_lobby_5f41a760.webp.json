@@ -142,7 +142,7 @@
     },
     "cat_booster_progress": {
       "frame": {
-        "x": 773,
+        "x": 808,
         "y": 1567,
         "w": 131,
         "h": 24
@@ -162,7 +162,7 @@
     },
     "cat_booster_progress_bg": {
       "frame": {
-        "x": 906,
+        "x": 941,
         "y": 1567,
         "w": 131,
         "h": 23
@@ -338,6 +338,26 @@
       "sourceSize": {
         "w": 45,
         "h": 39
+      }
+    },
+    "green_dot": {
+      "frame": {
+        "x": 773,
+        "y": 1567,
+        "w": 33,
+        "h": 30
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 33,
+        "h": 30
+      },
+      "sourceSize": {
+        "w": 33,
+        "h": 30
       }
     },
     "hand": {
@@ -684,7 +704,7 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "ui_lobby_015eade2.webp",
+    "image": "ui_lobby_5f41a760.webp",
     "format": "RGBA8888",
     "size": {
       "w": 2048,

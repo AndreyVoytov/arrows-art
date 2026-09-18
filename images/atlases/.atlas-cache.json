@@ -377,14 +377,14 @@
     },
     "ui_lobby": {
       "sourceDir": "images/ui/lobby",
-      "digest": "015eade282e3d84b85f0f1fc4b2d8906a00feb2c4785462abfd0cd9091e87072",
+      "digest": "5f41a760ce37842964c659f6af89b2264b3487da4ee09df96b7689e07f63b773",
       "outputs": [
-        "images/atlases/ui/ui_lobby_015eade2.png",
-        "images/atlases/ui/ui_lobby_015eade2.webp",
-        "images/atlases/ui/ui_lobby_015eade2.json",
-        "images/atlases/ui/ui_lobby_015eade2.webp.json"
+        "images/atlases/ui/ui_lobby_5f41a760.png",
+        "images/atlases/ui/ui_lobby_5f41a760.webp",
+        "images/atlases/ui/ui_lobby_5f41a760.json",
+        "images/atlases/ui/ui_lobby_5f41a760.webp.json"
       ],
-      "updatedAt": "2026-09-15T11:11:28.686461+00:00"
+      "updatedAt": "2026-09-18T20:33:36.276570+00:00"
     },
     "ui_panel": {
       "sourceDir": "images/ui/panel",
