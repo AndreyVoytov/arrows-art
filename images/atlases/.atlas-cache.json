@@ -166,6 +166,39 @@
       ],
       "updatedAt": "2026-09-16T10:43:40.591216+00:00"
     },
+    "offer_room3_set": {
+      "sourceDir": "images/offer/room3_set",
+      "digest": "71b793165ca5ec23ef77b187cd69f4f95ab6c81e22ad4a4913ed66dfccfc44ff",
+      "outputs": [
+        "images/atlases/content/offer_room3_set_71b79316.png",
+        "images/atlases/content/offer_room3_set_71b79316.webp",
+        "images/atlases/content/offer_room3_set_71b79316.json",
+        "images/atlases/content/offer_room3_set_71b79316.webp.json"
+      ],
+      "updatedAt": "2026-09-21T12:37:29.719612+00:00"
+    },
+    "offer_room4_set": {
+      "sourceDir": "images/offer/room4_set",
+      "digest": "80c231d5fe8fda19ca5ade87fb2d277cc4f687bfadb4ba9c44874b96e769f0fc",
+      "outputs": [
+        "images/atlases/content/offer_room4_set_80c231d5.png",
+        "images/atlases/content/offer_room4_set_80c231d5.webp",
+        "images/atlases/content/offer_room4_set_80c231d5.json",
+        "images/atlases/content/offer_room4_set_80c231d5.webp.json"
+      ],
+      "updatedAt": "2026-09-21T12:37:37.211241+00:00"
+    },
+    "offer_room5_set": {
+      "sourceDir": "images/offer/room5_set",
+      "digest": "7217887491e10bf46b8f5e64008b88e204aac7324d12e692bde5f55642fa7a66",
+      "outputs": [
+        "images/atlases/content/offer_room5_set_72178874.png",
+        "images/atlases/content/offer_room5_set_72178874.webp",
+        "images/atlases/content/offer_room5_set_72178874.json",
+        "images/atlases/content/offer_room5_set_72178874.webp.json"
+      ],
+      "updatedAt": "2026-09-21T12:37:46.265429+00:00"
+    },
     "rooms_room1-decor": {
       "sourceDir": "images/rooms/room1-decor",
       "digest": "87a5a7d494e6877f6db134a21d065843f3fdb0ef5f72b6bb5666007712ebe0c0",

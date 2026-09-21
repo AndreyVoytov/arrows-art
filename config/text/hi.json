@@ -610,5 +610,8 @@
   "ui_yes": "हाँ",
   "victor": "विक्टर",
   "wand": "जादू की छड़ी",
-  "ui_level_leave_header": "खेल छोड़ना"
+  "ui_level_leave_header": "खेल छोड़ना",
+  "room3_set": "स्नान सेट",
+  "room4_set": "रसोई सेट",
+  "room5_set": "अटारी सेट"
 }

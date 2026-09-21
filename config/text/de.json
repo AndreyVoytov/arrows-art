@@ -610,5 +610,8 @@
   "ui_yes": "JA",
   "victor": "Viktor",
   "wand": "Zauberstab",
-  "ui_level_leave_header": "Das Spiel beenden"
+  "ui_level_leave_header": "Das Spiel beenden",
+  "room3_set": "Badeset",
+  "room4_set": "Küchenset",
+  "room5_set": "Dachgeschoss-Set"
 }

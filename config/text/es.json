@@ -610,5 +610,8 @@
   "ui_yes": "SI",
   "victor": "Víctor",
   "wand": "varita magica",
-  "ui_level_leave_header": "Salir del juego"
+  "ui_level_leave_header": "Salir del juego",
+  "room3_set": "Juego de baño",
+  "room4_set": "juego de cocina",
+  "room5_set": "Conjunto de ático"
 }

@@ -610,5 +610,8 @@
   "ui_yes": "예",
   "victor": "빅터",
   "wand": "마술 지팡이",
-  "ui_level_leave_header": "게임 종료"
+  "ui_level_leave_header": "게임 종료",
+  "room3_set": "목욕 세트",
+  "room4_set": "주방 세트",
+  "room5_set": "다락방 세트"
 }

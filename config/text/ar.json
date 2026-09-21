@@ -610,5 +610,8 @@
   "ui_yes": "نعم",
   "victor": "فيكتور",
   "wand": "العصا السحرية",
-  "ui_level_leave_header": "ترك اللعبة"
+  "ui_level_leave_header": "ترك اللعبة",
+  "room3_set": "مجموعة حمام",
+  "room4_set": "مجموعة المطبخ",
+  "room5_set": "مجموعة العلية"
 }

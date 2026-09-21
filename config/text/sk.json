@@ -610,5 +610,8 @@
   "ui_yes": "ÁNO",
   "victor": "Victor",
   "wand": "Čarovný prútik",
-  "ui_level_leave_header": "Ukončenie hry"
+  "ui_level_leave_header": "Ukončenie hry",
+  "room3_set": "Vaňová súprava",
+  "room4_set": "Kuchynská súprava",
+  "room5_set": "Podkrovná zostava"
 }

@@ -610,5 +610,8 @@
   "ui_yes": "ANO",
   "victor": "Victor",
   "wand": "Kouzelná hůlka",
-  "ui_level_leave_header": "Ukončení hry"
+  "ui_level_leave_header": "Ukončení hry",
+  "room3_set": "Vanová souprava",
+  "room4_set": "Kuchyňský set",
+  "room5_set": "Půdní sestava"
 }

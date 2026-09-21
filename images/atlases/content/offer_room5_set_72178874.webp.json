@@ -1,0 +1,116 @@
+{
+  "frames": {
+    "buy_button": {
+      "frame": {
+        "x": 885,
+        "y": 0,
+        "w": 295,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 295,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 295,
+        "h": 127
+      }
+    },
+    "close_button": {
+      "frame": {
+        "x": 1182,
+        "y": 0,
+        "w": 85,
+        "h": 99
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 85,
+        "h": 99
+      },
+      "sourceSize": {
+        "w": 85,
+        "h": 99
+      }
+    },
+    "discount_label": {
+      "frame": {
+        "x": 664,
+        "y": 0,
+        "w": 219,
+        "h": 215
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 219,
+        "h": 215
+      },
+      "sourceSize": {
+        "w": 219,
+        "h": 215
+      }
+    },
+    "icon": {
+      "frame": {
+        "x": 1269,
+        "y": 0,
+        "w": 83,
+        "h": 87
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 83,
+        "h": 87
+      },
+      "sourceSize": {
+        "w": 83,
+        "h": 87
+      }
+    },
+    "panel": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 662,
+        "h": 980
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 662,
+        "h": 980
+      },
+      "sourceSize": {
+        "w": 662,
+        "h": 980
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "offer_room5_set_72178874.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 980
+    },
+    "scale": "1",
+    "sourceDir": "images/offer/room5_set"
+  }
+}

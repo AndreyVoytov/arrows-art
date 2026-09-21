@@ -610,5 +610,8 @@
   "ui_yes": "OUI",
   "victor": "Victor",
   "wand": "Baguette magique",
-  "ui_level_leave_header": "Quitter le jeu"
+  "ui_level_leave_header": "Quitter le jeu",
+  "room3_set": "Ensemble de bain",
+  "room4_set": "Ensemble de cuisine",
+  "room5_set": "Ensemble grenier"
 }

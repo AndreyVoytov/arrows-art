@@ -610,5 +610,8 @@
   "ui_yes": "JA",
   "victor": "Victor",
   "wand": "Toverstaf",
-  "ui_level_leave_header": "Het spel verlaten"
+  "ui_level_leave_header": "Het spel verlaten",
+  "room3_set": "Badset",
+  "room4_set": "Keukenset",
+  "room5_set": "Zolderset"
 }

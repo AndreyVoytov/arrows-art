@@ -610,5 +610,8 @@
   "ui_yes": "SIM",
   "victor": "Victor",
   "wand": "Varinha mágica",
-  "ui_level_leave_header": "Saindo do jogo"
+  "ui_level_leave_header": "Saindo do jogo",
+  "room3_set": "Conjunto de banho",
+  "room4_set": "Conjunto de cozinha",
+  "room5_set": "Conjunto de sótão"
 }

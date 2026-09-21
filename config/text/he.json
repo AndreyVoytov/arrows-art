@@ -610,5 +610,8 @@
   "ui_yes": "כן",
   "victor": "ויקטור",
   "wand": "שרביט קסמים",
-  "ui_level_leave_header": "עוזבים את המשחק"
+  "ui_level_leave_header": "עוזבים את המשחק",
+  "room3_set": "סט אמבטיה",
+  "room4_set": "סט מטבח",
+  "room5_set": "סט עליית גג"
 }

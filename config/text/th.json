@@ -610,5 +610,8 @@
   "ui_yes": "ใช่",
   "victor": "วิคเตอร์",
   "wand": "ไม้กายสิทธิ์",
-  "ui_level_leave_header": "ออกจากเกม"
+  "ui_level_leave_header": "ออกจากเกม",
+  "room3_set": "ชุดอาบน้ำ",
+  "room4_set": "ชุดครัว",
+  "room5_set": "ชุดห้องใต้หลังคา"
 }

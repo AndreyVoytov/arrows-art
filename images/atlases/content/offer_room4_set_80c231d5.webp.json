@@ -1,0 +1,116 @@
+{
+  "frames": {
+    "buy_button": {
+      "frame": {
+        "x": 880,
+        "y": 0,
+        "w": 295,
+        "h": 127
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 295,
+        "h": 127
+      },
+      "sourceSize": {
+        "w": 295,
+        "h": 127
+      }
+    },
+    "close_button": {
+      "frame": {
+        "x": 1177,
+        "y": 0,
+        "w": 85,
+        "h": 99
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 85,
+        "h": 99
+      },
+      "sourceSize": {
+        "w": 85,
+        "h": 99
+      }
+    },
+    "discount_label": {
+      "frame": {
+        "x": 659,
+        "y": 0,
+        "w": 219,
+        "h": 215
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 219,
+        "h": 215
+      },
+      "sourceSize": {
+        "w": 219,
+        "h": 215
+      }
+    },
+    "icon": {
+      "frame": {
+        "x": 1264,
+        "y": 0,
+        "w": 102,
+        "h": 94
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 102,
+        "h": 94
+      },
+      "sourceSize": {
+        "w": 102,
+        "h": 94
+      }
+    },
+    "panel": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 657,
+        "h": 992
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 657,
+        "h": 992
+      },
+      "sourceSize": {
+        "w": 657,
+        "h": 992
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "offer_room4_set_80c231d5.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 992
+    },
+    "scale": "1",
+    "sourceDir": "images/offer/room4_set"
+  }
+}

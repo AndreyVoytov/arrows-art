@@ -610,5 +610,8 @@
   "ui_yes": "IGEN",
   "victor": "Victor",
   "wand": "Magic wand",
-  "ui_level_leave_header": "Kilépés a játékból"
+  "ui_level_leave_header": "Kilépés a játékból",
+  "room3_set": "Fürdőszett",
+  "room4_set": "Konyhai készlet",
+  "room5_set": "Tetőtér készlet"
 }

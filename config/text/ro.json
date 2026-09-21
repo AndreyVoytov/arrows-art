@@ -610,5 +610,8 @@
   "ui_yes": "DA",
   "victor": "Victor",
   "wand": "Bagheta magică",
-  "ui_level_leave_header": "Renunțarea la joc"
+  "ui_level_leave_header": "Renunțarea la joc",
+  "room3_set": "Set de baie",
+  "room4_set": "Set de bucatarie",
+  "room5_set": "Set mansarda"
 }

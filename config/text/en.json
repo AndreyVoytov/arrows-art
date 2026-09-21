@@ -610,5 +610,8 @@
   "ui_yes": "YES",
   "victor": "Victor",
   "wand": "Magic wand",
-  "ui_level_leave_header": "Quitting the game"
+  "ui_level_leave_header": "Quitting the game",
+  "room3_set": "Bath set",
+  "room4_set": "Kitchen set",
+  "room5_set": "Attic set"
 }

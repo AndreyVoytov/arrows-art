@@ -610,5 +610,8 @@
   "ui_yes": "TAK",
   "victor": "Wiktor",
   "wand": "Magiczna różdżka",
-  "ui_level_leave_header": "Rezygnacja z gry"
+  "ui_level_leave_header": "Rezygnacja z gry",
+  "room3_set": "Zestaw do kąpieli",
+  "room4_set": "Zestaw kuchenny",
+  "room5_set": "Zestaw na poddaszu"
 }

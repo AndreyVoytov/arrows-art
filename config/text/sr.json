@@ -610,5 +610,8 @@
   "ui_yes": "ДА",
   "victor": "Викторе",
   "wand": "Магични штапић",
-  "ui_level_leave_header": "Напуштање игре"
+  "ui_level_leave_header": "Напуштање игре",
+  "room3_set": "Сет за купатило",
+  "room4_set": "Китцхен сет",
+  "room5_set": "Поткровље сет"
 }

@@ -610,5 +610,8 @@
   "ui_yes": "SÍ",
   "victor": "Víctor",
   "wand": "Vareta màgica",
-  "ui_level_leave_header": "Abandonar el joc"
+  "ui_level_leave_header": "Abandonar el joc",
+  "room3_set": "Set de bany",
+  "room4_set": "Conjunt de cuina",
+  "room5_set": "Conjunt de golfes"
 }

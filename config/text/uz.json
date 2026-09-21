@@ -610,5 +610,8 @@
   "ui_yes": "HA",
   "victor": "Viktor",
   "wand": "Sehrli tayoqcha",
-  "ui_level_leave_header": "O'yindan chiqish"
+  "ui_level_leave_header": "O'yindan chiqish",
+  "room3_set": "Hammom to'plami",
+  "room4_set": "Oshxona to'plami",
+  "room5_set": "Chodir to'plami"
 }

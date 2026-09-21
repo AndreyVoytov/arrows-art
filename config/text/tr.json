@@ -610,5 +610,8 @@
   "ui_yes": "EVET",
   "victor": "galip",
   "wand": "Sihirli değnek",
-  "ui_level_leave_header": "Oyunu bırakma"
+  "ui_level_leave_header": "Oyunu bırakma",
+  "room3_set": "Banyo seti",
+  "room4_set": "Mutfak seti",
+  "room5_set": "Çatı katı seti"
 }

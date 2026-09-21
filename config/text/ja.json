@@ -610,5 +610,8 @@
   "ui_yes": "はい",
   "victor": "ビクター",
   "wand": "魔法の杖",
-  "ui_level_leave_header": "ゲームを終了する"
+  "ui_level_leave_header": "ゲームを終了する",
+  "room3_set": "お風呂セット",
+  "room4_set": "キッチンセット",
+  "room5_set": "屋根裏部屋セット"
 }
