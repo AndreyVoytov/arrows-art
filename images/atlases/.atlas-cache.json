@@ -399,14 +399,14 @@
     },
     "ui_loader": {
       "sourceDir": "images/ui/loader",
-      "digest": "47cc894aa413debcf52e0c29d386d0b4d2187a54e5f0dd05942ff22faa67721c",
+      "digest": "fa592bbb86f1216bc4c721674d6e7a29b1e3ad5564160b93decc5affb411d1d0",
       "outputs": [
-        "images/atlases/ui/ui_loader_47cc894a.png",
-        "images/atlases/ui/ui_loader_47cc894a.webp",
-        "images/atlases/ui/ui_loader_47cc894a.json",
-        "images/atlases/ui/ui_loader_47cc894a.webp.json"
+        "images/atlases/ui/ui_loader_fa592bbb.png",
+        "images/atlases/ui/ui_loader_fa592bbb.webp",
+        "images/atlases/ui/ui_loader_fa592bbb.json",
+        "images/atlases/ui/ui_loader_fa592bbb.webp.json"
       ],
-      "updatedAt": "2026-09-15T11:11:19.991273+00:00"
+      "updatedAt": "2026-09-28T08:49:47.326502+00:00"
     },
     "ui_lobby": {
       "sourceDir": "images/ui/lobby",

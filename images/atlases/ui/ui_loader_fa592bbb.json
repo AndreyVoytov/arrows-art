@@ -20,6 +20,26 @@
         "h": 189
       }
     },
+    "game_name_en": {
+      "frame": {
+        "x": 1765,
+        "y": 0,
+        "w": 281,
+        "h": 165
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 281,
+        "h": 165
+      },
+      "sourceSize": {
+        "w": 281,
+        "h": 165
+      }
+    },
     "loading_bg1": {
       "frame": {
         "x": 722,
@@ -104,7 +124,7 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "ui_loader_47cc894a.png",
+    "image": "ui_loader_fa592bbb.png",
     "format": "RGBA8888",
     "size": {
       "w": 2048,
