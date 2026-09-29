@@ -1,0 +1,211 @@
+{
+  "pages": [
+    {
+      "image": "characters_thomas_7c421db4_1.webp",
+      "frames": {
+        "thomas_angry": {
+          "frame": {
+            "x": 1029,
+            "y": 1026,
+            "w": 341,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "sourceSize": {
+            "w": 341,
+            "h": 512
+          }
+        },
+        "thomas_disdain": {
+          "frame": {
+            "x": 686,
+            "y": 1026,
+            "w": 341,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "sourceSize": {
+            "w": 341,
+            "h": 512
+          }
+        },
+        "thomas_neutral": {
+          "frame": {
+            "x": 343,
+            "y": 1026,
+            "w": 341,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "sourceSize": {
+            "w": 341,
+            "h": 512
+          }
+        },
+        "thomas_neutral_plarix": {
+          "frame": {
+            "x": 0,
+            "y": 1026,
+            "w": 341,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "sourceSize": {
+            "w": 341,
+            "h": 512
+          }
+        },
+        "thomas_neutral_plarix_v2": {
+          "frame": {
+            "x": 685,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "sourceSize": {
+            "w": 683,
+            "h": 1024
+          }
+        },
+        "thomas_surprised": {
+          "frame": {
+            "x": 1370,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "sourceSize": {
+            "w": 341,
+            "h": 512
+          }
+        },
+        "thomas_surprised_playrix_v2": {
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "sourceSize": {
+            "w": 683,
+            "h": 1024
+          }
+        }
+      },
+      "size": {
+        "w": 2048,
+        "h": 1538
+      }
+    },
+    {
+      "image": "characters_thomas_7c421db4_2.webp",
+      "frames": {
+        "thomas_angry_playrix_v2": {
+          "frame": {
+            "x": 685,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "sourceSize": {
+            "w": 683,
+            "h": 1024
+          }
+        },
+        "thomas_disdain_playrix_v2": {
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "sourceSize": {
+            "w": 683,
+            "h": 1024
+          }
+        }
+      },
+      "size": {
+        "w": 2048,
+        "h": 1024
+      }
+    }
+  ],
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "format": "RGBA8888",
+    "scale": "1",
+    "sourceDir": "images/characters/thomas",
+    "pageCount": 2,
+    "maxSize": 2048
+  }
+}

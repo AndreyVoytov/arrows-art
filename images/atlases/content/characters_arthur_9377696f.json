@@ -1,0 +1,300 @@
+{
+  "pages": [
+    {
+      "image": "characters_arthur_9377696f_1.png",
+      "frames": {
+        "arthur_embarrassed": {
+          "frame": {
+            "x": 1372,
+            "y": 1026,
+            "w": 341,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "sourceSize": {
+            "w": 341,
+            "h": 512
+          }
+        },
+        "arthur_joy": {
+          "frame": {
+            "x": 1029,
+            "y": 1026,
+            "w": 341,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "sourceSize": {
+            "w": 341,
+            "h": 512
+          }
+        },
+        "arthur_neutral": {
+          "frame": {
+            "x": 686,
+            "y": 1026,
+            "w": 341,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "sourceSize": {
+            "w": 341,
+            "h": 512
+          }
+        },
+        "arthur_neutral_plarix": {
+          "frame": {
+            "x": 343,
+            "y": 1026,
+            "w": 341,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "sourceSize": {
+            "w": 341,
+            "h": 512
+          }
+        },
+        "arthur_sad": {
+          "frame": {
+            "x": 0,
+            "y": 1026,
+            "w": 341,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "sourceSize": {
+            "w": 341,
+            "h": 512
+          }
+        },
+        "arthur_sad_playrix_v2": {
+          "frame": {
+            "x": 685,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "sourceSize": {
+            "w": 683,
+            "h": 1024
+          }
+        },
+        "arthur_wink": {
+          "frame": {
+            "x": 1370,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "sourceSize": {
+            "w": 341,
+            "h": 512
+          }
+        },
+        "arthur_wink_playrix_v2": {
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "sourceSize": {
+            "w": 683,
+            "h": 1024
+          }
+        }
+      },
+      "size": {
+        "w": 2048,
+        "h": 1538
+      }
+    },
+    {
+      "image": "characters_arthur_9377696f_2.png",
+      "frames": {
+        "arthur_angry": {
+          "frame": {
+            "x": 1370,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "sourceSize": {
+            "w": 341,
+            "h": 512
+          }
+        },
+        "arthur_joy_playrix_v2": {
+          "frame": {
+            "x": 685,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "sourceSize": {
+            "w": 683,
+            "h": 1024
+          }
+        },
+        "arthur_neutral_plarix_v2": {
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "sourceSize": {
+            "w": 683,
+            "h": 1024
+          }
+        }
+      },
+      "size": {
+        "w": 2048,
+        "h": 1024
+      }
+    },
+    {
+      "image": "characters_arthur_9377696f_3.png",
+      "frames": {
+        "arthur_angry_playrix_v2": {
+          "frame": {
+            "x": 685,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "sourceSize": {
+            "w": 683,
+            "h": 1024
+          }
+        },
+        "arthur_embarrassed_playrix_v2": {
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "sourceSize": {
+            "w": 683,
+            "h": 1024
+          }
+        }
+      },
+      "size": {
+        "w": 2048,
+        "h": 1024
+      }
+    }
+  ],
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "format": "RGBA8888",
+    "scale": "1",
+    "sourceDir": "images/characters/arthur",
+    "pageCount": 3,
+    "maxSize": 2048
+  }
+}

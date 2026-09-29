@@ -12,6 +12,21 @@
       ],
       "updatedAt": "2026-08-01T22:11:17.111055+00:00"
     },
+    "characters_alice": {
+      "sourceDir": "images/characters/alice",
+      "digest": "46c1a404879537a7a95c56d98ca77a5e6f534854c829a4f9031f151f10a8d1c0",
+      "outputs": [
+        "images/atlases/content/characters_alice_46c1a404_1.png",
+        "images/atlases/content/characters_alice_46c1a404_1.webp",
+        "images/atlases/content/characters_alice_46c1a404_2.png",
+        "images/atlases/content/characters_alice_46c1a404_2.webp",
+        "images/atlases/content/characters_alice_46c1a404_3.png",
+        "images/atlases/content/characters_alice_46c1a404_3.webp",
+        "images/atlases/content/characters_alice_46c1a404.json",
+        "images/atlases/content/characters_alice_46c1a404.webp.json"
+      ],
+      "updatedAt": "2026-09-29T20:45:15.443821+00:00"
+    },
     "characters_anna": {
       "sourceDir": "images/characters/anna",
       "digest": "0a24ed985154e406fd293efd08f3edf31ae9ef3f3783a126ccd0f2ab9f269e46",
@@ -23,6 +38,21 @@
       ],
       "updatedAt": "2026-08-01T22:11:25.812483+00:00"
     },
+    "characters_arthur": {
+      "sourceDir": "images/characters/arthur",
+      "digest": "9377696f8e3c70900c6836007e1f0fb4410d8fa71feeb0c76e7dc7afb75e8dee",
+      "outputs": [
+        "images/atlases/content/characters_arthur_9377696f_1.png",
+        "images/atlases/content/characters_arthur_9377696f_1.webp",
+        "images/atlases/content/characters_arthur_9377696f_2.png",
+        "images/atlases/content/characters_arthur_9377696f_2.webp",
+        "images/atlases/content/characters_arthur_9377696f_3.png",
+        "images/atlases/content/characters_arthur_9377696f_3.webp",
+        "images/atlases/content/characters_arthur_9377696f.json",
+        "images/atlases/content/characters_arthur_9377696f.webp.json"
+      ],
+      "updatedAt": "2026-09-29T20:45:44.049472+00:00"
+    },
     "characters_cat": {
       "sourceDir": "images/characters/cat",
       "digest": "8da4cb1683e8007641d51d18d8f922a92f05ca87b2b2b76e9ef0950400d09a37",
@@ -33,6 +63,19 @@
         "images/atlases/content/characters_cat_8da4cb16.webp.json"
       ],
       "updatedAt": "2026-08-01T22:11:29.112277+00:00"
+    },
+    "characters_claire": {
+      "sourceDir": "images/characters/claire",
+      "digest": "15b4cd3c6a060c860cc0a2e4acd8f39b15771d832eb4fa089116ae98f331cb02",
+      "outputs": [
+        "images/atlases/content/characters_claire_15b4cd3c_1.png",
+        "images/atlases/content/characters_claire_15b4cd3c_1.webp",
+        "images/atlases/content/characters_claire_15b4cd3c_2.png",
+        "images/atlases/content/characters_claire_15b4cd3c_2.webp",
+        "images/atlases/content/characters_claire_15b4cd3c.json",
+        "images/atlases/content/characters_claire_15b4cd3c.webp.json"
+      ],
+      "updatedAt": "2026-09-29T20:46:04.274279+00:00"
     },
     "characters_henry": {
       "sourceDir": "images/characters/henry",
@@ -66,6 +109,19 @@
         "images/atlases/content/characters_mary_182c262b.webp.json"
       ],
       "updatedAt": "2026-08-01T22:11:43.403355+00:00"
+    },
+    "characters_thomas": {
+      "sourceDir": "images/characters/thomas",
+      "digest": "7c421db482685dc44df56c820470243ee5c2f5446f855a2f91c7a4b9aec150f2",
+      "outputs": [
+        "images/atlases/content/characters_thomas_7c421db4_1.png",
+        "images/atlases/content/characters_thomas_7c421db4_1.webp",
+        "images/atlases/content/characters_thomas_7c421db4_2.png",
+        "images/atlases/content/characters_thomas_7c421db4_2.webp",
+        "images/atlases/content/characters_thomas_7c421db4.json",
+        "images/atlases/content/characters_thomas_7c421db4.webp.json"
+      ],
+      "updatedAt": "2026-09-29T20:46:24.333337+00:00"
     },
     "characters_victor": {
       "sourceDir": "images/characters/victor",
@@ -454,14 +510,14 @@
     },
     "ui_shop": {
       "sourceDir": "images/ui/shop",
-      "digest": "d26b15ad91089612ab0996d0c3a221bb0ad249f9adcde7ce82361abe6247a43d",
+      "digest": "9c18ed8fb96253b4a58ca2850d3dbed03b06ba41ffeeb90afa779e190caa9457",
       "outputs": [
-        "images/atlases/ui/ui_shop_d26b15ad.png",
-        "images/atlases/ui/ui_shop_d26b15ad.webp",
-        "images/atlases/ui/ui_shop_d26b15ad.json",
-        "images/atlases/ui/ui_shop_d26b15ad.webp.json"
+        "images/atlases/ui/ui_shop_9c18ed8f.png",
+        "images/atlases/ui/ui_shop_9c18ed8f.webp",
+        "images/atlases/ui/ui_shop_9c18ed8f.json",
+        "images/atlases/ui/ui_shop_9c18ed8f.webp.json"
       ],
-      "updatedAt": "2026-09-16T10:44:02.141780+00:00"
+      "updatedAt": "2026-09-29T20:46:35.220504+00:00"
     }
   }
 }

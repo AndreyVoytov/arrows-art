@@ -1,0 +1,231 @@
+{
+  "pages": [
+    {
+      "image": "characters_claire_15b4cd3c_1.png",
+      "frames": {
+        "claire_frown": {
+          "frame": {
+            "x": 1372,
+            "y": 1026,
+            "w": 341,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "sourceSize": {
+            "w": 341,
+            "h": 512
+          }
+        },
+        "claire_neutral": {
+          "frame": {
+            "x": 1029,
+            "y": 1026,
+            "w": 341,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "sourceSize": {
+            "w": 341,
+            "h": 512
+          }
+        },
+        "claire_neutral_plarix": {
+          "frame": {
+            "x": 686,
+            "y": 1026,
+            "w": 341,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "sourceSize": {
+            "w": 341,
+            "h": 512
+          }
+        },
+        "claire_sad": {
+          "frame": {
+            "x": 343,
+            "y": 1026,
+            "w": 341,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "sourceSize": {
+            "w": 341,
+            "h": 512
+          }
+        },
+        "claire_smirk": {
+          "frame": {
+            "x": 0,
+            "y": 1026,
+            "w": 341,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "sourceSize": {
+            "w": 341,
+            "h": 512
+          }
+        },
+        "claire_smirk_playrix_v2": {
+          "frame": {
+            "x": 685,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "sourceSize": {
+            "w": 683,
+            "h": 1024
+          }
+        },
+        "claire_surprised": {
+          "frame": {
+            "x": 1370,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 341,
+            "h": 512
+          },
+          "sourceSize": {
+            "w": 341,
+            "h": 512
+          }
+        },
+        "claire_surprised_playrix_v2": {
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "sourceSize": {
+            "w": 683,
+            "h": 1024
+          }
+        }
+      },
+      "size": {
+        "w": 2048,
+        "h": 1538
+      }
+    },
+    {
+      "image": "characters_claire_15b4cd3c_2.png",
+      "frames": {
+        "claire_frown_playrix_v2": {
+          "frame": {
+            "x": 685,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "sourceSize": {
+            "w": 683,
+            "h": 1024
+          }
+        },
+        "claire_sad_playrix_v2": {
+          "frame": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "rotated": false,
+          "trimmed": false,
+          "spriteSourceSize": {
+            "x": 0,
+            "y": 0,
+            "w": 683,
+            "h": 1024
+          },
+          "sourceSize": {
+            "w": 683,
+            "h": 1024
+          }
+        }
+      },
+      "size": {
+        "w": 2048,
+        "h": 1024
+      }
+    }
+  ],
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "format": "RGBA8888",
+    "scale": "1",
+    "sourceDir": "images/characters/claire",
+    "pageCount": 2,
+    "maxSize": 2048
+  }
+}

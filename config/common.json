@@ -7365,11 +7365,15 @@
   ],
   "atlas_hashes": {
     "characters_alex": "_302d2bd5",
+    "characters_alice": "_46c1a404",
     "characters_anna": "_0a24ed98",
+    "characters_arthur": "_9377696f",
     "characters_cat": "_8da4cb16",
+    "characters_claire": "_15b4cd3c",
     "characters_henry": "_8e3199d9",
     "characters_kate": "_c4b1c52a",
     "characters_mary": "_182c262b",
+    "characters_thomas": "_7c421db4",
     "characters_victor": "_6aed95b1",
     "level_themes_autumn": "_b7b39fad",
     "level_themes_spring": "_89770cbc",
@@ -7405,7 +7409,7 @@
     "ui_panel": "_6cbf767d",
     "ui_preloader": "_78d92328",
     "ui_room_preview": "_68b255d7",
-    "ui_shop": "_d26b15ad"
+    "ui_shop": "_9c18ed8f"
   },
   "constants": {
     "lifes_refill_price": 25,
@@ -7430,7 +7434,9 @@
     "superbooster_from_level": 0,
     "superbooster_levels_to_activate": 10,
     "superbooster_arrows_to_use": 4,
-    "level_of_day_from_level": 10
+    "level_of_day_from_level": 10,
+    "limited_stars_by_ads_from_level": 25,
+    "limited_stars_by_ads_every_level": 1
   },
   "sounds": [
     {
