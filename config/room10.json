@@ -1,0 +1,1517 @@
+{
+  "key": "room10",
+  "background": "room10_room_bg",
+  "atlases": [
+    "rooms_room10-repair",
+    "rooms_room10-surfaces",
+    "rooms_room10-decor"
+  ],
+  "content": {
+    "actionPointOrder": [
+      "room10_old_pendant_light",
+      "room10_old_kinetic_bird",
+      "room10_old_plant",
+      "room10_old_ergonomic_chair",
+      "room10_old_mechanism_cabinet",
+      "room10_old_window_seat_cushion",
+      "room10_pay_dialogue1",
+      "room10_old_desk_lamp",
+      "room10_old_panoramic_bay_window",
+      "room10_pay_dialogue2",
+      "room10_old_entrance_door",
+      "room10_old_modular_desk",
+      "room10_old_puzzle_safe",
+      "room10_old_display_shelf",
+      "room10_old_rug",
+      "room10_old_walls",
+      "room10_old_floor",
+      "room10_walls",
+      "room10_floor",
+      "room10_entrance_door",
+      "room10_pay_dialogue3",
+      "room10_panoramic_bay_window",
+      "room10_rug",
+      "room10_mechanism_cabinet",
+      "room10_window_seat_cushion",
+      "room10_modular_desk",
+      "room10_clock_installation",
+      "room10_pay_dialogue4",
+      "room10_display_shelf",
+      "room10_plant",
+      "room10_pendant_light",
+      "room10_desk_lamp",
+      "room10_ergonomic_chair",
+      "room10_puzzle_safe"
+    ]
+  },
+  "allActionPoints": [
+    {
+      "key": "room10_walls",
+      "type": "decor",
+      "name_key": "room10_walls_loc",
+      "multiobjects": [
+        "room10_walls",
+        "room10_walls_variant_2",
+        "room10_walls_variant_3"
+      ],
+      "x": 374,
+      "y": 334
+    },
+    {
+      "key": "room10_floor",
+      "type": "decor",
+      "name_key": "room10_floor_loc",
+      "multiobjects": [
+        "room10_floor",
+        "room10_floor_variant_2",
+        "room10_floor_variant_3"
+      ],
+      "x": 514,
+      "y": 600
+    },
+    {
+      "key": "room10_panoramic_bay_window",
+      "type": "decor",
+      "name_key": "room10_panoramic_bay_window_loc",
+      "multiobjects": [
+        "room10_panoramic_bay_window",
+        "room10_panoramic_bay_window_variant_2",
+        "room10_panoramic_bay_window_variant_3"
+      ],
+      "x": 543.5,
+      "y": 407.5
+    },
+    {
+      "key": "room10_window_seat_cushion",
+      "type": "decor",
+      "name_key": "room10_window_seat_cushion_loc",
+      "multiobjects": [
+        "room10_window_seat_cushion",
+        "room10_window_seat_cushion_variant_2",
+        "room10_window_seat_cushion_variant_3"
+      ],
+      "x": 518,
+      "y": 483
+    },
+    {
+      "key": "room10_display_shelf",
+      "type": "decor",
+      "name_key": "room10_display_shelf_loc",
+      "multiobjects": [
+        "room10_display_shelf",
+        "room10_display_shelf_variant_2",
+        "room10_display_shelf_variant_3"
+      ],
+      "x": 324,
+      "y": 423.5
+    },
+    {
+      "key": "room10_mechanism_cabinet",
+      "type": "decor",
+      "name_key": "room10_mechanism_cabinet_loc",
+      "multiobjects": [
+        "room10_mechanism_cabinet",
+        "room10_mechanism_cabinet_variant_2",
+        "room10_mechanism_cabinet_variant_3"
+      ],
+      "x": 211.5,
+      "y": 456.5
+    },
+    {
+      "key": "room10_entrance_door",
+      "type": "decor",
+      "name_key": "room10_entrance_door_loc",
+      "multiobjects": [
+        "room10_entrance_door",
+        "room10_entrance_door_variant_2",
+        "room10_entrance_door_variant_3"
+      ],
+      "x": 142.5,
+      "y": 428
+    },
+    {
+      "key": "room10_rug",
+      "type": "decor",
+      "name_key": "room10_rug_loc",
+      "multiobjects": [
+        "room10_rug",
+        "room10_rug_variant_2",
+        "room10_rug_variant_3"
+      ],
+      "x": 548,
+      "y": 680.5
+    },
+    {
+      "key": "room10_plant",
+      "type": "decor",
+      "name_key": "room10_plant_loc",
+      "multiobjects": [
+        "room10_plant",
+        "room10_plant_variant_2",
+        "room10_plant_variant_3"
+      ],
+      "x": 592.5,
+      "y": 583.5
+    },
+    {
+      "key": "room10_modular_desk",
+      "type": "decor",
+      "name_key": "room10_modular_desk_loc",
+      "multiobjects": [
+        "room10_modular_desk",
+        "room10_modular_desk_variant_2",
+        "room10_modular_desk_variant_3"
+      ],
+      "x": 359.5,
+      "y": 605.5
+    },
+    {
+      "key": "room10_desk_lamp",
+      "type": "decor",
+      "name_key": "room10_desk_lamp_loc",
+      "multiobjects": [
+        "room10_desk_lamp",
+        "room10_desk_lamp_variant_2",
+        "room10_desk_lamp_variant_3"
+      ],
+      "x": 267,
+      "y": 599
+    },
+    {
+      "key": "room10_puzzle_safe",
+      "type": "decor",
+      "name_key": "room10_puzzle_safe_loc",
+      "multiobjects": [
+        "room10_puzzle_safe",
+        "room10_puzzle_safe_variant_2",
+        "room10_puzzle_safe_variant_3"
+      ],
+      "x": 406,
+      "y": 529.5
+    },
+    {
+      "key": "room10_ergonomic_chair",
+      "type": "decor",
+      "name_key": "room10_ergonomic_chair_loc",
+      "multiobjects": [
+        "room10_ergonomic_chair",
+        "room10_ergonomic_chair_variant_2",
+        "room10_ergonomic_chair_variant_3"
+      ],
+      "x": 456,
+      "y": 699.5
+    },
+    {
+      "key": "room10_clock_installation",
+      "type": "decor",
+      "name_key": "room10_clock_installation_loc",
+      "multiobjects": [
+        "room10_clock_installation",
+        "room10_clock_installation_variant_2",
+        "room10_clock_installation_variant_3"
+      ],
+      "x": 529.5,
+      "y": 195.5
+    },
+    {
+      "key": "room10_pendant_light",
+      "type": "decor",
+      "name_key": "room10_pendant_light_loc",
+      "multiobjects": [
+        "room10_pendant_light",
+        "room10_pendant_light_variant_2",
+        "room10_pendant_light_variant_3"
+      ],
+      "x": 345,
+      "y": 172
+    },
+    {
+      "key": "room10_old_floor",
+      "type": "repair",
+      "name_key": "room10_old_floor_loc",
+      "multiobjects": [
+        "room10_old_floor"
+      ],
+      "x": 493,
+      "y": 605
+    },
+    {
+      "key": "room10_old_walls",
+      "type": "repair",
+      "name_key": "room10_old_walls_loc",
+      "multiobjects": [
+        "room10_old_walls"
+      ],
+      "x": 360,
+      "y": 352.5
+    },
+    {
+      "key": "room10_old_rug",
+      "type": "repair",
+      "name_key": "room10_old_rug_loc",
+      "multiobjects": [
+        "room10_old_rug"
+      ],
+      "x": 235.5,
+      "y": 731.5
+    },
+    {
+      "key": "room10_old_entrance_door",
+      "type": "repair",
+      "name_key": "room10_old_entrance_door_loc",
+      "multiobjects": [
+        "room10_old_entrance_door"
+      ],
+      "x": 146,
+      "y": 448.5
+    },
+    {
+      "key": "room10_old_puzzle_safe",
+      "type": "repair",
+      "name_key": "room10_old_puzzle_safe_loc",
+      "multiobjects": [
+        "room10_old_puzzle_safe"
+      ],
+      "x": 356,
+      "y": 471.5
+    },
+    {
+      "key": "room10_old_display_shelf",
+      "type": "repair",
+      "name_key": "room10_old_display_shelf_loc",
+      "multiobjects": [
+        "room10_old_display_shelf"
+      ],
+      "x": 307,
+      "y": 232.5
+    },
+    {
+      "key": "room10_old_mechanism_cabinet",
+      "type": "repair",
+      "name_key": "room10_old_mechanism_cabinet_loc",
+      "multiobjects": [
+        "room10_old_mechanism_cabinet"
+      ],
+      "x": 227,
+      "y": 463
+    },
+    {
+      "key": "room10_old_kinetic_bird",
+      "type": "repair",
+      "name_key": "room10_old_kinetic_bird_loc",
+      "multiobjects": [
+        "room10_old_kinetic_bird"
+      ],
+      "x": 170,
+      "y": 646.5
+    },
+    {
+      "key": "room10_old_modular_desk",
+      "type": "repair",
+      "name_key": "room10_old_modular_desk_loc",
+      "multiobjects": [
+        "room10_old_modular_desk"
+      ],
+      "x": 286.5,
+      "y": 642
+    },
+    {
+      "key": "room10_old_desk_lamp",
+      "type": "repair",
+      "name_key": "room10_old_desk_lamp_loc",
+      "multiobjects": [
+        "room10_old_desk_lamp"
+      ],
+      "x": 306,
+      "y": 556
+    },
+    {
+      "key": "room10_old_panoramic_bay_window",
+      "type": "repair",
+      "name_key": "room10_old_panoramic_bay_window_loc",
+      "multiobjects": [
+        "room10_old_panoramic_bay_window"
+      ],
+      "x": 543,
+      "y": 408
+    },
+    {
+      "key": "room10_old_window_seat_cushion",
+      "type": "repair",
+      "name_key": "room10_old_window_seat_cushion_loc",
+      "multiobjects": [
+        "room10_old_window_seat_cushion"
+      ],
+      "x": 512.5,
+      "y": 496
+    },
+    {
+      "key": "room10_old_ergonomic_chair",
+      "type": "repair",
+      "name_key": "room10_old_ergonomic_chair_loc",
+      "multiobjects": [
+        "room10_old_ergonomic_chair"
+      ],
+      "x": 438,
+      "y": 679.5
+    },
+    {
+      "key": "room10_old_plant",
+      "type": "repair",
+      "name_key": "room10_old_plant_loc",
+      "multiobjects": [
+        "room10_old_plant"
+      ],
+      "x": 574,
+      "y": 591.5
+    },
+    {
+      "key": "room10_old_pendant_light",
+      "type": "repair",
+      "name_key": "room10_old_pendant_light_loc",
+      "multiobjects": [
+        "room10_old_pendant_light"
+      ],
+      "x": 425,
+      "y": 165
+    },
+    {
+      "key": "room10_pay_dialogue1",
+      "type": "dialog",
+      "dialogId": "",
+      "name_key": "",
+      "multiobject": "",
+      "price": 90,
+      "priceType": "coins",
+      "x": 358,
+      "y": 700
+    },
+    {
+      "key": "room10_pay_dialogue2",
+      "type": "dialog",
+      "dialogId": "",
+      "name_key": "",
+      "multiobject": "",
+      "price": 260,
+      "priceType": "coins",
+      "x": 358,
+      "y": 700
+    },
+    {
+      "key": "room10_pay_dialogue3",
+      "type": "dialog",
+      "dialogId": "",
+      "name_key": "",
+      "multiobject": "",
+      "price": 505,
+      "priceType": "coins",
+      "x": 358,
+      "y": 700
+    },
+    {
+      "key": "room10_pay_dialogue4",
+      "type": "dialog",
+      "dialogId": "",
+      "name_key": "",
+      "multiobject": "",
+      "price": 10,
+      "priceType": "diamonds",
+      "x": 358,
+      "y": 700
+    }
+  ],
+  "allMultiobjects": [
+    {
+      "key": "room10_walls",
+      "parts": [
+        "room10_walls_A"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room10_walls_variant_2",
+      "parts": [
+        "room10_walls_B"
+      ],
+      "price": 90,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_walls_variant_3",
+      "parts": [
+        "room10_walls_C"
+      ],
+      "price": 710,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_floor",
+      "parts": [
+        "room10_floor_A"
+      ],
+      "price": 645,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_floor_variant_2",
+      "parts": [
+        "room10_floor_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room10_floor_variant_3",
+      "parts": [
+        "room10_floor_C"
+      ],
+      "price": 515,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_panoramic_bay_window",
+      "parts": [
+        "room10_panoramic_bay_window_A"
+      ],
+      "price": 90,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_panoramic_bay_window_variant_2",
+      "parts": [
+        "room10_panoramic_bay_window_B"
+      ],
+      "price": 90,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_panoramic_bay_window_variant_3",
+      "parts": [
+        "room10_panoramic_bay_window_C"
+      ],
+      "price": 90,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_window_seat_cushion",
+      "parts": [
+        "room10_window_seat_cushion_A"
+      ],
+      "price": 535,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_window_seat_cushion_variant_2",
+      "parts": [
+        "room10_window_seat_cushion_B"
+      ],
+      "price": 645,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_window_seat_cushion_variant_3",
+      "parts": [
+        "room10_window_seat_cushion_C"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room10_display_shelf",
+      "parts": [
+        "room10_display_shelf_A"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_display_shelf_variant_2",
+      "parts": [
+        "room10_display_shelf_B"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_display_shelf_variant_3",
+      "parts": [
+        "room10_display_shelf_C"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_mechanism_cabinet",
+      "parts": [
+        "room10_mechanism_cabinet_A_1",
+        "room10_mechanism_cabinet_A_2"
+      ],
+      "price": 645,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_mechanism_cabinet_variant_2",
+      "parts": [
+        "room10_mechanism_cabinet_B_1",
+        "room10_mechanism_cabinet_B_2"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room10_mechanism_cabinet_variant_3",
+      "parts": [
+        "room10_mechanism_cabinet_C_1",
+        "room10_mechanism_cabinet_C_2"
+      ],
+      "price": 515,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_entrance_door",
+      "parts": [
+        "room10_entrance_door_A"
+      ],
+      "price": 645,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_entrance_door_variant_2",
+      "parts": [
+        "room10_entrance_door_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room10_entrance_door_variant_3",
+      "parts": [
+        "room10_entrance_door_C"
+      ],
+      "price": 465,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_rug",
+      "parts": [
+        "room10_rug_A"
+      ],
+      "price": 590,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_rug_variant_2",
+      "parts": [
+        "room10_rug_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room10_rug_variant_3",
+      "parts": [
+        "room10_rug_C"
+      ],
+      "price": 645,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_plant",
+      "parts": [
+        "room10_plant_A"
+      ],
+      "price": 700,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_plant_variant_2",
+      "parts": [
+        "room10_plant_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room10_plant_variant_3",
+      "parts": [
+        "room10_plant_C"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_modular_desk",
+      "parts": [
+        "room10_modular_desk_A"
+      ],
+      "price": 535,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_modular_desk_variant_2",
+      "parts": [
+        "room10_modular_desk_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room10_modular_desk_variant_3",
+      "parts": [
+        "room10_modular_desk_C"
+      ],
+      "price": 645,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_desk_lamp",
+      "parts": [
+        "room10_desk_lamp_A_2",
+        "room10_desk_lamp_A_1"
+      ],
+      "price": 700,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_desk_lamp_variant_2",
+      "parts": [
+        "room10_desk_lamp_B_2",
+        "room10_desk_lamp_B_1"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room10_desk_lamp_variant_3",
+      "parts": [
+        "room10_desk_lamp_C_2",
+        "room10_desk_lamp_C_1"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_puzzle_safe",
+      "parts": [
+        "room10_puzzle_safe_A_3",
+        "room10_puzzle_safe_A_2",
+        "room10_puzzle_safe_A_1"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room10_puzzle_safe_variant_2",
+      "parts": [
+        "room10_puzzle_safe_B_3",
+        "room10_puzzle_safe_B_2",
+        "room10_puzzle_safe_B_1"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_puzzle_safe_variant_3",
+      "parts": [
+        "room10_puzzle_safe_C_3",
+        "room10_puzzle_safe_C_2",
+        "room10_puzzle_safe_C_1"
+      ],
+      "price": 700,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_ergonomic_chair",
+      "parts": [
+        "room10_ergonomic_chair_A"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_ergonomic_chair_variant_2",
+      "parts": [
+        "room10_ergonomic_chair_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room10_ergonomic_chair_variant_3",
+      "parts": [
+        "room10_ergonomic_chair_C"
+      ],
+      "price": 700,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_clock_installation",
+      "parts": [
+        "room10_clock_installation_A"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_clock_installation_variant_2",
+      "parts": [
+        "room10_clock_installation_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room10_clock_installation_variant_3",
+      "parts": [
+        "room10_clock_installation_C"
+      ],
+      "price": 700,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_pendant_light",
+      "parts": [
+        "room10_pendant_light_A"
+      ],
+      "price": 700,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_pendant_light_variant_2",
+      "parts": [
+        "room10_pendant_light_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room10_pendant_light_variant_3",
+      "parts": [
+        "room10_pendant_light_C"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_old_floor",
+      "parts": [
+        "room10_old_floor"
+      ],
+      "price": 210,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_old_walls",
+      "parts": [
+        "room10_old_walls"
+      ],
+      "price": 230,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_old_rug",
+      "parts": [
+        "room10_old_rug"
+      ],
+      "price": 210,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_old_entrance_door",
+      "parts": [
+        "room10_old_entrance_door"
+      ],
+      "price": 210,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_old_puzzle_safe",
+      "parts": [
+        "room10_old_puzzle_safe_2",
+        "room10_old_puzzle_safe_1"
+      ],
+      "price": 210,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_old_display_shelf",
+      "parts": [
+        "room10_old_display_shelf"
+      ],
+      "price": 200,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_old_mechanism_cabinet",
+      "parts": [
+        "room10_old_mechanism_cabinet"
+      ],
+      "price": 210,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_old_kinetic_bird",
+      "parts": [
+        "room10_old_kinetic_bird"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_old_modular_desk",
+      "parts": [
+        "room10_old_modular_desk"
+      ],
+      "price": 235,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_old_desk_lamp",
+      "parts": [
+        "room10_old_desk_lamp_1",
+        "room10_old_desk_lamp_2"
+      ],
+      "price": 205,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_old_panoramic_bay_window",
+      "parts": [
+        "room10_old_panoramic_bay_window"
+      ],
+      "price": 245,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_old_window_seat_cushion",
+      "parts": [
+        "room10_old_window_seat_cushion"
+      ],
+      "price": 230,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_old_ergonomic_chair",
+      "parts": [
+        "room10_old_ergonomic_chair"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_old_plant",
+      "parts": [
+        "room10_old_plant"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room10_old_pendant_light",
+      "parts": [
+        "room10_old_pendant_light"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    }
+  ],
+  "allPartsOrderComment": "Порядок слоёв по z: от заднего плана к переднему; меняется в decor-viewer.",
+  "depthOrderEdited": true,
+  "allParts": [
+    {
+      "key": "room10_walls_A",
+      "type": "decor",
+      "atlas_name": "rooms_room10-surfaces",
+      "x": 360,
+      "y": 347,
+      "angle": null
+    },
+    {
+      "key": "room10_walls_B",
+      "type": "decor",
+      "atlas_name": "rooms_room10-surfaces",
+      "x": 360,
+      "y": 347,
+      "angle": null
+    },
+    {
+      "key": "room10_walls_C",
+      "type": "decor",
+      "atlas_name": "rooms_room10-surfaces",
+      "x": 360,
+      "y": 347,
+      "angle": null
+    },
+    {
+      "key": "room10_floor_A",
+      "type": "decor",
+      "atlas_name": "rooms_room10-surfaces",
+      "x": 360,
+      "y": 716,
+      "angle": null
+    },
+    {
+      "key": "room10_floor_B",
+      "type": "decor",
+      "atlas_name": "rooms_room10-surfaces",
+      "x": 360,
+      "y": 716,
+      "angle": null
+    },
+    {
+      "key": "room10_floor_C",
+      "type": "decor",
+      "atlas_name": "rooms_room10-surfaces",
+      "x": 360,
+      "y": 716,
+      "angle": null
+    },
+    {
+      "key": "room10_panoramic_bay_window_A",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 543.5,
+      "y": 407.5,
+      "angle": 45
+    },
+    {
+      "key": "room10_panoramic_bay_window_B",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 542.5,
+      "y": 407.5,
+      "angle": 45
+    },
+    {
+      "key": "room10_panoramic_bay_window_C",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 540.5,
+      "y": 403,
+      "angle": 45
+    },
+    {
+      "key": "room10_window_seat_cushion_A",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 518,
+      "y": 483,
+      "angle": 180
+    },
+    {
+      "key": "room10_window_seat_cushion_B",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 520,
+      "y": 489,
+      "angle": 180
+    },
+    {
+      "key": "room10_window_seat_cushion_C",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 513.5,
+      "y": 489.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_display_shelf_A",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 319,
+      "y": 386.5,
+      "angle": 315
+    },
+    {
+      "key": "room10_display_shelf_B",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 319,
+      "y": 386.5,
+      "angle": 315
+    },
+    {
+      "key": "room10_display_shelf_C",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 319,
+      "y": 386.5,
+      "angle": 315
+    },
+    {
+      "key": "room10_mechanism_cabinet_A_1",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 211.5,
+      "y": 456.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_mechanism_cabinet_A_2",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 209,
+      "y": 304.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_mechanism_cabinet_B_1",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 211.5,
+      "y": 456.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_mechanism_cabinet_B_2",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 209,
+      "y": 304.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_mechanism_cabinet_C_1",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 211.5,
+      "y": 456.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_mechanism_cabinet_C_2",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 209,
+      "y": 304.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_entrance_door_A",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 87.5,
+      "y": 480,
+      "angle": 315
+    },
+    {
+      "key": "room10_entrance_door_B",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 87.5,
+      "y": 480,
+      "angle": 315
+    },
+    {
+      "key": "room10_entrance_door_C",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 87.5,
+      "y": 480,
+      "angle": 315
+    },
+    {
+      "key": "room10_rug_A",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 361,
+      "y": 725.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_rug_B",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 367.5,
+      "y": 718.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_rug_C",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 364.5,
+      "y": 722.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_plant_A",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 657.5,
+      "y": 619.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_plant_B",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 657.5,
+      "y": 619.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_plant_C",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 657.5,
+      "y": 619.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_modular_desk_A",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 343.5,
+      "y": 679.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_modular_desk_B",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 343.5,
+      "y": 681,
+      "angle": 180
+    },
+    {
+      "key": "room10_modular_desk_C",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 343.5,
+      "y": 679,
+      "angle": 180
+    },
+    {
+      "key": "room10_desk_lamp_A_2",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 274,
+      "y": 598,
+      "angle": 180
+    },
+    {
+      "key": "room10_desk_lamp_A_1",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 358,
+      "y": 600,
+      "angle": 180
+    },
+    {
+      "key": "room10_desk_lamp_B_2",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 275.5,
+      "y": 596.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_desk_lamp_B_1",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 346.5,
+      "y": 608.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_desk_lamp_C_2",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 275.5,
+      "y": 596,
+      "angle": 180
+    },
+    {
+      "key": "room10_desk_lamp_C_1",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 344,
+      "y": 607,
+      "angle": 180
+    },
+    {
+      "key": "room10_puzzle_safe_A_3",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 217,
+      "y": 622.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_puzzle_safe_A_2",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 444,
+      "y": 549.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_puzzle_safe_A_1",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 399.5,
+      "y": 510.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_puzzle_safe_B_3",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 217,
+      "y": 621,
+      "angle": 180
+    },
+    {
+      "key": "room10_puzzle_safe_B_2",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 444,
+      "y": 549.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_puzzle_safe_B_1",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 382,
+      "y": 510.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_puzzle_safe_C_3",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 217,
+      "y": 620,
+      "angle": 180
+    },
+    {
+      "key": "room10_puzzle_safe_C_2",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 444,
+      "y": 549,
+      "angle": 180
+    },
+    {
+      "key": "room10_puzzle_safe_C_1",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 383.5,
+      "y": 509,
+      "angle": 180
+    },
+    {
+      "key": "room10_ergonomic_chair_A",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 423,
+      "y": 709.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_ergonomic_chair_B",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 423,
+      "y": 715.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_ergonomic_chair_C",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 423,
+      "y": 718.5,
+      "angle": 180
+    },
+    {
+      "key": "room10_clock_installation_A",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 529.5,
+      "y": 195.5,
+      "angle": 45
+    },
+    {
+      "key": "room10_clock_installation_B",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 532.5,
+      "y": 197.5,
+      "angle": 45
+    },
+    {
+      "key": "room10_clock_installation_C",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 533,
+      "y": 198.5,
+      "angle": 45
+    },
+    {
+      "key": "room10_pendant_light_A",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 345,
+      "y": 172,
+      "angle": null
+    },
+    {
+      "key": "room10_pendant_light_B",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 345.5,
+      "y": 173,
+      "angle": null
+    },
+    {
+      "key": "room10_pendant_light_C",
+      "type": "decor",
+      "atlas_name": "rooms_room10-decor",
+      "x": 345.5,
+      "y": 173,
+      "angle": null
+    },
+    {
+      "key": "room10_old_floor",
+      "type": "repair",
+      "atlas_name": "rooms_room10-repair",
+      "x": 360,
+      "y": 717,
+      "angle": 0
+    },
+    {
+      "key": "room10_old_walls",
+      "type": "repair",
+      "atlas_name": "rooms_room10-repair",
+      "x": 360,
+      "y": 352.5,
+      "angle": null
+    },
+    {
+      "key": "room10_old_rug",
+      "type": "repair",
+      "atlas_name": "rooms_room10-repair",
+      "x": 353.5,
+      "y": 728.5,
+      "angle": 0
+    },
+    {
+      "key": "room10_old_entrance_door",
+      "type": "repair",
+      "atlas_name": "rooms_room10-repair",
+      "x": 84,
+      "y": 474.5,
+      "angle": 135
+    },
+    {
+      "key": "room10_old_puzzle_safe_2",
+      "type": "repair",
+      "atlas_name": "rooms_room10-repair",
+      "x": 335,
+      "y": 500.5,
+      "angle": 135
+    },
+    {
+      "key": "room10_old_puzzle_safe_1",
+      "type": "repair",
+      "atlas_name": "rooms_room10-repair",
+      "x": 400.5,
+      "y": 548.5,
+      "angle": 0
+    },
+    {
+      "key": "room10_old_display_shelf",
+      "type": "repair",
+      "atlas_name": "rooms_room10-repair",
+      "x": 307,
+      "y": 232.5,
+      "angle": 135
+    },
+    {
+      "key": "room10_old_mechanism_cabinet",
+      "type": "repair",
+      "atlas_name": "rooms_room10-repair",
+      "x": 227,
+      "y": 463,
+      "angle": 135
+    },
+    {
+      "key": "room10_old_kinetic_bird",
+      "type": "repair",
+      "atlas_name": "rooms_room10-repair",
+      "x": 186,
+      "y": 679.5,
+      "angle": 0
+    },
+    {
+      "key": "room10_old_modular_desk",
+      "type": "repair",
+      "atlas_name": "rooms_room10-repair",
+      "x": 345.5,
+      "y": 683,
+      "angle": 0
+    },
+    {
+      "key": "room10_old_desk_lamp_1",
+      "type": "repair",
+      "atlas_name": "rooms_room10-repair",
+      "x": 304,
+      "y": 610,
+      "angle": 0
+    },
+    {
+      "key": "room10_old_desk_lamp_2",
+      "type": "repair",
+      "atlas_name": "rooms_room10-repair",
+      "x": 369,
+      "y": 615.5,
+      "angle": 0
+    },
+    {
+      "key": "room10_old_panoramic_bay_window",
+      "type": "repair",
+      "atlas_name": "rooms_room10-repair",
+      "x": 543,
+      "y": 408,
+      "angle": 225
+    },
+    {
+      "key": "room10_old_window_seat_cushion",
+      "type": "repair",
+      "atlas_name": "rooms_room10-repair",
+      "x": 512.5,
+      "y": 496,
+      "angle": 0
+    },
+    {
+      "key": "room10_old_ergonomic_chair",
+      "type": "repair",
+      "atlas_name": "rooms_room10-repair",
+      "x": 405,
+      "y": 723.5,
+      "angle": 0
+    },
+    {
+      "key": "room10_old_plant",
+      "type": "repair",
+      "atlas_name": "rooms_room10-repair",
+      "x": 644,
+      "y": 627.5,
+      "angle": 0
+    },
+    {
+      "key": "room10_old_pendant_light",
+      "type": "repair",
+      "atlas_name": "rooms_room10-repair",
+      "x": 425,
+      "y": 165,
+      "angle": null
+    }
+  ],
+  "sourcePsdRevision": "cf2a61c2c22cc9738c7a583fb07c354b3f60fd459904b9e6166af4361e1086f4",
+  "award": 50
+}

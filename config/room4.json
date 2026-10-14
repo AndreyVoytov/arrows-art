@@ -25,8 +25,8 @@
       "room4_old_dining_table",
       "room4_old_rug",
       "room4_old_fridge",
-      "room4_old_floor",
       "room4_old_wall1",
+      "room4_old_floor",
       "room4_old_wall2",
       "room4_floor",
       "room4_walls",
@@ -72,8 +72,8 @@
         "room4_floor_variant_2",
         "room4_floor_variant_3"
       ],
-      "x": 405,
-      "y": 702
+      "x": 226,
+      "y": 656
     },
     {
       "key": "room4_rug",
@@ -84,20 +84,8 @@
         "room4_rug_variant_2",
         "room4_rug_variant_3"
       ],
-      "x": 309.5,
+      "x": 463.5,
       "y": 698
-    },
-    {
-      "key": "room4_cabinet_second",
-      "type": "decor",
-      "name_key": "room4_cabinet_second_loc",
-      "multiobjects": [
-        "room4_cabinet_second",
-        "room4_cabinet_second_variant_2",
-        "room4_cabinet_second_variant_3"
-      ],
-      "x": 304.5,
-      "y": 452.5
     },
     {
       "key": "room4_window",
@@ -112,6 +100,18 @@
       "y": 310.5
     },
     {
+      "key": "room4_cabinet_second",
+      "type": "decor",
+      "name_key": "room4_cabinet_second_loc",
+      "multiobjects": [
+        "room4_cabinet_second",
+        "room4_cabinet_second_variant_2",
+        "room4_cabinet_second_variant_3"
+      ],
+      "x": 304.5,
+      "y": 452.5
+    },
+    {
       "key": "room4_kitchen_sink",
       "type": "decor",
       "name_key": "room4_kitchen_sink_loc",
@@ -120,8 +120,8 @@
         "room4_kitchen_sink_variant_2",
         "room4_kitchen_sink_variant_3"
       ],
-      "x": 160.5,
-      "y": 532.5
+      "x": 205.5,
+      "y": 499.5
     },
     {
       "key": "room4_stove",
@@ -148,18 +148,6 @@
       "y": 528
     },
     {
-      "key": "room4_dish_cabinet",
-      "type": "decor",
-      "name_key": "room4_dish_cabinet_loc",
-      "multiobjects": [
-        "room4_dish_cabinet",
-        "room4_dish_cabinet_variant_2",
-        "room4_dish_cabinet_variant_3"
-      ],
-      "x": 64.5,
-      "y": 363
-    },
-    {
       "key": "room4_chairs",
       "type": "decor",
       "name_key": "room4_chairs_loc",
@@ -180,8 +168,8 @@
         "room4_dining_table_variant_2",
         "room4_dining_table_variant_3"
       ],
-      "x": 294,
-      "y": 611
+      "x": 300,
+      "y": 595
     },
     {
       "key": "room4_table_flowers",
@@ -240,8 +228,8 @@
         "room4_fridge_variant_2",
         "room4_fridge_variant_3"
       ],
-      "x": 638.5,
-      "y": 535.5
+      "x": 582.5,
+      "y": 458.5
     },
     {
       "key": "room4_cabinet_first",
@@ -252,8 +240,20 @@
         "room4_cabinet_first_variant_2",
         "room4_cabinet_first_variant_3"
       ],
-      "x": 82.5,
-      "y": 573
+      "x": 144.5,
+      "y": 590
+    },
+    {
+      "key": "room4_dish_cabinet",
+      "type": "decor",
+      "name_key": "room4_dish_cabinet_loc",
+      "multiobjects": [
+        "room4_dish_cabinet",
+        "room4_dish_cabinet_variant_2",
+        "room4_dish_cabinet_variant_3"
+      ],
+      "x": 121.5,
+      "y": 400
     },
     {
       "key": "room4_pendant_lamps",
@@ -364,8 +364,8 @@
       "multiobjects": [
         "room4_old_dish_cabinet"
       ],
-      "x": 68,
-      "y": 373.5
+      "x": 127,
+      "y": 392.5
     },
     {
       "key": "room4_old_chairs",
@@ -384,8 +384,8 @@
       "multiobjects": [
         "room4_old_cabinet_right"
       ],
-      "x": 531.5,
-      "y": 515.5
+      "x": 520.5,
+      "y": 489.5
     },
     {
       "key": "room4_old_cabinet left",
@@ -394,8 +394,8 @@
       "multiobjects": [
         "room4_old_cabinet left"
       ],
-      "x": 109,
-      "y": 581
+      "x": 140,
+      "y": 598
     },
     {
       "key": "room4_old_dining_table",
@@ -414,18 +414,8 @@
       "multiobjects": [
         "room4_old_fridge"
       ],
-      "x": 640.5,
+      "x": 585.5,
       "y": 546
-    },
-    {
-      "key": "room4_old_flowers",
-      "type": "repair",
-      "name_key": "room4_old_flowers_loc",
-      "multiobjects": [
-        "room4_old_flowers"
-      ],
-      "x": 365.5,
-      "y": 570
     },
     {
       "key": "room4_old_utensil_set",
@@ -436,6 +426,16 @@
       ],
       "x": 296,
       "y": 301
+    },
+    {
+      "key": "room4_old_flowers",
+      "type": "repair",
+      "name_key": "room4_old_flowers_loc",
+      "multiobjects": [
+        "room4_old_flowers"
+      ],
+      "x": 365.5,
+      "y": 570
     },
     {
       "key": "room4_old_pendant_lamps",
@@ -496,8 +496,8 @@
     {
       "key": "room4_walls",
       "parts": [
-        "room4_walls_A_1",
-        "room4_walls_A_2"
+        "room4_walls_A_2",
+        "room4_walls_A_1"
       ],
       "price": 750,
       "priceType": "coins"
@@ -505,8 +505,8 @@
     {
       "key": "room4_walls_variant_2",
       "parts": [
-        "room4_walls_B_1",
-        "room4_walls_B_2"
+        "room4_walls_B_2",
+        "room4_walls_B_1"
       ],
       "price": 980,
       "priceType": "coins"
@@ -514,8 +514,8 @@
     {
       "key": "room4_walls_variant_3",
       "parts": [
-        "room4_walls_C_1",
-        "room4_walls_C_2"
+        "room4_walls_C_2",
+        "room4_walls_C_1"
       ],
       "price": 40,
       "priceType": "diamonds"
@@ -569,30 +569,6 @@
       "priceType": "coins"
     },
     {
-      "key": "room4_cabinet_second",
-      "parts": [
-        "room4_cabinet_second_A"
-      ],
-      "price": 650,
-      "priceType": "coins"
-    },
-    {
-      "key": "room4_cabinet_second_variant_2",
-      "parts": [
-        "room4_cabinet_second_B"
-      ],
-      "price": 25,
-      "priceType": "diamonds"
-    },
-    {
-      "key": "room4_cabinet_second_variant_3",
-      "parts": [
-        "room4_cabinet_second_C"
-      ],
-      "price": 850,
-      "priceType": "coins"
-    },
-    {
       "key": "room4_window",
       "parts": [
         "room4_window_A"
@@ -614,6 +590,30 @@
         "room4_window_C"
       ],
       "price": 600,
+      "priceType": "coins"
+    },
+    {
+      "key": "room4_cabinet_second",
+      "parts": [
+        "room4_cabinet_second_A"
+      ],
+      "price": 650,
+      "priceType": "coins"
+    },
+    {
+      "key": "room4_cabinet_second_variant_2",
+      "parts": [
+        "room4_cabinet_second_B"
+      ],
+      "price": 25,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room4_cabinet_second_variant_3",
+      "parts": [
+        "room4_cabinet_second_C"
+      ],
+      "price": 850,
       "priceType": "coins"
     },
     {
@@ -689,34 +689,10 @@
       "priceType": "diamonds"
     },
     {
-      "key": "room4_dish_cabinet",
-      "parts": [
-        "room4_dish_cabinet_A"
-      ],
-      "price": 25,
-      "priceType": "diamonds"
-    },
-    {
-      "key": "room4_dish_cabinet_variant_2",
-      "parts": [
-        "room4_dish_cabinet_B"
-      ],
-      "price": 720,
-      "priceType": "coins"
-    },
-    {
-      "key": "room4_dish_cabinet_variant_3",
-      "parts": [
-        "room4_dish_cabinet_C"
-      ],
-      "price": 550,
-      "priceType": "coins"
-    },
-    {
       "key": "room4_chairs",
       "parts": [
-        "room4_chairs_A_1",
-        "room4_chairs_A_2"
+        "room4_chairs_A_2",
+        "room4_chairs_A_1"
       ],
       "price": 25,
       "priceType": "diamonds"
@@ -724,8 +700,8 @@
     {
       "key": "room4_chairs_variant_2",
       "parts": [
-        "room4_chairs_B_1",
-        "room4_chairs_B_2"
+        "room4_chairs_B_2",
+        "room4_chairs_B_1"
       ],
       "price": 720,
       "priceType": "coins"
@@ -733,8 +709,8 @@
     {
       "key": "room4_chairs_variant_3",
       "parts": [
-        "room4_chairs_C_1",
-        "room4_chairs_C_2"
+        "room4_chairs_C_2",
+        "room4_chairs_C_1"
       ],
       "price": 550,
       "priceType": "coins"
@@ -908,6 +884,30 @@
       "priceType": "coins"
     },
     {
+      "key": "room4_dish_cabinet",
+      "parts": [
+        "room4_dish_cabinet_A"
+      ],
+      "price": 25,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room4_dish_cabinet_variant_2",
+      "parts": [
+        "room4_dish_cabinet_B"
+      ],
+      "price": 720,
+      "priceType": "coins"
+    },
+    {
+      "key": "room4_dish_cabinet_variant_3",
+      "parts": [
+        "room4_dish_cabinet_C"
+      ],
+      "price": 550,
+      "priceType": "coins"
+    },
+    {
       "key": "room4_pendant_lamps",
       "parts": [
         "room4_pendant_lamps_A"
@@ -1053,17 +1053,17 @@
       "priceType": "coins"
     },
     {
-      "key": "room4_old_flowers",
+      "key": "room4_old_utensil_set",
       "parts": [
-        "room4_old_flowers"
+        "room4_old_utensil_set"
       ],
       "price": 200,
       "priceType": "coins"
     },
     {
-      "key": "room4_old_utensil_set",
+      "key": "room4_old_flowers",
       "parts": [
-        "room4_old_utensil_set"
+        "room4_old_flowers"
       ],
       "price": 200,
       "priceType": "coins"
@@ -1077,7 +1077,8 @@
       "priceType": "coins"
     }
   ],
-  "allPartsOrderComment": "Порядок — по слоям варианта A; варианты A/B/C рядом.",
+  "allPartsOrderComment": "Порядок слоёв по z: от заднего плана к переднему; меняется в decor-viewer.",
+  "depthOrderEdited": true,
   "allParts": [
     {
       "key": "room4_walls_A_2",
@@ -1085,15 +1086,7 @@
       "atlas_name": "rooms_room4-surfaces",
       "x": 538.5,
       "y": 335.5,
-      "angle": 180
-    },
-    {
-      "key": "room4_walls_A_1",
-      "type": "decor",
-      "atlas_name": "rooms_room4-surfaces",
-      "x": 181.5,
-      "y": 335.5,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room4_walls_B_2",
@@ -1101,15 +1094,7 @@
       "atlas_name": "rooms_room4-surfaces",
       "x": 538.5,
       "y": 335.5,
-      "angle": 180
-    },
-    {
-      "key": "room4_walls_B_1",
-      "type": "decor",
-      "atlas_name": "rooms_room4-surfaces",
-      "x": 181.5,
-      "y": 335.5,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room4_walls_C_2",
@@ -1117,7 +1102,23 @@
       "atlas_name": "rooms_room4-surfaces",
       "x": 538.5,
       "y": 336,
-      "angle": 180
+      "angle": null
+    },
+    {
+      "key": "room4_walls_A_1",
+      "type": "decor",
+      "atlas_name": "rooms_room4-surfaces",
+      "x": 181.5,
+      "y": 335.5,
+      "angle": null
+    },
+    {
+      "key": "room4_walls_B_1",
+      "type": "decor",
+      "atlas_name": "rooms_room4-surfaces",
+      "x": 181.5,
+      "y": 335.5,
+      "angle": null
     },
     {
       "key": "room4_walls_C_1",
@@ -1125,7 +1126,7 @@
       "atlas_name": "rooms_room4-surfaces",
       "x": 181.5,
       "y": 336,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room4_floor_A",
@@ -1133,7 +1134,7 @@
       "atlas_name": "rooms_room4-surfaces",
       "x": 360,
       "y": 686,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room4_floor_B",
@@ -1141,7 +1142,7 @@
       "atlas_name": "rooms_room4-surfaces",
       "x": 360,
       "y": 686,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room4_floor_C",
@@ -1149,7 +1150,7 @@
       "atlas_name": "rooms_room4-surfaces",
       "x": 360,
       "y": 686,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room4_rug_A",
@@ -1176,30 +1177,6 @@
       "angle": 180
     },
     {
-      "key": "room4_cabinet_second_A",
-      "type": "decor",
-      "atlas_name": "rooms_room4-decor",
-      "x": 304.5,
-      "y": 452.5,
-      "angle": 180
-    },
-    {
-      "key": "room4_cabinet_second_B",
-      "type": "decor",
-      "atlas_name": "rooms_room4-decor",
-      "x": 304.5,
-      "y": 452.5,
-      "angle": 180
-    },
-    {
-      "key": "room4_cabinet_second_C",
-      "type": "decor",
-      "atlas_name": "rooms_room4-decor",
-      "x": 304.5,
-      "y": 452.5,
-      "angle": 180
-    },
-    {
       "key": "room4_window_A",
       "type": "decor",
       "atlas_name": "rooms_room4-decor",
@@ -1222,6 +1199,30 @@
       "x": 166,
       "y": 318.5,
       "angle": 315
+    },
+    {
+      "key": "room4_cabinet_second_A",
+      "type": "decor",
+      "atlas_name": "rooms_room4-decor",
+      "x": 304.5,
+      "y": 452.5,
+      "angle": 180
+    },
+    {
+      "key": "room4_cabinet_second_B",
+      "type": "decor",
+      "atlas_name": "rooms_room4-decor",
+      "x": 304.5,
+      "y": 452.5,
+      "angle": 180
+    },
+    {
+      "key": "room4_cabinet_second_C",
+      "type": "decor",
+      "atlas_name": "rooms_room4-decor",
+      "x": 304.5,
+      "y": 452.5,
+      "angle": 180
     },
     {
       "key": "room4_kitchen_sink_A",
@@ -1296,43 +1297,11 @@
       "angle": 180
     },
     {
-      "key": "room4_dish_cabinet_A",
-      "type": "decor",
-      "atlas_name": "rooms_room4-decor",
-      "x": 64.5,
-      "y": 363,
-      "angle": 315
-    },
-    {
-      "key": "room4_dish_cabinet_B",
-      "type": "decor",
-      "atlas_name": "rooms_room4-decor",
-      "x": 64.5,
-      "y": 364,
-      "angle": 315
-    },
-    {
-      "key": "room4_dish_cabinet_C",
-      "type": "decor",
-      "atlas_name": "rooms_room4-decor",
-      "x": 66,
-      "y": 366.5,
-      "angle": 180
-    },
-    {
       "key": "room4_chairs_A_2",
       "type": "decor",
       "atlas_name": "rooms_room4-decor",
       "x": 404,
       "y": 619.5,
-      "angle": 180
-    },
-    {
-      "key": "room4_chairs_A_1",
-      "type": "decor",
-      "atlas_name": "rooms_room4-decor",
-      "x": 372.5,
-      "y": 611.5,
       "angle": 180
     },
     {
@@ -1344,19 +1313,27 @@
       "angle": 180
     },
     {
-      "key": "room4_chairs_B_1",
-      "type": "decor",
-      "atlas_name": "rooms_room4-decor",
-      "x": 372.5,
-      "y": 607,
-      "angle": 180
-    },
-    {
       "key": "room4_chairs_C_2",
       "type": "decor",
       "atlas_name": "rooms_room4-decor",
       "x": 404,
       "y": 620.5,
+      "angle": 180
+    },
+    {
+      "key": "room4_chairs_A_1",
+      "type": "decor",
+      "atlas_name": "rooms_room4-decor",
+      "x": 372.5,
+      "y": 611.5,
+      "angle": 180
+    },
+    {
+      "key": "room4_chairs_B_1",
+      "type": "decor",
+      "atlas_name": "rooms_room4-decor",
+      "x": 372.5,
+      "y": 607,
       "angle": 180
     },
     {
@@ -1536,6 +1513,30 @@
       "angle": 180
     },
     {
+      "key": "room4_dish_cabinet_A",
+      "type": "decor",
+      "atlas_name": "rooms_room4-decor",
+      "x": 64.5,
+      "y": 363,
+      "angle": 315
+    },
+    {
+      "key": "room4_dish_cabinet_B",
+      "type": "decor",
+      "atlas_name": "rooms_room4-decor",
+      "x": 64.5,
+      "y": 364,
+      "angle": 315
+    },
+    {
+      "key": "room4_dish_cabinet_C",
+      "type": "decor",
+      "atlas_name": "rooms_room4-decor",
+      "x": 66,
+      "y": 366.5,
+      "angle": 315
+    },
+    {
       "key": "room4_pendant_lamps_A",
       "type": "decor",
       "atlas_name": "rooms_room4-decor",
@@ -1648,19 +1649,19 @@
       "angle": 0
     },
     {
-      "key": "room4_old_chairs_2",
-      "type": "repair",
-      "atlas_name": "rooms_room4-repair",
-      "x": 434,
-      "y": 616,
-      "angle": 0
-    },
-    {
       "key": "room4_old_cabinet_right",
       "type": "repair",
       "atlas_name": "rooms_room4-repair",
       "x": 531.5,
       "y": 515.5,
+      "angle": 0
+    },
+    {
+      "key": "room4_old_chairs_2",
+      "type": "repair",
+      "atlas_name": "rooms_room4-repair",
+      "x": 434,
+      "y": 616,
       "angle": 0
     },
     {
@@ -1688,20 +1689,20 @@
       "angle": 225
     },
     {
-      "key": "room4_old_flowers",
-      "type": "repair",
-      "atlas_name": "rooms_room4-repair",
-      "x": 364.5,
-      "y": 591,
-      "angle": 0
-    },
-    {
       "key": "room4_old_utensil_set",
       "type": "repair",
       "atlas_name": "rooms_room4-repair",
       "x": 296,
       "y": 301,
       "angle": 135
+    },
+    {
+      "key": "room4_old_flowers",
+      "type": "repair",
+      "atlas_name": "rooms_room4-repair",
+      "x": 364.5,
+      "y": 591,
+      "angle": 0
     },
     {
       "key": "room4_old_pendant_lamps",
@@ -1712,6 +1713,7 @@
       "angle": -180
     }
   ],
+  "sourcePsdRevision": "c7993a50ad0f33e084a4299cb1704a7200b94ea18252a59f3d117914ad791082",
   "dialogs": [
     {
       "id": "room4_d1",

@@ -15,14 +15,14 @@
       "room2_broken_vanity_table",
       "room2_pay_dialogue1",
       "room2_broken_bed",
-      "room2_dirty_toy",
-      "room2_broken_wall_left",
-      "room2_broken_wall_right",
-      "room2_broken_floor",
-      "room2_pay_dialogue2",
       "room2_broken_lamp_right",
+      "room2_dirty_toy",
       "room2_old_poster",
       "room2_webbed_family_picture",
+      "room2_broken_floor",
+      "room2_broken_wall_left",
+      "room2_broken_wall_right",
+      "room2_pay_dialogue2",
       "room2_window",
       "room2_floor",
       "room2_walls",
@@ -176,8 +176,8 @@
       "multiobjects": [
         "room2_broken_wall_right"
       ],
-      "x": 537.5,
-      "y": 346.5
+      "x": 568.5,
+      "y": 321.5
     },
     {
       "key": "room2_broken_wall_left",
@@ -186,8 +186,8 @@
       "multiobjects": [
         "room2_broken_wall_left"
       ],
-      "x": 182,
-      "y": 344
+      "x": 328,
+      "y": 346
     },
     {
       "key": "room2_broken_floor",
@@ -196,18 +196,18 @@
       "multiobjects": [
         "room2_broken_floor"
       ],
-      "x": 358.5,
-      "y": 685
+      "x": 435.5,
+      "y": 691
     },
     {
-      "key": "room2_trash",
+      "key": "room2_old_poster",
       "type": "repair",
-      "name_key": "room2_trash_loc",
+      "name_key": "room2_old_poster_loc",
       "multiobjects": [
-        "room2_trash"
+        "room2_old_poster"
       ],
-      "x": 211.5,
-      "y": 655
+      "x": 410,
+      "y": 271
     },
     {
       "key": "room2_broken_curtains",
@@ -216,8 +216,8 @@
       "multiobjects": [
         "room2_broken_curtains"
       ],
-      "x": 187.5,
-      "y": 381
+      "x": 147.5,
+      "y": 376
     },
     {
       "key": "room2_dirty_toy",
@@ -226,8 +226,8 @@
       "multiobjects": [
         "room2_dirty_toy"
       ],
-      "x": 388.5,
-      "y": 639
+      "x": 442.5,
+      "y": 612
     },
     {
       "key": "room2_broken_bed",
@@ -240,24 +240,34 @@
       "y": 537.5
     },
     {
+      "key": "room2_trash",
+      "type": "repair",
+      "name_key": "room2_trash_loc",
+      "multiobjects": [
+        "room2_trash"
+      ],
+      "x": 285,
+      "y": 727.5
+    },
+    {
+      "key": "room2_webbed_family_picture",
+      "type": "repair",
+      "name_key": "room2_webbed_family_picture_loc",
+      "multiobjects": [
+        "room2_webbed_family_picture"
+      ],
+      "x": 489.5,
+      "y": 224.5
+    },
+    {
       "key": "room2_broken_lamp_right",
       "type": "repair",
       "name_key": "room2_broken_lamp_right_loc",
       "multiobjects": [
         "room2_broken_lamp_right"
       ],
-      "x": 520,
-      "y": 333.5
-    },
-    {
-      "key": "room2_old_poster",
-      "type": "repair",
-      "name_key": "room2_old_poster_loc",
-      "multiobjects": [
-        "room2_old_poster"
-      ],
-      "x": 410,
-      "y": 271
+      "x": 491,
+      "y": 327.5
     },
     {
       "key": "room2_broken_vanity_table",
@@ -288,16 +298,6 @@
       ],
       "x": 587.5,
       "y": 694
-    },
-    {
-      "key": "room2_webbed_family_picture",
-      "type": "repair",
-      "name_key": "room2_webbed_family_picture_loc",
-      "multiobjects": [
-        "room2_webbed_family_picture"
-      ],
-      "x": 489.5,
-      "y": 224.5
     },
     {
       "key": "room2_pay_dialogue1",
@@ -348,8 +348,8 @@
     {
       "key": "room2_walls",
       "parts": [
-        "room2_walls_A_1",
-        "room2_walls_A_2"
+        "room2_walls_A_2",
+        "room2_walls_A_1"
       ],
       "price": 480,
       "priceType": "coins"
@@ -357,8 +357,8 @@
     {
       "key": "room2_walls_variant_2",
       "parts": [
-        "room2_walls_B_1",
-        "room2_walls_B_2"
+        "room2_walls_B_2",
+        "room2_walls_B_1"
       ],
       "price": 10,
       "priceType": "diamonds"
@@ -366,8 +366,8 @@
     {
       "key": "room2_walls_variant_3",
       "parts": [
-        "room2_walls_C_1",
-        "room2_walls_C_2"
+        "room2_walls_C_2",
+        "room2_walls_C_1"
       ],
       "price": 360,
       "priceType": "coins"
@@ -402,9 +402,9 @@
     {
       "key": "room2_window",
       "parts": [
+        "room2_window_A_3",
         "room2_window_A_1",
-        "room2_window_A_2",
-        "room2_window_A_3"
+        "room2_window_A_2"
       ],
       "price": 420,
       "priceType": "coins"
@@ -412,9 +412,9 @@
     {
       "key": "room2_window_variant_2",
       "parts": [
+        "room2_window_B_3",
         "room2_window_B_1",
-        "room2_window_B_2",
-        "room2_window_B_3"
+        "room2_window_B_2"
       ],
       "price": 10,
       "priceType": "diamonds"
@@ -422,9 +422,9 @@
     {
       "key": "room2_window_variant_3",
       "parts": [
+        "room2_window_C_3",
         "room2_window_C_1",
-        "room2_window_C_2",
-        "room2_window_C_3"
+        "room2_window_C_2"
       ],
       "price": 320,
       "priceType": "coins"
@@ -569,8 +569,8 @@
     {
       "key": "room2_window_decor",
       "parts": [
-        "room2_window_decor_A_1",
-        "room2_window_decor_A_2"
+        "room2_window_decor_A_2",
+        "room2_window_decor_A_1"
       ],
       "price": 330,
       "priceType": "coins"
@@ -578,8 +578,8 @@
     {
       "key": "room2_window_decor_variant_2",
       "parts": [
-        "room2_window_decor_B_1",
-        "room2_window_decor_B_2"
+        "room2_window_decor_B_2",
+        "room2_window_decor_B_1"
       ],
       "price": 10,
       "priceType": "diamonds"
@@ -587,8 +587,8 @@
     {
       "key": "room2_window_decor_variant_3",
       "parts": [
-        "room2_window_decor_C_1",
-        "room2_window_decor_C_2"
+        "room2_window_decor_C_2",
+        "room2_window_decor_C_1"
       ],
       "price": 250,
       "priceType": "coins"
@@ -645,11 +645,9 @@
       "priceType": "coins"
     },
     {
-      "key": "room2_trash",
+      "key": "room2_old_poster",
       "parts": [
-        "room2_trash_1",
-        "room2_trash_2",
-        "room2_trash_3"
+        "room2_old_poster"
       ],
       "price": 100,
       "priceType": "coins"
@@ -657,8 +655,8 @@
     {
       "key": "room2_broken_curtains",
       "parts": [
-        "room2_broken_curtains_1",
-        "room2_broken_curtains_2"
+        "room2_broken_curtains_2",
+        "room2_broken_curtains_1"
       ],
       "price": 100,
       "priceType": "coins"
@@ -680,6 +678,25 @@
       "priceType": "coins"
     },
     {
+      "key": "room2_trash",
+      "parts": [
+        "room2_trash_2",
+        "room2_trash_1",
+        "room2_trash_3"
+      ],
+      "price": 100,
+      "priceType": "coins"
+    },
+    {
+      "key": "room2_webbed_family_picture",
+      "parts": [
+        "room2_webbed_family_picture_2",
+        "room2_webbed_family_picture_1"
+      ],
+      "price": 100,
+      "priceType": "coins"
+    },
+    {
       "key": "room2_broken_lamp_right",
       "parts": [
         "room2_broken_lamp_right"
@@ -688,19 +705,11 @@
       "priceType": "coins"
     },
     {
-      "key": "room2_old_poster",
-      "parts": [
-        "room2_old_poster"
-      ],
-      "price": 100,
-      "priceType": "coins"
-    },
-    {
       "key": "room2_broken_vanity_table",
       "parts": [
-        "room2_broken_vanity_table_1",
+        "room2_broken_vanity_table_3",
         "room2_broken_vanity_table_2",
-        "room2_broken_vanity_table_3"
+        "room2_broken_vanity_table_1"
       ],
       "price": 100,
       "priceType": "coins"
@@ -708,8 +717,8 @@
     {
       "key": "room2_vanity_stool",
       "parts": [
-        "room2_vanity_stool_1",
-        "room2_vanity_stool_2"
+        "room2_vanity_stool_2",
+        "room2_vanity_stool_1"
       ],
       "price": 100,
       "priceType": "coins"
@@ -721,18 +730,10 @@
       ],
       "price": 100,
       "priceType": "coins"
-    },
-    {
-      "key": "room2_webbed_family_picture",
-      "parts": [
-        "room2_webbed_family_picture_1",
-        "room2_webbed_family_picture_2"
-      ],
-      "price": 100,
-      "priceType": "coins"
     }
   ],
-  "allPartsOrderComment": "Порядок — по слоям варианта A; варианты A/B/C рядом.",
+  "allPartsOrderComment": "Порядок слоёв по z: от заднего плана к переднему; меняется в decor-viewer.",
+  "depthOrderEdited": true,
   "allParts": [
     {
       "key": "room2_walls_A_2",
@@ -740,7 +741,7 @@
       "atlas_name": "rooms_room2-surfaces",
       "x": 538.5,
       "y": 335,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room2_walls_A_1",
@@ -748,7 +749,7 @@
       "atlas_name": "rooms_room2-surfaces",
       "x": 181.5,
       "y": 335,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room2_walls_B_2",
@@ -756,7 +757,7 @@
       "atlas_name": "rooms_room2-surfaces",
       "x": 538.5,
       "y": 335,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room2_walls_B_1",
@@ -764,7 +765,7 @@
       "atlas_name": "rooms_room2-surfaces",
       "x": 181.5,
       "y": 335,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room2_walls_C_2",
@@ -772,7 +773,7 @@
       "atlas_name": "rooms_room2-surfaces",
       "x": 538.5,
       "y": 335,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room2_walls_C_1",
@@ -780,7 +781,7 @@
       "atlas_name": "rooms_room2-surfaces",
       "x": 181.5,
       "y": 335,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room2_floor_A_1",
@@ -788,7 +789,7 @@
       "atlas_name": "rooms_room2-surfaces",
       "x": 360,
       "y": 686,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room2_floor_A_2",
@@ -804,7 +805,7 @@
       "atlas_name": "rooms_room2-surfaces",
       "x": 360,
       "y": 686,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room2_floor_B_2",
@@ -820,7 +821,7 @@
       "atlas_name": "rooms_room2-surfaces",
       "x": 360,
       "y": 686,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room2_floor_C_2",
@@ -1204,7 +1205,7 @@
       "atlas_name": "rooms_room2-repair",
       "x": 537.5,
       "y": 346.5,
-      "angle": 225
+      "angle": null
     },
     {
       "key": "room2_broken_wall_left",
@@ -1212,7 +1213,7 @@
       "atlas_name": "rooms_room2-repair",
       "x": 182,
       "y": 344,
-      "angle": 135
+      "angle": null
     },
     {
       "key": "room2_broken_floor",
@@ -1220,14 +1221,46 @@
       "atlas_name": "rooms_room2-repair",
       "x": 358.5,
       "y": 685,
+      "angle": null
+    },
+    {
+      "key": "room2_old_poster",
+      "type": "repair",
+      "atlas_name": "rooms_room2-repair",
+      "x": 410,
+      "y": 271,
+      "angle": 225
+    },
+    {
+      "key": "room2_broken_curtains_2",
+      "type": "repair",
+      "atlas_name": "rooms_room2-repair",
+      "x": 187.5,
+      "y": 381,
+      "angle": 135
+    },
+    {
+      "key": "room2_broken_curtains_1",
+      "type": "repair",
+      "atlas_name": "rooms_room2-repair",
+      "x": 168.5,
+      "y": 457,
+      "angle": 135
+    },
+    {
+      "key": "room2_dirty_toy",
+      "type": "repair",
+      "atlas_name": "rooms_room2-repair",
+      "x": 388.5,
+      "y": 639,
       "angle": 0
     },
     {
-      "key": "room2_trash_3",
+      "key": "room2_broken_bed",
       "type": "repair",
       "atlas_name": "rooms_room2-repair",
-      "x": 211.5,
-      "y": 655,
+      "x": 383.5,
+      "y": 537.5,
       "angle": 0
     },
     {
@@ -1247,36 +1280,28 @@
       "angle": 0
     },
     {
-      "key": "room2_broken_curtains_2",
+      "key": "room2_trash_3",
       "type": "repair",
       "atlas_name": "rooms_room2-repair",
-      "x": 187.5,
-      "y": 381,
-      "angle": 135
-    },
-    {
-      "key": "room2_broken_curtains_1",
-      "type": "repair",
-      "atlas_name": "rooms_room2-repair",
-      "x": 168.5,
-      "y": 457,
+      "x": 211.5,
+      "y": 655.5,
       "angle": 0
     },
     {
-      "key": "room2_dirty_toy",
+      "key": "room2_webbed_family_picture_2",
       "type": "repair",
       "atlas_name": "rooms_room2-repair",
-      "x": 388.5,
-      "y": 639,
-      "angle": 0
+      "x": 489.5,
+      "y": 224.5,
+      "angle": 225
     },
     {
-      "key": "room2_broken_bed",
+      "key": "room2_webbed_family_picture_1",
       "type": "repair",
       "atlas_name": "rooms_room2-repair",
-      "x": 383.5,
-      "y": 537.5,
-      "angle": 0
+      "x": 500.5,
+      "y": 249,
+      "angle": 225
     },
     {
       "key": "room2_broken_lamp_right",
@@ -1284,14 +1309,6 @@
       "atlas_name": "rooms_room2-repair",
       "x": 520,
       "y": 333.5,
-      "angle": 225
-    },
-    {
-      "key": "room2_old_poster",
-      "type": "repair",
-      "atlas_name": "rooms_room2-repair",
-      "x": 410,
-      "y": 271,
       "angle": 225
     },
     {
@@ -1341,24 +1358,9 @@
       "x": 587.5,
       "y": 694,
       "angle": 0
-    },
-    {
-      "key": "room2_webbed_family_picture_2",
-      "type": "repair",
-      "atlas_name": "rooms_room2-repair",
-      "x": 489.5,
-      "y": 224.5,
-      "angle": 225
-    },
-    {
-      "key": "room2_webbed_family_picture_1",
-      "type": "repair",
-      "atlas_name": "rooms_room2-repair",
-      "x": 500.5,
-      "y": 249,
-      "angle": 0
     }
   ],
+  "sourcePsdRevision": "9e9f3cc4a82871f68ca2307db330a3876db95993e5faa75bcd1f50fa3a4c714a",
   "dialogs": [
     {
       "id": "room2_d1",

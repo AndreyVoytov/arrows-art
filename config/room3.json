@@ -64,18 +64,6 @@
       "y": 611
     },
     {
-      "key": "room3_carpet",
-      "type": "decor",
-      "name_key": "room3_carpet_loc",
-      "multiobjects": [
-        "room3_carpet",
-        "room3_carpet_variant_2",
-        "room3_carpet_variant_3"
-      ],
-      "x": 411,
-      "y": 733.5
-    },
-    {
       "key": "room3_window",
       "type": "decor",
       "name_key": "room3_window_loc",
@@ -120,8 +108,8 @@
         "room3_toilet_variant_2",
         "room3_toilet_variant_3"
       ],
-      "x": 606.5,
-      "y": 592
+      "x": 561.5,
+      "y": 608
     },
     {
       "key": "room3_mirror",
@@ -156,8 +144,20 @@
         "room3_plant_variant_2",
         "room3_plant_variant_3"
       ],
-      "x": 77.5,
+      "x": 142,
       "y": 597
+    },
+    {
+      "key": "room3_carpet",
+      "type": "decor",
+      "name_key": "room3_carpet_loc",
+      "multiobjects": [
+        "room3_carpet",
+        "room3_carpet_variant_2",
+        "room3_carpet_variant_3"
+      ],
+      "x": 288,
+      "y": 671.5
     },
     {
       "key": "room3_small_picture",
@@ -168,8 +168,8 @@
         "room3_small_picture_variant_2",
         "room3_small_picture_variant_3"
       ],
-      "x": 655.5,
-      "y": 341.5
+      "x": 587.5,
+      "y": 358.5
     },
     {
       "key": "room3_old_wall2",
@@ -179,7 +179,7 @@
         "room3_old_wall2"
       ],
       "x": 438.5,
-      "y": 275.5
+      "y": 267
     },
     {
       "key": "room3_old_wall1",
@@ -188,8 +188,8 @@
       "multiobjects": [
         "room3_old_wall1"
       ],
-      "x": 98.5,
-      "y": 325.5
+      "x": 279,
+      "y": 204
     },
     {
       "key": "room3_old_floor",
@@ -198,8 +198,8 @@
       "multiobjects": [
         "room3_old_floor"
       ],
-      "x": 358,
-      "y": 696.5
+      "x": 329,
+      "y": 604.5
     },
     {
       "key": "room3_old_bathtub",
@@ -252,34 +252,14 @@
       "y": 299.5
     },
     {
-      "key": "room3_old_plant",
-      "type": "repair",
-      "name_key": "room3_old_plant_loc",
-      "multiobjects": [
-        "room3_old_plant"
-      ],
-      "x": 75,
-      "y": 579.5
-    },
-    {
       "key": "room3_old_picture",
       "type": "repair",
       "name_key": "room3_old_picture_loc",
       "multiobjects": [
         "room3_old_picture"
       ],
-      "x": 645.5,
-      "y": 339
-    },
-    {
-      "key": "room3_old_rubber_duck",
-      "type": "repair",
-      "name_key": "room3_old_rubber_duck_loc",
-      "multiobjects": [
-        "room3_old_rubber_duck"
-      ],
-      "x": 250,
-      "y": 485.5
+      "x": 594.5,
+      "y": 347
     },
     {
       "key": "room3_old_rug",
@@ -288,8 +268,8 @@
       "multiobjects": [
         "room3_old_rug"
       ],
-      "x": 359.5,
-      "y": 694
+      "x": 417.5,
+      "y": 655
     },
     {
       "key": "room3_old_window",
@@ -300,6 +280,26 @@
       ],
       "x": 186.5,
       "y": 301
+    },
+    {
+      "key": "room3_old_plant",
+      "type": "repair",
+      "name_key": "room3_old_plant_loc",
+      "multiobjects": [
+        "room3_old_plant"
+      ],
+      "x": 139,
+      "y": 595.5
+    },
+    {
+      "key": "room3_old_rubber_duck",
+      "type": "repair",
+      "name_key": "room3_old_rubber_duck_loc",
+      "multiobjects": [
+        "room3_old_rubber_duck"
+      ],
+      "x": 250,
+      "y": 485.5
     },
     {
       "key": "room3_pay_dialogue1",
@@ -350,8 +350,8 @@
     {
       "key": "room3_walls",
       "parts": [
-        "room3_walls_A_1",
-        "room3_walls_A_2"
+        "room3_walls_A_2",
+        "room3_walls_A_1"
       ],
       "price": 25,
       "priceType": "diamonds"
@@ -359,8 +359,8 @@
     {
       "key": "room3_walls_variant_2",
       "parts": [
-        "room3_walls_B_1",
-        "room3_walls_B_2"
+        "room3_walls_B_2",
+        "room3_walls_B_1"
       ],
       "price": 900,
       "priceType": "coins"
@@ -368,8 +368,8 @@
     {
       "key": "room3_walls_variant_3",
       "parts": [
-        "room3_walls_C_1",
-        "room3_walls_C_2"
+        "room3_walls_C_2",
+        "room3_walls_C_1"
       ],
       "price": 1170,
       "priceType": "coins"
@@ -397,30 +397,6 @@
       ],
       "price": 850,
       "priceType": "coins"
-    },
-    {
-      "key": "room3_carpet",
-      "parts": [
-        "room3_carpet_A"
-      ],
-      "price": 500,
-      "priceType": "coins"
-    },
-    {
-      "key": "room3_carpet_variant_2",
-      "parts": [
-        "room3_carpet_B"
-      ],
-      "price": 650,
-      "priceType": "coins"
-    },
-    {
-      "key": "room3_carpet_variant_3",
-      "parts": [
-        "room3_carpet_C"
-      ],
-      "price": 10,
-      "priceType": "diamonds"
     },
     {
       "key": "room3_window",
@@ -591,6 +567,30 @@
       "priceType": "coins"
     },
     {
+      "key": "room3_carpet",
+      "parts": [
+        "room3_carpet_A"
+      ],
+      "price": 500,
+      "priceType": "coins"
+    },
+    {
+      "key": "room3_carpet_variant_2",
+      "parts": [
+        "room3_carpet_B"
+      ],
+      "price": 650,
+      "priceType": "coins"
+    },
+    {
+      "key": "room3_carpet_variant_3",
+      "parts": [
+        "room3_carpet_C"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
       "key": "room3_small_picture",
       "parts": [
         "room3_small_picture_A"
@@ -679,25 +679,9 @@
       "priceType": "coins"
     },
     {
-      "key": "room3_old_plant",
-      "parts": [
-        "room3_old_plant"
-      ],
-      "price": 150,
-      "priceType": "coins"
-    },
-    {
       "key": "room3_old_picture",
       "parts": [
         "room3_old_picture"
-      ],
-      "price": 150,
-      "priceType": "coins"
-    },
-    {
-      "key": "room3_old_rubber_duck",
-      "parts": [
-        "room3_old_rubber_duck"
       ],
       "price": 150,
       "priceType": "coins"
@@ -717,9 +701,26 @@
       ],
       "price": 150,
       "priceType": "coins"
+    },
+    {
+      "key": "room3_old_plant",
+      "parts": [
+        "room3_old_plant"
+      ],
+      "price": 150,
+      "priceType": "coins"
+    },
+    {
+      "key": "room3_old_rubber_duck",
+      "parts": [
+        "room3_old_rubber_duck"
+      ],
+      "price": 150,
+      "priceType": "coins"
     }
   ],
-  "allPartsOrderComment": "Порядок — по слоям варианта A; варианты A/B/C рядом.",
+  "allPartsOrderComment": "Порядок слоёв по z: от заднего плана к переднему; меняется в decor-viewer.",
+  "depthOrderEdited": true,
   "allParts": [
     {
       "key": "room3_walls_A_2",
@@ -727,7 +728,7 @@
       "atlas_name": "rooms_room3-surfaces",
       "x": 538.5,
       "y": 335.5,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room3_walls_A_1",
@@ -735,7 +736,7 @@
       "atlas_name": "rooms_room3-surfaces",
       "x": 181.5,
       "y": 335.5,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room3_walls_B_2",
@@ -743,7 +744,7 @@
       "atlas_name": "rooms_room3-surfaces",
       "x": 538.5,
       "y": 335.5,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room3_walls_B_1",
@@ -751,7 +752,7 @@
       "atlas_name": "rooms_room3-surfaces",
       "x": 181.5,
       "y": 335.5,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room3_walls_C_2",
@@ -759,7 +760,7 @@
       "atlas_name": "rooms_room3-surfaces",
       "x": 538.5,
       "y": 335,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room3_walls_C_1",
@@ -767,7 +768,7 @@
       "atlas_name": "rooms_room3-surfaces",
       "x": 181.5,
       "y": 335.5,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room3_floor_A",
@@ -775,7 +776,7 @@
       "atlas_name": "rooms_room3-surfaces",
       "x": 360,
       "y": 686,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room3_floor_B",
@@ -783,7 +784,7 @@
       "atlas_name": "rooms_room3-surfaces",
       "x": 360,
       "y": 686,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room3_floor_C",
@@ -791,31 +792,7 @@
       "atlas_name": "rooms_room3-surfaces",
       "x": 360,
       "y": 686,
-      "angle": 180
-    },
-    {
-      "key": "room3_carpet_A",
-      "type": "decor",
-      "atlas_name": "rooms_room3-decor",
-      "x": 351,
-      "y": 731.5,
-      "angle": 180
-    },
-    {
-      "key": "room3_carpet_B",
-      "type": "decor",
-      "atlas_name": "rooms_room3-decor",
-      "x": 361,
-      "y": 720,
-      "angle": 180
-    },
-    {
-      "key": "room3_carpet_C",
-      "type": "decor",
-      "atlas_name": "rooms_room3-decor",
-      "x": 363,
-      "y": 722.5,
-      "angle": 180
+      "angle": null
     },
     {
       "key": "room3_window_A",
@@ -831,7 +808,7 @@
       "atlas_name": "rooms_room3-decor",
       "x": 178,
       "y": 312.5,
-      "angle": 180
+      "angle": 315
     },
     {
       "key": "room3_window_C",
@@ -927,7 +904,7 @@
       "atlas_name": "rooms_room3-decor",
       "x": 529,
       "y": 290,
-      "angle": 180
+      "angle": 45
     },
     {
       "key": "room3_mirror_C",
@@ -943,7 +920,7 @@
       "atlas_name": "rooms_room3-decor",
       "x": 310,
       "y": 279,
-      "angle": 180
+      "angle": 315
     },
     {
       "key": "room3_towel_B",
@@ -951,7 +928,7 @@
       "atlas_name": "rooms_room3-decor",
       "x": 315,
       "y": 278.5,
-      "angle": 180
+      "angle": 315
     },
     {
       "key": "room3_towel_C",
@@ -959,13 +936,13 @@
       "atlas_name": "rooms_room3-decor",
       "x": 314,
       "y": 282.5,
-      "angle": 180
+      "angle": 315
     },
     {
       "key": "room3_plant_A",
       "type": "decor",
       "atlas_name": "rooms_room3-decor",
-      "x": 77.5,
+      "x": 78,
       "y": 597,
       "angle": 180
     },
@@ -973,16 +950,40 @@
       "key": "room3_plant_B",
       "type": "decor",
       "atlas_name": "rooms_room3-decor",
-      "x": 71.5,
-      "y": 590,
+      "x": 78,
+      "y": 597,
       "angle": 180
     },
     {
       "key": "room3_plant_C",
       "type": "decor",
       "atlas_name": "rooms_room3-decor",
-      "x": 76.5,
-      "y": 593.5,
+      "x": 78,
+      "y": 597,
+      "angle": 180
+    },
+    {
+      "key": "room3_carpet_A",
+      "type": "decor",
+      "atlas_name": "rooms_room3-decor",
+      "x": 351,
+      "y": 731.5,
+      "angle": 180
+    },
+    {
+      "key": "room3_carpet_B",
+      "type": "decor",
+      "atlas_name": "rooms_room3-decor",
+      "x": 361,
+      "y": 720,
+      "angle": 180
+    },
+    {
+      "key": "room3_carpet_C",
+      "type": "decor",
+      "atlas_name": "rooms_room3-decor",
+      "x": 363,
+      "y": 722.5,
       "angle": 180
     },
     {
@@ -999,7 +1000,7 @@
       "atlas_name": "rooms_room3-decor",
       "x": 656,
       "y": 343,
-      "angle": 180
+      "angle": 45
     },
     {
       "key": "room3_small_picture_C",
@@ -1014,23 +1015,23 @@
       "type": "repair",
       "atlas_name": "rooms_room3-repair",
       "x": 538.5,
-      "y": 347.5,
+      "y": 339,
       "angle": null
     },
     {
       "key": "room3_old_wall1",
       "type": "repair",
       "atlas_name": "rooms_room3-repair",
-      "x": 181.5,
-      "y": 343.5,
+      "x": 182,
+      "y": 338,
       "angle": null
     },
     {
       "key": "room3_old_floor",
       "type": "repair",
       "atlas_name": "rooms_room3-repair",
-      "x": 358,
-      "y": 696.5,
+      "x": 360,
+      "y": 686.5,
       "angle": null
     },
     {
@@ -1071,15 +1072,7 @@
       "atlas_name": "rooms_room3-repair",
       "x": 317.5,
       "y": 299.5,
-      "angle": 0
-    },
-    {
-      "key": "room3_old_plant",
-      "type": "repair",
-      "atlas_name": "rooms_room3-repair",
-      "x": 75,
-      "y": 579.5,
-      "angle": 0
+      "angle": 135
     },
     {
       "key": "room3_old_picture",
@@ -1088,14 +1081,6 @@
       "x": 645.5,
       "y": 339,
       "angle": 225
-    },
-    {
-      "key": "room3_old_rubber_duck",
-      "type": "repair",
-      "atlas_name": "rooms_room3-repair",
-      "x": 235,
-      "y": 516.5,
-      "angle": 0
     },
     {
       "key": "room3_old_rug",
@@ -1112,8 +1097,25 @@
       "x": 166.5,
       "y": 307,
       "angle": 135
+    },
+    {
+      "key": "room3_old_plant",
+      "type": "repair",
+      "atlas_name": "rooms_room3-repair",
+      "x": 75,
+      "y": 579.5,
+      "angle": 0
+    },
+    {
+      "key": "room3_old_rubber_duck",
+      "type": "repair",
+      "atlas_name": "rooms_room3-repair",
+      "x": 235,
+      "y": 516.5,
+      "angle": 0
     }
   ],
+  "sourcePsdRevision": "fcac85e4cc4fd99a045d1ad6adb282830e7fc33f7c3946ab06f4aee0548c6fd9",
   "dialogs": [
     {
       "id": "room3_d1",

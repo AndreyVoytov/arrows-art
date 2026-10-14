@@ -1,0 +1,2208 @@
+{
+  "key": "room7",
+  "background": "room7_room_bg",
+  "atlases": [
+    "rooms_room7-repair",
+    "rooms_room7-surfaces",
+    "rooms_room7-decor"
+  ],
+  "content": {
+    "actionPointOrder": [
+      "room7_old_steps",
+      "room7_old_railing_right",
+      "room7_old_flower_pot",
+      "room7_old_flower_bed_left",
+      "room7_old_garden_boots",
+      "room7_old_flower_bed_right",
+      "room7_pay_dialogue1",
+      "room7_old_railing_left",
+      "room7_old_ivy",
+      "room7_old_watering_can",
+      "room7_old_side_table",
+      "room7_old_hanging_basket_left",
+      "room7_old_hanging_basket_right",
+      "room7_pay_dialogue2",
+      "room7_old_doormat",
+      "room7_old_wall_lantern",
+      "room7_broken_armchair",
+      "room7_old_garden_hose",
+      "room7_broken_door",
+      "room7_old_mailbox",
+      "room7_walls",
+      "room7_floor",
+      "room7_flower_bed_left",
+      "room7_flower_bed_right",
+      "room7_hanging_basket_right",
+      "room7_wall_lantern",
+      "room7_pay_dialogue3",
+      "room7_stairs",
+      "room7_hanging_basket_left",
+      "room7_armchair",
+      "room7_entrance_door",
+      "room7_side_table",
+      "room7_potted_plant_left",
+      "room7_pay_dialogue4",
+      "room7_mailbox",
+      "room7_railing_right",
+      "room7_railing_left",
+      "room7_garden_hose",
+      "room7_watering_can",
+      "room7_garden_boots",
+      "room7_doormat"
+    ]
+  },
+  "allActionPoints": [
+    {
+      "key": "room7_walls",
+      "type": "decor",
+      "name_key": "room7_walls_loc",
+      "multiobjects": [
+        "room7_walls",
+        "room7_walls_variant_2",
+        "room7_walls_variant_3"
+      ],
+      "x": 438,
+      "y": 326.5
+    },
+    {
+      "key": "room7_floor",
+      "type": "decor",
+      "name_key": "room7_floor_loc",
+      "multiobjects": [
+        "room7_floor",
+        "room7_floor_variant_2",
+        "room7_floor_variant_3"
+      ],
+      "x": 271,
+      "y": 657
+    },
+    {
+      "key": "room7_flower_bed_left",
+      "type": "decor",
+      "name_key": "room7_flower_bed_left_loc",
+      "multiobjects": [
+        "room7_flower_bed_left",
+        "room7_flower_bed_left_variant_2",
+        "room7_flower_bed_left_variant_3"
+      ],
+      "x": 133.5,
+      "y": 716.5
+    },
+    {
+      "key": "room7_flower_bed_right",
+      "type": "decor",
+      "name_key": "room7_flower_bed_right_loc",
+      "multiobjects": [
+        "room7_flower_bed_right",
+        "room7_flower_bed_right_variant_2",
+        "room7_flower_bed_right_variant_3"
+      ],
+      "x": 496,
+      "y": 753
+    },
+    {
+      "key": "room7_stairs",
+      "type": "decor",
+      "name_key": "room7_stairs_loc",
+      "multiobjects": [
+        "room7_stairs",
+        "room7_stairs_variant_2",
+        "room7_stairs_variant_3"
+      ],
+      "x": 278.5,
+      "y": 749.5
+    },
+    {
+      "key": "room7_entrance_door",
+      "type": "decor",
+      "name_key": "room7_entrance_door_loc",
+      "multiobjects": [
+        "room7_entrance_door",
+        "room7_entrance_door_variant_2",
+        "room7_entrance_door_variant_3"
+      ],
+      "x": 349,
+      "y": 381
+    },
+    {
+      "key": "room7_hanging_basket_right",
+      "type": "decor",
+      "name_key": "room7_hanging_basket_right_loc",
+      "multiobjects": [
+        "room7_hanging_basket_right",
+        "room7_hanging_basket_right_variant_2",
+        "room7_hanging_basket_right_variant_3"
+      ],
+      "x": 570,
+      "y": 367
+    },
+    {
+      "key": "room7_wall_lantern",
+      "type": "decor",
+      "name_key": "room7_wall_lantern_loc",
+      "multiobjects": [
+        "room7_wall_lantern",
+        "room7_wall_lantern_variant_2",
+        "room7_wall_lantern_variant_3"
+      ],
+      "x": 226,
+      "y": 311
+    },
+    {
+      "key": "room7_mailbox",
+      "type": "decor",
+      "name_key": "room7_mailbox_loc",
+      "multiobjects": [
+        "room7_mailbox",
+        "room7_mailbox_variant_2",
+        "room7_mailbox_variant_3"
+      ],
+      "x": 229.5,
+      "y": 414
+    },
+    {
+      "key": "room7_hanging_basket_left",
+      "type": "decor",
+      "name_key": "room7_hanging_basket_left_loc",
+      "multiobjects": [
+        "room7_hanging_basket_left",
+        "room7_hanging_basket_left_variant_2",
+        "room7_hanging_basket_left_variant_3"
+      ],
+      "x": 149,
+      "y": 351.5
+    },
+    {
+      "key": "room7_garden_hose",
+      "type": "decor",
+      "name_key": "room7_garden_hose_loc",
+      "multiobjects": [
+        "room7_garden_hose",
+        "room7_garden_hose_variant_2",
+        "room7_garden_hose_variant_3"
+      ],
+      "x": 169.5,
+      "y": 478
+    },
+    {
+      "key": "room7_potted_plant_left",
+      "type": "decor",
+      "name_key": "room7_potted_plant_left_loc",
+      "multiobjects": [
+        "room7_potted_plant_left",
+        "room7_potted_plant_left_variant_2",
+        "room7_potted_plant_left_variant_3"
+      ],
+      "x": 220,
+      "y": 548
+    },
+    {
+      "key": "room7_doormat",
+      "type": "decor",
+      "name_key": "room7_doormat_loc",
+      "multiobjects": [
+        "room7_doormat",
+        "room7_doormat_variant_2",
+        "room7_doormat_variant_3"
+      ],
+      "x": 372.5,
+      "y": 535.5
+    },
+    {
+      "key": "room7_armchair",
+      "type": "decor",
+      "name_key": "room7_armchair_loc",
+      "multiobjects": [
+        "room7_armchair",
+        "room7_armchair_variant_2",
+        "room7_armchair_variant_3"
+      ],
+      "x": 480.5,
+      "y": 476.5
+    },
+    {
+      "key": "room7_side_table",
+      "type": "decor",
+      "name_key": "room7_side_table_loc",
+      "multiobjects": [
+        "room7_side_table",
+        "room7_side_table_variant_2",
+        "room7_side_table_variant_3"
+      ],
+      "x": 532.5,
+      "y": 545
+    },
+    {
+      "key": "room7_garden_boots",
+      "type": "decor",
+      "name_key": "room7_garden_boots_loc",
+      "multiobjects": [
+        "room7_garden_boots",
+        "room7_garden_boots_variant_2",
+        "room7_garden_boots_variant_3"
+      ],
+      "x": 300,
+      "y": 580.5
+    },
+    {
+      "key": "room7_watering_can",
+      "type": "decor",
+      "name_key": "room7_watering_can_loc",
+      "multiobjects": [
+        "room7_watering_can",
+        "room7_watering_can_variant_2",
+        "room7_watering_can_variant_3"
+      ],
+      "x": 444,
+      "y": 646
+    },
+    {
+      "key": "room7_railing_right",
+      "type": "decor",
+      "name_key": "room7_railing_right_loc",
+      "multiobjects": [
+        "room7_railing_right",
+        "room7_railing_right_variant_2",
+        "room7_railing_right_variant_3"
+      ],
+      "x": 533.5,
+      "y": 631
+    },
+    {
+      "key": "room7_railing_left",
+      "type": "decor",
+      "name_key": "room7_railing_left_loc",
+      "multiobjects": [
+        "room7_railing_left",
+        "room7_railing_left_variant_2",
+        "room7_railing_left_variant_3"
+      ],
+      "x": 159,
+      "y": 602
+    },
+    {
+      "key": "room7_broken_door",
+      "type": "repair",
+      "name_key": "room7_broken_door_loc",
+      "multiobjects": [
+        "room7_broken_door"
+      ],
+      "x": 343.5,
+      "y": 350
+    },
+    {
+      "key": "room7_old_wall_lantern",
+      "type": "repair",
+      "name_key": "room7_old_wall_lantern_loc",
+      "multiobjects": [
+        "room7_old_wall_lantern"
+      ],
+      "x": 253.5,
+      "y": 256
+    },
+    {
+      "key": "room7_old_ivy",
+      "type": "repair",
+      "name_key": "room7_old_ivy_loc",
+      "multiobjects": [
+        "room7_old_ivy"
+      ],
+      "x": 462.5,
+      "y": 356.5
+    },
+    {
+      "key": "room7_old_hanging_basket_left",
+      "type": "repair",
+      "name_key": "room7_old_hanging_basket_left_loc",
+      "multiobjects": [
+        "room7_old_hanging_basket_left"
+      ],
+      "x": 166.5,
+      "y": 375.5
+    },
+    {
+      "key": "room7_broken_armchair",
+      "type": "repair",
+      "name_key": "room7_broken_armchair_loc",
+      "multiobjects": [
+        "room7_broken_armchair"
+      ],
+      "x": 521,
+      "y": 512
+    },
+    {
+      "key": "room7_old_hanging_basket_right",
+      "type": "repair",
+      "name_key": "room7_old_hanging_basket_right_loc",
+      "multiobjects": [
+        "room7_old_hanging_basket_right"
+      ],
+      "x": 572,
+      "y": 370
+    },
+    {
+      "key": "room7_old_mailbox",
+      "type": "repair",
+      "name_key": "room7_old_mailbox_loc",
+      "multiobjects": [
+        "room7_old_mailbox"
+      ],
+      "x": 247.5,
+      "y": 380
+    },
+    {
+      "key": "room7_old_garden_hose",
+      "type": "repair",
+      "name_key": "room7_old_garden_hose_loc",
+      "multiobjects": [
+        "room7_old_garden_hose"
+      ],
+      "x": 152.5,
+      "y": 490
+    },
+    {
+      "key": "room7_old_garden_boots",
+      "type": "repair",
+      "name_key": "room7_old_garden_boots_loc",
+      "multiobjects": [
+        "room7_old_garden_boots"
+      ],
+      "x": 175.5,
+      "y": 284
+    },
+    {
+      "key": "room7_old_doormat",
+      "type": "repair",
+      "name_key": "room7_old_doormat_loc",
+      "multiobjects": [
+        "room7_old_doormat"
+      ],
+      "x": 320,
+      "y": 584
+    },
+    {
+      "key": "room7_old_flower_pot",
+      "type": "repair",
+      "name_key": "room7_old_flower_pot_loc",
+      "multiobjects": [
+        "room7_old_flower_pot"
+      ],
+      "x": 471,
+      "y": 456
+    },
+    {
+      "key": "room7_old_side_table",
+      "type": "repair",
+      "name_key": "room7_old_side_table_loc",
+      "multiobjects": [
+        "room7_old_side_table"
+      ],
+      "x": 503,
+      "y": 599
+    },
+    {
+      "key": "room7_old_watering_can",
+      "type": "repair",
+      "name_key": "room7_old_watering_can_loc",
+      "multiobjects": [
+        "room7_old_watering_can"
+      ],
+      "x": 399.5,
+      "y": 640
+    },
+    {
+      "key": "room7_old_flower_bed_right",
+      "type": "repair",
+      "name_key": "room7_old_flower_bed_right_loc",
+      "multiobjects": [
+        "room7_old_flower_bed_right"
+      ],
+      "x": 546.5,
+      "y": 737.5
+    },
+    {
+      "key": "room7_old_railing_right",
+      "type": "repair",
+      "name_key": "room7_old_railing_right_loc",
+      "multiobjects": [
+        "room7_old_railing_right"
+      ],
+      "x": 550.5,
+      "y": 659
+    },
+    {
+      "key": "room7_old_railing_left",
+      "type": "repair",
+      "name_key": "room7_old_railing_left_loc",
+      "multiobjects": [
+        "room7_old_railing_left"
+      ],
+      "x": 145.5,
+      "y": 633
+    },
+    {
+      "key": "room7_old_flower_bed_left",
+      "type": "repair",
+      "name_key": "room7_old_flower_bed_left_loc",
+      "multiobjects": [
+        "room7_old_flower_bed_left"
+      ],
+      "x": 177,
+      "y": 718
+    },
+    {
+      "key": "room7_old_steps",
+      "type": "repair",
+      "name_key": "room7_old_steps_loc",
+      "multiobjects": [
+        "room7_old_steps"
+      ],
+      "x": 291.5,
+      "y": 747.5
+    },
+    {
+      "key": "room7_pay_dialogue1",
+      "type": "dialog",
+      "dialogId": "room7_d2",
+      "multiobject": "",
+      "price": 540,
+      "priceType": "coins",
+      "x": 358,
+      "y": 700,
+      "name_key": "room7_pay_dialogue1_loc"
+    },
+    {
+      "key": "room7_pay_dialogue2",
+      "type": "dialog",
+      "dialogId": "room7_d3",
+      "multiobject": "",
+      "price": 90,
+      "priceType": "coins",
+      "x": 358,
+      "y": 700,
+      "name_key": "room7_pay_dialogue2_loc"
+    },
+    {
+      "key": "room7_pay_dialogue3",
+      "type": "dialog",
+      "dialogId": "room7_d5",
+      "multiobject": "",
+      "price": 690,
+      "priceType": "coins",
+      "x": 358,
+      "y": 700,
+      "name_key": "room7_pay_dialogue3_loc"
+    },
+    {
+      "key": "room7_pay_dialogue4",
+      "type": "dialog",
+      "dialogId": "room7_d6",
+      "multiobject": "",
+      "price": 540,
+      "priceType": "coins",
+      "x": 358,
+      "y": 700,
+      "name_key": "room7_pay_dialogue4_loc"
+    }
+  ],
+  "allMultiobjects": [
+    {
+      "key": "room7_walls",
+      "parts": [
+        "room7_walls_A"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_walls_variant_2",
+      "parts": [
+        "room7_walls_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room7_walls_variant_3",
+      "parts": [
+        "room7_walls_C"
+      ],
+      "price": 690,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_floor",
+      "parts": [
+        "room7_floor_A"
+      ],
+      "price": 690,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_floor_variant_2",
+      "parts": [
+        "room7_floor_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room7_floor_variant_3",
+      "parts": [
+        "room7_floor_C"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_flower_bed_left",
+      "parts": [
+        "room7_flower_bed_left_A"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room7_flower_bed_left_variant_2",
+      "parts": [
+        "room7_flower_bed_left_B"
+      ],
+      "price": 690,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_flower_bed_left_variant_3",
+      "parts": [
+        "room7_flower_bed_left_C"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_flower_bed_right",
+      "parts": [
+        "room7_flower_bed_right_A"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_flower_bed_right_variant_2",
+      "parts": [
+        "room7_flower_bed_right_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room7_flower_bed_right_variant_3",
+      "parts": [
+        "room7_flower_bed_right_C"
+      ],
+      "price": 690,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_stairs",
+      "parts": [
+        "room7_stairs_A"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_stairs_variant_2",
+      "parts": [
+        "room7_stairs_B"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_stairs_variant_3",
+      "parts": [
+        "room7_stairs_C"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_entrance_door",
+      "parts": [
+        "room7_entrance_door_A"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room7_entrance_door_variant_2",
+      "parts": [
+        "room7_entrance_door_B"
+      ],
+      "price": 690,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_entrance_door_variant_3",
+      "parts": [
+        "room7_entrance_door_C"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_hanging_basket_right",
+      "parts": [
+        "room7_hanging_basket_right_A_1",
+        "room7_hanging_basket_right_A_2"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room7_hanging_basket_right_variant_2",
+      "parts": [
+        "room7_hanging_basket_right_B_1",
+        "room7_hanging_basket_right_B_2"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_hanging_basket_right_variant_3",
+      "parts": [
+        "room7_hanging_basket_right_C_1",
+        "room7_hanging_basket_right_C_2"
+      ],
+      "price": 690,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_wall_lantern",
+      "parts": [
+        "room7_wall_lantern_A"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room7_wall_lantern_variant_2",
+      "parts": [
+        "room7_wall_lantern_B"
+      ],
+      "price": 690,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_wall_lantern_variant_3",
+      "parts": [
+        "room7_wall_lantern_C"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_mailbox",
+      "parts": [
+        "room7_mailbox_A"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room7_mailbox_variant_2",
+      "parts": [
+        "room7_mailbox_B"
+      ],
+      "price": 690,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_mailbox_variant_3",
+      "parts": [
+        "room7_mailbox_C"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_hanging_basket_left",
+      "parts": [
+        "room7_hanging_basket_left_A"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room7_hanging_basket_left_variant_2",
+      "parts": [
+        "room7_hanging_basket_left_B"
+      ],
+      "price": 690,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_hanging_basket_left_variant_3",
+      "parts": [
+        "room7_hanging_basket_left_C"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_garden_hose",
+      "parts": [
+        "room7_garden_hose_A"
+      ],
+      "price": 710,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_garden_hose_variant_2",
+      "parts": [
+        "room7_garden_hose_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room7_garden_hose_variant_3",
+      "parts": [
+        "room7_garden_hose_C"
+      ],
+      "price": 555,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_potted_plant_left",
+      "parts": [
+        "room7_potted_plant_left_A"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_potted_plant_left_variant_2",
+      "parts": [
+        "room7_potted_plant_left_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room7_potted_plant_left_variant_3",
+      "parts": [
+        "room7_potted_plant_left_C"
+      ],
+      "price": 690,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_doormat",
+      "parts": [
+        "room7_doormat_A"
+      ],
+      "price": 465,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_doormat_variant_2",
+      "parts": [
+        "room7_doormat_B"
+      ],
+      "price": 595,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_doormat_variant_3",
+      "parts": [
+        "room7_doormat_C"
+      ],
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room7_armchair",
+      "parts": [
+        "room7_armchair_A"
+      ],
+      "price": 690,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_armchair_variant_2",
+      "parts": [
+        "room7_armchair_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room7_armchair_variant_3",
+      "parts": [
+        "room7_armchair_C"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_side_table",
+      "parts": [
+        "room7_side_table_A_1",
+        "room7_side_table_A_2"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room7_side_table_variant_2",
+      "parts": [
+        "room7_side_table_B_1",
+        "room7_side_table_B_2"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_side_table_variant_3",
+      "parts": [
+        "room7_side_table_C_1",
+        "room7_side_table_C_2"
+      ],
+      "price": 690,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_garden_boots",
+      "parts": [
+        "room7_garden_boots_A"
+      ],
+      "price": 505,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_garden_boots_variant_2",
+      "parts": [
+        "room7_garden_boots_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room7_garden_boots_variant_3",
+      "parts": [
+        "room7_garden_boots_C"
+      ],
+      "price": 645,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_watering_can",
+      "parts": [
+        "room7_watering_can_A"
+      ],
+      "price": 90,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_watering_can_variant_2",
+      "parts": [
+        "room7_watering_can_B"
+      ],
+      "price": 710,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_watering_can_variant_3",
+      "parts": [
+        "room7_watering_can_C"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room7_railing_right",
+      "parts": [
+        "room7_railing_right_A"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_railing_right_variant_2",
+      "parts": [
+        "room7_railing_right_B"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_railing_right_variant_3",
+      "parts": [
+        "room7_railing_right_C"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_railing_left",
+      "parts": [
+        "room7_railing_left_A"
+      ],
+      "price": 700,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_railing_left_variant_2",
+      "parts": [
+        "room7_railing_left_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room7_railing_left_variant_3",
+      "parts": [
+        "room7_railing_left_C"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_broken_door",
+      "parts": [
+        "room7_broken_door"
+      ],
+      "price": 344,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_old_wall_lantern",
+      "parts": [
+        "room7_old_wall_lantern"
+      ],
+      "price": 535,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_old_ivy",
+      "parts": [
+        "room7_old_ivy_2",
+        "room7_old_ivy_1"
+      ],
+      "price": 90,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_old_hanging_basket_left",
+      "parts": [
+        "room7_old_hanging_basket_left"
+      ],
+      "price": 515,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_broken_armchair",
+      "parts": [
+        "room7_broken_armchair"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_old_hanging_basket_right",
+      "parts": [
+        "room7_old_hanging_basket_right"
+      ],
+      "price": 580,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_old_mailbox",
+      "parts": [
+        "room7_old_mailbox"
+      ],
+      "price": 215,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_old_garden_hose",
+      "parts": [
+        "room7_old_garden_hose"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_old_garden_boots",
+      "parts": [
+        "room7_old_garden_boots"
+      ],
+      "price": 220,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_old_doormat",
+      "parts": [
+        "room7_old_doormat"
+      ],
+      "price": 590,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_old_flower_pot",
+      "parts": [
+        "room7_old_flower_pot"
+      ],
+      "price": 220,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_old_side_table",
+      "parts": [
+        "room7_old_side_table"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_old_watering_can",
+      "parts": [
+        "room7_old_watering_can"
+      ],
+      "price": 505,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_old_flower_bed_right",
+      "parts": [
+        "room7_old_flower_bed_right"
+      ],
+      "price": 220,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_old_railing_right",
+      "parts": [
+        "room7_old_railing_right"
+      ],
+      "price": 465,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_old_railing_left",
+      "parts": [
+        "room7_old_railing_left"
+      ],
+      "price": 555,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_old_flower_bed_left",
+      "parts": [
+        "room7_old_flower_bed_left"
+      ],
+      "price": 220,
+      "priceType": "coins"
+    },
+    {
+      "key": "room7_old_steps",
+      "parts": [
+        "room7_old_steps"
+      ],
+      "price": 240,
+      "priceType": "coins"
+    }
+  ],
+  "allPartsOrderComment": "Порядок слоёв по z: от заднего плана к переднему; меняется в decor-viewer.",
+  "depthOrderEdited": true,
+  "allParts": [
+    {
+      "key": "room7_walls_A",
+      "type": "decor",
+      "atlas_name": "rooms_room7-surfaces",
+      "x": 360,
+      "y": 360.5,
+      "angle": null
+    },
+    {
+      "key": "room7_walls_B",
+      "type": "decor",
+      "atlas_name": "rooms_room7-surfaces",
+      "x": 360,
+      "y": 346,
+      "angle": null
+    },
+    {
+      "key": "room7_walls_C",
+      "type": "decor",
+      "atlas_name": "rooms_room7-surfaces",
+      "x": 356.5,
+      "y": 341,
+      "angle": null
+    },
+    {
+      "key": "room7_floor_A",
+      "type": "decor",
+      "atlas_name": "rooms_room7-surfaces",
+      "x": 352,
+      "y": 708,
+      "angle": null
+    },
+    {
+      "key": "room7_floor_B",
+      "type": "decor",
+      "atlas_name": "rooms_room7-surfaces",
+      "x": 367.5,
+      "y": 652,
+      "angle": null
+    },
+    {
+      "key": "room7_floor_C",
+      "type": "decor",
+      "atlas_name": "rooms_room7-surfaces",
+      "x": 353.5,
+      "y": 653.5,
+      "angle": null
+    },
+    {
+      "key": "room7_flower_bed_left_A",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 108.5,
+      "y": 743.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_flower_bed_left_B",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 108.5,
+      "y": 746.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_flower_bed_left_C",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 110,
+      "y": 745,
+      "angle": 180
+    },
+    {
+      "key": "room7_flower_bed_right_A",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 565,
+      "y": 769,
+      "angle": 180
+    },
+    {
+      "key": "room7_flower_bed_right_B",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 564,
+      "y": 771.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_flower_bed_right_C",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 564,
+      "y": 771.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_stairs_A",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 284.5,
+      "y": 825.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_stairs_B",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 309.5,
+      "y": 796.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_stairs_C",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 311.5,
+      "y": 797.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_entrance_door_A",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 342,
+      "y": 377,
+      "angle": 315
+    },
+    {
+      "key": "room7_entrance_door_B",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 342,
+      "y": 377,
+      "angle": 315
+    },
+    {
+      "key": "room7_entrance_door_C",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 342,
+      "y": 377,
+      "angle": 315
+    },
+    {
+      "key": "room7_hanging_basket_right_A_1",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 570,
+      "y": 367,
+      "angle": 180
+    },
+    {
+      "key": "room7_hanging_basket_right_A_2",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 541.5,
+      "y": 280,
+      "angle": 45
+    },
+    {
+      "key": "room7_hanging_basket_right_B_1",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 570,
+      "y": 378,
+      "angle": 180
+    },
+    {
+      "key": "room7_hanging_basket_right_B_2",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 541.5,
+      "y": 280,
+      "angle": 45
+    },
+    {
+      "key": "room7_hanging_basket_right_C_1",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 541.5,
+      "y": 280,
+      "angle": 180
+    },
+    {
+      "key": "room7_hanging_basket_right_C_2",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 570,
+      "y": 385,
+      "angle": 45
+    },
+    {
+      "key": "room7_wall_lantern_A",
+      "type": "decor",
+      "atlas_name": "rooms_room7-surfaces",
+      "x": 226,
+      "y": 311,
+      "angle": 315
+    },
+    {
+      "key": "room7_wall_lantern_B",
+      "type": "decor",
+      "atlas_name": "rooms_room7-surfaces",
+      "x": 225,
+      "y": 309.5,
+      "angle": 315
+    },
+    {
+      "key": "room7_wall_lantern_C",
+      "type": "decor",
+      "atlas_name": "rooms_room7-surfaces",
+      "x": 223.5,
+      "y": 306.5,
+      "angle": 315
+    },
+    {
+      "key": "room7_mailbox_A",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 205.5,
+      "y": 424,
+      "angle": 315
+    },
+    {
+      "key": "room7_mailbox_B",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 205.5,
+      "y": 424,
+      "angle": 315
+    },
+    {
+      "key": "room7_mailbox_C",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 205.5,
+      "y": 424.5,
+      "angle": 315
+    },
+    {
+      "key": "room7_hanging_basket_left_A",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 149,
+      "y": 351.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_hanging_basket_left_B",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 149,
+      "y": 367,
+      "angle": 180
+    },
+    {
+      "key": "room7_hanging_basket_left_C",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 149,
+      "y": 368,
+      "angle": 180
+    },
+    {
+      "key": "room7_garden_hose_A",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 141.5,
+      "y": 486,
+      "angle": 315
+    },
+    {
+      "key": "room7_garden_hose_B",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 141.5,
+      "y": 486,
+      "angle": 315
+    },
+    {
+      "key": "room7_garden_hose_C",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 141.5,
+      "y": 486,
+      "angle": 315
+    },
+    {
+      "key": "room7_potted_plant_left_A",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 189,
+      "y": 567,
+      "angle": 180
+    },
+    {
+      "key": "room7_potted_plant_left_B",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 189,
+      "y": 567.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_potted_plant_left_C",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 189,
+      "y": 567.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_doormat_A",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 372.5,
+      "y": 535.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_doormat_B",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 369.5,
+      "y": 537,
+      "angle": 180
+    },
+    {
+      "key": "room7_doormat_C",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 372.5,
+      "y": 540,
+      "angle": 180
+    },
+    {
+      "key": "room7_armchair_A",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 488.5,
+      "y": 514.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_armchair_B",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 488.5,
+      "y": 513.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_armchair_C",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 488.5,
+      "y": 515.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_side_table_A_1",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 578.5,
+      "y": 582,
+      "angle": 180
+    },
+    {
+      "key": "room7_side_table_A_2",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 581.5,
+      "y": 517,
+      "angle": 180
+    },
+    {
+      "key": "room7_side_table_B_1",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 578.5,
+      "y": 582,
+      "angle": 180
+    },
+    {
+      "key": "room7_side_table_B_2",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 581.5,
+      "y": 519.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_side_table_C_1",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 578.5,
+      "y": 582.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_side_table_C_2",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 581.5,
+      "y": 522.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_garden_boots_A",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 300,
+      "y": 580.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_garden_boots_B",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 300,
+      "y": 581.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_garden_boots_C",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 300,
+      "y": 582,
+      "angle": 180
+    },
+    {
+      "key": "room7_watering_can_A",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 422,
+      "y": 689,
+      "angle": 180
+    },
+    {
+      "key": "room7_watering_can_B",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 422,
+      "y": 688.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_watering_can_C",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 422,
+      "y": 688.5,
+      "angle": 180
+    },
+    {
+      "key": "room7_railing_right_A",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 559.5,
+      "y": 613,
+      "angle": 315
+    },
+    {
+      "key": "room7_railing_right_B",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 560,
+      "y": 611.5,
+      "angle": 315
+    },
+    {
+      "key": "room7_railing_right_C",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 563,
+      "y": 615,
+      "angle": 315
+    },
+    {
+      "key": "room7_railing_left_A",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 148,
+      "y": 600,
+      "angle": 45
+    },
+    {
+      "key": "room7_railing_left_B",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 149,
+      "y": 607,
+      "angle": 45
+    },
+    {
+      "key": "room7_railing_left_C",
+      "type": "decor",
+      "atlas_name": "rooms_room7-decor",
+      "x": 149,
+      "y": 610,
+      "angle": 45
+    },
+    {
+      "key": "room7_broken_door",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 340.5,
+      "y": 391,
+      "angle": 135
+    },
+    {
+      "key": "room7_old_wall_lantern",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 229.5,
+      "y": 272,
+      "angle": 135
+    },
+    {
+      "key": "room7_old_ivy_2",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 381.5,
+      "y": 348.5,
+      "angle": 225
+    },
+    {
+      "key": "room7_old_hanging_basket_left",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 148.5,
+      "y": 320.5,
+      "angle": 0
+    },
+    {
+      "key": "room7_broken_armchair",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 507,
+      "y": 518,
+      "angle": 0
+    },
+    {
+      "key": "room7_old_hanging_basket_right",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 572,
+      "y": 370,
+      "angle": 0
+    },
+    {
+      "key": "room7_old_ivy_1",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 564.5,
+      "y": 265,
+      "angle": 0
+    },
+    {
+      "key": "room7_old_mailbox",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 231.5,
+      "y": 413,
+      "angle": 135
+    },
+    {
+      "key": "room7_old_garden_hose",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 152.5,
+      "y": 490,
+      "angle": 135
+    },
+    {
+      "key": "room7_old_garden_boots",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 158.5,
+      "y": 319,
+      "angle": 0
+    },
+    {
+      "key": "room7_old_doormat",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 320,
+      "y": 584,
+      "angle": 0
+    },
+    {
+      "key": "room7_old_flower_pot",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 482,
+      "y": 499,
+      "angle": 0
+    },
+    {
+      "key": "room7_old_side_table",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 554,
+      "y": 616,
+      "angle": 0
+    },
+    {
+      "key": "room7_old_watering_can",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 375.5,
+      "y": 660,
+      "angle": 0
+    },
+    {
+      "key": "room7_old_flower_bed_right",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 546.5,
+      "y": 737.5,
+      "angle": 0
+    },
+    {
+      "key": "room7_old_railing_right",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 552.5,
+      "y": 673,
+      "angle": 135
+    },
+    {
+      "key": "room7_old_railing_left",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 145.5,
+      "y": 633,
+      "angle": 225
+    },
+    {
+      "key": "room7_old_flower_bed_left",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 153,
+      "y": 743,
+      "angle": 0
+    },
+    {
+      "key": "room7_old_steps",
+      "type": "repair",
+      "atlas_name": "rooms_room7-repair",
+      "x": 316.5,
+      "y": 793.5,
+      "angle": 0
+    }
+  ],
+  "sourcePsdRevision": "bf70ce86c3b86b727ea4b765aa9d4a2f3f4312d10220a80ad0b029ce91766ff7",
+  "dialogs": [
+    {
+      "id": "room7_d1",
+      "roomId": "room7",
+      "conditions": [
+        {
+          "trigger_type": "on_room_enter",
+          "trigger_key": "room7"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room7_d1_r1",
+          "char_key": "miller",
+          "char_state": "miller_angry",
+          "position": "right",
+          "text_key": "room7_d1_r1_loc"
+        },
+        {
+          "id": "room7_d1_r2",
+          "char_key": "clare",
+          "char_state": "clare_smirk",
+          "position": "left",
+          "text_key": "room7_d1_r2_loc"
+        },
+        {
+          "id": "room7_d1_r3",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room7_d1_r3_loc"
+        },
+        {
+          "id": "room7_d1_r4",
+          "char_key": "miller",
+          "char_state": "miller_haughty",
+          "position": "right",
+          "text_key": "room7_d1_r4_loc"
+        },
+        {
+          "id": "room7_d1_r5",
+          "char_key": "anna",
+          "char_state": "anna_angry",
+          "position": "left",
+          "text_key": "room7_d1_r5_loc"
+        },
+        {
+          "id": "room7_d1_r6",
+          "char_key": "miller",
+          "char_state": "miller_neutral",
+          "position": "right",
+          "text_key": "room7_d1_r6_loc"
+        },
+        {
+          "id": "room7_d1_r7",
+          "char_key": "miller",
+          "char_state": "miller_haughty",
+          "position": "right",
+          "text_key": "room7_d1_r7_loc"
+        },
+        {
+          "id": "room7_d1_r8",
+          "char_key": "anna",
+          "char_state": "anna_fear",
+          "position": "left",
+          "text_key": "room7_d1_r8_loc"
+        }
+      ]
+    },
+    {
+      "id": "room7_d2",
+      "roomId": "room7",
+      "conditions": [
+        {
+          "trigger_type": "dialog_point",
+          "trigger_key": "room7_pay_dialogue1"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room7_d2_r1",
+          "char_key": "alex",
+          "char_state": "alex_neutral",
+          "position": "left",
+          "text_key": "room7_d2_r1_loc"
+        },
+        {
+          "id": "room7_d2_r2",
+          "char_key": "miller",
+          "char_state": "miller_neutral",
+          "position": "right",
+          "text_key": "room7_d2_r2_loc"
+        },
+        {
+          "id": "room7_d2_r3",
+          "char_key": "alex",
+          "char_state": "alex_sad",
+          "position": "left",
+          "text_key": "room7_d2_r3_loc"
+        },
+        {
+          "id": "room7_d2_r4",
+          "char_key": "miller",
+          "char_state": "miller_haughty",
+          "position": "right",
+          "text_key": "room7_d2_r4_loc"
+        },
+        {
+          "id": "room7_d2_r5",
+          "char_key": "alice",
+          "char_state": "alice_angry",
+          "position": "left",
+          "text_key": "room7_d2_r5_loc"
+        },
+        {
+          "id": "room7_d2_r6",
+          "char_key": "alice",
+          "char_state": "alice_neutral",
+          "position": "left",
+          "text_key": "room7_d2_r6_loc"
+        }
+      ]
+    },
+    {
+      "id": "room7_d3",
+      "roomId": "room7",
+      "conditions": [
+        {
+          "trigger_type": "dialog_point",
+          "trigger_key": "room7_pay_dialogue2"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room7_d3_r1",
+          "char_key": "clare",
+          "char_state": "clare_surprised",
+          "position": "right",
+          "text_key": "room7_d3_r1_loc"
+        },
+        {
+          "id": "room7_d3_r2",
+          "char_key": "clare",
+          "char_state": "clare_angry",
+          "position": "right",
+          "text_key": "room7_d3_r2_loc"
+        },
+        {
+          "id": "room7_d3_r3",
+          "char_key": "miller",
+          "char_state": "miller_neutral",
+          "position": "left",
+          "text_key": "room7_d3_r3_loc"
+        },
+        {
+          "id": "room7_d3_r4",
+          "char_key": "miller",
+          "char_state": "miller_neutral",
+          "position": "left",
+          "text_key": "room7_d3_r4_loc"
+        },
+        {
+          "id": "room7_d3_r5",
+          "char_key": "clare",
+          "char_state": "clare_neutral",
+          "position": "right",
+          "text_key": "room7_d3_r5_loc"
+        }
+      ]
+    },
+    {
+      "id": "room7_d4",
+      "roomId": "room7",
+      "conditions": [
+        {
+          "trigger_type": "on_room_clean",
+          "trigger_key": "room7"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room7_d4_r1",
+          "char_key": "anna",
+          "char_state": "anna_embarrassed",
+          "position": "left",
+          "text_key": "room7_d4_r1_loc"
+        },
+        {
+          "id": "room7_d4_r2",
+          "char_key": "miller",
+          "char_state": "miller_haughty",
+          "position": "right",
+          "text_key": "room7_d4_r2_loc"
+        },
+        {
+          "id": "room7_d4_r3",
+          "char_key": "anna",
+          "char_state": "anna_fear",
+          "position": "left",
+          "text_key": "room7_d4_r3_loc"
+        },
+        {
+          "id": "room7_d4_r4",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "left",
+          "text_key": "room7_d4_r4_loc"
+        },
+        {
+          "id": "room7_d4_r5",
+          "char_key": "clare",
+          "char_state": "clare_surprised",
+          "position": "right",
+          "text_key": "room7_d4_r5_loc"
+        },
+        {
+          "id": "room7_d4_r6",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "left",
+          "text_key": "room7_d4_r6_loc"
+        }
+      ]
+    },
+    {
+      "id": "room7_d5",
+      "roomId": "room7",
+      "conditions": [
+        {
+          "trigger_type": "dialog_point",
+          "trigger_key": "room7_pay_dialogue3"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room7_d5_r1",
+          "char_key": "anna",
+          "char_state": "anna_sad",
+          "position": "left",
+          "text_key": "room7_d5_r1_loc"
+        },
+        {
+          "id": "room7_d5_r2",
+          "char_key": "clare",
+          "char_state": "clare_sad",
+          "position": "right",
+          "text_key": "room7_d5_r2_loc"
+        },
+        {
+          "id": "room7_d5_r3",
+          "char_key": "clare",
+          "char_state": "clare_angry",
+          "position": "right",
+          "text_key": "room7_d5_r3_loc"
+        },
+        {
+          "id": "room7_d5_r4",
+          "char_key": "anna",
+          "char_state": "anna_angry",
+          "position": "left",
+          "text_key": "room7_d5_r4_loc"
+        },
+        {
+          "id": "room7_d5_r5",
+          "char_key": "anna",
+          "char_state": "anna_angry",
+          "position": "left",
+          "text_key": "room7_d5_r5_loc"
+        },
+        {
+          "id": "room7_d5_r6",
+          "char_key": "miller",
+          "char_state": "miller_angry",
+          "position": "right",
+          "text_key": "room7_d5_r6_loc"
+        }
+      ]
+    },
+    {
+      "id": "room7_d6",
+      "roomId": "room7",
+      "conditions": [
+        {
+          "trigger_type": "dialog_point",
+          "trigger_key": "room7_pay_dialogue4"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room7_d6_r1",
+          "char_key": "miller",
+          "char_state": "miller_haughty",
+          "position": "right",
+          "text_key": "room7_d6_r1_loc"
+        },
+        {
+          "id": "room7_d6_r2",
+          "char_key": "mary",
+          "char_state": "mary_neutral",
+          "position": "left",
+          "text_key": "room7_d6_r2_loc"
+        },
+        {
+          "id": "room7_d6_r3",
+          "char_key": "mary",
+          "char_state": "mary_smile",
+          "position": "left",
+          "text_key": "room7_d6_r3_loc"
+        },
+        {
+          "id": "room7_d6_r4",
+          "char_key": "anna",
+          "char_state": "anna_fear",
+          "position": "right",
+          "text_key": "room7_d6_r4_loc"
+        },
+        {
+          "id": "room7_d6_r5",
+          "char_key": "mary",
+          "char_state": "mary_angry",
+          "position": "left",
+          "text_key": "room7_d6_r5_loc"
+        },
+        {
+          "id": "room7_d6_r6",
+          "char_key": "mary",
+          "char_state": "mary_angry",
+          "position": "left",
+          "text_key": "room7_d6_r6_loc"
+        },
+        {
+          "id": "room7_d6_r7",
+          "char_key": "miller",
+          "char_state": "miller_surprised",
+          "position": "right",
+          "text_key": "room7_d6_r7_loc"
+        },
+        {
+          "id": "room7_d6_r8",
+          "char_key": "mary",
+          "char_state": "mary_neutral",
+          "position": "left",
+          "text_key": "room7_d6_r8_loc"
+        },
+        {
+          "id": "room7_d6_r9",
+          "char_key": "mary",
+          "char_state": "mary_smile",
+          "position": "left",
+          "text_key": "room7_d6_r9_loc"
+        }
+      ]
+    },
+    {
+      "id": "room7_d7",
+      "roomId": "room7",
+      "conditions": [
+        {
+          "trigger_type": "on_room_finished",
+          "trigger_key": "room7"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "room7_d7_r1",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room7_d7_r1_loc"
+        },
+        {
+          "id": "room7_d7_r2",
+          "char_key": "alex",
+          "char_state": "alex_joy",
+          "position": "right",
+          "text_key": "room7_d7_r2_loc"
+        },
+        {
+          "id": "room7_d7_r3",
+          "char_key": "alice",
+          "char_state": "alice_wink",
+          "position": "right",
+          "text_key": "room7_d7_r3_loc"
+        },
+        {
+          "id": "room7_d7_r4",
+          "char_key": "miller",
+          "char_state": "miller_surprised",
+          "position": "right",
+          "text_key": "room7_d7_r4_loc"
+        },
+        {
+          "id": "room7_d7_r5",
+          "char_key": "miller",
+          "char_state": "miller_neutral",
+          "position": "right",
+          "text_key": "room7_d7_r5_loc"
+        },
+        {
+          "id": "room7_d7_r6",
+          "char_key": "miller",
+          "char_state": "miller_neutral",
+          "position": "right",
+          "text_key": "room7_d7_r6_loc"
+        },
+        {
+          "id": "room7_d7_r7",
+          "char_key": "miller",
+          "char_state": "miller_neutral",
+          "position": "right",
+          "text_key": "room7_d7_r7_loc"
+        },
+        {
+          "id": "room7_d7_r8",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "room7_d7_r8_loc"
+        }
+      ]
+    }
+  ],
+  "award": 45
+}

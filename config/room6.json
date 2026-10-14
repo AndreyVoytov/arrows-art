@@ -8,26 +8,56 @@
   ],
   "content": {
     "actionPointOrder": [
+      "room6_old_telescope",
+      "room6_old_hanging_chair",
+      "room6_old_bookshelf",
+      "room6_pay_dialogue1",
+      "room6_old_key_box",
+      "room6_old_work_desk",
+      "room6_old_bird_feeder",
+      "room6_old_plant_group",
+      "room6_old_bench",
+      "room6_old_rug",
+      "room6_old_garden_lanterns",
+      "room6_pay_dialogue2",
+      "room6_old_secret_floor_hatch",
+      "room6_old_door",
+      "room6_old_garden_windows",
+      "room6_old_walls",
       "room6_walls",
       "room6_floor",
-      "room6_wall_decor",
-      "room6_wall_picture",
-      "room6_wall_art",
-      "room6_bookcase",
-      "room6_fireplace",
-      "room6_tv",
-      "room6_coffee_table",
-      "room6_table_books_vase",
-      "room6_sofa",
-      "room6_armchair",
-      "room6_clock",
-      "room6_pay_dialogue1",
-      "room6_pay_dialogue2",
+      "room6_garden_windows",
+      "room6_bridge_door",
+      "room6_branch_constellation_map",
+      "room6_ladder",
       "room6_pay_dialogue3",
-      "room6_pay_dialogue4"
+      "room6_pendant_light",
+      "room6_bird_feeder",
+      "room6_rug",
+      "room6_secret_floor_hatch",
+      "room6_built_in_bench",
+      "room6_pay_dialogue4",
+      "room6_hanging_chair",
+      "room6_work_desk",
+      "room6_key_box",
+      "room6_telescope",
+      "room6_plant_group",
+      "room6_garden_lanterns"
     ]
   },
   "allActionPoints": [
+    {
+      "key": "room6_floor",
+      "type": "decor",
+      "name_key": "room6_floor_loc",
+      "multiobjects": [
+        "room6_floor",
+        "room6_floor_variant_2",
+        "room6_floor_variant_3"
+      ],
+      "x": 473,
+      "y": 542.5
+    },
     {
       "key": "room6_walls",
       "type": "decor",
@@ -38,224 +68,380 @@
         "room6_walls_variant_3"
       ],
       "x": 360,
-      "y": 370.5
+      "y": 333
     },
     {
-      "key": "room6_floor",
+      "key": "room6_garden_windows",
       "type": "decor",
-      "name_key": "room6_floor_loc",
+      "name_key": "room6_garden_windows_loc",
       "multiobjects": [
-        "room6_floor",
-        "room6_floor_variant_2",
-        "room6_floor_variant_3"
+        "room6_garden_windows",
+        "room6_garden_windows_variant_2",
+        "room6_garden_windows_variant_3"
       ],
-      "x": 360,
-      "y": 686
+      "x": 212,
+      "y": 322.5
     },
     {
-      "key": "room6_wall_decor",
+      "key": "room6_branch_constellation_map",
       "type": "decor",
-      "name_key": "room6_wall_decor_loc",
+      "name_key": "room6_branch_constellation_map_loc",
       "multiobjects": [
-        "room6_wall_decor",
-        "room6_wall_decor_variant_2",
-        "room6_wall_decor_variant_3"
+        "room6_branch_constellation_map",
+        "room6_branch_constellation_map_variant_2",
+        "room6_branch_constellation_map_variant_3"
       ],
-      "x": 84.5,
-      "y": 382.5
+      "x": 483,
+      "y": 254
     },
     {
-      "key": "room6_wall_picture",
+      "key": "room6_bridge_door",
       "type": "decor",
-      "name_key": "room6_wall_picture_loc",
+      "name_key": "room6_bridge_door_loc",
       "multiobjects": [
-        "room6_wall_picture",
-        "room6_wall_picture_variant_2",
-        "room6_wall_picture_variant_3"
+        "room6_bridge_door",
+        "room6_bridge_door_variant_2",
+        "room6_bridge_door_variant_3"
       ],
-      "x": 491.5,
-      "y": 319.5
+      "x": 598.5,
+      "y": 372.5
     },
     {
-      "key": "room6_wall_art",
+      "key": "room6_ladder",
       "type": "decor",
-      "name_key": "room6_wall_art_loc",
+      "name_key": "room6_ladder_loc",
       "multiobjects": [
-        "room6_wall_art",
-        "room6_wall_art_variant_2",
-        "room6_wall_art_variant_3"
+        "room6_ladder",
+        "room6_ladder_variant_2",
+        "room6_ladder_variant_3"
       ],
-      "x": 628,
-      "y": 335
+      "x": 595.5,
+      "y": 209
     },
     {
-      "key": "room6_bookcase",
+      "key": "room6_pendant_light",
       "type": "decor",
-      "name_key": "room6_bookcase_loc",
+      "name_key": "room6_pendant_light_loc",
       "multiobjects": [
-        "room6_bookcase",
-        "room6_bookcase_variant_2",
-        "room6_bookcase_variant_3"
+        "room6_pendant_light",
+        "room6_pendant_light_variant_2",
+        "room6_pendant_light_variant_3"
       ],
-      "x": 346,
-      "y": 359
+      "x": 362,
+      "y": 255
     },
     {
-      "key": "room6_fireplace",
+      "key": "room6_bird_feeder",
       "type": "decor",
-      "name_key": "room6_fireplace_loc",
+      "name_key": "room6_bird_feeder_loc",
       "multiobjects": [
-        "room6_fireplace",
-        "room6_fireplace_variant_2",
-        "room6_fireplace_variant_3"
+        "room6_bird_feeder",
+        "room6_bird_feeder_variant_2",
+        "room6_bird_feeder_variant_3"
       ],
-      "x": 219,
-      "y": 475
+      "x": 280,
+      "y": 222
     },
     {
-      "key": "room6_tv",
+      "key": "room6_work_desk",
       "type": "decor",
-      "name_key": "room6_tv_loc",
+      "name_key": "room6_work_desk_loc",
       "multiobjects": [
-        "room6_tv",
-        "room6_tv_variant_2",
-        "room6_tv_variant_3"
+        "room6_work_desk",
+        "room6_work_desk_variant_2",
+        "room6_work_desk_variant_3"
       ],
-      "x": 490.5,
-      "y": 473.5
+      "x": 466.5,
+      "y": 358
     },
     {
-      "key": "room6_coffee_table",
+      "key": "room6_key_box",
       "type": "decor",
-      "name_key": "room6_coffee_table_loc",
+      "name_key": "room6_key_box_loc",
       "multiobjects": [
-        "room6_coffee_table",
-        "room6_coffee_table_variant_2",
-        "room6_coffee_table_variant_3"
+        "room6_key_box",
+        "room6_key_box_variant_2",
+        "room6_key_box_variant_3"
       ],
-      "x": 364,
-      "y": 648.5
+      "x": 525,
+      "y": 415
     },
     {
-      "key": "room6_table_books_vase",
+      "key": "room6_rug",
       "type": "decor",
-      "name_key": "room6_table_books_vase_loc",
+      "name_key": "room6_rug_loc",
       "multiobjects": [
-        "room6_table_books_vase",
-        "room6_table_books_vase_variant_2",
-        "room6_table_books_vase_variant_3"
+        "room6_rug",
+        "room6_rug_variant_2",
+        "room6_rug_variant_3"
       ],
-      "x": 336,
+      "x": 343.5,
+      "y": 572
+    },
+    {
+      "key": "room6_secret_floor_hatch",
+      "type": "decor",
+      "name_key": "room6_secret_floor_hatch_loc",
+      "multiobjects": [
+        "room6_secret_floor_hatch",
+        "room6_secret_floor_hatch_variant_2",
+        "room6_secret_floor_hatch_variant_3"
+      ],
+      "x": 274,
+      "y": 726.5
+    },
+    {
+      "key": "room6_built_in_bench",
+      "type": "decor",
+      "name_key": "room6_built_in_bench_loc",
+      "multiobjects": [
+        "room6_built_in_bench",
+        "room6_built_in_bench_variant_2",
+        "room6_built_in_bench_variant_3"
+      ],
+      "x": 243,
+      "y": 494
+    },
+    {
+      "key": "room6_hanging_chair",
+      "type": "decor",
+      "name_key": "room6_hanging_chair_loc",
+      "multiobjects": [
+        "room6_hanging_chair",
+        "room6_hanging_chair_variant_2",
+        "room6_hanging_chair_variant_3"
+      ],
+      "x": 136.5,
+      "y": 521
+    },
+    {
+      "key": "room6_telescope",
+      "type": "decor",
+      "name_key": "room6_telescope_loc",
+      "multiobjects": [
+        "room6_telescope",
+        "room6_telescope_variant_2",
+        "room6_telescope_variant_3"
+      ],
+      "x": 580.5,
+      "y": 581
+    },
+    {
+      "key": "room6_plant_group",
+      "type": "decor",
+      "name_key": "room6_plant_group_loc",
+      "multiobjects": [
+        "room6_plant_group",
+        "room6_plant_group_variant_2",
+        "room6_plant_group_variant_3"
+      ],
+      "x": 474.5,
+      "y": 692
+    },
+    {
+      "key": "room6_garden_lanterns",
+      "type": "decor",
+      "name_key": "room6_garden_lanterns_loc",
+      "multiobjects": [
+        "room6_garden_lanterns",
+        "room6_garden_lanterns_variant_2",
+        "room6_garden_lanterns_variant_3"
+      ],
+      "x": 123,
+      "y": 392
+    },
+    {
+      "key": "room6_old_walls",
+      "type": "repair",
+      "name_key": "room6_old_walls_loc",
+      "multiobjects": [
+        "room6_old_walls"
+      ],
+      "x": 300,
+      "y": 372.5
+    },
+    {
+      "key": "room6_old_door",
+      "type": "repair",
+      "name_key": "room6_old_door_loc",
+      "multiobjects": [
+        "room6_old_door"
+      ],
+      "x": 593,
+      "y": 369
+    },
+    {
+      "key": "room6_old_garden_windows",
+      "type": "repair",
+      "name_key": "room6_old_garden_windows_loc",
+      "multiobjects": [
+        "room6_old_garden_windows"
+      ],
+      "x": 174,
+      "y": 297
+    },
+    {
+      "key": "room6_old_garden_lanterns",
+      "type": "repair",
+      "name_key": "room6_old_garden_lanterns_loc",
+      "multiobjects": [
+        "room6_old_garden_lanterns"
+      ],
+      "x": 121.5,
+      "y": 373.5
+    },
+    {
+      "key": "room6_old_key_box",
+      "type": "repair",
+      "name_key": "room6_old_key_box_loc",
+      "multiobjects": [
+        "room6_old_key_box"
+      ],
+      "x": 578,
+      "y": 526
+    },
+    {
+      "key": "room6_old_secret_floor_hatch",
+      "type": "repair",
+      "name_key": "room6_old_secret_floor_hatch_loc",
+      "multiobjects": [
+        "room6_old_secret_floor_hatch"
+      ],
+      "x": 270.5,
+      "y": 724.5
+    },
+    {
+      "key": "room6_old_rug",
+      "type": "repair",
+      "name_key": "room6_old_rug_loc",
+      "multiobjects": [
+        "room6_old_rug"
+      ],
+      "x": 378.5,
       "y": 569
     },
     {
-      "key": "room6_sofa",
-      "type": "decor",
-      "name_key": "room6_sofa_loc",
+      "key": "room6_old_work_desk",
+      "type": "repair",
+      "name_key": "room6_old_work_desk_loc",
       "multiobjects": [
-        "room6_sofa",
-        "room6_sofa_variant_2",
-        "room6_sofa_variant_3"
+        "room6_old_work_desk"
       ],
-      "x": 212,
-      "y": 684
+      "x": 419,
+      "y": 438.5
     },
     {
-      "key": "room6_armchair",
-      "type": "decor",
-      "name_key": "room6_armchair_loc",
+      "key": "room6_old_bird_feeder",
+      "type": "repair",
+      "name_key": "room6_old_bird_feeder_loc",
       "multiobjects": [
-        "room6_armchair",
-        "room6_armchair_variant_2",
-        "room6_armchair_variant_3"
+        "room6_old_bird_feeder"
       ],
-      "x": 522.5,
-      "y": 704
+      "x": 475,
+      "y": 550.5
     },
     {
-      "key": "room6_clock",
-      "type": "decor",
-      "name_key": "room6_clock_loc",
+      "key": "room6_old_bookshelf",
+      "type": "repair",
+      "name_key": "room6_old_bookshelf_loc",
       "multiobjects": [
-        "room6_clock",
-        "room6_clock_variant_2",
-        "room6_clock_variant_3"
+        "room6_old_bookshelf"
       ],
-      "x": 192,
-      "y": 229.5
+      "x": 444,
+      "y": 265.5
+    },
+    {
+      "key": "room6_old_bench",
+      "type": "repair",
+      "name_key": "room6_old_bench_loc",
+      "multiobjects": [
+        "room6_old_bench"
+      ],
+      "x": 206,
+      "y": 518
+    },
+    {
+      "key": "room6_old_telescope",
+      "type": "repair",
+      "name_key": "room6_old_telescope_loc",
+      "multiobjects": [
+        "room6_old_telescope"
+      ],
+      "x": 491.5,
+      "y": 626
+    },
+    {
+      "key": "room6_old_hanging_chair",
+      "type": "repair",
+      "name_key": "room6_old_hanging_chair_loc",
+      "multiobjects": [
+        "room6_old_hanging_chair"
+      ],
+      "x": 238,
+      "y": 606
+    },
+    {
+      "key": "room6_old_plant_group",
+      "type": "repair",
+      "name_key": "room6_old_plant_group_loc",
+      "multiobjects": [
+        "room6_old_plant_group"
+      ],
+      "x": 311,
+      "y": 636.5
     },
     {
       "key": "room6_pay_dialogue1",
       "type": "dialog",
       "dialogId": "room6_d2",
       "multiobject": "",
-      "price": 10,
+      "price": 230,
       "priceType": "coins",
       "x": 358,
-      "y": 700
+      "y": 700,
+      "name_key": "room6_pay_dialogue1_loc"
     },
     {
       "key": "room6_pay_dialogue2",
       "type": "dialog",
       "dialogId": "room6_d4",
       "multiobject": "",
-      "price": 10,
+      "price": 240,
       "priceType": "coins",
       "x": 358,
-      "y": 700
+      "y": 700,
+      "name_key": "room6_pay_dialogue2_loc"
     },
     {
       "key": "room6_pay_dialogue3",
       "type": "dialog",
       "dialogId": "room6_d7",
       "multiobject": "",
-      "price": 10,
+      "price": 90,
       "priceType": "coins",
       "x": 358,
-      "y": 700
+      "y": 700,
+      "name_key": "room6_pay_dialogue3_loc"
     },
     {
       "key": "room6_pay_dialogue4",
       "type": "dialog",
       "dialogId": "room6_d9",
       "multiobject": "",
-      "price": 10,
+      "price": 90,
       "priceType": "coins",
       "x": 358,
-      "y": 700
+      "y": 700,
+      "name_key": "room6_pay_dialogue4_loc"
     }
   ],
   "allMultiobjects": [
-    {
-      "key": "room6_walls",
-      "parts": [
-        "room6_walls_A"
-      ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room6_walls_variant_2",
-      "parts": [
-        "room6_walls_B"
-      ],
-      "price": 99999,
-      "priceType": "coins"
-    },
-    {
-      "key": "room6_walls_variant_3",
-      "parts": [
-        "room6_walls_C"
-      ],
-      "price": 99999,
-      "priceType": "coins"
-    },
     {
       "key": "room6_floor",
       "parts": [
         "room6_floor_A"
       ],
-      "price": 99999,
+      "price": 90,
       "priceType": "coins"
     },
     {
@@ -263,7 +449,7 @@
       "parts": [
         "room6_floor_B"
       ],
-      "price": 99999,
+      "price": 710,
       "priceType": "coins"
     },
     {
@@ -271,589 +457,1121 @@
       "parts": [
         "room6_floor_C"
       ],
-      "price": 99999,
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room6_walls",
+      "parts": [
+        "room6_walls_A_1",
+        "room6_walls_A_2"
+      ],
+      "price": 555,
       "priceType": "coins"
     },
     {
-      "key": "room6_wall_decor",
+      "key": "room6_walls_variant_2",
       "parts": [
-        "room6_wall_decor_A"
+        "room6_walls_B_1",
+        "room6_walls_B_2"
       ],
-      "price": 99999,
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room6_walls_variant_3",
+      "parts": [
+        "room6_walls_C_1",
+        "room6_walls_C_2"
+      ],
+      "price": 710,
       "priceType": "coins"
     },
     {
-      "key": "room6_wall_decor_variant_2",
+      "key": "room6_garden_windows",
       "parts": [
-        "room6_wall_decor_B"
+        "room6_garden_windows_A"
       ],
-      "price": 99999,
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room6_garden_windows_variant_2",
+      "parts": [
+        "room6_garden_windows_B"
+      ],
+      "price": 505,
       "priceType": "coins"
     },
     {
-      "key": "room6_wall_decor_variant_3",
+      "key": "room6_garden_windows_variant_3",
       "parts": [
-        "room6_wall_decor_C"
+        "room6_garden_windows_C"
       ],
-      "price": 99999,
+      "price": 645,
       "priceType": "coins"
     },
     {
-      "key": "room6_wall_picture",
+      "key": "room6_branch_constellation_map",
       "parts": [
-        "room6_wall_picture_A"
+        "room6_branch_constellation_map_A"
       ],
-      "price": 99999,
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room6_branch_constellation_map_variant_2",
+      "parts": [
+        "room6_branch_constellation_map_B"
+      ],
+      "price": 515,
       "priceType": "coins"
     },
     {
-      "key": "room6_wall_picture_variant_2",
+      "key": "room6_branch_constellation_map_variant_3",
       "parts": [
-        "room6_wall_picture_B"
+        "room6_branch_constellation_map_C"
       ],
-      "price": 99999,
+      "price": 660,
       "priceType": "coins"
     },
     {
-      "key": "room6_wall_picture_variant_3",
+      "key": "room6_bridge_door",
       "parts": [
-        "room6_wall_picture_C"
+        "room6_bridge_door_A"
       ],
-      "price": 99999,
+      "price": 465,
       "priceType": "coins"
     },
     {
-      "key": "room6_wall_art",
+      "key": "room6_bridge_door_variant_2",
       "parts": [
-        "room6_wall_art_A"
+        "room6_bridge_door_B"
       ],
-      "price": 99999,
+      "price": 595,
       "priceType": "coins"
     },
     {
-      "key": "room6_wall_art_variant_2",
+      "key": "room6_bridge_door_variant_3",
       "parts": [
-        "room6_wall_art_B"
+        "room6_bridge_door_C"
       ],
-      "price": 99999,
+      "price": 5,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room6_ladder",
+      "parts": [
+        "room6_ladder_A"
+      ],
+      "price": 740,
       "priceType": "coins"
     },
     {
-      "key": "room6_wall_art_variant_3",
+      "key": "room6_ladder_variant_2",
       "parts": [
-        "room6_wall_art_C"
+        "room6_ladder_B"
       ],
-      "price": 99999,
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room6_ladder_variant_3",
+      "parts": [
+        "room6_ladder_C"
+      ],
+      "price": 580,
       "priceType": "coins"
     },
     {
-      "key": "room6_bookcase",
+      "key": "room6_pendant_light",
       "parts": [
-        "room6_bookcase_A"
+        "room6_pendant_light_A"
       ],
-      "price": 99999,
+      "price": 755,
       "priceType": "coins"
     },
     {
-      "key": "room6_bookcase_variant_2",
+      "key": "room6_pendant_light_variant_2",
       "parts": [
-        "room6_bookcase_B"
+        "room6_pendant_light_B"
       ],
-      "price": 99999,
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room6_pendant_light_variant_3",
+      "parts": [
+        "room6_pendant_light_C"
+      ],
+      "price": 590,
       "priceType": "coins"
     },
     {
-      "key": "room6_bookcase_variant_3",
+      "key": "room6_bird_feeder",
       "parts": [
-        "room6_bookcase_C"
+        "room6_bird_feeder_A"
       ],
-      "price": 99999,
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room6_bird_feeder_variant_2",
+      "parts": [
+        "room6_bird_feeder_B"
+      ],
+      "price": 535,
       "priceType": "coins"
     },
     {
-      "key": "room6_fireplace",
+      "key": "room6_bird_feeder_variant_3",
       "parts": [
-        "room6_fireplace_A"
+        "room6_bird_feeder_C"
       ],
-      "price": 99999,
+      "price": 685,
       "priceType": "coins"
     },
     {
-      "key": "room6_fireplace_variant_2",
+      "key": "room6_work_desk",
       "parts": [
-        "room6_fireplace_B"
+        "room6_work_desk_A"
       ],
-      "price": 99999,
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room6_work_desk_variant_2",
+      "parts": [
+        "room6_work_desk_B"
+      ],
+      "price": 545,
       "priceType": "coins"
     },
     {
-      "key": "room6_fireplace_variant_3",
+      "key": "room6_work_desk_variant_3",
       "parts": [
-        "room6_fireplace_C"
+        "room6_work_desk_C"
       ],
-      "price": 99999,
+      "price": 700,
       "priceType": "coins"
     },
     {
-      "key": "room6_tv",
+      "key": "room6_key_box",
       "parts": [
-        "room6_tv_A"
+        "room6_key_box_A"
       ],
-      "price": 99999,
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room6_key_box_variant_2",
+      "parts": [
+        "room6_key_box_B"
+      ],
+      "price": 545,
       "priceType": "coins"
     },
     {
-      "key": "room6_tv_variant_2",
+      "key": "room6_key_box_variant_3",
       "parts": [
-        "room6_tv_B"
+        "room6_key_box_C"
       ],
-      "price": 99999,
+      "price": 700,
       "priceType": "coins"
     },
     {
-      "key": "room6_tv_variant_3",
+      "key": "room6_rug",
       "parts": [
-        "room6_tv_C"
+        "room6_rug_A"
       ],
-      "price": 99999,
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room6_rug_variant_2",
+      "parts": [
+        "room6_rug_B"
+      ],
+      "price": 540,
       "priceType": "coins"
     },
     {
-      "key": "room6_coffee_table",
+      "key": "room6_rug_variant_3",
       "parts": [
-        "room6_coffee_table_A"
+        "room6_rug_C"
       ],
-      "price": 99999,
+      "price": 690,
       "priceType": "coins"
     },
     {
-      "key": "room6_coffee_table_variant_2",
+      "key": "room6_secret_floor_hatch",
       "parts": [
-        "room6_coffee_table_B"
+        "room6_secret_floor_hatch_A"
       ],
-      "price": 99999,
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room6_secret_floor_hatch_variant_2",
+      "parts": [
+        "room6_secret_floor_hatch_B"
+      ],
+      "price": 545,
       "priceType": "coins"
     },
     {
-      "key": "room6_coffee_table_variant_3",
+      "key": "room6_secret_floor_hatch_variant_3",
       "parts": [
-        "room6_coffee_table_C"
+        "room6_secret_floor_hatch_C"
       ],
-      "price": 99999,
+      "price": 700,
       "priceType": "coins"
     },
     {
-      "key": "room6_table_books_vase",
+      "key": "room6_built_in_bench",
       "parts": [
-        "room6_table_books_vase_A"
+        "room6_built_in_bench_A"
       ],
-      "price": 99999,
+      "price": 545,
       "priceType": "coins"
     },
     {
-      "key": "room6_table_books_vase_variant_2",
+      "key": "room6_built_in_bench_variant_2",
       "parts": [
-        "room6_table_books_vase_B"
+        "room6_built_in_bench_B"
       ],
-      "price": 99999,
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room6_built_in_bench_variant_3",
+      "parts": [
+        "room6_built_in_bench_C"
+      ],
+      "price": 700,
       "priceType": "coins"
     },
     {
-      "key": "room6_table_books_vase_variant_3",
+      "key": "room6_hanging_chair",
       "parts": [
-        "room6_table_books_vase_C"
+        "room6_hanging_chair_A"
       ],
-      "price": 99999,
+      "price": 545,
       "priceType": "coins"
     },
     {
-      "key": "room6_sofa",
+      "key": "room6_hanging_chair_variant_2",
       "parts": [
-        "room6_sofa_A"
+        "room6_hanging_chair_B"
       ],
-      "price": 99999,
+      "price": 700,
       "priceType": "coins"
     },
     {
-      "key": "room6_sofa_variant_2",
+      "key": "room6_hanging_chair_variant_3",
       "parts": [
-        "room6_sofa_B"
+        "room6_hanging_chair_C"
       ],
-      "price": 99999,
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room6_telescope",
+      "parts": [
+        "room6_telescope_A"
+      ],
+      "price": 545,
       "priceType": "coins"
     },
     {
-      "key": "room6_sofa_variant_3",
+      "key": "room6_telescope_variant_2",
       "parts": [
-        "room6_sofa_C"
+        "room6_telescope_B"
       ],
-      "price": 99999,
+      "price": 700,
       "priceType": "coins"
     },
     {
-      "key": "room6_armchair",
+      "key": "room6_telescope_variant_3",
       "parts": [
-        "room6_armchair_A"
+        "room6_telescope_C"
       ],
-      "price": 99999,
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room6_plant_group",
+      "parts": [
+        "room6_plant_group_A_1",
+        "room6_plant_group_A_2"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room6_plant_group_variant_2",
+      "parts": [
+        "room6_plant_group_B_1",
+        "room6_plant_group_B_2"
+      ],
+      "price": 545,
       "priceType": "coins"
     },
     {
-      "key": "room6_armchair_variant_2",
+      "key": "room6_plant_group_variant_3",
       "parts": [
-        "room6_armchair_B"
+        "room6_plant_group_C_1",
+        "room6_plant_group_C_2"
       ],
-      "price": 99999,
+      "price": 700,
       "priceType": "coins"
     },
     {
-      "key": "room6_armchair_variant_3",
+      "key": "room6_garden_lanterns",
       "parts": [
-        "room6_armchair_C"
+        "room6_garden_lanterns_A_1",
+        "room6_garden_lanterns_A_2"
       ],
-      "price": 99999,
+      "price": 545,
       "priceType": "coins"
     },
     {
-      "key": "room6_clock",
+      "key": "room6_garden_lanterns_variant_2",
       "parts": [
-        "room6_clock_A"
+        "room6_garden_lanterns_B_1",
+        "room6_garden_lanterns_B_2"
       ],
-      "price": 99999,
+      "price": 700,
       "priceType": "coins"
     },
     {
-      "key": "room6_clock_variant_2",
+      "key": "room6_garden_lanterns_variant_3",
       "parts": [
-        "room6_clock_B"
+        "room6_garden_lanterns_C_1",
+        "room6_garden_lanterns_C_2"
       ],
-      "price": 99999,
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room6_old_walls",
+      "parts": [
+        "room6_old_walls"
+      ],
+      "price": 200,
       "priceType": "coins"
     },
     {
-      "key": "room6_clock_variant_3",
+      "key": "room6_old_door",
       "parts": [
-        "room6_clock_C"
+        "room6_old_door"
       ],
-      "price": 99999,
+      "price": 245,
+      "priceType": "coins"
+    },
+    {
+      "key": "room6_old_garden_windows",
+      "parts": [
+        "room6_old_garden_windows"
+      ],
+      "price": 90,
+      "priceType": "coins"
+    },
+    {
+      "key": "room6_old_garden_lanterns",
+      "parts": [
+        "room6_old_garden_lanterns_1",
+        "room6_old_garden_lanterns_2"
+      ],
+      "price": 205,
+      "priceType": "coins"
+    },
+    {
+      "key": "room6_old_key_box",
+      "parts": [
+        "room6_old_key_box"
+      ],
+      "price": 230,
+      "priceType": "coins"
+    },
+    {
+      "key": "room6_old_secret_floor_hatch",
+      "parts": [
+        "room6_old_secret_floor_hatch"
+      ],
+      "price": 260,
+      "priceType": "coins"
+    },
+    {
+      "key": "room6_old_rug",
+      "parts": [
+        "room6_old_rug"
+      ],
+      "price": 235,
+      "priceType": "coins"
+    },
+    {
+      "key": "room6_old_work_desk",
+      "parts": [
+        "room6_old_work_desk"
+      ],
+      "price": 90,
+      "priceType": "coins"
+    },
+    {
+      "key": "room6_old_bird_feeder",
+      "parts": [
+        "room6_old_bird_feeder"
+      ],
+      "price": 215,
+      "priceType": "coins"
+    },
+    {
+      "key": "room6_old_bookshelf",
+      "parts": [
+        "room6_old_bookshelf"
+      ],
+      "price": 220,
+      "priceType": "coins"
+    },
+    {
+      "key": "room6_old_bench",
+      "parts": [
+        "room6_old_bench"
+      ],
+      "price": 220,
+      "priceType": "coins"
+    },
+    {
+      "key": "room6_old_telescope",
+      "parts": [
+        "room6_old_telescope"
+      ],
+      "price": 220,
+      "priceType": "coins"
+    },
+    {
+      "key": "room6_old_hanging_chair",
+      "parts": [
+        "room6_old_hanging_chair"
+      ],
+      "price": 220,
+      "priceType": "coins"
+    },
+    {
+      "key": "room6_old_plant_group",
+      "parts": [
+        "room6_old_plant_group"
+      ],
+      "price": 220,
       "priceType": "coins"
     }
   ],
-  "allPartsOrderComment": "Порядок — по слоям варианта A; варианты A/B/C рядом.",
+  "allPartsOrderComment": "Порядок слоёв по z: от заднего плана к переднему; меняется в decor-viewer.",
+  "depthOrderEdited": false,
   "allParts": [
-    {
-      "key": "room6_walls_A",
-      "type": "decor",
-      "atlas_name": "rooms_room6-surfaces",
-      "x": 360,
-      "y": 370.5,
-      "angle": 180
-    },
-    {
-      "key": "room6_walls_B",
-      "type": "decor",
-      "atlas_name": "rooms_room6-surfaces",
-      "x": 360,
-      "y": 370.5,
-      "angle": 180
-    },
-    {
-      "key": "room6_walls_C",
-      "type": "decor",
-      "atlas_name": "rooms_room6-surfaces",
-      "x": 360,
-      "y": 370.5,
-      "angle": 180
-    },
     {
       "key": "room6_floor_A",
       "type": "decor",
       "atlas_name": "rooms_room6-surfaces",
       "x": 360,
-      "y": 686,
-      "angle": 180
+      "y": 641.5,
+      "angle": null
     },
     {
       "key": "room6_floor_B",
       "type": "decor",
       "atlas_name": "rooms_room6-surfaces",
       "x": 360,
-      "y": 686,
-      "angle": 180
+      "y": 641.5,
+      "angle": null
     },
     {
       "key": "room6_floor_C",
       "type": "decor",
       "atlas_name": "rooms_room6-surfaces",
       "x": 360,
-      "y": 686,
-      "angle": 180
+      "y": 641.5,
+      "angle": null
     },
     {
-      "key": "room6_wall_decor_A",
+      "key": "room6_walls_A_1",
       "type": "decor",
       "atlas_name": "rooms_room6-surfaces",
-      "x": 84.5,
-      "y": 382.5,
-      "angle": 180
+      "x": 360,
+      "y": 333,
+      "angle": null
     },
     {
-      "key": "room6_wall_decor_B",
+      "key": "room6_walls_A_2",
       "type": "decor",
       "atlas_name": "rooms_room6-surfaces",
-      "x": 73.5,
-      "y": 405.5,
-      "angle": 180
+      "x": 377,
+      "y": 247.5,
+      "angle": null
     },
     {
-      "key": "room6_wall_decor_C",
+      "key": "room6_walls_B_1",
       "type": "decor",
       "atlas_name": "rooms_room6-surfaces",
-      "x": 73,
-      "y": 404.5,
-      "angle": 180
+      "x": 360,
+      "y": 333,
+      "angle": null
     },
     {
-      "key": "room6_wall_picture_A",
+      "key": "room6_walls_B_2",
       "type": "decor",
       "atlas_name": "rooms_room6-surfaces",
-      "x": 491.5,
-      "y": 319.5,
-      "angle": 180
+      "x": 380.5,
+      "y": 250.5,
+      "angle": null
     },
     {
-      "key": "room6_wall_picture_B",
+      "key": "room6_walls_C_1",
       "type": "decor",
       "atlas_name": "rooms_room6-surfaces",
-      "x": 492,
-      "y": 325.5,
-      "angle": 180
+      "x": 360,
+      "y": 333,
+      "angle": null
     },
     {
-      "key": "room6_wall_picture_C",
+      "key": "room6_walls_C_2",
       "type": "decor",
       "atlas_name": "rooms_room6-surfaces",
-      "x": 490.5,
-      "y": 319.5,
-      "angle": 180
+      "x": 388,
+      "y": 259.5,
+      "angle": null
     },
     {
-      "key": "room6_wall_art_A",
+      "key": "room6_garden_windows_A",
       "type": "decor",
-      "atlas_name": "rooms_room6-surfaces",
-      "x": 628,
-      "y": 335,
-      "angle": 180
+      "atlas_name": "rooms_room6-decor",
+      "x": 212,
+      "y": 322.5,
+      "angle": 315
     },
     {
-      "key": "room6_wall_art_B",
+      "key": "room6_garden_windows_B",
       "type": "decor",
-      "atlas_name": "rooms_room6-surfaces",
-      "x": 627.5,
-      "y": 339,
-      "angle": 180
+      "atlas_name": "rooms_room6-decor",
+      "x": 207.5,
+      "y": 322.5,
+      "angle": 315
     },
     {
-      "key": "room6_wall_art_C",
+      "key": "room6_garden_windows_C",
       "type": "decor",
-      "atlas_name": "rooms_room6-surfaces",
-      "x": 628,
-      "y": 336.5,
-      "angle": 180
+      "atlas_name": "rooms_room6-decor",
+      "x": 209,
+      "y": 326.5,
+      "angle": 315
     },
     {
-      "key": "room6_bookcase_A",
+      "key": "room6_branch_constellation_map_A",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 483,
+      "y": 254,
+      "angle": 45
+    },
+    {
+      "key": "room6_branch_constellation_map_B",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 482,
+      "y": 252,
+      "angle": 45
+    },
+    {
+      "key": "room6_branch_constellation_map_C",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 484.5,
+      "y": 256,
+      "angle": 45
+    },
+    {
+      "key": "room6_bridge_door_A",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 598.5,
+      "y": 385.5,
+      "angle": 45
+    },
+    {
+      "key": "room6_bridge_door_B",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 603.5,
+      "y": 387.5,
+      "angle": 45
+    },
+    {
+      "key": "room6_bridge_door_C",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 596,
+      "y": 380,
+      "angle": 45
+    },
+    {
+      "key": "room6_ladder_A",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 683.5,
+      "y": 384,
+      "angle": 45
+    },
+    {
+      "key": "room6_ladder_B",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 680,
+      "y": 384,
+      "angle": 45
+    },
+    {
+      "key": "room6_ladder_C",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 681,
+      "y": 384,
+      "angle": 45
+    },
+    {
+      "key": "room6_pendant_light_A",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
       "x": 346,
-      "y": 359,
+      "y": 230,
+      "angle": 0
+    },
+    {
+      "key": "room6_pendant_light_B",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 346,
+      "y": 227,
+      "angle": 0
+    },
+    {
+      "key": "room6_pendant_light_C",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 345,
+      "y": 225,
+      "angle": 0
+    },
+    {
+      "key": "room6_bird_feeder_A",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 304,
+      "y": 186,
+      "angle": 0
+    },
+    {
+      "key": "room6_bird_feeder_B",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 304,
+      "y": 185.5,
+      "angle": 0
+    },
+    {
+      "key": "room6_bird_feeder_C",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 303,
+      "y": 188,
+      "angle": 0
+    },
+    {
+      "key": "room6_work_desk_A",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 448.5,
+      "y": 390,
       "angle": 180
     },
     {
-      "key": "room6_bookcase_B",
+      "key": "room6_work_desk_B",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 334,
-      "y": 365,
+      "x": 458,
+      "y": 390.5,
       "angle": 180
     },
     {
-      "key": "room6_bookcase_C",
+      "key": "room6_work_desk_C",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 338,
-      "y": 361,
+      "x": 461,
+      "y": 391.5,
       "angle": 180
     },
     {
-      "key": "room6_fireplace_A",
+      "key": "room6_key_box_A",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 219,
-      "y": 475,
+      "x": 540,
+      "y": 389,
+      "angle": 45
+    },
+    {
+      "key": "room6_key_box_B",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 539,
+      "y": 387.5,
+      "angle": 45
+    },
+    {
+      "key": "room6_key_box_C",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 539,
+      "y": 388.5,
+      "angle": 45
+    },
+    {
+      "key": "room6_rug_A",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 370.5,
+      "y": 612,
       "angle": 180
     },
     {
-      "key": "room6_fireplace_B",
+      "key": "room6_rug_B",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 217,
-      "y": 473,
+      "x": 362,
+      "y": 613.5,
       "angle": 180
     },
     {
-      "key": "room6_fireplace_C",
+      "key": "room6_rug_C",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 212,
-      "y": 485.5,
+      "x": 362.5,
+      "y": 614.5,
       "angle": 180
     },
     {
-      "key": "room6_tv_A",
+      "key": "room6_secret_floor_hatch_A",
       "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 490.5,
-      "y": 473.5,
+      "atlas_name": "rooms_room6-surfaces",
+      "x": 333,
+      "y": 792.5,
       "angle": 180
     },
     {
-      "key": "room6_tv_B",
+      "key": "room6_secret_floor_hatch_B",
       "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 483.5,
-      "y": 476,
+      "atlas_name": "rooms_room6-surfaces",
+      "x": 332.5,
+      "y": 793.5,
       "angle": 180
     },
     {
-      "key": "room6_tv_C",
+      "key": "room6_secret_floor_hatch_C",
       "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 480.5,
-      "y": 479,
+      "atlas_name": "rooms_room6-surfaces",
+      "x": 332.5,
+      "y": 790,
       "angle": 180
     },
     {
-      "key": "room6_coffee_table_A",
+      "key": "room6_built_in_bench_A",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 364,
-      "y": 648.5,
+      "x": 243,
+      "y": 494,
       "angle": 180
     },
     {
-      "key": "room6_coffee_table_B",
+      "key": "room6_built_in_bench_B",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 366.5,
-      "y": 630,
+      "x": 243.5,
+      "y": 492.5,
       "angle": 180
     },
     {
-      "key": "room6_coffee_table_C",
+      "key": "room6_built_in_bench_C",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 371,
-      "y": 636,
+      "x": 244,
+      "y": 492.5,
       "angle": 180
     },
     {
-      "key": "room6_table_books_vase_A",
+      "key": "room6_hanging_chair_A",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 336,
-      "y": 569,
+      "x": 103.5,
+      "y": 514,
       "angle": 180
     },
     {
-      "key": "room6_table_books_vase_B",
+      "key": "room6_hanging_chair_B",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 341,
-      "y": 589,
+      "x": 103.5,
+      "y": 515,
       "angle": 180
     },
     {
-      "key": "room6_table_books_vase_C",
+      "key": "room6_hanging_chair_C",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 349,
-      "y": 586,
+      "x": 103.5,
+      "y": 516,
       "angle": 180
     },
     {
-      "key": "room6_sofa_A",
+      "key": "room6_telescope_A",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 212,
-      "y": 684,
+      "x": 580.5,
+      "y": 581,
       "angle": 180
     },
     {
-      "key": "room6_sofa_B",
+      "key": "room6_telescope_B",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 202.5,
-      "y": 693,
+      "x": 579.5,
+      "y": 582,
       "angle": 180
     },
     {
-      "key": "room6_sofa_C",
+      "key": "room6_telescope_C",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 196.5,
+      "x": 581,
+      "y": 581,
+      "angle": 180
+    },
+    {
+      "key": "room6_plant_group_A_2",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 485.5,
+      "y": 701,
+      "angle": 180
+    },
+    {
+      "key": "room6_plant_group_A_1",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 122.5,
+      "y": 675.5,
+      "angle": 180
+    },
+    {
+      "key": "room6_plant_group_B_2",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 485.5,
+      "y": 698,
+      "angle": 180
+    },
+    {
+      "key": "room6_plant_group_B_1",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 122.5,
+      "y": 675,
+      "angle": 180
+    },
+    {
+      "key": "room6_plant_group_C_2",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 485.5,
       "y": 699.5,
       "angle": 180
     },
     {
-      "key": "room6_armchair_A",
+      "key": "room6_plant_group_C_1",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 522.5,
-      "y": 704,
+      "x": 122.5,
+      "y": 673.5,
       "angle": 180
     },
     {
-      "key": "room6_armchair_B",
+      "key": "room6_garden_lanterns_A_2",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 542.5,
-      "y": 704.5,
+      "x": 40,
+      "y": 369,
       "angle": 180
     },
     {
-      "key": "room6_armchair_C",
+      "key": "room6_garden_lanterns_A_1",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 547,
-      "y": 704,
+      "x": 462,
+      "y": 380,
       "angle": 180
     },
     {
-      "key": "room6_clock_A",
+      "key": "room6_garden_lanterns_B_1",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 192,
-      "y": 229.5,
+      "x": 462,
+      "y": 380.5,
       "angle": 180
     },
     {
-      "key": "room6_clock_B",
+      "key": "room6_garden_lanterns_B_2",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 196.5,
-      "y": 229,
+      "x": 39.5,
+      "y": 368.5,
       "angle": 180
     },
     {
-      "key": "room6_clock_C",
+      "key": "room6_garden_lanterns_C_1",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 195.5,
-      "y": 231,
+      "x": 462.5,
+      "y": 380.5,
       "angle": 180
+    },
+    {
+      "key": "room6_garden_lanterns_C_2",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 41,
+      "y": 368,
+      "angle": 180
+    },
+    {
+      "key": "room6_old_walls",
+      "type": "repair",
+      "atlas_name": "rooms_room6-repair",
+      "x": 360,
+      "y": 460.5,
+      "angle": null
+    },
+    {
+      "key": "room6_old_door",
+      "type": "repair",
+      "atlas_name": "rooms_room6-repair",
+      "x": 593,
+      "y": 369,
+      "angle": 225
+    },
+    {
+      "key": "room6_old_garden_windows",
+      "type": "repair",
+      "atlas_name": "rooms_room6-repair",
+      "x": 174,
+      "y": 297,
+      "angle": 135
+    },
+    {
+      "key": "room6_old_garden_lanterns_2",
+      "type": "repair",
+      "atlas_name": "rooms_room6-repair",
+      "x": 45.5,
+      "y": 310.5,
+      "angle": 0
+    },
+    {
+      "key": "room6_old_garden_lanterns_1",
+      "type": "repair",
+      "atlas_name": "rooms_room6-repair",
+      "x": 73,
+      "y": 325,
+      "angle": 0
+    },
+    {
+      "key": "room6_old_key_box",
+      "type": "repair",
+      "atlas_name": "rooms_room6-repair",
+      "x": 629,
+      "y": 558,
+      "angle": 0
+    },
+    {
+      "key": "room6_old_secret_floor_hatch",
+      "type": "repair",
+      "atlas_name": "rooms_room6-repair",
+      "x": 327.5,
+      "y": 780.5,
+      "angle": 0
+    },
+    {
+      "key": "room6_old_rug",
+      "type": "repair",
+      "atlas_name": "rooms_room6-repair",
+      "x": 336.5,
+      "y": 607,
+      "angle": 0
+    },
+    {
+      "key": "room6_old_work_desk",
+      "type": "repair",
+      "atlas_name": "rooms_room6-repair",
+      "x": 419,
+      "y": 438.5,
+      "angle": 0
+    },
+    {
+      "key": "room6_old_bird_feeder",
+      "type": "repair",
+      "atlas_name": "rooms_room6-repair",
+      "x": 475,
+      "y": 550.5,
+      "angle": 0
+    },
+    {
+      "key": "room6_old_bookshelf",
+      "type": "repair",
+      "atlas_name": "rooms_room6-repair",
+      "x": 429,
+      "y": 277.5,
+      "angle": 0
+    },
+    {
+      "key": "room6_old_bench",
+      "type": "repair",
+      "atlas_name": "rooms_room6-repair",
+      "x": 206,
+      "y": 518,
+      "angle": 0
+    },
+    {
+      "key": "room6_old_telescope",
+      "type": "repair",
+      "atlas_name": "rooms_room6-repair",
+      "x": 494.5,
+      "y": 627,
+      "angle": 0
+    },
+    {
+      "key": "room6_old_hanging_chair",
+      "type": "repair",
+      "atlas_name": "rooms_room6-repair",
+      "x": 238,
+      "y": 606,
+      "angle": 0
+    },
+    {
+      "key": "room6_old_plant_group",
+      "type": "repair",
+      "atlas_name": "rooms_room6-repair",
+      "x": 315,
+      "y": 724.5,
+      "angle": 0
     }
   ],
+  "sourcePsdRevision": "85b29103cc1108abb81a28519db81accf20e23ff9932b4d0504f1d1151d687f7",
   "dialogs": [
     {
       "id": "room6_d1",
@@ -1402,8 +2120,23 @@
           "char_state": "anna_fear",
           "position": "left",
           "text_key": "room6_d10_r5_loc"
+        },
+        {
+          "id": "room6_d10_r6",
+          "char_key": "mary",
+          "char_state": "mary_neutral",
+          "position": "right",
+          "text_key": "room6_d10_r6_loc"
+        },
+        {
+          "id": "room6_d10_r7",
+          "char_key": "anna",
+          "char_state": "anna_angry",
+          "position": "left",
+          "text_key": "room6_d10_r7_loc"
         }
       ]
     }
-  ]
+  ],
+  "award": 40
 }

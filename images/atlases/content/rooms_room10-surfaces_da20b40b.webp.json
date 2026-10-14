@@ -1,0 +1,136 @@
+{
+  "frames": {
+    "room10_floor_A": {
+      "frame": {
+        "x": 722,
+        "y": 1392,
+        "w": 720,
+        "h": 464
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 464
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 464
+      }
+    },
+    "room10_floor_B": {
+      "frame": {
+        "x": 0,
+        "y": 1392,
+        "w": 720,
+        "h": 464
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 464
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 464
+      }
+    },
+    "room10_floor_C": {
+      "frame": {
+        "x": 722,
+        "y": 696,
+        "w": 720,
+        "h": 464
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 464
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 464
+      }
+    },
+    "room10_walls_A": {
+      "frame": {
+        "x": 0,
+        "y": 696,
+        "w": 720,
+        "h": 694
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 694
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 694
+      }
+    },
+    "room10_walls_B": {
+      "frame": {
+        "x": 722,
+        "y": 0,
+        "w": 720,
+        "h": 694
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 694
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 694
+      }
+    },
+    "room10_walls_C": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 694
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 694
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 694
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "rooms_room10-surfaces_da20b40b.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 1856
+    },
+    "scale": "1",
+    "sourceDir": "images/rooms/room10-surfaces"
+  }
+}

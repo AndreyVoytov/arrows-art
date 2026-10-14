@@ -1,0 +1,376 @@
+{
+  "frames": {
+    "room10_old_desk_lamp_1": {
+      "frame": {
+        "x": 1032,
+        "y": 1426,
+        "w": 126,
+        "h": 118
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 126,
+        "h": 118
+      },
+      "sourceSize": {
+        "w": 126,
+        "h": 118
+      }
+    },
+    "room10_old_desk_lamp_2": {
+      "frame": {
+        "x": 1160,
+        "y": 1426,
+        "w": 164,
+        "h": 93
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 164,
+        "h": 93
+      },
+      "sourceSize": {
+        "w": 164,
+        "h": 93
+      }
+    },
+    "room10_old_display_shelf": {
+      "frame": {
+        "x": 1733,
+        "y": 962,
+        "w": 196,
+        "h": 267
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 267
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 267
+      }
+    },
+    "room10_old_entrance_door": {
+      "frame": {
+        "x": 1444,
+        "y": 0,
+        "w": 154,
+        "h": 425
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 154,
+        "h": 425
+      },
+      "sourceSize": {
+        "w": 154,
+        "h": 425
+      }
+    },
+    "room10_old_ergonomic_chair": {
+      "frame": {
+        "x": 1798,
+        "y": 0,
+        "w": 224,
+        "h": 291
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 224,
+        "h": 291
+      },
+      "sourceSize": {
+        "w": 224,
+        "h": 291
+      }
+    },
+    "room10_old_floor": {
+      "frame": {
+        "x": 0,
+        "y": 962,
+        "w": 720,
+        "h": 462
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 462
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 462
+      }
+    },
+    "room10_old_kinetic_bird": {
+      "frame": {
+        "x": 868,
+        "y": 1426,
+        "w": 162,
+        "h": 141
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 162,
+        "h": 141
+      },
+      "sourceSize": {
+        "w": 162,
+        "h": 141
+      }
+    },
+    "room10_old_mechanism_cabinet": {
+      "frame": {
+        "x": 1600,
+        "y": 0,
+        "w": 196,
+        "h": 384
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 196,
+        "h": 384
+      },
+      "sourceSize": {
+        "w": 196,
+        "h": 384
+      }
+    },
+    "room10_old_modular_desk": {
+      "frame": {
+        "x": 722,
+        "y": 962,
+        "w": 405,
+        "h": 356
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 405,
+        "h": 356
+      },
+      "sourceSize": {
+        "w": 405,
+        "h": 356
+      }
+    },
+    "room10_old_panoramic_bay_window": {
+      "frame": {
+        "x": 1129,
+        "y": 962,
+        "w": 284,
+        "h": 332
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 284,
+        "h": 332
+      },
+      "sourceSize": {
+        "w": 284,
+        "h": 332
+      }
+    },
+    "room10_old_pendant_light": {
+      "frame": {
+        "x": 1931,
+        "y": 962,
+        "w": 116,
+        "h": 200
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 116,
+        "h": 200
+      },
+      "sourceSize": {
+        "w": 116,
+        "h": 200
+      }
+    },
+    "room10_old_plant": {
+      "frame": {
+        "x": 445,
+        "y": 1426,
+        "w": 152,
+        "h": 243
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 152,
+        "h": 243
+      },
+      "sourceSize": {
+        "w": 152,
+        "h": 243
+      }
+    },
+    "room10_old_puzzle_safe_1": {
+      "frame": {
+        "x": 1326,
+        "y": 1426,
+        "w": 107,
+        "h": 81
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 107,
+        "h": 81
+      },
+      "sourceSize": {
+        "w": 107,
+        "h": 81
+      }
+    },
+    "room10_old_puzzle_safe_2": {
+      "frame": {
+        "x": 1415,
+        "y": 962,
+        "w": 316,
+        "h": 313
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 316,
+        "h": 313
+      },
+      "sourceSize": {
+        "w": 316,
+        "h": 313
+      }
+    },
+    "room10_old_rug": {
+      "frame": {
+        "x": 0,
+        "y": 1426,
+        "w": 443,
+        "h": 275
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 443,
+        "h": 275
+      },
+      "sourceSize": {
+        "w": 443,
+        "h": 275
+      }
+    },
+    "room10_old_walls": {
+      "frame": {
+        "x": 722,
+        "y": 0,
+        "w": 720,
+        "h": 703
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 703
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 703
+      }
+    },
+    "room10_old_window_seat_cushion": {
+      "frame": {
+        "x": 599,
+        "y": 1426,
+        "w": 267,
+        "h": 214
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 267,
+        "h": 214
+      },
+      "sourceSize": {
+        "w": 267,
+        "h": 214
+      }
+    },
+    "room10_room_bg": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 960
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 960
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 960
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "rooms_room10-repair_ab4a292d.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 1701
+    },
+    "scale": "1",
+    "sourceDir": "images/rooms/room10-repair"
+  }
+}

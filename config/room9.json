@@ -1,0 +1,1233 @@
+{
+  "key": "room9",
+  "background": "room9_room_bg",
+  "atlases": [
+    "rooms_room9-repair",
+    "rooms_room9-surfaces",
+    "rooms_room9-decor"
+  ],
+  "content": {
+    "actionPointOrder": [
+      "room9_trash",
+      "room9_old_sofa",
+      "room9_old_tv",
+      "room9_pay_dialogue1",
+      "room9_old_table_books_vase",
+      "room9_old_wall_picture",
+      "room9_old_wall_decor",
+      "room9_old_coffee_table",
+      "room9_mold",
+      "room9_pay_dialogue2",
+      "room9_old_armchair",
+      "room9_old_cupboard",
+      "room9_old_floor",
+      "room9_old_fireplace",
+      "room9_old_walls",
+      "room9_walls",
+      "room9_floor",
+      "room9_wall_art",
+      "room9_pay_dialogue3",
+      "room9_wall_decor",
+      "room9_tv",
+      "room9_sofa",
+      "room9_wall_picture",
+      "room9_armchair",
+      "room9_clock",
+      "room9_pay_dialogue4",
+      "room9_bookcase",
+      "room9_coffee_table",
+      "room9_fireplace",
+      "room9_table_books_vase"
+    ]
+  },
+  "allActionPoints": [
+    {
+      "key": "room9_walls",
+      "type": "decor",
+      "name_key": "room9_walls_loc",
+      "multiobjects": [
+        "room9_walls",
+        "room9_walls_variant_2",
+        "room9_walls_variant_3"
+      ],
+      "x": 245,
+      "y": 305.5
+    },
+    {
+      "key": "room9_floor",
+      "type": "decor",
+      "name_key": "room9_floor_loc",
+      "multiobjects": [
+        "room9_floor",
+        "room9_floor_variant_2",
+        "room9_floor_variant_3"
+      ],
+      "x": 478,
+      "y": 600
+    },
+    {
+      "key": "room9_wall_decor",
+      "type": "decor",
+      "name_key": "room9_wall_decor_loc",
+      "multiobjects": [
+        "room9_wall_decor",
+        "room9_wall_decor_variant_2",
+        "room9_wall_decor_variant_3"
+      ],
+      "x": 138.5,
+      "y": 379.5
+    },
+    {
+      "key": "room9_wall_picture",
+      "type": "decor",
+      "name_key": "room9_wall_picture_loc",
+      "multiobjects": [
+        "room9_wall_picture",
+        "room9_wall_picture_variant_2",
+        "room9_wall_picture_variant_3"
+      ],
+      "x": 491.5,
+      "y": 319.5
+    },
+    {
+      "key": "room9_wall_art",
+      "type": "decor",
+      "name_key": "room9_wall_art_loc",
+      "multiobjects": [
+        "room9_wall_art",
+        "room9_wall_art_variant_2",
+        "room9_wall_art_variant_3"
+      ],
+      "x": 578,
+      "y": 362
+    },
+    {
+      "key": "room9_bookcase",
+      "type": "decor",
+      "name_key": "room9_bookcase_loc",
+      "multiobjects": [
+        "room9_bookcase",
+        "room9_bookcase_variant_2",
+        "room9_bookcase_variant_3"
+      ],
+      "x": 359,
+      "y": 294
+    },
+    {
+      "key": "room9_tv",
+      "type": "decor",
+      "name_key": "room9_tv_loc",
+      "multiobjects": [
+        "room9_tv",
+        "room9_tv_variant_2",
+        "room9_tv_variant_3"
+      ],
+      "x": 490.5,
+      "y": 473.5
+    },
+    {
+      "key": "room9_fireplace",
+      "type": "decor",
+      "name_key": "room9_fireplace_loc",
+      "multiobjects": [
+        "room9_fireplace",
+        "room9_fireplace_variant_2",
+        "room9_fireplace_variant_3"
+      ],
+      "x": 230,
+      "y": 454
+    },
+    {
+      "key": "room9_coffee_table",
+      "type": "decor",
+      "name_key": "room9_coffee_table_loc",
+      "multiobjects": [
+        "room9_coffee_table",
+        "room9_coffee_table_variant_2",
+        "room9_coffee_table_variant_3"
+      ],
+      "x": 384,
+      "y": 617.5
+    },
+    {
+      "key": "room9_table_books_vase",
+      "type": "decor",
+      "name_key": "room9_table_books_vase_loc",
+      "multiobjects": [
+        "room9_table_books_vase",
+        "room9_table_books_vase_variant_2",
+        "room9_table_books_vase_variant_3"
+      ],
+      "x": 336,
+      "y": 528
+    },
+    {
+      "key": "room9_sofa",
+      "type": "decor",
+      "name_key": "room9_sofa_loc",
+      "multiobjects": [
+        "room9_sofa",
+        "room9_sofa_variant_2",
+        "room9_sofa_variant_3"
+      ],
+      "x": 214,
+      "y": 640
+    },
+    {
+      "key": "room9_armchair",
+      "type": "decor",
+      "name_key": "room9_armchair_loc",
+      "multiobjects": [
+        "room9_armchair",
+        "room9_armchair_variant_2",
+        "room9_armchair_variant_3"
+      ],
+      "x": 518.5,
+      "y": 675
+    },
+    {
+      "key": "room9_clock",
+      "type": "decor",
+      "name_key": "room9_clock_loc",
+      "multiobjects": [
+        "room9_clock",
+        "room9_clock_variant_2",
+        "room9_clock_variant_3"
+      ],
+      "x": 192,
+      "y": 229.5
+    },
+    {
+      "key": "room9_old_floor",
+      "type": "repair",
+      "name_key": "room9_old_floor_loc",
+      "multiobjects": [
+        "room9_old_floor"
+      ],
+      "x": 390,
+      "y": 609
+    },
+    {
+      "key": "room9_old_walls",
+      "type": "repair",
+      "name_key": "room9_old_walls_loc",
+      "multiobjects": [
+        "room9_old_walls"
+      ],
+      "x": 164,
+      "y": 344
+    },
+    {
+      "key": "room9_mold",
+      "type": "repair",
+      "name_key": "room9_mold_loc",
+      "multiobjects": [
+        "room9_mold"
+      ],
+      "x": 558.5,
+      "y": 414.5
+    },
+    {
+      "key": "room9_old_wall_decor",
+      "type": "repair",
+      "name_key": "room9_old_wall_decor_loc",
+      "multiobjects": [
+        "room9_old_wall_decor"
+      ],
+      "x": 262,
+      "y": 236
+    },
+    {
+      "key": "room9_old_wall_picture",
+      "type": "repair",
+      "name_key": "room9_old_wall_picture_loc",
+      "multiobjects": [
+        "room9_old_wall_picture"
+      ],
+      "x": 564,
+      "y": 302
+    },
+    {
+      "key": "room9_old_cupboard",
+      "type": "repair",
+      "name_key": "room9_old_cupboard_loc",
+      "multiobjects": [
+        "room9_old_cupboard"
+      ],
+      "x": 403.5,
+      "y": 378
+    },
+    {
+      "key": "room9_old_fireplace",
+      "type": "repair",
+      "name_key": "room9_old_fireplace_loc",
+      "multiobjects": [
+        "room9_old_fireplace"
+      ],
+      "x": 269,
+      "y": 424
+    },
+    {
+      "key": "room9_old_armchair",
+      "type": "repair",
+      "name_key": "room9_old_armchair_loc",
+      "multiobjects": [
+        "room9_old_armchair"
+      ],
+      "x": 174.5,
+      "y": 561
+    },
+    {
+      "key": "room9_old_tv",
+      "type": "repair",
+      "name_key": "room9_old_tv_loc",
+      "multiobjects": [
+        "room9_old_tv"
+      ],
+      "x": 566,
+      "y": 574.5
+    },
+    {
+      "key": "room9_trash",
+      "type": "repair",
+      "name_key": "room9_trash_loc",
+      "multiobjects": [
+        "room9_trash"
+      ],
+      "x": 373,
+      "y": 517.5
+    },
+    {
+      "key": "room9_old_coffee_table",
+      "type": "repair",
+      "name_key": "room9_old_coffee_table_loc",
+      "multiobjects": [
+        "room9_old_coffee_table"
+      ],
+      "x": 445.5,
+      "y": 679.5
+    },
+    {
+      "key": "room9_old_table_books_vase",
+      "type": "repair",
+      "name_key": "room9_old_table_books_vase_loc",
+      "multiobjects": [
+        "room9_old_table_books_vase"
+      ],
+      "x": 297,
+      "y": 560.5
+    },
+    {
+      "key": "room9_old_sofa",
+      "type": "repair",
+      "name_key": "room9_old_sofa_loc",
+      "multiobjects": [
+        "room9_old_sofa"
+      ],
+      "x": 259,
+      "y": 689
+    },
+    {
+      "key": "room9_pay_dialogue1",
+      "type": "dialog",
+      "dialogId": "",
+      "name_key": "",
+      "multiobject": "",
+      "price": 545,
+      "priceType": "coins",
+      "x": 358,
+      "y": 700
+    },
+    {
+      "key": "room9_pay_dialogue2",
+      "type": "dialog",
+      "dialogId": "",
+      "name_key": "",
+      "multiobject": "",
+      "price": 230,
+      "priceType": "coins",
+      "x": 358,
+      "y": 700
+    },
+    {
+      "key": "room9_pay_dialogue3",
+      "type": "dialog",
+      "dialogId": "",
+      "name_key": "",
+      "multiobject": "",
+      "price": 10,
+      "priceType": "diamonds",
+      "x": 358,
+      "y": 700
+    },
+    {
+      "key": "room9_pay_dialogue4",
+      "type": "dialog",
+      "dialogId": "",
+      "name_key": "",
+      "multiobject": "",
+      "price": 535,
+      "priceType": "coins",
+      "x": 358,
+      "y": 700
+    }
+  ],
+  "allMultiobjects": [
+    {
+      "key": "room9_walls",
+      "parts": [
+        "room9_walls_A"
+      ],
+      "price": 700,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_walls_variant_2",
+      "parts": [
+        "room9_walls_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room9_walls_variant_3",
+      "parts": [
+        "room9_walls_C"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_floor",
+      "parts": [
+        "room9_floor_A"
+      ],
+      "price": 555,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_floor_variant_2",
+      "parts": [
+        "room9_floor_B"
+      ],
+      "price": 710,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_floor_variant_3",
+      "parts": [
+        "room9_floor_C"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room9_wall_decor",
+      "parts": [
+        "room9_wall_decor_A"
+      ],
+      "price": 465,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_wall_decor_variant_2",
+      "parts": [
+        "room9_wall_decor_B"
+      ],
+      "price": 465,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_wall_decor_variant_3",
+      "parts": [
+        "room9_wall_decor_C"
+      ],
+      "price": 465,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_wall_picture",
+      "parts": [
+        "room9_wall_picture_A"
+      ],
+      "price": 90,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_wall_picture_variant_2",
+      "parts": [
+        "room9_wall_picture_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room9_wall_picture_variant_3",
+      "parts": [
+        "room9_wall_picture_C"
+      ],
+      "price": 755,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_wall_art",
+      "parts": [
+        "room9_wall_art_A"
+      ],
+      "price": 90,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_wall_art_variant_2",
+      "parts": [
+        "room9_wall_art_B"
+      ],
+      "price": 710,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_wall_art_variant_3",
+      "parts": [
+        "room9_wall_art_C"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room9_bookcase",
+      "parts": [
+        "room9_bookcase_A"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room9_bookcase_variant_2",
+      "parts": [
+        "room9_bookcase_B"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_bookcase_variant_3",
+      "parts": [
+        "room9_bookcase_C"
+      ],
+      "price": 700,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_tv",
+      "parts": [
+        "room9_tv_A"
+      ],
+      "price": 515,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_tv_variant_2",
+      "parts": [
+        "room9_tv_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room9_tv_variant_3",
+      "parts": [
+        "room9_tv_C"
+      ],
+      "price": 660,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_fireplace",
+      "parts": [
+        "room9_fireplace_A"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room9_fireplace_variant_2",
+      "parts": [
+        "room9_fireplace_B"
+      ],
+      "price": 700,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_fireplace_variant_3",
+      "parts": [
+        "room9_fireplace_C"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_coffee_table",
+      "parts": [
+        "room9_coffee_table_A"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_coffee_table_variant_2",
+      "parts": [
+        "room9_coffee_table_B"
+      ],
+      "price": 700,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_coffee_table_variant_3",
+      "parts": [
+        "room9_coffee_table_C"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room9_table_books_vase",
+      "parts": [
+        "room9_table_books_vase_A"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room9_table_books_vase_variant_2",
+      "parts": [
+        "room9_table_books_vase_B"
+      ],
+      "price": 700,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_table_books_vase_variant_3",
+      "parts": [
+        "room9_table_books_vase_C"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_sofa",
+      "parts": [
+        "room9_sofa_A"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room9_sofa_variant_2",
+      "parts": [
+        "room9_sofa_B"
+      ],
+      "price": 515,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_sofa_variant_3",
+      "parts": [
+        "room9_sofa_C"
+      ],
+      "price": 660,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_armchair",
+      "parts": [
+        "room9_armchair_A"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room9_armchair_variant_2",
+      "parts": [
+        "room9_armchair_B"
+      ],
+      "price": 755,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_armchair_variant_3",
+      "parts": [
+        "room9_armchair_C"
+      ],
+      "price": 590,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_clock",
+      "parts": [
+        "room9_clock_A"
+      ],
+      "price": 535,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_clock_variant_2",
+      "parts": [
+        "room9_clock_B"
+      ],
+      "price": 10,
+      "priceType": "diamonds"
+    },
+    {
+      "key": "room9_clock_variant_3",
+      "parts": [
+        "room9_clock_C"
+      ],
+      "price": 685,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_old_floor",
+      "parts": [
+        "room9_old_floor"
+      ],
+      "price": 210,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_old_walls",
+      "parts": [
+        "room9_old_walls"
+      ],
+      "price": 205,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_mold",
+      "parts": [
+        "room9_mold_2",
+        "room9_mold_1"
+      ],
+      "price": 230,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_old_wall_decor",
+      "parts": [
+        "room9_old_wall_decor"
+      ],
+      "price": 245,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_old_wall_picture",
+      "parts": [
+        "room9_old_wall_picture"
+      ],
+      "price": 200,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_old_cupboard",
+      "parts": [
+        "room9_old_cupboard"
+      ],
+      "price": 235,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_old_fireplace",
+      "parts": [
+        "room9_old_fireplace"
+      ],
+      "price": 185,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_old_armchair",
+      "parts": [
+        "room9_old_armchair"
+      ],
+      "price": 260,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_old_tv",
+      "parts": [
+        "room9_old_tv"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_trash",
+      "parts": [
+        "room9_trash_2",
+        "room9_trash_1"
+      ],
+      "price": 535,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_old_coffee_table",
+      "parts": [
+        "room9_old_coffee_table"
+      ],
+      "price": 90,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_old_table_books_vase",
+      "parts": [
+        "room9_old_table_books_vase"
+      ],
+      "price": 545,
+      "priceType": "coins"
+    },
+    {
+      "key": "room9_old_sofa",
+      "parts": [
+        "room9_old_sofa"
+      ],
+      "price": 540,
+      "priceType": "coins"
+    }
+  ],
+  "allPartsOrderComment": "Порядок слоёв по z: от заднего плана к переднему; меняется в decor-viewer.",
+  "depthOrderEdited": true,
+  "allParts": [
+    {
+      "key": "room9_walls_A",
+      "type": "decor",
+      "atlas_name": "rooms_room9-surfaces",
+      "x": 360,
+      "y": 370.5,
+      "angle": null
+    },
+    {
+      "key": "room9_walls_B",
+      "type": "decor",
+      "atlas_name": "rooms_room9-surfaces",
+      "x": 360,
+      "y": 370.5,
+      "angle": null
+    },
+    {
+      "key": "room9_walls_C",
+      "type": "decor",
+      "atlas_name": "rooms_room9-surfaces",
+      "x": 360,
+      "y": 370.5,
+      "angle": null
+    },
+    {
+      "key": "room9_floor_A",
+      "type": "decor",
+      "atlas_name": "rooms_room9-surfaces",
+      "x": 360,
+      "y": 686,
+      "angle": null
+    },
+    {
+      "key": "room9_floor_B",
+      "type": "decor",
+      "atlas_name": "rooms_room9-surfaces",
+      "x": 360,
+      "y": 686,
+      "angle": null
+    },
+    {
+      "key": "room9_floor_C",
+      "type": "decor",
+      "atlas_name": "rooms_room9-surfaces",
+      "x": 360,
+      "y": 686,
+      "angle": null
+    },
+    {
+      "key": "room9_wall_decor_A",
+      "type": "decor",
+      "atlas_name": "rooms_room9-surfaces",
+      "x": 84.5,
+      "y": 382.5,
+      "angle": 315
+    },
+    {
+      "key": "room9_wall_decor_B",
+      "type": "decor",
+      "atlas_name": "rooms_room9-surfaces",
+      "x": 73.5,
+      "y": 405.5,
+      "angle": 315
+    },
+    {
+      "key": "room9_wall_decor_C",
+      "type": "decor",
+      "atlas_name": "rooms_room9-surfaces",
+      "x": 73,
+      "y": 404.5,
+      "angle": 315
+    },
+    {
+      "key": "room9_wall_picture_A",
+      "type": "decor",
+      "atlas_name": "rooms_room9-surfaces",
+      "x": 491.5,
+      "y": 319.5,
+      "angle": 45
+    },
+    {
+      "key": "room9_wall_picture_B",
+      "type": "decor",
+      "atlas_name": "rooms_room9-surfaces",
+      "x": 492,
+      "y": 325.5,
+      "angle": 45
+    },
+    {
+      "key": "room9_wall_picture_C",
+      "type": "decor",
+      "atlas_name": "rooms_room9-surfaces",
+      "x": 490.5,
+      "y": 319.5,
+      "angle": 45
+    },
+    {
+      "key": "room9_wall_art_A",
+      "type": "decor",
+      "atlas_name": "rooms_room9-surfaces",
+      "x": 628,
+      "y": 335,
+      "angle": 45
+    },
+    {
+      "key": "room9_wall_art_B",
+      "type": "decor",
+      "atlas_name": "rooms_room9-surfaces",
+      "x": 627.5,
+      "y": 339,
+      "angle": 45
+    },
+    {
+      "key": "room9_wall_art_C",
+      "type": "decor",
+      "atlas_name": "rooms_room9-surfaces",
+      "x": 628,
+      "y": 336.5,
+      "angle": 45
+    },
+    {
+      "key": "room9_bookcase_A",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 346,
+      "y": 359,
+      "angle": 315
+    },
+    {
+      "key": "room9_bookcase_B",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 334,
+      "y": 365,
+      "angle": 315
+    },
+    {
+      "key": "room9_bookcase_C",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 338,
+      "y": 361,
+      "angle": 315
+    },
+    {
+      "key": "room9_tv_A",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 490.5,
+      "y": 473.5,
+      "angle": 180
+    },
+    {
+      "key": "room9_tv_B",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 483.5,
+      "y": 476,
+      "angle": 180
+    },
+    {
+      "key": "room9_tv_C",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 480.5,
+      "y": 479,
+      "angle": 180
+    },
+    {
+      "key": "room9_fireplace_A",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 219,
+      "y": 475,
+      "angle": 315
+    },
+    {
+      "key": "room9_fireplace_B",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 217,
+      "y": 473,
+      "angle": 315
+    },
+    {
+      "key": "room9_fireplace_C",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 212,
+      "y": 485.5,
+      "angle": 315
+    },
+    {
+      "key": "room9_coffee_table_A",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 364,
+      "y": 648.5,
+      "angle": 180
+    },
+    {
+      "key": "room9_coffee_table_B",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 366.5,
+      "y": 630,
+      "angle": 180
+    },
+    {
+      "key": "room9_coffee_table_C",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 371,
+      "y": 636,
+      "angle": 180
+    },
+    {
+      "key": "room9_table_books_vase_A",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 336,
+      "y": 569,
+      "angle": 180
+    },
+    {
+      "key": "room9_table_books_vase_B",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 341,
+      "y": 589,
+      "angle": 180
+    },
+    {
+      "key": "room9_table_books_vase_C",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 349,
+      "y": 586,
+      "angle": 180
+    },
+    {
+      "key": "room9_sofa_A",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 212,
+      "y": 684,
+      "angle": 180
+    },
+    {
+      "key": "room9_sofa_B",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 202.5,
+      "y": 693,
+      "angle": 180
+    },
+    {
+      "key": "room9_sofa_C",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 196.5,
+      "y": 699.5,
+      "angle": 180
+    },
+    {
+      "key": "room9_armchair_A",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 522.5,
+      "y": 704,
+      "angle": 180
+    },
+    {
+      "key": "room9_armchair_B",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 542.5,
+      "y": 704.5,
+      "angle": 180
+    },
+    {
+      "key": "room9_armchair_C",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 547,
+      "y": 704,
+      "angle": 180
+    },
+    {
+      "key": "room9_clock_A",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 192,
+      "y": 229.5,
+      "angle": 315
+    },
+    {
+      "key": "room9_clock_B",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 196.5,
+      "y": 229,
+      "angle": 315
+    },
+    {
+      "key": "room9_clock_C",
+      "type": "decor",
+      "atlas_name": "rooms_room9-decor",
+      "x": 195.5,
+      "y": 231,
+      "angle": 315
+    },
+    {
+      "key": "room9_old_floor",
+      "type": "repair",
+      "atlas_name": "rooms_room9-repair",
+      "x": 360,
+      "y": 684,
+      "angle": 0
+    },
+    {
+      "key": "room9_old_walls",
+      "type": "repair",
+      "atlas_name": "rooms_room9-repair",
+      "x": 360,
+      "y": 335,
+      "angle": null
+    },
+    {
+      "key": "room9_mold_2",
+      "type": "repair",
+      "atlas_name": "rooms_room9-repair",
+      "x": 191.5,
+      "y": 269.5,
+      "angle": null
+    },
+    {
+      "key": "room9_mold_1",
+      "type": "repair",
+      "atlas_name": "rooms_room9-repair",
+      "x": 360,
+      "y": 505,
+      "angle": null
+    },
+    {
+      "key": "room9_old_wall_decor",
+      "type": "repair",
+      "atlas_name": "rooms_room9-repair",
+      "x": 184,
+      "y": 246,
+      "angle": 135
+    },
+    {
+      "key": "room9_old_wall_picture",
+      "type": "repair",
+      "atlas_name": "rooms_room9-repair",
+      "x": 601,
+      "y": 312,
+      "angle": 225
+    },
+    {
+      "key": "room9_old_cupboard",
+      "type": "repair",
+      "atlas_name": "rooms_room9-repair",
+      "x": 407.5,
+      "y": 355,
+      "angle": 0
+    },
+    {
+      "key": "room9_old_fireplace",
+      "type": "repair",
+      "atlas_name": "rooms_room9-repair",
+      "x": 236,
+      "y": 440,
+      "angle": 135
+    },
+    {
+      "key": "room9_old_armchair",
+      "type": "repair",
+      "atlas_name": "rooms_room9-repair",
+      "x": 112.5,
+      "y": 604,
+      "angle": 0
+    },
+    {
+      "key": "room9_old_tv",
+      "type": "repair",
+      "atlas_name": "rooms_room9-repair",
+      "x": 566,
+      "y": 574.5,
+      "angle": 0
+    },
+    {
+      "key": "room9_trash_2",
+      "type": "repair",
+      "atlas_name": "rooms_room9-repair",
+      "x": 369,
+      "y": 531.5,
+      "angle": 0
+    },
+    {
+      "key": "room9_old_coffee_table",
+      "type": "repair",
+      "atlas_name": "rooms_room9-repair",
+      "x": 318.5,
+      "y": 649.5,
+      "angle": 0
+    },
+    {
+      "key": "room9_old_table_books_vase",
+      "type": "repair",
+      "atlas_name": "rooms_room9-repair",
+      "x": 312,
+      "y": 590.5,
+      "angle": 0
+    },
+    {
+      "key": "room9_old_sofa",
+      "type": "repair",
+      "atlas_name": "rooms_room9-repair",
+      "x": 297,
+      "y": 736,
+      "angle": 0
+    },
+    {
+      "key": "room9_trash_1",
+      "type": "repair",
+      "atlas_name": "rooms_room9-repair",
+      "x": 485,
+      "y": 673.5,
+      "angle": 0
+    }
+  ],
+  "sourcePsdRevision": "168e7b7b3d087234b330022328583d53352f7dc3d454fb982ba796961e5b8dac",
+  "award": 50
+}

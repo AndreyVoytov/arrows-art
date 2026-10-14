@@ -1,0 +1,1036 @@
+{
+  "frames": {
+    "room10_clock_installation_A": {
+      "frame": {
+        "x": 324,
+        "y": 1176,
+        "w": 237,
+        "h": 221
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 237,
+        "h": 221
+      },
+      "sourceSize": {
+        "w": 237,
+        "h": 221
+      }
+    },
+    "room10_clock_installation_B": {
+      "frame": {
+        "x": 1511,
+        "y": 839,
+        "w": 223,
+        "h": 223
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 223,
+        "h": 223
+      },
+      "sourceSize": {
+        "w": 223,
+        "h": 223
+      }
+    },
+    "room10_clock_installation_C": {
+      "frame": {
+        "x": 1281,
+        "y": 839,
+        "w": 228,
+        "h": 225
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 228,
+        "h": 225
+      },
+      "sourceSize": {
+        "w": 228,
+        "h": 225
+      }
+    },
+    "room10_desk_lamp_A_1": {
+      "frame": {
+        "x": 1860,
+        "y": 1176,
+        "w": 158,
+        "h": 114
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 158,
+        "h": 114
+      },
+      "sourceSize": {
+        "w": 158,
+        "h": 114
+      }
+    },
+    "room10_desk_lamp_A_2": {
+      "frame": {
+        "x": 1034,
+        "y": 1401,
+        "w": 100,
+        "h": 98
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 98
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 98
+      }
+    },
+    "room10_desk_lamp_B_1": {
+      "frame": {
+        "x": 658,
+        "y": 1401,
+        "w": 135,
+        "h": 101
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 135,
+        "h": 101
+      },
+      "sourceSize": {
+        "w": 135,
+        "h": 101
+      }
+    },
+    "room10_desk_lamp_B_2": {
+      "frame": {
+        "x": 795,
+        "y": 1401,
+        "w": 103,
+        "h": 101
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 103,
+        "h": 101
+      },
+      "sourceSize": {
+        "w": 103,
+        "h": 101
+      }
+    },
+    "room10_desk_lamp_C_1": {
+      "frame": {
+        "x": 900,
+        "y": 1401,
+        "w": 132,
+        "h": 98
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 132,
+        "h": 98
+      },
+      "sourceSize": {
+        "w": 132,
+        "h": 98
+      }
+    },
+    "room10_desk_lamp_C_2": {
+      "frame": {
+        "x": 553,
+        "y": 1401,
+        "w": 103,
+        "h": 102
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 103,
+        "h": 102
+      },
+      "sourceSize": {
+        "w": 103,
+        "h": 102
+      }
+    },
+    "room10_display_shelf_A": {
+      "frame": {
+        "x": 162,
+        "y": 1176,
+        "w": 160,
+        "h": 223
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 160,
+        "h": 223
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 223
+      }
+    },
+    "room10_display_shelf_B": {
+      "frame": {
+        "x": 0,
+        "y": 1176,
+        "w": 160,
+        "h": 223
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 160,
+        "h": 223
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 223
+      }
+    },
+    "room10_display_shelf_C": {
+      "frame": {
+        "x": 1736,
+        "y": 839,
+        "w": 160,
+        "h": 223
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 160,
+        "h": 223
+      },
+      "sourceSize": {
+        "w": 160,
+        "h": 223
+      }
+    },
+    "room10_entrance_door_A": {
+      "frame": {
+        "x": 354,
+        "y": 0,
+        "w": 175,
+        "h": 472
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 175,
+        "h": 472
+      },
+      "sourceSize": {
+        "w": 175,
+        "h": 472
+      }
+    },
+    "room10_entrance_door_B": {
+      "frame": {
+        "x": 177,
+        "y": 0,
+        "w": 175,
+        "h": 472
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 175,
+        "h": 472
+      },
+      "sourceSize": {
+        "w": 175,
+        "h": 472
+      }
+    },
+    "room10_entrance_door_C": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 175,
+        "h": 472
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 175,
+        "h": 472
+      },
+      "sourceSize": {
+        "w": 175,
+        "h": 472
+      }
+    },
+    "room10_ergonomic_chair_A": {
+      "frame": {
+        "x": 1833,
+        "y": 474,
+        "w": 206,
+        "h": 265
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 206,
+        "h": 265
+      },
+      "sourceSize": {
+        "w": 206,
+        "h": 265
+      }
+    },
+    "room10_ergonomic_chair_B": {
+      "frame": {
+        "x": 865,
+        "y": 839,
+        "w": 206,
+        "h": 253
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 206,
+        "h": 253
+      },
+      "sourceSize": {
+        "w": 206,
+        "h": 253
+      }
+    },
+    "room10_ergonomic_chair_C": {
+      "frame": {
+        "x": 1073,
+        "y": 839,
+        "w": 206,
+        "h": 247
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 206,
+        "h": 247
+      },
+      "sourceSize": {
+        "w": 206,
+        "h": 247
+      }
+    },
+    "room10_mechanism_cabinet_A_1": {
+      "frame": {
+        "x": 873,
+        "y": 0,
+        "w": 169,
+        "h": 395
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 169,
+        "h": 395
+      },
+      "sourceSize": {
+        "w": 169,
+        "h": 395
+      }
+    },
+    "room10_mechanism_cabinet_A_2": {
+      "frame": {
+        "x": 252,
+        "y": 1401,
+        "w": 124,
+        "h": 113
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 124,
+        "h": 113
+      },
+      "sourceSize": {
+        "w": 124,
+        "h": 113
+      }
+    },
+    "room10_mechanism_cabinet_B_1": {
+      "frame": {
+        "x": 702,
+        "y": 0,
+        "w": 169,
+        "h": 395
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 169,
+        "h": 395
+      },
+      "sourceSize": {
+        "w": 169,
+        "h": 395
+      }
+    },
+    "room10_mechanism_cabinet_B_2": {
+      "frame": {
+        "x": 126,
+        "y": 1401,
+        "w": 124,
+        "h": 113
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 124,
+        "h": 113
+      },
+      "sourceSize": {
+        "w": 124,
+        "h": 113
+      }
+    },
+    "room10_mechanism_cabinet_C_1": {
+      "frame": {
+        "x": 531,
+        "y": 0,
+        "w": 169,
+        "h": 395
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 169,
+        "h": 395
+      },
+      "sourceSize": {
+        "w": 169,
+        "h": 395
+      }
+    },
+    "room10_mechanism_cabinet_C_2": {
+      "frame": {
+        "x": 0,
+        "y": 1401,
+        "w": 124,
+        "h": 113
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 124,
+        "h": 113
+      },
+      "sourceSize": {
+        "w": 124,
+        "h": 113
+      }
+    },
+    "room10_modular_desk_A": {
+      "frame": {
+        "x": 1099,
+        "y": 474,
+        "w": 365,
+        "h": 343
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 365,
+        "h": 343
+      },
+      "sourceSize": {
+        "w": 365,
+        "h": 343
+      }
+    },
+    "room10_modular_desk_B": {
+      "frame": {
+        "x": 1466,
+        "y": 474,
+        "w": 365,
+        "h": 340
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 365,
+        "h": 340
+      },
+      "sourceSize": {
+        "w": 365,
+        "h": 340
+      }
+    },
+    "room10_modular_desk_C": {
+      "frame": {
+        "x": 1593,
+        "y": 0,
+        "w": 365,
+        "h": 344
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 365,
+        "h": 344
+      },
+      "sourceSize": {
+        "w": 365,
+        "h": 344
+      }
+    },
+    "room10_panoramic_bay_window_A": {
+      "frame": {
+        "x": 576,
+        "y": 839,
+        "w": 287,
+        "h": 333
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 287,
+        "h": 333
+      },
+      "sourceSize": {
+        "w": 287,
+        "h": 333
+      }
+    },
+    "room10_panoramic_bay_window_B": {
+      "frame": {
+        "x": 0,
+        "y": 839,
+        "w": 287,
+        "h": 335
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 287,
+        "h": 335
+      },
+      "sourceSize": {
+        "w": 287,
+        "h": 335
+      }
+    },
+    "room10_panoramic_bay_window_C": {
+      "frame": {
+        "x": 289,
+        "y": 839,
+        "w": 285,
+        "h": 334
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 285,
+        "h": 334
+      },
+      "sourceSize": {
+        "w": 285,
+        "h": 334
+      }
+    },
+    "room10_pendant_light_A": {
+      "frame": {
+        "x": 1562,
+        "y": 1176,
+        "w": 98,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 98,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 98,
+        "h": 186
+      }
+    },
+    "room10_pendant_light_B": {
+      "frame": {
+        "x": 1761,
+        "y": 1176,
+        "w": 97,
+        "h": 184
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 97,
+        "h": 184
+      },
+      "sourceSize": {
+        "w": 97,
+        "h": 184
+      }
+    },
+    "room10_pendant_light_C": {
+      "frame": {
+        "x": 1662,
+        "y": 1176,
+        "w": 97,
+        "h": 186
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 97,
+        "h": 186
+      },
+      "sourceSize": {
+        "w": 97,
+        "h": 186
+      }
+    },
+    "room10_plant_A": {
+      "frame": {
+        "x": 690,
+        "y": 1176,
+        "w": 125,
+        "h": 219
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 125,
+        "h": 219
+      },
+      "sourceSize": {
+        "w": 125,
+        "h": 219
+      }
+    },
+    "room10_plant_B": {
+      "frame": {
+        "x": 563,
+        "y": 1176,
+        "w": 125,
+        "h": 219
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 125,
+        "h": 219
+      },
+      "sourceSize": {
+        "w": 125,
+        "h": 219
+      }
+    },
+    "room10_plant_C": {
+      "frame": {
+        "x": 1898,
+        "y": 839,
+        "w": 125,
+        "h": 219
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 125,
+        "h": 219
+      },
+      "sourceSize": {
+        "w": 125,
+        "h": 219
+      }
+    },
+    "room10_puzzle_safe_A_1": {
+      "frame": {
+        "x": 378,
+        "y": 1401,
+        "w": 103,
+        "h": 105
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 103,
+        "h": 105
+      },
+      "sourceSize": {
+        "w": 103,
+        "h": 105
+      }
+    },
+    "room10_puzzle_safe_A_2": {
+      "frame": {
+        "x": 1296,
+        "y": 1401,
+        "w": 78,
+        "h": 83
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 83
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 83
+      }
+    },
+    "room10_puzzle_safe_A_3": {
+      "frame": {
+        "x": 1472,
+        "y": 1401,
+        "w": 46,
+        "h": 71
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 46,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 46,
+        "h": 71
+      }
+    },
+    "room10_puzzle_safe_B_1": {
+      "frame": {
+        "x": 483,
+        "y": 1401,
+        "w": 68,
+        "h": 105
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 68,
+        "h": 105
+      },
+      "sourceSize": {
+        "w": 68,
+        "h": 105
+      }
+    },
+    "room10_puzzle_safe_B_2": {
+      "frame": {
+        "x": 1216,
+        "y": 1401,
+        "w": 78,
+        "h": 83
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 83
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 83
+      }
+    },
+    "room10_puzzle_safe_B_3": {
+      "frame": {
+        "x": 1424,
+        "y": 1401,
+        "w": 46,
+        "h": 74
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 46,
+        "h": 74
+      },
+      "sourceSize": {
+        "w": 46,
+        "h": 74
+      }
+    },
+    "room10_puzzle_safe_C_1": {
+      "frame": {
+        "x": 1960,
+        "y": 0,
+        "w": 71,
+        "h": 108
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 71,
+        "h": 108
+      },
+      "sourceSize": {
+        "w": 71,
+        "h": 108
+      }
+    },
+    "room10_puzzle_safe_C_2": {
+      "frame": {
+        "x": 1136,
+        "y": 1401,
+        "w": 78,
+        "h": 84
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 78,
+        "h": 84
+      },
+      "sourceSize": {
+        "w": 78,
+        "h": 84
+      }
+    },
+    "room10_puzzle_safe_C_3": {
+      "frame": {
+        "x": 1376,
+        "y": 1401,
+        "w": 46,
+        "h": 76
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 46,
+        "h": 76
+      },
+      "sourceSize": {
+        "w": 46,
+        "h": 76
+      }
+    },
+    "room10_rug_A": {
+      "frame": {
+        "x": 539,
+        "y": 474,
+        "w": 558,
+        "h": 357
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 558,
+        "h": 357
+      },
+      "sourceSize": {
+        "w": 558,
+        "h": 357
+      }
+    },
+    "room10_rug_B": {
+      "frame": {
+        "x": 1044,
+        "y": 0,
+        "w": 547,
+        "h": 369
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 547,
+        "h": 369
+      },
+      "sourceSize": {
+        "w": 547,
+        "h": 369
+      }
+    },
+    "room10_rug_C": {
+      "frame": {
+        "x": 0,
+        "y": 474,
+        "w": 537,
+        "h": 363
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 537,
+        "h": 363
+      },
+      "sourceSize": {
+        "w": 537,
+        "h": 363
+      }
+    },
+    "room10_window_seat_cushion_A": {
+      "frame": {
+        "x": 1318,
+        "y": 1176,
+        "w": 242,
+        "h": 196
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 242,
+        "h": 196
+      },
+      "sourceSize": {
+        "w": 242,
+        "h": 196
+      }
+    },
+    "room10_window_seat_cushion_B": {
+      "frame": {
+        "x": 1064,
+        "y": 1176,
+        "w": 252,
+        "h": 200
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 252,
+        "h": 200
+      },
+      "sourceSize": {
+        "w": 252,
+        "h": 200
+      }
+    },
+    "room10_window_seat_cushion_C": {
+      "frame": {
+        "x": 817,
+        "y": 1176,
+        "w": 245,
+        "h": 201
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 245,
+        "h": 201
+      },
+      "sourceSize": {
+        "w": 245,
+        "h": 201
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "rooms_room10-decor_21e1f1c0.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 1514
+    },
+    "scale": "1",
+    "sourceDir": "images/rooms/room10-decor"
+  }
+}
