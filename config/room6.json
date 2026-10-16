@@ -1630,7 +1630,7 @@
           "trigger_key": "room6_pay_dialogue1"
         }
       ],
-      "award": null,
+      "award": 15,
       "replicas": [
         {
           "id": "room6_d2_r1",
@@ -1682,7 +1682,7 @@
       "conditions": [
         {
           "trigger_type": "after_action",
-          "trigger_key": "room6_telescope"
+          "trigger_key": "room6_old_telescope"
         }
       ],
       "award": null,
@@ -1740,7 +1740,7 @@
           "trigger_key": "room6_pay_dialogue2"
         }
       ],
-      "award": null,
+      "award": 15,
       "replicas": [
         {
           "id": "room6_d4_r1",
@@ -1847,7 +1847,7 @@
       "conditions": [
         {
           "trigger_type": "after_action",
-          "trigger_key": "room6_Item"
+          "trigger_key": "room6_bridge_door"
         }
       ],
       "award": null,
@@ -1898,7 +1898,7 @@
           "trigger_key": "room6_pay_dialogue3"
         }
       ],
-      "award": null,
+      "award": 15,
       "replicas": [
         {
           "id": "room6_d7_r1",
@@ -1957,7 +1957,7 @@
       "conditions": [
         {
           "trigger_type": "after_action",
-          "trigger_key": "room6_Item"
+          "trigger_key": "room6_pendant_light"
         }
       ],
       "award": null,
@@ -2008,7 +2008,7 @@
           "trigger_key": "room6_pay_dialogue4"
         }
       ],
-      "award": null,
+      "award": 15,
       "replicas": [
         {
           "id": "room6_d9_r1",

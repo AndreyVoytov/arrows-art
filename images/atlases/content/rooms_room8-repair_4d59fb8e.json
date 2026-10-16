@@ -404,7 +404,7 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "rooms_room8-repair_7e8ee081.webp",
+    "image": "rooms_room8-repair_4d59fb8e.png",
     "format": "RGBA8888",
     "size": {
       "w": 2048,

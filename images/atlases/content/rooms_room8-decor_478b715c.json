@@ -242,9 +242,9 @@
     },
     "room8_coded_jewelry_box_A": {
       "frame": {
-        "x": 476,
+        "x": 419,
         "y": 1457,
-        "w": 55,
+        "w": 100,
         "h": 55
       },
       "rotated": false,
@@ -252,17 +252,17 @@
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 55,
+        "w": 100,
         "h": 55
       },
       "sourceSize": {
-        "w": 55,
+        "w": 100,
         "h": 55
       }
     },
     "room8_coded_jewelry_box_B": {
       "frame": {
-        "x": 419,
+        "x": 521,
         "y": 1457,
         "w": 55,
         "h": 55
@@ -282,7 +282,7 @@
     },
     "room8_coded_jewelry_box_C": {
       "frame": {
-        "x": 533,
+        "x": 578,
         "y": 1457,
         "w": 55,
         "h": 54
@@ -964,7 +964,7 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "rooms_room8-decor_df2d3d5f.png",
+    "image": "rooms_room8-decor_478b715c.png",
     "format": "RGBA8888",
     "size": {
       "w": 2048,

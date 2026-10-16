@@ -1854,7 +1854,7 @@
           "trigger_key": "room7_pay_dialogue1"
         }
       ],
-      "award": null,
+      "award": 15,
       "replicas": [
         {
           "id": "room7_d2_r1",
@@ -1909,7 +1909,7 @@
           "trigger_key": "room7_pay_dialogue2"
         }
       ],
-      "award": null,
+      "award": 15,
       "replicas": [
         {
           "id": "room7_d3_r1",
@@ -2012,7 +2012,7 @@
           "trigger_key": "room7_pay_dialogue3"
         }
       ],
-      "award": null,
+      "award": 15,
       "replicas": [
         {
           "id": "room7_d5_r1",
@@ -2067,7 +2067,7 @@
           "trigger_key": "room7_pay_dialogue4"
         }
       ],
-      "award": null,
+      "award": 15,
       "replicas": [
         {
           "id": "room7_d6_r1",

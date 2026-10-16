@@ -43,10 +43,10 @@
     "room9_old_walls",
     "room9_mold_2",
     "room9_mold_1",
-    "room9_old_wall_decor",
     "room9_old_wall_picture",
     "room9_old_cupboard",
     "room9_old_fireplace",
+    "room9_old_wall_decor",
     "room9_old_armchair",
     "room9_old_tv",
     "room9_trash_2",
@@ -55,5 +55,5 @@
     "room9_old_sofa",
     "room9_trash_1"
   ],
-  "revision": "168e7b7b3d087234b330022328583d53352f7dc3d454fb982ba796961e5b8dac"
+  "revision": "d8c25bd8a8049e64f02e032201af42e3b89e6f8d2685554c28fde594754ec67c"
 }

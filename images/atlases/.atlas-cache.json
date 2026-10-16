@@ -509,36 +509,36 @@
     },
     "rooms_room8-decor": {
       "sourceDir": "images/rooms/room8-decor",
-      "digest": "df2d3d5fd8046473e8416258ba1b609f24af96b143757ffa62a99ecfb08df2fe",
+      "digest": "478b715c34d146eef27a4c00d68c072d193f91d16be18dd3b95671d9a5cc4885",
       "outputs": [
-        "images/atlases/content/rooms_room8-decor_df2d3d5f.png",
-        "images/atlases/content/rooms_room8-decor_df2d3d5f.webp",
-        "images/atlases/content/rooms_room8-decor_df2d3d5f.json",
-        "images/atlases/content/rooms_room8-decor_df2d3d5f.webp.json"
+        "images/atlases/content/rooms_room8-decor_478b715c.png",
+        "images/atlases/content/rooms_room8-decor_478b715c.webp",
+        "images/atlases/content/rooms_room8-decor_478b715c.json",
+        "images/atlases/content/rooms_room8-decor_478b715c.webp.json"
       ],
-      "updatedAt": "2026-10-09T20:50:41.895870+00:00"
+      "updatedAt": "2026-10-16T23:54:56.810334+00:00"
     },
     "rooms_room8-repair": {
       "sourceDir": "images/rooms/room8-repair",
-      "digest": "7e8ee08159eabeefed0d154f8bdb65a51694beedf65ca525462dfb88850f0b44",
+      "digest": "4d59fb8e36418031830c7c6e9f589793df03917ecf7efabce3e3d7037eed3a11",
       "outputs": [
-        "images/atlases/content/rooms_room8-repair_7e8ee081.png",
-        "images/atlases/content/rooms_room8-repair_7e8ee081.webp",
-        "images/atlases/content/rooms_room8-repair_7e8ee081.json",
-        "images/atlases/content/rooms_room8-repair_7e8ee081.webp.json"
+        "images/atlases/content/rooms_room8-repair_4d59fb8e.png",
+        "images/atlases/content/rooms_room8-repair_4d59fb8e.webp",
+        "images/atlases/content/rooms_room8-repair_4d59fb8e.json",
+        "images/atlases/content/rooms_room8-repair_4d59fb8e.webp.json"
       ],
-      "updatedAt": "2026-10-09T20:50:58.516020+00:00"
+      "updatedAt": "2026-10-16T23:55:12.947578+00:00"
     },
     "rooms_room8-surfaces": {
       "sourceDir": "images/rooms/room8-surfaces",
-      "digest": "07a2eddc84020afa6a89781b771eaa3aed1ef9fc7277ddbfc39aa72f28021ebf",
+      "digest": "2958702a0a2964777d81f70451a40974e740d0c3d75520b84c094e543c793825",
       "outputs": [
-        "images/atlases/content/rooms_room8-surfaces_07a2eddc.png",
-        "images/atlases/content/rooms_room8-surfaces_07a2eddc.webp",
-        "images/atlases/content/rooms_room8-surfaces_07a2eddc.json",
-        "images/atlases/content/rooms_room8-surfaces_07a2eddc.webp.json"
+        "images/atlases/content/rooms_room8-surfaces_2958702a.png",
+        "images/atlases/content/rooms_room8-surfaces_2958702a.webp",
+        "images/atlases/content/rooms_room8-surfaces_2958702a.json",
+        "images/atlases/content/rooms_room8-surfaces_2958702a.webp.json"
       ],
-      "updatedAt": "2026-10-09T20:51:11.864466+00:00"
+      "updatedAt": "2026-10-16T23:55:26.179462+00:00"
     },
     "rooms_room9-decor": {
       "sourceDir": "images/rooms/room9-decor",
@@ -586,14 +586,14 @@
     },
     "ui_loader": {
       "sourceDir": "images/ui/loader",
-      "digest": "fa592bbb86f1216bc4c721674d6e7a29b1e3ad5564160b93decc5affb411d1d0",
+      "digest": "e752990ea7128fd6f0a107cf95114f554ba5d507435a3218613664728d56d3b8",
       "outputs": [
-        "images/atlases/ui/ui_loader_fa592bbb.png",
-        "images/atlases/ui/ui_loader_fa592bbb.webp",
-        "images/atlases/ui/ui_loader_fa592bbb.json",
-        "images/atlases/ui/ui_loader_fa592bbb.webp.json"
+        "images/atlases/ui/ui_loader_e752990e.png",
+        "images/atlases/ui/ui_loader_e752990e.webp",
+        "images/atlases/ui/ui_loader_e752990e.json",
+        "images/atlases/ui/ui_loader_e752990e.webp.json"
       ],
-      "updatedAt": "2026-09-29T22:00:26.797760+00:00"
+      "updatedAt": "2026-10-16T23:55:39.121239+00:00"
     },
     "ui_lobby": {
       "sourceDir": "images/ui/lobby",

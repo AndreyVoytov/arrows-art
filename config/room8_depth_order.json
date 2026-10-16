@@ -61,14 +61,14 @@
     "room8_old_walls1",
     "room8_old_floor",
     "room8_old_curtains",
-    "room8_old_built_in_wardrobe",
-    "room8_old_wall_art_installation",
     "room8_old_rug",
+    "room8_old_built_in_wardrobe",
     "room8_old_nightstand_left",
     "room8_old_bedside_lamp_left",
     "room8_old_coded_jewelry_box",
     "room8_old_large_plant",
     "room8_old_double_bed",
+    "room8_old_wall_art_installation",
     "room8_old_nighstand_right_1",
     "room8_old_bedside_lamp_right",
     "room8_old_nighstand_right_2",
@@ -77,5 +77,5 @@
     "room8_old_vanity_table",
     "room8_old_mirror"
   ],
-  "revision": "88356204428d8820c14cb2696999109029074ffbc9a80fa51353b8af23380321"
+  "revision": "1eff7c383113dbfba3d6148f28480b22c8ff09b8fe46ad538bd02f45d5293308"
 }
