@@ -465,7 +465,7 @@
       "type": "dialog",
       "dialogId": "room7_d2",
       "multiobject": "",
-      "price": 540,
+      "price": 350,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -476,7 +476,7 @@
       "type": "dialog",
       "dialogId": "room7_d3",
       "multiobject": "",
-      "price": 90,
+      "price": 350,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -487,7 +487,7 @@
       "type": "dialog",
       "dialogId": "room7_d5",
       "multiobject": "",
-      "price": 690,
+      "price": 350,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -498,7 +498,7 @@
       "type": "dialog",
       "dialogId": "room7_d6",
       "multiobject": "",
-      "price": 540,
+      "price": 350,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -511,7 +511,7 @@
       "parts": [
         "room7_walls_A"
       ],
-      "price": 540,
+      "price": 1160,
       "priceType": "coins"
     },
     {
@@ -519,7 +519,7 @@
       "parts": [
         "room7_walls_B"
       ],
-      "price": 10,
+      "price": 80,
       "priceType": "diamonds"
     },
     {
@@ -527,7 +527,7 @@
       "parts": [
         "room7_walls_C"
       ],
-      "price": 690,
+      "price": 1440,
       "priceType": "coins"
     },
     {
@@ -535,7 +535,7 @@
       "parts": [
         "room7_floor_A"
       ],
-      "price": 690,
+      "price": 1450,
       "priceType": "coins"
     },
     {
@@ -543,7 +543,7 @@
       "parts": [
         "room7_floor_B"
       ],
-      "price": 10,
+      "price": 85,
       "priceType": "diamonds"
     },
     {
@@ -551,7 +551,7 @@
       "parts": [
         "room7_floor_C"
       ],
-      "price": 540,
+      "price": 1170,
       "priceType": "coins"
     },
     {
@@ -559,7 +559,7 @@
       "parts": [
         "room7_flower_bed_left_A"
       ],
-      "price": 10,
+      "price": 30,
       "priceType": "diamonds"
     },
     {
@@ -567,7 +567,7 @@
       "parts": [
         "room7_flower_bed_left_B"
       ],
-      "price": 690,
+      "price": 830,
       "priceType": "coins"
     },
     {
@@ -575,7 +575,7 @@
       "parts": [
         "room7_flower_bed_left_C"
       ],
-      "price": 540,
+      "price": 670,
       "priceType": "coins"
     },
     {
@@ -583,7 +583,7 @@
       "parts": [
         "room7_flower_bed_right_A"
       ],
-      "price": 540,
+      "price": 670,
       "priceType": "coins"
     },
     {
@@ -591,7 +591,7 @@
       "parts": [
         "room7_flower_bed_right_B"
       ],
-      "price": 10,
+      "price": 30,
       "priceType": "diamonds"
     },
     {
@@ -599,7 +599,7 @@
       "parts": [
         "room7_flower_bed_right_C"
       ],
-      "price": 690,
+      "price": 840,
       "priceType": "coins"
     },
     {
@@ -607,15 +607,15 @@
       "parts": [
         "room7_stairs_A"
       ],
-      "price": 540,
-      "priceType": "coins"
+      "price": 60,
+      "priceType": "diamonds"
     },
     {
       "key": "room7_stairs_variant_2",
       "parts": [
         "room7_stairs_B"
       ],
-      "price": 540,
+      "price": 1040,
       "priceType": "coins"
     },
     {
@@ -623,7 +623,7 @@
       "parts": [
         "room7_stairs_C"
       ],
-      "price": 540,
+      "price": 830,
       "priceType": "coins"
     },
     {
@@ -631,7 +631,7 @@
       "parts": [
         "room7_entrance_door_A"
       ],
-      "price": 10,
+      "price": 65,
       "priceType": "diamonds"
     },
     {
@@ -639,7 +639,7 @@
       "parts": [
         "room7_entrance_door_B"
       ],
-      "price": 690,
+      "price": 1040,
       "priceType": "coins"
     },
     {
@@ -647,7 +647,7 @@
       "parts": [
         "room7_entrance_door_C"
       ],
-      "price": 540,
+      "price": 830,
       "priceType": "coins"
     },
     {
@@ -656,7 +656,7 @@
         "room7_hanging_basket_right_A_1",
         "room7_hanging_basket_right_A_2"
       ],
-      "price": 10,
+      "price": 55,
       "priceType": "diamonds"
     },
     {
@@ -665,7 +665,7 @@
         "room7_hanging_basket_right_B_1",
         "room7_hanging_basket_right_B_2"
       ],
-      "price": 540,
+      "price": 830,
       "priceType": "coins"
     },
     {
@@ -674,7 +674,7 @@
         "room7_hanging_basket_right_C_1",
         "room7_hanging_basket_right_C_2"
       ],
-      "price": 690,
+      "price": 1040,
       "priceType": "coins"
     },
     {
@@ -682,7 +682,7 @@
       "parts": [
         "room7_wall_lantern_A"
       ],
-      "price": 10,
+      "price": 55,
       "priceType": "diamonds"
     },
     {
@@ -690,7 +690,7 @@
       "parts": [
         "room7_wall_lantern_B"
       ],
-      "price": 690,
+      "price": 1040,
       "priceType": "coins"
     },
     {
@@ -698,7 +698,7 @@
       "parts": [
         "room7_wall_lantern_C"
       ],
-      "price": 540,
+      "price": 830,
       "priceType": "coins"
     },
     {
@@ -706,7 +706,7 @@
       "parts": [
         "room7_mailbox_A"
       ],
-      "price": 10,
+      "price": 70,
       "priceType": "diamonds"
     },
     {
@@ -714,7 +714,7 @@
       "parts": [
         "room7_mailbox_B"
       ],
-      "price": 690,
+      "price": 1040,
       "priceType": "coins"
     },
     {
@@ -722,7 +722,7 @@
       "parts": [
         "room7_mailbox_C"
       ],
-      "price": 540,
+      "price": 830,
       "priceType": "coins"
     },
     {
@@ -730,7 +730,7 @@
       "parts": [
         "room7_hanging_basket_left_A"
       ],
-      "price": 10,
+      "price": 65,
       "priceType": "diamonds"
     },
     {
@@ -738,7 +738,7 @@
       "parts": [
         "room7_hanging_basket_left_B"
       ],
-      "price": 690,
+      "price": 1040,
       "priceType": "coins"
     },
     {
@@ -746,7 +746,7 @@
       "parts": [
         "room7_hanging_basket_left_C"
       ],
-      "price": 540,
+      "price": 830,
       "priceType": "coins"
     },
     {
@@ -754,7 +754,7 @@
       "parts": [
         "room7_garden_hose_A"
       ],
-      "price": 710,
+      "price": 840,
       "priceType": "coins"
     },
     {
@@ -762,7 +762,7 @@
       "parts": [
         "room7_garden_hose_B"
       ],
-      "price": 10,
+      "price": 40,
       "priceType": "diamonds"
     },
     {
@@ -770,7 +770,7 @@
       "parts": [
         "room7_garden_hose_C"
       ],
-      "price": 555,
+      "price": 670,
       "priceType": "coins"
     },
     {
@@ -778,7 +778,7 @@
       "parts": [
         "room7_potted_plant_left_A"
       ],
-      "price": 540,
+      "price": 670,
       "priceType": "coins"
     },
     {
@@ -786,7 +786,7 @@
       "parts": [
         "room7_potted_plant_left_B"
       ],
-      "price": 10,
+      "price": 35,
       "priceType": "diamonds"
     },
     {
@@ -794,7 +794,7 @@
       "parts": [
         "room7_potted_plant_left_C"
       ],
-      "price": 690,
+      "price": 840,
       "priceType": "coins"
     },
     {
@@ -802,7 +802,7 @@
       "parts": [
         "room7_doormat_A"
       ],
-      "price": 465,
+      "price": 670,
       "priceType": "coins"
     },
     {
@@ -810,7 +810,7 @@
       "parts": [
         "room7_doormat_B"
       ],
-      "price": 595,
+      "price": 840,
       "priceType": "coins"
     },
     {
@@ -818,7 +818,7 @@
       "parts": [
         "room7_doormat_C"
       ],
-      "price": 5,
+      "price": 50,
       "priceType": "diamonds"
     },
     {
@@ -826,7 +826,7 @@
       "parts": [
         "room7_armchair_A"
       ],
-      "price": 690,
+      "price": 1460,
       "priceType": "coins"
     },
     {
@@ -834,7 +834,7 @@
       "parts": [
         "room7_armchair_B"
       ],
-      "price": 10,
+      "price": 90,
       "priceType": "diamonds"
     },
     {
@@ -842,7 +842,7 @@
       "parts": [
         "room7_armchair_C"
       ],
-      "price": 540,
+      "price": 1170,
       "priceType": "coins"
     },
     {
@@ -851,7 +851,7 @@
         "room7_side_table_A_1",
         "room7_side_table_A_2"
       ],
-      "price": 10,
+      "price": 90,
       "priceType": "diamonds"
     },
     {
@@ -860,7 +860,7 @@
         "room7_side_table_B_1",
         "room7_side_table_B_2"
       ],
-      "price": 540,
+      "price": 1170,
       "priceType": "coins"
     },
     {
@@ -869,7 +869,7 @@
         "room7_side_table_C_1",
         "room7_side_table_C_2"
       ],
-      "price": 690,
+      "price": 1460,
       "priceType": "coins"
     },
     {
@@ -877,7 +877,7 @@
       "parts": [
         "room7_garden_boots_A"
       ],
-      "price": 505,
+      "price": 670,
       "priceType": "coins"
     },
     {
@@ -885,7 +885,7 @@
       "parts": [
         "room7_garden_boots_B"
       ],
-      "price": 10,
+      "price": 45,
       "priceType": "diamonds"
     },
     {
@@ -893,7 +893,7 @@
       "parts": [
         "room7_garden_boots_C"
       ],
-      "price": 645,
+      "price": 840,
       "priceType": "coins"
     },
     {
@@ -901,7 +901,7 @@
       "parts": [
         "room7_watering_can_A"
       ],
-      "price": 90,
+      "price": 670,
       "priceType": "coins"
     },
     {
@@ -909,7 +909,7 @@
       "parts": [
         "room7_watering_can_B"
       ],
-      "price": 710,
+      "price": 840,
       "priceType": "coins"
     },
     {
@@ -917,7 +917,7 @@
       "parts": [
         "room7_watering_can_C"
       ],
-      "price": 10,
+      "price": 45,
       "priceType": "diamonds"
     },
     {
@@ -925,15 +925,15 @@
       "parts": [
         "room7_railing_right_A"
       ],
-      "price": 540,
-      "priceType": "coins"
+      "price": 75,
+      "priceType": "diamonds"
     },
     {
       "key": "room7_railing_right_variant_2",
       "parts": [
         "room7_railing_right_B"
       ],
-      "price": 540,
+      "price": 1040,
       "priceType": "coins"
     },
     {
@@ -941,7 +941,7 @@
       "parts": [
         "room7_railing_right_C"
       ],
-      "price": 540,
+      "price": 830,
       "priceType": "coins"
     },
     {
@@ -949,7 +949,7 @@
       "parts": [
         "room7_railing_left_A"
       ],
-      "price": 700,
+      "price": 1040,
       "priceType": "coins"
     },
     {
@@ -957,7 +957,7 @@
       "parts": [
         "room7_railing_left_B"
       ],
-      "price": 10,
+      "price": 75,
       "priceType": "diamonds"
     },
     {
@@ -965,7 +965,7 @@
       "parts": [
         "room7_railing_left_C"
       ],
-      "price": 545,
+      "price": 830,
       "priceType": "coins"
     },
     {
@@ -973,7 +973,7 @@
       "parts": [
         "room7_broken_door"
       ],
-      "price": 344,
+      "price": 350,
       "priceType": "coins"
     },
     {
@@ -981,7 +981,7 @@
       "parts": [
         "room7_old_wall_lantern"
       ],
-      "price": 535,
+      "price": 350,
       "priceType": "coins"
     },
     {
@@ -990,7 +990,7 @@
         "room7_old_ivy_2",
         "room7_old_ivy_1"
       ],
-      "price": 90,
+      "price": 350,
       "priceType": "coins"
     },
     {
@@ -998,7 +998,7 @@
       "parts": [
         "room7_old_hanging_basket_left"
       ],
-      "price": 515,
+      "price": 350,
       "priceType": "coins"
     },
     {
@@ -1006,7 +1006,7 @@
       "parts": [
         "room7_broken_armchair"
       ],
-      "price": 540,
+      "price": 350,
       "priceType": "coins"
     },
     {
@@ -1014,7 +1014,7 @@
       "parts": [
         "room7_old_hanging_basket_right"
       ],
-      "price": 580,
+      "price": 350,
       "priceType": "coins"
     },
     {
@@ -1022,7 +1022,7 @@
       "parts": [
         "room7_old_mailbox"
       ],
-      "price": 215,
+      "price": 350,
       "priceType": "coins"
     },
     {
@@ -1030,7 +1030,7 @@
       "parts": [
         "room7_old_garden_hose"
       ],
-      "price": 545,
+      "price": 350,
       "priceType": "coins"
     },
     {
@@ -1038,7 +1038,7 @@
       "parts": [
         "room7_old_garden_boots"
       ],
-      "price": 220,
+      "price": 350,
       "priceType": "coins"
     },
     {
@@ -1046,7 +1046,7 @@
       "parts": [
         "room7_old_doormat"
       ],
-      "price": 590,
+      "price": 350,
       "priceType": "coins"
     },
     {
@@ -1054,7 +1054,7 @@
       "parts": [
         "room7_old_flower_pot"
       ],
-      "price": 220,
+      "price": 350,
       "priceType": "coins"
     },
     {
@@ -1062,7 +1062,7 @@
       "parts": [
         "room7_old_side_table"
       ],
-      "price": 545,
+      "price": 350,
       "priceType": "coins"
     },
     {
@@ -1070,7 +1070,7 @@
       "parts": [
         "room7_old_watering_can"
       ],
-      "price": 505,
+      "price": 350,
       "priceType": "coins"
     },
     {
@@ -1078,7 +1078,7 @@
       "parts": [
         "room7_old_flower_bed_right"
       ],
-      "price": 220,
+      "price": 350,
       "priceType": "coins"
     },
     {
@@ -1086,7 +1086,7 @@
       "parts": [
         "room7_old_railing_right"
       ],
-      "price": 465,
+      "price": 350,
       "priceType": "coins"
     },
     {
@@ -1094,7 +1094,7 @@
       "parts": [
         "room7_old_railing_left"
       ],
-      "price": 555,
+      "price": 350,
       "priceType": "coins"
     },
     {
@@ -1102,7 +1102,7 @@
       "parts": [
         "room7_old_flower_bed_left"
       ],
-      "price": 220,
+      "price": 350,
       "priceType": "coins"
     },
     {
@@ -1110,7 +1110,7 @@
       "parts": [
         "room7_old_steps"
       ],
-      "price": 240,
+      "price": 350,
       "priceType": "coins"
     }
   ],

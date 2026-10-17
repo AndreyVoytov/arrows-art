@@ -395,7 +395,7 @@
       "type": "dialog",
       "dialogId": "room6_d2",
       "multiobject": "",
-      "price": 230,
+      "price": 300,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -406,7 +406,7 @@
       "type": "dialog",
       "dialogId": "room6_d4",
       "multiobject": "",
-      "price": 240,
+      "price": 300,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -417,7 +417,7 @@
       "type": "dialog",
       "dialogId": "room6_d7",
       "multiobject": "",
-      "price": 90,
+      "price": 300,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -428,7 +428,7 @@
       "type": "dialog",
       "dialogId": "room6_d9",
       "multiobject": "",
-      "price": 90,
+      "price": 300,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -441,7 +441,7 @@
       "parts": [
         "room6_floor_A"
       ],
-      "price": 90,
+      "price": 1070,
       "priceType": "coins"
     },
     {
@@ -449,7 +449,7 @@
       "parts": [
         "room6_floor_B"
       ],
-      "price": 710,
+      "price": 1340,
       "priceType": "coins"
     },
     {
@@ -457,7 +457,7 @@
       "parts": [
         "room6_floor_C"
       ],
-      "price": 10,
+      "price": 75,
       "priceType": "diamonds"
     },
     {
@@ -466,7 +466,7 @@
         "room6_walls_A_1",
         "room6_walls_A_2"
       ],
-      "price": 555,
+      "price": 1070,
       "priceType": "coins"
     },
     {
@@ -475,7 +475,7 @@
         "room6_walls_B_1",
         "room6_walls_B_2"
       ],
-      "price": 10,
+      "price": 75,
       "priceType": "diamonds"
     },
     {
@@ -484,7 +484,7 @@
         "room6_walls_C_1",
         "room6_walls_C_2"
       ],
-      "price": 710,
+      "price": 1350,
       "priceType": "coins"
     },
     {
@@ -492,7 +492,7 @@
       "parts": [
         "room6_garden_windows_A"
       ],
-      "price": 10,
+      "price": 35,
       "priceType": "diamonds"
     },
     {
@@ -500,7 +500,7 @@
       "parts": [
         "room6_garden_windows_B"
       ],
-      "price": 505,
+      "price": 760,
       "priceType": "coins"
     },
     {
@@ -508,7 +508,7 @@
       "parts": [
         "room6_garden_windows_C"
       ],
-      "price": 645,
+      "price": 950,
       "priceType": "coins"
     },
     {
@@ -516,7 +516,7 @@
       "parts": [
         "room6_branch_constellation_map_A"
       ],
-      "price": 10,
+      "price": 40,
       "priceType": "diamonds"
     },
     {
@@ -524,7 +524,7 @@
       "parts": [
         "room6_branch_constellation_map_B"
       ],
-      "price": 515,
+      "price": 770,
       "priceType": "coins"
     },
     {
@@ -532,7 +532,7 @@
       "parts": [
         "room6_branch_constellation_map_C"
       ],
-      "price": 660,
+      "price": 960,
       "priceType": "coins"
     },
     {
@@ -540,7 +540,7 @@
       "parts": [
         "room6_bridge_door_A"
       ],
-      "price": 465,
+      "price": 770,
       "priceType": "coins"
     },
     {
@@ -548,7 +548,7 @@
       "parts": [
         "room6_bridge_door_B"
       ],
-      "price": 595,
+      "price": 960,
       "priceType": "coins"
     },
     {
@@ -556,7 +556,7 @@
       "parts": [
         "room6_bridge_door_C"
       ],
-      "price": 5,
+      "price": 35,
       "priceType": "diamonds"
     },
     {
@@ -564,7 +564,7 @@
       "parts": [
         "room6_ladder_A"
       ],
-      "price": 740,
+      "price": 960,
       "priceType": "coins"
     },
     {
@@ -572,7 +572,7 @@
       "parts": [
         "room6_ladder_B"
       ],
-      "price": 10,
+      "price": 45,
       "priceType": "diamonds"
     },
     {
@@ -580,7 +580,7 @@
       "parts": [
         "room6_ladder_C"
       ],
-      "price": 580,
+      "price": 770,
       "priceType": "coins"
     },
     {
@@ -588,7 +588,7 @@
       "parts": [
         "room6_pendant_light_A"
       ],
-      "price": 755,
+      "price": 960,
       "priceType": "coins"
     },
     {
@@ -596,7 +596,7 @@
       "parts": [
         "room6_pendant_light_B"
       ],
-      "price": 10,
+      "price": 50,
       "priceType": "diamonds"
     },
     {
@@ -604,7 +604,7 @@
       "parts": [
         "room6_pendant_light_C"
       ],
-      "price": 590,
+      "price": 770,
       "priceType": "coins"
     },
     {
@@ -612,7 +612,7 @@
       "parts": [
         "room6_bird_feeder_A"
       ],
-      "price": 10,
+      "price": 50,
       "priceType": "diamonds"
     },
     {
@@ -620,7 +620,7 @@
       "parts": [
         "room6_bird_feeder_B"
       ],
-      "price": 535,
+      "price": 770,
       "priceType": "coins"
     },
     {
@@ -628,7 +628,7 @@
       "parts": [
         "room6_bird_feeder_C"
       ],
-      "price": 685,
+      "price": 960,
       "priceType": "coins"
     },
     {
@@ -636,7 +636,7 @@
       "parts": [
         "room6_work_desk_A"
       ],
-      "price": 10,
+      "price": 85,
       "priceType": "diamonds"
     },
     {
@@ -644,7 +644,7 @@
       "parts": [
         "room6_work_desk_B"
       ],
-      "price": 545,
+      "price": 1080,
       "priceType": "coins"
     },
     {
@@ -652,7 +652,7 @@
       "parts": [
         "room6_work_desk_C"
       ],
-      "price": 700,
+      "price": 1350,
       "priceType": "coins"
     },
     {
@@ -660,7 +660,7 @@
       "parts": [
         "room6_key_box_A"
       ],
-      "price": 10,
+      "price": 60,
       "priceType": "diamonds"
     },
     {
@@ -668,7 +668,7 @@
       "parts": [
         "room6_key_box_B"
       ],
-      "price": 545,
+      "price": 770,
       "priceType": "coins"
     },
     {
@@ -676,7 +676,7 @@
       "parts": [
         "room6_key_box_C"
       ],
-      "price": 700,
+      "price": 960,
       "priceType": "coins"
     },
     {
@@ -684,7 +684,7 @@
       "parts": [
         "room6_rug_A"
       ],
-      "price": 10,
+      "price": 25,
       "priceType": "diamonds"
     },
     {
@@ -692,7 +692,7 @@
       "parts": [
         "room6_rug_B"
       ],
-      "price": 540,
+      "price": 620,
       "priceType": "coins"
     },
     {
@@ -700,7 +700,7 @@
       "parts": [
         "room6_rug_C"
       ],
-      "price": 690,
+      "price": 780,
       "priceType": "coins"
     },
     {
@@ -708,7 +708,7 @@
       "parts": [
         "room6_secret_floor_hatch_A"
       ],
-      "price": 10,
+      "price": 80,
       "priceType": "diamonds"
     },
     {
@@ -716,7 +716,7 @@
       "parts": [
         "room6_secret_floor_hatch_B"
       ],
-      "price": 545,
+      "price": 1080,
       "priceType": "coins"
     },
     {
@@ -724,7 +724,7 @@
       "parts": [
         "room6_secret_floor_hatch_C"
       ],
-      "price": 700,
+      "price": 1350,
       "priceType": "coins"
     },
     {
@@ -732,7 +732,7 @@
       "parts": [
         "room6_built_in_bench_A"
       ],
-      "price": 545,
+      "price": 770,
       "priceType": "coins"
     },
     {
@@ -740,7 +740,7 @@
       "parts": [
         "room6_built_in_bench_B"
       ],
-      "price": 10,
+      "price": 55,
       "priceType": "diamonds"
     },
     {
@@ -748,7 +748,7 @@
       "parts": [
         "room6_built_in_bench_C"
       ],
-      "price": 700,
+      "price": 960,
       "priceType": "coins"
     },
     {
@@ -756,7 +756,7 @@
       "parts": [
         "room6_hanging_chair_A"
       ],
-      "price": 545,
+      "price": 770,
       "priceType": "coins"
     },
     {
@@ -764,7 +764,7 @@
       "parts": [
         "room6_hanging_chair_B"
       ],
-      "price": 700,
+      "price": 960,
       "priceType": "coins"
     },
     {
@@ -772,7 +772,7 @@
       "parts": [
         "room6_hanging_chair_C"
       ],
-      "price": 10,
+      "price": 60,
       "priceType": "diamonds"
     },
     {
@@ -780,7 +780,7 @@
       "parts": [
         "room6_telescope_A"
       ],
-      "price": 545,
+      "price": 770,
       "priceType": "coins"
     },
     {
@@ -788,7 +788,7 @@
       "parts": [
         "room6_telescope_B"
       ],
-      "price": 700,
+      "price": 960,
       "priceType": "coins"
     },
     {
@@ -796,7 +796,7 @@
       "parts": [
         "room6_telescope_C"
       ],
-      "price": 10,
+      "price": 65,
       "priceType": "diamonds"
     },
     {
@@ -805,7 +805,7 @@
         "room6_plant_group_A_1",
         "room6_plant_group_A_2"
       ],
-      "price": 10,
+      "price": 30,
       "priceType": "diamonds"
     },
     {
@@ -814,7 +814,7 @@
         "room6_plant_group_B_1",
         "room6_plant_group_B_2"
       ],
-      "price": 545,
+      "price": 620,
       "priceType": "coins"
     },
     {
@@ -823,7 +823,7 @@
         "room6_plant_group_C_1",
         "room6_plant_group_C_2"
       ],
-      "price": 700,
+      "price": 780,
       "priceType": "coins"
     },
     {
@@ -832,7 +832,7 @@
         "room6_garden_lanterns_A_1",
         "room6_garden_lanterns_A_2"
       ],
-      "price": 545,
+      "price": 770,
       "priceType": "coins"
     },
     {
@@ -841,7 +841,7 @@
         "room6_garden_lanterns_B_1",
         "room6_garden_lanterns_B_2"
       ],
-      "price": 700,
+      "price": 960,
       "priceType": "coins"
     },
     {
@@ -850,7 +850,7 @@
         "room6_garden_lanterns_C_1",
         "room6_garden_lanterns_C_2"
       ],
-      "price": 10,
+      "price": 70,
       "priceType": "diamonds"
     },
     {
@@ -858,7 +858,7 @@
       "parts": [
         "room6_old_walls"
       ],
-      "price": 200,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -866,7 +866,7 @@
       "parts": [
         "room6_old_door"
       ],
-      "price": 245,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -874,7 +874,7 @@
       "parts": [
         "room6_old_garden_windows"
       ],
-      "price": 90,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -883,7 +883,7 @@
         "room6_old_garden_lanterns_1",
         "room6_old_garden_lanterns_2"
       ],
-      "price": 205,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -891,7 +891,7 @@
       "parts": [
         "room6_old_key_box"
       ],
-      "price": 230,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -899,7 +899,7 @@
       "parts": [
         "room6_old_secret_floor_hatch"
       ],
-      "price": 260,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -907,7 +907,7 @@
       "parts": [
         "room6_old_rug"
       ],
-      "price": 235,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -915,7 +915,7 @@
       "parts": [
         "room6_old_work_desk"
       ],
-      "price": 90,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -923,7 +923,7 @@
       "parts": [
         "room6_old_bird_feeder"
       ],
-      "price": 215,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -931,7 +931,7 @@
       "parts": [
         "room6_old_bookshelf"
       ],
-      "price": 220,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -939,7 +939,7 @@
       "parts": [
         "room6_old_bench"
       ],
-      "price": 220,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -947,7 +947,7 @@
       "parts": [
         "room6_old_telescope"
       ],
-      "price": 220,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -955,7 +955,7 @@
       "parts": [
         "room6_old_hanging_chair"
       ],
-      "price": 220,
+      "price": 300,
       "priceType": "coins"
     },
     {
@@ -963,7 +963,7 @@
       "parts": [
         "room6_old_plant_group"
       ],
-      "price": 220,
+      "price": 300,
       "priceType": "coins"
     }
   ],

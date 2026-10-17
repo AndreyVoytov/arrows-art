@@ -465,7 +465,7 @@
       "type": "dialog",
       "dialogId": "room8_d2",
       "multiobject": "",
-      "price": 245,
+      "price": 400,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -476,7 +476,7 @@
       "type": "dialog",
       "dialogId": "room8_d3",
       "multiobject": "",
-      "price": 90,
+      "price": 400,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -967,7 +967,7 @@
       "parts": [
         "room8_old_walls2"
       ],
-      "price": 220,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -975,7 +975,7 @@
       "parts": [
         "room8_old_walls1"
       ],
-      "price": 220,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -983,7 +983,7 @@
       "parts": [
         "room8_old_floor"
       ],
-      "price": 260,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -991,7 +991,7 @@
       "parts": [
         "room8_old_curtains"
       ],
-      "price": 240,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -999,7 +999,7 @@
       "parts": [
         "room8_old_rug"
       ],
-      "price": 235,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -1007,7 +1007,7 @@
       "parts": [
         "room8_old_built_in_wardrobe"
       ],
-      "price": 220,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -1015,7 +1015,7 @@
       "parts": [
         "room8_old_nightstand_left"
       ],
-      "price": 545,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -1023,7 +1023,7 @@
       "parts": [
         "room8_old_bedside_lamp_left"
       ],
-      "price": 545,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -1031,7 +1031,7 @@
       "parts": [
         "room8_old_coded_jewelry_box"
       ],
-      "price": 230,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -1039,7 +1039,7 @@
       "parts": [
         "room8_old_large_plant"
       ],
-      "price": 230,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -1047,7 +1047,7 @@
       "parts": [
         "room8_old_double_bed"
       ],
-      "price": 215,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -1055,7 +1055,7 @@
       "parts": [
         "room8_old_wall_art_installation"
       ],
-      "price": 205,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -1064,7 +1064,7 @@
         "room8_old_nighstand_right_1",
         "room8_old_nighstand_right_2"
       ],
-      "price": 220,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -1072,7 +1072,7 @@
       "parts": [
         "room8_old_bedside_lamp_right"
       ],
-      "price": 200,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -1080,7 +1080,7 @@
       "parts": [
         "room8_old_bed_bench"
       ],
-      "price": 90,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -1088,7 +1088,7 @@
       "parts": [
         "room8_old_vanity_chair"
       ],
-      "price": 545,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -1096,7 +1096,7 @@
       "parts": [
         "room8_old_vanity_table"
       ],
-      "price": 540,
+      "price": 400,
       "priceType": "coins"
     },
     {
@@ -1104,7 +1104,7 @@
       "parts": [
         "room8_old_mirror"
       ],
-      "price": 535,
+      "price": 400,
       "priceType": "coins"
     }
   ],
