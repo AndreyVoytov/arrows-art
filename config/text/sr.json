@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Очишћена слика са Аном и оцем/Нова слика",
   "room2_floor_loc": "Нови под",
   "room2_lamp right_loc": "Нова лампа",
-  "room2_lamp_right_loc": "Десна лампа",
   "room2_nightstand_left_loc": "Кабинет на левој страни",
   "room2_old_poster_loc": "Избледели постер музичког бенда на зиду",
   "room2_pay_dialogue1_loc": "Плаћени дијалог 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "ограда на десној страни",
   "room7_set": "Пакет за трем",
   "room7_side_table_loc": "бочни сто",
-  "room7_stairs_loc": "степениште",
   "room7_wall_lantern_loc": "зидни фењер",
   "room7_walls_loc": "зидовима",
   "room7_watering_can_loc": "канта за заливање",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Шерлок заспи ако изгубиш ниво",
   "ui_yes": "ДА",
   "victor": "Виктор",
-  "wand": "Магични штапић"
+  "wand": "Магични штапић",
+  "room2_lamp_right_loc": "Десна лампа",
+  "ui_need_complete": "Завршите"
 }

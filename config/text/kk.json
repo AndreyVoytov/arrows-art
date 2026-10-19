@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Анна мен әкесімен тазаланған кескіндеме/Жаңа сурет",
   "room2_floor_loc": "Жаңа еден",
   "room2_lamp right_loc": "Жаңа шам",
-  "room2_lamp_right_loc": "Оң жақ шам",
   "room2_nightstand_left_loc": "Кабинет сол жақта",
   "room2_old_poster_loc": "Қабырғадағы өшіп қалған музыкалық топтың постері",
   "room2_pay_dialogue1_loc": "Ақылы диалог 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "оң жақтағы қоршау",
   "room7_set": "Кіреберіс жиынтығы",
   "room7_side_table_loc": "бүйірлік үстел",
-  "room7_stairs_loc": "баспалдақ",
   "room7_wall_lantern_loc": "қабырға шамы",
   "room7_walls_loc": "қабырғалар",
   "room7_watering_can_loc": "суару ыдысы",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Деңгейде жеңілсең, Шерлок ұйықтап қалады",
   "ui_yes": "ИӘ",
   "victor": "Виктор",
-  "wand": "Сиқырлы таяқша"
+  "wand": "Сиқырлы таяқша",
+  "room2_lamp_right_loc": "Оң жақ шам",
+  "ui_need_complete": "Аяқтаңыз"
 }

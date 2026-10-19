@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "ทำความสะอาดภาพวาดกับแอนนาและพ่อ/ทาสีใหม่",
   "room2_floor_loc": "พื้นใหม่",
   "room2_lamp right_loc": "โคมไฟใหม่",
-  "room2_lamp_right_loc": "โคมไฟด้านขวา",
   "room2_nightstand_left_loc": "ตู้ด้านซ้าย",
   "room2_old_poster_loc": "โปสเตอร์วงดนตรีจางๆ บนผนัง",
   "room2_pay_dialogue1_loc": "บทสนทนาที่ต้องชำระเงิน 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "ราวบันไดด้านขวา",
   "room7_set": "แพ็กระเบียง",
   "room7_side_table_loc": "โต๊ะข้าง",
-  "room7_stairs_loc": "บันได",
   "room7_wall_lantern_loc": "โคมไฟติดผนัง",
   "room7_walls_loc": "ผนัง",
   "room7_watering_can_loc": "บัวรดน้ำ",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "เชอร์ล็อกจะหลับเมื่อคุณแพ้ด่าน",
   "ui_yes": "ใช่",
   "victor": "วิคเตอร์",
-  "wand": "ไม้กายสิทธิ์"
+  "wand": "ไม้กายสิทธิ์",
+  "room2_lamp_right_loc": "โคมไฟด้านขวา",
+  "ui_need_complete": "ทำให้สำเร็จ"
 }

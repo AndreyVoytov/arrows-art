@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Մաքրված նկար Աննայի և հոր հետ/Նոր նկար",
   "room2_floor_loc": "Նոր հատակ",
   "room2_lamp right_loc": "Նոր լամպ",
-  "room2_lamp_right_loc": "Ճիշտ լամպ",
   "room2_nightstand_left_loc": "Կաբինետ ձախ կողմում",
   "room2_old_poster_loc": "Երաժշտական խմբի խունացած պաստառ պատին",
   "room2_pay_dialogue1_loc": "Վճարովի երկխոսություն 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "աջ կողմում բազրիք",
   "room7_set": "Պատշգամբի հավաքածու",
   "room7_side_table_loc": "կողային սեղան",
-  "room7_stairs_loc": "սանդուղք",
   "room7_wall_lantern_loc": "պատի լապտեր",
   "room7_walls_loc": "պատերը",
   "room7_watering_can_loc": "ջրաղաց",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Եթե պարտվես փուլում, Շերլոկը կքնի",
   "ui_yes": "ԱՅՈ",
   "victor": "Վիկտոր",
-  "wand": "Կախարդական փայտիկ"
+  "wand": "Կախարդական փայտիկ",
+  "room2_lamp_right_loc": "Ճիշտ լամպ",
+  "ui_need_complete": "Ավարտեք"
 }

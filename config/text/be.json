@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Вычышчаная карціна з Ганнай і бацькам/Новая карціна",
   "room2_floor_loc": "Новая падлога",
   "room2_lamp right_loc": "Новая лямпа",
-  "room2_lamp_right_loc": "Правая лямпа",
   "room2_nightstand_left_loc": "Тумба злева",
   "room2_old_poster_loc": "Выцвілы постэр музычнага гурта на сцяне",
   "room2_pay_dialogue1_loc": "Платны дыялог 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "парэнча справа",
   "room7_set": "Набор для ганка",
   "room7_side_table_loc": "прыстаўны столік",
-  "room7_stairs_loc": "лесвіца",
   "room7_wall_lantern_loc": "насценны ліхтар",
   "room7_walls_loc": "сцены",
   "room7_watering_can_loc": "палівачка",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Шэрлак засынае, калі ты прайграеш",
   "ui_yes": "ТАК",
   "victor": "Віктар",
-  "wand": "Чароўная палачка"
+  "wand": "Чароўная палачка",
+  "room2_lamp_right_loc": "Правая лямпа",
+  "ui_need_complete": "Завяршыце"
 }

@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Lukisan yang dibersihkan bersama Anna dan ayah/Lukisan baru",
   "room2_floor_loc": "Lantai baru",
   "room2_lamp right_loc": "Lampu baru",
-  "room2_lamp_right_loc": "Lampu kanan",
   "room2_nightstand_left_loc": "Kabinet di sebelah kiri",
   "room2_old_poster_loc": "Poster band musik pudar di dinding",
   "room2_pay_dialogue1_loc": "Dialog berbayar 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "pagar di sebelah kanan",
   "room7_set": "Paket Teras",
   "room7_side_table_loc": "meja samping",
-  "room7_stairs_loc": "tangga",
   "room7_wall_lantern_loc": "lentera dinding",
   "room7_walls_loc": "dinding",
   "room7_watering_can_loc": "kaleng penyiram",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Sherlock tertidur jika kamu kalah di suatu level",
   "ui_yes": "YA",
   "victor": "Pemenang",
-  "wand": "Tongkat ajaib"
+  "wand": "Tongkat ajaib",
+  "room2_lamp_right_loc": "Lampu kanan",
+  "ui_need_complete": "Selesaikan"
 }

@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Wyczyszczony obraz z Anną i ojcem/Nowy obraz",
   "room2_floor_loc": "Nowa podłoga",
   "room2_lamp right_loc": "Nowa lampa",
-  "room2_lamp_right_loc": "Prawa lampa",
   "room2_nightstand_left_loc": "Szafka po lewej stronie",
   "room2_old_poster_loc": "Wyblakły plakat zespołu muzycznego na ścianie",
   "room2_pay_dialogue1_loc": "Płatny dialog 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "poręcz po prawej stronie",
   "room7_set": "Pakiet ganku",
   "room7_side_table_loc": "stolik boczny",
-  "room7_stairs_loc": "schody",
   "room7_wall_lantern_loc": "latarnia ścienna",
   "room7_walls_loc": "ściany",
   "room7_watering_can_loc": "konewka",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Sherlock zasypia, jeśli przegrasz poziom",
   "ui_yes": "TAK",
   "victor": "Wiktor",
-  "wand": "Magiczna różdżka"
+  "wand": "Magiczna różdżka",
+  "room2_lamp_right_loc": "Prawa lampa",
+  "ui_need_complete": "Ukończ"
 }

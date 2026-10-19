@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Pintura netejada amb Anna i pare/Pintura nova",
   "room2_floor_loc": "Terra nou",
   "room2_lamp right_loc": "Làmpada nova",
-  "room2_lamp_right_loc": "Làmpada dreta",
   "room2_nightstand_left_loc": "Gabinet a l'esquerra",
   "room2_old_poster_loc": "Cartell de la banda de música esvaït a la paret",
   "room2_pay_dialogue1_loc": "Diàleg de pagament 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "barana a la dreta",
   "room7_set": "Pack del porxo",
   "room7_side_table_loc": "taula auxiliar",
-  "room7_stairs_loc": "escala",
   "room7_wall_lantern_loc": "fanal de paret",
   "room7_walls_loc": "parets",
   "room7_watering_can_loc": "regadora",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "En Sherlock s’adorm si perds el nivell",
   "ui_yes": "SÍ",
   "victor": "Víctor",
-  "wand": "Vareta màgica"
+  "wand": "Vareta màgica",
+  "room2_lamp_right_loc": "Làmpada dreta",
+  "ui_need_complete": "Completa"
 }

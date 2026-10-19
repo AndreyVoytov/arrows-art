@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "与安娜和父亲一起清理绘画/新绘画",
   "room2_floor_loc": "新地板",
   "room2_lamp right_loc": "新灯",
-  "room2_lamp_right_loc": "右灯",
   "room2_nightstand_left_loc": "左边的柜子",
   "room2_old_poster_loc": "墙上褪色的乐队海报",
   "room2_pay_dialogue1_loc": "付费对话1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "栏杆在右边",
   "room7_set": "门廊礼包",
   "room7_side_table_loc": "边桌",
-  "room7_stairs_loc": "楼梯",
   "room7_wall_lantern_loc": "壁灯",
   "room7_walls_loc": "墙壁",
   "room7_watering_can_loc": "喷壶",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "如果你闯关失败，夏洛克就会睡着",
   "ui_yes": "是的",
   "victor": "维克多",
-  "wand": "魔法棒"
+  "wand": "魔法棒",
+  "room2_lamp_right_loc": "右灯",
+  "ui_need_complete": "完成"
 }

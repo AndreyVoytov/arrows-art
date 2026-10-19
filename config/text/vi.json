@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Bức tranh được làm sạch với Anna và cha/Bức tranh mới",
   "room2_floor_loc": "Sàn mới",
   "room2_lamp right_loc": "Đèn mới",
-  "room2_lamp_right_loc": "Đèn bên phải",
   "room2_nightstand_left_loc": "Tủ bên trái",
   "room2_old_poster_loc": "Áp phích ban nhạc mờ trên tường",
   "room2_pay_dialogue1_loc": "Đối thoại trả phí 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "lan can bên phải",
   "room7_set": "Gói Hiên Nhà",
   "room7_side_table_loc": "bàn phụ",
-  "room7_stairs_loc": "cầu thang",
   "room7_wall_lantern_loc": "đèn lồng tường",
   "room7_walls_loc": "bức tường",
   "room7_watering_can_loc": "bình tưới nước",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Sherlock sẽ ngủ nếu bạn thua màn chơi",
   "ui_yes": "CÓ",
   "victor": "Chiến thắng",
-  "wand": "Cây đũa thần"
+  "wand": "Cây đũa thần",
+  "room2_lamp_right_loc": "Đèn bên phải",
+  "ui_need_complete": "Hoàn thành"
 }

@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "アンナと父親のきれいな絵/新しい絵",
   "room2_floor_loc": "新しい床",
   "room2_lamp right_loc": "新しいランプ",
-  "room2_lamp_right_loc": "右ランプ",
   "room2_nightstand_left_loc": "左側のキャビネット",
   "room2_old_poster_loc": "壁に貼られた色あせた音楽バンドのポスター",
   "room2_pay_dialogue1_loc": "有料対談1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "右側の手すり",
   "room7_set": "ポーチパック",
   "room7_side_table_loc": "サイドテーブル",
-  "room7_stairs_loc": "階段",
   "room7_wall_lantern_loc": "ウォールランタン",
   "room7_walls_loc": "壁",
   "room7_watering_can_loc": "じょうろ",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "ステージに負けるとシャーロックは眠ってしまいます",
   "ui_yes": "はい",
   "victor": "ビクター",
-  "wand": "魔法の杖"
+  "wand": "魔法の杖",
+  "room2_lamp_right_loc": "右ランプ",
+  "ui_need_complete": "完了してください"
 }

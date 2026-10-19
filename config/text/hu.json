@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Megtisztított festmény Annával és apával/Új festmény",
   "room2_floor_loc": "Új padló",
   "room2_lamp right_loc": "Új lámpa",
-  "room2_lamp_right_loc": "Jobb lámpa",
   "room2_nightstand_left_loc": "Szekrény a bal oldalon",
   "room2_old_poster_loc": "Kifakult zenekari plakát a falon",
   "room2_pay_dialogue1_loc": "Fizetett párbeszéd 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "korlát a jobb oldalon",
   "room7_set": "Verandacsomag",
   "room7_side_table_loc": "mellékasztal",
-  "room7_stairs_loc": "lépcsőház",
   "room7_wall_lantern_loc": "fali lámpás",
   "room7_walls_loc": "falak",
   "room7_watering_can_loc": "öntözőkanna",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Sherlock elalszik, ha elveszítesz egy pályát",
   "ui_yes": "IGEN",
   "victor": "Victor",
-  "wand": "Varázspálca"
+  "wand": "Varázspálca",
+  "room2_lamp_right_loc": "Jobb lámpa",
+  "ui_need_complete": "Fejezd be"
 }

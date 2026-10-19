@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Anna və ata ilə təmizlənmiş rəsm / Yeni rəsm",
   "room2_floor_loc": "Yeni döşəmə",
   "room2_lamp right_loc": "Yeni lampa",
-  "room2_lamp_right_loc": "Sağ lampa",
   "room2_nightstand_left_loc": "Solda kabinet",
   "room2_old_poster_loc": "Divarda solğun musiqi qrupunun posteri",
   "room2_pay_dialogue1_loc": "Ödənişli dialoq 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "sağda məhəccər",
   "room7_set": "Eyvan dəsti",
   "room7_side_table_loc": "yan masa",
-  "room7_stairs_loc": "pilləkən",
   "room7_wall_lantern_loc": "divar fənəri",
   "room7_walls_loc": "divarlar",
   "room7_watering_can_loc": "suvarma qabı",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Səviyyəni uduzsan, Şerlok yuxuya gedər",
   "ui_yes": "BƏLİ",
   "victor": "Viktor",
-  "wand": "Sehrli çubuq"
+  "wand": "Sehrli çubuq",
+  "room2_lamp_right_loc": "Sağ lampa",
+  "ui_need_complete": "Tamamlayın"
 }

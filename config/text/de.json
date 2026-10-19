@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Gereinigtes Gemälde mit Anna und Vater/Neues Gemälde",
   "room2_floor_loc": "Neuer Boden",
   "room2_lamp right_loc": "Neue Lampe",
-  "room2_lamp_right_loc": "Rechte Lampe",
   "room2_nightstand_left_loc": "Kabinett links",
   "room2_old_poster_loc": "Verblasstes Musikbandplakat an der Wand",
   "room2_pay_dialogue1_loc": "Bezahlter Dialog 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "Geländer rechts",
   "room7_set": "Veranda-Paket",
   "room7_side_table_loc": "Beistelltisch",
-  "room7_stairs_loc": "Treppe",
   "room7_wall_lantern_loc": "Wandlaterne",
   "room7_walls_loc": "Wände",
   "room7_watering_can_loc": "Gießkanne",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Sherlock schläft ein, wenn du ein Level verlierst",
   "ui_yes": "JA",
   "victor": "Viktor",
-  "wand": "Zauberstab"
+  "wand": "Zauberstab",
+  "room2_lamp_right_loc": "Rechte Lampe",
+  "ui_need_complete": "Abschließen"
 }

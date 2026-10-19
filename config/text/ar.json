@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "لوحة نظيفة مع آنا والأب/لوحة جديدة",
   "room2_floor_loc": "أرضية جديدة",
   "room2_lamp right_loc": "مصباح جديد",
-  "room2_lamp_right_loc": "المصباح الصحيح",
   "room2_nightstand_left_loc": "مجلس الوزراء على اليسار",
   "room2_old_poster_loc": "ملصق فرقة موسيقية باهت على الحائط",
   "room2_pay_dialogue1_loc": "الحوار المدفوع 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "حديدي على اليمين",
   "room7_set": "حزمة الشرفة",
   "room7_side_table_loc": "طاولة جانبية",
-  "room7_stairs_loc": "الدرج",
   "room7_wall_lantern_loc": "فانوس الحائط",
   "room7_walls_loc": "الجدران",
   "room7_watering_can_loc": "علبة سقي",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "ينام شيرلوك إذا خسرت المرحلة",
   "ui_yes": "نعم",
   "victor": "فيكتور",
-  "wand": "العصا السحرية"
+  "wand": "العصا السحرية",
+  "room2_lamp_right_loc": "المصباح الصحيح",
+  "ui_need_complete": "أكمل"
 }

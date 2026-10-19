@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Вичищена картина з Анною та батьком/Нова картина",
   "room2_floor_loc": "Нова підлога",
   "room2_lamp right_loc": "Нова лампа",
-  "room2_lamp_right_loc": "Права лампа",
   "room2_nightstand_left_loc": "Шафа зліва",
   "room2_old_poster_loc": "Вицвілий плакат музичної групи на стіні",
   "room2_pay_dialogue1_loc": "Платний діалог 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "поруччя праворуч",
   "room7_set": "Набір для ґанку",
   "room7_side_table_loc": "приставний столик",
-  "room7_stairs_loc": "сходи",
   "room7_wall_lantern_loc": "настінний ліхтар",
   "room7_walls_loc": "стіни",
   "room7_watering_can_loc": "лійка",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Шерлок засинає, якщо ти програєш рівень",
   "ui_yes": "ТАК",
   "victor": "Віктор",
-  "wand": "Чарівна паличка"
+  "wand": "Чарівна паличка",
+  "room2_lamp_right_loc": "Права лампа",
+  "ui_need_complete": "Завершіть"
 }

@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Anna ve babasıyla temizlenmiş tablo/Yeni tablo",
   "room2_floor_loc": "Yeni zemin",
   "room2_lamp right_loc": "Yeni lamba",
-  "room2_lamp_right_loc": "Sağ lamba",
   "room2_nightstand_left_loc": "Soldaki dolap",
   "room2_old_poster_loc": "Duvardaki soluk müzik grubu posteri",
   "room2_pay_dialogue1_loc": "Ücretli diyalog 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "sağdaki korkuluk",
   "room7_set": "Veranda Paketi",
   "room7_side_table_loc": "yan masa",
-  "room7_stairs_loc": "merdiven",
   "room7_wall_lantern_loc": "duvar feneri",
   "room7_walls_loc": "duvarlar",
   "room7_watering_can_loc": "sulama kabı",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Bir bölümü kaybedersen Sherlock uykuya dalar",
   "ui_yes": "EVET",
   "victor": "Galip",
-  "wand": "Sihirli değnek"
+  "wand": "Sihirli değnek",
+  "room2_lamp_right_loc": "Sağ lamba",
+  "ui_need_complete": "Tamamlayın"
 }

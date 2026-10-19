@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Vyčištěný obraz s Annou a otcem/Nový obraz",
   "room2_floor_loc": "Nová podlaha",
   "room2_lamp right_loc": "Nová lampa",
-  "room2_lamp_right_loc": "Pravá lampa",
   "room2_nightstand_left_loc": "Skříň vlevo",
   "room2_old_poster_loc": "Vybledlý plakát hudební skupiny na zdi",
   "room2_pay_dialogue1_loc": "Placený dialog 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "zábradlí vpravo",
   "room7_set": "Balíček pro verandu",
   "room7_side_table_loc": "odkládací stolek",
-  "room7_stairs_loc": "schodiště",
   "room7_wall_lantern_loc": "nástěnná lucerna",
   "room7_walls_loc": "stěny",
   "room7_watering_can_loc": "konev",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Sherlock usne, když úroveň prohraješ",
   "ui_yes": "ANO",
   "victor": "Victor",
-  "wand": "Kouzelná hůlka"
+  "wand": "Kouzelná hůlka",
+  "room2_lamp_right_loc": "Pravá lampa",
+  "ui_need_complete": "Dokončete"
 }

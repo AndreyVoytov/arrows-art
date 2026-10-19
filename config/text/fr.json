@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Tableau nettoyé avec Anna et son père/Nouveau tableau",
   "room2_floor_loc": "Nouveau sol",
   "room2_lamp right_loc": "Nouvelle lampe",
-  "room2_lamp_right_loc": "Lampe droite",
   "room2_nightstand_left_loc": "Cabinet à gauche",
   "room2_old_poster_loc": "Affiche d'un groupe de musique fanée sur le mur",
   "room2_pay_dialogue1_loc": "Dialogue payant 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "garde-corps à droite",
   "room7_set": "Pack porche",
   "room7_side_table_loc": "table d'appoint",
-  "room7_stairs_loc": "escalier",
   "room7_wall_lantern_loc": "lanterne murale",
   "room7_walls_loc": "murs",
   "room7_watering_can_loc": "arrosoir",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Sherlock s’endort si tu perds un niveau",
   "ui_yes": "OUI",
   "victor": "Victor",
-  "wand": "Baguette magique"
+  "wand": "Baguette magique",
+  "room2_lamp_right_loc": "Lampe droite",
+  "ui_need_complete": "Terminez"
 }

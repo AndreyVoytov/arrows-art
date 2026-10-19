@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Pictură curățată cu Anna și tată/Pictură nouă",
   "room2_floor_loc": "Podea nouă",
   "room2_lamp right_loc": "Lampa noua",
-  "room2_lamp_right_loc": "Lampa dreapta",
   "room2_nightstand_left_loc": "Cabinet în stânga",
   "room2_old_poster_loc": "Afiș de formație muzicală decolorată pe perete",
   "room2_pay_dialogue1_loc": "Dialog plătit 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "balustrada din dreapta",
   "room7_set": "Pachet pentru verandă",
   "room7_side_table_loc": "masuta laterala",
-  "room7_stairs_loc": "scara",
   "room7_wall_lantern_loc": "felinar de perete",
   "room7_walls_loc": "ziduri",
   "room7_watering_can_loc": "adapatoare",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Sherlock adoarme dacă pierzi un nivel",
   "ui_yes": "DA",
   "victor": "Victor",
-  "wand": "Bagheta magică"
+  "wand": "Bagheta magică",
+  "room2_lamp_right_loc": "Lampa dreapta",
+  "ui_need_complete": "Finalizează"
 }

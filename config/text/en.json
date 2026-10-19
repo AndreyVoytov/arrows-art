@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Family picture",
   "room2_floor_loc": "New floor",
   "room2_lamp right_loc": "New lamp",
-  "room2_lamp_right_loc": "Right lamp",
   "room2_nightstand_left_loc": "Left nightstand",
   "room2_old_poster_loc": "Faded music band poster on the wall",
   "room2_pay_dialogue1_loc": "Paid dialogue 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "railing on the right",
   "room7_set": "Porch Pack",
   "room7_side_table_loc": "side table",
-  "room7_stairs_loc": "staircase",
   "room7_wall_lantern_loc": "wall lantern",
   "room7_walls_loc": "walls",
   "room7_watering_can_loc": "watering can",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Sherlock falls asleep if you lose a level",
   "ui_yes": "YES",
   "victor": "Victor",
-  "wand": "Magic wand"
+  "wand": "Magic wand",
+  "room2_lamp_right_loc": "Right lamp",
+  "ui_need_complete": "Complete"
 }

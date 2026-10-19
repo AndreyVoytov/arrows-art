@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "ציור ניקה עם אנה ואבא/ציור חדש",
   "room2_floor_loc": "רצפה חדשה",
   "room2_lamp right_loc": "מנורה חדשה",
-  "room2_lamp_right_loc": "מנורה ימנית",
   "room2_nightstand_left_loc": "ארון משמאל",
   "room2_old_poster_loc": "פוסטר להקת מוזיקה דהויה על הקיר",
   "room2_pay_dialogue1_loc": "דיאלוג בתשלום 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "מעקה בצד ימין",
   "room7_set": "חבילת המרפסת",
   "room7_side_table_loc": "שולחן צד",
-  "room7_stairs_loc": "גרם מדרגות",
   "room7_wall_lantern_loc": "פנס קיר",
   "room7_walls_loc": "קירות",
   "room7_watering_can_loc": "מזלף",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "שרלוק נרדם אם מפסידים בשלב",
   "ui_yes": "כן",
   "victor": "ויקטור",
-  "wand": "שרביט קסמים"
+  "wand": "שרביט קסמים",
+  "room2_lamp_right_loc": "מנורה ימנית",
+  "ui_need_complete": "השלימו"
 }

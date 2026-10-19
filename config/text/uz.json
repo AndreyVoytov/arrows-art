@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Anna va otasi bilan tozalangan rasm / Yangi rasm",
   "room2_floor_loc": "Yangi pol",
   "room2_lamp right_loc": "Yangi chiroq",
-  "room2_lamp_right_loc": "O'ng chiroq",
   "room2_nightstand_left_loc": "Chap tomonda kabinet",
   "room2_old_poster_loc": "Devorda xira musiqa guruhining plakati",
   "room2_pay_dialogue1_loc": "Pulli dialog 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "o'ngdagi panjara",
   "room7_set": "Ayvon to‘plami",
   "room7_side_table_loc": "yon stol",
-  "room7_stairs_loc": "zinapoya",
   "room7_wall_lantern_loc": "devor chirog'i",
   "room7_walls_loc": "devorlar",
   "room7_watering_can_loc": "sug'orish idishi",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Bosqichda yutqazsang, Sherlok uxlab qoladi",
   "ui_yes": "HA",
   "victor": "Viktor",
-  "wand": "Sehrli tayoqcha"
+  "wand": "Sehrli tayoqcha",
+  "room2_lamp_right_loc": "O'ng chiroq",
+  "ui_need_complete": "Yakunlang"
 }

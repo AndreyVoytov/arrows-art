@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Pintura limpa com Anna e pai/Nova pintura",
   "room2_floor_loc": "Chão novo",
   "room2_lamp right_loc": "Nova lâmpada",
-  "room2_lamp_right_loc": "Lâmpada direita",
   "room2_nightstand_left_loc": "Gabinete à esquerda",
   "room2_old_poster_loc": "Pôster de banda de música desbotado na parede",
   "room2_pay_dialogue1_loc": "Diálogo pago 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "corrimão à direita",
   "room7_set": "Pacote da varanda",
   "room7_side_table_loc": "mesa lateral",
-  "room7_stairs_loc": "escada",
   "room7_wall_lantern_loc": "lanterna de parede",
   "room7_walls_loc": "paredes",
   "room7_watering_can_loc": "regador",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Sherlock adormece se você perder um nível",
   "ui_yes": "SIM",
   "victor": "Victor",
-  "wand": "Varinha mágica"
+  "wand": "Varinha mágica",
+  "room2_lamp_right_loc": "Lâmpada direita",
+  "ui_need_complete": "Conclua"
 }

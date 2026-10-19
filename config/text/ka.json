@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "გასუფთავებული ნახატი ანასთან და მამასთან ერთად/ახალი ნახატი",
   "room2_floor_loc": "ახალი იატაკი",
   "room2_lamp right_loc": "ახალი ნათურა",
-  "room2_lamp_right_loc": "მარჯვენა ნათურა",
   "room2_nightstand_left_loc": "კაბინეტი მარცხნივ",
   "room2_old_poster_loc": "გაცვეთილი მუსიკალური ჯგუფის პლაკატი კედელზე",
   "room2_pay_dialogue1_loc": "ფასიანი დიალოგი 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "მოაჯირი მარჯვნივ",
   "room7_set": "ვერანდის ნაკრები",
   "room7_side_table_loc": "გვერდითი მაგიდა",
-  "room7_stairs_loc": "კიბე",
   "room7_wall_lantern_loc": "კედლის ფარანი",
   "room7_walls_loc": "კედლები",
   "room7_watering_can_loc": "სარწყავი ქილა",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "თუ დონეზე დამარცხდები, შერლოკს ჩაეძინება",
   "ui_yes": "დიახ",
   "victor": "ვიქტორ",
-  "wand": "ჯადოსნური ჯოხი"
+  "wand": "ჯადოსნური ჯოხი",
+  "room2_lamp_right_loc": "მარჯვენა ნათურა",
+  "ui_need_complete": "დაასრულეთ"
 }

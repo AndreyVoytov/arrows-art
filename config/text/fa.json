@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "نقاشی تمیز با آنا و پدر/نقاشی جدید",
   "room2_floor_loc": "کف جدید",
   "room2_lamp right_loc": "لامپ جدید",
-  "room2_lamp_right_loc": "لامپ سمت راست",
   "room2_nightstand_left_loc": "کابینت سمت چپ",
   "room2_old_poster_loc": "پوستر محو شده گروه موسیقی روی دیوار",
   "room2_pay_dialogue1_loc": "دیالوگ پولی 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "نرده سمت راست",
   "room7_set": "بسته ایوان",
   "room7_side_table_loc": "میز کناری",
-  "room7_stairs_loc": "راه پله",
   "room7_wall_lantern_loc": "فانوس دیواری",
   "room7_walls_loc": "دیوارها",
   "room7_watering_can_loc": "قوطی آبیاری",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "اگر مرحله را ببازی، شرلوک خوابش می‌برد",
   "ui_yes": "بله",
   "victor": "ویکتور",
-  "wand": "عصای جادویی"
+  "wand": "عصای جادویی",
+  "room2_lamp_right_loc": "لامپ سمت راست",
+  "ui_need_complete": "تکمیل کنید"
 }

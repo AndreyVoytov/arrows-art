@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Anna we kakasy bilen arassalanan surat / Täze surat",
   "room2_floor_loc": "Täze pol",
   "room2_lamp right_loc": "Täze lampa",
-  "room2_lamp_right_loc": "Sag çyra",
   "room2_nightstand_left_loc": "Çep tarapdaky kabinet",
   "room2_old_poster_loc": "Diwardaky öçürilen aýdym-saz toparynyň afişasy",
   "room2_pay_dialogue1_loc": "Tölegli gepleşik 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "sag tarapda demir ýol",
   "room7_set": "Eýwan toplumy",
   "room7_side_table_loc": "gapdal stol",
-  "room7_stairs_loc": "basgançak",
   "room7_wall_lantern_loc": "diwar çyrasy",
   "room7_walls_loc": "diwarlar",
   "room7_watering_can_loc": "suwarmak",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Derejede ýeňilseň, Şerlok uklap galýar",
   "ui_yes": "HAWA",
   "victor": "Wiktor",
-  "wand": "Jadyly taýajyk"
+  "wand": "Jadyly taýajyk",
+  "room2_lamp_right_loc": "Sag çyra",
+  "ui_need_complete": "Tamamlaň"
 }

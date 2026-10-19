@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "안나와 아버지가 함께한 청소된 그림/새 그림",
   "room2_floor_loc": "새 바닥",
   "room2_lamp right_loc": "새 램프",
-  "room2_lamp_right_loc": "오른쪽 램프",
   "room2_nightstand_left_loc": "왼쪽에 캐비닛",
   "room2_old_poster_loc": "벽에 걸린 빛바랜 음악 밴드 포스터",
   "room2_pay_dialogue1_loc": "유료 대화 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "오른쪽 난간",
   "room7_set": "현관 팩",
   "room7_side_table_loc": "사이드 테이블",
-  "room7_stairs_loc": "계단",
   "room7_wall_lantern_loc": "벽 랜턴",
   "room7_walls_loc": "벽",
   "room7_watering_can_loc": "물뿌리개",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "레벨에서 지면 셜록이 잠들어요",
   "ui_yes": "예",
   "victor": "빅터",
-  "wand": "마술 지팡이"
+  "wand": "마술 지팡이",
+  "room2_lamp_right_loc": "오른쪽 램프",
+  "ui_need_complete": "완료하세요"
 }

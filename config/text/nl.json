@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Schilderij schoongemaakt met Anna en vader/Nieuw schilderij",
   "room2_floor_loc": "Nieuwe vloer",
   "room2_lamp right_loc": "Nieuwe lamp",
-  "room2_lamp_right_loc": "Rechts lampje",
   "room2_nightstand_left_loc": "Links kast",
   "room2_old_poster_loc": "Vervaagde muziekbandposter aan de muur",
   "room2_pay_dialogue1_loc": "Betaalde dialoog 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "reling aan de rechterkant",
   "room7_set": "Verandapakket",
   "room7_side_table_loc": "bijzettafel",
-  "room7_stairs_loc": "trap",
   "room7_wall_lantern_loc": "muur lantaarn",
   "room7_walls_loc": "muren",
   "room7_watering_can_loc": "gieter",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Sherlock valt in slaap als je een level verliest",
   "ui_yes": "JA",
   "victor": "Victor",
-  "wand": "Toverstaf"
+  "wand": "Toverstaf",
+  "room2_lamp_right_loc": "Rechts lampje",
+  "ui_need_complete": "Voltooi"
 }

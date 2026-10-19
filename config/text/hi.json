@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "अन्ना और पिता के साथ साफ की गई पेंटिंग/नई पेंटिंग",
   "room2_floor_loc": "नया फ़र्श",
   "room2_lamp right_loc": "नया दीपक",
-  "room2_lamp_right_loc": "दाहिना दीपक",
   "room2_nightstand_left_loc": "बाईं ओर कैबिनेट",
   "room2_old_poster_loc": "दीवार पर संगीत बैंड का फीका पोस्टर",
   "room2_pay_dialogue1_loc": "सशुल्क संवाद 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "दाहिनी ओर रेलिंग",
   "room7_set": "बरामदा पैक",
   "room7_side_table_loc": "साइड टेबल",
-  "room7_stairs_loc": "सीढ़ी",
   "room7_wall_lantern_loc": "दीवार लालटेन",
   "room7_walls_loc": "दीवारें",
   "room7_watering_can_loc": "पानी देने का डिब्बा",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "स्तर हारने पर शर्लक सो जाता है",
   "ui_yes": "हाँ",
   "victor": "विक्टर",
-  "wand": "जादू की छड़ी"
+  "wand": "जादू की छड़ी",
+  "room2_lamp_right_loc": "दाहिना दीपक",
+  "ui_need_complete": "पूरा करें"
 }

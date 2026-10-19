@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Почистена картина с Анна и баща/Нова картина",
   "room2_floor_loc": "Нов под",
   "room2_lamp right_loc": "Нова лампа",
-  "room2_lamp_right_loc": "Дясна лампа",
   "room2_nightstand_left_loc": "Шкаф отляво",
   "room2_old_poster_loc": "Избелял плакат на музикална група на стената",
   "room2_pay_dialogue1_loc": "Платен диалог 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "парапет отдясно",
   "room7_set": "Комплект за верандата",
   "room7_side_table_loc": "странична маса",
-  "room7_stairs_loc": "стълбище",
   "room7_wall_lantern_loc": "стенен фенер",
   "room7_walls_loc": "стени",
   "room7_watering_can_loc": "лейка",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Шерлок заспива, ако загубиш нивото",
   "ui_yes": "ДА",
   "victor": "Виктор",
-  "wand": "Магическа пръчка"
+  "wand": "Магическа пръчка",
+  "room2_lamp_right_loc": "Дясна лампа",
+  "ui_need_complete": "Завършете"
 }

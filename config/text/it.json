@@ -285,7 +285,6 @@
   "room2_family_picture_loc": "Dipinto pulito con Anna e padre/Nuovo dipinto",
   "room2_floor_loc": "Nuovo pavimento",
   "room2_lamp right_loc": "Nuova lampada",
-  "room2_lamp_right_loc": "Lampada giusta",
   "room2_nightstand_left_loc": "Gabinetto a sinistra",
   "room2_old_poster_loc": "Poster sbiadito della banda musicale sul muro",
   "room2_pay_dialogue1_loc": "Dialogo a pagamento 1",
@@ -779,7 +778,6 @@
   "room7_railing_right_loc": "ringhiera a destra",
   "room7_set": "Pacchetto portico",
   "room7_side_table_loc": "tavolino",
-  "room7_stairs_loc": "scala",
   "room7_wall_lantern_loc": "lanterna da muro",
   "room7_walls_loc": "pareti",
   "room7_watering_can_loc": "annaffiatoio",
@@ -1077,5 +1075,7 @@
   "ui_superbooster_desc2": "Sherlock si addormenta se perdi un livello",
   "ui_yes": "SÌ",
   "victor": "Vittorio",
-  "wand": "Bacchetta magica"
+  "wand": "Bacchetta magica",
+  "room2_lamp_right_loc": "Lampada giusta",
+  "ui_need_complete": "Completa"
 }
