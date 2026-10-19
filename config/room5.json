@@ -835,6 +835,22 @@
       "angle": null
     },
     {
+      "key": "room5_walls_B_1",
+      "type": "decor",
+      "atlas_name": "rooms_room5-surfaces",
+      "x": 360,
+      "y": 316.5,
+      "angle": null
+    },
+    {
+      "key": "room5_walls_A_1",
+      "type": "decor",
+      "atlas_name": "rooms_room5-surfaces",
+      "x": 360,
+      "y": 317.5,
+      "angle": null
+    },
+    {
       "key": "room5_floor_C",
       "type": "decor",
       "atlas_name": "rooms_room5-surfaces",
@@ -843,11 +859,43 @@
       "angle": null
     },
     {
+      "key": "room5_floor_B",
+      "type": "decor",
+      "atlas_name": "rooms_room5-surfaces",
+      "x": 360,
+      "y": 681,
+      "angle": null
+    },
+    {
+      "key": "room5_floor_A",
+      "type": "decor",
+      "atlas_name": "rooms_room5-surfaces",
+      "x": 360,
+      "y": 681,
+      "angle": null
+    },
+    {
+      "key": "room5_rug_B",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 375,
+      "y": 705,
+      "angle": 180
+    },
+    {
       "key": "room5_wall_picture_C_2",
       "type": "decor",
       "atlas_name": "rooms_room5-surfaces",
       "x": 84,
       "y": 338.5,
+      "angle": 315
+    },
+    {
+      "key": "room5_wall_picture_B_2",
+      "type": "decor",
+      "atlas_name": "rooms_room5-surfaces",
+      "x": 87.5,
+      "y": 337,
       "angle": 315
     },
     {
@@ -859,11 +907,35 @@
       "angle": 315
     },
     {
+      "key": "room5_wall_picture_B_1",
+      "type": "decor",
+      "atlas_name": "rooms_room5-surfaces",
+      "x": 208.5,
+      "y": 291,
+      "angle": 315
+    },
+    {
       "key": "room5_attic_window_C",
       "type": "decor",
       "atlas_name": "rooms_room5-decor",
       "x": 547,
       "y": 239,
+      "angle": 45
+    },
+    {
+      "key": "room5_attic_window_B",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 546,
+      "y": 239.5,
+      "angle": 45
+    },
+    {
+      "key": "room5_attic_window_A",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 546.5,
+      "y": 235.5,
       "angle": 45
     },
     {
@@ -875,11 +947,43 @@
       "angle": 45
     },
     {
+      "key": "room5_bookcase_B",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 364.5,
+      "y": 386.5,
+      "angle": 45
+    },
+    {
+      "key": "room5_bookcase_A",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 365.5,
+      "y": 383.5,
+      "angle": 45
+    },
+    {
       "key": "room5_plant_C",
       "type": "decor",
       "atlas_name": "rooms_room5-decor",
       "x": 346,
       "y": 285,
+      "angle": 180
+    },
+    {
+      "key": "room5_plant_B",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 342,
+      "y": 292,
+      "angle": 180
+    },
+    {
+      "key": "room5_plant_A",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 345.5,
+      "y": 296.5,
       "angle": 180
     },
     {
@@ -899,134 +1003,6 @@
       "angle": 315
     },
     {
-      "key": "room5_desk_C",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 504,
-      "y": 508,
-      "angle": 180
-    },
-    {
-      "key": "room5_chest_books_boxes_C_1",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 634.5,
-      "y": 623,
-      "angle": 180
-    },
-    {
-      "key": "room5_desk_books_lamp_C",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 493.5,
-      "y": 408,
-      "angle": 180
-    },
-    {
-      "key": "room5_chest_books_boxes_C_2",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 635,
-      "y": 580.5,
-      "angle": 180
-    },
-    {
-      "key": "room5_armchair_C",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 406,
-      "y": 607,
-      "angle": 180
-    },
-    {
-      "key": "room5_pendant_light_C",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 440.5,
-      "y": 135.5,
-      "angle": 0
-    },
-    {
-      "key": "room5_walls_C_2",
-      "type": "decor",
-      "atlas_name": "rooms_room5-surfaces",
-      "x": 155,
-      "y": 408.5,
-      "angle": null
-    },
-    {
-      "key": "room5_walls_C_3",
-      "type": "decor",
-      "atlas_name": "rooms_room5-surfaces",
-      "x": 569,
-      "y": 396.5,
-      "angle": null
-    },
-    {
-      "key": "room5_walls_B_1",
-      "type": "decor",
-      "atlas_name": "rooms_room5-surfaces",
-      "x": 360,
-      "y": 316.5,
-      "angle": null
-    },
-    {
-      "key": "room5_floor_B",
-      "type": "decor",
-      "atlas_name": "rooms_room5-surfaces",
-      "x": 360,
-      "y": 681,
-      "angle": null
-    },
-    {
-      "key": "room5_rug_B",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 375,
-      "y": 705,
-      "angle": 180
-    },
-    {
-      "key": "room5_wall_picture_B_2",
-      "type": "decor",
-      "atlas_name": "rooms_room5-surfaces",
-      "x": 87.5,
-      "y": 337,
-      "angle": 315
-    },
-    {
-      "key": "room5_wall_picture_B_1",
-      "type": "decor",
-      "atlas_name": "rooms_room5-surfaces",
-      "x": 208.5,
-      "y": 291,
-      "angle": 315
-    },
-    {
-      "key": "room5_attic_window_B",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 546,
-      "y": 239.5,
-      "angle": 45
-    },
-    {
-      "key": "room5_bookcase_B",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 364.5,
-      "y": 386.5,
-      "angle": 45
-    },
-    {
-      "key": "room5_plant_B",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 342,
-      "y": 292,
-      "angle": 180
-    },
-    {
       "key": "room5_daybed_B",
       "type": "decor",
       "atlas_name": "rooms_room5-decor",
@@ -1035,107 +1011,19 @@
       "angle": 315
     },
     {
+      "key": "room5_desk_C",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 504,
+      "y": 508,
+      "angle": 180
+    },
+    {
       "key": "room5_desk_B",
       "type": "decor",
       "atlas_name": "rooms_room5-decor",
       "x": 500.5,
       "y": 508.5,
-      "angle": 180
-    },
-    {
-      "key": "room5_chest_books_boxes_B_1",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 631,
-      "y": 624,
-      "angle": 180
-    },
-    {
-      "key": "room5_chest_books_boxes_B_2",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 642.5,
-      "y": 584.5,
-      "angle": 180
-    },
-    {
-      "key": "room5_desk_books_lamp_B",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 494,
-      "y": 406.5,
-      "angle": 180
-    },
-    {
-      "key": "room5_armchair_B",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 407.5,
-      "y": 595.5,
-      "angle": 180
-    },
-    {
-      "key": "room5_pendant_light_B",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 440,
-      "y": 140.5,
-      "angle": 0
-    },
-    {
-      "key": "room5_walls_B_2",
-      "type": "decor",
-      "atlas_name": "rooms_room5-surfaces",
-      "x": 155,
-      "y": 412.5,
-      "angle": null
-    },
-    {
-      "key": "room5_walls_B_3",
-      "type": "decor",
-      "atlas_name": "rooms_room5-surfaces",
-      "x": 568.5,
-      "y": 414.5,
-      "angle": null
-    },
-    {
-      "key": "room5_walls_A_1",
-      "type": "decor",
-      "atlas_name": "rooms_room5-surfaces",
-      "x": 360,
-      "y": 317.5,
-      "angle": null
-    },
-    {
-      "key": "room5_floor_A",
-      "type": "decor",
-      "atlas_name": "rooms_room5-surfaces",
-      "x": 360,
-      "y": 681,
-      "angle": null
-    },
-    {
-      "key": "room5_attic_window_A",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 546.5,
-      "y": 235.5,
-      "angle": 45
-    },
-    {
-      "key": "room5_bookcase_A",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 365.5,
-      "y": 383.5,
-      "angle": 45
-    },
-    {
-      "key": "room5_plant_A",
-      "type": "decor",
-      "atlas_name": "rooms_room5-decor",
-      "x": 345.5,
-      "y": 296.5,
       "angle": 180
     },
     {
@@ -1163,11 +1051,75 @@
       "angle": 315
     },
     {
+      "key": "room5_chest_books_boxes_C_1",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 634.5,
+      "y": 623,
+      "angle": 180
+    },
+    {
+      "key": "room5_chest_books_boxes_B_1",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 631,
+      "y": 624,
+      "angle": 180
+    },
+    {
+      "key": "room5_desk_books_lamp_C",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 493.5,
+      "y": 408,
+      "angle": 180
+    },
+    {
+      "key": "room5_chest_books_boxes_C_2",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 635,
+      "y": 580.5,
+      "angle": 180
+    },
+    {
+      "key": "room5_chest_books_boxes_B_2",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 642.5,
+      "y": 584.5,
+      "angle": 180
+    },
+    {
+      "key": "room5_desk_books_lamp_B",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 494,
+      "y": 406.5,
+      "angle": 180
+    },
+    {
       "key": "room5_desk_books_lamp_A",
       "type": "decor",
       "atlas_name": "rooms_room5-decor",
       "x": 492,
       "y": 405,
+      "angle": 180
+    },
+    {
+      "key": "room5_armchair_C",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 406,
+      "y": 607,
+      "angle": 180
+    },
+    {
+      "key": "room5_armchair_B",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 407.5,
+      "y": 595.5,
       "angle": 180
     },
     {
@@ -1177,6 +1129,22 @@
       "x": 404.5,
       "y": 585,
       "angle": 180
+    },
+    {
+      "key": "room5_pendant_light_C",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 440.5,
+      "y": 135.5,
+      "angle": 0
+    },
+    {
+      "key": "room5_pendant_light_B",
+      "type": "decor",
+      "atlas_name": "rooms_room5-decor",
+      "x": 440,
+      "y": 140.5,
+      "angle": 0
     },
     {
       "key": "room5_pendant_light_A",
@@ -1219,11 +1187,43 @@
       "angle": 315
     },
     {
+      "key": "room5_walls_C_2",
+      "type": "decor",
+      "atlas_name": "rooms_room5-surfaces",
+      "x": 155,
+      "y": 408.5,
+      "angle": null
+    },
+    {
+      "key": "room5_walls_B_2",
+      "type": "decor",
+      "atlas_name": "rooms_room5-surfaces",
+      "x": 155,
+      "y": 412.5,
+      "angle": null
+    },
+    {
       "key": "room5_walls_A_2",
       "type": "decor",
       "atlas_name": "rooms_room5-surfaces",
       "x": 155,
       "y": 405.5,
+      "angle": null
+    },
+    {
+      "key": "room5_walls_C_3",
+      "type": "decor",
+      "atlas_name": "rooms_room5-surfaces",
+      "x": 569,
+      "y": 396.5,
+      "angle": null
+    },
+    {
+      "key": "room5_walls_B_3",
+      "type": "decor",
+      "atlas_name": "rooms_room5-surfaces",
+      "x": 568.5,
+      "y": 414.5,
       "angle": null
     },
     {
