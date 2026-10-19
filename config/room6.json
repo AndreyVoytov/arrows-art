@@ -31,8 +31,8 @@
       "room6_branch_constellation_map",
       "room6_ladder",
       "room6_pay_dialogue3",
-      "room6_pendant_light",
       "room6_bird_feeder",
+      "room6_pendant_light",
       "room6_rug",
       "room6_secret_floor_hatch",
       "room6_built_in_bench",
@@ -56,7 +56,7 @@
         "room6_floor_variant_3"
       ],
       "x": 473,
-      "y": 542.5
+      "y": 548.5
     },
     {
       "key": "room6_walls",
@@ -247,8 +247,8 @@
         "room6_garden_lanterns_variant_2",
         "room6_garden_lanterns_variant_3"
       ],
-      "x": 123,
-      "y": 392
+      "x": 200,
+      "y": 346
     },
     {
       "key": "room6_old_walls",
@@ -439,7 +439,7 @@
     {
       "key": "room6_floor",
       "parts": [
-        "room6_floor_A"
+        "room6_floor_A_1"
       ],
       "price": 1070,
       "priceType": "coins"
@@ -971,59 +971,11 @@
   "depthOrderEdited": false,
   "allParts": [
     {
-      "key": "room6_floor_A",
-      "type": "decor",
-      "atlas_name": "rooms_room6-surfaces",
-      "x": 360,
-      "y": 641.5,
-      "angle": null
-    },
-    {
-      "key": "room6_floor_B",
-      "type": "decor",
-      "atlas_name": "rooms_room6-surfaces",
-      "x": 360,
-      "y": 641.5,
-      "angle": null
-    },
-    {
       "key": "room6_floor_C",
       "type": "decor",
       "atlas_name": "rooms_room6-surfaces",
       "x": 360,
-      "y": 641.5,
-      "angle": null
-    },
-    {
-      "key": "room6_walls_A_1",
-      "type": "decor",
-      "atlas_name": "rooms_room6-surfaces",
-      "x": 360,
-      "y": 333,
-      "angle": null
-    },
-    {
-      "key": "room6_walls_A_2",
-      "type": "decor",
-      "atlas_name": "rooms_room6-surfaces",
-      "x": 377,
-      "y": 247.5,
-      "angle": null
-    },
-    {
-      "key": "room6_walls_B_1",
-      "type": "decor",
-      "atlas_name": "rooms_room6-surfaces",
-      "x": 360,
-      "y": 333,
-      "angle": null
-    },
-    {
-      "key": "room6_walls_B_2",
-      "type": "decor",
-      "atlas_name": "rooms_room6-surfaces",
-      "x": 380.5,
-      "y": 250.5,
+      "y": 647.5,
       "angle": null
     },
     {
@@ -1035,30 +987,6 @@
       "angle": null
     },
     {
-      "key": "room6_walls_C_2",
-      "type": "decor",
-      "atlas_name": "rooms_room6-surfaces",
-      "x": 388,
-      "y": 259.5,
-      "angle": null
-    },
-    {
-      "key": "room6_garden_windows_A",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 212,
-      "y": 322.5,
-      "angle": 315
-    },
-    {
-      "key": "room6_garden_windows_B",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 207.5,
-      "y": 322.5,
-      "angle": 315
-    },
-    {
       "key": "room6_garden_windows_C",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
@@ -1067,19 +995,11 @@
       "angle": 315
     },
     {
-      "key": "room6_branch_constellation_map_A",
+      "key": "room6_bridge_door_C",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 483,
-      "y": 254,
-      "angle": 45
-    },
-    {
-      "key": "room6_branch_constellation_map_B",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 482,
-      "y": 252,
+      "x": 596,
+      "y": 380,
       "angle": 45
     },
     {
@@ -1091,12 +1011,148 @@
       "angle": 45
     },
     {
-      "key": "room6_bridge_door_A",
+      "key": "room6_walls_C_2",
+      "type": "decor",
+      "atlas_name": "rooms_room6-surfaces",
+      "x": 388,
+      "y": 276,
+      "angle": null
+    },
+    {
+      "key": "room6_ladder_C",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 598.5,
-      "y": 385.5,
+      "x": 681,
+      "y": 384,
       "angle": 45
+    },
+    {
+      "key": "room6_pendant_light_C",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 345,
+      "y": 225,
+      "angle": 0
+    },
+    {
+      "key": "room6_bird_feeder_C",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 303,
+      "y": 188,
+      "angle": 0
+    },
+    {
+      "key": "room6_rug_C",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 362.5,
+      "y": 614.5,
+      "angle": 180
+    },
+    {
+      "key": "room6_secret_floor_hatch_C",
+      "type": "decor",
+      "atlas_name": "rooms_room6-surfaces",
+      "x": 332.5,
+      "y": 790,
+      "angle": 180
+    },
+    {
+      "key": "room6_built_in_bench_C",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 244,
+      "y": 492.5,
+      "angle": 180
+    },
+    {
+      "key": "room6_hanging_chair_C",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 103.5,
+      "y": 516,
+      "angle": 180
+    },
+    {
+      "key": "room6_work_desk_C",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 461,
+      "y": 391.5,
+      "angle": 180
+    },
+    {
+      "key": "room6_key_box_C",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 539,
+      "y": 388.5,
+      "angle": 45
+    },
+    {
+      "key": "room6_telescope_C",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 581,
+      "y": 581,
+      "angle": 180
+    },
+    {
+      "key": "room6_plant_group_C_2",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 485.5,
+      "y": 699.5,
+      "angle": 180
+    },
+    {
+      "key": "room6_plant_group_C_1",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 122.5,
+      "y": 673.5,
+      "angle": 180
+    },
+    {
+      "key": "room6_garden_lanterns_C_1",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 462.5,
+      "y": 380.5,
+      "angle": 180
+    },
+    {
+      "key": "room6_garden_lanterns_C_2",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 119,
+      "y": 330.5,
+      "angle": 180
+    },
+    {
+      "key": "room6_floor_B",
+      "type": "decor",
+      "atlas_name": "rooms_room6-surfaces",
+      "x": 360,
+      "y": 647.5,
+      "angle": null
+    },
+    {
+      "key": "room6_walls_B_1",
+      "type": "decor",
+      "atlas_name": "rooms_room6-surfaces",
+      "x": 360,
+      "y": 333,
+      "angle": null
+    },
+    {
+      "key": "room6_garden_windows_B",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 207.5,
+      "y": 322.5,
+      "angle": 315
     },
     {
       "key": "room6_bridge_door_B",
@@ -1107,19 +1163,19 @@
       "angle": 45
     },
     {
-      "key": "room6_bridge_door_C",
+      "key": "room6_walls_B_2",
       "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 596,
-      "y": 380,
-      "angle": 45
+      "atlas_name": "rooms_room6-surfaces",
+      "x": 380,
+      "y": 266.5,
+      "angle": null
     },
     {
-      "key": "room6_ladder_A",
+      "key": "room6_branch_constellation_map_B",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 683.5,
-      "y": 384,
+      "x": 482,
+      "y": 252,
       "angle": 45
     },
     {
@@ -1131,10 +1187,162 @@
       "angle": 45
     },
     {
-      "key": "room6_ladder_C",
+      "key": "room6_pendant_light_B",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 681,
+      "x": 346,
+      "y": 227,
+      "angle": 0
+    },
+    {
+      "key": "room6_bird_feeder_B",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 304,
+      "y": 185.5,
+      "angle": 0
+    },
+    {
+      "key": "room6_work_desk_B",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 458,
+      "y": 390.5,
+      "angle": 180
+    },
+    {
+      "key": "room6_key_box_B",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 539,
+      "y": 387.5,
+      "angle": 45
+    },
+    {
+      "key": "room6_rug_B",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 362,
+      "y": 613.5,
+      "angle": 180
+    },
+    {
+      "key": "room6_secret_floor_hatch_B",
+      "type": "decor",
+      "atlas_name": "rooms_room6-surfaces",
+      "x": 332.5,
+      "y": 793.5,
+      "angle": 180
+    },
+    {
+      "key": "room6_built_in_bench_B",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 243.5,
+      "y": 492.5,
+      "angle": 180
+    },
+    {
+      "key": "room6_hanging_chair_B",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 103.5,
+      "y": 515,
+      "angle": 180
+    },
+    {
+      "key": "room6_telescope_B",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 579.5,
+      "y": 582,
+      "angle": 180
+    },
+    {
+      "key": "room6_plant_group_B_2",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 485.5,
+      "y": 698,
+      "angle": 180
+    },
+    {
+      "key": "room6_plant_group_B_1",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 122.5,
+      "y": 675,
+      "angle": 180
+    },
+    {
+      "key": "room6_garden_lanterns_B_1",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 462,
+      "y": 380.5,
+      "angle": 180
+    },
+    {
+      "key": "room6_garden_lanterns_B_2",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 116.5,
+      "y": 328.5,
+      "angle": 180
+    },
+    {
+      "key": "room6_floor_A_1",
+      "type": "decor",
+      "atlas_name": "rooms_room6-surfaces",
+      "x": 360,
+      "y": 647.5,
+      "angle": null
+    },
+    {
+      "key": "room6_walls_A_1",
+      "type": "decor",
+      "atlas_name": "rooms_room6-surfaces",
+      "x": 360,
+      "y": 333,
+      "angle": null
+    },
+    {
+      "key": "room6_garden_windows_A",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 212,
+      "y": 322.5,
+      "angle": 315
+    },
+    {
+      "key": "room6_branch_constellation_map_A",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 483,
+      "y": 254,
+      "angle": 45
+    },
+    {
+      "key": "room6_bridge_door_A",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 598.5,
+      "y": 385.5,
+      "angle": 45
+    },
+    {
+      "key": "room6_walls_A_2",
+      "type": "decor",
+      "atlas_name": "rooms_room6-surfaces",
+      "x": 376.5,
+      "y": 261,
+      "angle": null
+    },
+    {
+      "key": "room6_ladder_A",
+      "type": "decor",
+      "atlas_name": "rooms_room6-decor",
+      "x": 683.5,
       "y": 384,
       "angle": 45
     },
@@ -1147,43 +1355,11 @@
       "angle": 0
     },
     {
-      "key": "room6_pendant_light_B",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 346,
-      "y": 227,
-      "angle": 0
-    },
-    {
-      "key": "room6_pendant_light_C",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 345,
-      "y": 225,
-      "angle": 0
-    },
-    {
       "key": "room6_bird_feeder_A",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
       "x": 304,
       "y": 186,
-      "angle": 0
-    },
-    {
-      "key": "room6_bird_feeder_B",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 304,
-      "y": 185.5,
-      "angle": 0
-    },
-    {
-      "key": "room6_bird_feeder_C",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 303,
-      "y": 188,
       "angle": 0
     },
     {
@@ -1195,43 +1371,11 @@
       "angle": 180
     },
     {
-      "key": "room6_work_desk_B",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 458,
-      "y": 390.5,
-      "angle": 180
-    },
-    {
-      "key": "room6_work_desk_C",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 461,
-      "y": 391.5,
-      "angle": 180
-    },
-    {
       "key": "room6_key_box_A",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
       "x": 540,
       "y": 389,
-      "angle": 45
-    },
-    {
-      "key": "room6_key_box_B",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 539,
-      "y": 387.5,
-      "angle": 45
-    },
-    {
-      "key": "room6_key_box_C",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 539,
-      "y": 388.5,
       "angle": 45
     },
     {
@@ -1243,43 +1387,11 @@
       "angle": 180
     },
     {
-      "key": "room6_rug_B",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 362,
-      "y": 613.5,
-      "angle": 180
-    },
-    {
-      "key": "room6_rug_C",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 362.5,
-      "y": 614.5,
-      "angle": 180
-    },
-    {
       "key": "room6_secret_floor_hatch_A",
       "type": "decor",
       "atlas_name": "rooms_room6-surfaces",
       "x": 333,
       "y": 792.5,
-      "angle": 180
-    },
-    {
-      "key": "room6_secret_floor_hatch_B",
-      "type": "decor",
-      "atlas_name": "rooms_room6-surfaces",
-      "x": 332.5,
-      "y": 793.5,
-      "angle": 180
-    },
-    {
-      "key": "room6_secret_floor_hatch_C",
-      "type": "decor",
-      "atlas_name": "rooms_room6-surfaces",
-      "x": 332.5,
-      "y": 790,
       "angle": 180
     },
     {
@@ -1291,22 +1403,6 @@
       "angle": 180
     },
     {
-      "key": "room6_built_in_bench_B",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 243.5,
-      "y": 492.5,
-      "angle": 180
-    },
-    {
-      "key": "room6_built_in_bench_C",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 244,
-      "y": 492.5,
-      "angle": 180
-    },
-    {
       "key": "room6_hanging_chair_A",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
@@ -1315,42 +1411,10 @@
       "angle": 180
     },
     {
-      "key": "room6_hanging_chair_B",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 103.5,
-      "y": 515,
-      "angle": 180
-    },
-    {
-      "key": "room6_hanging_chair_C",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 103.5,
-      "y": 516,
-      "angle": 180
-    },
-    {
       "key": "room6_telescope_A",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
       "x": 580.5,
-      "y": 581,
-      "angle": 180
-    },
-    {
-      "key": "room6_telescope_B",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 579.5,
-      "y": 582,
-      "angle": 180
-    },
-    {
-      "key": "room6_telescope_C",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 581,
       "y": 581,
       "angle": 180
     },
@@ -1371,43 +1435,11 @@
       "angle": 180
     },
     {
-      "key": "room6_plant_group_B_2",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 485.5,
-      "y": 698,
-      "angle": 180
-    },
-    {
-      "key": "room6_plant_group_B_1",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 122.5,
-      "y": 675,
-      "angle": 180
-    },
-    {
-      "key": "room6_plant_group_C_2",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 485.5,
-      "y": 699.5,
-      "angle": 180
-    },
-    {
-      "key": "room6_plant_group_C_1",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 122.5,
-      "y": 673.5,
-      "angle": 180
-    },
-    {
       "key": "room6_garden_lanterns_A_2",
       "type": "decor",
       "atlas_name": "rooms_room6-decor",
-      "x": 40,
-      "y": 369,
+      "x": 117,
+      "y": 323,
       "angle": 180
     },
     {
@@ -1416,38 +1448,6 @@
       "atlas_name": "rooms_room6-decor",
       "x": 462,
       "y": 380,
-      "angle": 180
-    },
-    {
-      "key": "room6_garden_lanterns_B_1",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 462,
-      "y": 380.5,
-      "angle": 180
-    },
-    {
-      "key": "room6_garden_lanterns_B_2",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 39.5,
-      "y": 368.5,
-      "angle": 180
-    },
-    {
-      "key": "room6_garden_lanterns_C_1",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 462.5,
-      "y": 380.5,
-      "angle": 180
-    },
-    {
-      "key": "room6_garden_lanterns_C_2",
-      "type": "decor",
-      "atlas_name": "rooms_room6-decor",
-      "x": 41,
-      "y": 368,
       "angle": 180
     },
     {
@@ -1571,7 +1571,7 @@
       "angle": 0
     }
   ],
-  "sourcePsdRevision": "85b29103cc1108abb81a28519db81accf20e23ff9932b4d0504f1d1151d687f7",
+  "sourcePsdRevision": "62f3c20bc8e4e59840b858a095168d40aa913e650df11ebce7f025ae9cb37a52",
   "dialogs": [
     {
       "id": "room6_d1",

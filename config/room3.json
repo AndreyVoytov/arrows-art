@@ -350,8 +350,8 @@
     {
       "key": "room3_walls",
       "parts": [
-        "room3_walls_A_2",
-        "room3_walls_A_1"
+        "room3_walls_A_1",
+        "room3_walls_A_2"
       ],
       "price": 25,
       "priceType": "diamonds"
@@ -359,8 +359,8 @@
     {
       "key": "room3_walls_variant_2",
       "parts": [
-        "room3_walls_B_2",
-        "room3_walls_B_1"
+        "room3_walls_B_1",
+        "room3_walls_B_2"
       ],
       "price": 900,
       "priceType": "coins"
@@ -368,8 +368,8 @@
     {
       "key": "room3_walls_variant_3",
       "parts": [
-        "room3_walls_C_2",
-        "room3_walls_C_1"
+        "room3_walls_C_1",
+        "room3_walls_C_2"
       ],
       "price": 1170,
       "priceType": "coins"

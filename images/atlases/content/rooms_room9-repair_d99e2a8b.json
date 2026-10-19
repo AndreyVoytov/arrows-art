@@ -1,0 +1,336 @@
+{
+  "frames": {
+    "room9_mold_1": {
+      "frame": {
+        "x": 722,
+        "y": 0,
+        "w": 720,
+        "h": 836
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 836
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 836
+      }
+    },
+    "room9_mold_2": {
+      "frame": {
+        "x": 1444,
+        "y": 0,
+        "w": 383,
+        "h": 539
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 383,
+        "h": 539
+      },
+      "sourceSize": {
+        "w": 383,
+        "h": 539
+      }
+    },
+    "room9_old_armchair": {
+      "frame": {
+        "x": 1829,
+        "y": 0,
+        "w": 219,
+        "h": 254
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 219,
+        "h": 254
+      },
+      "sourceSize": {
+        "w": 219,
+        "h": 254
+      }
+    },
+    "room9_old_coffee_table": {
+      "frame": {
+        "x": 620,
+        "y": 1622,
+        "w": 283,
+        "h": 235
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 283,
+        "h": 235
+      },
+      "sourceSize": {
+        "w": 283,
+        "h": 235
+      }
+    },
+    "room9_old_cupboard": {
+      "frame": {
+        "x": 1444,
+        "y": 962,
+        "w": 365,
+        "h": 456
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 365,
+        "h": 456
+      },
+      "sourceSize": {
+        "w": 365,
+        "h": 456
+      }
+    },
+    "room9_old_fireplace": {
+      "frame": {
+        "x": 0,
+        "y": 1622,
+        "w": 264,
+        "h": 374
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 264,
+        "h": 374
+      },
+      "sourceSize": {
+        "w": 264,
+        "h": 374
+      }
+    },
+    "room9_old_floor": {
+      "frame": {
+        "x": 722,
+        "y": 962,
+        "w": 720,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 512
+      }
+    },
+    "room9_old_sofa": {
+      "frame": {
+        "x": 266,
+        "y": 1622,
+        "w": 352,
+        "h": 290
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 352,
+        "h": 290
+      },
+      "sourceSize": {
+        "w": 352,
+        "h": 290
+      }
+    },
+    "room9_old_table_books_vase": {
+      "frame": {
+        "x": 1535,
+        "y": 1622,
+        "w": 134,
+        "h": 99
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 134,
+        "h": 99
+      },
+      "sourceSize": {
+        "w": 134,
+        "h": 99
+      }
+    },
+    "room9_old_tv": {
+      "frame": {
+        "x": 1811,
+        "y": 962,
+        "w": 192,
+        "h": 215
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 192,
+        "h": 215
+      },
+      "sourceSize": {
+        "w": 192,
+        "h": 215
+      }
+    },
+    "room9_old_wall_decor": {
+      "frame": {
+        "x": 1023,
+        "y": 1622,
+        "w": 202,
+        "h": 146
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 202,
+        "h": 146
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 146
+      }
+    },
+    "room9_old_wall_picture": {
+      "frame": {
+        "x": 905,
+        "y": 1622,
+        "w": 116,
+        "h": 154
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 116,
+        "h": 154
+      },
+      "sourceSize": {
+        "w": 116,
+        "h": 154
+      }
+    },
+    "room9_old_walls": {
+      "frame": {
+        "x": 0,
+        "y": 962,
+        "w": 720,
+        "h": 658
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 658
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 658
+      }
+    },
+    "room9_room_bg": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 960
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 960
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 960
+      }
+    },
+    "room9_trash_1": {
+      "frame": {
+        "x": 1381,
+        "y": 1622,
+        "w": 152,
+        "h": 143
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 152,
+        "h": 143
+      },
+      "sourceSize": {
+        "w": 152,
+        "h": 143
+      }
+    },
+    "room9_trash_2": {
+      "frame": {
+        "x": 1227,
+        "y": 1622,
+        "w": 152,
+        "h": 143
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 152,
+        "h": 143
+      },
+      "sourceSize": {
+        "w": 152,
+        "h": 143
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "rooms_room9-repair_d99e2a8b.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 1996
+    },
+    "scale": "1",
+    "sourceDir": "images/rooms/room9-repair"
+  }
+}

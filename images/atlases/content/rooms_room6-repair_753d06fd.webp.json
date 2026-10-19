@@ -1,0 +1,336 @@
+{
+  "frames": {
+    "room6_old_bench": {
+      "frame": {
+        "x": 0,
+        "y": 962,
+        "w": 412,
+        "h": 332
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 412,
+        "h": 332
+      },
+      "sourceSize": {
+        "w": 412,
+        "h": 332
+      }
+    },
+    "room6_old_bird_feeder": {
+      "frame": {
+        "x": 790,
+        "y": 1296,
+        "w": 136,
+        "h": 83
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 136,
+        "h": 83
+      },
+      "sourceSize": {
+        "w": 136,
+        "h": 83
+      }
+    },
+    "room6_old_bookshelf": {
+      "frame": {
+        "x": 1421,
+        "y": 962,
+        "w": 260,
+        "h": 231
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 260,
+        "h": 231
+      },
+      "sourceSize": {
+        "w": 260,
+        "h": 231
+      }
+    },
+    "room6_old_door": {
+      "frame": {
+        "x": 1444,
+        "y": 0,
+        "w": 156,
+        "h": 392
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 156,
+        "h": 392
+      },
+      "sourceSize": {
+        "w": 156,
+        "h": 392
+      }
+    },
+    "room6_old_garden_lanterns_1": {
+      "frame": {
+        "x": 184,
+        "y": 1296,
+        "w": 138,
+        "h": 176
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 138,
+        "h": 176
+      },
+      "sourceSize": {
+        "w": 138,
+        "h": 176
+      }
+    },
+    "room6_old_garden_lanterns_2": {
+      "frame": {
+        "x": 1922,
+        "y": 0,
+        "w": 91,
+        "h": 183
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 91,
+        "h": 183
+      },
+      "sourceSize": {
+        "w": 91,
+        "h": 183
+      }
+    },
+    "room6_old_garden_windows": {
+      "frame": {
+        "x": 1602,
+        "y": 0,
+        "w": 318,
+        "h": 374
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 318,
+        "h": 374
+      },
+      "sourceSize": {
+        "w": 318,
+        "h": 374
+      }
+    },
+    "room6_old_hanging_chair": {
+      "frame": {
+        "x": 1683,
+        "y": 962,
+        "w": 272,
+        "h": 226
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 272,
+        "h": 226
+      },
+      "sourceSize": {
+        "w": 272,
+        "h": 226
+      }
+    },
+    "room6_old_key_box": {
+      "frame": {
+        "x": 0,
+        "y": 1296,
+        "w": 182,
+        "h": 206
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 182,
+        "h": 206
+      },
+      "sourceSize": {
+        "w": 182,
+        "h": 206
+      }
+    },
+    "room6_old_plant_group": {
+      "frame": {
+        "x": 414,
+        "y": 962,
+        "w": 284,
+        "h": 313
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 284,
+        "h": 313
+      },
+      "sourceSize": {
+        "w": 284,
+        "h": 313
+      }
+    },
+    "room6_old_rug": {
+      "frame": {
+        "x": 700,
+        "y": 962,
+        "w": 421,
+        "h": 304
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 421,
+        "h": 304
+      },
+      "sourceSize": {
+        "w": 421,
+        "h": 304
+      }
+    },
+    "room6_old_secret_floor_hatch": {
+      "frame": {
+        "x": 324,
+        "y": 1296,
+        "w": 245,
+        "h": 173
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 245,
+        "h": 173
+      },
+      "sourceSize": {
+        "w": 245,
+        "h": 173
+      }
+    },
+    "room6_old_telescope": {
+      "frame": {
+        "x": 571,
+        "y": 1296,
+        "w": 217,
+        "h": 166
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 217,
+        "h": 166
+      },
+      "sourceSize": {
+        "w": 217,
+        "h": 166
+      }
+    },
+    "room6_old_walls": {
+      "frame": {
+        "x": 722,
+        "y": 0,
+        "w": 720,
+        "h": 873
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 873
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 873
+      }
+    },
+    "room6_old_work_desk": {
+      "frame": {
+        "x": 1123,
+        "y": 962,
+        "w": 296,
+        "h": 299
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 296,
+        "h": 299
+      },
+      "sourceSize": {
+        "w": 296,
+        "h": 299
+      }
+    },
+    "room6_room_bg": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 960
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 960
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 960
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "rooms_room6-repair_753d06fd.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 1502
+    },
+    "scale": "1",
+    "sourceDir": "images/rooms/room6-repair"
+  }
+}

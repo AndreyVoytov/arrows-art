@@ -1,0 +1,156 @@
+{
+  "frames": {
+    "alice_angry": {
+      "frame": {
+        "x": 343,
+        "y": 514,
+        "w": 341,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 512
+      }
+    },
+    "alice_fear": {
+      "frame": {
+        "x": 0,
+        "y": 514,
+        "w": 341,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 512
+      }
+    },
+    "alice_joy": {
+      "frame": {
+        "x": 1372,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 512
+      }
+    },
+    "alice_neutral": {
+      "frame": {
+        "x": 1029,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 512
+      }
+    },
+    "alice_sad": {
+      "frame": {
+        "x": 686,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 512
+      }
+    },
+    "alice_smirk": {
+      "frame": {
+        "x": 343,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 512
+      }
+    },
+    "alice_wink": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 512
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 512
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "characters_alice_bd75019b.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 1026
+    },
+    "scale": "1",
+    "sourceDir": "images/characters/alice"
+  }
+}

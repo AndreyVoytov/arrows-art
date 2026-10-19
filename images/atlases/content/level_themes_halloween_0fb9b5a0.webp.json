@@ -1,0 +1,116 @@
+{
+  "frames": {
+    "bg": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 1400
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 1400
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 1400
+      }
+    },
+    "close_button": {
+      "frame": {
+        "x": 1519,
+        "y": 0,
+        "w": 31,
+        "h": 31
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 31,
+        "h": 31
+      },
+      "sourceSize": {
+        "w": 31,
+        "h": 31
+      }
+    },
+    "header_decor": {
+      "frame": {
+        "x": 722,
+        "y": 0,
+        "w": 508,
+        "h": 253
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 508,
+        "h": 253
+      },
+      "sourceSize": {
+        "w": 508,
+        "h": 253
+      }
+    },
+    "icon": {
+      "frame": {
+        "x": 1232,
+        "y": 0,
+        "w": 141,
+        "h": 141
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 141,
+        "h": 141
+      },
+      "sourceSize": {
+        "w": 141,
+        "h": 141
+      }
+    },
+    "icon_completed": {
+      "frame": {
+        "x": 1375,
+        "y": 0,
+        "w": 142,
+        "h": 139
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 142,
+        "h": 139
+      },
+      "sourceSize": {
+        "w": 142,
+        "h": 139
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "level_themes_halloween_0fb9b5a0.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 1400
+    },
+    "scale": "1",
+    "sourceDir": "images/level_themes/halloween"
+  }
+}

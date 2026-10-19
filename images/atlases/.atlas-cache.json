@@ -14,14 +14,14 @@
     },
     "characters_alice": {
       "sourceDir": "images/characters/alice",
-      "digest": "5555e13844bf1ad49b20dd69e70de9d5e784bbcc55fa73a2467b831618d3161b",
+      "digest": "bd75019b0ef55bb3743d762997df5cc53cc309c0ef64f6faf1fb1e8a52ec6e83",
       "outputs": [
-        "images/atlases/content/characters_alice_5555e138.png",
-        "images/atlases/content/characters_alice_5555e138.webp",
-        "images/atlases/content/characters_alice_5555e138.json",
-        "images/atlases/content/characters_alice_5555e138.webp.json"
+        "images/atlases/content/characters_alice_bd75019b.png",
+        "images/atlases/content/characters_alice_bd75019b.webp",
+        "images/atlases/content/characters_alice_bd75019b.json",
+        "images/atlases/content/characters_alice_bd75019b.webp.json"
       ],
-      "updatedAt": "2026-10-09T20:56:13.078942+00:00"
+      "updatedAt": "2026-10-18T23:17:48.808770+00:00"
     },
     "characters_anna": {
       "sourceDir": "images/characters/anna",
@@ -133,6 +133,17 @@
       ],
       "updatedAt": "2026-09-29T21:53:15.447004+00:00"
     },
+    "level_themes_halloween": {
+      "sourceDir": "images/level_themes/halloween",
+      "digest": "0fb9b5a0df3f2bebf39682cf1381c4b1682da1cc927be39d051f9a5d9741afd6",
+      "outputs": [
+        "images/atlases/content/level_themes_halloween_0fb9b5a0.png",
+        "images/atlases/content/level_themes_halloween_0fb9b5a0.webp",
+        "images/atlases/content/level_themes_halloween_0fb9b5a0.json",
+        "images/atlases/content/level_themes_halloween_0fb9b5a0.webp.json"
+      ],
+      "updatedAt": "2026-10-17T16:49:01.910876+00:00"
+    },
     "level_themes_spring": {
       "sourceDir": "images/level_themes/spring",
       "digest": "89770cbc5ffbcaa87c1e143345786b52694a6be1eaf80fa742e3bee9d327b4ed",
@@ -177,6 +188,17 @@
       ],
       "updatedAt": "2026-09-29T21:53:54.392692+00:00"
     },
+    "offer_halloween_set": {
+      "sourceDir": "images/offer/halloween_set",
+      "digest": "44aafad3c0d17b658d1525e37ea9046e2f14ec01022c469947fa9ea8a32070d5",
+      "outputs": [
+        "images/atlases/content/offer_halloween_set_44aafad3.png",
+        "images/atlases/content/offer_halloween_set_44aafad3.webp",
+        "images/atlases/content/offer_halloween_set_44aafad3.json",
+        "images/atlases/content/offer_halloween_set_44aafad3.webp.json"
+      ],
+      "updatedAt": "2026-10-17T18:52:51.459430+00:00"
+    },
     "offer_newbie_set": {
       "sourceDir": "images/offer/newbie_set",
       "digest": "087d48cd8f2bdc015e8edad69d1e5d1106f5afd6542c1f9b7d3e60aedb4584ea",
@@ -198,6 +220,17 @@
         "images/atlases/content/offer_no_ads_d5859294.webp.json"
       ],
       "updatedAt": "2026-09-29T21:54:14.093589+00:00"
+    },
+    "offer_room10_set": {
+      "sourceDir": "images/offer/room10_set",
+      "digest": "c00f90a4f92161f93232f743c57ec0caa10a3e483773cafbfbc9a1221bdaf5eb",
+      "outputs": [
+        "images/atlases/content/offer_room10_set_c00f90a4.png",
+        "images/atlases/content/offer_room10_set_c00f90a4.webp",
+        "images/atlases/content/offer_room10_set_c00f90a4.json",
+        "images/atlases/content/offer_room10_set_c00f90a4.webp.json"
+      ],
+      "updatedAt": "2026-10-17T18:53:00.811819+00:00"
     },
     "offer_room2_set": {
       "sourceDir": "images/offer/room2_set",
@@ -242,6 +275,50 @@
         "images/atlases/content/offer_room5_set_72178874.webp.json"
       ],
       "updatedAt": "2026-09-29T21:54:56.543356+00:00"
+    },
+    "offer_room6_set": {
+      "sourceDir": "images/offer/room6_set",
+      "digest": "a0e1b3ae5d4d20be5848e07509d76f19fdafb806f9625b02e5be34fbbd167a3a",
+      "outputs": [
+        "images/atlases/content/offer_room6_set_a0e1b3ae.png",
+        "images/atlases/content/offer_room6_set_a0e1b3ae.webp",
+        "images/atlases/content/offer_room6_set_a0e1b3ae.json",
+        "images/atlases/content/offer_room6_set_a0e1b3ae.webp.json"
+      ],
+      "updatedAt": "2026-10-17T18:53:09.474052+00:00"
+    },
+    "offer_room7_set": {
+      "sourceDir": "images/offer/room7_set",
+      "digest": "88881033ba3427a0942cd6ca3029311c145f1a73f91f976221640e66a7909855",
+      "outputs": [
+        "images/atlases/content/offer_room7_set_88881033.png",
+        "images/atlases/content/offer_room7_set_88881033.webp",
+        "images/atlases/content/offer_room7_set_88881033.json",
+        "images/atlases/content/offer_room7_set_88881033.webp.json"
+      ],
+      "updatedAt": "2026-10-17T18:53:18.559474+00:00"
+    },
+    "offer_room8_set": {
+      "sourceDir": "images/offer/room8_set",
+      "digest": "9ae5c69e52e57282d70a2c21624c5893738b04a87bfd81c8936518469fb6fbcc",
+      "outputs": [
+        "images/atlases/content/offer_room8_set_9ae5c69e.png",
+        "images/atlases/content/offer_room8_set_9ae5c69e.webp",
+        "images/atlases/content/offer_room8_set_9ae5c69e.json",
+        "images/atlases/content/offer_room8_set_9ae5c69e.webp.json"
+      ],
+      "updatedAt": "2026-10-17T16:46:48.267755+00:00"
+    },
+    "offer_room9_set": {
+      "sourceDir": "images/offer/room9_set",
+      "digest": "f98bb8e9baf834c8cb8557d59407e4ae6915efdf4fb3e5eb060e5fe3dcb3dc63",
+      "outputs": [
+        "images/atlases/content/offer_room9_set_f98bb8e9.png",
+        "images/atlases/content/offer_room9_set_f98bb8e9.webp",
+        "images/atlases/content/offer_room9_set_f98bb8e9.json",
+        "images/atlases/content/offer_room9_set_f98bb8e9.webp.json"
+      ],
+      "updatedAt": "2026-10-17T18:53:27.813452+00:00"
     },
     "rooms_room1-decor": {
       "sourceDir": "images/rooms/room1-decor",
@@ -443,69 +520,69 @@
     },
     "rooms_room6-decor": {
       "sourceDir": "images/rooms/room6-decor",
-      "digest": "8f87ae2a6497267788f94df0103f3b2553531c2b7e0d55e0299b7886fb23a51f",
+      "digest": "6b5c81f02b64f7d4708d0ab03ad96330a3e4e56865e50973b04cb0ad8b805457",
       "outputs": [
-        "images/atlases/content/rooms_room6-decor_8f87ae2a.png",
-        "images/atlases/content/rooms_room6-decor_8f87ae2a.webp",
-        "images/atlases/content/rooms_room6-decor_8f87ae2a.json",
-        "images/atlases/content/rooms_room6-decor_8f87ae2a.webp.json"
+        "images/atlases/content/rooms_room6-decor_6b5c81f0.png",
+        "images/atlases/content/rooms_room6-decor_6b5c81f0.webp",
+        "images/atlases/content/rooms_room6-decor_6b5c81f0.json",
+        "images/atlases/content/rooms_room6-decor_6b5c81f0.webp.json"
       ],
-      "updatedAt": "2026-10-09T20:48:50.570909+00:00"
+      "updatedAt": "2026-10-19T00:16:13.203168+00:00"
     },
     "rooms_room6-repair": {
       "sourceDir": "images/rooms/room6-repair",
-      "digest": "21cd508cff78b1097fb25045b93bfe4b100ab8c10051d76ebed44a431c6304ac",
+      "digest": "753d06fdb28d1773e020432ea349a95908cdf6fdf66cd5e423ec1c2981271096",
       "outputs": [
-        "images/atlases/content/rooms_room6-repair_21cd508c.png",
-        "images/atlases/content/rooms_room6-repair_21cd508c.webp",
-        "images/atlases/content/rooms_room6-repair_21cd508c.json",
-        "images/atlases/content/rooms_room6-repair_21cd508c.webp.json"
+        "images/atlases/content/rooms_room6-repair_753d06fd.png",
+        "images/atlases/content/rooms_room6-repair_753d06fd.webp",
+        "images/atlases/content/rooms_room6-repair_753d06fd.json",
+        "images/atlases/content/rooms_room6-repair_753d06fd.webp.json"
       ],
-      "updatedAt": "2026-10-14T07:17:24.599226+00:00"
+      "updatedAt": "2026-10-19T08:24:56.434452+00:00"
     },
     "rooms_room6-surfaces": {
       "sourceDir": "images/rooms/room6-surfaces",
-      "digest": "7b2e852cb2ca384052241d4e3e5840d6333275aa15ffb9289d696ad7292b96d5",
+      "digest": "4dd01c44e056b576c518a8182c9950f639e2ad30cfc22a7a9cb0d71a04f62f98",
       "outputs": [
-        "images/atlases/content/rooms_room6-surfaces_7b2e852c.png",
-        "images/atlases/content/rooms_room6-surfaces_7b2e852c.webp",
-        "images/atlases/content/rooms_room6-surfaces_7b2e852c.json",
-        "images/atlases/content/rooms_room6-surfaces_7b2e852c.webp.json"
+        "images/atlases/content/rooms_room6-surfaces_4dd01c44.png",
+        "images/atlases/content/rooms_room6-surfaces_4dd01c44.webp",
+        "images/atlases/content/rooms_room6-surfaces_4dd01c44.json",
+        "images/atlases/content/rooms_room6-surfaces_4dd01c44.webp.json"
       ],
-      "updatedAt": "2026-10-14T07:17:39.598429+00:00"
+      "updatedAt": "2026-10-19T08:25:34.269421+00:00"
     },
     "rooms_room7-decor": {
       "sourceDir": "images/rooms/room7-decor",
-      "digest": "ff256e088225906b8dc5fb7bc70882c1a2f6c802640a82c20b327fea5958f7fc",
+      "digest": "3b55932c54fe0d5b4d042f4e7799ff423c11ffc83624861057b7d023c011b9ce",
       "outputs": [
-        "images/atlases/content/rooms_room7-decor_ff256e08.png",
-        "images/atlases/content/rooms_room7-decor_ff256e08.webp",
-        "images/atlases/content/rooms_room7-decor_ff256e08.json",
-        "images/atlases/content/rooms_room7-decor_ff256e08.webp.json"
+        "images/atlases/content/rooms_room7-decor_3b55932c.png",
+        "images/atlases/content/rooms_room7-decor_3b55932c.webp",
+        "images/atlases/content/rooms_room7-decor_3b55932c.json",
+        "images/atlases/content/rooms_room7-decor_3b55932c.webp.json"
       ],
-      "updatedAt": "2026-10-09T20:49:49.376181+00:00"
+      "updatedAt": "2026-10-19T08:59:49.634245+00:00"
     },
     "rooms_room7-repair": {
       "sourceDir": "images/rooms/room7-repair",
-      "digest": "fe0225d4ecc19aec2bcbb290f56e1a81050d1a0a06bb82f255176376ecf05f79",
+      "digest": "b131ba33fcaaa0f32866e3bf43608091c01f2792b17447ed8371df8fc3c2e948",
       "outputs": [
-        "images/atlases/content/rooms_room7-repair_fe0225d4.png",
-        "images/atlases/content/rooms_room7-repair_fe0225d4.webp",
-        "images/atlases/content/rooms_room7-repair_fe0225d4.json",
-        "images/atlases/content/rooms_room7-repair_fe0225d4.webp.json"
+        "images/atlases/content/rooms_room7-repair_b131ba33.png",
+        "images/atlases/content/rooms_room7-repair_b131ba33.webp",
+        "images/atlases/content/rooms_room7-repair_b131ba33.json",
+        "images/atlases/content/rooms_room7-repair_b131ba33.webp.json"
       ],
-      "updatedAt": "2026-10-14T07:17:53.636440+00:00"
+      "updatedAt": "2026-10-19T00:18:38.694456+00:00"
     },
     "rooms_room7-surfaces": {
       "sourceDir": "images/rooms/room7-surfaces",
-      "digest": "e622dd7c36945616ac141a9ce348b66a8d0c46457ef4f0f81c29385b50637557",
+      "digest": "9eda1a6cd0262705af4b9437600d6e3540e451769b767e198b3300bbe22223dd",
       "outputs": [
-        "images/atlases/content/rooms_room7-surfaces_e622dd7c.png",
-        "images/atlases/content/rooms_room7-surfaces_e622dd7c.webp",
-        "images/atlases/content/rooms_room7-surfaces_e622dd7c.json",
-        "images/atlases/content/rooms_room7-surfaces_e622dd7c.webp.json"
+        "images/atlases/content/rooms_room7-surfaces_9eda1a6c.png",
+        "images/atlases/content/rooms_room7-surfaces_9eda1a6c.webp",
+        "images/atlases/content/rooms_room7-surfaces_9eda1a6c.json",
+        "images/atlases/content/rooms_room7-surfaces_9eda1a6c.webp.json"
       ],
-      "updatedAt": "2026-10-09T20:50:16.809512+00:00"
+      "updatedAt": "2026-10-19T09:00:03.129741+00:00"
     },
     "rooms_room8-decor": {
       "sourceDir": "images/rooms/room8-decor",
@@ -520,14 +597,14 @@
     },
     "rooms_room8-repair": {
       "sourceDir": "images/rooms/room8-repair",
-      "digest": "4d59fb8e36418031830c7c6e9f589793df03917ecf7efabce3e3d7037eed3a11",
+      "digest": "7e8ee08159eabeefed0d154f8bdb65a51694beedf65ca525462dfb88850f0b44",
       "outputs": [
-        "images/atlases/content/rooms_room8-repair_4d59fb8e.png",
-        "images/atlases/content/rooms_room8-repair_4d59fb8e.webp",
-        "images/atlases/content/rooms_room8-repair_4d59fb8e.json",
-        "images/atlases/content/rooms_room8-repair_4d59fb8e.webp.json"
+        "images/atlases/content/rooms_room8-repair_7e8ee081.png",
+        "images/atlases/content/rooms_room8-repair_7e8ee081.webp",
+        "images/atlases/content/rooms_room8-repair_7e8ee081.json",
+        "images/atlases/content/rooms_room8-repair_7e8ee081.webp.json"
       ],
-      "updatedAt": "2026-10-16T23:55:12.947578+00:00"
+      "updatedAt": "2026-10-19T09:00:20.166262+00:00"
     },
     "rooms_room8-surfaces": {
       "sourceDir": "images/rooms/room8-surfaces",
@@ -553,25 +630,25 @@
     },
     "rooms_room9-repair": {
       "sourceDir": "images/rooms/room9-repair",
-      "digest": "ce9ae369558b93b4f78e9667e3214d33e4d4f48661562ceb3b54746d958798fd",
+      "digest": "d99e2a8b44b13d05e778631df56c6a6310c0f5f8d80e42425ed6b475a35a063d",
       "outputs": [
-        "images/atlases/content/rooms_room9-repair_ce9ae369.png",
-        "images/atlases/content/rooms_room9-repair_ce9ae369.webp",
-        "images/atlases/content/rooms_room9-repair_ce9ae369.json",
-        "images/atlases/content/rooms_room9-repair_ce9ae369.webp.json"
+        "images/atlases/content/rooms_room9-repair_d99e2a8b.png",
+        "images/atlases/content/rooms_room9-repair_d99e2a8b.webp",
+        "images/atlases/content/rooms_room9-repair_d99e2a8b.json",
+        "images/atlases/content/rooms_room9-repair_d99e2a8b.webp.json"
       ],
-      "updatedAt": "2026-10-09T20:51:56.530091+00:00"
+      "updatedAt": "2026-10-19T00:19:26.000012+00:00"
     },
     "rooms_room9-surfaces": {
       "sourceDir": "images/rooms/room9-surfaces",
-      "digest": "c937f769d85dd32084f0fab5500f8af3ba24f7d9e79ca3ddbb9ab37a0097a20b",
+      "digest": "8b493d9fdebce3684b7cf80068870391e3ef9f794a5f7975b6146cb4674ebc2f",
       "outputs": [
-        "images/atlases/content/rooms_room9-surfaces_c937f769.png",
-        "images/atlases/content/rooms_room9-surfaces_c937f769.webp",
-        "images/atlases/content/rooms_room9-surfaces_c937f769.json",
-        "images/atlases/content/rooms_room9-surfaces_c937f769.webp.json"
+        "images/atlases/content/rooms_room9-surfaces_8b493d9f.png",
+        "images/atlases/content/rooms_room9-surfaces_8b493d9f.webp",
+        "images/atlases/content/rooms_room9-surfaces_8b493d9f.json",
+        "images/atlases/content/rooms_room9-surfaces_8b493d9f.webp.json"
       ],
-      "updatedAt": "2026-10-09T20:52:12.126311+00:00"
+      "updatedAt": "2026-10-19T00:19:43.057005+00:00"
     },
     "ui_daily_gift": {
       "sourceDir": "images/ui/daily_gift",
@@ -630,25 +707,25 @@
     },
     "ui_room_preview": {
       "sourceDir": "images/ui/room_preview",
-      "digest": "68b255d7c6301200f6530c46ccf9935c7d8553430eb1793636b4a587cdae6a00",
+      "digest": "b515678cd043f37e77956e4438e96d1e85306a0c686092e9820805a040ecbf68",
       "outputs": [
-        "images/atlases/content/ui_room_preview_68b255d7.png",
-        "images/atlases/content/ui_room_preview_68b255d7.webp",
-        "images/atlases/content/ui_room_preview_68b255d7.json",
-        "images/atlases/content/ui_room_preview_68b255d7.webp.json"
+        "images/atlases/content/ui_room_preview_b515678c.png",
+        "images/atlases/content/ui_room_preview_b515678c.webp",
+        "images/atlases/content/ui_room_preview_b515678c.json",
+        "images/atlases/content/ui_room_preview_b515678c.webp.json"
       ],
-      "updatedAt": "2026-09-29T22:01:11.935427+00:00"
+      "updatedAt": "2026-10-19T00:19:54.608113+00:00"
     },
     "ui_shop": {
       "sourceDir": "images/ui/shop",
-      "digest": "9c18ed8fb96253b4a58ca2850d3dbed03b06ba41ffeeb90afa779e190caa9457",
+      "digest": "4be93ccf3671606d8c54fb8942edeb9abe2601dabc2d6cd68bb321aec7a56590",
       "outputs": [
-        "images/atlases/ui/ui_shop_9c18ed8f.png",
-        "images/atlases/ui/ui_shop_9c18ed8f.webp",
-        "images/atlases/ui/ui_shop_9c18ed8f.json",
-        "images/atlases/ui/ui_shop_9c18ed8f.webp.json"
+        "images/atlases/ui/ui_shop_4be93ccf.png",
+        "images/atlases/ui/ui_shop_4be93ccf.webp",
+        "images/atlases/ui/ui_shop_4be93ccf.json",
+        "images/atlases/ui/ui_shop_4be93ccf.webp.json"
       ],
-      "updatedAt": "2026-09-29T22:01:22.926365+00:00"
+      "updatedAt": "2026-10-17T18:53:40.600948+00:00"
     }
   }
 }

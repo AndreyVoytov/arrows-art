@@ -1,0 +1,636 @@
+{
+  "frames": {
+    "best_value_bg": {
+      "frame": {
+        "x": 1595,
+        "y": 517,
+        "w": 144,
+        "h": 74
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 144,
+        "h": 74
+      },
+      "sourceSize": {
+        "w": 144,
+        "h": 74
+      }
+    },
+    "bundle1_image": {
+      "frame": {
+        "x": 1514,
+        "y": 0,
+        "w": 308,
+        "h": 243
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 308,
+        "h": 243
+      },
+      "sourceSize": {
+        "w": 308,
+        "h": 243
+      }
+    },
+    "bundle2_image": {
+      "frame": {
+        "x": 328,
+        "y": 0,
+        "w": 308,
+        "h": 261
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 308,
+        "h": 261
+      },
+      "sourceSize": {
+        "w": 308,
+        "h": 261
+      }
+    },
+    "bundle3_image": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 326,
+        "h": 268
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 326,
+        "h": 268
+      },
+      "sourceSize": {
+        "w": 326,
+        "h": 268
+      }
+    },
+    "diamonds1": {
+      "frame": {
+        "x": 1298,
+        "y": 517,
+        "w": 149,
+        "h": 99
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 149,
+        "h": 99
+      },
+      "sourceSize": {
+        "w": 149,
+        "h": 99
+      }
+    },
+    "diamonds2": {
+      "frame": {
+        "x": 1012,
+        "y": 517,
+        "w": 141,
+        "h": 105
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 141,
+        "h": 105
+      },
+      "sourceSize": {
+        "w": 141,
+        "h": 105
+      }
+    },
+    "diamonds3": {
+      "frame": {
+        "x": 1155,
+        "y": 517,
+        "w": 141,
+        "h": 101
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 141,
+        "h": 101
+      },
+      "sourceSize": {
+        "w": 141,
+        "h": 101
+      }
+    },
+    "diamonds4": {
+      "frame": {
+        "x": 155,
+        "y": 517,
+        "w": 165,
+        "h": 135
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 165,
+        "h": 135
+      },
+      "sourceSize": {
+        "w": 165,
+        "h": 135
+      }
+    },
+    "diamonds5": {
+      "frame": {
+        "x": 0,
+        "y": 517,
+        "w": 153,
+        "h": 140
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 153,
+        "h": 140
+      },
+      "sourceSize": {
+        "w": 153,
+        "h": 140
+      }
+    },
+    "diamonds6": {
+      "frame": {
+        "x": 715,
+        "y": 517,
+        "w": 164,
+        "h": 124
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 164,
+        "h": 124
+      },
+      "sourceSize": {
+        "w": 164,
+        "h": 124
+      }
+    },
+    "hit_bg": {
+      "frame": {
+        "x": 1449,
+        "y": 517,
+        "w": 144,
+        "h": 74
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 144,
+        "h": 74
+      },
+      "sourceSize": {
+        "w": 144,
+        "h": 74
+      }
+    },
+    "no_ads_bundle_image": {
+      "frame": {
+        "x": 1824,
+        "y": 0,
+        "w": 202,
+        "h": 202
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 202,
+        "h": 202
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 202
+      }
+    },
+    "offer_autamn_set_icon": {
+      "frame": {
+        "x": 1280,
+        "y": 270,
+        "w": 148,
+        "h": 144
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 148,
+        "h": 144
+      },
+      "sourceSize": {
+        "w": 148,
+        "h": 144
+      }
+    },
+    "offer_halloween_set_icon": {
+      "frame": {
+        "x": 1882,
+        "y": 270,
+        "w": 146,
+        "h": 141
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 146,
+        "h": 141
+      },
+      "sourceSize": {
+        "w": 146,
+        "h": 141
+      }
+    },
+    "offer_newbie_set_icon": {
+      "frame": {
+        "x": 660,
+        "y": 270,
+        "w": 175,
+        "h": 169
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 175,
+        "h": 169
+      },
+      "sourceSize": {
+        "w": 175,
+        "h": 169
+      }
+    },
+    "offer_no_ads_icon": {
+      "frame": {
+        "x": 581,
+        "y": 517,
+        "w": 132,
+        "h": 126
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 132,
+        "h": 126
+      },
+      "sourceSize": {
+        "w": 132,
+        "h": 126
+      }
+    },
+    "offer_room10_set_icon": {
+      "frame": {
+        "x": 837,
+        "y": 270,
+        "w": 146,
+        "h": 150
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 146,
+        "h": 150
+      },
+      "sourceSize": {
+        "w": 146,
+        "h": 150
+      }
+    },
+    "offer_room2_set_icon": {
+      "frame": {
+        "x": 881,
+        "y": 517,
+        "w": 129,
+        "h": 122
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 129,
+        "h": 122
+      },
+      "sourceSize": {
+        "w": 129,
+        "h": 122
+      }
+    },
+    "offer_room3_set_icon": {
+      "frame": {
+        "x": 322,
+        "y": 517,
+        "w": 130,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 130,
+        "h": 132
+      },
+      "sourceSize": {
+        "w": 130,
+        "h": 132
+      }
+    },
+    "offer_room4_set_icon": {
+      "frame": {
+        "x": 1576,
+        "y": 270,
+        "w": 153,
+        "h": 141
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 153,
+        "h": 141
+      },
+      "sourceSize": {
+        "w": 153,
+        "h": 141
+      }
+    },
+    "offer_room5_set_icon": {
+      "frame": {
+        "x": 454,
+        "y": 517,
+        "w": 125,
+        "h": 130
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 125,
+        "h": 130
+      },
+      "sourceSize": {
+        "w": 125,
+        "h": 130
+      }
+    },
+    "offer_room6_set_icon": {
+      "frame": {
+        "x": 1731,
+        "y": 270,
+        "w": 149,
+        "h": 141
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 149,
+        "h": 141
+      },
+      "sourceSize": {
+        "w": 149,
+        "h": 141
+      }
+    },
+    "offer_room7_set_icon": {
+      "frame": {
+        "x": 985,
+        "y": 270,
+        "w": 150,
+        "h": 148
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 150,
+        "h": 148
+      },
+      "sourceSize": {
+        "w": 150,
+        "h": 148
+      }
+    },
+    "offer_room8_set_icon": {
+      "frame": {
+        "x": 1137,
+        "y": 270,
+        "w": 141,
+        "h": 146
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 141,
+        "h": 146
+      },
+      "sourceSize": {
+        "w": 141,
+        "h": 146
+      }
+    },
+    "offer_room9_set_icon": {
+      "frame": {
+        "x": 1430,
+        "y": 270,
+        "w": 144,
+        "h": 142
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 144,
+        "h": 142
+      },
+      "sourceSize": {
+        "w": 144,
+        "h": 142
+      }
+    },
+    "ribbon_offer": {
+      "frame": {
+        "x": 430,
+        "y": 659,
+        "w": 428,
+        "h": 71
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 428,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 428,
+        "h": 71
+      }
+    },
+    "ribbon_red": {
+      "frame": {
+        "x": 0,
+        "y": 659,
+        "w": 428,
+        "h": 71
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 428,
+        "h": 71
+      },
+      "sourceSize": {
+        "w": 428,
+        "h": 71
+      }
+    },
+    "shop_big_item_panel": {
+      "frame": {
+        "x": 0,
+        "y": 270,
+        "w": 658,
+        "h": 245
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 658,
+        "h": 245
+      },
+      "sourceSize": {
+        "w": 658,
+        "h": 245
+      }
+    },
+    "shop_booster_shadow": {
+      "frame": {
+        "x": 1741,
+        "y": 517,
+        "w": 46,
+        "h": 21
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 46,
+        "h": 21
+      },
+      "sourceSize": {
+        "w": 46,
+        "h": 21
+      }
+    },
+    "shop_item_panel": {
+      "frame": {
+        "x": 1301,
+        "y": 0,
+        "w": 211,
+        "h": 247
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 211,
+        "h": 247
+      },
+      "sourceSize": {
+        "w": 211,
+        "h": 247
+      }
+    },
+    "shop_offer_panel": {
+      "frame": {
+        "x": 638,
+        "y": 0,
+        "w": 661,
+        "h": 247
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 661,
+        "h": 247
+      },
+      "sourceSize": {
+        "w": 661,
+        "h": 247
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "ui_shop_4be93ccf.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 730
+    },
+    "scale": "1",
+    "sourceDir": "images/ui/shop"
+  }
+}

@@ -48,7 +48,7 @@
     "room9",
     "room10"
   ],
-  "levelsCount": 691,
+  "levelsCount": 1000,
   "colorMapping": {
     "yellow": "#ffcf3d",
     "red": "#ff5b62",
@@ -7382,7 +7382,7 @@
   ],
   "atlas_hashes": {
     "characters_alex": "_302d2bd5",
-    "characters_alice": "_5555e138",
+    "characters_alice": "_bd75019b",
     "characters_anna": "_2b1b34d4",
     "characters_arthur": "_db87e389",
     "characters_cat": "_8da4cb16",
@@ -7393,16 +7393,23 @@
     "characters_miller": "_0ea9d99e",
     "characters_victor": "_6aed95b1",
     "level_themes_autumn": "_b7b39fad",
+    "level_themes_halloween": "_0fb9b5a0",
     "level_themes_spring": "_89770cbc",
     "level_themes_summer": "_8c896f32",
     "level_themes_winter": "_4b5a0970",
     "offer_autamn_set": "_96cbb5ee",
+    "offer_halloween_set": "_44aafad3",
     "offer_newbie_set": "_087d48cd",
     "offer_no_ads": "_d5859294",
+    "offer_room10_set": "_c00f90a4",
     "offer_room2_set": "_4b5458de",
     "offer_room3_set": "_71b79316",
     "offer_room4_set": "_80c231d5",
     "offer_room5_set": "_72178874",
+    "offer_room6_set": "_a0e1b3ae",
+    "offer_room7_set": "_88881033",
+    "offer_room8_set": "_9ae5c69e",
+    "offer_room9_set": "_f98bb8e9",
     "rooms_room1-decor": "_fc8f8c75",
     "rooms_room1-repair": "_63682474",
     "rooms_room1-surfaces": "_6bb7deeb",
@@ -7421,25 +7428,25 @@
     "rooms_room5-decor": "_7cea37f0",
     "rooms_room5-repair": "_33706f48",
     "rooms_room5-surfaces": "_eb425dd8",
-    "rooms_room6-decor": "_8f87ae2a",
-    "rooms_room6-repair": "_21cd508c",
-    "rooms_room6-surfaces": "_7b2e852c",
-    "rooms_room7-decor": "_ff256e08",
-    "rooms_room7-repair": "_fe0225d4",
-    "rooms_room7-surfaces": "_e622dd7c",
+    "rooms_room6-decor": "_6b5c81f0",
+    "rooms_room6-repair": "_753d06fd",
+    "rooms_room6-surfaces": "_4dd01c44",
+    "rooms_room7-decor": "_3b55932c",
+    "rooms_room7-repair": "_b131ba33",
+    "rooms_room7-surfaces": "_9eda1a6c",
     "rooms_room8-decor": "_478b715c",
-    "rooms_room8-repair": "_4d59fb8e",
+    "rooms_room8-repair": "_7e8ee081",
     "rooms_room8-surfaces": "_2958702a",
     "rooms_room9-decor": "_0d7597f4",
-    "rooms_room9-repair": "_ce9ae369",
-    "rooms_room9-surfaces": "_c937f769",
+    "rooms_room9-repair": "_d99e2a8b",
+    "rooms_room9-surfaces": "_8b493d9f",
     "ui_daily_gift": "_98ad1539",
     "ui_loader": "_e752990e",
     "ui_lobby": "_5f41a760",
     "ui_panel": "_6cbf767d",
     "ui_preloader": "_78d92328",
-    "ui_room_preview": "_68b255d7",
-    "ui_shop": "_9c18ed8f"
+    "ui_room_preview": "_b515678c",
+    "ui_shop": "_4be93ccf"
   },
   "constants": {
     "lifes_refill_price": 25,
@@ -7983,6 +7990,176 @@
           "count": 2
         }
       ]
+    },
+    {
+      "id": 108,
+      "rewards": [
+        {
+          "type": "diamonds",
+          "count": 250
+        },
+        {
+          "type": "bulb",
+          "count": 2
+        },
+        {
+          "type": "eraser",
+          "count": 2
+        },
+        {
+          "type": "wand",
+          "count": 2
+        },
+        {
+          "type": "ruler",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "rewards": [
+        {
+          "type": "diamonds",
+          "count": 130
+        },
+        {
+          "type": "coins",
+          "count": 11000
+        },
+        {
+          "type": "bulb",
+          "count": 2
+        },
+        {
+          "type": "eraser",
+          "count": 2
+        },
+        {
+          "type": "wand",
+          "count": 2
+        },
+        {
+          "type": "ruler",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "rewards": [
+        {
+          "type": "diamonds",
+          "count": 140
+        },
+        {
+          "type": "coins",
+          "count": 13000
+        },
+        {
+          "type": "bulb",
+          "count": 2
+        },
+        {
+          "type": "eraser",
+          "count": 2
+        },
+        {
+          "type": "wand",
+          "count": 2
+        },
+        {
+          "type": "ruler",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "rewards": [
+        {
+          "type": "diamonds",
+          "count": 150
+        },
+        {
+          "type": "coins",
+          "count": 15000
+        },
+        {
+          "type": "bulb",
+          "count": 2
+        },
+        {
+          "type": "eraser",
+          "count": 2
+        },
+        {
+          "type": "wand",
+          "count": 2
+        },
+        {
+          "type": "ruler",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "rewards": [
+        {
+          "type": "diamonds",
+          "count": 160
+        },
+        {
+          "type": "coins",
+          "count": 17000
+        },
+        {
+          "type": "bulb",
+          "count": 2
+        },
+        {
+          "type": "eraser",
+          "count": 2
+        },
+        {
+          "type": "wand",
+          "count": 2
+        },
+        {
+          "type": "ruler",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "rewards": [
+        {
+          "type": "diamonds",
+          "count": 170
+        },
+        {
+          "type": "coins",
+          "count": 19000
+        },
+        {
+          "type": "bulb",
+          "count": 2
+        },
+        {
+          "type": "eraser",
+          "count": 2
+        },
+        {
+          "type": "wand",
+          "count": 2
+        },
+        {
+          "type": "ruler",
+          "count": 2
+        }
+      ]
     }
   ],
   "daily_gift": [
@@ -8218,6 +8395,14 @@
       "end_date": "2026-05-31",
       "atlas_key": "level_themes_spring",
       "header_color": "#2a5918"
+    },
+    {
+      "key": "halloween",
+      "priority": 10,
+      "start_date": "2026-10-24",
+      "end_date": "2026-11-02",
+      "atlas_key": "level_themes_halloween",
+      "header_color": "#4b246c"
     }
   ],
   "offers": [
@@ -8789,6 +8974,510 @@
       "haveDescription": false,
       "descriptionKey": "room5_set_desc",
       "trigger": "on_room_start_room5",
+      "global_start": -1,
+      "global_end": -1,
+      "duration": 24,
+      "elements_style": {
+        "header": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#531e74",
+          "is_stroke": true
+        },
+        "price": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#0d542f",
+          "is_stroke": true
+        },
+        "count": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#642b09",
+          "is_stroke": true
+        },
+        "time_left": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#965224",
+          "is_stroke": true
+        },
+        "discount": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#6f0104",
+          "is_stroke": true
+        }
+      }
+    },
+    {
+      "key": "halloween_set",
+      "elements_pos": {
+        "panel": {
+          "x": 0,
+          "y": 0
+        },
+        "header": {
+          "x": -2.167,
+          "y": -46.167
+        },
+        "shine": {
+          "x": 10.167,
+          "y": -221.833
+        },
+        "close_button": {
+          "x": 196.167,
+          "y": -143.833
+        },
+        "buy_button": {
+          "x": 1.5,
+          "y": 409.167
+        },
+        "price": {
+          "x": 5.833,
+          "y": 410.5
+        },
+        "safe_area": {
+          "x": 4.833,
+          "y": 196.833,
+          "width": 398,
+          "height": 318
+        },
+        "discount": {
+          "x": 211.5,
+          "y": 353.167,
+          "angle": -20
+        },
+        "discount_label": {
+          "x": 181.5,
+          "y": 374.5
+        },
+        "time_left": {
+          "x": 22.5,
+          "y": 16.5
+        }
+      },
+      "id": 108,
+      "atlasKey": "offer_halloween_set",
+      "discount": "-50%",
+      "haveDescription": false,
+      "descriptionKey": "halloween_set_desc",
+      "trigger": "on_lobby_enter",
+      "global_start": "2026-10-24",
+      "global_end": "2026-11-02",
+      "duration": -1,
+      "elements_style": {
+        "header": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#531e74",
+          "is_stroke": true
+        },
+        "price": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#0d542f",
+          "is_stroke": true
+        },
+        "count": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#642b09",
+          "is_stroke": true
+        },
+        "time_left": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#965224",
+          "is_stroke": true
+        },
+        "discount": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#6f0104",
+          "is_stroke": true
+        }
+      }
+    },
+    {
+      "key": "room6_set",
+      "elements_pos": {
+        "panel": {
+          "x": 0,
+          "y": 0
+        },
+        "header": {
+          "x": -2.167,
+          "y": -51.167
+        },
+        "shine": {
+          "x": 10.167,
+          "y": -226.833
+        },
+        "close_button": {
+          "x": 196.167,
+          "y": -148.833
+        },
+        "buy_button": {
+          "x": 1.5,
+          "y": 404.167
+        },
+        "price": {
+          "x": 5.833,
+          "y": 405.5
+        },
+        "safe_area": {
+          "x": 4.833,
+          "y": 191.833,
+          "width": 398,
+          "height": 318
+        },
+        "discount": {
+          "x": 211.5,
+          "y": 348.167,
+          "angle": -20
+        },
+        "discount_label": {
+          "x": 181.5,
+          "y": 369.5
+        },
+        "time_left": {
+          "x": 22.5,
+          "y": 11.5
+        }
+      },
+      "id": 109,
+      "atlasKey": "offer_room6_set",
+      "discount": "-75%",
+      "haveDescription": false,
+      "descriptionKey": "room6_set_desc",
+      "trigger": "on_room_start_room6",
+      "global_start": -1,
+      "global_end": -1,
+      "duration": 24,
+      "elements_style": {
+        "header": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#531e74",
+          "is_stroke": true
+        },
+        "price": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#0d542f",
+          "is_stroke": true
+        },
+        "count": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#642b09",
+          "is_stroke": true
+        },
+        "time_left": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#965224",
+          "is_stroke": true
+        },
+        "discount": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#6f0104",
+          "is_stroke": true
+        }
+      }
+    },
+    {
+      "key": "room7_set",
+      "elements_pos": {
+        "panel": {
+          "x": 0,
+          "y": 0
+        },
+        "header": {
+          "x": -1.667,
+          "y": -45.667
+        },
+        "shine": {
+          "x": 10.667,
+          "y": -221.333
+        },
+        "close_button": {
+          "x": 196.667,
+          "y": -143.333
+        },
+        "buy_button": {
+          "x": 2,
+          "y": 409.667
+        },
+        "price": {
+          "x": 6.333,
+          "y": 411
+        },
+        "safe_area": {
+          "x": 5.333,
+          "y": 197.333,
+          "width": 398,
+          "height": 318
+        },
+        "discount": {
+          "x": 212,
+          "y": 353.667,
+          "angle": -20
+        },
+        "discount_label": {
+          "x": 182,
+          "y": 375
+        },
+        "time_left": {
+          "x": 23,
+          "y": 17
+        }
+      },
+      "id": 110,
+      "atlasKey": "offer_room7_set",
+      "discount": "-75%",
+      "haveDescription": false,
+      "descriptionKey": "room7_set_desc",
+      "trigger": "on_room_start_room7",
+      "global_start": -1,
+      "global_end": -1,
+      "duration": 24,
+      "elements_style": {
+        "header": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#531e74",
+          "is_stroke": true
+        },
+        "price": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#0d542f",
+          "is_stroke": true
+        },
+        "count": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#642b09",
+          "is_stroke": true
+        },
+        "time_left": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#965224",
+          "is_stroke": true
+        },
+        "discount": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#6f0104",
+          "is_stroke": true
+        }
+      }
+    },
+    {
+      "key": "room8_set",
+      "elements_pos": {
+        "panel": {
+          "x": 0,
+          "y": 0
+        },
+        "header": {
+          "x": -1.667,
+          "y": -45.167
+        },
+        "shine": {
+          "x": 10.667,
+          "y": -220.833
+        },
+        "close_button": {
+          "x": 196.667,
+          "y": -142.833
+        },
+        "buy_button": {
+          "x": 2,
+          "y": 410.167
+        },
+        "price": {
+          "x": 6.333,
+          "y": 411.5
+        },
+        "safe_area": {
+          "x": 5.333,
+          "y": 197.833,
+          "width": 398,
+          "height": 318
+        },
+        "discount": {
+          "x": 212,
+          "y": 354.167,
+          "angle": -20
+        },
+        "discount_label": {
+          "x": 182,
+          "y": 375.5
+        },
+        "time_left": {
+          "x": 23,
+          "y": 17.5
+        }
+      },
+      "id": 111,
+      "atlasKey": "offer_room8_set",
+      "discount": "-75%",
+      "haveDescription": false,
+      "descriptionKey": "room8_set_desc",
+      "trigger": "on_room_start_room8",
+      "global_start": -1,
+      "global_end": -1,
+      "duration": 24,
+      "elements_style": {
+        "header": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#531e74",
+          "is_stroke": true
+        },
+        "price": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#0d542f",
+          "is_stroke": true
+        },
+        "count": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#642b09",
+          "is_stroke": true
+        },
+        "time_left": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#965224",
+          "is_stroke": true
+        },
+        "discount": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#6f0104",
+          "is_stroke": true
+        }
+      }
+    },
+    {
+      "key": "room9_set",
+      "elements_pos": {
+        "panel": {
+          "x": 0,
+          "y": 0
+        },
+        "header": {
+          "x": -1.667,
+          "y": -44.167
+        },
+        "shine": {
+          "x": 10.667,
+          "y": -219.833
+        },
+        "close_button": {
+          "x": 196.667,
+          "y": -141.833
+        },
+        "buy_button": {
+          "x": 2,
+          "y": 411.167
+        },
+        "price": {
+          "x": 6.333,
+          "y": 412.5
+        },
+        "safe_area": {
+          "x": 5.333,
+          "y": 198.833,
+          "width": 398,
+          "height": 318
+        },
+        "discount": {
+          "x": 212,
+          "y": 355.167,
+          "angle": -20
+        },
+        "discount_label": {
+          "x": 182,
+          "y": 376.5
+        },
+        "time_left": {
+          "x": 23,
+          "y": 18.5
+        }
+      },
+      "id": 112,
+      "atlasKey": "offer_room9_set",
+      "discount": "-75%",
+      "haveDescription": false,
+      "descriptionKey": "room9_set_desc",
+      "trigger": "on_room_start_room9",
+      "global_start": -1,
+      "global_end": -1,
+      "duration": 24,
+      "elements_style": {
+        "header": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#531e74",
+          "is_stroke": true
+        },
+        "price": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#0d542f",
+          "is_stroke": true
+        },
+        "count": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#642b09",
+          "is_stroke": true
+        },
+        "time_left": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#965224",
+          "is_stroke": true
+        },
+        "discount": {
+          "fill_color": "#ffffff",
+          "stroke_color": "#6f0104",
+          "is_stroke": true
+        }
+      }
+    },
+    {
+      "key": "room10_set",
+      "elements_pos": {
+        "panel": {
+          "x": 0,
+          "y": 0
+        },
+        "header": {
+          "x": -1.167,
+          "y": -44.167
+        },
+        "shine": {
+          "x": 11.167,
+          "y": -219.833
+        },
+        "close_button": {
+          "x": 197.167,
+          "y": -141.833
+        },
+        "buy_button": {
+          "x": 2.5,
+          "y": 411.167
+        },
+        "price": {
+          "x": 6.833,
+          "y": 412.5
+        },
+        "safe_area": {
+          "x": 5.833,
+          "y": 198.833,
+          "width": 398,
+          "height": 318
+        },
+        "discount": {
+          "x": 212.5,
+          "y": 355.167,
+          "angle": -20
+        },
+        "discount_label": {
+          "x": 182.5,
+          "y": 376.5
+        },
+        "time_left": {
+          "x": 23.5,
+          "y": 18.5
+        }
+      },
+      "id": 113,
+      "atlasKey": "offer_room10_set",
+      "discount": "-75%",
+      "haveDescription": false,
+      "descriptionKey": "room10_set_desc",
+      "trigger": "on_room_start_room10",
       "global_start": -1,
       "global_end": -1,
       "duration": 24,

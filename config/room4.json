@@ -496,8 +496,8 @@
     {
       "key": "room4_walls",
       "parts": [
-        "room4_walls_A_2",
-        "room4_walls_A_1"
+        "room4_walls_A_1",
+        "room4_walls_A_2"
       ],
       "price": 750,
       "priceType": "coins"
@@ -505,8 +505,8 @@
     {
       "key": "room4_walls_variant_2",
       "parts": [
-        "room4_walls_B_2",
-        "room4_walls_B_1"
+        "room4_walls_B_1",
+        "room4_walls_B_2"
       ],
       "price": 980,
       "priceType": "coins"
@@ -514,8 +514,8 @@
     {
       "key": "room4_walls_variant_3",
       "parts": [
-        "room4_walls_C_2",
-        "room4_walls_C_1"
+        "room4_walls_C_1",
+        "room4_walls_C_2"
       ],
       "price": 40,
       "priceType": "diamonds"
@@ -691,8 +691,8 @@
     {
       "key": "room4_chairs",
       "parts": [
-        "room4_chairs_A_2",
-        "room4_chairs_A_1"
+        "room4_chairs_A_1",
+        "room4_chairs_A_2"
       ],
       "price": 25,
       "priceType": "diamonds"
@@ -700,8 +700,8 @@
     {
       "key": "room4_chairs_variant_2",
       "parts": [
-        "room4_chairs_B_2",
-        "room4_chairs_B_1"
+        "room4_chairs_B_1",
+        "room4_chairs_B_2"
       ],
       "price": 720,
       "priceType": "coins"
@@ -709,8 +709,8 @@
     {
       "key": "room4_chairs_variant_3",
       "parts": [
-        "room4_chairs_C_2",
-        "room4_chairs_C_1"
+        "room4_chairs_C_1",
+        "room4_chairs_C_2"
       ],
       "price": 550,
       "priceType": "coins"

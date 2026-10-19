@@ -380,7 +380,7 @@
       "type": "dialog",
       "dialogId": "room10_d4",
       "multiobject": "",
-      "price": 90,
+      "price": 500,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -391,7 +391,7 @@
       "type": "dialog",
       "dialogId": "room10_d6",
       "multiobject": "",
-      "price": 210,
+      "price": 500,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -402,7 +402,7 @@
       "type": "dialog",
       "dialogId": "room10_d8",
       "multiobject": "",
-      "price": 505,
+      "price": 500,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -413,8 +413,8 @@
       "type": "dialog",
       "dialogId": "room10_d10",
       "multiobject": "",
-      "price": 10,
-      "priceType": "diamonds",
+      "price": 500,
+      "priceType": "coins",
       "x": 358,
       "y": 700,
       "name_key": "room10_pay_dialogue4_loc"
@@ -426,7 +426,7 @@
       "parts": [
         "room10_walls_A"
       ],
-      "price": 10,
+      "price": 110,
       "priceType": "diamonds"
     },
     {
@@ -434,7 +434,7 @@
       "parts": [
         "room10_walls_B"
       ],
-      "price": 90,
+      "price": 1960,
       "priceType": "coins"
     },
     {
@@ -442,7 +442,7 @@
       "parts": [
         "room10_walls_C"
       ],
-      "price": 710,
+      "price": 2440,
       "priceType": "coins"
     },
     {
@@ -450,7 +450,7 @@
       "parts": [
         "room10_floor_A"
       ],
-      "price": 645,
+      "price": 2440,
       "priceType": "coins"
     },
     {
@@ -458,7 +458,7 @@
       "parts": [
         "room10_floor_B"
       ],
-      "price": 10,
+      "price": 115,
       "priceType": "diamonds"
     },
     {
@@ -466,7 +466,7 @@
       "parts": [
         "room10_floor_C"
       ],
-      "price": 515,
+      "price": 1960,
       "priceType": "coins"
     },
     {
@@ -474,7 +474,7 @@
       "parts": [
         "room10_panoramic_bay_window_A"
       ],
-      "price": 90,
+      "price": 1390,
       "priceType": "coins"
     },
     {
@@ -482,7 +482,7 @@
       "parts": [
         "room10_panoramic_bay_window_B"
       ],
-      "price": 90,
+      "price": 1740,
       "priceType": "coins"
     },
     {
@@ -490,15 +490,15 @@
       "parts": [
         "room10_panoramic_bay_window_C"
       ],
-      "price": 90,
-      "priceType": "coins"
+      "price": 60,
+      "priceType": "diamonds"
     },
     {
       "key": "room10_window_seat_cushion",
       "parts": [
         "room10_window_seat_cushion_A"
       ],
-      "price": 535,
+      "price": 1110,
       "priceType": "coins"
     },
     {
@@ -506,7 +506,7 @@
       "parts": [
         "room10_window_seat_cushion_B"
       ],
-      "price": 645,
+      "price": 1390,
       "priceType": "coins"
     },
     {
@@ -514,7 +514,7 @@
       "parts": [
         "room10_window_seat_cushion_C"
       ],
-      "price": 10,
+      "price": 40,
       "priceType": "diamonds"
     },
     {
@@ -522,7 +522,7 @@
       "parts": [
         "room10_display_shelf_A"
       ],
-      "price": 545,
+      "price": 1390,
       "priceType": "coins"
     },
     {
@@ -530,7 +530,7 @@
       "parts": [
         "room10_display_shelf_B"
       ],
-      "price": 545,
+      "price": 1740,
       "priceType": "coins"
     },
     {
@@ -538,8 +538,8 @@
       "parts": [
         "room10_display_shelf_C"
       ],
-      "price": 545,
-      "priceType": "coins"
+      "price": 70,
+      "priceType": "diamonds"
     },
     {
       "key": "room10_mechanism_cabinet",
@@ -547,7 +547,7 @@
         "room10_mechanism_cabinet_A_1",
         "room10_mechanism_cabinet_A_2"
       ],
-      "price": 645,
+      "price": 2440,
       "priceType": "coins"
     },
     {
@@ -556,7 +556,7 @@
         "room10_mechanism_cabinet_B_1",
         "room10_mechanism_cabinet_B_2"
       ],
-      "price": 10,
+      "price": 95,
       "priceType": "diamonds"
     },
     {
@@ -565,7 +565,7 @@
         "room10_mechanism_cabinet_C_1",
         "room10_mechanism_cabinet_C_2"
       ],
-      "price": 515,
+      "price": 1950,
       "priceType": "coins"
     },
     {
@@ -573,7 +573,7 @@
       "parts": [
         "room10_entrance_door_A"
       ],
-      "price": 645,
+      "price": 1740,
       "priceType": "coins"
     },
     {
@@ -581,7 +581,7 @@
       "parts": [
         "room10_entrance_door_B"
       ],
-      "price": 10,
+      "price": 90,
       "priceType": "diamonds"
     },
     {
@@ -589,7 +589,7 @@
       "parts": [
         "room10_entrance_door_C"
       ],
-      "price": 465,
+      "price": 1400,
       "priceType": "coins"
     },
     {
@@ -597,7 +597,7 @@
       "parts": [
         "room10_rug_A"
       ],
-      "price": 590,
+      "price": 1110,
       "priceType": "coins"
     },
     {
@@ -605,7 +605,7 @@
       "parts": [
         "room10_rug_B"
       ],
-      "price": 10,
+      "price": 35,
       "priceType": "diamonds"
     },
     {
@@ -613,7 +613,7 @@
       "parts": [
         "room10_rug_C"
       ],
-      "price": 645,
+      "price": 1390,
       "priceType": "coins"
     },
     {
@@ -621,7 +621,7 @@
       "parts": [
         "room10_plant_A"
       ],
-      "price": 700,
+      "price": 1390,
       "priceType": "coins"
     },
     {
@@ -629,7 +629,7 @@
       "parts": [
         "room10_plant_B"
       ],
-      "price": 10,
+      "price": 45,
       "priceType": "diamonds"
     },
     {
@@ -637,7 +637,7 @@
       "parts": [
         "room10_plant_C"
       ],
-      "price": 545,
+      "price": 1110,
       "priceType": "coins"
     },
     {
@@ -645,7 +645,7 @@
       "parts": [
         "room10_modular_desk_A"
       ],
-      "price": 535,
+      "price": 1950,
       "priceType": "coins"
     },
     {
@@ -653,7 +653,7 @@
       "parts": [
         "room10_modular_desk_B"
       ],
-      "price": 10,
+      "price": 105,
       "priceType": "diamonds"
     },
     {
@@ -661,7 +661,7 @@
       "parts": [
         "room10_modular_desk_C"
       ],
-      "price": 645,
+      "price": 2440,
       "priceType": "coins"
     },
     {
@@ -670,7 +670,7 @@
         "room10_desk_lamp_A_1",
         "room10_desk_lamp_A_2"
       ],
-      "price": 700,
+      "price": 1390,
       "priceType": "coins"
     },
     {
@@ -679,7 +679,7 @@
         "room10_desk_lamp_B_1",
         "room10_desk_lamp_B_2"
       ],
-      "price": 10,
+      "price": 55,
       "priceType": "diamonds"
     },
     {
@@ -688,7 +688,7 @@
         "room10_desk_lamp_C_1",
         "room10_desk_lamp_C_2"
       ],
-      "price": 545,
+      "price": 1110,
       "priceType": "coins"
     },
     {
@@ -698,7 +698,7 @@
         "room10_puzzle_safe_A_2",
         "room10_puzzle_safe_A_3"
       ],
-      "price": 10,
+      "price": 85,
       "priceType": "diamonds"
     },
     {
@@ -708,7 +708,7 @@
         "room10_puzzle_safe_B_2",
         "room10_puzzle_safe_B_3"
       ],
-      "price": 545,
+      "price": 1390,
       "priceType": "coins"
     },
     {
@@ -718,7 +718,7 @@
         "room10_puzzle_safe_C_2",
         "room10_puzzle_safe_C_3"
       ],
-      "price": 700,
+      "price": 1740,
       "priceType": "coins"
     },
     {
@@ -726,7 +726,7 @@
       "parts": [
         "room10_ergonomic_chair_A"
       ],
-      "price": 545,
+      "price": 1390,
       "priceType": "coins"
     },
     {
@@ -734,7 +734,7 @@
       "parts": [
         "room10_ergonomic_chair_B"
       ],
-      "price": 10,
+      "price": 80,
       "priceType": "diamonds"
     },
     {
@@ -742,7 +742,7 @@
       "parts": [
         "room10_ergonomic_chair_C"
       ],
-      "price": 700,
+      "price": 1740,
       "priceType": "coins"
     },
     {
@@ -750,7 +750,7 @@
       "parts": [
         "room10_clock_installation_A"
       ],
-      "price": 545,
+      "price": 1390,
       "priceType": "coins"
     },
     {
@@ -758,7 +758,7 @@
       "parts": [
         "room10_clock_installation_B"
       ],
-      "price": 10,
+      "price": 65,
       "priceType": "diamonds"
     },
     {
@@ -766,7 +766,7 @@
       "parts": [
         "room10_clock_installation_C"
       ],
-      "price": 700,
+      "price": 1740,
       "priceType": "coins"
     },
     {
@@ -774,7 +774,7 @@
       "parts": [
         "room10_pendant_light_A"
       ],
-      "price": 700,
+      "price": 1740,
       "priceType": "coins"
     },
     {
@@ -782,7 +782,7 @@
       "parts": [
         "room10_pendant_light_B"
       ],
-      "price": 10,
+      "price": 75,
       "priceType": "diamonds"
     },
     {
@@ -790,7 +790,7 @@
       "parts": [
         "room10_pendant_light_C"
       ],
-      "price": 545,
+      "price": 1390,
       "priceType": "coins"
     },
     {
@@ -798,7 +798,7 @@
       "parts": [
         "room10_old_floor"
       ],
-      "price": 210,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -806,7 +806,7 @@
       "parts": [
         "room10_old_walls"
       ],
-      "price": 230,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -814,7 +814,7 @@
       "parts": [
         "room10_old_rug"
       ],
-      "price": 210,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -822,7 +822,7 @@
       "parts": [
         "room10_old_entrance_door"
       ],
-      "price": 210,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -831,7 +831,7 @@
         "room10_old_puzzle_safe_1",
         "room10_old_puzzle_safe_2"
       ],
-      "price": 260,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -839,7 +839,7 @@
       "parts": [
         "room10_old_display_shelf"
       ],
-      "price": 200,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -847,7 +847,7 @@
       "parts": [
         "room10_old_mechanism_cabinet"
       ],
-      "price": 210,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -855,7 +855,7 @@
       "parts": [
         "room10_old_kinetic_bird"
       ],
-      "price": 545,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -863,7 +863,7 @@
       "parts": [
         "room10_old_modular_desk"
       ],
-      "price": 235,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -872,7 +872,7 @@
         "room10_old_desk_lamp_1",
         "room10_old_desk_lamp_2"
       ],
-      "price": 205,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -880,7 +880,7 @@
       "parts": [
         "room10_old_panoramic_bay_window"
       ],
-      "price": 245,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -888,7 +888,7 @@
       "parts": [
         "room10_old_window_seat_cushion"
       ],
-      "price": 230,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -896,7 +896,7 @@
       "parts": [
         "room10_old_ergonomic_chair"
       ],
-      "price": 545,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -904,7 +904,7 @@
       "parts": [
         "room10_old_plant"
       ],
-      "price": 545,
+      "price": 500,
       "priceType": "coins"
     },
     {
@@ -912,12 +912,12 @@
       "parts": [
         "room10_old_pendant_light"
       ],
-      "price": 540,
+      "price": 500,
       "priceType": "coins"
     }
   ],
   "allPartsOrderComment": "Порядок слоёв по z: от заднего плана к переднему; меняется в decor-viewer.",
-  "depthOrderEdited": false,
+  "depthOrderEdited": true,
   "allParts": [
     {
       "key": "room10_walls_A",
@@ -2042,8 +2042,8 @@
         },
         {
           "id": "room10_d11_r2",
-          "char_key": "alex",
-          "char_state": "alex_neutral",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
           "position": "left",
           "text_key": "room10_d11_r2_loc"
         },
