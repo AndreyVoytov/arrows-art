@@ -365,7 +365,7 @@
       "type": "dialog",
       "dialogId": "room9_d16",
       "multiobject": "",
-      "price": 2360,
+      "price": 450,
       "priceType": "coins",
       "x": 358,
       "y": 700,
@@ -498,15 +498,15 @@
       "parts": [
         "room9_bookcase_A"
       ],
-      "price": 450,
-      "priceType": "coins"
+      "price": 95,
+      "priceType": "diamonds"
     },
     {
       "key": "room9_bookcase_variant_2",
       "parts": [
         "room9_bookcase_B"
       ],
-      "price": 0,
+      "price": 1890,
       "priceType": "coins"
     },
     {
@@ -514,7 +514,7 @@
       "parts": [
         "room9_bookcase_C"
       ],
-      "price": 0,
+      "price": 2360,
       "priceType": "coins"
     },
     {

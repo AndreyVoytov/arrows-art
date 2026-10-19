@@ -1120,7 +1120,39 @@
       "angle": null
     },
     {
+      "key": "room8_walls_B",
+      "type": "decor",
+      "atlas_name": "rooms_room8-surfaces",
+      "x": 360,
+      "y": 331,
+      "angle": null
+    },
+    {
+      "key": "room8_walls_A",
+      "type": "decor",
+      "atlas_name": "rooms_room8-surfaces",
+      "x": 360,
+      "y": 331,
+      "angle": null
+    },
+    {
       "key": "room8_floor_C",
+      "type": "decor",
+      "atlas_name": "rooms_room8-surfaces",
+      "x": 360,
+      "y": 653,
+      "angle": null
+    },
+    {
+      "key": "room8_floor_B",
+      "type": "decor",
+      "atlas_name": "rooms_room8-surfaces",
+      "x": 360,
+      "y": 653,
+      "angle": null
+    },
+    {
+      "key": "room8_floor_A",
       "type": "decor",
       "atlas_name": "rooms_room8-surfaces",
       "x": 360,
@@ -1136,11 +1168,43 @@
       "angle": 315
     },
     {
+      "key": "room8_panoramic_window_B",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 155.5,
+      "y": 306.5,
+      "angle": 315
+    },
+    {
+      "key": "room8_panoramic_window_A",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 154.5,
+      "y": 307,
+      "angle": 315
+    },
+    {
       "key": "room8_curtains_C",
       "type": "decor",
       "atlas_name": "rooms_room8-decor",
       "x": 158,
       "y": 314,
+      "angle": 315
+    },
+    {
+      "key": "room8_curtains_B",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 159.5,
+      "y": 320.5,
+      "angle": 315
+    },
+    {
+      "key": "room8_curtains_A",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 163,
+      "y": 314.5,
       "angle": 315
     },
     {
@@ -1152,11 +1216,43 @@
       "angle": 45
     },
     {
+      "key": "room8_built_in_wardrobe_B",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 360.5,
+      "y": 291,
+      "angle": 45
+    },
+    {
+      "key": "room8_built_in_wardrobe_A",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 361.5,
+      "y": 293.5,
+      "angle": 45
+    },
+    {
       "key": "room8_wall_art_installation_C",
       "type": "decor",
       "atlas_name": "rooms_room8-surfaces",
       "x": 562,
       "y": 296,
+      "angle": 45
+    },
+    {
+      "key": "room8_wall_art_installation_B",
+      "type": "decor",
+      "atlas_name": "rooms_room8-surfaces",
+      "x": 563,
+      "y": 300.5,
+      "angle": 45
+    },
+    {
+      "key": "room8_wall_art_installation_A",
+      "type": "decor",
+      "atlas_name": "rooms_room8-surfaces",
+      "x": 564,
+      "y": 299,
       "angle": 45
     },
     {
@@ -1168,7 +1264,39 @@
       "angle": 180
     },
     {
+      "key": "room8_rug_B",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 373,
+      "y": 679.5,
+      "angle": 180
+    },
+    {
+      "key": "room8_rug_A",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 360,
+      "y": 676,
+      "angle": 180
+    },
+    {
       "key": "room8_nightstand_left_C",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 417.5,
+      "y": 460.5,
+      "angle": 180
+    },
+    {
+      "key": "room8_nightstand_left_B",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 417.5,
+      "y": 460.5,
+      "angle": 180
+    },
+    {
+      "key": "room8_nightstand_left_A",
       "type": "decor",
       "atlas_name": "rooms_room8-decor",
       "x": 417.5,
@@ -1184,7 +1312,39 @@
       "angle": 180
     },
     {
+      "key": "room8_bedside_lamp_left_B",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 409.5,
+      "y": 385.5,
+      "angle": 180
+    },
+    {
+      "key": "room8_bedside_lamp_left_A",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 407,
+      "y": 387.5,
+      "angle": 180
+    },
+    {
       "key": "room8_double_bed_C",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 481.5,
+      "y": 550,
+      "angle": 180
+    },
+    {
+      "key": "room8_double_bed_B",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 481.5,
+      "y": 550,
+      "angle": 180
+    },
+    {
+      "key": "room8_double_bed_A",
       "type": "decor",
       "atlas_name": "rooms_room8-decor",
       "x": 481.5,
@@ -1200,6 +1360,22 @@
       "angle": 180
     },
     {
+      "key": "room8_nightstand_right_B",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 649,
+      "y": 605.5,
+      "angle": 180
+    },
+    {
+      "key": "room8_nightstand_right_A",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 649,
+      "y": 605.5,
+      "angle": 180
+    },
+    {
       "key": "room8_bedside_lamp_right_C",
       "type": "decor",
       "atlas_name": "rooms_room8-decor",
@@ -1208,7 +1384,39 @@
       "angle": 180
     },
     {
+      "key": "room8_bedside_lamp_right_B",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 646,
+      "y": 527,
+      "angle": 180
+    },
+    {
+      "key": "room8_bedside_lamp_right_A",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 646,
+      "y": 528,
+      "angle": 180
+    },
+    {
       "key": "room8_large_plant_C",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 290.5,
+      "y": 360.5,
+      "angle": 180
+    },
+    {
+      "key": "room8_large_plant_B",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 290.5,
+      "y": 360.5,
+      "angle": 180
+    },
+    {
+      "key": "room8_large_plant_A",
       "type": "decor",
       "atlas_name": "rooms_room8-decor",
       "x": 290.5,
@@ -1224,299 +1432,11 @@
       "angle": 180
     },
     {
-      "key": "room8_vanity_table_C",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 100.5,
-      "y": 565,
-      "angle": 180
-    },
-    {
-      "key": "room8_bed_bench_C",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 360.5,
-      "y": 657,
-      "angle": 180
-    },
-    {
-      "key": "room8_dresser_C",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 530,
-      "y": 736,
-      "angle": 180
-    },
-    {
-      "key": "room8_mirror_C",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 538.5,
-      "y": 648.5,
-      "angle": 135
-    },
-    {
-      "key": "room8_coded_jewelry_box_C",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 132.5,
-      "y": 571,
-      "angle": 180
-    },
-    {
-      "key": "room8_walls_B",
-      "type": "decor",
-      "atlas_name": "rooms_room8-surfaces",
-      "x": 360,
-      "y": 331,
-      "angle": null
-    },
-    {
-      "key": "room8_floor_B",
-      "type": "decor",
-      "atlas_name": "rooms_room8-surfaces",
-      "x": 360,
-      "y": 653,
-      "angle": null
-    },
-    {
-      "key": "room8_panoramic_window_B",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 155.5,
-      "y": 306.5,
-      "angle": 315
-    },
-    {
-      "key": "room8_curtains_B",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 159.5,
-      "y": 320.5,
-      "angle": 315
-    },
-    {
-      "key": "room8_built_in_wardrobe_B",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 360.5,
-      "y": 291,
-      "angle": 45
-    },
-    {
-      "key": "room8_wall_art_installation_B",
-      "type": "decor",
-      "atlas_name": "rooms_room8-surfaces",
-      "x": 563,
-      "y": 300.5,
-      "angle": 45
-    },
-    {
-      "key": "room8_rug_B",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 373,
-      "y": 679.5,
-      "angle": 180
-    },
-    {
-      "key": "room8_nightstand_left_B",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 417.5,
-      "y": 460.5,
-      "angle": 180
-    },
-    {
-      "key": "room8_bedside_lamp_left_B",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 409.5,
-      "y": 385.5,
-      "angle": 180
-    },
-    {
-      "key": "room8_double_bed_B",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 481.5,
-      "y": 550,
-      "angle": 180
-    },
-    {
-      "key": "room8_nightstand_right_B",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 649,
-      "y": 605.5,
-      "angle": 180
-    },
-    {
-      "key": "room8_bedside_lamp_right_B",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 646,
-      "y": 527,
-      "angle": 180
-    },
-    {
-      "key": "room8_large_plant_B",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 290.5,
-      "y": 360.5,
-      "angle": 180
-    },
-    {
       "key": "room8_vanity_chair_B",
       "type": "decor",
       "atlas_name": "rooms_room8-decor",
       "x": 171,
       "y": 559.5,
-      "angle": 180
-    },
-    {
-      "key": "room8_vanity_table_B",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 102,
-      "y": 568,
-      "angle": 180
-    },
-    {
-      "key": "room8_bed_bench_B",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 360.5,
-      "y": 656.5,
-      "angle": 180
-    },
-    {
-      "key": "room8_dresser_B",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 530,
-      "y": 737,
-      "angle": 180
-    },
-    {
-      "key": "room8_mirror_B",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 537.5,
-      "y": 648,
-      "angle": 135
-    },
-    {
-      "key": "room8_coded_jewelry_box_B",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 132.5,
-      "y": 570.5,
-      "angle": 180
-    },
-    {
-      "key": "room8_walls_A",
-      "type": "decor",
-      "atlas_name": "rooms_room8-surfaces",
-      "x": 360,
-      "y": 331,
-      "angle": null
-    },
-    {
-      "key": "room8_floor_A",
-      "type": "decor",
-      "atlas_name": "rooms_room8-surfaces",
-      "x": 360,
-      "y": 653,
-      "angle": null
-    },
-    {
-      "key": "room8_panoramic_window_A",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 154.5,
-      "y": 307,
-      "angle": 315
-    },
-    {
-      "key": "room8_curtains_A",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 163,
-      "y": 314.5,
-      "angle": 315
-    },
-    {
-      "key": "room8_built_in_wardrobe_A",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 361.5,
-      "y": 293.5,
-      "angle": 45
-    },
-    {
-      "key": "room8_wall_art_installation_A",
-      "type": "decor",
-      "atlas_name": "rooms_room8-surfaces",
-      "x": 564,
-      "y": 299,
-      "angle": 45
-    },
-    {
-      "key": "room8_rug_A",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 360,
-      "y": 676,
-      "angle": 180
-    },
-    {
-      "key": "room8_nightstand_left_A",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 417.5,
-      "y": 460.5,
-      "angle": 180
-    },
-    {
-      "key": "room8_bedside_lamp_left_A",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 407,
-      "y": 387.5,
-      "angle": 180
-    },
-    {
-      "key": "room8_double_bed_A",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 481.5,
-      "y": 550,
-      "angle": 180
-    },
-    {
-      "key": "room8_nightstand_right_A",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 649,
-      "y": 605.5,
-      "angle": 180
-    },
-    {
-      "key": "room8_bedside_lamp_right_A",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 646,
-      "y": 528,
-      "angle": 180
-    },
-    {
-      "key": "room8_large_plant_A",
-      "type": "decor",
-      "atlas_name": "rooms_room8-decor",
-      "x": 290.5,
-      "y": 360.5,
       "angle": 180
     },
     {
@@ -1528,11 +1448,43 @@
       "angle": 180
     },
     {
+      "key": "room8_vanity_table_C",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 100.5,
+      "y": 565,
+      "angle": 180
+    },
+    {
+      "key": "room8_vanity_table_B",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 102,
+      "y": 568,
+      "angle": 180
+    },
+    {
       "key": "room8_vanity_table_A",
       "type": "decor",
       "atlas_name": "rooms_room8-decor",
       "x": 102.5,
       "y": 569,
+      "angle": 180
+    },
+    {
+      "key": "room8_bed_bench_C",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 360.5,
+      "y": 657,
+      "angle": 180
+    },
+    {
+      "key": "room8_bed_bench_B",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 360.5,
+      "y": 656.5,
       "angle": 180
     },
     {
@@ -1544,6 +1496,22 @@
       "angle": 180
     },
     {
+      "key": "room8_dresser_C",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 530,
+      "y": 736,
+      "angle": 180
+    },
+    {
+      "key": "room8_dresser_B",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 530,
+      "y": 737,
+      "angle": 180
+    },
+    {
       "key": "room8_dresser_A",
       "type": "decor",
       "atlas_name": "rooms_room8-decor",
@@ -1552,12 +1520,44 @@
       "angle": 180
     },
     {
+      "key": "room8_mirror_C",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 538.5,
+      "y": 648.5,
+      "angle": 135
+    },
+    {
+      "key": "room8_mirror_B",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 537.5,
+      "y": 648,
+      "angle": 135
+    },
+    {
       "key": "room8_mirror_A",
       "type": "decor",
       "atlas_name": "rooms_room8-decor",
       "x": 533,
       "y": 653.5,
       "angle": 135
+    },
+    {
+      "key": "room8_coded_jewelry_box_C",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 132.5,
+      "y": 571,
+      "angle": 180
+    },
+    {
+      "key": "room8_coded_jewelry_box_B",
+      "type": "decor",
+      "atlas_name": "rooms_room8-decor",
+      "x": 132.5,
+      "y": 570.5,
+      "angle": 180
     },
     {
       "key": "room8_coded_jewelry_box_A",
