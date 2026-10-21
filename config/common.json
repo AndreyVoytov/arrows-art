@@ -48,7 +48,7 @@
     "room9",
     "room10"
   ],
-  "levelsCount": 1000,
+  "levelsCount": 1491,
   "colorMapping": {
     "yellow": "#ffcf3d",
     "red": "#ff5b62",
@@ -7285,7 +7285,8 @@
         "anna_sad",
         "anna_fear",
         "anna_embarrassed",
-        "anna_happy"
+        "anna_happy",
+        "anna_smile"
       ]
     },
     {
@@ -7378,38 +7379,73 @@
         "arthur_sad",
         "arthur_wink"
       ]
+    },
+    {
+      "id": "annie",
+      "states": [
+        "annie_angry",
+        "annie_neutral",
+        "annie_sad",
+        "annie_scare",
+        "annie_smile"
+      ]
+    },
+    {
+      "id": "robert",
+      "states": [
+        "robert_angry",
+        "robert_arrogant",
+        "robert_neutral",
+        "robert_smile",
+        "robert_surprised"
+      ]
     }
   ],
   "atlas_hashes": {
-    "characters_alex": "_302d2bd5",
+    "characters_alex": "_d63122c0",
     "characters_alice": "_bd75019b",
     "characters_anna": "_2b1b34d4",
+    "characters_annie": "_8a8f42ec",
     "characters_arthur": "_db87e389",
     "characters_cat": "_8da4cb16",
     "characters_clare": "_5fc6f1bd",
-    "characters_henry": "_8e3199d9",
+    "characters_henry": "_470a78bb",
     "characters_kate": "_c4b1c52a",
     "characters_mary": "_182c262b",
     "characters_miller": "_0ea9d99e",
+    "characters_robert": "_dffdfca1",
     "characters_victor": "_6aed95b1",
+    "dialog_decor_event_halloween": "_2c046b29",
+    "dialog_decor_room1": "_7e13f1af",
+    "dialog_decor_room10": "_70f2ede1",
+    "dialog_decor_room2": "_850c29a2",
+    "dialog_decor_room3": "_6da07825",
+    "dialog_decor_room4": "_3e807c3e",
+    "dialog_decor_room5": "_64261f26",
+    "dialog_decor_room6": "_b6f37cc6",
+    "dialog_decor_room7": "_c02c2d7f",
+    "dialog_decor_room8": "_560e4371",
+    "dialog_decor_room9": "_7c095c6c",
+    "event_halloween": "_ed8441d5",
+    "event_intro_halloween": "_54172c2b",
     "level_themes_autumn": "_b7b39fad",
     "level_themes_halloween": "_0fb9b5a0",
     "level_themes_spring": "_89770cbc",
     "level_themes_summer": "_8c896f32",
     "level_themes_winter": "_4b5a0970",
     "offer_autamn_set": "_96cbb5ee",
-    "offer_halloween_set": "_44aafad3",
+    "offer_halloween_set": "_a9016200",
     "offer_newbie_set": "_087d48cd",
     "offer_no_ads": "_d5859294",
-    "offer_room10_set": "_c00f90a4",
+    "offer_room10_set": "_fa22f77e",
     "offer_room2_set": "_4b5458de",
     "offer_room3_set": "_71b79316",
     "offer_room4_set": "_80c231d5",
     "offer_room5_set": "_72178874",
-    "offer_room6_set": "_a0e1b3ae",
-    "offer_room7_set": "_88881033",
-    "offer_room8_set": "_9ae5c69e",
-    "offer_room9_set": "_f98bb8e9",
+    "offer_room6_set": "_61bf92bd",
+    "offer_room7_set": "_695c4141",
+    "offer_room8_set": "_54cf474c",
+    "offer_room9_set": "_20b174db",
     "rooms_room1-decor": "_fc8f8c75",
     "rooms_room1-repair": "_63682474",
     "rooms_room1-surfaces": "_6bb7deeb",
@@ -7441,8 +7477,8 @@
     "rooms_room9-repair": "_d99e2a8b",
     "rooms_room9-surfaces": "_8b493d9f",
     "ui_daily_gift": "_98ad1539",
-    "ui_loader": "_e752990e",
-    "ui_lobby": "_5f41a760",
+    "ui_loader": "_b74270ae",
+    "ui_lobby": "_2a8acafb",
     "ui_panel": "_6cbf767d",
     "ui_preloader": "_78d92328",
     "ui_room_preview": "_b515678c",
@@ -9013,43 +9049,43 @@
           "y": 0
         },
         "header": {
-          "x": -2.167,
-          "y": -46.167
+          "x": -5.667,
+          "y": -51
         },
         "shine": {
-          "x": 10.167,
-          "y": -221.833
+          "x": 6.667,
+          "y": -222
         },
         "close_button": {
-          "x": 196.167,
-          "y": -143.833
+          "x": 192.667,
+          "y": -144
         },
         "buy_button": {
-          "x": 1.5,
-          "y": 409.167
+          "x": -2,
+          "y": 409
         },
         "price": {
-          "x": 5.833,
-          "y": 410.5
+          "x": 2.333,
+          "y": 413
         },
         "safe_area": {
-          "x": 4.833,
-          "y": 196.833,
+          "x": 1.333,
+          "y": 196.667,
           "width": 398,
           "height": 318
         },
         "discount": {
-          "x": 211.5,
-          "y": 353.167,
+          "x": 208,
+          "y": 353,
           "angle": -20
         },
         "discount_label": {
-          "x": 181.5,
-          "y": 374.5
+          "x": 178,
+          "y": 374.333
         },
         "time_left": {
-          "x": 22.5,
-          "y": 16.5
+          "x": 19,
+          "y": 9
         }
       },
       "id": 108,
@@ -9097,43 +9133,43 @@
           "y": 0
         },
         "header": {
-          "x": -2.167,
-          "y": -51.167
+          "x": 1.167,
+          "y": -40.5
         },
         "shine": {
-          "x": 10.167,
-          "y": -226.833
+          "x": 13.5,
+          "y": -216.167
         },
         "close_button": {
-          "x": 196.167,
-          "y": -148.833
+          "x": 199.5,
+          "y": -138.167
         },
         "buy_button": {
-          "x": 1.5,
-          "y": 404.167
+          "x": 4.833,
+          "y": 414.833
         },
         "price": {
-          "x": 5.833,
-          "y": 405.5
+          "x": 9.167,
+          "y": 416.167
         },
         "safe_area": {
-          "x": 4.833,
-          "y": 191.833,
+          "x": 8.167,
+          "y": 202.5,
           "width": 398,
           "height": 318
         },
         "discount": {
-          "x": 211.5,
-          "y": 348.167,
+          "x": 214.833,
+          "y": 358.833,
           "angle": -20
         },
         "discount_label": {
-          "x": 181.5,
-          "y": 369.5
+          "x": 184.833,
+          "y": 380.167
         },
         "time_left": {
-          "x": 22.5,
-          "y": 11.5
+          "x": 25.833,
+          "y": 22.167
         }
       },
       "id": 109,
@@ -9181,43 +9217,43 @@
           "y": 0
         },
         "header": {
-          "x": -1.667,
-          "y": -45.667
+          "x": 4.667,
+          "y": -59.5
         },
         "shine": {
-          "x": 10.667,
-          "y": -221.333
+          "x": 13.667,
+          "y": -221.167
         },
         "close_button": {
-          "x": 196.667,
-          "y": -143.333
+          "x": 199.667,
+          "y": -143.167
         },
         "buy_button": {
-          "x": 2,
-          "y": 409.667
+          "x": 5,
+          "y": 409.833
         },
         "price": {
-          "x": 6.333,
-          "y": 411
+          "x": 9.333,
+          "y": 413.833
         },
         "safe_area": {
-          "x": 5.333,
-          "y": 197.333,
+          "x": 8.333,
+          "y": 197.5,
           "width": 398,
           "height": 318
         },
         "discount": {
-          "x": 212,
-          "y": 353.667,
+          "x": 215,
+          "y": 353.833,
           "angle": -20
         },
         "discount_label": {
-          "x": 182,
-          "y": 375
+          "x": 185,
+          "y": 375.833
         },
         "time_left": {
-          "x": 23,
-          "y": 17
+          "x": 26,
+          "y": 3.167
         }
       },
       "id": 110,
@@ -9265,43 +9301,43 @@
           "y": 0
         },
         "header": {
-          "x": -1.667,
-          "y": -45.167
+          "x": 1.333,
+          "y": -45.667
         },
         "shine": {
-          "x": 10.667,
-          "y": -220.833
+          "x": 13.667,
+          "y": -219.333
         },
         "close_button": {
-          "x": 196.667,
-          "y": -142.833
+          "x": 199.667,
+          "y": -141.333
         },
         "buy_button": {
-          "x": 2,
-          "y": 410.167
+          "x": 1,
+          "y": 413.667
         },
         "price": {
-          "x": 6.333,
-          "y": 411.5
+          "x": 9.333,
+          "y": 413
         },
         "safe_area": {
-          "x": 5.333,
-          "y": 197.833,
+          "x": 8.333,
+          "y": 199.333,
           "width": 398,
           "height": 318
         },
         "discount": {
-          "x": 212,
-          "y": 354.167,
+          "x": 215,
+          "y": 355.667,
           "angle": -20
         },
         "discount_label": {
-          "x": 182,
-          "y": 375.5
+          "x": 185,
+          "y": 377
         },
         "time_left": {
-          "x": 23,
-          "y": 17.5
+          "x": 23.333,
+          "y": 13
         }
       },
       "id": 111,
@@ -9349,43 +9385,43 @@
           "y": 0
         },
         "header": {
-          "x": -1.667,
-          "y": -44.167
+          "x": 10.333,
+          "y": -39.167
         },
         "shine": {
-          "x": 10.667,
-          "y": -219.833
+          "x": 13.667,
+          "y": -212.833
         },
         "close_button": {
-          "x": 196.667,
-          "y": -141.833
+          "x": 199.667,
+          "y": -134.833
         },
         "buy_button": {
-          "x": 2,
-          "y": 411.167
+          "x": 5,
+          "y": 418.167
         },
         "price": {
-          "x": 6.333,
-          "y": 412.5
+          "x": 9.333,
+          "y": 419.5
         },
         "safe_area": {
-          "x": 5.333,
-          "y": 198.833,
+          "x": 8.333,
+          "y": 205.833,
           "width": 398,
           "height": 318
         },
         "discount": {
-          "x": 212,
-          "y": 355.167,
+          "x": 216.333,
+          "y": 360.833,
           "angle": -20
         },
         "discount_label": {
-          "x": 182,
-          "y": 376.5
+          "x": 185,
+          "y": 383.5
         },
         "time_left": {
-          "x": 23,
-          "y": 18.5
+          "x": 26,
+          "y": 18.833
         }
       },
       "id": 112,
@@ -9433,43 +9469,43 @@
           "y": 0
         },
         "header": {
-          "x": -1.167,
-          "y": -44.167
+          "x": 1.333,
+          "y": -23.667
         },
         "shine": {
-          "x": 11.167,
-          "y": -219.833
+          "x": 13.667,
+          "y": -206.667
         },
         "close_button": {
-          "x": 197.167,
-          "y": -141.833
+          "x": 199.667,
+          "y": -128.667
         },
         "buy_button": {
-          "x": 2.5,
-          "y": 411.167
+          "x": 5,
+          "y": 424.333
         },
         "price": {
-          "x": 6.833,
-          "y": 412.5
+          "x": 9.333,
+          "y": 425.667
         },
         "safe_area": {
-          "x": 5.833,
-          "y": 198.833,
+          "x": 8.333,
+          "y": 212,
           "width": 398,
           "height": 318
         },
         "discount": {
-          "x": 212.5,
-          "y": 355.167,
+          "x": 215,
+          "y": 368.333,
           "angle": -20
         },
         "discount_label": {
-          "x": 182.5,
-          "y": 376.5
+          "x": 185,
+          "y": 389.667
         },
         "time_left": {
-          "x": 23.5,
-          "y": 18.5
+          "x": 28.667,
+          "y": 41
         }
       },
       "id": 113,
@@ -9506,6 +9542,119 @@
           "fill_color": "#ffffff",
           "stroke_color": "#6f0104",
           "is_stroke": true
+        }
+      }
+    }
+  ],
+  "events": [
+    {
+      "elements_pos": {
+        "panel": {
+          "x": 0,
+          "y": 0
+        },
+        "header": {
+          "x": -2.167,
+          "y": -39.667
+        },
+        "play_button": {
+          "x": -4.833,
+          "y": 401.667
+        },
+        "play": {
+          "x": -4.167,
+          "y": 410.333
+        },
+        "close_button": {
+          "x": 196.167,
+          "y": -141.333
+        },
+        "description": {
+          "x": -1.833,
+          "y": 112.333,
+          "width": 442,
+          "height": 107
+        },
+        "safe_area": {
+          "x": -3.5,
+          "y": 257.333,
+          "width": 435,
+          "height": 167
+        },
+        "time_left": {
+          "x": 22.5,
+          "y": 26.667
+        },
+        "reward_title": {
+          "x": 3.167,
+          "y": 186.333
+        }
+      },
+      "rewardLayout": "row",
+      "key": "halloween",
+      "roomId": "event_halloween",
+      "configKey": "event_halloween",
+      "atlasKey": "event_intro_halloween",
+      "titleKey": "event_halloween_title",
+      "descriptionKey": "event_halloween_desc",
+      "buttonTextKey": "event_play",
+      "rewardTitleKey": "event_rewards",
+      "haveDescription": true,
+      "rewards": [
+        {
+          "type": "diamonds",
+          "count": 50
+        },
+        {
+          "type": "coins",
+          "count": 3000
+        },
+        {
+          "type": "bulb",
+          "count": 2
+        },
+        {
+          "type": "eraser",
+          "count": 2
+        },
+        {
+          "type": "wand",
+          "count": 2
+        },
+        {
+          "type": "ruler",
+          "count": 2
+        }
+      ],
+      "trigger": "on_lobby_enter",
+      "global_start": "2026-10-29",
+      "global_end": "2026-10-02",
+      "duration": 168,
+      "elements_style": {
+        "header": {
+          "is_stroke": true,
+          "fill_color": "#FFFFFF",
+          "stroke_color": "#57236B"
+        },
+        "play": {
+          "is_stroke": true,
+          "fill_color": "#FFFFFF",
+          "stroke_color": "#57236B"
+        },
+        "count": {
+          "is_stroke": true,
+          "fill_color": "#FFFFFF",
+          "stroke_color": "#642B09"
+        },
+        "time_left": {
+          "is_stroke": true,
+          "fill_color": "#FFFFFF",
+          "stroke_color": "#57236B"
+        },
+        "description": {
+          "is_stroke": true,
+          "fill_color": "#FFFFFF",
+          "stroke_color": "#57236B"
         }
       }
     }

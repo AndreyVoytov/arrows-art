@@ -1,0 +1,116 @@
+{
+  "frames": {
+    "buy_button": {
+      "frame": {
+        "x": 899,
+        "y": 0,
+        "w": 295,
+        "h": 126
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 295,
+        "h": 126
+      },
+      "sourceSize": {
+        "w": 295,
+        "h": 126
+      }
+    },
+    "close_button": {
+      "frame": {
+        "x": 1196,
+        "y": 0,
+        "w": 85,
+        "h": 99
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 85,
+        "h": 99
+      },
+      "sourceSize": {
+        "w": 85,
+        "h": 99
+      }
+    },
+    "discount_label": {
+      "frame": {
+        "x": 678,
+        "y": 0,
+        "w": 219,
+        "h": 215
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 219,
+        "h": 215
+      },
+      "sourceSize": {
+        "w": 219,
+        "h": 215
+      }
+    },
+    "icon": {
+      "frame": {
+        "x": 1283,
+        "y": 0,
+        "w": 98,
+        "h": 95
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 98,
+        "h": 95
+      },
+      "sourceSize": {
+        "w": 98,
+        "h": 95
+      }
+    },
+    "panel": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 676,
+        "h": 824
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 676,
+        "h": 824
+      },
+      "sourceSize": {
+        "w": 676,
+        "h": 824
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "offer_halloween_set_a9016200.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 824
+    },
+    "scale": "1",
+    "sourceDir": "images/offer/halloween_set"
+  }
+}

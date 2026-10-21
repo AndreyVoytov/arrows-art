@@ -1,0 +1,116 @@
+{
+  "frames": {
+    "close_button": {
+      "frame": {
+        "x": 1146,
+        "y": 0,
+        "w": 85,
+        "h": 99
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 85,
+        "h": 99
+      },
+      "sourceSize": {
+        "w": 85,
+        "h": 99
+      }
+    },
+    "icon": {
+      "frame": {
+        "x": 671,
+        "y": 0,
+        "w": 143,
+        "h": 139
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 143,
+        "h": 139
+      },
+      "sourceSize": {
+        "w": 143,
+        "h": 139
+      }
+    },
+    "info_button": {
+      "frame": {
+        "x": 1233,
+        "y": 0,
+        "w": 37,
+        "h": 37
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 37,
+        "h": 37
+      },
+      "sourceSize": {
+        "w": 37,
+        "h": 37
+      }
+    },
+    "panel": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 669,
+        "h": 936
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 669,
+        "h": 936
+      },
+      "sourceSize": {
+        "w": 669,
+        "h": 936
+      }
+    },
+    "play_button": {
+      "frame": {
+        "x": 816,
+        "y": 0,
+        "w": 328,
+        "h": 126
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 328,
+        "h": 126
+      },
+      "sourceSize": {
+        "w": 328,
+        "h": 126
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "event_intro_halloween_54172c2b.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 936
+    },
+    "scale": "1",
+    "sourceDir": "images/event_intro/halloween"
+  }
+}
