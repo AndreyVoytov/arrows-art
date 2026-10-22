@@ -805,7 +805,7 @@
         "x": 1003,
         "y": 499,
         "w": 66,
-        "h": 28
+        "h": 27
       },
       "rotated": false,
       "trimmed": false,
@@ -813,11 +813,11 @@
         "x": 0,
         "y": 0,
         "w": 66,
-        "h": 28
+        "h": 27
       },
       "sourceSize": {
         "w": 66,
-        "h": 28
+        "h": 27
       }
     },
     "event_halloween_tree_lantern": {
@@ -884,7 +884,7 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "event_halloween_6d3ae9da.png",
+    "image": "event_halloween_99e395da.webp",
     "format": "RGBA8888",
     "size": {
       "w": 2048,

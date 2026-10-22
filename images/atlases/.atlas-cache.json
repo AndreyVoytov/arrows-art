@@ -146,14 +146,14 @@
     },
     "dialog_decor_event_halloween": {
       "sourceDir": "images/dialog_decor/event_halloween",
-      "digest": "2c046b2922d03f02adf767f15677dd0185a5481f021033c1bb5d374a3f5f94aa",
+      "digest": "e48da2bdca03b7549b67dea43f92ae9708fede6f8c44c379ccf80e1f681ebda4",
       "outputs": [
-        "images/atlases/content/dialog_decor_event_halloween_2c046b29.png",
-        "images/atlases/content/dialog_decor_event_halloween_2c046b29.webp",
-        "images/atlases/content/dialog_decor_event_halloween_2c046b29.json",
-        "images/atlases/content/dialog_decor_event_halloween_2c046b29.webp.json"
+        "images/atlases/content/dialog_decor_event_halloween_e48da2bd.png",
+        "images/atlases/content/dialog_decor_event_halloween_e48da2bd.webp",
+        "images/atlases/content/dialog_decor_event_halloween_e48da2bd.json",
+        "images/atlases/content/dialog_decor_event_halloween_e48da2bd.webp.json"
       ],
-      "updatedAt": "2026-10-21T14:27:48.051529+00:00"
+      "updatedAt": "2026-10-22T19:47:07.931933+00:00"
     },
     "dialog_decor_room1": {
       "sourceDir": "images/dialog_decor/room1",
@@ -267,14 +267,14 @@
     },
     "event_halloween": {
       "sourceDir": "images/event/halloween",
-      "digest": "6d3ae9da5d5185a40b02616e4529bea69145f8802636a6ad536c25989ece5bf0",
+      "digest": "99e395da256e5108135587b015062f89d7a0c0db080477029aa8919ca6051dbe",
       "outputs": [
-        "images/atlases/content/event_halloween_6d3ae9da.png",
-        "images/atlases/content/event_halloween_6d3ae9da.webp",
-        "images/atlases/content/event_halloween_6d3ae9da.json",
-        "images/atlases/content/event_halloween_6d3ae9da.webp.json"
+        "images/atlases/content/event_halloween_99e395da.png",
+        "images/atlases/content/event_halloween_99e395da.webp",
+        "images/atlases/content/event_halloween_99e395da.json",
+        "images/atlases/content/event_halloween_99e395da.webp.json"
       ],
-      "updatedAt": "2026-10-22T14:08:39.383007+00:00"
+      "updatedAt": "2026-10-22T20:52:26.581188+00:00"
     },
     "event_intro_halloween": {
       "sourceDir": "images/event_intro/halloween",

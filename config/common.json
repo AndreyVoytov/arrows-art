@@ -48,18 +48,6 @@
     "room9",
     "room10"
   ],
-  "event_multipliers": {
-    "room1": 1,
-    "room2": 2,
-    "room3": 4,
-    "room4": 4,
-    "room5": 5,
-    "room6": 6,
-    "room7": 6,
-    "room8": 7,
-    "room9": 10,
-    "room10": 10
-  },
   "levelsCount": 1491,
   "colorMapping": {
     "yellow": "#ffcf3d",
@@ -7427,7 +7415,7 @@
     "characters_miller": "_0ea9d99e",
     "characters_robert": "_dffdfca1",
     "characters_victor": "_6aed95b1",
-    "dialog_decor_event_halloween": "_2c046b29",
+    "dialog_decor_event_halloween": "_e48da2bd",
     "dialog_decor_room1": "_7e13f1af",
     "dialog_decor_room10": "_70f2ede1",
     "dialog_decor_room2": "_850c29a2",
@@ -7438,7 +7426,7 @@
     "dialog_decor_room7": "_c02c2d7f",
     "dialog_decor_room8": "_560e4371",
     "dialog_decor_room9": "_7c095c6c",
-    "event_halloween": "_6d3ae9da",
+    "event_halloween": "_99e395da",
     "event_intro_halloween": "_54172c2b",
     "level_themes_autumn": "_b7b39fad",
     "level_themes_halloween": "_0fb9b5a0",
@@ -7496,6 +7484,18 @@
     "ui_resources": "_8730a179",
     "ui_room_preview": "_b515678c",
     "ui_shop": "_2f435ccc"
+  },
+  "event_multipliers": {
+    "room1": 1,
+    "room2": 2,
+    "room3": 3,
+    "room4": 4,
+    "room5": 5,
+    "room6": 6,
+    "room7": 7,
+    "room8": 8,
+    "room9": 9,
+    "room10": 10
   },
   "constants": {
     "lifes_refill_price": 25,
@@ -8508,15 +8508,6 @@
           "y": -55.833
         }
       },
-      "id": 101,
-      "atlasKey": "offer_no_ads",
-      "discount": "-50%",
-      "haveDescription": true,
-      "descriptionKey": "no_ads_desc",
-      "trigger": "on_inter_show",
-      "global_start": -1,
-      "global_end": -1,
-      "duration": 24,
       "elements_style": {
         "header": {
           "fill_color": "#FFFFFF",
@@ -8548,7 +8539,16 @@
           "stroke_color": "#482C19",
           "is_stroke": true
         }
-      }
+      },
+      "id": 101,
+      "atlasKey": "offer_no_ads",
+      "discount": "-50%",
+      "haveDescription": true,
+      "descriptionKey": "no_ads_desc",
+      "trigger": "on_inter_show",
+      "global_start": -1,
+      "global_end": -1,
+      "duration": 24
     },
     {
       "key": "newbie_set",
@@ -8597,15 +8597,6 @@
           "y": -26.167
         }
       },
-      "id": 102,
-      "atlasKey": "offer_newbie_set",
-      "discount": "-50%",
-      "haveDescription": false,
-      "descriptionKey": "newbie_set_desc",
-      "trigger": "on_level_complete_15",
-      "global_start": -1,
-      "global_end": -1,
-      "duration": 48,
       "elements_style": {
         "header": {
           "fill_color": "#FFFFFF",
@@ -8632,7 +8623,16 @@
           "stroke_color": "#6F0104",
           "is_stroke": true
         }
-      }
+      },
+      "id": 102,
+      "atlasKey": "offer_newbie_set",
+      "discount": "-50%",
+      "haveDescription": false,
+      "descriptionKey": "newbie_set_desc",
+      "trigger": "on_level_complete_15",
+      "global_start": -1,
+      "global_end": -1,
+      "duration": 48
     },
     {
       "key": "room2_set",
@@ -8681,15 +8681,6 @@
           "y": -22.333
         }
       },
-      "id": 103,
-      "atlasKey": "offer_room2_set",
-      "discount": "-75%",
-      "haveDescription": false,
-      "descriptionKey": "room2_set_desc",
-      "trigger": "on_room_start_room2",
-      "global_start": -1,
-      "global_end": -1,
-      "duration": 24,
       "elements_style": {
         "header": {
           "fill_color": "#FFFFFF",
@@ -8716,7 +8707,16 @@
           "stroke_color": "#6F0104",
           "is_stroke": true
         }
-      }
+      },
+      "id": 103,
+      "atlasKey": "offer_room2_set",
+      "discount": "-75%",
+      "haveDescription": false,
+      "descriptionKey": "room2_set_desc",
+      "trigger": "on_room_start_room2",
+      "global_start": -1,
+      "global_end": -1,
+      "duration": 24
     },
     {
       "key": "autamn_set",
@@ -8765,15 +8765,6 @@
           "y": -128.333
         }
       },
-      "id": 104,
-      "atlasKey": "offer_autamn_set",
-      "discount": "-50%",
-      "haveDescription": false,
-      "descriptionKey": "autamn_set_desc",
-      "trigger": "on_lobby_enter",
-      "global_start": "2026-09-21",
-      "global_end": "2026-09-27",
-      "duration": -1,
       "elements_style": {
         "header": {
           "fill_color": "#FFFFFF",
@@ -8800,7 +8791,16 @@
           "stroke_color": "#6F0104",
           "is_stroke": true
         }
-      }
+      },
+      "id": 104,
+      "atlasKey": "offer_autamn_set",
+      "discount": "-50%",
+      "haveDescription": false,
+      "descriptionKey": "autamn_set_desc",
+      "trigger": "on_lobby_enter",
+      "global_start": "2026-09-21",
+      "global_end": "2026-09-27",
+      "duration": -1
     },
     {
       "key": "room3_set",
@@ -8849,15 +8849,6 @@
           "y": -16.167
         }
       },
-      "id": 105,
-      "atlasKey": "offer_room3_set",
-      "discount": "-75%",
-      "haveDescription": false,
-      "descriptionKey": "room3_set_desc",
-      "trigger": "on_room_start_room3",
-      "global_start": -1,
-      "global_end": -1,
-      "duration": 24,
       "elements_style": {
         "header": {
           "fill_color": "#FFFFFF",
@@ -8884,7 +8875,16 @@
           "stroke_color": "#6F0104",
           "is_stroke": true
         }
-      }
+      },
+      "id": 105,
+      "atlasKey": "offer_room3_set",
+      "discount": "-75%",
+      "haveDescription": false,
+      "descriptionKey": "room3_set_desc",
+      "trigger": "on_room_start_room3",
+      "global_start": -1,
+      "global_end": -1,
+      "duration": 24
     },
     {
       "key": "room4_set",
@@ -8933,15 +8933,6 @@
           "y": -15.667
         }
       },
-      "id": 106,
-      "atlasKey": "offer_room4_set",
-      "discount": "-75%",
-      "haveDescription": false,
-      "descriptionKey": "room4_set_desc",
-      "trigger": "on_room_start_room4",
-      "global_start": -1,
-      "global_end": -1,
-      "duration": 24,
       "elements_style": {
         "header": {
           "fill_color": "#FFFFFF",
@@ -8968,7 +8959,16 @@
           "stroke_color": "#6F0104",
           "is_stroke": true
         }
-      }
+      },
+      "id": 106,
+      "atlasKey": "offer_room4_set",
+      "discount": "-75%",
+      "haveDescription": false,
+      "descriptionKey": "room4_set_desc",
+      "trigger": "on_room_start_room4",
+      "global_start": -1,
+      "global_end": -1,
+      "duration": 24
     },
     {
       "key": "room5_set",
@@ -9017,15 +9017,6 @@
           "y": 36
         }
       },
-      "id": 107,
-      "atlasKey": "offer_room5_set",
-      "discount": "-75%",
-      "haveDescription": false,
-      "descriptionKey": "room5_set_desc",
-      "trigger": "on_room_start_room5",
-      "global_start": -1,
-      "global_end": -1,
-      "duration": 24,
       "elements_style": {
         "header": {
           "fill_color": "#FFFFFF",
@@ -9052,7 +9043,16 @@
           "stroke_color": "#6F0104",
           "is_stroke": true
         }
-      }
+      },
+      "id": 107,
+      "atlasKey": "offer_room5_set",
+      "discount": "-75%",
+      "haveDescription": false,
+      "descriptionKey": "room5_set_desc",
+      "trigger": "on_room_start_room5",
+      "global_start": -1,
+      "global_end": -1,
+      "duration": 24
     },
     {
       "key": "halloween_set",
@@ -9101,15 +9101,6 @@
           "y": 9
         }
       },
-      "id": 108,
-      "atlasKey": "offer_halloween_set",
-      "discount": "-50%",
-      "haveDescription": false,
-      "descriptionKey": "halloween_set_desc",
-      "trigger": "on_lobby_enter",
-      "global_start": "2026-10-24",
-      "global_end": "2026-11-02",
-      "duration": -1,
       "elements_style": {
         "header": {
           "fill_color": "#FFFFFF",
@@ -9135,7 +9126,16 @@
           "fill_color": "#FFFFFF",
           "is_stroke": false
         }
-      }
+      },
+      "id": 108,
+      "atlasKey": "offer_halloween_set",
+      "discount": "-50%",
+      "haveDescription": false,
+      "descriptionKey": "halloween_set_desc",
+      "trigger": "on_lobby_enter",
+      "global_start": "2026-10-24",
+      "global_end": "2026-11-02",
+      "duration": -1
     },
     {
       "key": "room6_set",
@@ -9184,15 +9184,6 @@
           "y": 22.167
         }
       },
-      "id": 109,
-      "atlasKey": "offer_room6_set",
-      "discount": "-75%",
-      "haveDescription": false,
-      "descriptionKey": "room6_set_desc",
-      "trigger": "on_room_start_room6",
-      "global_start": -1,
-      "global_end": -1,
-      "duration": 24,
       "elements_style": {
         "header": {
           "fill_color": "#FFFFFF",
@@ -9219,7 +9210,16 @@
           "stroke_color": "#6F0104",
           "is_stroke": true
         }
-      }
+      },
+      "id": 109,
+      "atlasKey": "offer_room6_set",
+      "discount": "-75%",
+      "haveDescription": false,
+      "descriptionKey": "room6_set_desc",
+      "trigger": "on_room_start_room6",
+      "global_start": -1,
+      "global_end": -1,
+      "duration": 24
     },
     {
       "key": "room7_set",
@@ -9268,15 +9268,6 @@
           "y": 3.167
         }
       },
-      "id": 110,
-      "atlasKey": "offer_room7_set",
-      "discount": "-75%",
-      "haveDescription": false,
-      "descriptionKey": "room7_set_desc",
-      "trigger": "on_room_start_room7",
-      "global_start": -1,
-      "global_end": -1,
-      "duration": 24,
       "elements_style": {
         "header": {
           "fill_color": "#FFFFFF",
@@ -9302,7 +9293,16 @@
           "fill_color": "#FFFFFF",
           "is_stroke": false
         }
-      }
+      },
+      "id": 110,
+      "atlasKey": "offer_room7_set",
+      "discount": "-75%",
+      "haveDescription": false,
+      "descriptionKey": "room7_set_desc",
+      "trigger": "on_room_start_room7",
+      "global_start": -1,
+      "global_end": -1,
+      "duration": 24
     },
     {
       "key": "room8_set",
@@ -9351,15 +9351,6 @@
           "y": 13
         }
       },
-      "id": 111,
-      "atlasKey": "offer_room8_set",
-      "discount": "-75%",
-      "haveDescription": false,
-      "descriptionKey": "room8_set_desc",
-      "trigger": "on_room_start_room8",
-      "global_start": -1,
-      "global_end": -1,
-      "duration": 24,
       "elements_style": {
         "header": {
           "fill_color": "#FFFFFF",
@@ -9386,7 +9377,16 @@
           "stroke_color": "#6F0104",
           "is_stroke": true
         }
-      }
+      },
+      "id": 111,
+      "atlasKey": "offer_room8_set",
+      "discount": "-75%",
+      "haveDescription": false,
+      "descriptionKey": "room8_set_desc",
+      "trigger": "on_room_start_room8",
+      "global_start": -1,
+      "global_end": -1,
+      "duration": 24
     },
     {
       "key": "room9_set",
@@ -9435,15 +9435,6 @@
           "y": 18.833
         }
       },
-      "id": 112,
-      "atlasKey": "offer_room9_set",
-      "discount": "-75%",
-      "haveDescription": false,
-      "descriptionKey": "room9_set_desc",
-      "trigger": "on_room_start_room9",
-      "global_start": -1,
-      "global_end": -1,
-      "duration": 24,
       "elements_style": {
         "header": {
           "fill_color": "#FFFFFF",
@@ -9469,7 +9460,16 @@
           "fill_color": "#FFFFFF",
           "is_stroke": false
         }
-      }
+      },
+      "id": 112,
+      "atlasKey": "offer_room9_set",
+      "discount": "-75%",
+      "haveDescription": false,
+      "descriptionKey": "room9_set_desc",
+      "trigger": "on_room_start_room9",
+      "global_start": -1,
+      "global_end": -1,
+      "duration": 24
     },
     {
       "key": "room10_set",
@@ -9518,15 +9518,6 @@
           "y": 41
         }
       },
-      "id": 113,
-      "atlasKey": "offer_room10_set",
-      "discount": "-75%",
-      "haveDescription": false,
-      "descriptionKey": "room10_set_desc",
-      "trigger": "on_room_start_room10",
-      "global_start": -1,
-      "global_end": -1,
-      "duration": 24,
       "elements_style": {
         "header": {
           "fill_color": "#FFFFFF",
@@ -9552,7 +9543,16 @@
           "fill_color": "#FFFFFF",
           "is_stroke": false
         }
-      }
+      },
+      "id": 113,
+      "atlasKey": "offer_room10_set",
+      "discount": "-75%",
+      "haveDescription": false,
+      "descriptionKey": "room10_set_desc",
+      "trigger": "on_room_start_room10",
+      "global_start": -1,
+      "global_end": -1,
+      "duration": 24
     }
   ],
   "events": [
