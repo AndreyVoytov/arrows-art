@@ -1,0 +1,116 @@
+{
+  "frames": {
+    "buy_button": {
+      "frame": {
+        "x": 863,
+        "y": 0,
+        "w": 285,
+        "h": 123
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 285,
+        "h": 123
+      },
+      "sourceSize": {
+        "w": 285,
+        "h": 123
+      }
+    },
+    "close_button": {
+      "frame": {
+        "x": 1150,
+        "y": 0,
+        "w": 81,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 81,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 81,
+        "h": 96
+      }
+    },
+    "discount_label": {
+      "frame": {
+        "x": 642,
+        "y": 0,
+        "w": 219,
+        "h": 215
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 219,
+        "h": 215
+      },
+      "sourceSize": {
+        "w": 219,
+        "h": 215
+      }
+    },
+    "icon": {
+      "frame": {
+        "x": 1233,
+        "y": 0,
+        "w": 88,
+        "h": 84
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 88,
+        "h": 84
+      },
+      "sourceSize": {
+        "w": 88,
+        "h": 84
+      }
+    },
+    "panel": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 913
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 640,
+        "h": 913
+      },
+      "sourceSize": {
+        "w": 640,
+        "h": 913
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "offer_no_ads_57f8a5ef.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 913
+    },
+    "scale": "1",
+    "sourceDir": "images/offer/no_ads"
+  }
+}

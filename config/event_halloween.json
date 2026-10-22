@@ -1,8 +1,6 @@
 {
   "key": "event_halloween",
-  "type": "event",
   "hasRepair": false,
-  "variantCount": 1,
   "background": "event_halloween_background",
   "atlases": [
     "event_halloween",
@@ -14,9 +12,7 @@
     "characters_annie",
     "dialog_decor_event_halloween"
   ],
-  "width": 720,
-  "height": 1280,
-  "sourcePsdRevision": "c5ff7af165a826e2fc8bc92f3a5866e6e037be54de82d2d47e5b25c3ae8cb91d",
+  "sourcePsdRevision": "6cf71f4466c69b9d550ae90ec36cb18104487f6de101ec7a1d78592682a3f615",
   "content": {
     "actionPointOrder": [
       "event_halloween_festival_arch",
@@ -51,8 +47,8 @@
       "multiobjects": [
         "event_halloween_festival_arch"
       ],
-      "x": 497.5,
-      "y": 701.0
+      "x": 470.5,
+      "y": 1086.5
     },
     {
       "key": "event_halloween_tree_lantern",
@@ -61,8 +57,8 @@
       "multiobjects": [
         "event_halloween_tree_lantern"
       ],
-      "x": 173.5,
-      "y": 108.0
+      "x": 210.5,
+      "y": 609.5
     },
     {
       "key": "event_halloween_arch_pennants",
@@ -71,8 +67,8 @@
       "multiobjects": [
         "event_halloween_arch_pennants"
       ],
-      "x": 516.0,
-      "y": 263.0
+      "x": 486.0,
+      "y": 734.0
     },
     {
       "key": "event_halloween_cider_cart",
@@ -81,8 +77,8 @@
       "multiobjects": [
         "event_halloween_cider_cart"
       ],
-      "x": 237.0,
-      "y": 703.5
+      "x": 261.0,
+      "y": 1088.5
     },
     {
       "key": "event_halloween_cider_service",
@@ -91,8 +87,8 @@
       "multiobjects": [
         "event_halloween_cider_service"
       ],
-      "x": 157.0,
-      "y": 501.5
+      "x": 196.5,
+      "y": 926.0
     },
     {
       "key": "event_halloween_candy_apples",
@@ -101,8 +97,8 @@
       "multiobjects": [
         "event_halloween_candy_apples"
       ],
-      "x": 297.0,
-      "y": 500.5
+      "x": 309.5,
+      "y": 925.0
     },
     {
       "key": "event_halloween_bat_mobile",
@@ -111,8 +107,8 @@
       "multiobjects": [
         "event_halloween_bat_mobile"
       ],
-      "x": 233.5,
-      "y": 370.0
+      "x": 258.5,
+      "y": 820.0
     },
     {
       "key": "event_halloween_ghost_stage",
@@ -121,8 +117,8 @@
       "multiobjects": [
         "event_halloween_ghost_stage"
       ],
-      "x": 554.5,
-      "y": 678.0
+      "x": 516.5,
+      "y": 1067.5
     },
     {
       "key": "event_halloween_ghost_puppet",
@@ -131,8 +127,8 @@
       "multiobjects": [
         "event_halloween_ghost_puppet"
       ],
-      "x": 521.0,
-      "y": 521.5
+      "x": 489.0,
+      "y": 942.0
     },
     {
       "key": "event_halloween_witch_broom",
@@ -141,8 +137,8 @@
       "multiobjects": [
         "event_halloween_witch_broom"
       ],
-      "x": 660.0,
-      "y": 677.5
+      "x": 601.5,
+      "y": 1067.5
     },
     {
       "key": "event_halloween_pumpkin_table",
@@ -151,8 +147,8 @@
       "multiobjects": [
         "event_halloween_pumpkin_table"
       ],
-      "x": 386.0,
-      "y": 931.5
+      "x": 381.0,
+      "y": 1271.5
     },
     {
       "key": "event_halloween_pumpkin_smile",
@@ -161,8 +157,8 @@
       "multiobjects": [
         "event_halloween_pumpkin_smile"
       ],
-      "x": 251.0,
-      "y": 708.5
+      "x": 272.5,
+      "y": 1092.5
     },
     {
       "key": "event_halloween_pumpkin_tall",
@@ -171,8 +167,8 @@
       "multiobjects": [
         "event_halloween_pumpkin_tall"
       ],
-      "x": 386.0,
-      "y": 713.0
+      "x": 381.0,
+      "y": 1095.5
     },
     {
       "key": "event_halloween_pumpkin_white",
@@ -181,8 +177,8 @@
       "multiobjects": [
         "event_halloween_pumpkin_white"
       ],
-      "x": 486.5,
-      "y": 731.0
+      "x": 461.5,
+      "y": 1110.0
     },
     {
       "key": "event_halloween_hay_bench",
@@ -191,8 +187,8 @@
       "multiobjects": [
         "event_halloween_hay_bench"
       ],
-      "x": 184.5,
-      "y": 984.5
+      "x": 219.0,
+      "y": 1314.0
     },
     {
       "key": "event_halloween_bench_plaid",
@@ -201,8 +197,8 @@
       "multiobjects": [
         "event_halloween_bench_plaid"
       ],
-      "x": 211.5,
-      "y": 961.5
+      "x": 240.5,
+      "y": 1295.5
     },
     {
       "key": "event_halloween_apple_tub",
@@ -211,8 +207,8 @@
       "multiobjects": [
         "event_halloween_apple_tub"
       ],
-      "x": 608.0,
-      "y": 1019.5
+      "x": 559.5,
+      "y": 1342.0
     },
     {
       "key": "event_halloween_bobbing_apples",
@@ -221,8 +217,8 @@
       "multiobjects": [
         "event_halloween_bobbing_apples"
       ],
-      "x": 634.0,
-      "y": 826.5
+      "x": 580.0,
+      "y": 1187.0
     },
     {
       "key": "event_halloween_floor_lantern",
@@ -231,8 +227,8 @@
       "multiobjects": [
         "event_halloween_floor_lantern"
       ],
-      "x": 413.5,
-      "y": 969.5
+      "x": 403.0,
+      "y": 1302.0
     },
     {
       "key": "event_halloween_pay_dialogue1",
@@ -241,8 +237,8 @@
       "multiobject": "",
       "price": 0,
       "priceType": "coins",
-      "x": 609.333,
-      "y": 652.0,
+      "x": 560.333,
+      "y": 1046.667,
       "phase": "placement"
     },
     {
@@ -252,8 +248,8 @@
       "multiobject": "",
       "price": 0,
       "priceType": "coins",
-      "x": 142.667,
-      "y": 651.333,
+      "x": 185.333,
+      "y": 1046.333,
       "phase": "placement"
     },
     {
@@ -263,8 +259,8 @@
       "multiobject": "",
       "price": 0,
       "priceType": "coins",
-      "x": 118.0,
-      "y": 927.333,
+      "x": 165.667,
+      "y": 1268.0,
       "phase": "placement"
     }
   ],
@@ -392,7 +388,8 @@
       "key": "event_halloween_pumpkin_white",
       "parts": [
         "event_halloween_pumpkin_white_shadow",
-        "event_halloween_pumpkin_white"
+        "event_halloween_pumpkin_white",
+        "event_halloween_pumpkin_white_layer_5"
       ],
       "price": 1,
       "priceType": "coins"
@@ -450,168 +447,168 @@
       "key": "event_halloween_festival_arch_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 497.5,
-      "y": 701.0,
+      "x": 470.5,
+      "y": 1086.5,
       "angle": 180
     },
     {
       "key": "event_halloween_festival_arch",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 480.0,
-      "y": 415.0,
+      "x": 456.5,
+      "y": 856.5,
       "angle": 180
     },
     {
       "key": "event_halloween_tree_lantern",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 173.5,
-      "y": 108.0,
+      "x": 210.5,
+      "y": 609.5,
       "angle": 180
     },
     {
       "key": "event_halloween_arch_pennants_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 516.0,
-      "y": 263.0,
+      "x": 486.0,
+      "y": 734.0,
       "angle": 180
     },
     {
       "key": "event_halloween_arch_pennants",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 510.0,
-      "y": 210.5,
+      "x": 481.0,
+      "y": 692.0,
       "angle": 180
     },
     {
       "key": "event_halloween_cider_cart_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 237.0,
-      "y": 703.5,
+      "x": 261.0,
+      "y": 1088.5,
       "angle": 180
     },
     {
       "key": "event_halloween_cider_cart",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 194.5,
-      "y": 453.5,
+      "x": 226.0,
+      "y": 887.0,
       "angle": 180
     },
     {
       "key": "event_halloween_cider_service_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 157.0,
-      "y": 501.5,
+      "x": 196.5,
+      "y": 926.0,
       "angle": 180
     },
     {
       "key": "event_halloween_cider_service",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 150.0,
-      "y": 436.5,
+      "x": 191.0,
+      "y": 874.0,
       "angle": 180
     },
     {
       "key": "event_halloween_candy_apples_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 297.0,
-      "y": 500.5,
+      "x": 309.5,
+      "y": 925.0,
       "angle": 180
     },
     {
       "key": "event_halloween_candy_apples",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 292.5,
-      "y": 459.0,
+      "x": 305.0,
+      "y": 891.0,
       "angle": 180
     },
     {
       "key": "event_halloween_bat_mobile",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 233.5,
-      "y": 370.0,
+      "x": 258.5,
+      "y": 820.0,
       "angle": 180
     },
     {
       "key": "event_halloween_ghost_stage_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 554.5,
-      "y": 678.0,
+      "x": 516.5,
+      "y": 1067.5,
       "angle": 180
     },
     {
       "key": "event_halloween_ghost_stage",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 515.0,
-      "y": 452.0,
+      "x": 484.5,
+      "y": 886.0,
       "angle": 180
     },
     {
       "key": "event_halloween_ghost_puppet_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 521.0,
-      "y": 521.5,
+      "x": 489.0,
+      "y": 942.0,
       "angle": 180
     },
     {
       "key": "event_halloween_ghost_puppet",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 513.0,
-      "y": 453.5,
+      "x": 482.0,
+      "y": 887.5,
       "angle": 180
     },
     {
       "key": "event_halloween_witch_broom_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 660.0,
-      "y": 677.5,
+      "x": 601.5,
+      "y": 1067.5,
       "angle": 180
     },
     {
       "key": "event_halloween_witch_broom",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 658.5,
-      "y": 552.0,
+      "x": 601.0,
+      "y": 966.0,
       "angle": 180
     },
     {
       "key": "event_halloween_purple_present_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 604.0,
-      "y": 662.0,
+      "x": 556.0,
+      "y": 1055.0,
       "angle": 180
     },
     {
       "key": "event_halloween_purple_present",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 609.0,
-      "y": 652.5,
+      "x": 560.0,
+      "y": 1047.5,
       "angle": 180
     },
     {
       "key": "event_halloween_pumpkin_table_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 386.0,
-      "y": 931.5,
+      "x": 381.0,
+      "y": 1271.5,
       "angle": 180
     },
     {
@@ -619,167 +616,175 @@
       "type": "decor",
       "atlas_name": "event_halloween",
       "x": 360.0,
-      "y": 764.5,
+      "y": 1137.5,
       "angle": 180
     },
     {
       "key": "event_halloween_pumpkin_smile_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 251.0,
-      "y": 708.5,
+      "x": 272.5,
+      "y": 1092.5,
       "angle": 180
     },
     {
       "key": "event_halloween_pumpkin_smile",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 242.5,
-      "y": 629.5,
+      "x": 265.0,
+      "y": 1028.0,
       "angle": 180
     },
     {
       "key": "event_halloween_pumpkin_tall_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 386.0,
-      "y": 713.0,
+      "x": 381.0,
+      "y": 1095.5,
       "angle": 180
     },
     {
       "key": "event_halloween_pumpkin_tall",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 375.5,
-      "y": 615.0,
+      "x": 372.5,
+      "y": 1017.0,
       "angle": 180
     },
     {
       "key": "event_halloween_pumpkin_white_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 486.5,
-      "y": 731.0,
+      "x": 461.5,
+      "y": 1110.0,
       "angle": 180
     },
     {
       "key": "event_halloween_pumpkin_white",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 480.5,
-      "y": 672.0,
+      "x": 457.0,
+      "y": 1062.5,
+      "angle": 180
+    },
+    {
+      "key": "event_halloween_pumpkin_white_layer_5",
+      "type": "decor",
+      "atlas_name": "event_halloween",
+      "x": 432.5,
+      "y": 1062.0,
       "angle": 180
     },
     {
       "key": "event_halloween_hay_bench_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 184.5,
-      "y": 984.5,
+      "x": 219.0,
+      "y": 1314.0,
       "angle": 180
     },
     {
       "key": "event_halloween_hay_bench",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 172.0,
-      "y": 864.5,
+      "x": 207.5,
+      "y": 1218.0,
       "angle": 180
     },
     {
       "key": "event_halloween_bench_plaid_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 211.5,
-      "y": 961.5,
+      "x": 240.5,
+      "y": 1295.5,
       "angle": 180
     },
     {
       "key": "event_halloween_bench_plaid",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 176.5,
-      "y": 867.5,
+      "x": 212.5,
+      "y": 1219.5,
       "angle": 180
     },
     {
       "key": "event_halloween_apple_tub_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 608.0,
-      "y": 1019.5,
+      "x": 559.5,
+      "y": 1342.0,
       "angle": 180
     },
     {
       "key": "event_halloween_apple_tub",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 598.5,
-      "y": 886.5,
+      "x": 577.5,
+      "y": 1235.0,
       "angle": 180
     },
     {
       "key": "event_halloween_bobbing_apples_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 634.0,
-      "y": 826.5,
+      "x": 580.0,
+      "y": 1187.0,
       "angle": 180
     },
     {
       "key": "event_halloween_bobbing_apples",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 630.0,
-      "y": 794.5,
+      "x": 577.0,
+      "y": 1161.0,
       "angle": 180
     },
     {
       "key": "event_halloween_floor_lantern_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 413.5,
-      "y": 969.5,
+      "x": 403.0,
+      "y": 1302.0,
       "angle": 180
     },
     {
       "key": "event_halloween_floor_lantern",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 402.5,
-      "y": 871.5,
+      "x": 394.0,
+      "y": 1222.5,
       "angle": 180
     },
     {
       "key": "event_halloween_candy_cauldron_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 65.0,
-      "y": 967.5,
+      "x": 122.5,
+      "y": 1301.0,
       "angle": 180
     },
     {
       "key": "event_halloween_candy_cauldron",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 116.5,
-      "y": 928.0,
+      "x": 164.0,
+      "y": 1268.0,
       "angle": 180
     },
     {
       "key": "event_halloween_pumpkin_favor_shadow",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 147.0,
-      "y": 983.0,
+      "x": 188.5,
+      "y": 1313.0,
       "angle": 180
     },
     {
       "key": "event_halloween_pumpkin_favor",
       "type": "decor",
       "atlas_name": "event_halloween",
-      "x": 141.5,
-      "y": 655.5,
+      "x": 184.5,
+      "y": 1050.0,
       "angle": 180
     }
   ],
@@ -801,7 +806,8 @@
           "char_state": "mary_smile",
           "position": "right",
           "text_key": "event_halloween_d1_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d1_r2",
@@ -809,7 +815,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "event_halloween_d1_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d1_r3",
@@ -817,7 +824,8 @@
           "char_state": "mary_neutral",
           "position": "right",
           "text_key": "event_halloween_d1_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d1_r4",
@@ -825,7 +833,8 @@
           "char_state": "alex_joy",
           "position": "left",
           "text_key": "event_halloween_d1_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d1_r5",
@@ -833,7 +842,8 @@
           "char_state": "anna_smile",
           "position": "left",
           "text_key": "event_halloween_d1_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d1_r6",
@@ -841,7 +851,8 @@
           "char_state": "henry_smile",
           "position": "right",
           "text_key": "event_halloween_d1_r6_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d1_r7",
@@ -849,7 +860,8 @@
           "char_state": "mary_smile",
           "position": "right",
           "text_key": "event_halloween_d1_r7_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d1_r8",
@@ -857,7 +869,8 @@
           "char_state": "anna_happy",
           "position": "left",
           "text_key": "event_halloween_d1_r8_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": ""
@@ -879,7 +892,8 @@
           "char_state": "alex_joy",
           "position": "left",
           "text_key": "event_halloween_d2_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d2_r2",
@@ -887,7 +901,8 @@
           "char_state": "henry_smile",
           "position": "right",
           "text_key": "event_halloween_d2_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d2_r3",
@@ -895,7 +910,8 @@
           "char_state": "anna_smile",
           "position": "left",
           "text_key": "event_halloween_d2_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d2_r4",
@@ -903,7 +919,8 @@
           "char_state": "mary_neutral",
           "position": "right",
           "text_key": "event_halloween_d2_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d2_r5",
@@ -911,7 +928,8 @@
           "char_state": "henry_embarrassed",
           "position": "right",
           "text_key": "event_halloween_d2_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": ""
@@ -933,7 +951,8 @@
           "char_state": "robert_neutral",
           "position": "right",
           "text_key": "event_halloween_d3_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d3_r2",
@@ -941,7 +960,8 @@
           "char_state": "mary_neutral",
           "position": "left",
           "text_key": "event_halloween_d3_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d3_r3",
@@ -949,7 +969,8 @@
           "char_state": "robert_arrogant",
           "position": "right",
           "text_key": "event_halloween_d3_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d3_r4",
@@ -957,7 +978,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "event_halloween_d3_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d3_r5",
@@ -965,7 +987,8 @@
           "char_state": "robert_angry",
           "position": "right",
           "text_key": "event_halloween_d3_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d3_r6",
@@ -973,7 +996,8 @@
           "char_state": "anna_angry",
           "position": "left",
           "text_key": "event_halloween_d3_r6_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d3_r7",
@@ -981,7 +1005,8 @@
           "char_state": "mary_neutral",
           "position": "left",
           "text_key": "event_halloween_d3_r7_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d3_r8",
@@ -989,7 +1014,8 @@
           "char_state": "robert_arrogant",
           "position": "right",
           "text_key": "event_halloween_d3_r8_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": ""
@@ -1011,7 +1037,8 @@
           "char_state": "annie_scare",
           "position": "right",
           "text_key": "event_halloween_d4_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d4_r2",
@@ -1019,7 +1046,8 @@
           "char_state": "alex_joy",
           "position": "left",
           "text_key": "event_halloween_d4_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d4_r3",
@@ -1027,7 +1055,8 @@
           "char_state": "annie_neutral",
           "position": "right",
           "text_key": "event_halloween_d4_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d4_r4",
@@ -1035,7 +1064,8 @@
           "char_state": "alex_neutral",
           "position": "left",
           "text_key": "event_halloween_d4_r4_loc",
-          "decor_key": "event_halloween_moon_crypt_tablet"
+          "decor_key": "event_halloween_moon_crypt_tablet",
+          "dialog_decor_atlas": "dialog_decor_event_halloween"
         },
         {
           "id": "event_halloween_d4_r5",
@@ -1043,7 +1073,8 @@
           "char_state": "annie_smile",
           "position": "right",
           "text_key": "event_halloween_d4_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d4_r6",
@@ -1051,7 +1082,8 @@
           "char_state": "alex_joy",
           "position": "left",
           "text_key": "event_halloween_d4_r6_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d4_r7",
@@ -1059,7 +1091,8 @@
           "char_state": "annie_neutral",
           "position": "right",
           "text_key": "event_halloween_d4_r7_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d4_r8",
@@ -1067,7 +1100,8 @@
           "char_state": "alex_joy",
           "position": "left",
           "text_key": "event_halloween_d4_r8_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": ""
@@ -1089,7 +1123,8 @@
           "char_state": "annie_smile",
           "position": "right",
           "text_key": "event_halloween_d5_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d5_r2",
@@ -1097,7 +1132,8 @@
           "char_state": "alex_joy",
           "position": "left",
           "text_key": "event_halloween_d5_r2_loc",
-          "decor_key": "event_halloween_ghost_puppet"
+          "decor_key": "event_halloween_ghost_puppet",
+          "dialog_decor_atlas": "dialog_decor_event_halloween"
         },
         {
           "id": "event_halloween_d5_r3",
@@ -1105,7 +1141,8 @@
           "char_state": "annie_smile",
           "position": "right",
           "text_key": "event_halloween_d5_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d5_r4",
@@ -1113,7 +1150,8 @@
           "char_state": "henry_neutral",
           "position": "left",
           "text_key": "event_halloween_d5_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d5_r5",
@@ -1121,7 +1159,8 @@
           "char_state": "alex_joy",
           "position": "left",
           "text_key": "event_halloween_d5_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d5_r6",
@@ -1129,7 +1168,8 @@
           "char_state": "henry_smile",
           "position": "left",
           "text_key": "event_halloween_d5_r6_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d5_r7",
@@ -1137,7 +1177,8 @@
           "char_state": "annie_smile",
           "position": "right",
           "text_key": "event_halloween_d5_r7_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": ""
@@ -1159,7 +1200,8 @@
           "char_state": "annie_neutral",
           "position": "right",
           "text_key": "event_halloween_d6_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d6_r2",
@@ -1167,7 +1209,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "event_halloween_d6_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d6_r3",
@@ -1175,7 +1218,8 @@
           "char_state": "alex_neutral",
           "position": "left",
           "text_key": "event_halloween_d6_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d6_r4",
@@ -1183,7 +1227,8 @@
           "char_state": "anna_angry",
           "position": "left",
           "text_key": "event_halloween_d6_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d6_r5",
@@ -1191,7 +1236,8 @@
           "char_state": "annie_angry",
           "position": "right",
           "text_key": "event_halloween_d6_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d6_r6",
@@ -1199,7 +1245,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "event_halloween_d6_r6_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d6_r7",
@@ -1207,7 +1254,8 @@
           "char_state": "alex_angry",
           "position": "left",
           "text_key": "event_halloween_d6_r7_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d6_r8",
@@ -1215,7 +1263,8 @@
           "char_state": "anna_angry",
           "position": "left",
           "text_key": "event_halloween_d6_r8_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d6_r9",
@@ -1223,7 +1272,8 @@
           "char_state": "annie_sad",
           "position": "right",
           "text_key": "event_halloween_d6_r9_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": ""
@@ -1245,7 +1295,8 @@
           "char_state": "alex_sad",
           "position": "left",
           "text_key": "event_halloween_d7_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d7_r2",
@@ -1253,7 +1304,8 @@
           "char_state": "annie_neutral",
           "position": "right",
           "text_key": "event_halloween_d7_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d7_r3",
@@ -1261,7 +1313,8 @@
           "char_state": "alex_angry",
           "position": "left",
           "text_key": "event_halloween_d7_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d7_r4",
@@ -1269,7 +1322,8 @@
           "char_state": "annie_smile",
           "position": "right",
           "text_key": "event_halloween_d7_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d7_r5",
@@ -1277,7 +1331,8 @@
           "char_state": "alex_joy",
           "position": "left",
           "text_key": "event_halloween_d7_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d7_r6",
@@ -1285,7 +1340,8 @@
           "char_state": "annie_smile",
           "position": "right",
           "text_key": "event_halloween_d7_r6_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": ""
@@ -1307,7 +1363,8 @@
           "char_state": "alex_joy",
           "position": "left",
           "text_key": "event_halloween_d8_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d8_r2",
@@ -1315,7 +1372,8 @@
           "char_state": "annie_smile",
           "position": "right",
           "text_key": "event_halloween_d8_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d8_r3",
@@ -1323,7 +1381,8 @@
           "char_state": "alex_neutral",
           "position": "left",
           "text_key": "event_halloween_d8_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d8_r4",
@@ -1331,7 +1390,8 @@
           "char_state": "annie_sad",
           "position": "right",
           "text_key": "event_halloween_d8_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d8_r5",
@@ -1339,7 +1399,8 @@
           "char_state": "alex_sad",
           "position": "left",
           "text_key": "event_halloween_d8_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d8_r6",
@@ -1347,7 +1408,8 @@
           "char_state": "annie_neutral",
           "position": "right",
           "text_key": "event_halloween_d8_r6_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d8_r7",
@@ -1355,7 +1417,8 @@
           "char_state": "alex_neutral",
           "position": "left",
           "text_key": "event_halloween_d8_r7_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": ""
@@ -1377,7 +1440,8 @@
           "char_state": "mary_neutral",
           "position": "right",
           "text_key": "event_halloween_d9_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d9_r2",
@@ -1385,7 +1449,8 @@
           "char_state": "anna_sad",
           "position": "left",
           "text_key": "event_halloween_d9_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d9_r3",
@@ -1393,7 +1458,8 @@
           "char_state": "mary_neutral",
           "position": "right",
           "text_key": "event_halloween_d9_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d9_r4",
@@ -1401,7 +1467,8 @@
           "char_state": "anna_embarrassed",
           "position": "left",
           "text_key": "event_halloween_d9_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d9_r5",
@@ -1409,7 +1476,8 @@
           "char_state": "mary_smile",
           "position": "right",
           "text_key": "event_halloween_d9_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d9_r6",
@@ -1417,7 +1485,8 @@
           "char_state": "anna_sad",
           "position": "left",
           "text_key": "event_halloween_d9_r6_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d9_r7",
@@ -1425,7 +1494,8 @@
           "char_state": "mary_neutral",
           "position": "right",
           "text_key": "event_halloween_d9_r7_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": ""
@@ -1447,7 +1517,8 @@
           "char_state": "henry_smile",
           "position": "right",
           "text_key": "event_halloween_d10_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d10_r2",
@@ -1455,7 +1526,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "event_halloween_d10_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d10_r3",
@@ -1463,7 +1535,8 @@
           "char_state": "henry_neutral",
           "position": "right",
           "text_key": "event_halloween_d10_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d10_r4",
@@ -1471,7 +1544,8 @@
           "char_state": "anna_embarrassed",
           "position": "left",
           "text_key": "event_halloween_d10_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d10_r5",
@@ -1479,7 +1553,8 @@
           "char_state": "henry_smile",
           "position": "right",
           "text_key": "event_halloween_d10_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d10_r6",
@@ -1487,7 +1562,8 @@
           "char_state": "anna_smile",
           "position": "left",
           "text_key": "event_halloween_d10_r6_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d10_r7",
@@ -1495,7 +1571,8 @@
           "char_state": "henry_neutral",
           "position": "right",
           "text_key": "event_halloween_d10_r7_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": ""
@@ -1517,7 +1594,8 @@
           "char_state": "alex_joy",
           "position": "left",
           "text_key": "event_halloween_pay_dialogue1_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": "diamonds"
@@ -1539,7 +1617,8 @@
           "char_state": "alex_joy",
           "position": "left",
           "text_key": "event_halloween_d11_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d11_r2",
@@ -1547,7 +1626,8 @@
           "char_state": "annie_smile",
           "position": "right",
           "text_key": "event_halloween_d11_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d11_r3",
@@ -1555,7 +1635,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "event_halloween_d11_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d11_r4",
@@ -1563,7 +1644,8 @@
           "char_state": "alex_sad",
           "position": "left",
           "text_key": "event_halloween_d11_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d11_r5",
@@ -1571,7 +1653,8 @@
           "char_state": "anna_sad",
           "position": "left",
           "text_key": "event_halloween_d11_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d11_r6",
@@ -1579,7 +1662,8 @@
           "char_state": "annie_neutral",
           "position": "right",
           "text_key": "event_halloween_d11_r6_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d11_r7",
@@ -1587,7 +1671,8 @@
           "char_state": "anna_smile",
           "position": "left",
           "text_key": "event_halloween_d11_r7_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d11_r8",
@@ -1595,7 +1680,8 @@
           "char_state": "alex_joy",
           "position": "left",
           "text_key": "event_halloween_d11_r8_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": ""
@@ -1617,7 +1703,8 @@
           "char_state": "alex_joy",
           "position": "left",
           "text_key": "event_halloween_pay_dialogue2_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": "bulb"
@@ -1639,7 +1726,8 @@
           "char_state": "henry_smile",
           "position": "right",
           "text_key": "event_halloween_pay_dialogue3_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": "wand"
@@ -1661,7 +1749,8 @@
           "char_state": "robert_neutral",
           "position": "right",
           "text_key": "event_halloween_d12_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d12_r2",
@@ -1669,7 +1758,8 @@
           "char_state": "annie_sad",
           "position": "left",
           "text_key": "event_halloween_d12_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d12_r3",
@@ -1677,7 +1767,8 @@
           "char_state": "anna_embarrassed",
           "position": "left",
           "text_key": "event_halloween_d12_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d12_r4",
@@ -1685,7 +1776,8 @@
           "char_state": "robert_surprised",
           "position": "right",
           "text_key": "event_halloween_d12_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d12_r5",
@@ -1693,7 +1785,8 @@
           "char_state": "annie_neutral",
           "position": "left",
           "text_key": "event_halloween_d12_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d12_r6",
@@ -1701,7 +1794,8 @@
           "char_state": "robert_neutral",
           "position": "right",
           "text_key": "event_halloween_d12_r6_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d12_r7",
@@ -1709,7 +1803,8 @@
           "char_state": "annie_sad",
           "position": "left",
           "text_key": "event_halloween_d12_r7_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d12_r8",
@@ -1717,7 +1812,8 @@
           "char_state": "robert_surprised",
           "position": "right",
           "text_key": "event_halloween_d12_r8_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d12_r9",
@@ -1725,7 +1821,8 @@
           "char_state": "annie_neutral",
           "position": "left",
           "text_key": "event_halloween_d12_r9_loc",
-          "decor_key": "event_halloween_theater_dream"
+          "decor_key": "event_halloween_theater_dream",
+          "dialog_decor_atlas": "dialog_decor_event_halloween"
         },
         {
           "id": "event_halloween_d12_r10",
@@ -1733,7 +1830,8 @@
           "char_state": "robert_smile",
           "position": "right",
           "text_key": "event_halloween_d12_r10_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": ""
@@ -1755,7 +1853,8 @@
           "char_state": "annie_scare",
           "position": "left",
           "text_key": "event_halloween_d15_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d15_r2",
@@ -1763,7 +1862,8 @@
           "char_state": "alex_joy",
           "position": "left",
           "text_key": "event_halloween_d15_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d15_r3",
@@ -1771,7 +1871,8 @@
           "char_state": "henry_smile",
           "position": "right",
           "text_key": "event_halloween_d15_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d15_r4",
@@ -1779,7 +1880,8 @@
           "char_state": "robert_smile",
           "position": "right",
           "text_key": "event_halloween_d15_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d15_r5",
@@ -1787,7 +1889,8 @@
           "char_state": "annie_smile",
           "position": "left",
           "text_key": "event_halloween_d15_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d15_r6",
@@ -1795,7 +1898,8 @@
           "char_state": "robert_smile",
           "position": "right",
           "text_key": "event_halloween_d15_r6_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d15_r7",
@@ -1803,7 +1907,8 @@
           "char_state": "anna_happy",
           "position": "right",
           "text_key": "event_halloween_d15_r7_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "event_halloween_d15_r8",
@@ -1811,10 +1916,14 @@
           "char_state": "alex_joy",
           "position": "left",
           "text_key": "event_halloween_d15_r8_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": ""
     }
-  ]
+  ],
+  "backgroundAtlasKey": "event_halloween",
+  "award": 0,
+  "allPartsOrderComment": "Порядок слоёв по z: от заднего плана к переднему; меняется в decor-viewer."
 }

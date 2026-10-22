@@ -1,6 +1,7 @@
 {
   "key": "room3",
   "background": "room3_room_bg",
+  "backgroundAtlasKey": "rooms_room3-repair",
   "atlases": [
     "rooms_room3-repair",
     "rooms_room3-surfaces",
@@ -726,7 +727,6 @@
     }
   ],
   "allPartsOrderComment": "Порядок слоёв по z: от заднего плана к переднему; меняется в decor-viewer.",
-  "depthOrderEdited": true,
   "allParts": [
     {
       "key": "room3_walls_A_2",
@@ -1121,6 +1121,8 @@
       "angle": 0
     }
   ],
+  "award": 30,
+  "hasRepair": true,
   "sourcePsdRevision": "fcac85e4cc4fd99a045d1ad6adb282830e7fc33f7c3946ab06f4aee0548c6fd9",
   "dialogs": [
     {
@@ -1140,7 +1142,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "room3_d1_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d1_r2",
@@ -1148,7 +1151,8 @@
           "char_state": "anna_sad",
           "position": "left",
           "text_key": "room3_d1_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d1_r3",
@@ -1156,7 +1160,8 @@
           "char_state": "alex_neutral",
           "position": "right",
           "text_key": "room3_d1_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d1_r4",
@@ -1164,7 +1169,8 @@
           "char_state": "anna_fear",
           "position": "left",
           "text_key": "room3_d1_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d1_r5",
@@ -1172,7 +1178,8 @@
           "char_state": "alex_neutral",
           "position": "right",
           "text_key": "room3_d1_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": ""
@@ -1194,7 +1201,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "room3_d2_r1_loc",
-          "decor_key": "room3_rubber_duck"
+          "decor_key": "room3_rubber_duck",
+          "dialog_decor_atlas": "dialog_decor_room3"
         },
         {
           "id": "room3_d2_r2",
@@ -1202,7 +1210,8 @@
           "char_state": "alex_neutral",
           "position": "right",
           "text_key": "room3_d2_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d2_r3",
@@ -1210,7 +1219,8 @@
           "char_state": "anna_embarrassed",
           "position": "left",
           "text_key": "room3_d2_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": ""
@@ -1232,7 +1242,8 @@
           "char_state": "anna_sad",
           "position": "left",
           "text_key": "room3_d3_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d3_r2",
@@ -1240,7 +1251,8 @@
           "char_state": "alex_sad",
           "position": "right",
           "text_key": "room3_d3_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d3_r3",
@@ -1248,7 +1260,8 @@
           "char_state": "anna_sad",
           "position": "left",
           "text_key": "room3_d3_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d3_r4",
@@ -1256,7 +1269,8 @@
           "char_state": "alex_neutral",
           "position": "right",
           "text_key": "room3_d3_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": "diamonds"
@@ -1278,7 +1292,8 @@
           "char_state": "anna_happy",
           "position": "left",
           "text_key": "room3_d4_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d4_r2",
@@ -1286,7 +1301,8 @@
           "char_state": "alex_angry",
           "position": "right",
           "text_key": "room3_d4_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d4_r3",
@@ -1294,7 +1310,8 @@
           "char_state": "alex_sad",
           "position": "right",
           "text_key": "room3_d4_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d4_r4",
@@ -1302,7 +1319,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "room3_d4_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": "diamonds"
@@ -1324,7 +1342,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "room3_d5_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d5_r2",
@@ -1332,7 +1351,8 @@
           "char_state": "cat_embarrassed",
           "position": "right",
           "text_key": "room3_d5_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d5_r3",
@@ -1340,7 +1360,8 @@
           "char_state": "alex_joy",
           "position": "left",
           "text_key": "room3_d5_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d5_r4",
@@ -1348,7 +1369,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "room3_d5_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d5_r5",
@@ -1356,7 +1378,8 @@
           "char_state": "cat_neutral",
           "position": "right",
           "text_key": "room3_d5_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d5_r6",
@@ -1364,7 +1387,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "room3_d5_r6_loc",
-          "decor_key": "room3_sherlock_collar"
+          "decor_key": "room3_sherlock_collar",
+          "dialog_decor_atlas": "dialog_decor_room3"
         },
         {
           "id": "room3_d5_r7",
@@ -1372,7 +1396,8 @@
           "char_state": "cat_joy",
           "position": "right",
           "text_key": "room3_d5_r7_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d5_r8",
@@ -1380,7 +1405,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "room3_d5_r8_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": ""
@@ -1402,7 +1428,8 @@
           "char_state": "henry_smile",
           "position": "right",
           "text_key": "room3_d6_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d6_r2",
@@ -1410,7 +1437,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "room3_d6_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d6_r3",
@@ -1418,7 +1446,8 @@
           "char_state": "henry_neutral",
           "position": "right",
           "text_key": "room3_d6_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d6_r4",
@@ -1426,7 +1455,8 @@
           "char_state": "alex_joy",
           "position": "right",
           "text_key": "room3_d6_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d6_r5",
@@ -1434,7 +1464,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "room3_d6_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d6_r6",
@@ -1442,7 +1473,8 @@
           "char_state": "alex_neutral",
           "position": "right",
           "text_key": "room3_d6_r6_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": ""
@@ -1464,7 +1496,8 @@
           "char_state": "henry_neutral",
           "position": "right",
           "text_key": "room3_d7_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d7_r2",
@@ -1472,7 +1505,8 @@
           "char_state": "anna_embarrassed",
           "position": "left",
           "text_key": "room3_d7_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d7_r3",
@@ -1480,7 +1514,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "room3_d7_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d7_r4",
@@ -1488,7 +1523,8 @@
           "char_state": "henry_smile",
           "position": "right",
           "text_key": "room3_d7_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d7_r5",
@@ -1496,7 +1532,8 @@
           "char_state": "anna_embarrassed",
           "position": "left",
           "text_key": "room3_d7_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d7_r6",
@@ -1504,7 +1541,8 @@
           "char_state": "anna_embarrassed",
           "position": "left",
           "text_key": "room3_d7_r6_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": "diamonds"
@@ -1526,7 +1564,8 @@
           "char_state": "kate_smile",
           "position": "right",
           "text_key": "room3_d8_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d8_r2",
@@ -1534,7 +1573,8 @@
           "char_state": "kate_smile",
           "position": "right",
           "text_key": "room3_d8_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d8_r3",
@@ -1542,7 +1582,8 @@
           "char_state": "anna_sad",
           "position": "left",
           "text_key": "room3_d8_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d8_r4",
@@ -1550,7 +1591,8 @@
           "char_state": "anna_sad",
           "position": "left",
           "text_key": "room3_d8_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d8_r5",
@@ -1558,7 +1600,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "room3_d8_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d8_r6",
@@ -1566,7 +1609,8 @@
           "char_state": "kate_smile",
           "position": "right",
           "text_key": "room3_d8_r6_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": "diamonds"
@@ -1588,7 +1632,8 @@
           "char_state": "henry_smile",
           "position": "right",
           "text_key": "room3_d9_r1_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d9_r2",
@@ -1596,7 +1641,8 @@
           "char_state": "anna_happy",
           "position": "left",
           "text_key": "room3_d9_r2_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d9_r3",
@@ -1604,7 +1650,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "room3_d9_r3_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d9_r4",
@@ -1612,7 +1659,8 @@
           "char_state": "henry_embarrassed",
           "position": "right",
           "text_key": "room3_d9_r4_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d9_r5",
@@ -1620,7 +1668,8 @@
           "char_state": "anna_embarrassed",
           "position": "left",
           "text_key": "room3_d9_r5_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d9_r6",
@@ -1628,7 +1677,8 @@
           "char_state": "henry_neutral",
           "position": "right",
           "text_key": "room3_d9_r6_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d9_r7",
@@ -1636,7 +1686,8 @@
           "char_state": "henry_smile",
           "position": "right",
           "text_key": "room3_d9_r7_loc",
-          "decor_key": "room3_henry_cottage"
+          "decor_key": "room3_henry_cottage",
+          "dialog_decor_atlas": "dialog_decor_room3"
         },
         {
           "id": "room3_d9_r8",
@@ -1644,7 +1695,8 @@
           "char_state": "anna_neutral",
           "position": "left",
           "text_key": "room3_d9_r8_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         },
         {
           "id": "room3_d9_r9",
@@ -1652,11 +1704,11 @@
           "char_state": "henry_embarrassed",
           "position": "right",
           "text_key": "room3_d9_r9_loc",
-          "decor_key": ""
+          "decor_key": "",
+          "dialog_decor_atlas": ""
         }
       ],
       "award_type": ""
     }
-  ],
-  "award": 30
+  ]
 }
