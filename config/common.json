@@ -48,6 +48,18 @@
     "room9",
     "room10"
   ],
+  "event_multipliers": {
+    "room1": 1,
+    "room2": 2,
+    "room3": 4,
+    "room4": 4,
+    "room5": 5,
+    "room6": 6,
+    "room7": 6,
+    "room8": 7,
+    "room9": 10,
+    "room10": 10
+  },
   "levelsCount": 1491,
   "colorMapping": {
     "yellow": "#ffcf3d",
