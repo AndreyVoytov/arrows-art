@@ -9668,7 +9668,7 @@
         }
       ],
       "trigger": "on_lobby_enter",
-      "global_start": "2026-10-29",
+      "global_start": "2026-10-22",
       "global_end": "2026-11-02",
       "duration": 120
     }
