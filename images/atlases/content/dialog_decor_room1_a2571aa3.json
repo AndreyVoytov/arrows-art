@@ -1,0 +1,76 @@
+{
+  "frames": {
+    "room1_childhood_pies": {
+      "frame": {
+        "x": 382,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "sourceSize": {
+        "w": 380,
+        "h": 380
+      }
+    },
+    "room1_cozy_home": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "sourceSize": {
+        "w": 380,
+        "h": 380
+      }
+    },
+    "room1_lipstick_collar": {
+      "frame": {
+        "x": 764,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "sourceSize": {
+        "w": 293,
+        "h": 293
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "dialog_decor_room1_a2571aa3.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 380
+    },
+    "scale": "1",
+    "sourceDir": "images/dialog_decor/room1"
+  }
+}

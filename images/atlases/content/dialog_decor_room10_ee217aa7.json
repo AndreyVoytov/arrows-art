@@ -1,0 +1,96 @@
+{
+  "frames": {
+    "room10_mechanical_bird": {
+      "frame": {
+        "x": 1140,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "sourceSize": {
+        "w": 293,
+        "h": 293
+      }
+    },
+    "room10_opened_safe": {
+      "frame": {
+        "x": 845,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "sourceSize": {
+        "w": 293,
+        "h": 293
+      }
+    },
+    "room10_school_genius": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "sourceSize": {
+        "w": 380,
+        "h": 380
+      }
+    },
+    "room10_secret_lab": {
+      "frame": {
+        "x": 382,
+        "y": 0,
+        "w": 461,
+        "h": 307
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 461,
+        "h": 307
+      },
+      "sourceSize": {
+        "w": 461,
+        "h": 307
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "dialog_decor_room10_ee217aa7.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 380
+    },
+    "scale": "1",
+    "sourceDir": "images/dialog_decor/room10"
+  }
+}

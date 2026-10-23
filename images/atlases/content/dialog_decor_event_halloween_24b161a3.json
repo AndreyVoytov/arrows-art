@@ -1,0 +1,76 @@
+{
+  "frames": {
+    "event_halloween_ghost_puppet": {
+      "frame": {
+        "x": 713,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "sourceSize": {
+        "w": 293,
+        "h": 293
+      }
+    },
+    "event_halloween_moon_crypt_tablet": {
+      "frame": {
+        "x": 418,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "sourceSize": {
+        "w": 293,
+        "h": 293
+      }
+    },
+    "event_halloween_theater_dream": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 416,
+        "h": 380
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 416,
+        "h": 380
+      },
+      "sourceSize": {
+        "w": 416,
+        "h": 380
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "dialog_decor_event_halloween_24b161a3.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1024,
+      "h": 380
+    },
+    "scale": "1",
+    "sourceDir": "images/dialog_decor/event_halloween"
+  }
+}

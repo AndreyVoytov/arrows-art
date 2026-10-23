@@ -1,0 +1,76 @@
+{
+  "frames": {
+    "room4_first_cooking": {
+      "frame": {
+        "x": 764,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "sourceSize": {
+        "w": 380,
+        "h": 380
+      }
+    },
+    "room4_noisy_fridge": {
+      "frame": {
+        "x": 382,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "sourceSize": {
+        "w": 380,
+        "h": 380
+      }
+    },
+    "room4_sherlock_care": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "sourceSize": {
+        "w": 380,
+        "h": 380
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "dialog_decor_room4_005c6ef5.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 380
+    },
+    "scale": "1",
+    "sourceDir": "images/dialog_decor/room4"
+  }
+}

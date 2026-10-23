@@ -1,0 +1,76 @@
+{
+  "frames": {
+    "room2_big_ears": {
+      "frame": {
+        "x": 590,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "sourceSize": {
+        "w": 293,
+        "h": 293
+      }
+    },
+    "room2_clock_riddle": {
+      "frame": {
+        "x": 295,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "sourceSize": {
+        "w": 293,
+        "h": 293
+      }
+    },
+    "room2_mother_photo": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "sourceSize": {
+        "w": 293,
+        "h": 293
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "dialog_decor_room2_33f775db.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1024,
+      "h": 293
+    },
+    "scale": "1",
+    "sourceDir": "images/dialog_decor/room2"
+  }
+}

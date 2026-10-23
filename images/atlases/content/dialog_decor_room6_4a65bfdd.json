@@ -1,0 +1,76 @@
+{
+  "frames": {
+    "room6_childhood_treehouse": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 380,
+        "h": 380
+      },
+      "sourceSize": {
+        "w": 380,
+        "h": 380
+      }
+    },
+    "room6_forest_basket": {
+      "frame": {
+        "x": 677,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "sourceSize": {
+        "w": 293,
+        "h": 293
+      }
+    },
+    "room6_telescope_clue": {
+      "frame": {
+        "x": 382,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 293,
+        "h": 293
+      },
+      "sourceSize": {
+        "w": 293,
+        "h": 293
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "dialog_decor_room6_4a65bfdd.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1024,
+      "h": 380
+    },
+    "scale": "1",
+    "sourceDir": "images/dialog_decor/room6"
+  }
+}

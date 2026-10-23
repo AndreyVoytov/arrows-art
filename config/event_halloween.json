@@ -12,7 +12,7 @@
     "characters_annie",
     "dialog_decor_event_halloween"
   ],
-  "sourcePsdRevision": "2e565100b84a5335c27d55b5a18755f30a5160599c9c3a30559da6e6b106db24",
+  "sourcePsdRevision": "80e603f471d4a5af1abe9c5d39912b3cd59f575de3d6274a69082bf1bd443041",
   "content": {
     "actionPointOrder": [
       "event_halloween_festival_arch",
@@ -49,7 +49,7 @@
         "event_halloween_festival_arch"
       ],
       "x": 470.5,
-      "y": 606.5
+      "y": 586.5
     },
     {
       "key": "event_halloween_tree_lantern",
@@ -59,8 +59,8 @@
       "multiobjects": [
         "event_halloween_tree_lantern"
       ],
-      "x": 210.5,
-      "y": 129.5
+      "x": 214.5,
+      "y": 227.5
     },
     {
       "key": "event_halloween_arch_pennants",
@@ -70,8 +70,8 @@
       "multiobjects": [
         "event_halloween_arch_pennants"
       ],
-      "x": 486.0,
-      "y": 254.0
+      "x": 400.0,
+      "y": 218.0
     },
     {
       "key": "event_halloween_cider_cart",
@@ -169,8 +169,8 @@
       "multiobjects": [
         "event_halloween_pumpkin_smile"
       ],
-      "x": 272.5,
-      "y": 612.5
+      "x": 284.5,
+      "y": 619.5
     },
     {
       "key": "event_halloween_pumpkin_tall",
@@ -202,8 +202,8 @@
       "multiobjects": [
         "event_halloween_hay_bench"
       ],
-      "x": 219.0,
-      "y": 834.0
+      "x": 274.0,
+      "y": 776.0
     },
     {
       "key": "event_halloween_bench_plaid",
@@ -213,8 +213,8 @@
       "multiobjects": [
         "event_halloween_bench_plaid"
       ],
-      "x": 240.5,
-      "y": 815.5
+      "x": 202.5,
+      "y": 691.5
     },
     {
       "key": "event_halloween_apple_tub",
@@ -224,8 +224,8 @@
       "multiobjects": [
         "event_halloween_apple_tub"
       ],
-      "x": 559.5,
-      "y": 862.0
+      "x": 507.5,
+      "y": 746.0
     },
     {
       "key": "event_halloween_bobbing_apples",
@@ -235,8 +235,8 @@
       "multiobjects": [
         "event_halloween_bobbing_apples"
       ],
-      "x": 580.0,
-      "y": 707.0
+      "x": 544.0,
+      "y": 670.0
     },
     {
       "key": "event_halloween_floor_lantern",
@@ -246,8 +246,8 @@
       "multiobjects": [
         "event_halloween_floor_lantern"
       ],
-      "x": 403.0,
-      "y": 822.0
+      "x": 393.0,
+      "y": 717.0
     },
     {
       "key": "event_halloween_pay_dialogue1",
@@ -267,7 +267,7 @@
       "multiobject": "",
       "price": 0,
       "priceType": "coins",
-      "x": 83.333,
+      "x": 122.333,
       "y": 563.667,
       "phase": "placement"
     },
@@ -278,8 +278,8 @@
       "multiobject": "",
       "price": 0,
       "priceType": "coins",
-      "x": 165.667,
-      "y": 788.0,
+      "x": 145.667,
+      "y": 776.0,
       "phase": "placement"
     }
   ],
@@ -410,7 +410,7 @@
       "parts": [
         "event_halloween_pumpkin_white_shadow",
         "event_halloween_pumpkin_white",
-        "event_halloween_pumpkin_white_layer_5"
+        "event_halloween_pumpkin_white_layer_24"
       ],
       "price": 1,
       "priceType": "coins"
@@ -467,7 +467,7 @@
       "type": "decor",
       "atlas_name": "event_halloween",
       "x": 470.5,
-      "y": 606.5,
+      "y": 586.5,
       "angle": 180
     },
     {
@@ -475,7 +475,7 @@
       "type": "decor",
       "atlas_name": "event_halloween",
       "x": 456.5,
-      "y": 376.5,
+      "y": 356.5,
       "angle": 180
     },
     {
@@ -491,7 +491,7 @@
       "type": "decor",
       "atlas_name": "event_halloween",
       "x": 486.0,
-      "y": 254.0,
+      "y": 234.0,
       "angle": 180
     },
     {
@@ -499,7 +499,7 @@
       "type": "decor",
       "atlas_name": "event_halloween",
       "x": 481.0,
-      "y": 212.0,
+      "y": 192.0,
       "angle": 180
     },
     {
@@ -687,7 +687,7 @@
       "angle": 180
     },
     {
-      "key": "event_halloween_pumpkin_white_layer_5",
+      "key": "event_halloween_pumpkin_white_layer_24",
       "type": "decor",
       "atlas_name": "event_halloween",
       "x": 432.5,
