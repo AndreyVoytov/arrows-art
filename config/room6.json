@@ -266,7 +266,9 @@
         "room6_old_walls"
       ],
       "x": 300,
-      "y": 372.5
+      "y": 372.5,
+      "price": 300,
+      "priceType": "coins"
     },
     {
       "key": "room6_old_door",
@@ -276,7 +278,9 @@
         "room6_old_door"
       ],
       "x": 593,
-      "y": 369
+      "y": 369,
+      "price": 300,
+      "priceType": "coins"
     },
     {
       "key": "room6_old_garden_windows",
@@ -286,7 +290,9 @@
         "room6_old_garden_windows"
       ],
       "x": 174,
-      "y": 297
+      "y": 297,
+      "price": 300,
+      "priceType": "coins"
     },
     {
       "key": "room6_old_garden_lanterns",
@@ -296,7 +302,9 @@
         "room6_old_garden_lanterns"
       ],
       "x": 121.5,
-      "y": 373.5
+      "y": 373.5,
+      "price": 300,
+      "priceType": "coins"
     },
     {
       "key": "room6_old_key_box",
@@ -306,7 +314,9 @@
         "room6_old_key_box"
       ],
       "x": 578,
-      "y": 526
+      "y": 526,
+      "price": 300,
+      "priceType": "coins"
     },
     {
       "key": "room6_old_secret_floor_hatch",
@@ -316,7 +326,9 @@
         "room6_old_secret_floor_hatch"
       ],
       "x": 270.5,
-      "y": 724.5
+      "y": 724.5,
+      "price": 300,
+      "priceType": "coins"
     },
     {
       "key": "room6_old_rug",
@@ -326,7 +338,9 @@
         "room6_old_rug"
       ],
       "x": 378.5,
-      "y": 569
+      "y": 569,
+      "price": 300,
+      "priceType": "coins"
     },
     {
       "key": "room6_old_work_desk",
@@ -336,7 +350,9 @@
         "room6_old_work_desk"
       ],
       "x": 419,
-      "y": 438.5
+      "y": 438.5,
+      "price": 300,
+      "priceType": "coins"
     },
     {
       "key": "room6_old_bird_feeder",
@@ -346,7 +362,9 @@
         "room6_old_bird_feeder"
       ],
       "x": 475,
-      "y": 550.5
+      "y": 550.5,
+      "price": 300,
+      "priceType": "coins"
     },
     {
       "key": "room6_old_bookshelf",
@@ -356,7 +374,9 @@
         "room6_old_bookshelf"
       ],
       "x": 444,
-      "y": 265.5
+      "y": 265.5,
+      "price": 300,
+      "priceType": "coins"
     },
     {
       "key": "room6_old_bench",
@@ -366,7 +386,9 @@
         "room6_old_bench"
       ],
       "x": 206,
-      "y": 518
+      "y": 518,
+      "price": 300,
+      "priceType": "coins"
     },
     {
       "key": "room6_old_telescope",
@@ -376,7 +398,9 @@
         "room6_old_telescope"
       ],
       "x": 491.5,
-      "y": 626
+      "y": 626,
+      "price": 300,
+      "priceType": "coins"
     },
     {
       "key": "room6_old_hanging_chair",
@@ -386,7 +410,9 @@
         "room6_old_hanging_chair"
       ],
       "x": 238,
-      "y": 606
+      "y": 606,
+      "price": 300,
+      "priceType": "coins"
     },
     {
       "key": "room6_old_plant_group",
@@ -396,7 +422,9 @@
         "room6_old_plant_group"
       ],
       "x": 311,
-      "y": 636.5
+      "y": 636.5,
+      "price": 300,
+      "priceType": "coins"
     },
     {
       "key": "room6_pay_dialogue1",
@@ -865,114 +893,86 @@
       "key": "room6_old_walls",
       "parts": [
         "room6_old_walls"
-      ],
-      "price": 300,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room6_old_door",
       "parts": [
         "room6_old_door"
-      ],
-      "price": 300,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room6_old_garden_windows",
       "parts": [
         "room6_old_garden_windows"
-      ],
-      "price": 300,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room6_old_garden_lanterns",
       "parts": [
         "room6_old_garden_lanterns_1",
         "room6_old_garden_lanterns_2"
-      ],
-      "price": 300,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room6_old_key_box",
       "parts": [
         "room6_old_key_box"
-      ],
-      "price": 300,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room6_old_secret_floor_hatch",
       "parts": [
         "room6_old_secret_floor_hatch"
-      ],
-      "price": 300,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room6_old_rug",
       "parts": [
         "room6_old_rug"
-      ],
-      "price": 300,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room6_old_work_desk",
       "parts": [
         "room6_old_work_desk"
-      ],
-      "price": 300,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room6_old_bird_feeder",
       "parts": [
         "room6_old_bird_feeder"
-      ],
-      "price": 300,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room6_old_bookshelf",
       "parts": [
         "room6_old_bookshelf"
-      ],
-      "price": 300,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room6_old_bench",
       "parts": [
         "room6_old_bench"
-      ],
-      "price": 300,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room6_old_telescope",
       "parts": [
         "room6_old_telescope"
-      ],
-      "price": 300,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room6_old_hanging_chair",
       "parts": [
         "room6_old_hanging_chair"
-      ],
-      "price": 300,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room6_old_plant_group",
       "parts": [
         "room6_old_plant_group"
-      ],
-      "price": 300,
-      "priceType": "coins"
+      ]
     }
   ],
   "allPartsOrderComment": "Порядок слоёв по z: от заднего плана к переднему; меняется в decor-viewer.",

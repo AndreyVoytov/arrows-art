@@ -169,7 +169,9 @@
         "room1_broken_wall_left"
       ],
       "x": 357,
-      "y": 388
+      "y": 388,
+      "price": 50,
+      "priceType": "coins"
     },
     {
       "key": "room1_broken_wall_right",
@@ -179,7 +181,9 @@
         "room1_broken_wall_right"
       ],
       "x": 596.5,
-      "y": 312
+      "y": 312,
+      "price": 50,
+      "priceType": "coins"
     },
     {
       "key": "room1_broken_floor",
@@ -189,7 +193,9 @@
         "room1_broken_floor"
       ],
       "x": 479,
-      "y": 714
+      "y": 714,
+      "price": 50,
+      "priceType": "coins"
     },
     {
       "key": "room1_trash_second",
@@ -199,7 +205,9 @@
         "room1_trash_second"
       ],
       "x": 295,
-      "y": 622
+      "y": 622,
+      "price": 50,
+      "priceType": "coins"
     },
     {
       "key": "room1_broken_cupboard",
@@ -209,7 +217,9 @@
         "room1_broken_cupboard"
       ],
       "x": 302,
-      "y": 319.5
+      "y": 319.5,
+      "price": 50,
+      "priceType": "coins"
     },
     {
       "key": "room1_broken_door",
@@ -219,7 +229,9 @@
         "room1_broken_door"
       ],
       "x": 136.5,
-      "y": 449
+      "y": 449,
+      "price": 50,
+      "priceType": "coins"
     },
     {
       "key": "room1_broken_window",
@@ -229,7 +241,9 @@
         "room1_broken_window"
       ],
       "x": 513,
-      "y": 331
+      "y": 331,
+      "price": 50,
+      "priceType": "coins"
     },
     {
       "key": "room1_dead_plant",
@@ -239,7 +253,9 @@
         "room1_dead_plant"
       ],
       "x": 216.5,
-      "y": 545
+      "y": 545,
+      "price": 50,
+      "priceType": "coins"
     },
     {
       "key": "room1_trash",
@@ -249,7 +265,9 @@
         "room1_trash"
       ],
       "x": 296.5,
-      "y": 752.5
+      "y": 752.5,
+      "price": 0,
+      "priceType": "coins"
     },
     {
       "key": "room1_pay_dialogue1",
@@ -547,25 +565,19 @@
       "key": "room1_broken_wall_left",
       "parts": [
         "room1_broken_wall_left"
-      ],
-      "price": 50,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room1_broken_wall_right",
       "parts": [
         "room1_broken_wall_right"
-      ],
-      "price": 50,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room1_broken_floor",
       "parts": [
         "room1_broken_floor"
-      ],
-      "price": 50,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room1_trash_second",
@@ -573,42 +585,32 @@
         "room1_trash_second_1",
         "room1_trash_second_2",
         "room1_trash_second_3"
-      ],
-      "price": 50,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room1_broken_cupboard",
       "parts": [
         "room1_broken_cupboard"
-      ],
-      "price": 50,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room1_broken_door",
       "parts": [
         "room1_broken_door"
-      ],
-      "price": 50,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room1_broken_window",
       "parts": [
         "room1_broken_window"
-      ],
-      "price": 50,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room1_dead_plant",
       "parts": [
         "room1_dead_plant_1",
         "room1_dead_plant_2"
-      ],
-      "price": 50,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room1_trash",
@@ -616,9 +618,7 @@
         "room1_trash_1",
         "room1_trash_2",
         "room1_trash_3"
-      ],
-      "price": 0,
-      "priceType": "coins"
+      ]
     }
   ],
   "allPartsOrderComment": "Порядок слоёв по z: от заднего плана к переднему; меняется в decor-viewer.",

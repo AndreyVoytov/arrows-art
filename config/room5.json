@@ -214,7 +214,9 @@
         "room5_old_walls"
       ],
       "x": 420,
-      "y": 277.5
+      "y": 277.5,
+      "price": 250,
+      "priceType": "coins"
     },
     {
       "key": "room5_old_floor",
@@ -224,7 +226,9 @@
         "room5_old_floor"
       ],
       "x": 423,
-      "y": 614.5
+      "y": 614.5,
+      "price": 250,
+      "priceType": "coins"
     },
     {
       "key": "room5_old_wall_picture_left",
@@ -234,7 +238,9 @@
         "room5_old_wall_picture_left"
       ],
       "x": 131,
-      "y": 343
+      "y": 343,
+      "price": 250,
+      "priceType": "coins"
     },
     {
       "key": "room5_old_bookcase",
@@ -244,7 +250,9 @@
         "room5_old_bookcase"
       ],
       "x": 329,
-      "y": 344.5
+      "y": 344.5,
+      "price": 250,
+      "priceType": "coins"
     },
     {
       "key": "room5_old_attic_window",
@@ -254,7 +262,9 @@
         "room5_old_attic_window"
       ],
       "x": 534.5,
-      "y": 241.5
+      "y": 241.5,
+      "price": 250,
+      "priceType": "coins"
     },
     {
       "key": "room5_old_plant",
@@ -264,7 +274,9 @@
         "room5_old_plant"
       ],
       "x": 309,
-      "y": 238.5
+      "y": 238.5,
+      "price": 250,
+      "priceType": "coins"
     },
     {
       "key": "room5_old_desk",
@@ -274,7 +286,9 @@
         "room5_old_desk"
       ],
       "x": 508,
-      "y": 505
+      "y": 505,
+      "price": 250,
+      "priceType": "coins"
     },
     {
       "key": "room5_old_rug",
@@ -284,7 +298,9 @@
         "room5_old_rug"
       ],
       "x": 274,
-      "y": 703.5
+      "y": 703.5,
+      "price": 250,
+      "priceType": "coins"
     },
     {
       "key": "room5_old_daybed",
@@ -294,7 +310,9 @@
         "room5_old_daybed"
       ],
       "x": 201,
-      "y": 483
+      "y": 483,
+      "price": 250,
+      "priceType": "coins"
     },
     {
       "key": "room5_old_desk_things",
@@ -304,7 +322,9 @@
         "room5_old_desk_things"
       ],
       "x": 463.5,
-      "y": 423.5
+      "y": 423.5,
+      "price": 250,
+      "priceType": "coins"
     },
     {
       "key": "room5_old_chest_books_boxes",
@@ -314,7 +334,9 @@
         "room5_old_chest_books_boxes"
       ],
       "x": 578,
-      "y": 619.5
+      "y": 619.5,
+      "price": 250,
+      "priceType": "coins"
     },
     {
       "key": "room5_old_armchair",
@@ -324,7 +346,9 @@
         "room5_old_armchair"
       ],
       "x": 337,
-      "y": 616.5
+      "y": 616.5,
+      "price": 250,
+      "priceType": "coins"
     },
     {
       "key": "room5_old_pendant_light",
@@ -334,7 +358,9 @@
         "room5_old_pendant_light"
       ],
       "x": 442.5,
-      "y": 139.5
+      "y": 139.5,
+      "price": 250,
+      "priceType": "coins"
     },
     {
       "key": "room5_old_storage_chest",
@@ -344,7 +370,9 @@
         "room5_old_storage_chest"
       ],
       "x": 128.5,
-      "y": 633.5
+      "y": 633.5,
+      "price": 250,
+      "priceType": "coins"
     },
     {
       "key": "room5_pay_dialogue1",
@@ -720,73 +748,55 @@
       "key": "room5_old_walls",
       "parts": [
         "room5_old_walls"
-      ],
-      "price": 250,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room5_old_floor",
       "parts": [
         "room5_old_floor"
-      ],
-      "price": 250,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room5_old_wall_picture_left",
       "parts": [
         "room5_old_wall_picture_left"
-      ],
-      "price": 250,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room5_old_bookcase",
       "parts": [
         "room5_old_bookcase"
-      ],
-      "price": 250,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room5_old_attic_window",
       "parts": [
         "room5_old_attic_window"
-      ],
-      "price": 250,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room5_old_plant",
       "parts": [
         "room5_old_plant"
-      ],
-      "price": 250,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room5_old_desk",
       "parts": [
         "room5_old_desk"
-      ],
-      "price": 250,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room5_old_rug",
       "parts": [
         "room5_old_rug"
-      ],
-      "price": 250,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room5_old_daybed",
       "parts": [
         "room5_old_daybed"
-      ],
-      "price": 250,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room5_old_desk_things",
@@ -794,41 +804,31 @@
         "room5_old_desk_things_1",
         "room5_old_desk_things_2",
         "room5_old_desk_things_3"
-      ],
-      "price": 250,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room5_old_chest_books_boxes",
       "parts": [
         "room5_old_chest_books_boxes"
-      ],
-      "price": 250,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room5_old_armchair",
       "parts": [
         "room5_old_armchair"
-      ],
-      "price": 250,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room5_old_pendant_light",
       "parts": [
         "room5_old_pendant_light"
-      ],
-      "price": 250,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room5_old_storage_chest",
       "parts": [
         "room5_old_storage_chest"
-      ],
-      "price": 250,
-      "priceType": "coins"
+      ]
     }
   ],
   "allPartsOrderComment": "Порядок слоёв по z: от заднего плана к переднему; меняется в decor-viewer.",

@@ -1,0 +1,476 @@
+{
+  "frames": {
+    "event_halloween_apple_tub": {
+      "frame": {
+        "x": 1749,
+        "y": 0,
+        "w": 251,
+        "h": 242
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 251,
+        "h": 242
+      },
+      "sourceSize": {
+        "w": 251,
+        "h": 242
+      }
+    },
+    "event_halloween_arch_pennants": {
+      "frame": {
+        "x": 209,
+        "y": 1922,
+        "w": 246,
+        "h": 105
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 246,
+        "h": 105
+      },
+      "sourceSize": {
+        "w": 246,
+        "h": 105
+      }
+    },
+    "event_halloween_background": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 1920
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 1920
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 1920
+      }
+    },
+    "event_halloween_bat_mobile": {
+      "frame": {
+        "x": 558,
+        "y": 1977,
+        "w": 81,
+        "h": 52
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 81,
+        "h": 52
+      },
+      "sourceSize": {
+        "w": 81,
+        "h": 52
+      }
+    },
+    "event_halloween_bench_plaid_1": {
+      "frame": {
+        "x": 722,
+        "y": 482,
+        "w": 199,
+        "h": 169
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 199,
+        "h": 169
+      },
+      "sourceSize": {
+        "w": 199,
+        "h": 169
+      }
+    },
+    "event_halloween_bobbing_apples": {
+      "frame": {
+        "x": 923,
+        "y": 581,
+        "w": 104,
+        "h": 62
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 104,
+        "h": 62
+      },
+      "sourceSize": {
+        "w": 104,
+        "h": 62
+      }
+    },
+    "event_halloween_candy_apples": {
+      "frame": {
+        "x": 1384,
+        "y": 547,
+        "w": 68,
+        "h": 77
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 68,
+        "h": 77
+      },
+      "sourceSize": {
+        "w": 68,
+        "h": 77
+      }
+    },
+    "event_halloween_cider_cart": {
+      "frame": {
+        "x": 1091,
+        "y": 0,
+        "w": 367,
+        "h": 434
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 367,
+        "h": 434
+      },
+      "sourceSize": {
+        "w": 367,
+        "h": 434
+      }
+    },
+    "event_halloween_cider_service_1": {
+      "frame": {
+        "x": 108,
+        "y": 1922,
+        "w": 99,
+        "h": 114
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 114
+      },
+      "sourceSize": {
+        "w": 99,
+        "h": 114
+      }
+    },
+    "event_halloween_cider_service_2": {
+      "frame": {
+        "x": 1384,
+        "y": 626,
+        "w": 63,
+        "h": 66
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 63,
+        "h": 66
+      },
+      "sourceSize": {
+        "w": 63,
+        "h": 66
+      }
+    },
+    "event_halloween_festival_arch_1": {
+      "frame": {
+        "x": 722,
+        "y": 0,
+        "w": 367,
+        "h": 480
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 367,
+        "h": 480
+      },
+      "sourceSize": {
+        "w": 367,
+        "h": 480
+      }
+    },
+    "event_halloween_festival_arch_2": {
+      "frame": {
+        "x": 558,
+        "y": 1922,
+        "w": 66,
+        "h": 53
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 66,
+        "h": 53
+      },
+      "sourceSize": {
+        "w": 66,
+        "h": 53
+      }
+    },
+    "event_halloween_floor_lantern": {
+      "frame": {
+        "x": 1915,
+        "y": 467,
+        "w": 96,
+        "h": 175
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 175
+      },
+      "sourceSize": {
+        "w": 96,
+        "h": 175
+      }
+    },
+    "event_halloween_ghost_puppet": {
+      "frame": {
+        "x": 0,
+        "y": 1922,
+        "w": 106,
+        "h": 120
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 106,
+        "h": 120
+      },
+      "sourceSize": {
+        "w": 106,
+        "h": 120
+      }
+    },
+    "event_halloween_ghost_stage": {
+      "frame": {
+        "x": 1460,
+        "y": 0,
+        "w": 287,
+        "h": 388
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 287,
+        "h": 388
+      },
+      "sourceSize": {
+        "w": 287,
+        "h": 388
+      }
+    },
+    "event_halloween_hay_bench": {
+      "frame": {
+        "x": 1091,
+        "y": 436,
+        "w": 291,
+        "h": 220
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 291,
+        "h": 220
+      },
+      "sourceSize": {
+        "w": 291,
+        "h": 220
+      }
+    },
+    "event_halloween_pumpkin_smile_1": {
+      "frame": {
+        "x": 1749,
+        "y": 244,
+        "w": 135,
+        "h": 141
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 135,
+        "h": 141
+      },
+      "sourceSize": {
+        "w": 135,
+        "h": 141
+      }
+    },
+    "event_halloween_pumpkin_smile_2": {
+      "frame": {
+        "x": 923,
+        "y": 482,
+        "w": 143,
+        "h": 97
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 143,
+        "h": 97
+      },
+      "sourceSize": {
+        "w": 143,
+        "h": 97
+      }
+    },
+    "event_halloween_pumpkin_table": {
+      "frame": {
+        "x": 1460,
+        "y": 390,
+        "w": 453,
+        "h": 305
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 453,
+        "h": 305
+      },
+      "sourceSize": {
+        "w": 453,
+        "h": 305
+      }
+    },
+    "event_halloween_pumpkin_tall": {
+      "frame": {
+        "x": 1915,
+        "y": 644,
+        "w": 122,
+        "h": 169
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 122,
+        "h": 169
+      },
+      "sourceSize": {
+        "w": 122,
+        "h": 169
+      }
+    },
+    "event_halloween_pumpkin_white": {
+      "frame": {
+        "x": 457,
+        "y": 1922,
+        "w": 99,
+        "h": 105
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 99,
+        "h": 105
+      },
+      "sourceSize": {
+        "w": 99,
+        "h": 105
+      }
+    },
+    "event_halloween_tree_lantern": {
+      "frame": {
+        "x": 1384,
+        "y": 436,
+        "w": 67,
+        "h": 109
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 67,
+        "h": 109
+      },
+      "sourceSize": {
+        "w": 67,
+        "h": 109
+      }
+    },
+    "event_halloween_witch_broom_1": {
+      "frame": {
+        "x": 1915,
+        "y": 244,
+        "w": 102,
+        "h": 221
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 102,
+        "h": 221
+      },
+      "sourceSize": {
+        "w": 102,
+        "h": 221
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "event_halloween_6be12591.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 2042
+    },
+    "scale": "1",
+    "sourceDir": "images/event/halloween"
+  }
+}

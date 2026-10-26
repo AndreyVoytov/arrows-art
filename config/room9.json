@@ -212,7 +212,9 @@
         "room9_old_floor"
       ],
       "x": 390,
-      "y": 609
+      "y": 609,
+      "price": 450,
+      "priceType": "coins"
     },
     {
       "key": "room9_old_walls",
@@ -222,7 +224,9 @@
         "room9_old_walls"
       ],
       "x": 164,
-      "y": 344
+      "y": 344,
+      "price": 450,
+      "priceType": "coins"
     },
     {
       "key": "room9_mold",
@@ -232,7 +236,9 @@
         "room9_mold"
       ],
       "x": 558.5,
-      "y": 414.5
+      "y": 414.5,
+      "price": 450,
+      "priceType": "coins"
     },
     {
       "key": "room9_old_wall_picture",
@@ -242,7 +248,9 @@
         "room9_old_wall_picture"
       ],
       "x": 564,
-      "y": 302
+      "y": 302,
+      "price": 450,
+      "priceType": "coins"
     },
     {
       "key": "room9_old_cupboard",
@@ -252,7 +260,9 @@
         "room9_old_cupboard"
       ],
       "x": 403.5,
-      "y": 378
+      "y": 378,
+      "price": 450,
+      "priceType": "coins"
     },
     {
       "key": "room9_old_fireplace",
@@ -262,7 +272,9 @@
         "room9_old_fireplace"
       ],
       "x": 269,
-      "y": 424
+      "y": 424,
+      "price": 450,
+      "priceType": "coins"
     },
     {
       "key": "room9_old_wall_decor",
@@ -272,7 +284,9 @@
         "room9_old_wall_decor"
       ],
       "x": 262,
-      "y": 236
+      "y": 236,
+      "price": 450,
+      "priceType": "coins"
     },
     {
       "key": "room9_old_armchair",
@@ -282,7 +296,9 @@
         "room9_old_armchair"
       ],
       "x": 174.5,
-      "y": 561
+      "y": 561,
+      "price": 450,
+      "priceType": "coins"
     },
     {
       "key": "room9_old_tv",
@@ -292,7 +308,9 @@
         "room9_old_tv"
       ],
       "x": 566,
-      "y": 574.5
+      "y": 574.5,
+      "price": 450,
+      "priceType": "coins"
     },
     {
       "key": "room9_trash",
@@ -302,7 +320,9 @@
         "room9_trash"
       ],
       "x": 373,
-      "y": 517.5
+      "y": 517.5,
+      "price": 450,
+      "priceType": "coins"
     },
     {
       "key": "room9_old_coffee_table",
@@ -312,7 +332,9 @@
         "room9_old_coffee_table"
       ],
       "x": 445.5,
-      "y": 679.5
+      "y": 679.5,
+      "price": 450,
+      "priceType": "coins"
     },
     {
       "key": "room9_old_table_books_vase",
@@ -322,7 +344,9 @@
         "room9_old_table_books_vase"
       ],
       "x": 297,
-      "y": 560.5
+      "y": 560.5,
+      "price": 450,
+      "priceType": "coins"
     },
     {
       "key": "room9_old_sofa",
@@ -332,7 +356,9 @@
         "room9_old_sofa"
       ],
       "x": 259,
-      "y": 689
+      "y": 689,
+      "price": 450,
+      "priceType": "coins"
     },
     {
       "key": "room9_pay_dialogue1",
@@ -696,107 +722,81 @@
       "key": "room9_old_floor",
       "parts": [
         "room9_old_floor"
-      ],
-      "price": 450,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room9_old_walls",
       "parts": [
         "room9_old_walls"
-      ],
-      "price": 450,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room9_mold",
       "parts": [
         "room9_mold_1",
         "room9_mold_2"
-      ],
-      "price": 450,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room9_old_wall_picture",
       "parts": [
         "room9_old_wall_picture"
-      ],
-      "price": 450,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room9_old_cupboard",
       "parts": [
         "room9_old_cupboard"
-      ],
-      "price": 450,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room9_old_fireplace",
       "parts": [
         "room9_old_fireplace"
-      ],
-      "price": 450,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room9_old_wall_decor",
       "parts": [
         "room9_old_wall_decor"
-      ],
-      "price": 450,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room9_old_armchair",
       "parts": [
         "room9_old_armchair"
-      ],
-      "price": 450,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room9_old_tv",
       "parts": [
         "room9_old_tv"
-      ],
-      "price": 450,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room9_trash",
       "parts": [
         "room9_trash_1",
         "room9_trash_2"
-      ],
-      "price": 450,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room9_old_coffee_table",
       "parts": [
         "room9_old_coffee_table"
-      ],
-      "price": 450,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room9_old_table_books_vase",
       "parts": [
         "room9_old_table_books_vase"
-      ],
-      "price": 450,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room9_old_sofa",
       "parts": [
         "room9_old_sofa"
-      ],
-      "price": 450,
-      "priceType": "coins"
+      ]
     }
   ],
   "allPartsOrderComment": "Порядок слоёв по z: от заднего плана к переднему; меняется в decor-viewer.",

@@ -104,7 +104,7 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "ui_loader_b74270ae.webp",
+    "image": "ui_loader_85eb9c1a.png",
     "format": "RGBA8888",
     "size": {
       "w": 2048,

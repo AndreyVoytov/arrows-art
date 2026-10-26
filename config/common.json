@@ -48,7 +48,7 @@
     "room9",
     "room10"
   ],
-  "levelsCount": 1491,
+  "levelsCount": 1009,
   "colorMapping": {
     "yellow": "#ffcf3d",
     "red": "#ff5b62",
@@ -7426,7 +7426,7 @@
     "dialog_decor_room7": "_7945bd85",
     "dialog_decor_room8": "_9bc428bf",
     "dialog_decor_room9": "_bdf1007d",
-    "event_halloween": "_2e0725fb",
+    "event_halloween": "_6be12591",
     "event_intro_halloween": "_54172c2b",
     "level_themes_autumn": "_b7b39fad",
     "level_themes_halloween": "_0fb9b5a0",
@@ -7477,7 +7477,7 @@
     "rooms_room9-repair": "_d99e2a8b",
     "rooms_room9-surfaces": "_8b493d9f",
     "ui_daily_gift": "_98ad1539",
-    "ui_loader": "_b74270ae",
+    "ui_loader": "_85eb9c1a",
     "ui_lobby": "_8ecb627f",
     "ui_panel": "_16a67add",
     "ui_preloader": "_78d92328",
@@ -7552,7 +7552,8 @@
     "superbooster_arrows_to_use": 4,
     "level_of_day_from_level": 10,
     "limited_stars_by_ads_from_level": 25,
-    "limited_stars_by_ads_every_level": 1
+    "limited_stars_by_ads_every_level": 1,
+    "events_from_level": 25
   },
   "sounds": [
     {

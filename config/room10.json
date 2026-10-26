@@ -240,7 +240,9 @@
         "room10_old_floor"
       ],
       "x": 493,
-      "y": 605
+      "y": 605,
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room10_old_walls",
@@ -250,7 +252,9 @@
         "room10_old_walls"
       ],
       "x": 360,
-      "y": 352.5
+      "y": 352.5,
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room10_old_rug",
@@ -260,7 +264,9 @@
         "room10_old_rug"
       ],
       "x": 235.5,
-      "y": 731.5
+      "y": 731.5,
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room10_old_entrance_door",
@@ -270,7 +276,9 @@
         "room10_old_entrance_door"
       ],
       "x": 146,
-      "y": 448.5
+      "y": 448.5,
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room10_old_puzzle_safe",
@@ -280,7 +288,9 @@
         "room10_old_puzzle_safe"
       ],
       "x": 356,
-      "y": 471.5
+      "y": 471.5,
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room10_old_display_shelf",
@@ -290,7 +300,9 @@
         "room10_old_display_shelf"
       ],
       "x": 307,
-      "y": 232.5
+      "y": 232.5,
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room10_old_mechanism_cabinet",
@@ -300,7 +312,9 @@
         "room10_old_mechanism_cabinet"
       ],
       "x": 227,
-      "y": 463
+      "y": 463,
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room10_old_kinetic_bird",
@@ -310,7 +324,9 @@
         "room10_old_kinetic_bird"
       ],
       "x": 170,
-      "y": 646.5
+      "y": 646.5,
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room10_old_modular_desk",
@@ -320,7 +336,9 @@
         "room10_old_modular_desk"
       ],
       "x": 286.5,
-      "y": 642
+      "y": 642,
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room10_old_desk_lamp",
@@ -330,7 +348,9 @@
         "room10_old_desk_lamp"
       ],
       "x": 306,
-      "y": 556
+      "y": 556,
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room10_old_panoramic_bay_window",
@@ -340,7 +360,9 @@
         "room10_old_panoramic_bay_window"
       ],
       "x": 543,
-      "y": 408
+      "y": 408,
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room10_old_window_seat_cushion",
@@ -350,7 +372,9 @@
         "room10_old_window_seat_cushion"
       ],
       "x": 512.5,
-      "y": 496
+      "y": 496,
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room10_old_ergonomic_chair",
@@ -360,7 +384,9 @@
         "room10_old_ergonomic_chair"
       ],
       "x": 438,
-      "y": 679.5
+      "y": 679.5,
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room10_old_plant",
@@ -370,7 +396,9 @@
         "room10_old_plant"
       ],
       "x": 574,
-      "y": 591.5
+      "y": 591.5,
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room10_old_pendant_light",
@@ -380,7 +408,9 @@
         "room10_old_pendant_light"
       ],
       "x": 425,
-      "y": 165
+      "y": 165,
+      "price": 500,
+      "priceType": "coins"
     },
     {
       "key": "room10_pay_dialogue1",
@@ -804,123 +834,93 @@
       "key": "room10_old_floor",
       "parts": [
         "room10_old_floor"
-      ],
-      "price": 500,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room10_old_walls",
       "parts": [
         "room10_old_walls"
-      ],
-      "price": 500,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room10_old_rug",
       "parts": [
         "room10_old_rug"
-      ],
-      "price": 500,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room10_old_entrance_door",
       "parts": [
         "room10_old_entrance_door"
-      ],
-      "price": 500,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room10_old_puzzle_safe",
       "parts": [
         "room10_old_puzzle_safe_1",
         "room10_old_puzzle_safe_2"
-      ],
-      "price": 500,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room10_old_display_shelf",
       "parts": [
         "room10_old_display_shelf"
-      ],
-      "price": 500,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room10_old_mechanism_cabinet",
       "parts": [
         "room10_old_mechanism_cabinet"
-      ],
-      "price": 500,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room10_old_kinetic_bird",
       "parts": [
         "room10_old_kinetic_bird"
-      ],
-      "price": 500,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room10_old_modular_desk",
       "parts": [
         "room10_old_modular_desk"
-      ],
-      "price": 500,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room10_old_desk_lamp",
       "parts": [
         "room10_old_desk_lamp_1",
         "room10_old_desk_lamp_2"
-      ],
-      "price": 500,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room10_old_panoramic_bay_window",
       "parts": [
         "room10_old_panoramic_bay_window"
-      ],
-      "price": 500,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room10_old_window_seat_cushion",
       "parts": [
         "room10_old_window_seat_cushion"
-      ],
-      "price": 500,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room10_old_ergonomic_chair",
       "parts": [
         "room10_old_ergonomic_chair"
-      ],
-      "price": 500,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room10_old_plant",
       "parts": [
         "room10_old_plant"
-      ],
-      "price": 500,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room10_old_pendant_light",
       "parts": [
         "room10_old_pendant_light"
-      ],
-      "price": 500,
-      "priceType": "coins"
+      ]
     }
   ],
   "allPartsOrderComment": "Порядок слоёв по z: от заднего плана к переднему; меняется в decor-viewer.",

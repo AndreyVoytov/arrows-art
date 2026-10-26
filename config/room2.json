@@ -183,7 +183,9 @@
         "room2_broken_wall_right"
       ],
       "x": 568.5,
-      "y": 321.5
+      "y": 321.5,
+      "price": 100,
+      "priceType": "coins"
     },
     {
       "key": "room2_broken_wall_left",
@@ -193,7 +195,9 @@
         "room2_broken_wall_left"
       ],
       "x": 328,
-      "y": 346
+      "y": 346,
+      "price": 100,
+      "priceType": "coins"
     },
     {
       "key": "room2_broken_floor",
@@ -203,7 +207,9 @@
         "room2_broken_floor"
       ],
       "x": 435.5,
-      "y": 691
+      "y": 691,
+      "price": 100,
+      "priceType": "coins"
     },
     {
       "key": "room2_old_poster",
@@ -213,7 +219,9 @@
         "room2_old_poster"
       ],
       "x": 410,
-      "y": 271
+      "y": 271,
+      "price": 100,
+      "priceType": "coins"
     },
     {
       "key": "room2_broken_curtains",
@@ -223,7 +231,9 @@
         "room2_broken_curtains"
       ],
       "x": 147.5,
-      "y": 376
+      "y": 376,
+      "price": 100,
+      "priceType": "coins"
     },
     {
       "key": "room2_dirty_toy",
@@ -233,7 +243,9 @@
         "room2_dirty_toy"
       ],
       "x": 442.5,
-      "y": 612
+      "y": 612,
+      "price": 100,
+      "priceType": "coins"
     },
     {
       "key": "room2_broken_bed",
@@ -243,7 +255,9 @@
         "room2_broken_bed"
       ],
       "x": 383.5,
-      "y": 537.5
+      "y": 537.5,
+      "price": 100,
+      "priceType": "coins"
     },
     {
       "key": "room2_trash",
@@ -253,7 +267,9 @@
         "room2_trash"
       ],
       "x": 285,
-      "y": 727.5
+      "y": 727.5,
+      "price": 100,
+      "priceType": "coins"
     },
     {
       "key": "room2_webbed_family_picture",
@@ -263,7 +279,9 @@
         "room2_webbed_family_picture"
       ],
       "x": 489.5,
-      "y": 224.5
+      "y": 224.5,
+      "price": 100,
+      "priceType": "coins"
     },
     {
       "key": "room2_broken_lamp_right",
@@ -273,7 +291,9 @@
         "room2_broken_lamp_right"
       ],
       "x": 491,
-      "y": 327.5
+      "y": 327.5,
+      "price": 100,
+      "priceType": "coins"
     },
     {
       "key": "room2_broken_vanity_table",
@@ -283,7 +303,9 @@
         "room2_broken_vanity_table"
       ],
       "x": 588.5,
-      "y": 563.5
+      "y": 563.5,
+      "price": 100,
+      "priceType": "coins"
     },
     {
       "key": "room2_vanity_stool",
@@ -293,7 +315,9 @@
         "room2_vanity_stool"
       ],
       "x": 528.5,
-      "y": 636.5
+      "y": 636.5,
+      "price": 100,
+      "priceType": "coins"
     },
     {
       "key": "room2_small_broken_photo",
@@ -303,7 +327,9 @@
         "room2_small_broken_photo"
       ],
       "x": 587.5,
-      "y": 694
+      "y": 694,
+      "price": 100,
+      "priceType": "coins"
     },
     {
       "key": "room2_pay_dialogue1",
@@ -630,58 +656,44 @@
       "key": "room2_broken_wall_right",
       "parts": [
         "room2_broken_wall_right"
-      ],
-      "price": 100,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room2_broken_wall_left",
       "parts": [
         "room2_broken_wall_left"
-      ],
-      "price": 100,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room2_broken_floor",
       "parts": [
         "room2_broken_floor"
-      ],
-      "price": 100,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room2_old_poster",
       "parts": [
         "room2_old_poster"
-      ],
-      "price": 100,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room2_broken_curtains",
       "parts": [
         "room2_broken_curtains_1",
         "room2_broken_curtains_2"
-      ],
-      "price": 100,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room2_dirty_toy",
       "parts": [
         "room2_dirty_toy"
-      ],
-      "price": 100,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room2_broken_bed",
       "parts": [
         "room2_broken_bed"
-      ],
-      "price": 100,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room2_trash",
@@ -689,26 +701,20 @@
         "room2_trash_1",
         "room2_trash_2",
         "room2_trash_3"
-      ],
-      "price": 100,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room2_webbed_family_picture",
       "parts": [
         "room2_webbed_family_picture_1",
         "room2_webbed_family_picture_2"
-      ],
-      "price": 100,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room2_broken_lamp_right",
       "parts": [
         "room2_broken_lamp_right"
-      ],
-      "price": 100,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room2_broken_vanity_table",
@@ -716,26 +722,20 @@
         "room2_broken_vanity_table_1",
         "room2_broken_vanity_table_2",
         "room2_broken_vanity_table_3"
-      ],
-      "price": 100,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room2_vanity_stool",
       "parts": [
         "room2_vanity_stool_1",
         "room2_vanity_stool_2"
-      ],
-      "price": 100,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room2_small_broken_photo",
       "parts": [
         "room2_small_broken_photo"
-      ],
-      "price": 100,
-      "priceType": "coins"
+      ]
     }
   ],
   "allPartsOrderComment": "Порядок слоёв по z: от заднего плана к переднему; меняется в decor-viewer.",

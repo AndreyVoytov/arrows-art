@@ -186,7 +186,9 @@
         "room3_old_wall2"
       ],
       "x": 438.5,
-      "y": 267
+      "y": 267,
+      "price": 150,
+      "priceType": "coins"
     },
     {
       "key": "room3_old_wall1",
@@ -196,7 +198,9 @@
         "room3_old_wall1"
       ],
       "x": 279,
-      "y": 204
+      "y": 204,
+      "price": 150,
+      "priceType": "coins"
     },
     {
       "key": "room3_old_floor",
@@ -206,7 +210,9 @@
         "room3_old_floor"
       ],
       "x": 329,
-      "y": 604.5
+      "y": 604.5,
+      "price": 150,
+      "priceType": "coins"
     },
     {
       "key": "room3_old_bathtub",
@@ -216,7 +222,9 @@
         "room3_old_bathtub"
       ],
       "x": 177.5,
-      "y": 513
+      "y": 513,
+      "price": 150,
+      "priceType": "coins"
     },
     {
       "key": "room3_old_mirror",
@@ -226,7 +234,9 @@
         "room3_old_mirror"
       ],
       "x": 512.5,
-      "y": 303
+      "y": 303,
+      "price": 150,
+      "priceType": "coins"
     },
     {
       "key": "room3_old_sink",
@@ -236,7 +246,9 @@
         "room3_old_sink"
       ],
       "x": 473,
-      "y": 506
+      "y": 506,
+      "price": 150,
+      "priceType": "coins"
     },
     {
       "key": "room3_old_toilet",
@@ -246,7 +258,9 @@
         "room3_old_toilet"
       ],
       "x": 583.5,
-      "y": 572
+      "y": 572,
+      "price": 150,
+      "priceType": "coins"
     },
     {
       "key": "room3_old_towel",
@@ -256,7 +270,9 @@
         "room3_old_towel"
       ],
       "x": 317.5,
-      "y": 299.5
+      "y": 299.5,
+      "price": 150,
+      "priceType": "coins"
     },
     {
       "key": "room3_old_picture",
@@ -266,7 +282,9 @@
         "room3_old_picture"
       ],
       "x": 594.5,
-      "y": 347
+      "y": 347,
+      "price": 150,
+      "priceType": "coins"
     },
     {
       "key": "room3_old_rug",
@@ -276,7 +294,9 @@
         "room3_old_rug"
       ],
       "x": 417.5,
-      "y": 655
+      "y": 655,
+      "price": 150,
+      "priceType": "coins"
     },
     {
       "key": "room3_old_window",
@@ -286,7 +306,9 @@
         "room3_old_window"
       ],
       "x": 186.5,
-      "y": 301
+      "y": 301,
+      "price": 150,
+      "priceType": "coins"
     },
     {
       "key": "room3_old_plant",
@@ -296,7 +318,9 @@
         "room3_old_plant"
       ],
       "x": 139,
-      "y": 595.5
+      "y": 595.5,
+      "price": 150,
+      "priceType": "coins"
     },
     {
       "key": "room3_old_rubber_duck",
@@ -306,7 +330,9 @@
         "room3_old_rubber_duck"
       ],
       "x": 250,
-      "y": 485.5
+      "y": 485.5,
+      "price": 150,
+      "priceType": "coins"
     },
     {
       "key": "room3_pay_dialogue1",
@@ -625,105 +651,79 @@
       "key": "room3_old_wall2",
       "parts": [
         "room3_old_wall2"
-      ],
-      "price": 150,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room3_old_wall1",
       "parts": [
         "room3_old_wall1"
-      ],
-      "price": 150,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room3_old_floor",
       "parts": [
         "room3_old_floor"
-      ],
-      "price": 150,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room3_old_bathtub",
       "parts": [
         "room3_old_bathtub"
-      ],
-      "price": 150,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room3_old_mirror",
       "parts": [
         "room3_old_mirror"
-      ],
-      "price": 150,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room3_old_sink",
       "parts": [
         "room3_old_sink"
-      ],
-      "price": 150,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room3_old_toilet",
       "parts": [
         "room3_old_toilet"
-      ],
-      "price": 150,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room3_old_towel",
       "parts": [
         "room3_old_towel"
-      ],
-      "price": 150,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room3_old_picture",
       "parts": [
         "room3_old_picture"
-      ],
-      "price": 150,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room3_old_rug",
       "parts": [
         "room3_old_rug"
-      ],
-      "price": 150,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room3_old_window",
       "parts": [
         "room3_old_window"
-      ],
-      "price": 150,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room3_old_plant",
       "parts": [
         "room3_old_plant"
-      ],
-      "price": 150,
-      "priceType": "coins"
+      ]
     },
     {
       "key": "room3_old_rubber_duck",
       "parts": [
         "room3_old_rubber_duck"
-      ],
-      "price": 150,
-      "priceType": "coins"
+      ]
     }
   ],
   "allPartsOrderComment": "Порядок слоёв по z: от заднего плана к переднему; меняется в decor-viewer.",

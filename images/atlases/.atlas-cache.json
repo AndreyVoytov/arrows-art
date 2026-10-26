@@ -267,14 +267,14 @@
     },
     "event_halloween": {
       "sourceDir": "images/event/halloween",
-      "digest": "2e0725fb19f95850ab470963ae2dbe4d071b61f693f546c05c718b90c3b8add3",
+      "digest": "6be12591ea97ac1a98fabfd8083156ce8debe4f70655dfd30eb54476e7663367",
       "outputs": [
-        "images/atlases/content/event_halloween_2e0725fb.png",
-        "images/atlases/content/event_halloween_2e0725fb.webp",
-        "images/atlases/content/event_halloween_2e0725fb.json",
-        "images/atlases/content/event_halloween_2e0725fb.webp.json"
+        "images/atlases/content/event_halloween_6be12591.png",
+        "images/atlases/content/event_halloween_6be12591.webp",
+        "images/atlases/content/event_halloween_6be12591.json",
+        "images/atlases/content/event_halloween_6be12591.webp.json"
       ],
-      "updatedAt": "2026-10-23T21:48:48.254207+00:00"
+      "updatedAt": "2026-10-26T13:33:56.065046+00:00"
     },
     "event_intro_halloween": {
       "sourceDir": "images/event_intro/halloween",
@@ -828,14 +828,14 @@
     },
     "ui_loader": {
       "sourceDir": "images/ui/loader",
-      "digest": "b74270ae37c911436ada7c7510930fe66c49c66c8a8a9dd55c1f41f4940dc968",
+      "digest": "85eb9c1ad3d30ed47269c5e9c2b8f103e9a25916541e57e455df6ccc58da3d33",
       "outputs": [
-        "images/atlases/ui/ui_loader_b74270ae.png",
-        "images/atlases/ui/ui_loader_b74270ae.webp",
-        "images/atlases/ui/ui_loader_b74270ae.json",
-        "images/atlases/ui/ui_loader_b74270ae.webp.json"
+        "images/atlases/ui/ui_loader_85eb9c1a.png",
+        "images/atlases/ui/ui_loader_85eb9c1a.webp",
+        "images/atlases/ui/ui_loader_85eb9c1a.json",
+        "images/atlases/ui/ui_loader_85eb9c1a.webp.json"
       ],
-      "updatedAt": "2026-10-21T08:23:57.936236+00:00"
+      "updatedAt": "2026-10-26T13:34:42.068675+00:00"
     },
     "ui_lobby": {
       "sourceDir": "images/ui/lobby",
