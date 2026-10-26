@@ -624,7 +624,7 @@
       "roomId": "event_halloween",
       "conditions": [
         {
-          "trigger_type": "on_event_enter",
+          "trigger_type": "on_room_enter",
           "trigger_key": "event_halloween"
         }
       ],
@@ -1638,7 +1638,7 @@
       "roomId": "event_halloween",
       "conditions": [
         {
-          "trigger_type": "on_event_finished",
+          "trigger_type": "on_room_finished",
           "trigger_key": "event_halloween"
         }
       ],
