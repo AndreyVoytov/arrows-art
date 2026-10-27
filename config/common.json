@@ -9663,11 +9663,9 @@
           "stroke_color": "#57236B"
         }
       },
-      "key": "halloween",
+      "key": "event_halloween",
       "roomId": "event_halloween",
-      "configKey": "event_halloween",
       "atlasKey": "event_intro_halloween",
-      "titleKey": "event_halloween_title",
       "descriptionKey": "event_halloween_desc",
       "buttonTextKey": "event_play",
       "rewardTitleKey": "event_rewards",
