@@ -1266,5 +1266,10 @@
   "ui_to_home": "Eve dön",
   "ui_yes": "EVET",
   "victor": "Galip",
-  "wand": "Sihirli değnek"
+  "wand": "Sihirli değnek",
+  "ui_day": "gün",
+  "ui_hour": "sa.",
+  "ui_month": "a",
+  "ui_minute": "d",
+  "ui_second": "sn."
 }

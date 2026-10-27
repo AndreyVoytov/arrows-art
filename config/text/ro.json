@@ -1266,5 +1266,10 @@
   "ui_to_home": "Acasă",
   "ui_yes": "DA",
   "victor": "Victor",
-  "wand": "Bagheta magică"
+  "wand": "Bagheta magică",
+  "ui_day": "z",
+  "ui_hour": "h",
+  "ui_month": "l",
+  "ui_minute": "m",
+  "ui_second": "s"
 }

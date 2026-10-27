@@ -1266,5 +1266,10 @@
   "ui_to_home": "Үйге",
   "ui_yes": "ИӘ",
   "victor": "Виктор",
-  "wand": "Сиқырлы таяқша"
+  "wand": "Сиқырлы таяқша",
+  "ui_day": "күн",
+  "ui_hour": "сағ",
+  "ui_month": "ай",
+  "ui_minute": "м",
+  "ui_second": "с"
 }

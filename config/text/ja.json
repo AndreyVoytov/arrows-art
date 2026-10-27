@@ -1266,5 +1266,10 @@
   "ui_to_home": "ホーム",
   "ui_yes": "はい",
   "victor": "ビクター",
-  "wand": "魔法の杖"
+  "wand": "魔法の杖",
+  "ui_day": "日",
+  "ui_hour": "時間",
+  "ui_month": "月",
+  "ui_minute": "分",
+  "ui_second": "秒"
 }

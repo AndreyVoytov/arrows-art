@@ -1266,5 +1266,10 @@
   "ui_to_home": "Haza",
   "ui_yes": "IGEN",
   "victor": "Victor",
-  "wand": "Varázspálca"
+  "wand": "Varázspálca",
+  "ui_day": "nap",
+  "ui_hour": "ó",
+  "ui_month": "h.",
+  "ui_minute": "p",
+  "ui_second": "mp"
 }

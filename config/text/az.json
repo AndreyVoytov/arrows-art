@@ -1266,5 +1266,10 @@
   "ui_to_home": "Evə",
   "ui_yes": "BƏLİ",
   "victor": "Viktor",
-  "wand": "Sehrli çubuq"
+  "wand": "Sehrli çubuq",
+  "ui_day": "gün",
+  "ui_hour": "saat",
+  "ui_month": "a",
+  "ui_minute": "d",
+  "ui_second": "san"
 }

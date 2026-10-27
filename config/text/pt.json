@@ -1266,5 +1266,10 @@
   "ui_to_home": "Início",
   "ui_yes": "SIM",
   "victor": "Victor",
-  "wand": "Varinha mágica"
+  "wand": "Varinha mágica",
+  "ui_day": "d",
+  "ui_hour": "h",
+  "ui_month": "m",
+  "ui_minute": "m",
+  "ui_second": "s"
 }

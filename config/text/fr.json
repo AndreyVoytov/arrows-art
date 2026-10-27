@@ -1266,5 +1266,10 @@
   "ui_to_home": "Accueil",
   "ui_yes": "OUI",
   "victor": "Victor",
-  "wand": "Baguette magique"
+  "wand": "Baguette magique",
+  "ui_day": "j",
+  "ui_hour": "h",
+  "ui_month": "m",
+  "ui_minute": "m",
+  "ui_second": "s"
 }

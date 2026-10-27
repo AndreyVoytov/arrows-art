@@ -1266,5 +1266,10 @@
   "ui_to_home": "Inicio",
   "ui_yes": "SI",
   "victor": "Víctor",
-  "wand": "Varita mágica"
+  "wand": "Varita mágica",
+  "ui_day": "d",
+  "ui_hour": "h",
+  "ui_month": "m",
+  "ui_minute": "m",
+  "ui_second": "s"
 }

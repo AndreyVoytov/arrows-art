@@ -1266,5 +1266,10 @@
   "ui_to_home": "回家",
   "ui_yes": "是的",
   "victor": "维克多",
-  "wand": "魔法棒"
+  "wand": "魔法棒",
+  "ui_day": "天",
+  "ui_hour": "小时",
+  "ui_month": "月",
+  "ui_minute": "分",
+  "ui_second": "秒"
 }

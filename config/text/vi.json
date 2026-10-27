@@ -1266,5 +1266,10 @@
   "ui_to_home": "Về nhà",
   "ui_yes": "CÓ",
   "victor": "Chiến thắng",
-  "wand": "Cây đũa thần"
+  "wand": "Cây đũa thần",
+  "ui_day": "ngày",
+  "ui_hour": "giờ",
+  "ui_month": "t",
+  "ui_minute": "p",
+  "ui_second": "giây"
 }

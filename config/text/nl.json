@@ -1266,5 +1266,10 @@
   "ui_to_home": "Naar huis",
   "ui_yes": "JA",
   "victor": "Victor",
-  "wand": "Toverstaf"
+  "wand": "Toverstaf",
+  "ui_day": "d",
+  "ui_hour": "u",
+  "ui_month": "m",
+  "ui_minute": "m",
+  "ui_second": "s"
 }

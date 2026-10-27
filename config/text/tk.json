@@ -1266,5 +1266,10 @@
   "ui_to_home": "Öýe",
   "ui_yes": "HAWA",
   "victor": "Wiktor",
-  "wand": "Jadyly taýajyk"
+  "wand": "Jadyly taýajyk",
+  "ui_day": "g",
+  "ui_hour": "sg",
+  "ui_month": "a",
+  "ui_minute": "m",
+  "ui_second": "sek"
 }

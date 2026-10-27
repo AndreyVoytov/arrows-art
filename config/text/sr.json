@@ -1266,5 +1266,10 @@
   "ui_to_home": "Кући",
   "ui_yes": "ДА",
   "victor": "Виктор",
-  "wand": "Магични штапић"
+  "wand": "Магични штапић",
+  "ui_day": "д",
+  "ui_hour": "ч",
+  "ui_month": "м",
+  "ui_minute": "м",
+  "ui_second": "с"
 }

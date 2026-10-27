@@ -1266,5 +1266,10 @@
   "ui_to_home": "הביתה",
   "ui_yes": "כן",
   "victor": "ויקטור",
-  "wand": "שרביט קסמים"
+  "wand": "שרביט קסמים",
+  "ui_day": "י׳",
+  "ui_hour": "שע׳",
+  "ui_month": "ח׳",
+  "ui_minute": "ד׳",
+  "ui_second": "שנ׳"
 }

@@ -1266,5 +1266,10 @@
   "ui_to_home": "Torna a casa",
   "ui_yes": "SÍ",
   "victor": "Víctor",
-  "wand": "Vareta màgica"
+  "wand": "Vareta màgica",
+  "ui_day": "d",
+  "ui_hour": "h",
+  "ui_month": "m",
+  "ui_minute": "m",
+  "ui_second": "s"
 }

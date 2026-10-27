@@ -1266,5 +1266,10 @@
   "ui_to_home": "Home",
   "ui_yes": "YES",
   "victor": "Victor",
-  "wand": "Magic wand"
+  "wand": "Magic wand",
+  "ui_day": "d",
+  "ui_hour": "h",
+  "ui_month": "m",
+  "ui_minute": "m",
+  "ui_second": "s"
 }

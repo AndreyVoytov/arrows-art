@@ -1266,5 +1266,10 @@
   "ui_to_home": "Beranda",
   "ui_yes": "YA",
   "victor": "Pemenang",
-  "wand": "Tongkat ajaib"
+  "wand": "Tongkat ajaib",
+  "ui_day": "hr",
+  "ui_hour": "j",
+  "ui_month": "b",
+  "ui_minute": "m",
+  "ui_second": "dtk"
 }

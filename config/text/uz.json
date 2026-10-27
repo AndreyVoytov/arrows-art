@@ -1266,5 +1266,10 @@
   "ui_to_home": "Uyga",
   "ui_yes": "HA",
   "victor": "Viktor",
-  "wand": "Sehrli tayoqcha"
+  "wand": "Sehrli tayoqcha",
+  "ui_day": "kun",
+  "ui_hour": "soat",
+  "ui_month": "o",
+  "ui_minute": "d",
+  "ui_second": "son."
 }

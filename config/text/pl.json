@@ -1266,5 +1266,10 @@
   "ui_to_home": "Do domu",
   "ui_yes": "TAK",
   "victor": "Wiktor",
-  "wand": "Magiczna różdżka"
+  "wand": "Magiczna różdżka",
+  "ui_day": "d.",
+  "ui_hour": "godz.",
+  "ui_month": "m",
+  "ui_minute": "m",
+  "ui_second": "s"
 }

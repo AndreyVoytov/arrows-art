@@ -1266,5 +1266,10 @@
   "ui_to_home": "홈으로",
   "ui_yes": "예",
   "victor": "빅터",
-  "wand": "마술 지팡이"
+  "wand": "마술 지팡이",
+  "ui_day": "일",
+  "ui_hour": "시간",
+  "ui_month": "월",
+  "ui_minute": "분",
+  "ui_second": "초"
 }

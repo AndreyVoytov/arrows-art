@@ -1266,5 +1266,10 @@
   "ui_to_home": "Domů",
   "ui_yes": "ANO",
   "victor": "Victor",
-  "wand": "Kouzelná hůlka"
+  "wand": "Kouzelná hůlka",
+  "ui_day": "d.",
+  "ui_hour": "h",
+  "ui_month": "m.",
+  "ui_minute": "m.",
+  "ui_second": "s"
 }

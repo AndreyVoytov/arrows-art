@@ -1266,5 +1266,10 @@
   "ui_to_home": "إلى المنزل",
   "ui_yes": "نعم",
   "victor": "فيكتور",
-  "wand": "العصا السحرية"
+  "wand": "العصا السحرية",
+  "ui_day": "ي",
+  "ui_hour": "س",
+  "ui_month": "ش",
+  "ui_minute": "د",
+  "ui_second": "ث"
 }
