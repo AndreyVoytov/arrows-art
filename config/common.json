@@ -9594,16 +9594,16 @@
           "y": 0
         },
         "header": {
-          "x": -2.167,
-          "y": -39.667
+          "x": -2.833,
+          "y": -45.333
         },
         "play_button": {
           "x": -4.833,
           "y": 401.667
         },
         "play": {
-          "x": -4.167,
-          "y": 410.333
+          "x": -3.5,
+          "y": 403.667
         },
         "close_button": {
           "x": 196.167,
@@ -9622,8 +9622,8 @@
           "height": 167
         },
         "time_left": {
-          "x": 22.5,
-          "y": 26.667
+          "x": 22.167,
+          "y": 22.667
         },
         "reward_title": {
           "x": 3.167,
@@ -9633,34 +9633,34 @@
       "rewardLayout": "row",
       "elements_style": {
         "header": {
-          "is_stroke": true,
           "fill_color": "#FFFFFF",
+          "is_stroke": true,
           "stroke_color": "#381C43"
         },
-        "play": {
-          "is_stroke": true,
-          "fill_color": "#FFFFFF",
-          "stroke_color": "#B84F1B"
-        },
-        "count": {
-          "is_stroke": true,
-          "fill_color": "#FFFFFF",
-          "stroke_color": "#642B09"
-        },
         "time_left": {
-          "is_stroke": true,
           "fill_color": "#FFFFFF",
+          "is_stroke": true,
           "stroke_color": "#381C43"
         },
         "description": {
-          "is_stroke": true,
           "fill_color": "#FFFFFF",
+          "is_stroke": true,
           "stroke_color": "#57236B"
+        },
+        "play": {
+          "fill_color": "#FFFFFF",
+          "is_stroke": true,
+          "stroke_color": "#B84F1B"
         },
         "reward_title": {
           "fill_color": "#FFFFFF",
           "is_stroke": true,
           "stroke_color": "#57236B"
+        },
+        "count": {
+          "fill_color": "#FFFFFF",
+          "is_stroke": true,
+          "stroke_color": "#642B09"
         }
       },
       "key": "event_halloween",
