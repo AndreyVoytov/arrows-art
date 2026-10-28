@@ -1271,5 +1271,6 @@
   "ui_hour": "гадз",
   "ui_month": "м.",
   "ui_minute": "хв.",
-  "ui_second": "с"
+  "ui_second": "с",
+  "ui_popup_debug_button_enable_button_complete_level": "Завяршыць узр.: укл./выкл."
 }

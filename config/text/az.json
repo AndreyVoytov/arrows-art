@@ -1271,5 +1271,6 @@
   "ui_hour": "saat",
   "ui_month": "a",
   "ui_minute": "d",
-  "ui_second": "san"
+  "ui_second": "san",
+  "ui_popup_debug_button_enable_button_complete_level": "Səviyyəni bitir: aç/bağla"
 }

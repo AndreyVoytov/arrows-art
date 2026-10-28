@@ -1271,5 +1271,6 @@
   "ui_hour": "Std.",
   "ui_month": "M",
   "ui_minute": "m",
-  "ui_second": "Sek."
+  "ui_second": "Sek.",
+  "ui_popup_debug_button_enable_button_complete_level": "Level abschließen: an/aus"
 }

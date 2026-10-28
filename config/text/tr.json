@@ -1271,5 +1271,6 @@
   "ui_hour": "sa.",
   "ui_month": "a",
   "ui_minute": "d",
-  "ui_second": "sn."
+  "ui_second": "sn.",
+  "ui_popup_debug_button_enable_button_complete_level": "Bölümü bitir: aç/kapat"
 }

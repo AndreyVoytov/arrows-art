@@ -1271,5 +1271,6 @@
   "ui_hour": "ساعت",
   "ui_month": "م",
   "ui_minute": "د",
-  "ui_second": "ثانیه"
+  "ui_second": "ثانیه",
+  "ui_popup_debug_button_enable_button_complete_level": "اتمام مرحله: روشن/خاموش"
 }

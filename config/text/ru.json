@@ -1232,6 +1232,7 @@
   "ui_popup_debug_button_add_coins": "Добавить монеты",
   "ui_popup_debug_button_add_diamonds": "Добавить кристаллы",
   "ui_popup_debug_button_add_energy": "Добавить энергию",
+  "ui_popup_debug_button_enable_button_complete_level": "Завершить Ур. вкл/выкл",
   "ui_popup_debug_button_start_level": "Запуск уровня",
   "ui_popup_debug_header": "Разработка",
   "ui_popup_debug_poup_start_level_button": "Старт",

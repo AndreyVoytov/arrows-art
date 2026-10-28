@@ -1271,5 +1271,6 @@
   "ui_hour": "시간",
   "ui_month": "월",
   "ui_minute": "분",
-  "ui_second": "초"
+  "ui_second": "초",
+  "ui_popup_debug_button_enable_button_complete_level": "레벨 완료: 켜기/끄기"
 }

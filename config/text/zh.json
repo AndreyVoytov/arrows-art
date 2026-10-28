@@ -1271,5 +1271,6 @@
   "ui_hour": "小时",
   "ui_month": "月",
   "ui_minute": "分",
-  "ui_second": "秒"
+  "ui_second": "秒",
+  "ui_popup_debug_button_enable_button_complete_level": "完成关卡：开/关"
 }

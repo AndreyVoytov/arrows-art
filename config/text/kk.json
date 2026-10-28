@@ -1271,5 +1271,6 @@
   "ui_hour": "сағ",
   "ui_month": "ай",
   "ui_minute": "м",
-  "ui_second": "с"
+  "ui_second": "с",
+  "ui_popup_debug_button_enable_button_complete_level": "Деңгейді аяқтау: қосу/өшіру"
 }

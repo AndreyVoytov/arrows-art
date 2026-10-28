@@ -1271,5 +1271,6 @@
   "ui_hour": "soat",
   "ui_month": "o",
   "ui_minute": "d",
-  "ui_second": "son."
+  "ui_second": "son.",
+  "ui_popup_debug_button_enable_button_complete_level": "Bosqichni tugat: yoq/o‘ch"
 }

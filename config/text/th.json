@@ -1271,5 +1271,6 @@
   "ui_hour": "ชม.",
   "ui_month": "ด.",
   "ui_minute": "น.",
-  "ui_second": "วิ"
+  "ui_second": "วิ",
+  "ui_popup_debug_button_enable_button_complete_level": "จบด่าน: เปิด/ปิด"
 }

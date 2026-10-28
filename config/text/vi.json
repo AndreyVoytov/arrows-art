@@ -1271,5 +1271,6 @@
   "ui_hour": "giờ",
   "ui_month": "t",
   "ui_minute": "p",
-  "ui_second": "giây"
+  "ui_second": "giây",
+  "ui_popup_debug_button_enable_button_complete_level": "Hoàn thành màn: bật/tắt"
 }

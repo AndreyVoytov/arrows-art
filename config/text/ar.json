@@ -1271,5 +1271,6 @@
   "ui_hour": "س",
   "ui_month": "ش",
   "ui_minute": "د",
-  "ui_second": "ث"
+  "ui_second": "ث",
+  "ui_popup_debug_button_enable_button_complete_level": "إنهاء المرحلة: تشغيل/إيقاف"
 }

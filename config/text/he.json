@@ -1271,5 +1271,6 @@
   "ui_hour": "שע׳",
   "ui_month": "ח׳",
   "ui_minute": "ד׳",
-  "ui_second": "שנ׳"
+  "ui_second": "שנ׳",
+  "ui_popup_debug_button_enable_button_complete_level": "סיום שלב: פעיל/כבוי"
 }

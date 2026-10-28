@@ -1271,5 +1271,6 @@
   "ui_hour": "घं",
   "ui_month": "मा",
   "ui_minute": "मि",
-  "ui_second": "से"
+  "ui_second": "से",
+  "ui_popup_debug_button_enable_button_complete_level": "लेवल पूरा: चालू/बंद"
 }

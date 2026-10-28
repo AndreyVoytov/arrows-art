@@ -1271,5 +1271,6 @@
   "ui_hour": "h",
   "ui_month": "m",
   "ui_minute": "m",
-  "ui_second": "s"
+  "ui_second": "s",
+  "ui_popup_debug_button_enable_button_complete_level": "Completar nivell: act./desact."
 }

@@ -1271,5 +1271,6 @@
   "ui_hour": "ó",
   "ui_month": "h.",
   "ui_minute": "p",
-  "ui_second": "mp"
+  "ui_second": "mp",
+  "ui_popup_debug_button_enable_button_complete_level": "Pálya befejezése: be/ki"
 }
