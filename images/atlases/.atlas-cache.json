@@ -454,14 +454,14 @@
     },
     "offer_room7_set": {
       "sourceDir": "images/offer/room7_set",
-      "digest": "695c41410f7b41010e54c14bbe0f73b223244c26fa2260c79fedbb738c598612",
+      "digest": "92921cdc0e3fd5576c5b916321a9d5695f872fa4ebfccd2d8b9d1d709985989b",
       "outputs": [
-        "images/atlases/content/offer_room7_set_695c4141.png",
-        "images/atlases/content/offer_room7_set_695c4141.webp",
-        "images/atlases/content/offer_room7_set_695c4141.json",
-        "images/atlases/content/offer_room7_set_695c4141.webp.json"
+        "images/atlases/content/offer_room7_set_92921cdc.png",
+        "images/atlases/content/offer_room7_set_92921cdc.webp",
+        "images/atlases/content/offer_room7_set_92921cdc.json",
+        "images/atlases/content/offer_room7_set_92921cdc.webp.json"
       ],
-      "updatedAt": "2026-10-21T14:43:28.590605+00:00"
+      "updatedAt": "2026-10-28T18:44:46.395624+00:00"
     },
     "offer_room8_set": {
       "sourceDir": "images/offer/room8_set",
