@@ -7356,7 +7356,8 @@
         "miller_neutral",
         "miller_haughty",
         "miller_surprised",
-        "miller_angry"
+        "miller_angry",
+        "miller_naughty"
       ]
     },
     {
