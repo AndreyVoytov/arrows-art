@@ -861,14 +861,14 @@
     },
     "ui_preloader": {
       "sourceDir": "images/ui/preloader",
-      "digest": "78d923280d2cf82dc341f8f12da269858eba839274273f4d74b8a40ac130e2c5",
+      "digest": "ae782933808c1abef7e52a9e7164ed4c094d0075985e4157283f38dfa70c1280",
       "outputs": [
-        "images/atlases/ui/ui_preloader_78d92328.png",
-        "images/atlases/ui/ui_preloader_78d92328.webp",
-        "images/atlases/ui/ui_preloader_78d92328.json",
-        "images/atlases/ui/ui_preloader_78d92328.webp.json"
+        "images/atlases/ui/ui_preloader_ae782933.png",
+        "images/atlases/ui/ui_preloader_ae782933.webp",
+        "images/atlases/ui/ui_preloader_ae782933.json",
+        "images/atlases/ui/ui_preloader_ae782933.webp.json"
       ],
-      "updatedAt": "2026-09-29T22:01:01.026258+00:00"
+      "updatedAt": "2026-10-30T19:37:44.637353+00:00"
     },
     "ui_resources": {
       "sourceDir": "images/ui/resources",

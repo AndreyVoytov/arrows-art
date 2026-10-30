@@ -4,25 +4,25 @@
       "frame": {
         "x": 0,
         "y": 0,
-        "w": 254,
-        "h": 236
+        "w": 208,
+        "h": 209
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 254,
-        "h": 236
+        "w": 208,
+        "h": 209
       },
       "sourceSize": {
-        "w": 254,
-        "h": 236
+        "w": 208,
+        "h": 209
       }
     },
     "spinner": {
       "frame": {
-        "x": 256,
+        "x": 210,
         "y": 0,
         "w": 93,
         "h": 89
@@ -44,11 +44,11 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "ui_preloader_78d92328.webp",
+    "image": "ui_preloader_ae782933.webp",
     "format": "RGBA8888",
     "size": {
       "w": 512,
-      "h": 236
+      "h": 209
     },
     "scale": "1",
     "sourceDir": "images/ui/preloader"
