@@ -839,14 +839,14 @@
     },
     "ui_lobby": {
       "sourceDir": "images/ui/lobby",
-      "digest": "8ecb627f17348472599b9fe19d3d3a9c4e77de27a20097066649038b05a6de79",
+      "digest": "f8df51d4c9cbe8c2700a40df7cf06f761696883b160a2f8c0a26ed5757b41d08",
       "outputs": [
-        "images/atlases/ui/ui_lobby_8ecb627f.png",
-        "images/atlases/ui/ui_lobby_8ecb627f.webp",
-        "images/atlases/ui/ui_lobby_8ecb627f.json",
-        "images/atlases/ui/ui_lobby_8ecb627f.webp.json"
+        "images/atlases/ui/ui_lobby_f8df51d4.png",
+        "images/atlases/ui/ui_lobby_f8df51d4.webp",
+        "images/atlases/ui/ui_lobby_f8df51d4.json",
+        "images/atlases/ui/ui_lobby_f8df51d4.webp.json"
       ],
-      "updatedAt": "2026-10-21T22:07:29.472481+00:00"
+      "updatedAt": "2026-10-31T20:31:23.543776+00:00"
     },
     "ui_panel": {
       "sourceDir": "images/ui/panel",
