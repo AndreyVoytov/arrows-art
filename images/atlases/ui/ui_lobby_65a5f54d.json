@@ -485,7 +485,7 @@
         "x": 722,
         "y": 0,
         "w": 720,
-        "h": 287
+        "h": 387
       },
       "rotated": false,
       "trimmed": false,
@@ -493,11 +493,11 @@
         "x": 0,
         "y": 0,
         "w": 720,
-        "h": 287
+        "h": 387
       },
       "sourceSize": {
         "w": 720,
-        "h": 287
+        "h": 387
       }
     },
     "placement_button": {
@@ -704,7 +704,7 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "ui_lobby_f8df51d4.webp",
+    "image": "ui_lobby_65a5f54d.png",
     "format": "RGBA8888",
     "size": {
       "w": 2048,
