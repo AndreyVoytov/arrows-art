@@ -64,7 +64,7 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "dialog_decor_room3_be1504b3.webp",
+    "image": "dialog_decor_room3_a8b6eedb.png",
     "format": "RGBA8888",
     "size": {
       "w": 1024,

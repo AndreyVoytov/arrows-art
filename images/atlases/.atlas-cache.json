@@ -190,14 +190,14 @@
     },
     "dialog_decor_room3": {
       "sourceDir": "images/dialog_decor/room3",
-      "digest": "be1504b367026d04140c2b03dfd365b62e1dda6d91213487ec5735fd1e41ca59",
+      "digest": "a8b6eedb32bb5e890971e37d95a42ff6f08376d84545ad0f4e2cceb53c18c0ed",
       "outputs": [
-        "images/atlases/content/dialog_decor_room3_be1504b3.png",
-        "images/atlases/content/dialog_decor_room3_be1504b3.webp",
-        "images/atlases/content/dialog_decor_room3_be1504b3.json",
-        "images/atlases/content/dialog_decor_room3_be1504b3.webp.json"
+        "images/atlases/content/dialog_decor_room3_a8b6eedb.png",
+        "images/atlases/content/dialog_decor_room3_a8b6eedb.webp",
+        "images/atlases/content/dialog_decor_room3_a8b6eedb.json",
+        "images/atlases/content/dialog_decor_room3_a8b6eedb.webp.json"
       ],
-      "updatedAt": "2026-10-23T21:43:38.989957+00:00"
+      "updatedAt": "2026-11-04T10:00:25.977555+00:00"
     },
     "dialog_decor_room4": {
       "sourceDir": "images/dialog_decor/room4",
@@ -839,25 +839,25 @@
     },
     "ui_lobby": {
       "sourceDir": "images/ui/lobby",
-      "digest": "65a5f54d337a4d4bcfc7f145afd2ca6425520817969b11796c6d5e3dcc6fbd54",
+      "digest": "933b834472d0e3905c2b956ff09ee8671946b80b06c7f0b3ea4e241e581171a6",
       "outputs": [
-        "images/atlases/ui/ui_lobby_65a5f54d.png",
-        "images/atlases/ui/ui_lobby_65a5f54d.webp",
-        "images/atlases/ui/ui_lobby_65a5f54d.json",
-        "images/atlases/ui/ui_lobby_65a5f54d.webp.json"
+        "images/atlases/ui/ui_lobby_933b8344.png",
+        "images/atlases/ui/ui_lobby_933b8344.webp",
+        "images/atlases/ui/ui_lobby_933b8344.json",
+        "images/atlases/ui/ui_lobby_933b8344.webp.json"
       ],
-      "updatedAt": "2026-11-02T12:19:45.112074+00:00"
+      "updatedAt": "2026-11-04T10:40:51.039219+00:00"
     },
     "ui_panel": {
       "sourceDir": "images/ui/panel",
-      "digest": "16a67addf4177aeba45f7c4ebcb7662a0a1dfd1231e6fd0f11c0daef3118a208",
+      "digest": "e0ab78785b97900b9564a24a2c9908b434435409619efcbe7f4a46443bfba036",
       "outputs": [
-        "images/atlases/ui/ui_panel_16a67add.png",
-        "images/atlases/ui/ui_panel_16a67add.webp",
-        "images/atlases/ui/ui_panel_16a67add.json",
-        "images/atlases/ui/ui_panel_16a67add.webp.json"
+        "images/atlases/ui/ui_panel_e0ab7878.png",
+        "images/atlases/ui/ui_panel_e0ab7878.webp",
+        "images/atlases/ui/ui_panel_e0ab7878.json",
+        "images/atlases/ui/ui_panel_e0ab7878.webp.json"
       ],
-      "updatedAt": "2026-10-21T22:07:44.227312+00:00"
+      "updatedAt": "2026-11-04T10:00:45.965112+00:00"
     },
     "ui_preloader": {
       "sourceDir": "images/ui/preloader",
