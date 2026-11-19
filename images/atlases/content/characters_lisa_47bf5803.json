@@ -1,0 +1,76 @@
+{
+  "frames": {
+    "lisa_neutral": {
+      "frame": {
+        "x": 686,
+        "y": 0,
+        "w": 341,
+        "h": 515
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 515
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 515
+      }
+    },
+    "lisa_smile": {
+      "frame": {
+        "x": 343,
+        "y": 0,
+        "w": 341,
+        "h": 515
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 515
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 515
+      }
+    },
+    "lisa_worried": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 515
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 515
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 515
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "characters_lisa_47bf5803.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 515
+    },
+    "scale": "1",
+    "sourceDir": "images/characters/lisa"
+  }
+}

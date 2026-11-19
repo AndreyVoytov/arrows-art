@@ -1,0 +1,56 @@
+{
+  "frames": {
+    "dinner_invitation": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 418,
+        "h": 333
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 418,
+        "h": 333
+      },
+      "sourceSize": {
+        "w": 418,
+        "h": 333
+      }
+    },
+    "first_window": {
+      "frame": {
+        "x": 420,
+        "y": 0,
+        "w": 329,
+        "h": 333
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 329,
+        "h": 333
+      },
+      "sourceSize": {
+        "w": 329,
+        "h": 333
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "dialog_decor_event_black_friday_48b350f7.webp",
+    "format": "RGBA8888",
+    "size": {
+      "w": 1024,
+      "h": 333
+    },
+    "scale": "1",
+    "sourceDir": "images/dialog_decor/event_black_friday"
+  }
+}

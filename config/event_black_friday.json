@@ -1,0 +1,1504 @@
+{
+  "key": "event_black_friday",
+  "background": "event_black_friday_background",
+  "backgroundAtlasKey": "event_black_friday",
+  "atlases": [
+    "event_black_friday",
+    "characters_anna",
+    "characters_lisa",
+    "characters_henry",
+    "characters_jerry",
+    "dialog_decor_event_black_friday"
+  ],
+  "sourcePsdRevision": "ef0708e3e0defd62e2d2639a1421253cf526dbbbdccb087e87e811e4d12a957b",
+  "content": {
+    "actionPointOrder": [
+      "event_black_friday_clothes_rail",
+      "event_black_friday_checkout_counter",
+      "event_black_friday_banner",
+      "event_black_friday_display_island",
+      "event_black_friday_hanging_lantern",
+      "event_black_friday_hats_hanger",
+      "event_black_friday_green_satchel",
+      "event_black_friday_ivory_coat",
+      "event_black_friday_hats",
+      "event_black_friday_fountain",
+      "event_black_friday_evening_gown",
+      "event_black_friday_atrium_planter",
+      "event_black_friday_upper_hanging_lantern",
+      "event_black_friday_checkout_terminal",
+      "event_black_friday_gray_pants",
+      "event_black_friday_plum_knit",
+      "event_black_friday_plum_satchel",
+      "event_black_friday_ivory_shopper",
+      "event_black_friday_plum_blazer",
+      "event_black_friday_pay_dialogue1",
+      "event_black_friday_second_dress",
+      "event_black_friday_plum_shopper",
+      "event_black_friday_pumps",
+      "event_black_friday_roses",
+      "event_black_friday_orchid",
+      "event_black_friday_pay_dialogue2",
+      "event_black_friday_pay_dialogue3"
+    ]
+  },
+  "allActionPoints": [
+    {
+      "key": "event_black_friday_upper_hanging_lantern",
+      "name_key": "event_black_friday_upper_hanging_lantern_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_upper_hanging_lantern"
+      ],
+      "x": 296.5,
+      "y": 181.0,
+      "price": 50,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_hanging_lantern",
+      "name_key": "event_black_friday_hanging_lantern_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_hanging_lantern"
+      ],
+      "x": 183.0,
+      "y": 174.0,
+      "price": 50,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_atrium_planter",
+      "name_key": "event_black_friday_atrium_planter_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_atrium_planter"
+      ],
+      "x": 625.0,
+      "y": 414.5,
+      "price": 100,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_hats_hanger",
+      "name_key": "event_black_friday_hats_hanger_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_hats_hanger"
+      ],
+      "x": 596.5,
+      "y": 473.5,
+      "price": 50,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_hats",
+      "name_key": "event_black_friday_hats_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_hats"
+      ],
+      "x": 531.0,
+      "y": 359.0,
+      "price": 100,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_banner",
+      "name_key": "event_black_friday_banner_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_banner"
+      ],
+      "x": 436.5,
+      "y": 176.5,
+      "price": 100,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_fountain",
+      "name_key": "event_black_friday_fountain_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_fountain"
+      ],
+      "x": 619.0,
+      "y": 780.0,
+      "price": 200,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_clothes_rail",
+      "name_key": "event_black_friday_clothes_rail_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_clothes_rail"
+      ],
+      "x": 224.0,
+      "y": 450.0,
+      "price": 50,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_gray_pants",
+      "name_key": "event_black_friday_gray_pants_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_gray_pants"
+      ],
+      "x": 290.0,
+      "y": 422.0,
+      "price": 100,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_ivory_coat",
+      "name_key": "event_black_friday_ivory_coat_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_ivory_coat"
+      ],
+      "x": 209.0,
+      "y": 435.5,
+      "price": 100,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_second_dress",
+      "name_key": "event_black_friday_second_dress_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_second_dress"
+      ],
+      "x": 439.0,
+      "y": 432.5,
+      "price": 150,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_roses",
+      "name_key": "event_black_friday_roses_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_roses"
+      ],
+      "x": 274.0,
+      "y": 583.0,
+      "price": 150,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_plum_blazer",
+      "name_key": "event_black_friday_plum_blazer_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_plum_blazer"
+      ],
+      "x": 123.0,
+      "y": 415.0,
+      "price": 100,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_checkout_counter",
+      "name_key": "event_black_friday_checkout_counter_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_checkout_counter"
+      ],
+      "x": 570.5,
+      "y": 596.0,
+      "price": 50,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_ivory_shopper",
+      "name_key": "event_black_friday_ivory_shopper_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_ivory_shopper"
+      ],
+      "x": 603.5,
+      "y": 491.0,
+      "price": 100,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_checkout_terminal",
+      "name_key": "event_black_friday_checkout_terminal_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_checkout_terminal"
+      ],
+      "x": 512.5,
+      "y": 506.5,
+      "price": 100,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_evening_gown",
+      "name_key": "event_black_friday_evening_gown_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_evening_gown"
+      ],
+      "x": 381.5,
+      "y": 522.5,
+      "price": 150,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_plum_shopper",
+      "name_key": "event_black_friday_plum_shopper_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_plum_shopper"
+      ],
+      "x": 580.0,
+      "y": 503.5,
+      "price": 100,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_display_island",
+      "name_key": "event_black_friday_display_island_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_display_island"
+      ],
+      "x": 317.5,
+      "y": 849.0,
+      "price": 100,
+      "priceType": "coins",
+      "weight": 3
+    },
+    {
+      "key": "event_black_friday_orchid",
+      "name_key": "event_black_friday_orchid_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_orchid"
+      ],
+      "x": 88.5,
+      "y": 689.5,
+      "price": 150,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_green_satchel",
+      "name_key": "event_black_friday_green_satchel_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_green_satchel"
+      ],
+      "x": 495.0,
+      "y": 655.0,
+      "price": 150,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_plum_satchel",
+      "name_key": "event_black_friday_plum_satchel_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_plum_satchel"
+      ],
+      "x": 277.5,
+      "y": 695.5,
+      "price": 200,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_pumps",
+      "name_key": "event_black_friday_pumps_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_pumps"
+      ],
+      "x": 426.5,
+      "y": 678.5,
+      "price": 150,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_plum_knit",
+      "name_key": "event_black_friday_plum_knit_loc",
+      "type": "placement",
+      "multiply": true,
+      "multiobjects": [
+        "event_black_friday_plum_knit"
+      ],
+      "x": 194.0,
+      "y": 767.5,
+      "price": 200,
+      "priceType": "coins"
+    },
+    {
+      "key": "event_black_friday_pay_dialogue1",
+      "type": "dialog",
+      "dialogId": "event_black_friday_pay_dialogue1",
+      "multiobject": "",
+      "price": 0,
+      "priceType": "coins",
+      "x": 116.0,
+      "y": 770.667,
+      "phase": "placement"
+    },
+    {
+      "key": "event_black_friday_pay_dialogue2",
+      "type": "dialog",
+      "dialogId": "event_black_friday_pay_dialogue2",
+      "multiobject": "",
+      "price": 0,
+      "priceType": "coins",
+      "x": 667.333,
+      "y": 643.333,
+      "phase": "placement"
+    },
+    {
+      "key": "event_black_friday_pay_dialogue3",
+      "type": "dialog",
+      "dialogId": "event_black_friday_pay_dialogue3",
+      "multiobject": "",
+      "price": 0,
+      "priceType": "coins",
+      "x": 273.667,
+      "y": 582.0,
+      "phase": "placement"
+    }
+  ],
+  "allMultiobjects": [
+    {
+      "key": "event_black_friday_upper_hanging_lantern",
+      "parts": [
+        "event_black_friday_upper_hanging_lantern"
+      ]
+    },
+    {
+      "key": "event_black_friday_hanging_lantern",
+      "parts": [
+        "event_black_friday_hanging_lantern"
+      ]
+    },
+    {
+      "key": "event_black_friday_atrium_planter",
+      "parts": [
+        "event_black_friday_atrium_planter"
+      ]
+    },
+    {
+      "key": "event_black_friday_hats_hanger",
+      "parts": [
+        "event_black_friday_hats_hanger"
+      ]
+    },
+    {
+      "key": "event_black_friday_hats",
+      "parts": [
+        "event_black_friday_hats_2",
+        "event_black_friday_hats_1",
+        "event_black_friday_hats_3"
+      ]
+    },
+    {
+      "key": "event_black_friday_banner",
+      "parts": [
+        "event_black_friday_banner"
+      ]
+    },
+    {
+      "key": "event_black_friday_fountain",
+      "parts": [
+        "event_black_friday_fountain"
+      ]
+    },
+    {
+      "key": "event_black_friday_clothes_rail",
+      "parts": [
+        "event_black_friday_clothes_rail_1",
+        "event_black_friday_clothes_rail_2"
+      ]
+    },
+    {
+      "key": "event_black_friday_gray_pants",
+      "parts": [
+        "event_black_friday_gray_pants"
+      ]
+    },
+    {
+      "key": "event_black_friday_ivory_coat",
+      "parts": [
+        "event_black_friday_ivory_coat"
+      ]
+    },
+    {
+      "key": "event_black_friday_second_dress",
+      "parts": [
+        "event_black_friday_second_dress"
+      ]
+    },
+    {
+      "key": "event_black_friday_roses",
+      "parts": [
+        "event_black_friday_roses_2",
+        "event_black_friday_roses_1"
+      ]
+    },
+    {
+      "key": "event_black_friday_plum_blazer",
+      "parts": [
+        "event_black_friday_plum_blazer"
+      ]
+    },
+    {
+      "key": "event_black_friday_checkout_counter",
+      "parts": [
+        "event_black_friday_checkout_counter_1",
+        "event_black_friday_checkout_counter_2"
+      ]
+    },
+    {
+      "key": "event_black_friday_ivory_shopper",
+      "parts": [
+        "event_black_friday_ivory_shopper"
+      ]
+    },
+    {
+      "key": "event_black_friday_checkout_terminal",
+      "parts": [
+        "event_black_friday_checkout_terminal"
+      ]
+    },
+    {
+      "key": "event_black_friday_evening_gown",
+      "parts": [
+        "event_black_friday_evening_gown"
+      ]
+    },
+    {
+      "key": "event_black_friday_plum_shopper",
+      "parts": [
+        "event_black_friday_plum_shopper"
+      ]
+    },
+    {
+      "key": "event_black_friday_display_island",
+      "parts": [
+        "event_black_friday_display_island_1",
+        "event_black_friday_display_island_2"
+      ]
+    },
+    {
+      "key": "event_black_friday_orchid",
+      "parts": [
+        "event_black_friday_orchid"
+      ]
+    },
+    {
+      "key": "event_black_friday_green_satchel",
+      "parts": [
+        "event_black_friday_green_satchel_2"
+      ]
+    },
+    {
+      "key": "event_black_friday_plum_satchel",
+      "parts": [
+        "event_black_friday_plum_satchel_1",
+        "event_black_friday_plum_satchel_2"
+      ]
+    },
+    {
+      "key": "event_black_friday_pumps",
+      "parts": [
+        "event_black_friday_pumps_1",
+        "event_black_friday_pumps_2"
+      ]
+    },
+    {
+      "key": "event_black_friday_plum_knit",
+      "parts": [
+        "event_black_friday_plum_knit_1",
+        "event_black_friday_plum_knit_2",
+        "event_black_friday_plum_knit_3"
+      ]
+    }
+  ],
+  "allParts": [
+    {
+      "key": "event_black_friday_upper_hanging_lantern",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 296.5,
+      "y": 181.0,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_hanging_lantern",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 183.0,
+      "y": 174.0,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_atrium_planter",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 625.0,
+      "y": 414.5,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_hats_hanger",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 596.5,
+      "y": 473.5,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_hats_2",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 531.0,
+      "y": 359.0,
+      "angle": null
+    },
+    {
+      "key": "event_black_friday_hats_1",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 671.0,
+      "y": 397.5,
+      "angle": null
+    },
+    {
+      "key": "event_black_friday_hats_3",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 605.0,
+      "y": 328.5,
+      "angle": null
+    },
+    {
+      "key": "event_black_friday_banner",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 436.5,
+      "y": 176.5,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_fountain",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 619.0,
+      "y": 780.0,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_clothes_rail_1",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 224.0,
+      "y": 450.0,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_clothes_rail_2",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 262.0,
+      "y": 298.0,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_gray_pants",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 290.0,
+      "y": 422.0,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_ivory_coat",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 209.0,
+      "y": 435.5,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_second_dress",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 439.0,
+      "y": 432.5,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_roses_2",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 274.0,
+      "y": 583.0,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_roses_1",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 327.0,
+      "y": 554.0,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_plum_blazer",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 123.0,
+      "y": 415.0,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_checkout_counter_1",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 570.5,
+      "y": 596.0,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_ivory_shopper",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 603.5,
+      "y": 491.0,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_checkout_terminal",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 512.5,
+      "y": 506.5,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_evening_gown",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 381.5,
+      "y": 522.5,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_plum_shopper",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 580.0,
+      "y": 503.5,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_display_island_1",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 317.5,
+      "y": 849.0,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_orchid",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 88.5,
+      "y": 689.5,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_green_satchel_2",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 495.0,
+      "y": 655.0,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_plum_satchel_1",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 277.5,
+      "y": 695.5,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_pumps_1",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 426.5,
+      "y": 678.5,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_pumps_2",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 380.0,
+      "y": 658.0,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_plum_knit_1",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 194.0,
+      "y": 767.5,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_plum_knit_2",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 197.0,
+      "y": 739.5,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_plum_knit_3",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 207.0,
+      "y": 715.0,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_plum_satchel_2",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 356.0,
+      "y": 747.5,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_display_island_2",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 111.5,
+      "y": 778.0,
+      "angle": 180
+    },
+    {
+      "key": "event_black_friday_checkout_counter_2",
+      "type": "decor",
+      "atlas_name": "event_black_friday",
+      "x": 667.0,
+      "y": 649.5,
+      "angle": 180
+    }
+  ],
+  "dialogs": [
+    {
+      "id": "event_black_friday_d1",
+      "roomId": "event_black_friday",
+      "conditions": [
+        {
+          "trigger_type": "on_room_enter",
+          "trigger_key": "event_black_friday"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "event_black_friday_d1_r1",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "event_black_friday_d1_r1_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d1_r2",
+          "char_key": "lisa",
+          "char_state": "lisa_worried",
+          "position": "right",
+          "text_key": "event_black_friday_d1_r2_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d1_r3",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "event_black_friday_d1_r3_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d1_r4",
+          "char_key": "lisa",
+          "char_state": "lisa_worried",
+          "position": "right",
+          "text_key": "event_black_friday_d1_r4_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d1_r5",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "event_black_friday_d1_r5_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d1_r6",
+          "char_key": "lisa",
+          "char_state": "lisa_neutral",
+          "position": "right",
+          "text_key": "event_black_friday_d1_r6_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d1_r7",
+          "char_key": "anna",
+          "char_state": "anna_smile",
+          "position": "left",
+          "text_key": "event_black_friday_d1_r7_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d1_r8",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "right",
+          "text_key": "event_black_friday_d1_r8_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        }
+      ],
+      "award_type": ""
+    },
+    {
+      "id": "event_black_friday_d2",
+      "roomId": "event_black_friday",
+      "conditions": [
+        {
+          "trigger_type": "after_action",
+          "trigger_key": "event_black_friday_clothes_rail"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "event_black_friday_d2_r1",
+          "char_key": "henry",
+          "char_state": "henry_neutral",
+          "position": "left",
+          "text_key": "event_black_friday_d2_r1_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d2_r2",
+          "char_key": "lisa",
+          "char_state": "lisa_neutral",
+          "position": "right",
+          "text_key": "event_black_friday_d2_r2_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d2_r3",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "left",
+          "text_key": "event_black_friday_d2_r3_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d2_r4",
+          "char_key": "lisa",
+          "char_state": "lisa_smile",
+          "position": "right",
+          "text_key": "event_black_friday_d2_r4_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d2_r5",
+          "char_key": "anna",
+          "char_state": "anna_smile",
+          "position": "left",
+          "text_key": "event_black_friday_d2_r5_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        }
+      ],
+      "award_type": ""
+    },
+    {
+      "id": "event_black_friday_d3",
+      "roomId": "event_black_friday",
+      "conditions": [
+        {
+          "trigger_type": "after_action",
+          "trigger_key": "event_black_friday_ivory_coat"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "event_black_friday_d3_r1",
+          "char_key": "jerry",
+          "char_state": "jerry_smug",
+          "position": "right",
+          "text_key": "event_black_friday_d3_r1_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d3_r2",
+          "char_key": "lisa",
+          "char_state": "lisa_neutral",
+          "position": "left",
+          "text_key": "event_black_friday_d3_r2_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d3_r3",
+          "char_key": "jerry",
+          "char_state": "jerry_smug",
+          "position": "right",
+          "text_key": "event_black_friday_d3_r3_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d3_r4",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "event_black_friday_d3_r4_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d3_r5",
+          "char_key": "jerry",
+          "char_state": "jerry_neutral",
+          "position": "right",
+          "text_key": "event_black_friday_d3_r5_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d3_r6",
+          "char_key": "lisa",
+          "char_state": "lisa_neutral",
+          "position": "left",
+          "text_key": "event_black_friday_d3_r6_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d3_r7",
+          "char_key": "jerry",
+          "char_state": "jerry_smug",
+          "position": "right",
+          "text_key": "event_black_friday_d3_r7_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d3_r8",
+          "char_key": "lisa",
+          "char_state": "lisa_smile",
+          "position": "left",
+          "text_key": "event_black_friday_d3_r8_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        }
+      ],
+      "award_type": ""
+    },
+    {
+      "id": "event_black_friday_d4",
+      "roomId": "event_black_friday",
+      "conditions": [
+        {
+          "trigger_type": "after_action",
+          "trigger_key": "event_black_friday_evening_gown"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "event_black_friday_d4_r1",
+          "char_key": "lisa",
+          "char_state": "lisa_neutral",
+          "position": "right",
+          "text_key": "event_black_friday_d4_r1_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d4_r2",
+          "char_key": "anna",
+          "char_state": "anna_smile",
+          "position": "left",
+          "text_key": "event_black_friday_d4_r2_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d4_r3",
+          "char_key": "lisa",
+          "char_state": "lisa_smile",
+          "position": "right",
+          "text_key": "event_black_friday_d4_r3_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d4_r4",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "left",
+          "text_key": "event_black_friday_d4_r4_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d4_r5",
+          "char_key": "lisa",
+          "char_state": "lisa_smile",
+          "position": "right",
+          "text_key": "event_black_friday_d4_r5_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        }
+      ],
+      "award_type": ""
+    },
+    {
+      "id": "event_black_friday_d5",
+      "roomId": "event_black_friday",
+      "conditions": [
+        {
+          "trigger_type": "after_action",
+          "trigger_key": "event_black_friday_checkout_terminal"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "event_black_friday_d5_r1",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "left",
+          "text_key": "event_black_friday_d5_r1_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d5_r2",
+          "char_key": "lisa",
+          "char_state": "lisa_neutral",
+          "position": "right",
+          "text_key": "event_black_friday_d5_r2_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d5_r3",
+          "char_key": "anna",
+          "char_state": "anna_smile",
+          "position": "left",
+          "text_key": "event_black_friday_d5_r3_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d5_r4",
+          "char_key": "lisa",
+          "char_state": "lisa_smile",
+          "position": "right",
+          "text_key": "event_black_friday_d5_r4_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        }
+      ],
+      "award_type": ""
+    },
+    {
+      "id": "event_black_friday_d6",
+      "roomId": "event_black_friday",
+      "conditions": [
+        {
+          "trigger_type": "after_action",
+          "trigger_key": "event_black_friday_plum_satchel"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "event_black_friday_d6_r1",
+          "char_key": "lisa",
+          "char_state": "lisa_neutral",
+          "position": "right",
+          "text_key": "event_black_friday_d6_r1_loc",
+          "decor_key": "first_window",
+          "dialog_decor_atlas": "dialog_decor_event_black_friday"
+        },
+        {
+          "id": "event_black_friday_d6_r2",
+          "char_key": "anna",
+          "char_state": "anna_smile",
+          "position": "left",
+          "text_key": "event_black_friday_d6_r2_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d6_r3",
+          "char_key": "lisa",
+          "char_state": "lisa_smile",
+          "position": "right",
+          "text_key": "event_black_friday_d6_r3_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d6_r4",
+          "char_key": "anna",
+          "char_state": "anna_smile",
+          "position": "left",
+          "text_key": "event_black_friday_d6_r4_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d6_r5",
+          "char_key": "lisa",
+          "char_state": "lisa_smile",
+          "position": "right",
+          "text_key": "event_black_friday_d6_r5_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        }
+      ],
+      "award_type": ""
+    },
+    {
+      "id": "event_black_friday_pay_dialogue1",
+      "roomId": "event_black_friday",
+      "conditions": [
+        {
+          "trigger_type": "dialog_point",
+          "trigger_key": "event_black_friday_pay_dialogue1"
+        }
+      ],
+      "award": 5,
+      "replicas": [
+        {
+          "id": "event_black_friday_pay_dialogue1_r1",
+          "char_key": "lisa",
+          "char_state": "lisa_smile",
+          "position": "right",
+          "text_key": "event_black_friday_pay_dialogue1_r1_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_pay_dialogue1_r2",
+          "char_key": "anna",
+          "char_state": "anna_smile",
+          "position": "left",
+          "text_key": "event_black_friday_pay_dialogue1_r2_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_pay_dialogue1_r3",
+          "char_key": "lisa",
+          "char_state": "lisa_smile",
+          "position": "right",
+          "text_key": "event_black_friday_pay_dialogue1_r3_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        }
+      ],
+      "award_type": "diamonds"
+    },
+    {
+      "id": "event_black_friday_d7",
+      "roomId": "event_black_friday",
+      "conditions": [
+        {
+          "trigger_type": "after_action",
+          "trigger_key": "event_black_friday_pumps"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "event_black_friday_d7_r1",
+          "char_key": "jerry",
+          "char_state": "jerry_neutral",
+          "position": "right",
+          "text_key": "event_black_friday_d7_r1_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d7_r2",
+          "char_key": "lisa",
+          "char_state": "lisa_neutral",
+          "position": "left",
+          "text_key": "event_black_friday_d7_r2_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d7_r3",
+          "char_key": "jerry",
+          "char_state": "jerry_neutral",
+          "position": "right",
+          "text_key": "event_black_friday_d7_r3_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d7_r4",
+          "char_key": "lisa",
+          "char_state": "lisa_smile",
+          "position": "left",
+          "text_key": "event_black_friday_d7_r4_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        }
+      ],
+      "award_type": ""
+    },
+    {
+      "id": "event_black_friday_pay_dialogue2",
+      "roomId": "event_black_friday",
+      "conditions": [
+        {
+          "trigger_type": "dialog_point",
+          "trigger_key": "event_black_friday_pay_dialogue2"
+        }
+      ],
+      "award": 1,
+      "replicas": [
+        {
+          "id": "event_black_friday_pay_dialogue2_r1",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "left",
+          "text_key": "event_black_friday_pay_dialogue2_r1_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_pay_dialogue2_r2",
+          "char_key": "lisa",
+          "char_state": "lisa_smile",
+          "position": "right",
+          "text_key": "event_black_friday_pay_dialogue2_r2_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_pay_dialogue2_r3",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "left",
+          "text_key": "event_black_friday_pay_dialogue2_r3_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        }
+      ],
+      "award_type": "wand"
+    },
+    {
+      "id": "event_black_friday_d8",
+      "roomId": "event_black_friday",
+      "conditions": [
+        {
+          "trigger_type": "on_room_finished",
+          "trigger_key": "event_black_friday"
+        }
+      ],
+      "award": null,
+      "replicas": [
+        {
+          "id": "event_black_friday_d8_r1",
+          "char_key": "lisa",
+          "char_state": "lisa_smile",
+          "position": "right",
+          "text_key": "event_black_friday_d8_r1_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d8_r2",
+          "char_key": "henry",
+          "char_state": "henry_smile",
+          "position": "left",
+          "text_key": "event_black_friday_d8_r2_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d8_r3",
+          "char_key": "jerry",
+          "char_state": "jerry_neutral",
+          "position": "right",
+          "text_key": "event_black_friday_d8_r3_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d8_r4",
+          "char_key": "lisa",
+          "char_state": "lisa_smile",
+          "position": "left",
+          "text_key": "event_black_friday_d8_r4_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d8_r5",
+          "char_key": "jerry",
+          "char_state": "jerry_smile",
+          "position": "right",
+          "text_key": "event_black_friday_d8_r5_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d8_r6",
+          "char_key": "lisa",
+          "char_state": "lisa_neutral",
+          "position": "left",
+          "text_key": "event_black_friday_d8_r6_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d8_r7",
+          "char_key": "jerry",
+          "char_state": "jerry_smile",
+          "position": "right",
+          "text_key": "event_black_friday_d8_r7_loc",
+          "decor_key": "dinner_invitation",
+          "dialog_decor_atlas": "dialog_decor_event_black_friday"
+        },
+        {
+          "id": "event_black_friday_d8_r8",
+          "char_key": "lisa",
+          "char_state": "lisa_smile",
+          "position": "left",
+          "text_key": "event_black_friday_d8_r8_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d8_r9",
+          "char_key": "anna",
+          "char_state": "anna_smile",
+          "position": "left",
+          "text_key": "event_black_friday_d8_r9_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_d8_r10",
+          "char_key": "lisa",
+          "char_state": "lisa_smile",
+          "position": "right",
+          "text_key": "event_black_friday_d8_r10_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        }
+      ],
+      "award_type": ""
+    },
+    {
+      "id": "event_black_friday_pay_dialogue3",
+      "roomId": "event_black_friday",
+      "conditions": [
+        {
+          "trigger_type": "dialog_point",
+          "trigger_key": "event_black_friday_pay_dialogue3"
+        }
+      ],
+      "award": 1,
+      "replicas": [
+        {
+          "id": "event_black_friday_pay_dialogue3_r1",
+          "char_key": "anna",
+          "char_state": "anna_neutral",
+          "position": "left",
+          "text_key": "event_black_friday_pay_dialogue3_r1_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_pay_dialogue3_r2",
+          "char_key": "lisa",
+          "char_state": "lisa_smile",
+          "position": "right",
+          "text_key": "event_black_friday_pay_dialogue3_r2_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        },
+        {
+          "id": "event_black_friday_pay_dialogue3_r3",
+          "char_key": "anna",
+          "char_state": "anna_smile",
+          "position": "left",
+          "text_key": "event_black_friday_pay_dialogue3_r3_loc",
+          "decor_key": "",
+          "dialog_decor_atlas": ""
+        }
+      ],
+      "award_type": "bulb"
+    }
+  ],
+  "hasRepair": false,
+  "award": 0,
+  "allPartsOrderComment": "Порядок слоёв по z: от заднего плана к переднему; меняется в decor-viewer."
+}

@@ -1,0 +1,76 @@
+{
+  "frames": {
+    "jerry_neutral": {
+      "frame": {
+        "x": 686,
+        "y": 0,
+        "w": 341,
+        "h": 515
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 515
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 515
+      }
+    },
+    "jerry_smile": {
+      "frame": {
+        "x": 343,
+        "y": 0,
+        "w": 341,
+        "h": 515
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 515
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 515
+      }
+    },
+    "jerry_smug": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 515
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 341,
+        "h": 515
+      },
+      "sourceSize": {
+        "w": 341,
+        "h": 515
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "characters_jerry_7522137c.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 515
+    },
+    "scale": "1",
+    "sourceDir": "images/characters/jerry"
+  }
+}

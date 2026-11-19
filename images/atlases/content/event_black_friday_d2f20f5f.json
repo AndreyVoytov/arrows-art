@@ -1,0 +1,716 @@
+{
+  "frames": {
+    "event_black_friday_atrium_planter": {
+      "frame": {
+        "x": 1945,
+        "y": 789,
+        "w": 100,
+        "h": 115
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 100,
+        "h": 115
+      },
+      "sourceSize": {
+        "w": 100,
+        "h": 115
+      }
+    },
+    "event_black_friday_background": {
+      "frame": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 1920
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 720,
+        "h": 1920
+      },
+      "sourceSize": {
+        "w": 720,
+        "h": 1920
+      }
+    },
+    "event_black_friday_banner": {
+      "frame": {
+        "x": 1712,
+        "y": 329,
+        "w": 155,
+        "h": 261
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 155,
+        "h": 261
+      },
+      "sourceSize": {
+        "w": 155,
+        "h": 261
+      }
+    },
+    "event_black_friday_checkout_counter_1": {
+      "frame": {
+        "x": 1469,
+        "y": 592,
+        "w": 299,
+        "h": 238
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 299,
+        "h": 238
+      },
+      "sourceSize": {
+        "w": 299,
+        "h": 238
+      }
+    },
+    "event_black_friday_checkout_counter_2": {
+      "frame": {
+        "x": 1961,
+        "y": 0,
+        "w": 56,
+        "h": 57
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 56,
+        "h": 57
+      },
+      "sourceSize": {
+        "w": 56,
+        "h": 57
+      }
+    },
+    "event_black_friday_checkout_terminal": {
+      "frame": {
+        "x": 1961,
+        "y": 59,
+        "w": 55,
+        "h": 57
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 55,
+        "h": 57
+      },
+      "sourceSize": {
+        "w": 55,
+        "h": 57
+      }
+    },
+    "event_black_friday_clothes_rail_1": {
+      "frame": {
+        "x": 1075,
+        "y": 442,
+        "w": 392,
+        "h": 360
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 392,
+        "h": 360
+      },
+      "sourceSize": {
+        "w": 392,
+        "h": 360
+      }
+    },
+    "event_black_friday_clothes_rail_2": {
+      "frame": {
+        "x": 0,
+        "y": 1922,
+        "w": 222,
+        "h": 116
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 222,
+        "h": 116
+      },
+      "sourceSize": {
+        "w": 222,
+        "h": 116
+      }
+    },
+    "event_black_friday_display_island_1": {
+      "frame": {
+        "x": 1075,
+        "y": 0,
+        "w": 635,
+        "h": 440
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 635,
+        "h": 440
+      },
+      "sourceSize": {
+        "w": 635,
+        "h": 440
+      }
+    },
+    "event_black_friday_display_island_2": {
+      "frame": {
+        "x": 1945,
+        "y": 906,
+        "w": 101,
+        "h": 102
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 101,
+        "h": 102
+      },
+      "sourceSize": {
+        "w": 101,
+        "h": 102
+      }
+    },
+    "event_black_friday_evening_gown": {
+      "frame": {
+        "x": 926,
+        "y": 0,
+        "w": 147,
+        "h": 441
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 147,
+        "h": 441
+      },
+      "sourceSize": {
+        "w": 147,
+        "h": 441
+      }
+    },
+    "event_black_friday_fountain": {
+      "frame": {
+        "x": 722,
+        "y": 0,
+        "w": 202,
+        "h": 462
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 202,
+        "h": 462
+      },
+      "sourceSize": {
+        "w": 202,
+        "h": 462
+      }
+    },
+    "event_black_friday_gray_pants": {
+      "frame": {
+        "x": 722,
+        "y": 743,
+        "w": 114,
+        "h": 216
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 114,
+        "h": 216
+      },
+      "sourceSize": {
+        "w": 114,
+        "h": 216
+      }
+    },
+    "event_black_friday_green_satchel_2": {
+      "frame": {
+        "x": 722,
+        "y": 961,
+        "w": 120,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 120,
+        "h": 132
+      },
+      "sourceSize": {
+        "w": 120,
+        "h": 132
+      }
+    },
+    "event_black_friday_hanging_lantern": {
+      "frame": {
+        "x": 848,
+        "y": 464,
+        "w": 62,
+        "h": 132
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 132
+      },
+      "sourceSize": {
+        "w": 62,
+        "h": 132
+      }
+    },
+    "event_black_friday_hats_1": {
+      "frame": {
+        "x": 1045,
+        "y": 804,
+        "w": 92,
+        "h": 59
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 92,
+        "h": 59
+      },
+      "sourceSize": {
+        "w": 92,
+        "h": 59
+      }
+    },
+    "event_black_friday_hats_2": {
+      "frame": {
+        "x": 1963,
+        "y": 719,
+        "w": 72,
+        "h": 58
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 58
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 58
+      }
+    },
+    "event_black_friday_hats_3": {
+      "frame": {
+        "x": 1599,
+        "y": 524,
+        "w": 110,
+        "h": 65
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 110,
+        "h": 65
+      },
+      "sourceSize": {
+        "w": 110,
+        "h": 65
+      }
+    },
+    "event_black_friday_hats_hanger": {
+      "frame": {
+        "x": 1712,
+        "y": 0,
+        "w": 247,
+        "h": 327
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 247,
+        "h": 327
+      },
+      "sourceSize": {
+        "w": 247,
+        "h": 327
+      }
+    },
+    "event_black_friday_ivory_coat": {
+      "frame": {
+        "x": 722,
+        "y": 464,
+        "w": 124,
+        "h": 277
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 124,
+        "h": 277
+      },
+      "sourceSize": {
+        "w": 124,
+        "h": 277
+      }
+    },
+    "event_black_friday_ivory_shopper": {
+      "frame": {
+        "x": 640,
+        "y": 1922,
+        "w": 123,
+        "h": 98
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 123,
+        "h": 98
+      },
+      "sourceSize": {
+        "w": 123,
+        "h": 98
+      }
+    },
+    "event_black_friday_orchid": {
+      "frame": {
+        "x": 1869,
+        "y": 329,
+        "w": 161,
+        "h": 239
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 161,
+        "h": 239
+      },
+      "sourceSize": {
+        "w": 161,
+        "h": 239
+      }
+    },
+    "event_black_friday_plum_blazer": {
+      "frame": {
+        "x": 848,
+        "y": 734,
+        "w": 166,
+        "h": 266
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 166,
+        "h": 266
+      },
+      "sourceSize": {
+        "w": 166,
+        "h": 266
+      }
+    },
+    "event_black_friday_plum_knit_1": {
+      "frame": {
+        "x": 224,
+        "y": 1922,
+        "w": 146,
+        "h": 103
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 146,
+        "h": 103
+      },
+      "sourceSize": {
+        "w": 146,
+        "h": 103
+      }
+    },
+    "event_black_friday_plum_knit_2": {
+      "frame": {
+        "x": 372,
+        "y": 1922,
+        "w": 144,
+        "h": 103
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 144,
+        "h": 103
+      },
+      "sourceSize": {
+        "w": 144,
+        "h": 103
+      }
+    },
+    "event_black_friday_plum_knit_3": {
+      "frame": {
+        "x": 1469,
+        "y": 442,
+        "w": 128,
+        "h": 92
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 92
+      },
+      "sourceSize": {
+        "w": 128,
+        "h": 92
+      }
+    },
+    "event_black_friday_plum_satchel_1": {
+      "frame": {
+        "x": 1770,
+        "y": 592,
+        "w": 191,
+        "h": 195
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 191,
+        "h": 195
+      },
+      "sourceSize": {
+        "w": 191,
+        "h": 195
+      }
+    },
+    "event_black_friday_plum_satchel_2": {
+      "frame": {
+        "x": 1963,
+        "y": 654,
+        "w": 62,
+        "h": 63
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 62,
+        "h": 63
+      },
+      "sourceSize": {
+        "w": 62,
+        "h": 63
+      }
+    },
+    "event_black_friday_plum_shopper": {
+      "frame": {
+        "x": 848,
+        "y": 598,
+        "w": 72,
+        "h": 83
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 72,
+        "h": 83
+      },
+      "sourceSize": {
+        "w": 72,
+        "h": 83
+      }
+    },
+    "event_black_friday_pumps_1": {
+      "frame": {
+        "x": 1770,
+        "y": 789,
+        "w": 173,
+        "h": 157
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 173,
+        "h": 157
+      },
+      "sourceSize": {
+        "w": 173,
+        "h": 157
+      }
+    },
+    "event_black_friday_pumps_2": {
+      "frame": {
+        "x": 1963,
+        "y": 570,
+        "w": 48,
+        "h": 82
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 48,
+        "h": 82
+      },
+      "sourceSize": {
+        "w": 48,
+        "h": 82
+      }
+    },
+    "event_black_friday_roses_1": {
+      "frame": {
+        "x": 518,
+        "y": 1922,
+        "w": 120,
+        "h": 100
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 120,
+        "h": 100
+      },
+      "sourceSize": {
+        "w": 120,
+        "h": 100
+      }
+    },
+    "event_black_friday_roses_2": {
+      "frame": {
+        "x": 1599,
+        "y": 442,
+        "w": 90,
+        "h": 80
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 90,
+        "h": 80
+      },
+      "sourceSize": {
+        "w": 90,
+        "h": 80
+      }
+    },
+    "event_black_friday_second_dress": {
+      "frame": {
+        "x": 926,
+        "y": 443,
+        "w": 120,
+        "h": 289
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 120,
+        "h": 289
+      },
+      "sourceSize": {
+        "w": 120,
+        "h": 289
+      }
+    },
+    "event_black_friday_upper_hanging_lantern": {
+      "frame": {
+        "x": 1016,
+        "y": 734,
+        "w": 27,
+        "h": 86
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 27,
+        "h": 86
+      },
+      "sourceSize": {
+        "w": 27,
+        "h": 86
+      }
+    }
+  },
+  "meta": {
+    "app": "scripts/build_atlases.py",
+    "version": "13",
+    "image": "event_black_friday_d2f20f5f.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 2048,
+      "h": 2038
+    },
+    "scale": "1",
+    "sourceDir": "images/event/black_friday"
+  }
+}
