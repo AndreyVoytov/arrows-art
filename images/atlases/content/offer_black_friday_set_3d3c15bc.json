@@ -2,7 +2,7 @@
   "frames": {
     "buy_button": {
       "frame": {
-        "x": 1620,
+        "x": 1651,
         "y": 0,
         "w": 253,
         "h": 87
@@ -22,7 +22,7 @@
     },
     "close_button": {
       "frame": {
-        "x": 1875,
+        "x": 1906,
         "y": 0,
         "w": 67,
         "h": 69
@@ -44,25 +44,25 @@
       "frame": {
         "x": 1348,
         "y": 0,
-        "w": 170,
-        "h": 113
+        "w": 201,
+        "h": 126
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 170,
-        "h": 113
+        "w": 201,
+        "h": 126
       },
       "sourceSize": {
-        "w": 170,
-        "h": 113
+        "w": 201,
+        "h": 126
       }
     },
     "icon": {
       "frame": {
-        "x": 1520,
+        "x": 1551,
         "y": 0,
         "w": 98,
         "h": 103
@@ -124,7 +124,7 @@
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "offer_black_friday_set_9a63ba73.png",
+    "image": "offer_black_friday_set_3d3c15bc.png",
     "format": "RGBA8888",
     "size": {
       "w": 2048,

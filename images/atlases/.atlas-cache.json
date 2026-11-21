@@ -91,14 +91,14 @@
     },
     "characters_jerry": {
       "sourceDir": "images/characters/jerry",
-      "digest": "7522137c30e805c1145e70ff9def8d019187b42a5d38b904d3e55a002deeb6c2",
+      "digest": "1febfb748f50a49b0139ed2a2210c046bd9afdaaf597fc3b9fea0601f006eda4",
       "outputs": [
-        "images/atlases/content/characters_jerry_7522137c.png",
-        "images/atlases/content/characters_jerry_7522137c.webp",
-        "images/atlases/content/characters_jerry_7522137c.json",
-        "images/atlases/content/characters_jerry_7522137c.webp.json"
+        "images/atlases/content/characters_jerry_1febfb74.png",
+        "images/atlases/content/characters_jerry_1febfb74.webp",
+        "images/atlases/content/characters_jerry_1febfb74.json",
+        "images/atlases/content/characters_jerry_1febfb74.webp.json"
       ],
-      "updatedAt": "2026-11-17T00:29:21.279413+00:00"
+      "updatedAt": "2026-11-20T11:20:04.343160+00:00"
     },
     "characters_kate": {
       "sourceDir": "images/characters/kate",
@@ -113,14 +113,14 @@
     },
     "characters_lisa": {
       "sourceDir": "images/characters/lisa",
-      "digest": "47bf5803d8d55aa629e7cc2488414e25c9ceea53fb6860a8a67d0d698e9a3654",
+      "digest": "10d74143a6aee8f987a9974abedb35a18e0e25beafa119919ef95ed2df623399",
       "outputs": [
-        "images/atlases/content/characters_lisa_47bf5803.png",
-        "images/atlases/content/characters_lisa_47bf5803.webp",
-        "images/atlases/content/characters_lisa_47bf5803.json",
-        "images/atlases/content/characters_lisa_47bf5803.webp.json"
+        "images/atlases/content/characters_lisa_10d74143.png",
+        "images/atlases/content/characters_lisa_10d74143.webp",
+        "images/atlases/content/characters_lisa_10d74143.json",
+        "images/atlases/content/characters_lisa_10d74143.webp.json"
       ],
-      "updatedAt": "2026-11-17T00:29:28.505488+00:00"
+      "updatedAt": "2026-11-20T11:20:09.479520+00:00"
     },
     "characters_mary": {
       "sourceDir": "images/characters/mary",
@@ -410,14 +410,14 @@
     },
     "offer_black_friday_set": {
       "sourceDir": "images/offer/black_friday_set",
-      "digest": "9a63ba73f3f5a2b2e2c0497fa33ecb36683462d4d2d44f65285459718d80d638",
+      "digest": "3d3c15bce252b3889deb967fdf88f86e5bc321189382a25c3814f689a7355cbb",
       "outputs": [
-        "images/atlases/content/offer_black_friday_set_9a63ba73.png",
-        "images/atlases/content/offer_black_friday_set_9a63ba73.webp",
-        "images/atlases/content/offer_black_friday_set_9a63ba73.json",
-        "images/atlases/content/offer_black_friday_set_9a63ba73.webp.json"
+        "images/atlases/content/offer_black_friday_set_3d3c15bc.png",
+        "images/atlases/content/offer_black_friday_set_3d3c15bc.webp",
+        "images/atlases/content/offer_black_friday_set_3d3c15bc.json",
+        "images/atlases/content/offer_black_friday_set_3d3c15bc.webp.json"
       ],
-      "updatedAt": "2026-11-19T22:45:17.623510+00:00"
+      "updatedAt": "2026-11-21T12:42:15.990482+00:00"
     },
     "offer_halloween_set": {
       "sourceDir": "images/offer/halloween_set",

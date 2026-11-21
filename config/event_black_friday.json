@@ -52,7 +52,7 @@
         "event_black_friday_upper_hanging_lantern"
       ],
       "x": 296.5,
-      "y": 181.0,
+      "y": 217.0,
       "price": 50,
       "priceType": "coins"
     },
@@ -65,7 +65,7 @@
         "event_black_friday_hanging_lantern"
       ],
       "x": 183.0,
-      "y": 174.0,
+      "y": 232.0,
       "price": 50,
       "priceType": "coins"
     },
@@ -117,7 +117,7 @@
         "event_black_friday_banner"
       ],
       "x": 436.5,
-      "y": 176.5,
+      "y": 217.0,
       "price": 100,
       "priceType": "coins"
     },
@@ -130,7 +130,7 @@
         "event_black_friday_fountain"
       ],
       "x": 619.0,
-      "y": 780.0,
+      "y": 615.0,
       "price": 200,
       "priceType": "coins"
     },
@@ -286,7 +286,7 @@
         "event_black_friday_display_island"
       ],
       "x": 317.5,
-      "y": 849.0,
+      "y": 710.0,
       "price": 100,
       "priceType": "coins",
       "weight": 3
@@ -312,7 +312,7 @@
       "multiobjects": [
         "event_black_friday_green_satchel"
       ],
-      "x": 495.0,
+      "x": 457.0,
       "y": 655.0,
       "price": 150,
       "priceType": "coins"
@@ -352,7 +352,7 @@
         "event_black_friday_plum_knit"
       ],
       "x": 194.0,
-      "y": 767.5,
+      "y": 710.0,
       "price": 200,
       "priceType": "coins"
     },
@@ -364,7 +364,7 @@
       "price": 0,
       "priceType": "coins",
       "x": 116.0,
-      "y": 770.667,
+      "y": 755.0,
       "phase": "placement"
     },
     {
@@ -374,8 +374,8 @@
       "multiobject": "",
       "price": 0,
       "priceType": "coins",
-      "x": 667.333,
-      "y": 643.333,
+      "x": 638.0,
+      "y": 615.0,
       "phase": "placement"
     },
     {

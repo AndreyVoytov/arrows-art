@@ -1,76 +1,76 @@
 {
   "frames": {
-    "lisa_neutral": {
+    "jerry_neutral": {
       "frame": {
-        "x": 686,
+        "x": 598,
         "y": 0,
-        "w": 341,
-        "h": 515
+        "w": 297,
+        "h": 447
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 341,
-        "h": 515
+        "w": 297,
+        "h": 447
       },
       "sourceSize": {
-        "w": 341,
-        "h": 515
+        "w": 297,
+        "h": 447
       }
     },
-    "lisa_smile": {
+    "jerry_smile": {
       "frame": {
-        "x": 343,
+        "x": 299,
         "y": 0,
-        "w": 341,
-        "h": 515
+        "w": 297,
+        "h": 447
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 341,
-        "h": 515
+        "w": 297,
+        "h": 447
       },
       "sourceSize": {
-        "w": 341,
-        "h": 515
+        "w": 297,
+        "h": 447
       }
     },
-    "lisa_worried": {
+    "jerry_smug": {
       "frame": {
         "x": 0,
         "y": 0,
-        "w": 341,
-        "h": 515
+        "w": 297,
+        "h": 447
       },
       "rotated": false,
       "trimmed": false,
       "spriteSourceSize": {
         "x": 0,
         "y": 0,
-        "w": 341,
-        "h": 515
+        "w": 297,
+        "h": 447
       },
       "sourceSize": {
-        "w": 341,
-        "h": 515
+        "w": 297,
+        "h": 447
       }
     }
   },
   "meta": {
     "app": "scripts/build_atlases.py",
     "version": "13",
-    "image": "characters_lisa_47bf5803.png",
+    "image": "characters_jerry_1febfb74.png",
     "format": "RGBA8888",
     "size": {
-      "w": 2048,
-      "h": 515
+      "w": 1024,
+      "h": 447
     },
     "scale": "1",
-    "sourceDir": "images/characters/lisa"
+    "sourceDir": "images/characters/jerry"
   }
 }

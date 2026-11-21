@@ -35364,9 +35364,9 @@
     "characters_cat": "_8da4cb16",
     "characters_clare": "_5fc6f1bd",
     "characters_henry": "_470a78bb",
-    "characters_jerry": "_7522137c",
+    "characters_jerry": "_1febfb74",
     "characters_kate": "_c4b1c52a",
-    "characters_lisa": "_47bf5803",
+    "characters_lisa": "_10d74143",
     "characters_mary": "_182c262b",
     "characters_miller": "_0ea9d99e",
     "characters_robert": "_dffdfca1",
@@ -35393,7 +35393,7 @@
     "level_themes_summer": "_8c896f32",
     "level_themes_winter": "_4b5a0970",
     "offer_autamn_set": "_96cbb5ee",
-    "offer_black_friday_set": "_9a63ba73",
+    "offer_black_friday_set": "_3d3c15bc",
     "offer_halloween_set": "_a9016200",
     "offer_newbie_set": "_087d48cd",
     "offer_no_ads": "_57f8a5ef",
@@ -37619,8 +37619,8 @@
           "angle": 14
         },
         "discount_label": {
-          "x": 178.667,
-          "y": 430.167
+          "x": 180,
+          "y": 430.833
         },
         "header": {
           "x": 0.333,
